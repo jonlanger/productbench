@@ -29,10 +29,12 @@ export function AppShell({
         avatarUrl={avatarUrl}
         isAdmin={isAdmin}
       />
-      <SidebarInset className="min-h-svh min-w-0">
+      <SidebarInset className="h-svh min-h-0 min-w-0 overflow-hidden">
         {isMemberPreview ? <MemberPreviewBanner /> : null}
         <SiteHeader />
-        <div className="flex min-w-0 flex-1 flex-col">{children}</div>
+        <div className="min-h-0 min-w-0 flex-1 overflow-x-hidden overflow-y-auto">
+          {children}
+        </div>
       </SidebarInset>
     </SidebarProvider>
   );

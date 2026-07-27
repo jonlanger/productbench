@@ -41,7 +41,7 @@ export function CatalogView() {
     <div className="mx-auto flex w-full max-w-[1600px] flex-1">
       <aside
         className={cn(
-          "sticky top-14 hidden h-[calc(100vh-3.5rem)] shrink-0 overflow-hidden border-r border-border/70 transition-[width] duration-300 ease-out lg:block",
+          "sticky top-0 hidden h-[calc(100svh-3.5rem)] shrink-0 overflow-hidden border-r border-border/70 transition-[width] duration-300 ease-out lg:block",
           desktopFiltersOpen ? "w-72 xl:w-80" : "w-0 border-r-0",
         )}
         aria-hidden={!desktopFiltersOpen}

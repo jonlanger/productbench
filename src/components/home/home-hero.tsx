@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export function HomeHero() {
   return (
-    <section className="relative isolate overflow-hidden border-b border-border/70">
+    <section className="relative isolate shrink-0 overflow-hidden border-b border-border/70">
       <div
         className="absolute inset-0 -z-20"
         style={{
