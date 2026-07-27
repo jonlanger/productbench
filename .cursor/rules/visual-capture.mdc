@@ -1,0 +1,26 @@
+---
+description: Product UI screenshot and visual content capture for ProductBench
+alwaysApply: true
+---
+
+# Visual capture
+
+When the user asks to capture screenshots, UI details, product visuals, enrich product data from the live site, or fill gallery content:
+
+1. **Prefer the Playwright capture agent** — it now auto-falls back when live capture is thin or bot-blocked: curated docs/help images → OG/meta → thum.io → Wayback → YouTube frame stills → App Store screenshots. Standalone `db:collect-screenshots` / `db:enrich-screenshots` remain available for marketing-only runs.
+
+2. **Commands** (repo root):
+   - One product: `npm run capture:ui -- --slug=<slug>`
+   - Catalog: `npm run capture:ui -- --all` (optional `--limit=N`)
+   - First-time setup: `npm run capture:install`
+
+3. **What capture writes**
+   - Screenshots → `public/products/[slug]/` + `products.screenshots`
+   - Structured insights → `insights.json` + `products.capture_insights` (nav, CTAs, headings, tech/pattern signals, pages visited)
+   - Soft-merge into curated fields: `metrics.screenCount` / `pageCount`, `ux.patterns`, `ux.keyScreens`, `features`, `platforms`, `techStack` (append-only, does not wipe seed copy)
+
+4. **Goal is volume + detail**: full surfaces, scroll bands, mobile viewport, cards, menus, modals, composers, docs/help URLs — as many public shots as practical.
+
+5. **Custom playbooks**: for complex products, extend `scripts/capture-product-ui.ts` (Airbnb is the template). Curate alternate hosts / YouTube demos in `src/data/visual-sources.ts`. Manual browser MCP is fine for exploration; Playwright is the durable path.
+
+6. **Public Process page** (`/process`) stays high-level — do not put npm/Playwright internals on that page. Operator details live in README and this rule.

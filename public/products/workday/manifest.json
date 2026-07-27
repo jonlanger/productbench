@@ -1,0 +1,834 @@
+{
+  "slug": "workday",
+  "capturedAt": "2026-07-26T22:54:23.420Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Workday public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.workday.com/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "Workday homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.workday.com/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Workday homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.workday.com/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "Workday homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.workday.com/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Workday homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.workday.com/"
+    },
+    {
+      "file": "search-composer.jpg",
+      "title": "Search / composer",
+      "caption": "Focused search or primary input on Workday",
+      "kind": "component",
+      "sourceUrl": "https://www.workday.com/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on Workday (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://www.workday.com/"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from Workday",
+      "kind": "product",
+      "sourceUrl": "https://www.workday.com/en-us/products/talent-management/overview.html"
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from Workday",
+      "kind": "product",
+      "sourceUrl": "https://www.workday.com/en-us/products/talent-management/overview.html"
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "In-product nav (3)",
+      "caption": "Same-origin product / pricing / docs links from Workday",
+      "kind": "product",
+      "sourceUrl": "https://www.workday.com/en-us/products/talent-management/overview.html"
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "In-product nav (4)",
+      "caption": "Same-origin product / pricing / docs links from Workday",
+      "kind": "product",
+      "sourceUrl": "https://www.workday.com/en-us/products/talent-management/overview.html"
+    },
+    {
+      "file": "nav-5.jpg",
+      "title": "In-product nav (5)",
+      "caption": "Same-origin product / pricing / docs links from Workday",
+      "kind": "product",
+      "sourceUrl": "https://www.workday.com/en-us/products/talent-management/overview.html"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Inbox (1)",
+      "caption": "Workday public surface · doc.workday.com",
+      "kind": "product",
+      "sourceUrl": "https://doc.workday.com/"
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "Inbox (2)",
+      "caption": "Workday public surface · doc.workday.com",
+      "kind": "product",
+      "sourceUrl": "https://doc.workday.com/"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Worker profile (1)",
+      "caption": "Workday public surface · community.workday.com",
+      "kind": "product",
+      "sourceUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/index.html"
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "Worker profile (2)",
+      "caption": "Workday public surface · community.workday.com",
+      "kind": "product",
+      "sourceUrl": "https://community.workday.com/sites/default/files/file-hosting/productionapi/index.html"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Recruiting",
+      "caption": "Workday public surface · doc.workday.com",
+      "kind": "docs",
+      "sourceUrl": "https://digital.workday.com/en-us/login.html?fromURI=https://signin.resourcecenter.workday.com/app/workdayciam_aembetadoc2_1/exkd1j067lBdQMGYl4x7/sso/saml"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Financial report",
+      "caption": "Workday public surface · doc.workday.com",
+      "kind": "docs",
+      "sourceUrl": "https://digital.workday.com/en-us/login.html?fromURI=https://signin.resourcecenter.workday.com/app/workdayciam_aembetadoc2_1/exkd1j067lBdQMGYl4x7/sso/saml"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Dashboards",
+      "caption": "Workday public surface · doc.workday.com",
+      "kind": "docs",
+      "sourceUrl": "https://digital.workday.com/en-us/login.html?fromURI=https://signin.resourcecenter.workday.com/app/workdayciam_aembetadoc2_1/exkd1j067lBdQMGYl4x7/sso/saml"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6",
+      "caption": "Workday public surface · workday.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.workday.com/pricing"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7",
+      "caption": "Workday public surface · workday.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.workday.com/product"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8",
+      "caption": "Workday public surface · workday.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.workday.com/products"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9",
+      "caption": "Workday public surface · workday.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.workday.com/features"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10",
+      "caption": "Workday public surface · workday.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.workday.com/platform"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11",
+      "caption": "Workday public surface · workday.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.workday.com/solutions"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12 (1)",
+      "caption": "Workday public surface · workday.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.workday.com/en-us/customer-stories.html?disableTarget#sortCriteria=relevancy%2C%40www_publication_date%20descending&f-www_topic_id=hr"
+    },
+    {
+      "file": "surface-12-mid.jpg",
+      "title": "Supporting surface 12 (2)",
+      "caption": "Workday public surface · workday.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.workday.com/en-us/customer-stories.html?disableTarget#sortCriteria=relevancy%2C%40www_publication_date%20descending&f-www_topic_id=hr"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13",
+      "caption": "Workday public surface · workday.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.workday.com/docs"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14",
+      "caption": "Workday public surface · workday.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.workday.com/help"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-26T22:54:23.420Z",
+    "screenshotCount": 29,
+    "pageCount": 14,
+    "pages": [
+      {
+        "url": "https://www.workday.com/",
+        "title": "The Enterprise AI Platform for HR, Finance, and IT | Workday",
+        "description": "Experience a new way to work with Sana and agentic AI from Workday.",
+        "headings": [
+          "Products",
+          "AI",
+          "HR",
+          "Finance & Accounting",
+          "Planning",
+          "Legal",
+          "Industry Operations",
+          "Platform",
+          "Workday ERP",
+          "Marketplace",
+          "Midsize Business Solutions",
+          "Workday Build",
+          "Why Workday",
+          "Industries",
+          "Financial Services",
+          "Healthcare",
+          "Hospitality",
+          "Manufacturing",
+          "Professional & Business Services",
+          "Public Services"
+        ],
+        "navLabels": [
+          "Products",
+          "AI",
+          "Artificial Intelligence",
+          "Sana",
+          "Agent System of Record",
+          "Agents",
+          "Pricing",
+          "Responsible AI",
+          "AI Masterclass",
+          "HR",
+          "HR Solutions",
+          "Human Capital Management",
+          "Human Resource Management",
+          "Workday Paradox",
+          "Talent Management",
+          "Workforce Management",
+          "Employee Experience",
+          "HR Service Delivery",
+          "Employee Voice",
+          "Workforce Planning",
+          "Analytics & Reporting",
+          "Vendor Management System",
+          "Local & Global Payroll",
+          "Finance & Accounting"
+        ],
+        "ctas": [
+          "Continue",
+          "Pricing",
+          "Industry Operations",
+          "Demos",
+          "Contact Us",
+          "Job Search",
+          "Sign in",
+          "Contact Sales",
+          "How to Log In",
+          "Workday Demos",
+          "Explore AI Agents",
+          "Learn More",
+          "Explore Our Agents"
+        ],
+        "landmarks": [
+          "banner",
+          "header",
+          "application:Main Menu",
+          "dialog:unifiedUserName",
+          "Dialog:langV3-8c5e401a71e38eb39ef333be20c157200df69cbd9571e6ff49363b7624e6f7f7",
+          "dialog",
+          "nav",
+          "main",
+          "dialog:Modal Window",
+          "dialog:Caption Settings Dialog",
+          "dialog:Player Information Dialog",
+          "contentinfo",
+          "navigation:Site-Wide Footer",
+          "navigation:Legal"
+        ]
+      },
+      {
+        "url": "https://www.workday.com/en-us/products/talent-management/overview.html",
+        "title": "Talent Management Software for People-First Strategies | Workday US",
+        "description": "HR talent management software from Workday allows you to track employee growth from onboarding to performance monitoring. Find out how our talent management software can help you gain valuable insights and help develop tomorrow’s leaders. Learn more.",
+        "headings": [
+          "Products",
+          "AI",
+          "HR",
+          "Finance & Accounting",
+          "Planning",
+          "Legal",
+          "Industry Operations",
+          "Platform",
+          "Workday ERP",
+          "Marketplace",
+          "Midsize Business Solutions",
+          "Workday Build",
+          "Why Workday",
+          "Industries",
+          "Financial Services",
+          "Healthcare",
+          "Hospitality",
+          "Manufacturing",
+          "Professional & Business Services",
+          "Public Services"
+        ],
+        "navLabels": [
+          "Products",
+          "AI",
+          "Artificial Intelligence",
+          "Sana",
+          "Agent System of Record",
+          "Agents",
+          "Pricing",
+          "Responsible AI",
+          "AI Masterclass",
+          "HR",
+          "HR Solutions",
+          "Human Capital Management",
+          "Human Resource Management",
+          "Workday Paradox",
+          "Talent Management",
+          "Workforce Management",
+          "Employee Experience",
+          "HR Service Delivery",
+          "Employee Voice",
+          "Workforce Planning",
+          "Analytics & Reporting",
+          "Vendor Management System",
+          "Local & Global Payroll",
+          "Finance & Accounting"
+        ],
+        "ctas": [
+          "Continue",
+          "Pricing",
+          "Industry Operations",
+          "Demos",
+          "Contact Us",
+          "Job Search",
+          "Sign in",
+          "Contact Sales",
+          "How to Log In",
+          "Workday Demos",
+          "Play Demo (3:30)",
+          "Learn More",
+          "Explore All Resources",
+          "eBook Rethinking Talent Management Read eBook",
+          "Read eBook",
+          "eBook The Future-Ready Talent Strategy Read eBook"
+        ],
+        "landmarks": [
+          "banner",
+          "header",
+          "application:Main Menu",
+          "dialog:unifiedUserName",
+          "Dialog:langV3-8c5e401a71e38eb39ef333be20c157200df69cbd9571e6ff49363b7624e6f7f7",
+          "dialog",
+          "nav",
+          "navigation",
+          "main",
+          "contentinfo",
+          "navigation:Site-Wide Footer",
+          "navigation:Legal"
+        ]
+      },
+      {
+        "url": "https://doc.workday.com/",
+        "title": "Workday Documentation",
+        "headings": [
+          "Let's find what you're looking for",
+          "Latest News",
+          "Upcoming Content Crew Session",
+          "Coming Soon: Workday Education Course Manuals",
+          "Stay Informed with Workday Documentation Announcements",
+          "Quick Links",
+          "How-to Videos"
+        ],
+        "navLabels": [
+          "Documentation Documentation",
+          "Sign In",
+          "English",
+          "中文 (大陆)",
+          "中文 (臺灣)",
+          "Français (Canada)",
+          "Français (France)",
+          "Deutsch",
+          "Italiano",
+          "日本語",
+          "한국어",
+          "Português",
+          "Español",
+          "Nederlands",
+          "Home",
+          "Guides",
+          "Release Center",
+          "Help Centers",
+          "Adaptive Planning",
+          "Contract Management",
+          "HiredScore",
+          "Peakon",
+          "Course Manuals",
+          "Developers"
+        ],
+        "ctas": [
+          "Sign In",
+          "Contact Us"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "search",
+          "main",
+          "dialog",
+          "dialog:Modal Window",
+          "dialog:Caption Settings Dialog",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://community.workday.com/sites/default/files/file-hosting/productionapi/index.html",
+        "title": "Workday Web Services (WWS) Directory (v46.2)",
+        "headings": [
+          "Workday Web Services (WWS) Directory (v46.2 / 2026R1)"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": [
+          "footer"
+        ]
+      },
+      {
+        "url": "https://digital.workday.com/en-us/login.html?fromURI=https://signin.resourcecenter.workday.com/app/workdayciam_aembetadoc2_1/exkd1j067lBdQMGYl4x7/sso/saml",
+        "title": "Log in to Workday Community | Workday",
+        "description": "Registered users, sign in to Workday Community.",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": [
+          "header",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.workday.com/pricing",
+        "title": "Not Found",
+        "headings": [
+          "404 ERROR"
+        ],
+        "navLabels": [
+          "Got it"
+        ],
+        "ctas": [
+          "Continue"
+        ],
+        "landmarks": [
+          "banner",
+          "header",
+          "dialog",
+          "dialog:unifiedUserName",
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.workday.com/product",
+        "title": "Not Found",
+        "headings": [
+          "404 ERROR"
+        ],
+        "navLabels": [
+          "Got it"
+        ],
+        "ctas": [
+          "Continue"
+        ],
+        "landmarks": [
+          "banner",
+          "header",
+          "dialog",
+          "dialog:unifiedUserName",
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.workday.com/products",
+        "title": "Not Found",
+        "headings": [
+          "404 ERROR"
+        ],
+        "navLabels": [
+          "Got it"
+        ],
+        "ctas": [
+          "Continue"
+        ],
+        "landmarks": [
+          "banner",
+          "header",
+          "dialog",
+          "dialog:unifiedUserName",
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.workday.com/features",
+        "title": "Not Found",
+        "headings": [
+          "404 ERROR"
+        ],
+        "navLabels": [
+          "Got it"
+        ],
+        "ctas": [
+          "Continue"
+        ],
+        "landmarks": [
+          "banner",
+          "header",
+          "dialog",
+          "dialog:unifiedUserName",
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.workday.com/platform",
+        "title": "Not Found",
+        "headings": [
+          "404 ERROR"
+        ],
+        "navLabels": [
+          "Got it"
+        ],
+        "ctas": [
+          "Continue"
+        ],
+        "landmarks": [
+          "banner",
+          "header",
+          "dialog",
+          "dialog:unifiedUserName",
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.workday.com/solutions",
+        "title": "Not Found",
+        "headings": [
+          "404 ERROR"
+        ],
+        "navLabels": [
+          "Got it"
+        ],
+        "ctas": [
+          "Continue"
+        ],
+        "landmarks": [
+          "banner",
+          "header",
+          "dialog",
+          "dialog:unifiedUserName",
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.workday.com/en-us/customer-stories.html?disableTarget#sortCriteria=relevancy%2C%40www_publication_date%20descending&f-www_topic_id=hr",
+        "title": "Workday Customer Stories: Real Success, Real Impact | Workday US",
+        "description": "Our customers' success is why we do what we do. We pull out all the stops to make sure they get the support they need. Here are some inspiring stories from Workday customers. Learn more.",
+        "headings": [
+          "Products",
+          "AI",
+          "HR",
+          "Finance & Accounting",
+          "Planning",
+          "Legal",
+          "Industry Operations",
+          "Platform",
+          "Workday ERP",
+          "Marketplace",
+          "Midsize Business Solutions",
+          "Workday Build",
+          "Why Workday",
+          "Industries",
+          "Financial Services",
+          "Healthcare",
+          "Hospitality",
+          "Manufacturing",
+          "Professional & Business Services",
+          "Public Services"
+        ],
+        "navLabels": [
+          "Products",
+          "AI",
+          "Artificial Intelligence",
+          "Sana",
+          "Agent System of Record",
+          "Agents",
+          "Pricing",
+          "Responsible AI",
+          "AI Masterclass",
+          "HR",
+          "HR Solutions",
+          "Human Capital Management",
+          "Human Resource Management",
+          "Workday Paradox",
+          "Talent Management",
+          "Workforce Management",
+          "Employee Experience",
+          "HR Service Delivery",
+          "Employee Voice",
+          "Workforce Planning",
+          "Analytics & Reporting",
+          "Vendor Management System",
+          "Local & Global Payroll",
+          "Finance & Accounting"
+        ],
+        "ctas": [
+          "Continue",
+          "Pricing",
+          "Industry Operations",
+          "Demos",
+          "Contact Us",
+          "Job Search",
+          "Sign in",
+          "Contact Sales",
+          "How to Log In",
+          "Workday Demos",
+          "Play Demo (3:08)"
+        ],
+        "landmarks": [
+          "banner",
+          "header",
+          "application:Main Menu",
+          "dialog:unifiedUserName",
+          "Dialog:langV3-8c5e401a71e38eb39ef333be20c157200df69cbd9571e6ff49363b7624e6f7f7",
+          "dialog",
+          "nav",
+          "main",
+          "contentinfo",
+          "navigation:Site-Wide Footer",
+          "navigation:Legal"
+        ]
+      },
+      {
+        "url": "https://www.workday.com/docs",
+        "title": "Not Found",
+        "headings": [
+          "404 ERROR"
+        ],
+        "navLabels": [
+          "Got it"
+        ],
+        "ctas": [
+          "Continue"
+        ],
+        "landmarks": [
+          "banner",
+          "header",
+          "dialog",
+          "dialog:unifiedUserName",
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.workday.com/help",
+        "title": "Not Found",
+        "headings": [
+          "404 ERROR"
+        ],
+        "navLabels": [
+          "Got it"
+        ],
+        "ctas": [
+          "Continue"
+        ],
+        "landmarks": [
+          "banner",
+          "header",
+          "dialog",
+          "dialog:unifiedUserName",
+          "main"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Products",
+      "AI",
+      "Artificial Intelligence",
+      "Sana",
+      "Agent System of Record",
+      "Agents",
+      "Pricing",
+      "Responsible AI",
+      "AI Masterclass",
+      "HR",
+      "HR Solutions",
+      "Human Capital Management",
+      "Human Resource Management",
+      "Workday Paradox",
+      "Talent Management",
+      "Workforce Management",
+      "Employee Experience",
+      "HR Service Delivery",
+      "Employee Voice",
+      "Workforce Planning",
+      "Analytics & Reporting",
+      "Vendor Management System",
+      "Local & Global Payroll",
+      "Finance & Accounting",
+      "Documentation Documentation",
+      "Sign In",
+      "English",
+      "中文 (大陆)",
+      "中文 (臺灣)",
+      "Français (Canada)"
+    ],
+    "ctas": [
+      "Continue",
+      "Pricing",
+      "Industry Operations",
+      "Demos",
+      "Contact Us",
+      "Job Search",
+      "Sign in",
+      "Contact Sales",
+      "How to Log In",
+      "Workday Demos",
+      "Explore AI Agents",
+      "Learn More",
+      "Explore Our Agents",
+      "Play Demo (3:30)",
+      "Explore All Resources",
+      "eBook Rethinking Talent Management Read eBook",
+      "Read eBook",
+      "eBook The Future-Ready Talent Strategy Read eBook",
+      "Play Demo (3:08)"
+    ],
+    "headings": [
+      "Products",
+      "AI",
+      "HR",
+      "Finance & Accounting",
+      "Planning",
+      "Legal",
+      "Industry Operations",
+      "Platform",
+      "Workday ERP",
+      "Marketplace",
+      "Midsize Business Solutions",
+      "Workday Build",
+      "Why Workday",
+      "Industries",
+      "Financial Services",
+      "Healthcare",
+      "Hospitality",
+      "Manufacturing",
+      "Professional & Business Services",
+      "Public Services",
+      "Let's find what you're looking for",
+      "Latest News",
+      "Upcoming Content Crew Session",
+      "Coming Soon: Workday Education Course Manuals",
+      "Stay Informed with Workday Documentation Announcements",
+      "Quick Links",
+      "How-to Videos",
+      "Workday Web Services (WWS) Directory (v46.2 / 2026R1)",
+      "404 ERROR"
+    ],
+    "techSignals": [
+      "React",
+      "Google Tag Manager",
+      "Next.js",
+      "Cloudflare"
+    ],
+    "featureCandidates": [
+      "Products",
+      "Finance & Accounting",
+      "Planning",
+      "Legal",
+      "Industry Operations",
+      "Platform",
+      "Workday ERP",
+      "Marketplace",
+      "Midsize Business Solutions",
+      "Workday Build",
+      "Why Workday",
+      "Industries",
+      "Financial Services",
+      "Healthcare",
+      "Hospitality",
+      "Manufacturing",
+      "Professional & Business Services",
+      "Public Services",
+      "Let's find what you're looking for",
+      "Latest News",
+      "Upcoming Content Crew Session",
+      "Coming Soon: Workday Education Course Manuals",
+      "Quick Links",
+      "How-to Videos"
+    ],
+    "patternCandidates": [
+      "Map view",
+      "Carousels",
+      "Card layout",
+      "Tabs",
+      "Search",
+      "Authentication",
+      "Menus",
+      "Pricing display",
+      "Filters"
+    ],
+    "platformsDetected": [
+      "web",
+      "api"
+    ],
+    "summary": "Captured 29 screenshots across 14 public URLs. Nav signals: Products, AI, Artificial Intelligence, Sana, Agent System of Record, Agents. Tech signals: React, Google Tag Manager, Next.js, Cloudflare. UI patterns: Map view, Carousels, Card layout, Tabs, Search, Authentication."
+  }
+}

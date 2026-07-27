@@ -1,0 +1,1172 @@
+{
+  "slug": "linear",
+  "capturedAt": "2026-07-26T22:26:46.249Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Inbox / Triage",
+      "caption": "Linear public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://linear.app/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "Linear homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Linear homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "Linear homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Linear homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/"
+    },
+    {
+      "file": "search-composer.jpg",
+      "title": "Search / composer",
+      "caption": "Focused search or primary input on Linear",
+      "kind": "component",
+      "sourceUrl": "https://linear.app/"
+    },
+    {
+      "file": "account-menu.jpg",
+      "title": "Account / nav menu",
+      "caption": "Expanded account or primary navigation menu on Linear",
+      "kind": "component",
+      "sourceUrl": "https://linear.app/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on Linear (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://linear.app/login"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from Linear",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/changelog/2026-07-23-agent-assisted-editing"
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from Linear",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/changelog/2026-07-23-agent-assisted-editing"
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "In-product nav (3)",
+      "caption": "Same-origin product / pricing / docs links from Linear",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/changelog/2026-07-23-agent-assisted-editing"
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "In-product nav (4)",
+      "caption": "Same-origin product / pricing / docs links from Linear",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/changelog/2026-07-23-agent-assisted-editing"
+    },
+    {
+      "file": "nav-5.jpg",
+      "title": "In-product nav (5)",
+      "caption": "Same-origin product / pricing / docs links from Linear",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/changelog/2026-07-23-agent-assisted-editing"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "My issues",
+      "caption": "Linear public surface · linear.app",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/docs/default-issue-properties"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Project board (1)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/docs/creating-issues"
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "Project board (2)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/docs/creating-issues"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Cycle view (1)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/issue-templates"
+    },
+    {
+      "file": "surface-3-mid.jpg",
+      "title": "Cycle view (2)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/issue-templates"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Roadmap (1)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/api-and-webhooks"
+    },
+    {
+      "file": "surface-4-mid.jpg",
+      "title": "Roadmap (2)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/api-and-webhooks"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Settings",
+      "caption": "Linear public surface · studio.apollographql.com",
+      "kind": "docs",
+      "sourceUrl": "https://studio.apollographql.com/public/Linear-API/variant/current/home"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6",
+      "caption": "Linear public surface · developers.linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/developers"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7 (1)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/security"
+    },
+    {
+      "file": "surface-7-mid.jpg",
+      "title": "Supporting surface 7 (2)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/security"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/permissions"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/imports"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10 (1)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/changelog"
+    },
+    {
+      "file": "surface-10-mid.jpg",
+      "title": "Supporting surface 10 (2)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/changelog"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11 (1)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/releases"
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "Supporting surface 11 (2)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/releases"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12 (1)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/pricing"
+    },
+    {
+      "file": "surface-12-mid.jpg",
+      "title": "Supporting surface 12 (2)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/pricing"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/product"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/product"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-26T22:26:46.249Z",
+    "screenshotCount": 34,
+    "pageCount": 16,
+    "pages": [
+      {
+        "url": "https://linear.app/",
+        "title": "Linear – The system for product development",
+        "description": "Purpose-built for planning and building products with AI agents.",
+        "headings": [
+          "Faster app launch",
+          "Make product operations self-driving",
+          "Define the product direction",
+          "Move work forward across teams and agents",
+          "Review PRs and agent output",
+          "Understand progress at scale",
+          "Changelog",
+          "Built for the future. Available today.",
+          "Product",
+          "Features",
+          "Company",
+          "Resources",
+          "Connect",
+          "Legal"
+        ],
+        "navLabels": [
+          "Product",
+          "Resources",
+          "Customers",
+          "Pricing",
+          "Now",
+          "Contact",
+          "Docs",
+          "Open app",
+          "Log in",
+          "Sign up",
+          "Linear",
+          "Inbox",
+          "My issues",
+          "Reviews",
+          "Pulse",
+          "Workspace",
+          "Initiatives",
+          "Projects",
+          "More",
+          "Favorites",
+          "Faster app launch",
+          "Agent tasks",
+          "UI Refresh",
+          "Agents Insights"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Log in",
+          "Sign up",
+          "Get started",
+          "Contact sales",
+          "Download",
+          "Startups",
+          "Contact us"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "main",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://linear.app/login",
+        "title": "Linear",
+        "headings": [
+          "Log in to Linear"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Continue with Google",
+          "Continue with email",
+          "Continue with SAML SSO",
+          "Log in with passkey",
+          "Sign up",
+          "learn more"
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://linear.app/changelog/2026-07-23-agent-assisted-editing",
+        "title": "Text attribution and agent-assisted editing – Changelog",
+        "description": "Linear changelog - New updates and improvements to Linear.",
+        "headings": [
+          "Text attribution and agent-assisted editing",
+          "Refreshed issue sidebar⁠",
+          "Product",
+          "Features",
+          "Company",
+          "Resources",
+          "Connect",
+          "Legal"
+        ],
+        "navLabels": [
+          "Product",
+          "Resources",
+          "Customers",
+          "Pricing",
+          "Now",
+          "Contact",
+          "Docs",
+          "Open app",
+          "Log in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Log in",
+          "Sign up",
+          "Download",
+          "Startups",
+          "Contact us"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://linear.app/docs/default-issue-properties",
+        "title": "",
+        "headings": [
+          "Not found"
+        ],
+        "navLabels": [
+          "Docs",
+          "Sign up",
+          "Open app",
+          "Getting started",
+          "Account",
+          "AI",
+          "Your sidebar",
+          "Teams",
+          "Issues",
+          "Issue properties",
+          "Projects",
+          "Initiatives",
+          "Cycles",
+          "Views",
+          "Find and filter",
+          "Linear Asks",
+          "Integrations",
+          "Analytics",
+          "Administration",
+          "Developers",
+          "Learn",
+          "Contact support"
+        ],
+        "ctas": [
+          "Sign up",
+          "Getting started",
+          "Find and filter",
+          "Contact support"
+        ],
+        "landmarks": [
+          "main",
+          "nav",
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://linear.app/docs/creating-issues",
+        "title": "Create issues – Linear Docs",
+        "description": "Creating issues is the most common action taken in Linear.",
+        "headings": [
+          "Create issues",
+          "Overview⁠",
+          "Create an issue⁠",
+          "Create an issue via email⁠",
+          "Create recurring issues⁠",
+          "Create a recurring issue⁠",
+          "Convert an existing issue into a recurring issue⁠",
+          "Create recurring issues in team settings⁠",
+          "Create recurring issues from templates⁠",
+          "Cadence of recurring issues⁠",
+          "Create a new issue URL⁠",
+          "Apply pre-set properties⁠",
+          "Create a URL from a template⁠",
+          "Copy a URL from an issue⁠",
+          "Drafts⁠",
+          "FAQ⁠"
+        ],
+        "navLabels": [
+          "Docs",
+          "Sign up",
+          "Open app",
+          "Getting started",
+          "Account",
+          "AI",
+          "Your sidebar",
+          "Teams",
+          "Issues",
+          "Create issues",
+          "Edit issues",
+          "Assign and delegate issues",
+          "Select issues",
+          "Parent and sub-issues",
+          "Issue templates",
+          "Comments and reactions",
+          "Editor",
+          "Documents",
+          "Delete and archive issues",
+          "Customer Requests",
+          "Releases",
+          "Issue properties",
+          "Projects",
+          "Initiatives"
+        ],
+        "ctas": [
+          "Sign up",
+          "Getting started",
+          "Create issues",
+          "Find and filter",
+          "Contact support",
+          "Can you create issues and use keyboard shortcuts in Safari?",
+          "Create an issue",
+          "Create an issue via email",
+          "Create an email address",
+          "Create an email address for a template",
+          "Create recurring issues",
+          "Create a recurring issue",
+          "Create recurring issues in team settings",
+          "Create recurring issues from templates",
+          "Create a new issue URL",
+          "Create a URL from a template"
+        ],
+        "landmarks": [
+          "main",
+          "nav",
+          "header",
+          "footer",
+          "aside"
+        ]
+      },
+      {
+        "url": "https://linear.app/docs/issue-templates",
+        "title": "Issue templates – Linear Docs",
+        "description": "Templates speed up issue creation, ensure properties are applied when necessary, and facilitate reporting.",
+        "headings": [
+          "Issue templates",
+          "Overview⁠",
+          "Create standard issue templates⁠",
+          "Create form templates⁠",
+          "Generic form fields⁠",
+          "Property form fields⁠",
+          "Default properties⁠",
+          "Use issue templates⁠",
+          "Default templates⁠",
+          "Templates in integrations⁠",
+          "Template based Insights⁠",
+          "FAQ⁠"
+        ],
+        "navLabels": [
+          "Docs",
+          "Sign up",
+          "Open app",
+          "Getting started",
+          "Account",
+          "AI",
+          "Your sidebar",
+          "Teams",
+          "Issues",
+          "Create issues",
+          "Edit issues",
+          "Assign and delegate issues",
+          "Select issues",
+          "Parent and sub-issues",
+          "Issue templates",
+          "Comments and reactions",
+          "Editor",
+          "Documents",
+          "Delete and archive issues",
+          "Customer Requests",
+          "Releases",
+          "Issue properties",
+          "Projects",
+          "Initiatives"
+        ],
+        "ctas": [
+          "Sign up",
+          "Getting started",
+          "Create issues",
+          "Find and filter",
+          "Contact support",
+          "Create standard issue templates",
+          "Create form templates"
+        ],
+        "landmarks": [
+          "main",
+          "nav",
+          "header",
+          "footer",
+          "aside"
+        ]
+      },
+      {
+        "url": "https://linear.app/docs/api-and-webhooks",
+        "title": "API and Webhooks – Linear Docs",
+        "description": "Linear's GraphQL API and webhooks lets you extend Linear's functionality beyond what we provide out of the box. ",
+        "headings": [
+          "API and Webhooks",
+          "Overview⁠",
+          "Basics⁠",
+          "API⁠",
+          "API Keys⁠",
+          "Webhooks⁠",
+          "Create a webhook⁠",
+          "Third-party apps⁠"
+        ],
+        "navLabels": [
+          "Docs",
+          "Sign up",
+          "Open app",
+          "Getting started",
+          "Account",
+          "AI",
+          "Your sidebar",
+          "Teams",
+          "Issues",
+          "Issue properties",
+          "Projects",
+          "Initiatives",
+          "Cycles",
+          "Views",
+          "Find and filter",
+          "Linear Asks",
+          "Integrations",
+          "Analytics",
+          "Administration",
+          "Workspaces",
+          "Login methods",
+          "Invite members",
+          "Members and roles",
+          "Security"
+        ],
+        "ctas": [
+          "Sign up",
+          "Getting started",
+          "Find and filter",
+          "Contact support",
+          "Create a webhook"
+        ],
+        "landmarks": [
+          "main",
+          "nav",
+          "header",
+          "footer",
+          "aside"
+        ]
+      },
+      {
+        "url": "https://studio.apollographql.com/public/Linear-API/variant/current/home",
+        "title": "Overview | Linear API@current | Studio",
+        "description": "Linear's public API",
+        "headings": [
+          "Linear-API@current",
+          "README",
+          "Getting started",
+          "Links",
+          "Changelog",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Performance Cookies"
+        ],
+        "navLabels": [
+          "Learn more",
+          "Log in",
+          "Development",
+          "Schema",
+          "Governance"
+        ],
+        "ctas": [
+          "Learn more",
+          "Log in",
+          "Explorer",
+          "Run in Explorer",
+          "ProjectSearchResult",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header:Global header",
+          "nav:Graph level navigation",
+          "header"
+        ]
+      },
+      {
+        "url": "https://linear.app/developers",
+        "title": "Linear Developers",
+        "description": "Learn about building apps and integrations for Linear using the GraphQL API and TypeScript SDK.",
+        "headings": [
+          "Linear Developers",
+          "Getting Started",
+          "GraphQL API",
+          "Authentication",
+          "Agents",
+          "TypeScript SDK",
+          "Guides",
+          "Upload a file",
+          "Create issues via URL",
+          "CLI importer",
+          "Resources",
+          "Changelog",
+          "Brand Guidelines",
+          "Agent Interaction Guidelines"
+        ],
+        "navLabels": [
+          "Developers",
+          "Sign up",
+          "Open app",
+          "GraphQL API",
+          "Getting started",
+          "Pagination",
+          "Filtering",
+          "Rate limiting",
+          "Deprecations",
+          "Webhooks",
+          "Attachments",
+          "Managing Customers",
+          "GraphQL Schema ↗",
+          "Authentication",
+          "OAuth 2.0 authentication",
+          "OAuth actor authorization",
+          "OAuth application manifests",
+          "File storage authentication",
+          "Agents",
+          "Agent Interaction Guidelines (AIG)",
+          "Developing the Agent Interaction",
+          "Interaction Best Practices",
+          "Signals",
+          "TypeScript SDK"
+        ],
+        "ctas": [
+          "Sign up",
+          "Getting started",
+          "Filtering",
+          "Create issues using linear.new",
+          "Contact support",
+          "Create issues via URLOpen issue creation with pre-filled fields from a URL"
+        ],
+        "landmarks": [
+          "main",
+          "nav",
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://linear.app/docs/security",
+        "title": "Security – Linear Docs",
+        "description": "Learn more about our data security practices and compliance measures.",
+        "headings": [
+          "Security",
+          "Overview⁠",
+          "Shared responsibility⁠",
+          "Certifications⁠",
+          "Data regions⁠",
+          "Report a vulnerability⁠",
+          "FAQ⁠"
+        ],
+        "navLabels": [
+          "Docs",
+          "Sign up",
+          "Open app",
+          "Getting started",
+          "Account",
+          "AI",
+          "Your sidebar",
+          "Teams",
+          "Issues",
+          "Issue properties",
+          "Projects",
+          "Initiatives",
+          "Cycles",
+          "Views",
+          "Find and filter",
+          "Linear Asks",
+          "Integrations",
+          "Analytics",
+          "Administration",
+          "Workspaces",
+          "Login methods",
+          "Invite members",
+          "Members and roles",
+          "Security"
+        ],
+        "ctas": [
+          "Sign up",
+          "Getting started",
+          "Find and filter",
+          "Contact support"
+        ],
+        "landmarks": [
+          "main",
+          "nav",
+          "header",
+          "footer",
+          "aside"
+        ]
+      },
+      {
+        "url": "https://linear.app/docs/permissions",
+        "title": "",
+        "headings": [
+          "Not found"
+        ],
+        "navLabels": [
+          "Docs",
+          "Sign up",
+          "Open app",
+          "Getting started",
+          "Account",
+          "AI",
+          "Your sidebar",
+          "Teams",
+          "Issues",
+          "Issue properties",
+          "Projects",
+          "Initiatives",
+          "Cycles",
+          "Views",
+          "Find and filter",
+          "Linear Asks",
+          "Integrations",
+          "Analytics",
+          "Administration",
+          "Developers",
+          "Learn",
+          "Contact support"
+        ],
+        "ctas": [
+          "Sign up",
+          "Getting started",
+          "Find and filter",
+          "Contact support"
+        ],
+        "landmarks": [
+          "main",
+          "nav",
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://linear.app/docs/imports",
+        "title": "",
+        "headings": [
+          "Not found"
+        ],
+        "navLabels": [
+          "Docs",
+          "Sign up",
+          "Open app",
+          "Getting started",
+          "Account",
+          "AI",
+          "Your sidebar",
+          "Teams",
+          "Issues",
+          "Issue properties",
+          "Projects",
+          "Initiatives",
+          "Cycles",
+          "Views",
+          "Find and filter",
+          "Linear Asks",
+          "Integrations",
+          "Analytics",
+          "Administration",
+          "Developers",
+          "Learn",
+          "Contact support"
+        ],
+        "ctas": [
+          "Sign up",
+          "Getting started",
+          "Find and filter",
+          "Contact support"
+        ],
+        "landmarks": [
+          "main",
+          "nav",
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://linear.app/changelog",
+        "title": "Changelog – Linear",
+        "description": "New updates and improvements to Linear.",
+        "headings": [
+          "Now",
+          "Text attribution and agent-assisted editing",
+          "Refreshed issue sidebar⁠",
+          "Introducing Loops",
+          "Initiative properties",
+          "Centrally manage access to Linear’s MCP server in Claude⁠",
+          "Share filtered views⁠",
+          "Agent assisted project updates",
+          "Desktop navigation history and pinned tabs⁠",
+          "Private sub-teams⁠",
+          "Build agents with Vercel Eve⁠",
+          "Release pipeline changelogs⁠",
+          "OAuth application manifests⁠",
+          "Coding sessions in Linear",
+          "A coding agent your team will love⁠",
+          "Automate the first pass⁠",
+          "Availability and pricing⁠",
+          "Team documents",
+          "Shared skills for Linear Agent⁠",
+          "Issue description comments⁠"
+        ],
+        "navLabels": [
+          "Product",
+          "Resources",
+          "Customers",
+          "Pricing",
+          "Now",
+          "Contact",
+          "Docs",
+          "Open app",
+          "Log in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Log in",
+          "Sign up",
+          "Search…",
+          "downloading the app",
+          "Learn more in the docs",
+          "Download",
+          "Startups",
+          "Contact us"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://linear.app/docs/releases",
+        "title": "Releases – Linear Docs",
+        "description": "Connect your CI/CD tool to Linear to know which issues ship in each release and to each environment.",
+        "headings": [
+          "Releases",
+          "Overview⁠",
+          "Release pipelines⁠",
+          "Releases⁠",
+          "Viewing an issue’s releases⁠",
+          "Status automations⁠",
+          "Release notes⁠",
+          "Changelogs⁠",
+          "CI setup⁠",
+          "Example for continuous deployments⁠",
+          "Release Pipeline changelogs⁠",
+          "Advanced examples⁠"
+        ],
+        "navLabels": [
+          "Docs",
+          "Sign up",
+          "Open app",
+          "Getting started",
+          "Account",
+          "AI",
+          "Your sidebar",
+          "Teams",
+          "Issues",
+          "Create issues",
+          "Edit issues",
+          "Assign and delegate issues",
+          "Select issues",
+          "Parent and sub-issues",
+          "Issue templates",
+          "Comments and reactions",
+          "Editor",
+          "Documents",
+          "Delete and archive issues",
+          "Customer Requests",
+          "Releases",
+          "Issue properties",
+          "Projects",
+          "Initiatives"
+        ],
+        "ctas": [
+          "Sign up",
+          "Getting started",
+          "Create issues",
+          "Find and filter",
+          "Contact support",
+          "Set path filters"
+        ],
+        "landmarks": [
+          "main",
+          "nav",
+          "header",
+          "footer",
+          "aside"
+        ]
+      },
+      {
+        "url": "https://linear.app/pricing",
+        "title": "Pricing – Linear",
+        "description": "Use Linear for free with your whole team. Upgrade to enable unlimited issues, enhanced security controls, and additional features.",
+        "headings": [
+          "Pricing",
+          "Free",
+          "Basic",
+          "Business",
+          "Enterprise",
+          "Built for the future. Available today.",
+          "Product",
+          "Features",
+          "Company",
+          "Resources",
+          "Connect",
+          "Legal"
+        ],
+        "navLabels": [
+          "Product",
+          "Resources",
+          "Customers",
+          "Pricing",
+          "Now",
+          "Contact",
+          "Docs",
+          "Open app",
+          "Log in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Log in",
+          "Sign up",
+          "Get started",
+          "Contact sales",
+          "Download",
+          "Startups",
+          "Contact us"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://linear.app/product",
+        "title": "Linear",
+        "headings": [
+          "Log in to Linear"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Continue with Google",
+          "Continue with email",
+          "Continue with SAML SSO",
+          "Log in with passkey",
+          "Sign up",
+          "learn more"
+        ],
+        "landmarks": []
+      }
+    ],
+    "navLabels": [
+      "Product",
+      "Resources",
+      "Customers",
+      "Pricing",
+      "Now",
+      "Contact",
+      "Docs",
+      "Open app",
+      "Log in",
+      "Sign up",
+      "Linear",
+      "Inbox",
+      "My issues",
+      "Reviews",
+      "Pulse",
+      "Workspace",
+      "Initiatives",
+      "Projects",
+      "More",
+      "Favorites",
+      "Faster app launch",
+      "Agent tasks",
+      "UI Refresh",
+      "Agents Insights",
+      "Getting started",
+      "Account",
+      "AI",
+      "Your sidebar",
+      "Teams",
+      "Issues"
+    ],
+    "ctas": [
+      "Pricing",
+      "Contact",
+      "Log in",
+      "Sign up",
+      "Get started",
+      "Contact sales",
+      "Download",
+      "Startups",
+      "Contact us",
+      "Continue with Google",
+      "Continue with email",
+      "Continue with SAML SSO",
+      "Log in with passkey",
+      "learn more",
+      "Getting started",
+      "Find and filter",
+      "Contact support",
+      "Create issues",
+      "Can you create issues and use keyboard shortcuts in Safari?",
+      "Create an issue",
+      "Create an issue via email",
+      "Create an email address",
+      "Create an email address for a template",
+      "Create recurring issues"
+    ],
+    "headings": [
+      "Faster app launch",
+      "Make product operations self-driving",
+      "Define the product direction",
+      "Move work forward across teams and agents",
+      "Review PRs and agent output",
+      "Understand progress at scale",
+      "Changelog",
+      "Built for the future. Available today.",
+      "Product",
+      "Features",
+      "Company",
+      "Resources",
+      "Connect",
+      "Legal",
+      "Log in to Linear",
+      "Text attribution and agent-assisted editing",
+      "Refreshed issue sidebar⁠",
+      "Not found",
+      "Create issues",
+      "Overview⁠",
+      "Create an issue⁠",
+      "Create an issue via email⁠",
+      "Create recurring issues⁠",
+      "Create a recurring issue⁠",
+      "Convert an existing issue into a recurring issue⁠",
+      "Create recurring issues in team settings⁠",
+      "Create recurring issues from templates⁠",
+      "Cadence of recurring issues⁠",
+      "Create a new issue URL⁠",
+      "Apply pre-set properties⁠"
+    ],
+    "techSignals": [
+      "React",
+      "Next.js",
+      "GraphQL",
+      "Intercom",
+      "Zendesk",
+      "Vite",
+      "Segment",
+      "Google Tag Manager"
+    ],
+    "featureCandidates": [
+      "Faster app launch",
+      "Make product operations self-driving",
+      "Define the product direction",
+      "Move work forward across teams and agents",
+      "Review PRs and agent output",
+      "Understand progress at scale",
+      "Changelog",
+      "Built for the future. Available today.",
+      "Product",
+      "Features",
+      "Company",
+      "Resources",
+      "Connect",
+      "Legal",
+      "Log in to Linear",
+      "Text attribution and agent-assisted editing",
+      "Refreshed issue sidebar⁠",
+      "Not found",
+      "Create issues",
+      "Overview⁠",
+      "Create an issue⁠",
+      "Create an issue via email⁠",
+      "Create recurring issues⁠",
+      "Create a recurring issue⁠"
+    ],
+    "patternCandidates": [
+      "Search",
+      "Pricing display",
+      "Map view",
+      "Tabs",
+      "Menus",
+      "Dashboard",
+      "Messaging",
+      "Authentication",
+      "Filters",
+      "Modal dialogs"
+    ],
+    "platformsDetected": [
+      "web",
+      "ios",
+      "api",
+      "cli",
+      "desktop",
+      "android"
+    ],
+    "summary": "Captured 34 screenshots across 16 public URLs. Nav signals: Product, Resources, Customers, Pricing, Now, Contact. Tech signals: React, Next.js, GraphQL, Intercom, Zendesk, Vite. UI patterns: Search, Pricing display, Map view, Tabs, Menus, Dashboard."
+  }
+}

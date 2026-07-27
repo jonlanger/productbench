@@ -1,0 +1,682 @@
+{
+  "capturedAt": "2026-07-26T22:49:42.173Z",
+  "screenshotCount": 32,
+  "pageCount": 15,
+  "pages": [
+    {
+      "url": "https://www.loom.com/",
+      "title": "Free screen recorder for Mac and PC | Loom",
+      "description": "Best free online screen recording tool with advanced video editing and video storage trusted by over 22 million people and easy sharing from Loom.com.",
+      "headings": [
+        "One video is worth a thousand words",
+        "Millions of people across 400,000 companies choose Loom",
+        "Ship faster with AI bug reports",
+        "The easiest screen recorder you’ll ever use",
+        "Lightning fast screen recording",
+        "So much more than a screen recorder",
+        "Edit your videos like a pro",
+        "Share or embed video anywhere you work",
+        "Engage and connect with video",
+        "Keep your content safe",
+        "Video messaging for all use cases",
+        "Sales",
+        "Engineering",
+        "Customer support",
+        "Design",
+        "Powerful features for easy, custom recordings",
+        "How to use async video messaging to improve communication",
+        "When to Choose Synchronous Vs. Asynchronous Communication",
+        "Let Loom AI Do the Work: Say Goodbye to Manual Documentation",
+        "Loom for Enterprise"
+      ],
+      "navLabels": [
+        "Apps",
+        "Solutions",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Sign In",
+        "Get Loom for free",
+        "Contact Sales",
+        "record your screen",
+        "Chrome extension",
+        "desktop app",
+        "mobile app",
+        "Download now"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign In",
+        "Contact Sales",
+        "Learn moreOpen in new window",
+        "Download now",
+        "Start sharing",
+        "Learn more",
+        "EngineeringAdd visual context to your code to accelerate your sprints.",
+        "Explore our blogOpen in new window",
+        "eBooks",
+        "Filter Icon"
+      ],
+      "landmarks": [
+        "header",
+        "nav:primary",
+        "main",
+        "aside",
+        "footer",
+        "dialog:Manage Preferences"
+      ]
+    },
+    {
+      "url": "https://www.loom.com/login",
+      "title": "Log into Loom | Loom",
+      "description": "Use Loom to record quick videos of your screen and cam. Explain anything clearly and easily – and skip the meeting. An essential tool for hybrid workplaces.",
+      "headings": [
+        "Log in to Loom"
+      ],
+      "navLabels": [
+        "Loom",
+        "Sign up for free",
+        "Get Loom for Free",
+        "Ways to use Loom",
+        "About us",
+        "Pricing",
+        "Loom Blog",
+        "Desktop App",
+        "Careers"
+      ],
+      "ctas": [
+        "Sign up for free",
+        "Pricing",
+        "Log in with Google",
+        "Log in with Slack",
+        "Log in with Apple",
+        "Log in with Outlook",
+        "Log in with SSO",
+        "Continue"
+      ],
+      "landmarks": [
+        "main",
+        "header"
+      ]
+    },
+    {
+      "url": "https://www.loom.com/products/mac-screen-recorder",
+      "title": "Free Mac Screen Recorder | Loom",
+      "description": "Capture, edit, and share with Loom’s free Mac Screen recorder—no complicated software required. Boost your team’s productivity with our video recording app.",
+      "headings": [
+        "Free Mac Screen Recorder",
+        "Discover Loom’s Mac screen recorder features",
+        "Millions of people across 400,000 companies choose Loom",
+        "Record your screen and camera",
+        "Make instant edits",
+        "Share your videos in a snap",
+        "Keep your videos in one place",
+        "Get to know Loom’s free screen recorder for macOS",
+        "Get Loom free for Mac",
+        "Explore other ways to use Loom’s screen recorder",
+        "Loom for Design",
+        "Loom for Engineering",
+        "Loom for Sales",
+        "Loom Footer Menu",
+        "Manage Preferences",
+        "Cookie List"
+      ],
+      "navLabels": [
+        "Apps",
+        "Solutions",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Sign In",
+        "Get Loom for free",
+        "Contact Sales"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign In",
+        "Contact Sales",
+        "please contact sales",
+        "Explore Loom Plans",
+        "eBooks",
+        "Filter Icon"
+      ],
+      "landmarks": [
+        "header",
+        "nav:primary",
+        "main",
+        "aside",
+        "footer",
+        "dialog:Manage Preferences"
+      ]
+    },
+    {
+      "url": "https://support.atlassian.com/loom",
+      "title": "Loom support | Loom | Atlassian Support",
+      "headings": [
+        "Loom support",
+        "Not finding the help you need?",
+        "Manage Preferences",
+        "Cookie List"
+      ],
+      "navLabels": [
+        "Skip to main content",
+        "Documentation",
+        "Knowledge base",
+        "Contact us",
+        "Sign in",
+        "Atlassian Support",
+        "Loom"
+      ],
+      "ctas": [
+        "Contact us",
+        "Sign in",
+        "Log in to contact support",
+        "Filter Icon"
+      ],
+      "landmarks": [
+        "navigation",
+        "header",
+        "main",
+        "nav:Breadcrumbs",
+        "footer",
+        "dialog:Manage Preferences"
+      ]
+    },
+    {
+      "url": "https://dev.loom.com/",
+      "title": "Developers | Loom",
+      "description": "Loom developer documentation",
+      "headings": [
+        "Loom for Developers",
+        "The easiest way to implement async video",
+        "Bring Loom’s world-class async video to your app",
+        "Workflows limited only by your imagination"
+      ],
+      "navLabels": [
+        "recordSDK",
+        "embedSDK",
+        "Go to my developer account"
+      ],
+      "ctas": [
+        "Start building"
+      ],
+      "landmarks": [
+        "nav",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.loom.com/pricing",
+      "title": "Loom Pricing | Start Recording For Free | Loom",
+      "description": "Communicate more effectively with video messaging for work. Individuals and teams can get started for free on our Starter plan.",
+      "headings": [
+        "Choose the plan that fits your needs.",
+        "Starter",
+        "Workspace Members & Videos",
+        "Team Workspace",
+        "Video Recording",
+        "Video Editing",
+        "Content Management",
+        "Video Analytics",
+        "Video Interaction",
+        "Security & Privacy",
+        "Integrations",
+        "Business",
+        "Custom Branding",
+        "Support",
+        "Business + AILoom AI"
+      ],
+      "navLabels": [
+        "Apps",
+        "Solutions",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Sign In",
+        "Get Loom for free",
+        "Contact Sales"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign In",
+        "Contact Sales",
+        "Sign up",
+        "Try for free",
+        "Try our discounted plan",
+        "please contact sales",
+        "eBooks",
+        "Filter Icon"
+      ],
+      "landmarks": [
+        "header",
+        "nav:primary",
+        "main",
+        "aside",
+        "footer",
+        "dialog:Manage Preferences"
+      ]
+    },
+    {
+      "url": "https://www.loom.com/product",
+      "title": "Loom | Free Screen & Video Recording Software | Loom",
+      "description": "Use Loom to record quick videos of your screen and cam. Explain anything clearly and easily – and skip the meeting. An essential tool for hybrid workplaces.",
+      "headings": [
+        "You weren’t supposed to see this."
+      ],
+      "navLabels": [
+        "Loom",
+        "Ways to use Loom",
+        "About us",
+        "Pricing",
+        "Get Loom for Free"
+      ],
+      "ctas": [
+        "Pricing"
+      ],
+      "landmarks": [
+        "main",
+        "header"
+      ]
+    },
+    {
+      "url": "https://www.loom.com/products",
+      "title": "",
+      "headings": [
+        "You weren’t supposed to see this.",
+        "Inspiration from the Loom Community",
+        "Loom Footer Menu",
+        "Manage Preferences",
+        "Cookie List"
+      ],
+      "navLabels": [
+        "Apps",
+        "Solutions",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Sign In",
+        "Get Loom for free",
+        "Contact Sales"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign In",
+        "Contact Sales",
+        "eBooks",
+        "Filter Icon"
+      ],
+      "landmarks": [
+        "header",
+        "nav:primary",
+        "main",
+        "footer",
+        "dialog:Manage Preferences"
+      ]
+    },
+    {
+      "url": "https://www.loom.com/features",
+      "title": "Loom | Free Screen & Video Recording Software | Loom",
+      "description": "Use Loom to record quick videos of your screen and cam. Explain anything clearly and easily – and skip the meeting. An essential tool for hybrid workplaces.",
+      "headings": [
+        "You weren’t supposed to see this."
+      ],
+      "navLabels": [
+        "Loom",
+        "Ways to use Loom",
+        "About us",
+        "Pricing",
+        "Get Loom for Free"
+      ],
+      "ctas": [
+        "Pricing"
+      ],
+      "landmarks": [
+        "main",
+        "header"
+      ]
+    },
+    {
+      "url": "https://www.loom.com/platform",
+      "title": "Loom | Free Screen & Video Recording Software | Loom",
+      "description": "Use Loom to record quick videos of your screen and cam. Explain anything clearly and easily – and skip the meeting. An essential tool for hybrid workplaces.",
+      "headings": [
+        "You weren’t supposed to see this."
+      ],
+      "navLabels": [
+        "Loom",
+        "Ways to use Loom",
+        "About us",
+        "Pricing",
+        "Get Loom for Free"
+      ],
+      "ctas": [
+        "Pricing"
+      ],
+      "landmarks": [
+        "main",
+        "header"
+      ]
+    },
+    {
+      "url": "https://www.loom.com/solutions",
+      "title": "",
+      "headings": [
+        "You weren’t supposed to see this.",
+        "Inspiration from the Loom Community",
+        "Loom Footer Menu",
+        "Manage Preferences",
+        "Cookie List"
+      ],
+      "navLabels": [
+        "Apps",
+        "Solutions",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Sign In",
+        "Get Loom for free",
+        "Contact Sales"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign In",
+        "Contact Sales",
+        "eBooks",
+        "Filter Icon"
+      ],
+      "landmarks": [
+        "header",
+        "nav:primary",
+        "main",
+        "footer",
+        "dialog:Manage Preferences"
+      ]
+    },
+    {
+      "url": "https://www.loom.com/customers",
+      "title": "Customer Stories | Loom",
+      "description": "Record video messages of your screen, cam, or both. Faster than typing an email or meeting live.",
+      "headings": [
+        "Companies communicate better with Loom",
+        "How Brex Unblocks Costly Bottlenecks and Spends More Time Designing with Loom",
+        "How Postclick Forged a Powerful One-Team Culture Using Loom",
+        "What Customers are Saying",
+        "See how companies across industries thrive with Loom",
+        "Loom for Design",
+        "Loom for Engineering",
+        "Loom for Marketing",
+        "Loom Footer Menu",
+        "Manage Preferences",
+        "Cookie List"
+      ],
+      "navLabels": [
+        "Apps",
+        "Solutions",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Sign In",
+        "Get Loom for free",
+        "Contact Sales"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign In",
+        "Contact Sales",
+        "eBooks",
+        "Filter Icon"
+      ],
+      "landmarks": [
+        "header",
+        "nav:primary",
+        "main",
+        "aside",
+        "footer",
+        "dialog:Manage Preferences"
+      ]
+    },
+    {
+      "url": "https://www.loom.com/docs",
+      "title": "Loom | Free Screen & Video Recording Software | Loom",
+      "description": "Use Loom to record quick videos of your screen and cam. Explain anything clearly and easily – and skip the meeting. An essential tool for hybrid workplaces.",
+      "headings": [
+        "You weren’t supposed to see this."
+      ],
+      "navLabels": [
+        "Loom",
+        "Ways to use Loom",
+        "About us",
+        "Pricing",
+        "Get Loom for Free"
+      ],
+      "ctas": [
+        "Pricing"
+      ],
+      "landmarks": [
+        "main",
+        "header"
+      ]
+    },
+    {
+      "url": "https://www.atlassian.com/blog/app/loom",
+      "title": "Loom Archives - Inside Atlassian",
+      "headings": [
+        "Leadership",
+        "Teamwork",
+        "Innovation",
+        "Development",
+        "How we build",
+        "Browse all",
+        "Rovo",
+        "Jira",
+        "Confluence",
+        "Loom",
+        "Trello",
+        "Bitbucket",
+        "Jira Service Management",
+        "Browse all apps",
+        "Subscribe to our newsletter",
+        "Thank you for subscribing."
+      ],
+      "navLabels": [
+        "Learn more",
+        "Dismiss",
+        "Inside Atlassian",
+        "Topics",
+        "Back",
+        "AI at Work",
+        "AI Research",
+        "Apps",
+        "News",
+        "Sign up now",
+        "Sign up",
+        "Subscribe"
+      ],
+      "ctas": [
+        "Learn more",
+        "AI Research",
+        "Sign up now",
+        "Sign up",
+        "Subscribe",
+        "Contact us",
+        "Team Playbook",
+        "Create support ticket"
+      ],
+      "landmarks": [
+        "header",
+        "nav:Main Navigation",
+        "search",
+        "dialog",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.loom.com/about",
+      "title": "Loom | Free Screen & Video Recording Software | Loom",
+      "description": "Use Loom to record quick videos of your screen and cam. Explain anything clearly and easily – and skip the meeting. An essential tool for hybrid workplaces.",
+      "headings": [
+        "You weren’t supposed to see this."
+      ],
+      "navLabels": [
+        "Loom",
+        "Ways to use Loom",
+        "About us",
+        "Pricing",
+        "Get Loom for Free"
+      ],
+      "ctas": [
+        "Pricing"
+      ],
+      "landmarks": [
+        "main",
+        "header"
+      ]
+    }
+  ],
+  "navLabels": [
+    "Apps",
+    "Solutions",
+    "Resources",
+    "Enterprise",
+    "Pricing",
+    "Sign In",
+    "Get Loom for free",
+    "Contact Sales",
+    "record your screen",
+    "Chrome extension",
+    "desktop app",
+    "mobile app",
+    "Download now",
+    "Loom",
+    "Sign up for free",
+    "Ways to use Loom",
+    "About us",
+    "Loom Blog",
+    "Careers",
+    "Skip to main content",
+    "Documentation",
+    "Knowledge base",
+    "Contact us",
+    "Atlassian Support",
+    "recordSDK",
+    "embedSDK",
+    "Go to my developer account",
+    "Learn more",
+    "Dismiss",
+    "Inside Atlassian"
+  ],
+  "ctas": [
+    "Pricing",
+    "Sign In",
+    "Contact Sales",
+    "Learn moreOpen in new window",
+    "Download now",
+    "Start sharing",
+    "Learn more",
+    "EngineeringAdd visual context to your code to accelerate your sprints.",
+    "Explore our blogOpen in new window",
+    "eBooks",
+    "Filter Icon",
+    "Sign up for free",
+    "Log in with Google",
+    "Log in with Slack",
+    "Log in with Apple",
+    "Log in with Outlook",
+    "Log in with SSO",
+    "Continue",
+    "please contact sales",
+    "Explore Loom Plans",
+    "Contact us",
+    "Log in to contact support",
+    "Start building",
+    "Sign up"
+  ],
+  "headings": [
+    "One video is worth a thousand words",
+    "Millions of people across 400,000 companies choose Loom",
+    "Ship faster with AI bug reports",
+    "The easiest screen recorder you’ll ever use",
+    "Lightning fast screen recording",
+    "So much more than a screen recorder",
+    "Edit your videos like a pro",
+    "Share or embed video anywhere you work",
+    "Engage and connect with video",
+    "Keep your content safe",
+    "Video messaging for all use cases",
+    "Sales",
+    "Engineering",
+    "Customer support",
+    "Design",
+    "Powerful features for easy, custom recordings",
+    "How to use async video messaging to improve communication",
+    "When to Choose Synchronous Vs. Asynchronous Communication",
+    "Let Loom AI Do the Work: Say Goodbye to Manual Documentation",
+    "Loom for Enterprise",
+    "Log in to Loom",
+    "Free Mac Screen Recorder",
+    "Discover Loom’s Mac screen recorder features",
+    "Record your screen and camera",
+    "Make instant edits",
+    "Share your videos in a snap",
+    "Keep your videos in one place",
+    "Get to know Loom’s free screen recorder for macOS",
+    "Get Loom free for Mac",
+    "Explore other ways to use Loom’s screen recorder"
+  ],
+  "techSignals": [
+    "Next.js",
+    "Webpack",
+    "Google Tag Manager",
+    "React",
+    "Sentry",
+    "Cloudflare",
+    "Intercom",
+    "Segment"
+  ],
+  "featureCandidates": [
+    "One video is worth a thousand words",
+    "Ship faster with AI bug reports",
+    "The easiest screen recorder you’ll ever use",
+    "Lightning fast screen recording",
+    "So much more than a screen recorder",
+    "Edit your videos like a pro",
+    "Share or embed video anywhere you work",
+    "Engage and connect with video",
+    "Keep your content safe",
+    "Video messaging for all use cases",
+    "Sales",
+    "Engineering",
+    "Customer support",
+    "Design",
+    "Powerful features for easy, custom recordings",
+    "Loom for Enterprise",
+    "Log in to Loom",
+    "Free Mac Screen Recorder",
+    "Discover Loom’s Mac screen recorder features",
+    "Record your screen and camera",
+    "Make instant edits",
+    "Share your videos in a snap",
+    "Keep your videos in one place",
+    "Get Loom free for Mac"
+  ],
+  "patternCandidates": [
+    "Pricing display",
+    "Map view",
+    "Tabs",
+    "Menus",
+    "Messaging",
+    "Authentication",
+    "Search"
+  ],
+  "platformsDetected": [
+    "web",
+    "ios",
+    "android",
+    "desktop",
+    "api"
+  ],
+  "summary": "Captured 32 screenshots across 15 public URLs. Nav signals: Apps, Solutions, Resources, Enterprise, Pricing, Sign In. Tech signals: Next.js, Webpack, Google Tag Manager, React, Sentry, Cloudflare. UI patterns: Pricing display, Map view, Tabs, Menus, Messaging, Authentication."
+}

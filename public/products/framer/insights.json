@@ -1,0 +1,655 @@
+{
+  "capturedAt": "2026-07-26T22:51:14.187Z",
+  "screenshotCount": 39,
+  "pageCount": 12,
+  "pages": [
+    {
+      "url": "https://www.framer.com/",
+      "title": "Framer: AI website builder for professional sites",
+      "description": "Create a professional website with Framer’s no-code AI website builder. Design freely, manage CMS content, optimize SEO, collaborate, and publish fast.",
+      "headings": [
+        "Framer is the AI website builder for standout sites",
+        "Shipped with Framer",
+        "Agents that work alongside you, not instead of you",
+        "Design with an agent",
+        "Run your CMS with an agent",
+        "Code with an agent",
+        "Connect to any AI",
+        "Not just vibes, a full platform",
+        "Performance",
+        "CMS",
+        "SEO",
+        "Collaboration",
+        "Localization",
+        "Hosting",
+        "Security",
+        "Analytics",
+        "A/B Testing",
+        "Built on a community that isn’t going anywhere",
+        "Trusted by teams shipping big sites",
+        "Your next idea starts here"
+      ],
+      "navLabels": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines",
+        "Get started for free",
+        "Download app",
+        "Framer 3.0Everything we shipped",
+        "See Framer sites",
+        "Start with agents",
+        "Browse the community",
+        "Read stories"
+      ],
+      "ctas": [
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Get started for free",
+        "Download app",
+        "Start with agents",
+        "Start without AI",
+        "Contact",
+        "Startups"
+      ],
+      "landmarks": [
+        "nav",
+        "main",
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.framer.com/blog/",
+      "title": "Framer: Blog",
+      "description": "Dive into the latest in web design and get exclusive behind-the-scenes access with our curated selection of articles from the Framer team and our passionate community. ",
+      "headings": [
+        "Blog",
+        "Introducing Framer 3.0 with Agents, Branching, and a new Community",
+        "Read more",
+        "Making the Framer Agent cheaper & faster",
+        "Building Agents for Framer",
+        "Why Marketplace is becoming part of the new Framer Community",
+        "AI credits, simpler plans, and lower prices",
+        "Framer Creators: Nandi, the 23yo dropout behind Framer University",
+        "How we pick translation models for Framer",
+        "Latest posts",
+        "More posts",
+        "Koen & Jorn: Framer Reloaded — First of Kind",
+        "Jorn van Dijk on why designers should become founders",
+        "20 best restaurant website examples + design tips",
+        "20 website color schemes & how to pick your site color palette",
+        "11 homepage design examples and best practices",
+        "11 one page website examples for design inspiration"
+      ],
+      "navLabels": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines",
+        "Get started for free",
+        "Download app"
+      ],
+      "ctas": [
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "11 one page website examples for design inspiration12 min readInspiration",
+        "15 small business website examples for design inspiration10 min readInspiration",
+        "Get started for free",
+        "Download app",
+        "Contact",
+        "Startups"
+      ],
+      "landmarks": [
+        "nav",
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.framer.com/help/",
+      "title": "Framer Help: Get answers and support",
+      "description": "Advice and answers from the Framer team.",
+      "headings": [
+        "Find answers to your questions",
+        "Get started",
+        "Accessibility",
+        "Account",
+        "Agents",
+        "Canvas",
+        "CMS",
+        "Community",
+        "Data",
+        "Enterprise",
+        "FAQ",
+        "Integrations",
+        "Localization",
+        "Publishing",
+        "Security",
+        "SEO",
+        "Troubleshooting"
+      ],
+      "navLabels": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines",
+        "Help center"
+      ],
+      "ctas": [
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Get startedSet up your first site10articles",
+        "SEOImprove search visibility23articles",
+        "Contact",
+        "Startups"
+      ],
+      "landmarks": [
+        "nav",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.framer.com/academy/",
+      "title": "Framer Academy: Learn Framer with free courses and tutorials",
+      "description": "Learn how to build websites like a pro — without code.",
+      "headings": [
+        "The best place to learn Framer",
+        "Get Started with Framer Agents",
+        "Courses",
+        "Get started with Framer",
+        "Latest lessons",
+        "Framer CMS basics",
+        "Animations and interactions",
+        "Topics",
+        "New in Framer"
+      ],
+      "navLabels": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines",
+        "Academy",
+        "Courses",
+        "Videos",
+        "Dictionary",
+        "Articles",
+        "Support"
+      ],
+      "ctas": [
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "5:185:18Adding a Locale in Framer3 months ago",
+        "CMS Update: Quickly Add ItemsLast week",
+        "Contact"
+      ],
+      "landmarks": [
+        "nav",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.framer.com/developers/",
+      "title": "Framer: AI website builder for professional sites",
+      "description": "Create a professional website with Framer’s no-code AI website builder. Design freely, manage CMS content, optimize SEO, collaborate, and publish fast.",
+      "headings": [
+        "Framer for Developers"
+      ],
+      "navLabels": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines",
+        "Overview",
+        "Compare",
+        "FAQ",
+        "Plugins",
+        "Introduction",
+        "Quick Start",
+        "Publishing",
+        "Changelog",
+        "Reference",
+        "Examples",
+        "Asset Sharing",
+        "Auto-Sizing",
+        "Property Controls"
+      ],
+      "ctas": [
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Quick Start",
+        "Contact",
+        "Startups"
+      ],
+      "landmarks": [
+        "nav",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.framer.com/help/articles/how-to-manage-roles-and-permissions/",
+      "title": "Framer: 404 page not found",
+      "description": "This page was not found",
+      "headings": [
+        "Page not found"
+      ],
+      "navLabels": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines"
+      ],
+      "ctas": [
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Contact",
+        "Startups"
+      ],
+      "landmarks": [
+        "nav",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.framer.com/pricing",
+      "title": "Framer pricing: Free, Basic, Pro, and Enterprise plans",
+      "description": "Compare Framer plans for websites, teams, and enterprises. Start free, then choose the right plan for AI credits, CMS, bandwidth, add-ons, and hosting.",
+      "headings": [
+        "Start free, then scale your site",
+        "Free",
+        "Basic",
+        "Pro",
+        "Enterprise",
+        "FAQ",
+        "What are credits?",
+        "What’s included in the Free plan?",
+        "Which plan is right for me?",
+        "How are extra editors billed?",
+        "What happens if I go over a limit?",
+        "How many add-ons can you purchase on the Pro plan?",
+        "How are events billed for the Convert add-on?",
+        "What’s included in the Advanced Hosting add-on?",
+        "What if my open-source or side project receives a lot of traffic?",
+        "What payment methods do you offer?",
+        "What is your refund policy?"
+      ],
+      "navLabels": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines"
+      ],
+      "ctas": [
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "500 credits to try",
+        "Start for Free",
+        "Start with Basic",
+        "Start with Pro",
+        "Learn more",
+        "Please contact us",
+        "contact our Support team",
+        "Contact",
+        "Startups"
+      ],
+      "landmarks": [
+        "nav",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.framer.com/product",
+      "title": "Framer: 404 page not found",
+      "description": "This page was not found",
+      "headings": [
+        "Page not found"
+      ],
+      "navLabels": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines"
+      ],
+      "ctas": [
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Contact",
+        "Startups"
+      ],
+      "landmarks": [
+        "nav",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.framer.com/products",
+      "title": "Framer: 404 page not found",
+      "description": "This page was not found",
+      "headings": [
+        "Page not found"
+      ],
+      "navLabels": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines"
+      ],
+      "ctas": [
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Contact",
+        "Startups"
+      ],
+      "landmarks": [
+        "nav",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.framer.com/platform",
+      "title": "Framer: 404 page not found",
+      "description": "This page was not found",
+      "headings": [
+        "Page not found"
+      ],
+      "navLabels": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines"
+      ],
+      "ctas": [
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Contact",
+        "Startups"
+      ],
+      "landmarks": [
+        "nav",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.framer.com/solutions",
+      "title": "Framer: 404 page not found",
+      "description": "This page was not found",
+      "headings": [
+        "Page not found"
+      ],
+      "navLabels": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines"
+      ],
+      "ctas": [
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Contact",
+        "Startups"
+      ],
+      "landmarks": [
+        "nav",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.framer.com/stories/",
+      "title": "Framer Stories: Real projects and insights",
+      "description": "From startups to Fortune 500s, teams use Framer to design, build, and launch award-winning sites at record speed.",
+      "headings": [
+        "Stories from teams building standout sites",
+        "Visit site",
+        "Read story"
+      ],
+      "navLabels": [
+        "Framer",
+        "Product",
+        "Community",
+        "Resources",
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Copy logo SVG",
+        "Brand guidelines",
+        "Join agency program"
+      ],
+      "ctas": [
+        "Pricing",
+        "Log in",
+        "Sign up",
+        "Join agency program",
+        "Contact",
+        "Startups"
+      ],
+      "landmarks": [
+        "nav",
+        "header",
+        "footer"
+      ]
+    }
+  ],
+  "navLabels": [
+    "Framer",
+    "Product",
+    "Community",
+    "Resources",
+    "Enterprise",
+    "Pricing",
+    "Log in",
+    "Sign up",
+    "Copy logo SVG",
+    "Brand guidelines",
+    "Get started for free",
+    "Download app",
+    "Framer 3.0Everything we shipped",
+    "See Framer sites",
+    "Start with agents",
+    "Browse the community",
+    "Read stories",
+    "Help center",
+    "Academy",
+    "Courses",
+    "Videos",
+    "Dictionary",
+    "Articles",
+    "Support",
+    "Overview",
+    "Compare",
+    "FAQ",
+    "Plugins",
+    "Introduction",
+    "Quick Start"
+  ],
+  "ctas": [
+    "Pricing",
+    "Log in",
+    "Sign up",
+    "Get started for free",
+    "Download app",
+    "Start with agents",
+    "Start without AI",
+    "Contact",
+    "Startups",
+    "11 one page website examples for design inspiration12 min readInspiration",
+    "15 small business website examples for design inspiration10 min readInspiration",
+    "Get startedSet up your first site10articles",
+    "SEOImprove search visibility23articles",
+    "5:185:18Adding a Locale in Framer3 months ago",
+    "CMS Update: Quickly Add ItemsLast week",
+    "Quick Start",
+    "500 credits to try",
+    "Start for Free",
+    "Start with Basic",
+    "Start with Pro",
+    "Learn more",
+    "Please contact us",
+    "contact our Support team",
+    "Join agency program"
+  ],
+  "headings": [
+    "Framer is the AI website builder for standout sites",
+    "Shipped with Framer",
+    "Agents that work alongside you, not instead of you",
+    "Design with an agent",
+    "Run your CMS with an agent",
+    "Code with an agent",
+    "Connect to any AI",
+    "Not just vibes, a full platform",
+    "Performance",
+    "CMS",
+    "SEO",
+    "Collaboration",
+    "Localization",
+    "Hosting",
+    "Security",
+    "Analytics",
+    "A/B Testing",
+    "Built on a community that isn’t going anywhere",
+    "Trusted by teams shipping big sites",
+    "Your next idea starts here",
+    "Blog",
+    "Introducing Framer 3.0 with Agents, Branching, and a new Community",
+    "Read more",
+    "Making the Framer Agent cheaper & faster",
+    "Building Agents for Framer",
+    "Why Marketplace is becoming part of the new Framer Community",
+    "AI credits, simpler plans, and lower prices",
+    "Framer Creators: Nandi, the 23yo dropout behind Framer University",
+    "How we pick translation models for Framer",
+    "Latest posts"
+  ],
+  "techSignals": [
+    "Next.js",
+    "Vite",
+    "Google Tag Manager",
+    "Contentful",
+    "Sanity",
+    "Intercom",
+    "React"
+  ],
+  "featureCandidates": [
+    "Shipped with Framer",
+    "Design with an agent",
+    "Run your CMS with an agent",
+    "Code with an agent",
+    "Connect to any AI",
+    "Not just vibes, a full platform",
+    "Performance",
+    "Collaboration",
+    "Localization",
+    "Hosting",
+    "Security",
+    "Analytics",
+    "A/B Testing",
+    "Built on a community that isn’t going anywhere",
+    "Trusted by teams shipping big sites",
+    "Your next idea starts here",
+    "Blog",
+    "Read more",
+    "Making the Framer Agent cheaper & faster",
+    "Building Agents for Framer",
+    "AI credits, simpler plans, and lower prices",
+    "How we pick translation models for Framer",
+    "Latest posts",
+    "Pricing"
+  ],
+  "patternCandidates": [
+    "Search",
+    "Pricing display",
+    "Map view",
+    "Carousels",
+    "Tabs",
+    "Authentication",
+    "Card layout",
+    "Menus",
+    "Calendar",
+    "Checkout"
+  ],
+  "platformsDetected": [
+    "web",
+    "desktop",
+    "api",
+    "cli",
+    "ios"
+  ],
+  "summary": "Captured 39 screenshots across 12 public URLs. Nav signals: Framer, Product, Community, Resources, Enterprise, Pricing. Tech signals: Next.js, Vite, Google Tag Manager, Contentful, Sanity, Intercom. UI patterns: Search, Pricing display, Map view, Carousels, Tabs, Authentication."
+}

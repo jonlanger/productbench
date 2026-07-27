@@ -1,0 +1,192 @@
+{
+  "slug": "tesla-service",
+  "capturedAt": "2026-07-27T00:18:29.644Z",
+  "shots": [
+    {
+      "file": "surface-2.jpg",
+      "title": "Owner service schedule (1)",
+      "caption": "Tesla Service Mode public surface · developer.tesla.com",
+      "kind": "product",
+      "sourceUrl": "https://developer.tesla.com/"
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "Owner service schedule (2)",
+      "caption": "Tesla Service Mode public surface · developer.tesla.com",
+      "kind": "product",
+      "sourceUrl": "https://developer.tesla.com/"
+    },
+    {
+      "file": "fallback-appstore-582007913-1.jpg",
+      "title": "Tesla screenshot 1",
+      "caption": "Apple App Store public screenshot (id 582007913)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id582007913"
+    },
+    {
+      "file": "fallback-appstore-582007913-2.jpg",
+      "title": "Tesla screenshot 2",
+      "caption": "Apple App Store public screenshot (id 582007913)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id582007913"
+    },
+    {
+      "file": "fallback-appstore-582007913-3.jpg",
+      "title": "Tesla screenshot 3",
+      "caption": "Apple App Store public screenshot (id 582007913)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id582007913"
+    },
+    {
+      "file": "fallback-appstore-582007913-4.jpg",
+      "title": "Tesla screenshot 4",
+      "caption": "Apple App Store public screenshot (id 582007913)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id582007913"
+    },
+    {
+      "file": "fallback-appstore-582007913-5.jpg",
+      "title": "Tesla screenshot 5",
+      "caption": "Apple App Store public screenshot (id 582007913)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id582007913"
+    },
+    {
+      "file": "fallback-appstore-1625770308-6.jpg",
+      "title": "Tesla One screenshot 6",
+      "caption": "Apple App Store public screenshot (id 1625770308)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1625770308"
+    },
+    {
+      "file": "fallback-appstore-1625770308-7.jpg",
+      "title": "Tesla One screenshot 7",
+      "caption": "Apple App Store public screenshot (id 1625770308)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1625770308"
+    },
+    {
+      "file": "fallback-appstore-1625770308-8.jpg",
+      "title": "Tesla One screenshot 8",
+      "caption": "Apple App Store public screenshot (id 1625770308)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1625770308"
+    },
+    {
+      "file": "fallback-appstore-1625770308-9.jpg",
+      "title": "Tesla One screenshot 9",
+      "caption": "Apple App Store public screenshot (id 1625770308)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1625770308"
+    },
+    {
+      "file": "fallback-appstore-1625770308-10.jpg",
+      "title": "Tesla One screenshot 10",
+      "caption": "Apple App Store public screenshot (id 1625770308)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1625770308"
+    },
+    {
+      "file": "fallback-appstore-1625770308-11.jpg",
+      "title": "Tesla One screenshot 11",
+      "caption": "Apple App Store public screenshot (id 1625770308)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1625770308"
+    },
+    {
+      "file": "fallback-appstore-1625770308-12.jpg",
+      "title": "Tesla One screenshot 12",
+      "caption": "Apple App Store public screenshot (id 1625770308)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1625770308"
+    },
+    {
+      "file": "fallback-appstore-1625770308-13.jpg",
+      "title": "Tesla One screenshot 13",
+      "caption": "Apple App Store public screenshot (id 1625770308)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1625770308"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T00:18:29.644Z",
+    "screenshotCount": 15,
+    "pageCount": 1,
+    "pages": [
+      {
+        "url": "https://developer.tesla.com/",
+        "title": "Tesla | Developer",
+        "description": "Manage your developer details",
+        "headings": [
+          "DeveloperSkip to main content",
+          "Fleet API",
+          "Experience Fleet API with no costs for personal use",
+          "Usage Based Pricing",
+          "How to Onboard Your App?"
+        ],
+        "navLabels": [
+          "Developer",
+          "Skip to main content",
+          "Menu",
+          "Tesla © 2026",
+          "Privacy & Legal"
+        ],
+        "ctas": [
+          "Sign In",
+          "Get Started",
+          "Create Account"
+        ],
+        "landmarks": [
+          "header",
+          "main",
+          "footer",
+          "nav"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Developer",
+      "Skip to main content",
+      "Menu",
+      "Tesla © 2026",
+      "Privacy & Legal"
+    ],
+    "ctas": [
+      "Sign In",
+      "Get Started",
+      "Create Account"
+    ],
+    "headings": [
+      "DeveloperSkip to main content",
+      "Fleet API",
+      "Experience Fleet API with no costs for personal use",
+      "Usage Based Pricing",
+      "How to Onboard Your App?"
+    ],
+    "techSignals": [
+      "Next.js",
+      "Webpack"
+    ],
+    "featureCandidates": [
+      "DeveloperSkip to main content",
+      "Fleet API",
+      "Usage Based Pricing",
+      "How to Onboard Your App?",
+      "Get Started",
+      "Create Account"
+    ],
+    "patternCandidates": [
+      "Pricing display",
+      "Menus",
+      "Authentication"
+    ],
+    "platformsDetected": [
+      "web",
+      "api"
+    ],
+    "summary": "Captured 15 screenshots across 1 public URLs. Nav signals: Developer, Skip to main content, Menu, Tesla © 2026, Privacy & Legal. Tech signals: Next.js, Webpack. UI patterns: Pricing display, Menus, Authentication."
+  },
+  "fallback": {
+    "blockedNavigations": 8
+  }
+}

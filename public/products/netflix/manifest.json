@@ -1,0 +1,337 @@
+{
+  "slug": "netflix",
+  "capturedAt": "2026-07-27T00:23:16.145Z",
+  "shots": [
+    {
+      "file": "surface-1.jpg",
+      "title": "Home (1)",
+      "caption": "Netflix public surface · help.netflix.com",
+      "kind": "product",
+      "sourceUrl": "https://help.netflix.com/en"
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "Home (2)",
+      "caption": "Netflix public surface · help.netflix.com",
+      "kind": "product",
+      "sourceUrl": "https://help.netflix.com/en"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7",
+      "caption": "Netflix public surface · netflix.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Ffeatures"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8",
+      "caption": "Netflix public surface · netflix.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fplatform"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9",
+      "caption": "Netflix public surface · netflix.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fsolutions"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10",
+      "caption": "Netflix public surface · netflix.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fcustomers"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11",
+      "caption": "Netflix public surface · netflix.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fdocs"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12 (1)",
+      "caption": "Netflix public surface · netflix.com",
+      "kind": "docs",
+      "sourceUrl": "https://help.netflix.com/en"
+    },
+    {
+      "file": "surface-12-mid.jpg",
+      "title": "Supporting surface 12 (2)",
+      "caption": "Netflix public surface · netflix.com",
+      "kind": "docs",
+      "sourceUrl": "https://help.netflix.com/en"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13",
+      "caption": "Netflix public surface · netflix.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fblog"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14",
+      "caption": "Netflix public surface · netflix.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Fabout"
+    },
+    {
+      "file": "fallback-docs-1.jpg",
+      "title": "Docs UI 1",
+      "caption": "Fallback from public docs: https://about.netflix.com/en",
+      "kind": "supporting",
+      "sourceUrl": "https://about.netflix.com/en"
+    },
+    {
+      "file": "fallback-docs-2.jpg",
+      "title": "Docs UI 2",
+      "caption": "Fallback from public docs: https://about.netflix.com/en",
+      "kind": "supporting",
+      "sourceUrl": "https://about.netflix.com/en"
+    },
+    {
+      "file": "fallback-docs-3.jpg",
+      "title": "Docs UI 3",
+      "caption": "Fallback from public docs: https://about.netflix.com/en",
+      "kind": "supporting",
+      "sourceUrl": "https://about.netflix.com/en"
+    },
+    {
+      "file": "fallback-appstore-363590051-1.jpg",
+      "title": "Netflix screenshot 1",
+      "caption": "Apple App Store public screenshot (id 363590051)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id363590051"
+    },
+    {
+      "file": "fallback-appstore-363590051-2.jpg",
+      "title": "Netflix screenshot 2",
+      "caption": "Apple App Store public screenshot (id 363590051)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id363590051"
+    },
+    {
+      "file": "fallback-appstore-363590051-3.jpg",
+      "title": "Netflix screenshot 3",
+      "caption": "Apple App Store public screenshot (id 363590051)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id363590051"
+    },
+    {
+      "file": "fallback-appstore-363590051-4.jpg",
+      "title": "Netflix screenshot 4",
+      "caption": "Apple App Store public screenshot (id 363590051)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id363590051"
+    },
+    {
+      "file": "fallback-appstore-363590051-5.jpg",
+      "title": "Netflix screenshot 5",
+      "caption": "Apple App Store public screenshot (id 363590051)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id363590051"
+    },
+    {
+      "file": "fallback-appstore-363590051-6.jpg",
+      "title": "Netflix screenshot 6",
+      "caption": "Apple App Store public screenshot (id 363590051)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id363590051"
+    },
+    {
+      "file": "fallback-appstore-363590051-7.jpg",
+      "title": "Netflix screenshot 7",
+      "caption": "Apple App Store public screenshot (id 363590051)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id363590051"
+    },
+    {
+      "file": "fallback-appstore-363590051-8.jpg",
+      "title": "Netflix screenshot 8",
+      "caption": "Apple App Store public screenshot (id 363590051)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id363590051"
+    },
+    {
+      "file": "fallback-appstore-363590051-9.jpg",
+      "title": "Netflix screenshot 9",
+      "caption": "Apple App Store public screenshot (id 363590051)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id363590051"
+    },
+    {
+      "file": "fallback-appstore-363590051-10.jpg",
+      "title": "Netflix screenshot 10",
+      "caption": "Apple App Store public screenshot (id 363590051)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id363590051"
+    },
+    {
+      "file": "fallback-appstore-363590051-11.jpg",
+      "title": "Netflix screenshot 11",
+      "caption": "Apple App Store public screenshot (id 363590051)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id363590051"
+    },
+    {
+      "file": "fallback-appstore-363590051-12.jpg",
+      "title": "Netflix screenshot 12",
+      "caption": "Apple App Store public screenshot (id 363590051)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id363590051"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T00:23:16.145Z",
+    "screenshotCount": 26,
+    "pageCount": 2,
+    "pages": [
+      {
+        "url": "https://help.netflix.com/en",
+        "title": "Netflix Help Center",
+        "description": "Learn how to sign up and use Netflix. Get help with account issues, troubleshooting and questions.",
+        "headings": [
+          "How can we help?",
+          "Quick Links",
+          "Need more help?",
+          "Privacy Preference Center",
+          "General Description",
+          "Essential Cookies",
+          "First Party Performance and Functionality Cookies",
+          "Third Party Performance and Functionality Cookies",
+          "Advertising Cookies",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Cookies and other Technologies",
+          "Privacy Statement.",
+          "Terms of Use.",
+          "Cookies Details",
+          "Terms of Use",
+          "Privacy Statement"
+        ],
+        "ctas": [
+          "Join Netflix",
+          "Sign In",
+          "Search",
+          "How to sign up for Netflix",
+          "Plans and Pricing",
+          "Can't sign in to Netflix",
+          "Explore Topics",
+          "Netflix says to sign up when trying to sign in",
+          "How to create, edit, or delete profiles",
+          "How to download titles to watch offline",
+          "How to search and browse Netflix",
+          "How to remove titles from the 'Continue Watching' row",
+          "How to add, edit, or remove a profile PIN",
+          "How to create a profile for kids",
+          "How to find and download Netflix mobile games",
+          "Getting started with Netflix",
+          "How to download the Netflix app",
+          "Contact Us",
+          "Filter Button"
+        ],
+        "landmarks": [
+          "dialog:Privacy Preference Center",
+          "navigation:Cookie Categories"
+        ]
+      },
+      {
+        "url": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Ffeatures",
+        "title": "Netflix",
+        "headings": [
+          "Lost your way?"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      }
+    ],
+    "navLabels": [
+      "Cookies and other Technologies",
+      "Privacy Statement.",
+      "Terms of Use.",
+      "Cookies Details",
+      "Terms of Use",
+      "Privacy Statement"
+    ],
+    "ctas": [
+      "Join Netflix",
+      "Sign In",
+      "Search",
+      "How to sign up for Netflix",
+      "Plans and Pricing",
+      "Can't sign in to Netflix",
+      "Explore Topics",
+      "Netflix says to sign up when trying to sign in",
+      "How to create, edit, or delete profiles",
+      "How to download titles to watch offline",
+      "How to search and browse Netflix",
+      "How to remove titles from the 'Continue Watching' row",
+      "How to add, edit, or remove a profile PIN",
+      "How to create a profile for kids",
+      "How to find and download Netflix mobile games",
+      "Getting started with Netflix",
+      "How to download the Netflix app",
+      "Contact Us",
+      "Filter Button"
+    ],
+    "headings": [
+      "How can we help?",
+      "Quick Links",
+      "Need more help?",
+      "Privacy Preference Center",
+      "General Description",
+      "Essential Cookies",
+      "First Party Performance and Functionality Cookies",
+      "Third Party Performance and Functionality Cookies",
+      "Advertising Cookies",
+      "Cookie List",
+      "Lost your way?"
+    ],
+    "techSignals": [],
+    "featureCandidates": [
+      "How can we help?",
+      "Quick Links",
+      "Need more help?",
+      "Privacy Preference Center",
+      "General Description",
+      "Essential Cookies",
+      "Advertising Cookies",
+      "Cookie List",
+      "Lost your way?",
+      "Join Netflix",
+      "Search",
+      "Plans and Pricing",
+      "Explore Topics",
+      "How to create, edit, or delete profiles",
+      "How to download titles to watch offline",
+      "How to search and browse Netflix",
+      "How to remove titles from the 'Continue Watching' row",
+      "How to add, edit, or remove a profile PIN",
+      "How to create a profile for kids",
+      "How to find and download Netflix mobile games",
+      "Getting started with Netflix",
+      "How to download the Netflix app",
+      "Contact Us",
+      "Filter Button"
+    ],
+    "patternCandidates": [
+      "Search",
+      "Pricing display",
+      "Authentication"
+    ],
+    "platformsDetected": [
+      "web",
+      "api"
+    ],
+    "summary": "Captured 26 screenshots across 2 public URLs. Nav signals: Cookies and other Technologies, Privacy Statement., Terms of Use., Cookies Details, Terms of Use, Privacy Statement. UI patterns: Search, Pricing display, Authentication."
+  },
+  "fallback": {
+    "blockedNavigations": 8
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "capturedAt": "2026-07-27T00:23:16.145Z",
+  "screenshotCount": 26,
+  "pageCount": 2,
+  "pages": [
+    {
+      "url": "https://help.netflix.com/en",
+      "title": "Netflix Help Center",
+      "description": "Learn how to sign up and use Netflix. Get help with account issues, troubleshooting and questions.",
+      "headings": [
+        "How can we help?",
+        "Quick Links",
+        "Need more help?",
+        "Privacy Preference Center",
+        "General Description",
+        "Essential Cookies",
+        "First Party Performance and Functionality Cookies",
+        "Third Party Performance and Functionality Cookies",
+        "Advertising Cookies",
+        "Cookie List"
+      ],
+      "navLabels": [
+        "Cookies and other Technologies",
+        "Privacy Statement.",
+        "Terms of Use.",
+        "Cookies Details",
+        "Terms of Use",
+        "Privacy Statement"
+      ],
+      "ctas": [
+        "Join Netflix",
+        "Sign In",
+        "Search",
+        "How to sign up for Netflix",
+        "Plans and Pricing",
+        "Can't sign in to Netflix",
+        "Explore Topics",
+        "Netflix says to sign up when trying to sign in",
+        "How to create, edit, or delete profiles",
+        "How to download titles to watch offline",
+        "How to search and browse Netflix",
+        "How to remove titles from the 'Continue Watching' row",
+        "How to add, edit, or remove a profile PIN",
+        "How to create a profile for kids",
+        "How to find and download Netflix mobile games",
+        "Getting started with Netflix",
+        "How to download the Netflix app",
+        "Contact Us",
+        "Filter Button"
+      ],
+      "landmarks": [
+        "dialog:Privacy Preference Center",
+        "navigation:Cookie Categories"
+      ]
+    },
+    {
+      "url": "https://www.netflix.com/NotFound?prev=https%3A%2F%2Fwww.netflix.com%2Ffeatures",
+      "title": "Netflix",
+      "headings": [
+        "Lost your way?"
+      ],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": []
+    }
+  ],
+  "navLabels": [
+    "Cookies and other Technologies",
+    "Privacy Statement.",
+    "Terms of Use.",
+    "Cookies Details",
+    "Terms of Use",
+    "Privacy Statement"
+  ],
+  "ctas": [
+    "Join Netflix",
+    "Sign In",
+    "Search",
+    "How to sign up for Netflix",
+    "Plans and Pricing",
+    "Can't sign in to Netflix",
+    "Explore Topics",
+    "Netflix says to sign up when trying to sign in",
+    "How to create, edit, or delete profiles",
+    "How to download titles to watch offline",
+    "How to search and browse Netflix",
+    "How to remove titles from the 'Continue Watching' row",
+    "How to add, edit, or remove a profile PIN",
+    "How to create a profile for kids",
+    "How to find and download Netflix mobile games",
+    "Getting started with Netflix",
+    "How to download the Netflix app",
+    "Contact Us",
+    "Filter Button"
+  ],
+  "headings": [
+    "How can we help?",
+    "Quick Links",
+    "Need more help?",
+    "Privacy Preference Center",
+    "General Description",
+    "Essential Cookies",
+    "First Party Performance and Functionality Cookies",
+    "Third Party Performance and Functionality Cookies",
+    "Advertising Cookies",
+    "Cookie List",
+    "Lost your way?"
+  ],
+  "techSignals": [],
+  "featureCandidates": [
+    "How can we help?",
+    "Quick Links",
+    "Need more help?",
+    "Privacy Preference Center",
+    "General Description",
+    "Essential Cookies",
+    "Advertising Cookies",
+    "Cookie List",
+    "Lost your way?",
+    "Join Netflix",
+    "Search",
+    "Plans and Pricing",
+    "Explore Topics",
+    "How to create, edit, or delete profiles",
+    "How to download titles to watch offline",
+    "How to search and browse Netflix",
+    "How to remove titles from the 'Continue Watching' row",
+    "How to add, edit, or remove a profile PIN",
+    "How to create a profile for kids",
+    "How to find and download Netflix mobile games",
+    "Getting started with Netflix",
+    "How to download the Netflix app",
+    "Contact Us",
+    "Filter Button"
+  ],
+  "patternCandidates": [
+    "Search",
+    "Pricing display",
+    "Authentication"
+  ],
+  "platformsDetected": [
+    "web",
+    "api"
+  ],
+  "summary": "Captured 26 screenshots across 2 public URLs. Nav signals: Cookies and other Technologies, Privacy Statement., Terms of Use., Cookies Details, Terms of Use, Privacy Statement. UI patterns: Search, Pricing display, Authentication."
+}

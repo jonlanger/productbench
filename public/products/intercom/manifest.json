@@ -1,0 +1,933 @@
+{
+  "slug": "intercom",
+  "capturedAt": "2026-07-26T22:16:46.826Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Inbox",
+      "caption": "Intercom public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.intercom.com/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "Intercom homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.intercom.com/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Intercom homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.intercom.com/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "Intercom homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.intercom.com/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Intercom homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.intercom.com/"
+    },
+    {
+      "file": "search-composer.jpg",
+      "title": "Search / composer",
+      "caption": "Focused search or primary input on Intercom",
+      "kind": "component",
+      "sourceUrl": "https://www.intercom.com/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on Intercom (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://www.intercom.com/"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from Intercom",
+      "kind": "product",
+      "sourceUrl": "https://www.intercom.com/helpdesk/copilot"
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from Intercom",
+      "kind": "product",
+      "sourceUrl": "https://www.intercom.com/helpdesk/copilot"
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "In-product nav (3)",
+      "caption": "Same-origin product / pricing / docs links from Intercom",
+      "kind": "product",
+      "sourceUrl": "https://www.intercom.com/helpdesk/copilot"
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "In-product nav (4)",
+      "caption": "Same-origin product / pricing / docs links from Intercom",
+      "kind": "product",
+      "sourceUrl": "https://www.intercom.com/helpdesk/copilot"
+    },
+    {
+      "file": "nav-5.jpg",
+      "title": "In-product nav (5)",
+      "caption": "Same-origin product / pricing / docs links from Intercom",
+      "kind": "product",
+      "sourceUrl": "https://www.intercom.com/helpdesk/copilot"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Conversation (1)",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "product",
+      "sourceUrl": "https://www.intercom.com/help/en/"
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "Conversation (2)",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "product",
+      "sourceUrl": "https://www.intercom.com/help/en/"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Help Center editor",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "product",
+      "sourceUrl": "https://www.intercom.com/help/en/articles/6589680-getting-started-with-intercom"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Fin settings (1)",
+      "caption": "Intercom public surface · developers.intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://developers.intercom.com/docs"
+    },
+    {
+      "file": "surface-3-mid.jpg",
+      "title": "Fin settings (2)",
+      "caption": "Intercom public surface · developers.intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://developers.intercom.com/docs"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Workflows (1)",
+      "caption": "Intercom public surface · developers.intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io/data-events"
+    },
+    {
+      "file": "surface-4-mid.jpg",
+      "title": "Workflows (2)",
+      "caption": "Intercom public surface · developers.intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io/data-events"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Reports",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/help/en/collections/3391782-teammate-and-workspace-settings"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6 (1)",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/pricing"
+    },
+    {
+      "file": "surface-6-mid.jpg",
+      "title": "Supporting surface 6 (2)",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/pricing"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/product"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/products"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/features"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10 (1)",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/"
+    },
+    {
+      "file": "surface-10-mid.jpg",
+      "title": "Supporting surface 10 (2)",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/solutions"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12 (1)",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/customers"
+    },
+    {
+      "file": "surface-12-mid.jpg",
+      "title": "Supporting surface 12 (2)",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/customers"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/docs"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14 (1)",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/help/en/"
+    },
+    {
+      "file": "surface-14-mid.jpg",
+      "title": "Supporting surface 14 (2)",
+      "caption": "Intercom public surface · intercom.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.intercom.com/help/en/"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-26T22:16:46.826Z",
+    "screenshotCount": 33,
+    "pageCount": 14,
+    "pages": [
+      {
+        "url": "https://www.intercom.com/",
+        "title": "Intercom | The only helpdesk designed for the AI Agent era",
+        "description": "The only helpdesk with a natively integrated AI Agent. Deliver perfect customer experiences with the highest-performing platform. Start your free trial today.",
+        "headings": [
+          "The only helpdesk designed for the AI Agent era",
+          "A complete solution for AI and human agents",
+          "AI-powered agent workspace",
+          "A seamless experience for customers and agents",
+          "AI-powered Insights across every interaction",
+          "A self-improving system",
+          "A world-class AI Agent",
+          "A fully-featured AI-powered helpdesk",
+          "Resolve queries faster",
+          "Deliver tailored experiences across every channel",
+          "Engage customersat the right moment",
+          "Monitor and improve every interaction",
+          "A true partner with deep domain expertise",
+          "The company you can trust",
+          "Expert support, at every stage"
+        ],
+        "navLabels": [
+          "Fin",
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Product",
+          "Customers",
+          "Resources",
+          "Pricing",
+          "Fin AI Agent"
+        ],
+        "ctas": [
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Pricing",
+          "Learn more"
+        ],
+        "landmarks": [
+          "main",
+          "header",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.intercom.com/helpdesk/copilot",
+        "title": "Copilot | An AI assistant for every support agent",
+        "description": "Increase agent efficiency by 31% with Copilot, a personal AI assistant that gives agents instant answers so your team can focus on customer relationships.",
+        "headings": [
+          "Increase agent efficiency by 31% with Copilot",
+          "Give your agents time for what really matters",
+          "Part of the only complete, AI-first customer service platform",
+          "Inbox+-Maximize productivity with an AI-enhanced inbox.",
+          "Enter the new age of customer service with Copilot"
+        ],
+        "navLabels": [
+          "Fin",
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Product",
+          "Customers",
+          "Resources",
+          "Pricing",
+          "Fin AI Agent"
+        ],
+        "ctas": [
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Pricing",
+          "Intercom pricing",
+          "Fin pricing",
+          "Contact Press",
+          "Sign in",
+          "Pricing▼"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer",
+          "dialog:Privacy"
+        ]
+      },
+      {
+        "url": "https://www.intercom.com/help/en/",
+        "title": "Home | Intercom Help",
+        "description": "Intercom Help",
+        "headings": [
+          "Great service changes everything."
+        ],
+        "navLabels": [
+          "Contact sales",
+          "View demo",
+          "Start free trial"
+        ],
+        "ctas": [
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Getting Started10 authors35 articles",
+          "Contacts13 authors43 articles",
+          "Join us on October 7"
+        ],
+        "landmarks": [
+          "main",
+          "header",
+          "nav",
+          "footer",
+          "dialog:Privacy"
+        ]
+      },
+      {
+        "url": "https://www.intercom.com/help/en/articles/6589680-getting-started-with-intercom",
+        "title": "Intercom Help",
+        "description": "Intercom Help",
+        "headings": [
+          "Great service changes everything."
+        ],
+        "navLabels": [
+          "Contact sales",
+          "View demo",
+          "Start free trial"
+        ],
+        "ctas": [
+          "Contact sales",
+          "View demo",
+          "Start free trial"
+        ],
+        "landmarks": [
+          "main",
+          "header",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://developers.intercom.com/docs",
+        "title": "Overview | Intercom and Fin Developer Platform",
+        "description": "Faster resolutions, higher CSAT, and lighter support volumes with the only platform to combine the power of automation and human customer support.",
+        "headings": [
+          "Overview",
+          "Install Intercom",
+          "For Public App Developers",
+          "Set up a development workspace",
+          "Build your app",
+          "Submit for review",
+          "For Private App Developers",
+          "Install apps from the App Store",
+          "Build your own integration",
+          "Configure your app",
+          "Getting help",
+          "Cookie Notice",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Installation",
+          "Docs",
+          "API Reference",
+          "Developer Hub",
+          "App Store"
+        ],
+        "ctas": [
+          "sign up here",
+          "create a new app",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav",
+          "aside",
+          "main",
+          "footer",
+          "dialog:Cookie Notice"
+        ]
+      },
+      {
+        "url": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io/data-events",
+        "title": "Intercom API | Intercom and Fin Developer Platform",
+        "headings": [
+          "Intercom API (2.16)",
+          "Admins",
+          "AI Content",
+          "Articles",
+          "Audiences",
+          "Away Status Reasons",
+          "Banners",
+          "Brands",
+          "Calls",
+          "Companies",
+          "Contacts",
+          "Content",
+          "Content Snippets",
+          "Conversations",
+          "Conversations Attributes",
+          "Custom Object Instances",
+          "Data Attributes",
+          "Data Connectors",
+          "Data Events",
+          "Data Export"
+        ],
+        "navLabels": [
+          "Installation",
+          "Docs",
+          "API Reference",
+          "Developer Hub",
+          "App Store"
+        ],
+        "ctas": [
+          "Contacts",
+          "Create event summariespost",
+          "post/admins/activity_logs/search",
+          "schemaArticle Search Highlights",
+          "schemaArticle Search Response",
+          "get/contacts/{id}/banners",
+          "post/contacts/{id}/banners/{view_id}/dismiss",
+          "post/calls/search",
+          "get/companies/{company_id}/contacts",
+          "schemaContact",
+          "post/contacts/{contact_id}/companies",
+          "get/contacts/{contact_id}/companies",
+          "delete/contacts/{contact_id}/companies/{company_id}",
+          "get/contacts/{contact_id}/notes",
+          "post/contacts/{contact_id}/notes",
+          "get/contacts/{contact_id}/segments",
+          "get/content/search",
+          "put/contacts/{contact_id}",
+          "get/download/content/data/{job_identifier}",
+          "schemaInternal Article Search Response"
+        ],
+        "landmarks": [
+          "nav",
+          "aside",
+          "main",
+          "footer",
+          "dialog:Cookie Notice"
+        ]
+      },
+      {
+        "url": "https://www.intercom.com/help/en/collections/3391782-teammate-and-workspace-settings",
+        "title": "Intercom Help",
+        "description": "Intercom Help",
+        "headings": [
+          "Great service changes everything."
+        ],
+        "navLabels": [
+          "Contact sales",
+          "View demo",
+          "Start free trial"
+        ],
+        "ctas": [
+          "Contact sales",
+          "View demo",
+          "Start free trial"
+        ],
+        "landmarks": [
+          "main",
+          "header",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.intercom.com/pricing",
+        "title": "Intercom Pricing | Plans for every team size",
+        "description": "Explore Intercom pricing plans. AI-first customer service platform with Essential, Advanced, and Expert plans. Fin AI Agent included. Start your free trial.",
+        "headings": [
+          "Get Fin and Intercom for a single, fully integrated customer service platform",
+          "Essential",
+          "Advanced",
+          "Expert",
+          "Fin AI Agent",
+          "Add-ons",
+          "Pro",
+          "Copilot",
+          "Proactive Support Plus",
+          "Early stage startups get 93% off",
+          "Get an estimatebased on your needs",
+          "Find the right plan for your team",
+          "See the ROI impact Fin could have on your business",
+          "Thousands of businesseshave already seen transformational results",
+          "FAQs",
+          "How does Intercom pricing work?",
+          "How is Fin AI Agent priced?",
+          "Can I use Fin with my existing helpdesk?",
+          "What plans does Intercom offer?",
+          "What is a seat (Full vs Lite)?"
+        ],
+        "navLabels": [
+          "Fin",
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Product",
+          "Customers",
+          "Resources",
+          "Pricing",
+          "Fin AI Agent"
+        ],
+        "ctas": [
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Pricing",
+          "Get a demo",
+          "View channel pricing",
+          "Learn more",
+          "How does Intercom pricing work?",
+          "Use the pricing calculator",
+          "Are there additional usage charges?",
+          "What is the Pro add-on?",
+          "What’s the minimum to get started?"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.intercom.com/product",
+        "title": "Page not found",
+        "description": "The page you are looking for doesn't exist.",
+        "headings": [
+          "Uh oh. That page doesn’t exist."
+        ],
+        "navLabels": [
+          "Fin",
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Product",
+          "Customers",
+          "Resources",
+          "Pricing",
+          "Fin AI Agent"
+        ],
+        "ctas": [
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Pricing",
+          "Intercom pricing",
+          "Fin pricing",
+          "Contact Press",
+          "Sign in",
+          "Pricing▼"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.intercom.com/products",
+        "title": "Page not found",
+        "description": "The page you are looking for doesn't exist.",
+        "headings": [
+          "Uh oh. That page doesn’t exist."
+        ],
+        "navLabels": [
+          "Fin",
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Product",
+          "Customers",
+          "Resources",
+          "Pricing",
+          "Fin AI Agent"
+        ],
+        "ctas": [
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Pricing",
+          "Intercom pricing",
+          "Fin pricing",
+          "Contact Press",
+          "Sign in",
+          "Pricing▼"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.intercom.com/features",
+        "title": "Page not found",
+        "description": "The page you are looking for doesn't exist.",
+        "headings": [
+          "Uh oh. That page doesn’t exist."
+        ],
+        "navLabels": [
+          "Fin",
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Product",
+          "Customers",
+          "Resources",
+          "Pricing",
+          "Fin AI Agent"
+        ],
+        "ctas": [
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Pricing",
+          "Intercom pricing",
+          "Fin pricing",
+          "Contact Press",
+          "Sign in",
+          "Pricing▼"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.intercom.com/solutions",
+        "title": "Page not found",
+        "description": "The page you are looking for doesn't exist.",
+        "headings": [
+          "Uh oh. That page doesn’t exist."
+        ],
+        "navLabels": [
+          "Fin",
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Product",
+          "Customers",
+          "Resources",
+          "Pricing",
+          "Fin AI Agent"
+        ],
+        "ctas": [
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Pricing",
+          "Intercom pricing",
+          "Fin pricing",
+          "Contact Press",
+          "Sign in",
+          "Pricing▼"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.intercom.com/customers",
+        "title": "Intercom Customers | See who trusts Intercom",
+        "description": "See how leading companies use Intercom and Fin AI Agent to transform their customer service. Browse customer stories, case studies, and testimonials.",
+        "headings": [
+          "Success stories from companies like yours",
+          "See what customers aresharing on socials",
+          "“Game Changer for our Tech Service Team”",
+          "“Fin is a Win”",
+          "“Best Support tool out there”",
+          "Perfect customer experiences, powered by Intercom"
+        ],
+        "navLabels": [
+          "Fin",
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Product",
+          "Customers",
+          "Resources",
+          "Pricing",
+          "Fin AI Agent"
+        ],
+        "ctas": [
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Pricing",
+          "Intercom pricing",
+          "Fin pricing",
+          "Contact Press",
+          "Sign in",
+          "Pricing▼"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.intercom.com/docs",
+        "title": "Page not found",
+        "description": "The page you are looking for doesn't exist.",
+        "headings": [
+          "Uh oh. That page doesn’t exist."
+        ],
+        "navLabels": [
+          "Fin",
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Product",
+          "Customers",
+          "Resources",
+          "Pricing",
+          "Fin AI Agent"
+        ],
+        "ctas": [
+          "Log in",
+          "Contact sales",
+          "View demo",
+          "Start free trial",
+          "Pricing",
+          "Intercom pricing",
+          "Fin pricing",
+          "Contact Press",
+          "Sign in",
+          "Pricing▼"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Fin",
+      "Log in",
+      "Contact sales",
+      "View demo",
+      "Start free trial",
+      "Product",
+      "Customers",
+      "Resources",
+      "Pricing",
+      "Fin AI Agent",
+      "Installation",
+      "Docs",
+      "API Reference",
+      "Developer Hub",
+      "App Store"
+    ],
+    "ctas": [
+      "Log in",
+      "Contact sales",
+      "View demo",
+      "Start free trial",
+      "Pricing",
+      "Learn more",
+      "Intercom pricing",
+      "Fin pricing",
+      "Contact Press",
+      "Sign in",
+      "Pricing▼",
+      "Getting Started10 authors35 articles",
+      "Contacts13 authors43 articles",
+      "Join us on October 7",
+      "sign up here",
+      "create a new app",
+      "Filter Icon",
+      "Contacts",
+      "Create event summariespost",
+      "post/admins/activity_logs/search",
+      "schemaArticle Search Highlights",
+      "schemaArticle Search Response",
+      "get/contacts/{id}/banners",
+      "post/contacts/{id}/banners/{view_id}/dismiss"
+    ],
+    "headings": [
+      "The only helpdesk designed for the AI Agent era",
+      "A complete solution for AI and human agents",
+      "AI-powered agent workspace",
+      "A seamless experience for customers and agents",
+      "AI-powered Insights across every interaction",
+      "A self-improving system",
+      "A world-class AI Agent",
+      "A fully-featured AI-powered helpdesk",
+      "Resolve queries faster",
+      "Deliver tailored experiences across every channel",
+      "Engage customersat the right moment",
+      "Monitor and improve every interaction",
+      "A true partner with deep domain expertise",
+      "The company you can trust",
+      "Expert support, at every stage",
+      "Increase agent efficiency by 31% with Copilot",
+      "Give your agents time for what really matters",
+      "Part of the only complete, AI-first customer service platform",
+      "Inbox+-Maximize productivity with an AI-enhanced inbox.",
+      "Enter the new age of customer service with Copilot",
+      "Great service changes everything.",
+      "Overview",
+      "Install Intercom",
+      "For Public App Developers",
+      "Set up a development workspace",
+      "Build your app",
+      "Submit for review",
+      "For Private App Developers",
+      "Install apps from the App Store",
+      "Build your own integration"
+    ],
+    "techSignals": [
+      "Next.js",
+      "Stripe",
+      "Google Tag Manager",
+      "Intercom",
+      "Webpack",
+      "React"
+    ],
+    "featureCandidates": [
+      "The only helpdesk designed for the AI Agent era",
+      "A complete solution for AI and human agents",
+      "AI-powered agent workspace",
+      "A seamless experience for customers and agents",
+      "AI-powered Insights across every interaction",
+      "A self-improving system",
+      "A world-class AI Agent",
+      "A fully-featured AI-powered helpdesk",
+      "Resolve queries faster",
+      "Engage customersat the right moment",
+      "Monitor and improve every interaction",
+      "A true partner with deep domain expertise",
+      "The company you can trust",
+      "Expert support, at every stage",
+      "Increase agent efficiency by 31% with Copilot",
+      "Give your agents time for what really matters",
+      "Great service changes everything.",
+      "Overview",
+      "Install Intercom",
+      "For Public App Developers",
+      "Set up a development workspace",
+      "Build your app",
+      "Submit for review",
+      "For Private App Developers"
+    ],
+    "patternCandidates": [
+      "Filters",
+      "Pricing display",
+      "Messaging",
+      "Authentication",
+      "Tabs",
+      "Search",
+      "Dashboard",
+      "Card layout",
+      "Checkout"
+    ],
+    "platformsDetected": [
+      "web",
+      "api",
+      "ios",
+      "android"
+    ],
+    "summary": "Captured 33 screenshots across 14 public URLs. Nav signals: Fin, Log in, Contact sales, View demo, Start free trial, Product. Tech signals: Next.js, Stripe, Google Tag Manager, Intercom, Webpack, React. UI patterns: Filters, Pricing display, Messaging, Authentication, Tabs, Search."
+  }
+}
