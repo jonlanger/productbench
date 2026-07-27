@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Syne } from "next/font/google";
 
-import { AuthMenu } from "@/components/auth/auth-menu";
+import { AppShell } from "@/components/layout/app-shell";
 import { CatalogProvider } from "@/components/catalog/catalog-provider";
-import { SiteHeader } from "@/components/layout/site-header";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { getVisibleProducts } from "@/data/queries";
+import { getVisibleCatalogProducts } from "@/data/queries";
 import { getViewer } from "@/lib/auth";
 import { getUserAvatarUrl } from "@/lib/avatar";
 
@@ -41,29 +40,25 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const [{ user, isAdmin }, products] = await Promise.all([
-    getViewer(),
-    getVisibleProducts(),
-  ]);
+  const [{ user, actsAsAdmin, isMemberPreview }, products] =
+    await Promise.all([getViewer(), getVisibleCatalogProducts()]);
 
   return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${syne.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[radial-gradient(ellipse_at_top,_oklch(0.97_0.01_240),_transparent_55%),linear-gradient(to_bottom,_var(--background),_oklch(0.985_0.005_240))]">
+      <body className="flex min-h-full min-w-0 flex-col overflow-x-hidden bg-[radial-gradient(ellipse_at_top,_oklch(0.97_0.01_240),_transparent_55%),linear-gradient(to_bottom,_var(--background),_oklch(0.985_0.005_240))]">
         <TooltipProvider>
           <CatalogProvider products={products}>
-            <SiteHeader
-              account={
-                <AuthMenu
-                  email={user?.email ?? null}
-                  avatarUrl={getUserAvatarUrl(user)}
-                  isAdmin={isAdmin}
-                />
-              }
-            />
-            <main className="flex flex-1 flex-col">{children}</main>
+            <AppShell
+              email={user?.email ?? null}
+              avatarUrl={getUserAvatarUrl(user)}
+              isAdmin={actsAsAdmin}
+              isMemberPreview={isMemberPreview}
+            >
+              {children}
+            </AppShell>
           </CatalogProvider>
         </TooltipProvider>
       </body>

@@ -7,6 +7,7 @@ import type {
   SortOption,
   UxDensity,
 } from "@/data/types";
+import { matchesProductSearch, scoreProductSearch } from "@/lib/product-search";
 
 export const CATEGORIES: ProductCategory[] = [
   "enterprise",
@@ -110,23 +111,7 @@ export function getDefaultFilters(items: Product[]): FilterState {
 }
 
 function matchesQuery(product: Product, query: string): boolean {
-  if (!query.trim()) return true;
-  const q = query.toLowerCase();
-  const haystack = [
-    product.name,
-    product.tagline,
-    product.description,
-    product.company,
-    product.category,
-    ...product.tags,
-    ...product.features,
-    ...product.techStack,
-    ...product.industries,
-    ...product.ux.patterns,
-  ]
-    .join(" ")
-    .toLowerCase();
-  return haystack.includes(q);
+  return matchesProductSearch(product, query);
 }
 
 function includesAll<T>(selected: T[], available: T[]): boolean {
@@ -182,6 +167,7 @@ export function filterProducts(
   items: Product[],
   filters: FilterState,
 ): Product[] {
+  const query = filters.query.trim();
   const filtered = items.filter((product) => {
     if (!matchesQuery(product, filters.query)) return false;
 
@@ -220,6 +206,15 @@ export function filterProducts(
 
     return true;
   });
+
+  if (query) {
+    return [...filtered].sort((a, b) => {
+      const scoreDelta =
+        scoreProductSearch(b, query) - scoreProductSearch(a, query);
+      if (scoreDelta !== 0) return scoreDelta;
+      return a.name.localeCompare(b.name);
+    });
+  }
 
   return sortProducts(filtered, filters.sort);
 }

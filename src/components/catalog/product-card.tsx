@@ -12,41 +12,28 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import type { BentoSize, Product } from "@/data/types";
 import { formatLabel } from "@/lib/filters";
+import {
+  bentoSizeClass,
+  isLargeBentoSize,
+} from "@/lib/bento-size";
 import { cn } from "@/lib/utils";
-
-/**
- * Responsive bento spans:
- * - mobile: always 1 col
- * - sm (2-col): only wide/hero/lg span 2; tall gets extra row
- * - xl+ (3–4 col): full bento vocabulary
- */
-const sizeClass: Record<BentoSize, string> = {
-  sm: "col-span-1 row-span-1",
-  md: "col-span-1 row-span-1",
-  lg: "col-span-1 row-span-1 sm:col-span-2 sm:row-span-2",
-  wide: "col-span-1 row-span-1 sm:col-span-2",
-  tall: "col-span-1 row-span-1 sm:row-span-2",
-  hero: "col-span-1 row-span-1 sm:col-span-2 sm:row-span-2 xl:col-span-2",
-};
 
 export function ProductCard({
   product,
   featured = false,
+  bentoSize,
 }: {
   product: Product;
   featured?: boolean;
+  bentoSize?: BentoSize;
 }) {
-  const isLarge =
-    featured ||
-    product.bentoSize === "hero" ||
-    product.bentoSize === "lg" ||
-    product.bentoSize === "tall" ||
-    product.bentoSize === "wide";
+  const size = bentoSize ?? product.bentoSize;
+  const isLarge = featured || isLargeBentoSize(size);
 
   return (
     <Link
       href={`/products/${product.slug}`}
-      className={cn("group block min-h-0", sizeClass[product.bentoSize])}
+      className={cn("group block min-h-0", bentoSizeClass[size])}
     >
       <Card
         className={cn(
@@ -93,9 +80,9 @@ export function ProductCard({
           <p
             className={cn(
               "text-sm leading-relaxed text-muted-foreground",
-              product.bentoSize === "hero" || product.bentoSize === "lg"
+              size === "hero" || size === "lg"
                 ? "line-clamp-3 sm:line-clamp-4"
-                : product.bentoSize === "wide" || product.bentoSize === "tall"
+                : size === "wide" || size === "tall"
                   ? "line-clamp-2 sm:line-clamp-3"
                   : "line-clamp-2",
             )}
@@ -103,9 +90,7 @@ export function ProductCard({
             {isLarge ? product.description : product.tagline}
           </p>
 
-          {(product.bentoSize === "hero" ||
-            product.bentoSize === "lg" ||
-            product.bentoSize === "tall") && (
+          {(size === "hero" || size === "lg" || size === "tall") && (
             <div className="mt-auto hidden gap-2 sm:grid sm:grid-cols-3 sm:gap-3">
               <MetaChip
                 icon={<Layers className="size-3.5" />}
@@ -125,7 +110,7 @@ export function ProductCard({
             </div>
           )}
 
-          {product.bentoSize === "sm" || product.bentoSize === "md" ? (
+          {size === "sm" || size === "md" ? (
             <div className="mt-auto flex flex-wrap gap-1">
               {product.techStack.slice(0, 3).map((tech) => (
                 <span
@@ -138,9 +123,7 @@ export function ProductCard({
             </div>
           ) : null}
 
-          {(product.bentoSize === "hero" ||
-            product.bentoSize === "lg" ||
-            product.bentoSize === "wide") && (
+          {(size === "hero" || size === "lg" || size === "wide") && (
             <div className="hidden flex-wrap gap-1.5 border-t border-border/60 pt-3 sm:flex">
               {product.ux.patterns.slice(0, 4).map((pattern) => (
                 <Badge key={pattern} variant="outline" className="font-normal">

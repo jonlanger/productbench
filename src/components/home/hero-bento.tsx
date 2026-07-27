@@ -294,7 +294,7 @@ export function HeroBento() {
 
   return (
     <div
-      className="hero-bento w-full max-w-[340px] shrink-0 sm:max-w-[380px] lg:w-[34%] lg:max-w-[380px]"
+      className="hero-bento w-full shrink-0 lg:w-[34%] lg:max-w-[380px]"
       aria-hidden
     >
       <div

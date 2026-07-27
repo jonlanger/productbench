@@ -1,15 +1,19 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, ImageIcon } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { ScreenshotImage } from "@/components/product/screenshot-image";
 import type {
   ProductScreenshot,
   ProductScreenshotKind,
 } from "@/data/types";
 import { cn } from "@/lib/utils";
+
+const RENDER_WINDOW = 3;
+const SCREENSHOT_PAGE_SIZE = 20;
 
 type ScreenshotCarouselProps = {
   title?: string;
@@ -18,6 +22,9 @@ type ScreenshotCarouselProps = {
   accent?: string;
   className?: string;
   kinds?: ProductScreenshotKind[];
+  hasMore?: boolean;
+  loadingMore?: boolean;
+  onLoadMore?: () => void;
 };
 
 const KIND_LABEL: Record<ProductScreenshotKind, string> = {
@@ -37,8 +44,12 @@ export function ScreenshotCarousel({
   accent,
   className,
   kinds,
+  hasMore = false,
+  loadingMore = false,
+  onLoadMore,
 }: ScreenshotCarouselProps) {
   const scrollerRef = useRef<HTMLDivElement>(null);
+  const [scrollRoot, setScrollRoot] = useState<Element | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [canScroll, setCanScroll] = useState({ prev: false, next: false });
 
@@ -75,6 +86,15 @@ export function ScreenshotCarousel({
         }
       });
       setActiveIndex(best);
+
+      if (
+        hasMore &&
+        onLoadMore &&
+        !loadingMore &&
+        node.scrollLeft >= max - 240
+      ) {
+        onLoadMore();
+      }
     }
 
     update();
@@ -84,7 +104,7 @@ export function ScreenshotCarousel({
       node.removeEventListener("scroll", update);
       window.removeEventListener("resize", update);
     };
-  }, [items.length]);
+  }, [hasMore, items.length, loadingMore, onLoadMore]);
 
   function scrollByCard(direction: -1 | 1) {
     const node = scrollerRef.current;
@@ -114,6 +134,7 @@ export function ScreenshotCarousel({
         <div className="flex items-center gap-2">
           <Badge variant="outline" className="tabular-nums">
             {activeIndex + 1} / {items.length}
+            {hasMore ? "+" : ""}
           </Badge>
           <Button
             type="button"
@@ -130,7 +151,7 @@ export function ScreenshotCarousel({
             size="icon-sm"
             variant="outline"
             aria-label="Next screenshot"
-            disabled={!canScroll.next}
+            disabled={!canScroll.next && !hasMore}
             onClick={() => scrollByCard(1)}
           >
             <ChevronRight className="size-4" />
@@ -139,99 +160,192 @@ export function ScreenshotCarousel({
       </div>
 
       <div
-        ref={scrollerRef}
+        ref={(node) => {
+          scrollerRef.current = node;
+          setScrollRoot(node);
+        }}
         className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
-        {items.map((shot, index) => (
-          <figure
-            key={`${shot.src}-${shot.title}-${index}`}
-            data-shot
-            className="group relative w-[min(100%,28rem)] shrink-0 snap-center overflow-hidden rounded-2xl border border-border/80 bg-card sm:w-[32rem]"
-          >
-            <div
-              className="relative aspect-[16/10] overflow-hidden"
-              style={{
-                background: accent
-                  ? `linear-gradient(145deg, ${accent}22, transparent 55%), oklch(0.97 0.01 240)`
-                  : undefined,
-              }}
+        {items.map((shot, index) => {
+          const inWindow = Math.abs(index - activeIndex) <= RENDER_WINDOW;
+          return (
+            <figure
+              key={`${shot.src}-${shot.title}-${index}`}
+              data-shot
+              className="group relative w-[min(100%,28rem)] shrink-0 snap-center overflow-hidden rounded-2xl border border-border/80 bg-card sm:w-[32rem]"
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={shot.src}
-                alt={shot.title}
-                loading={index === 0 ? "eager" : "lazy"}
-                className="size-full object-cover object-top transition duration-500 group-hover:scale-[1.02]"
-                onError={(event) => {
-                  event.currentTarget.style.display = "none";
-                  const fallback = event.currentTarget.nextElementSibling;
-                  if (fallback instanceof HTMLElement) {
-                    fallback.hidden = false;
-                  }
-                }}
-              />
               <div
-                hidden
-                className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-muted-foreground"
+                className="relative aspect-[16/10] overflow-hidden"
+                style={{
+                  background: accent
+                    ? `linear-gradient(145deg, ${accent}22, transparent 55%), oklch(0.97 0.01 240)`
+                    : undefined,
+                }}
               >
-                <ImageIcon className="size-8 opacity-50" />
-                <span className="text-xs">Preview unavailable</span>
+                {inWindow ? (
+                  <ScreenshotImage
+                    shot={shot}
+                    eager={index === 0}
+                    root={scrollRoot}
+                    className="transition duration-500 group-hover:scale-[1.02]"
+                  />
+                ) : (
+                  <div
+                    className="size-full animate-pulse bg-muted/50"
+                    aria-hidden
+                  />
+                )}
+                {shot.kind ? (
+                  <Badge
+                    variant="secondary"
+                    className="absolute top-3 left-3 bg-background/90 backdrop-blur-sm"
+                  >
+                    {KIND_LABEL[shot.kind]}
+                  </Badge>
+                ) : null}
               </div>
-              {shot.kind ? (
-                <Badge
-                  variant="secondary"
-                  className="absolute top-3 left-3 bg-background/90 backdrop-blur-sm"
-                >
-                  {KIND_LABEL[shot.kind]}
-                </Badge>
-              ) : null}
-            </div>
-            <figcaption className="space-y-1 border-t border-border/70 px-4 py-3">
-              <div className="text-sm font-medium">{shot.title}</div>
-              {shot.caption ? (
-                <p className="text-xs leading-relaxed text-muted-foreground">
-                  {shot.caption}
-                </p>
-              ) : null}
-            </figcaption>
-          </figure>
-        ))}
+              <figcaption className="space-y-1 border-t border-border/70 px-4 py-3">
+                <div className="text-sm font-medium">{shot.title}</div>
+                {shot.caption ? (
+                  <p className="text-xs leading-relaxed text-muted-foreground">
+                    {shot.caption}
+                  </p>
+                ) : null}
+                {shot.playbookStep || shot.capturedAt ? (
+                  <p className="text-[11px] text-muted-foreground/80">
+                    {[shot.playbookStep, shot.capturedAt?.slice(0, 10)]
+                      .filter(Boolean)
+                      .join(" · ")}
+                  </p>
+                ) : null}
+              </figcaption>
+            </figure>
+          );
+        })}
       </div>
 
-      <div className="flex justify-center gap-1.5">
-        {items.map((shot, index) => (
-          <button
-            key={`dot-${shot.src}-${index}`}
+      {items.length <= 24 ? (
+        <div className="flex justify-center gap-1.5">
+          {items.map((shot, index) => (
+            <button
+              key={`dot-${shot.src}-${index}`}
+              type="button"
+              aria-label={`Go to ${shot.title}`}
+              className={cn(
+                "h-1.5 rounded-full transition-all",
+                index === activeIndex
+                  ? "w-6 bg-foreground"
+                  : "w-1.5 bg-border hover:bg-muted-foreground/40",
+              )}
+              onClick={() => {
+                const node = scrollerRef.current;
+                const card = node?.querySelectorAll<HTMLElement>("[data-shot]")[
+                  index
+                ];
+                card?.scrollIntoView({
+                  behavior: "smooth",
+                  inline: "center",
+                  block: "nearest",
+                });
+              }}
+            />
+          ))}
+        </div>
+      ) : null}
+
+      {hasMore ? (
+        <div className="flex justify-center">
+          <Button
             type="button"
-            aria-label={`Go to ${shot.title}`}
-            className={cn(
-              "h-1.5 rounded-full transition-all",
-              index === activeIndex
-                ? "w-6 bg-foreground"
-                : "w-1.5 bg-border hover:bg-muted-foreground/40",
-            )}
-            onClick={() => {
-              const node = scrollerRef.current;
-              const card = node?.querySelectorAll<HTMLElement>("[data-shot]")[
-                index
-              ];
-              card?.scrollIntoView({
-                behavior: "smooth",
-                inline: "center",
-                block: "nearest",
-              });
-            }}
-          />
-        ))}
-      </div>
+            variant="outline"
+            disabled={loadingMore}
+            onClick={onLoadMore}
+          >
+            {loadingMore ? "Loading screenshots…" : "Load more screenshots"}
+          </Button>
+        </div>
+      ) : null}
     </section>
   );
 }
 
+type PaginatedGallerySectionProps = {
+  slug: string;
+  kinds: ProductScreenshotKind[];
+  initialItems: ProductScreenshot[];
+  total: number;
+  title: string;
+  description: string;
+  accent?: string;
+};
+
+function PaginatedGallerySection({
+  slug,
+  kinds,
+  initialItems,
+  total,
+  title,
+  description,
+  accent,
+}: PaginatedGallerySectionProps) {
+  const [items, setItems] = useState(initialItems);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const hasMore = items.length < total;
+
+  const loadMore = useCallback(async () => {
+    if (loadingMore || !hasMore) return;
+    setLoadingMore(true);
+    try {
+      const params = new URLSearchParams({
+        offset: String(items.length),
+        limit: String(SCREENSHOT_PAGE_SIZE),
+        kinds: kinds.join(","),
+      });
+      const response = await fetch(
+        `/api/products/${slug}/screenshots?${params.toString()}`,
+      );
+      if (!response.ok) return;
+      const data = (await response.json()) as {
+        items: ProductScreenshot[];
+        hasMore: boolean;
+      };
+      setItems((current) => {
+        const seen = new Set(current.map((shot) => shot.src));
+        const merged = [...current];
+        for (const shot of data.items) {
+          if (seen.has(shot.src)) continue;
+          seen.add(shot.src);
+          merged.push(shot);
+        }
+        return merged;
+      });
+    } finally {
+      setLoadingMore(false);
+    }
+  }, [hasMore, items.length, kinds, loadingMore, slug]);
+
+  if (items.length === 0) return null;
+
+  return (
+    <ScreenshotCarousel
+      title={title}
+      description={description}
+      screenshots={items}
+      accent={accent}
+      kinds={kinds}
+      hasMore={hasMore}
+      loadingMore={loadingMore}
+      onLoadMore={loadMore}
+    />
+  );
+}
+
 export function ProductVisualGalleries({
+  slug,
   screenshots,
   accent,
 }: {
+  slug: string;
   screenshots: ProductScreenshot[];
   accent?: string;
 }) {
@@ -247,39 +361,47 @@ export function ProductVisualGalleries({
   return (
     <div className="mb-10 space-y-10">
       {homepage.length > 0 ? (
-        <ScreenshotCarousel
+        <PaginatedGallerySection
+          slug={slug}
+          kinds={["homepage"]}
+          initialItems={homepage.slice(0, SCREENSHOT_PAGE_SIZE)}
+          total={homepage.length}
           title="Homepage"
           description="Public marketing homepage — kept separate from in-product surfaces."
-          screenshots={homepage}
           accent={accent}
-          kinds={["homepage"]}
         />
       ) : null}
       {product.length > 0 ? (
-        <ScreenshotCarousel
+        <PaginatedGallerySection
+          slug={slug}
+          kinds={["product", "docs", "technical", "supporting"]}
+          initialItems={product.slice(0, SCREENSHOT_PAGE_SIZE)}
+          total={product.length}
           title="Product surfaces"
           description="Full screens: search, detail, dashboards, and other primary flows."
-          screenshots={product}
           accent={accent}
-          kinds={["product", "docs", "technical", "supporting"]}
         />
       ) : null}
       {components.length > 0 ? (
-        <ScreenshotCarousel
+        <PaginatedGallerySection
+          slug={slug}
+          kinds={["component"]}
+          initialItems={components.slice(0, SCREENSHOT_PAGE_SIZE)}
+          total={components.length}
           title="UI details"
           description="Cards, modals, menus, empty states, and other component-level patterns."
-          screenshots={components}
           accent={accent}
-          kinds={["component"]}
         />
       ) : null}
       {marketing.length > 0 ? (
-        <ScreenshotCarousel
+        <PaginatedGallerySection
+          slug={slug}
+          kinds={["marketing"]}
+          initialItems={marketing.slice(0, SCREENSHOT_PAGE_SIZE)}
+          total={marketing.length}
           title="Marketing visuals"
           description="Hero and campaign imagery from the product site."
-          screenshots={marketing}
           accent={accent}
-          kinds={["marketing"]}
         />
       ) : null}
     </div>

@@ -1,8 +1,13 @@
 "use client";
 
+import { useMemo } from "react";
 import { PackageOpen } from "lucide-react";
 
 import { useCatalog } from "@/components/catalog/catalog-provider";
+import {
+  CatalogLoadMore,
+  usePaginatedList,
+} from "@/components/catalog/catalog-load-more";
 import { FilterSidebar } from "@/components/catalog/filter-sidebar";
 import { ProductCard } from "@/components/catalog/product-card";
 import { Button } from "@/components/ui/button";
@@ -12,6 +17,8 @@ import {
   SheetHeader,
   SheetTitle,
 } from "@/components/ui/sheet";
+import { assignBentoSizes } from "@/lib/bento-size";
+import { getCatalogHeading } from "@/lib/product-search";
 import { cn } from "@/lib/utils";
 
 export function CatalogView() {
@@ -19,11 +26,16 @@ export function CatalogView() {
     filters,
     setFilters,
     results,
+    products,
     resetFilters,
     desktopFiltersOpen,
     mobileFiltersOpen,
     setMobileFiltersOpen,
   } = useCatalog();
+
+  const { title, description } = getCatalogHeading(filters.query);
+  const { visible, hasMore, loadMore, shown, total } = usePaginatedList(results);
+  const bentoSizes = useMemo(() => assignBentoSizes(visible), [visible]);
 
   return (
     <div className="mx-auto flex w-full max-w-[1600px] flex-1">
@@ -58,15 +70,16 @@ export function CatalogView() {
           <div className="flex flex-wrap items-end justify-between gap-3">
             <div className="space-y-1.5">
               <h1 className="font-heading text-3xl tracking-tight sm:text-4xl">
-                Product catalog
+                {title}
               </h1>
               <p className="max-w-2xl text-sm leading-relaxed text-muted-foreground sm:text-base">
-                Explore enterprise, consumer, and industrial software through UX
-                patterns, workflows, tech stacks, and product architecture.
+                {description}
               </p>
             </div>
             <p className="text-sm text-muted-foreground tabular-nums">
-              {results.length} product{results.length === 1 ? "" : "s"}
+              {results.length === products.length
+                ? `${products.length} product${products.length === 1 ? "" : "s"}`
+                : `${results.length} of ${products.length} products`}
             </p>
           </div>
         </div>
@@ -89,21 +102,33 @@ export function CatalogView() {
             </Button>
           </div>
         ) : (
-          <div
-            className={cn(
-              "grid grid-flow-dense gap-3 sm:gap-4",
-              "grid-cols-1 auto-rows-[minmax(200px,auto)]",
-              "sm:grid-cols-2 sm:auto-rows-[minmax(210px,auto)]",
-              "xl:grid-cols-3 xl:auto-rows-[minmax(220px,auto)]",
-              "2xl:grid-cols-4",
-              !desktopFiltersOpen &&
-                "lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5",
-            )}
-          >
-            {results.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
+          <>
+            <div
+              className={cn(
+                "grid grid-flow-dense gap-3 sm:gap-4",
+                "grid-cols-1 auto-rows-[minmax(200px,auto)]",
+                "sm:grid-cols-2 sm:auto-rows-[minmax(210px,auto)]",
+                "xl:grid-cols-3 xl:auto-rows-[minmax(220px,auto)]",
+                "2xl:grid-cols-4",
+                !desktopFiltersOpen &&
+                  "lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5",
+              )}
+            >
+              {visible.map((product) => (
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                  bentoSize={bentoSizes.get(product.id)}
+                />
+              ))}
+            </div>
+            <CatalogLoadMore
+              hasMore={hasMore}
+              shown={shown}
+              total={total}
+              onLoadMore={loadMore}
+            />
+          </>
         )}
       </div>
     </div>

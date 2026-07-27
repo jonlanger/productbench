@@ -1,0 +1,252 @@
+{
+  "capturedAt": "2026-07-27T13:34:26.729Z",
+  "screenshotCount": 23,
+  "pageCount": 6,
+  "pages": [
+    {
+      "url": "https://www.tiktok.com/",
+      "title": "TikTok - Make Your Day",
+      "description": "TikTok - trends start here. On a device or on the web, viewers can watch and discover millions of personalized short videos. Download the app to get started.",
+      "headings": [
+        "For You",
+        "Shop",
+        "Explore",
+        "Following",
+        "LIVE",
+        "Profile",
+        "Company",
+        "Program",
+        "Terms & Policies"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Log in",
+        "Search",
+        "Explore"
+      ],
+      "landmarks": [
+        "main",
+        "aside"
+      ]
+    },
+    {
+      "url": "https://www.tiktok.com/explore",
+      "title": "Explore - Find your favourite videos on TikTok",
+      "description": "Discover the latest TikTok videos on our Explore page. Stay up-to-date on the latest trends and explore your interests here!",
+      "headings": [
+        "For You",
+        "Shop",
+        "Explore",
+        "Following",
+        "LIVE",
+        "Profile",
+        "Company",
+        "Program",
+        "Terms & Policies"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Log in",
+        "Search",
+        "Explore",
+        "cassiesbooktok"
+      ],
+      "landmarks": []
+    },
+    {
+      "url": "https://www.tiktok.com/404?fromUrl=/pricing",
+      "title": "TikTok",
+      "headings": [],
+      "navLabels": [],
+      "ctas": [
+        "Log in",
+        "Contact"
+      ],
+      "landmarks": [
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.tiktok.com/help",
+      "title": "",
+      "headings": [],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": []
+    },
+    {
+      "url": "https://www.tiktok.com/about?lang=en",
+      "title": "About | TikTok",
+      "description": "TikTok is the world's leading destination for short-form mobile videos. Our mission is to capture and present the world's creativity, knowledge, and moments that matter in everyday life. TikTok empowers everyone to be a creator directly from their smartphones, and is committed to building a community by encouraging users to share their passion and creative expression through their videos.",
+      "headings": [
+        "For you, by you",
+        "An experience tailored to what you love.",
+        "Endless Discovery",
+        "Find trends, talents, and topics that inspire you.",
+        "Community-Driven",
+        "Creativity, collaboration, and connection.",
+        "TikTok opens up a world of opportunities.",
+        "#BookTok",
+        "#LearnOnTikTok",
+        "#GamingOnTikTok",
+        "#FoodTok",
+        "#SportsOnTikTok",
+        "TikTok for Good",
+        "TikTok Creator Academy",
+        "Newsroom",
+        "Discover your next chapter with us"
+      ],
+      "navLabels": [
+        "About",
+        "Newsroom",
+        "Careers",
+        "Contact",
+        "Watch TikTok",
+        "English (US)",
+        "Store",
+        "ByteDance",
+        "TikTok For Good",
+        "TikTok For Developers",
+        "Effect House",
+        "Advertise",
+        "Browse",
+        "Embed",
+        "Rewards",
+        "Scaled LIVE Rewards",
+        "Help Center",
+        "Safety Center",
+        "Privacy Center",
+        "Creator Academy",
+        "Community Guidelines"
+      ],
+      "ctas": [
+        "Contact",
+        "Create real change",
+        "Join the academy"
+      ],
+      "landmarks": [
+        "main",
+        "header",
+        "nav",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.tiktok.com/login",
+      "title": "Log in | TikTok",
+      "description": "Log in or sign up for an account on TikTok. Start watching to discover real people and real videos that will make your day.",
+      "headings": [
+        "Log in to TikTok"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Sign up"
+      ],
+      "landmarks": []
+    }
+  ],
+  "navLabels": [
+    "About",
+    "Newsroom",
+    "Careers",
+    "Contact",
+    "Watch TikTok",
+    "English (US)",
+    "Store",
+    "ByteDance",
+    "TikTok For Good",
+    "TikTok For Developers",
+    "Effect House",
+    "Advertise",
+    "Browse",
+    "Embed",
+    "Rewards",
+    "Scaled LIVE Rewards",
+    "Help Center",
+    "Safety Center",
+    "Privacy Center",
+    "Creator Academy",
+    "Community Guidelines"
+  ],
+  "ctas": [
+    "Log in",
+    "Search",
+    "Explore",
+    "cassiesbooktok",
+    "Contact",
+    "Create real change",
+    "Join the academy",
+    "Sign up"
+  ],
+  "headings": [
+    "For You",
+    "Shop",
+    "Explore",
+    "Following",
+    "LIVE",
+    "Profile",
+    "Company",
+    "Program",
+    "Terms & Policies",
+    "For you, by you",
+    "An experience tailored to what you love.",
+    "Endless Discovery",
+    "Find trends, talents, and topics that inspire you.",
+    "Community-Driven",
+    "Creativity, collaboration, and connection.",
+    "TikTok opens up a world of opportunities.",
+    "#BookTok",
+    "#LearnOnTikTok",
+    "#GamingOnTikTok",
+    "#FoodTok",
+    "#SportsOnTikTok",
+    "TikTok for Good",
+    "TikTok Creator Academy",
+    "Newsroom",
+    "Discover your next chapter with us",
+    "Log in to TikTok"
+  ],
+  "techSignals": [
+    "React",
+    "Next.js"
+  ],
+  "featureCandidates": [
+    "For You",
+    "Shop",
+    "Explore",
+    "Following",
+    "LIVE",
+    "Profile",
+    "Company",
+    "Program",
+    "Terms & Policies",
+    "For you, by you",
+    "An experience tailored to what you love.",
+    "Endless Discovery",
+    "Community-Driven",
+    "Creativity, collaboration, and connection.",
+    "TikTok opens up a world of opportunities.",
+    "#BookTok",
+    "#LearnOnTikTok",
+    "#GamingOnTikTok",
+    "#FoodTok",
+    "#SportsOnTikTok",
+    "TikTok for Good",
+    "TikTok Creator Academy",
+    "Newsroom",
+    "Discover your next chapter with us"
+  ],
+  "patternCandidates": [
+    "Search",
+    "Authentication",
+    "Modal dialogs",
+    "Tabs"
+  ],
+  "platformsDetected": [
+    "web",
+    "desktop",
+    "api",
+    "ios"
+  ],
+  "summary": "Captured 23 screenshots across 6 public URLs. Nav signals: About, Newsroom, Careers, Contact, Watch TikTok, English (US). Tech signals: React, Next.js. UI patterns: Search, Authentication, Modal dialogs, Tabs."
+}

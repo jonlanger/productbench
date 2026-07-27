@@ -1,0 +1,483 @@
+{
+  "slug": "instagram",
+  "capturedAt": "2026-07-27T13:33:36.880Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Instagram public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.instagram.com/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth",
+      "caption": "Instagram homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.instagram.com/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Instagram homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.instagram.com/"
+    },
+    {
+      "file": "search-composer.jpg",
+      "title": "Search / composer",
+      "caption": "Focused search or primary input on Instagram",
+      "kind": "component",
+      "sourceUrl": "https://www.instagram.com/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on Instagram (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://www.instagram.com/"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav",
+      "caption": "Same-origin product / pricing / docs links from Instagram",
+      "kind": "product",
+      "sourceUrl": "https://www.instagram.com/explore/locations/"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "product",
+      "sourceUrl": "https://www.instagram.com/pricing"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "product",
+      "sourceUrl": "https://www.instagram.com/product"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.instagram.com/products"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Profile",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.instagram.com/features"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.instagram.com/platform"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.instagram.com/solutions"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.instagram.com/customers"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.instagram.com/accounts/login/?next=%2Fdocs&source=omni_redirect"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "docs",
+      "sourceUrl": "https://help.instagram.com/"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.instagram.com/blog"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.instagram.com/about"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.instagram.com/login"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.instagram.com/accounts/login/?next=%2Fsignin&source=omni_redirect"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14",
+      "caption": "Instagram public surface · instagram.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.instagram.com/sign-in"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T13:33:36.880Z",
+    "screenshotCount": 20,
+    "pageCount": 15,
+    "pages": [
+      {
+        "url": "https://www.instagram.com/",
+        "title": "Instagram",
+        "description": "Create an account or log in to Instagram - Share what you're into with the people who get you.",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Log in",
+          "Log in with Facebook",
+          "Create new account",
+          "Contact Uploading & Non-Users"
+        ],
+        "landmarks": [
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/explore/locations/",
+        "title": "Locations • Instagram",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Log In",
+          "Sign Up",
+          "Contact Uploading & Non-Users"
+        ],
+        "landmarks": [
+          "main",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/pricing",
+        "title": "Chris Hopf (@pricing) • Instagram photos and videos",
+        "description": "72 Followers, 14 Following, 253 Posts - Chris Hopf (@pricing) on Instagram: \"Founder of PricingWire.\nPricing Strategy - Offering Design - Price Setting - Price Changes - Value Messaging - Market Monitoring\"",
+        "headings": [
+          "pricing",
+          "This profile is private"
+        ],
+        "navLabels": [
+          "253 posts",
+          "72 followers",
+          "14 following"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up",
+          "Contact Uploading & Non-Users"
+        ],
+        "landmarks": [
+          "main",
+          "header",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/product",
+        "title": "(@product) • Instagram photos and videos",
+        "description": "9,621 Followers, 5 Following, 0 Posts - @product on Instagram: \"\"",
+        "headings": [
+          "product",
+          "No posts yet"
+        ],
+        "navLabels": [
+          "0 posts",
+          "9,621 followers",
+          "4 following"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up",
+          "Contact Uploading & Non-Users"
+        ],
+        "landmarks": [
+          "main",
+          "header",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/products",
+        "title": "Products (@products) • Instagram photos and videos",
+        "description": "2 Followers, 2 Following, 34 Posts - Products (@products) on Instagram: \"nfs stop asking. You won’t get in you idiot\"",
+        "headings": [
+          "products",
+          "This profile is private"
+        ],
+        "navLabels": [
+          "34 posts",
+          "2 followers",
+          "2 following"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up",
+          "Contact Uploading & Non-Users"
+        ],
+        "landmarks": [
+          "main",
+          "header",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/features",
+        "title": "Profile isn't available • Instagram",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Log in",
+          "Sign up for Instagram"
+        ],
+        "landmarks": [
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/platform",
+        "title": "Jesse Smith (@platform) • Instagram photos and videos",
+        "description": "85 Followers, 0 Following, 0 Posts - Jesse Smith (@platform) on Instagram: \"\"",
+        "headings": [
+          "platform",
+          "No posts yet"
+        ],
+        "navLabels": [
+          "0 posts",
+          "85 followers",
+          "0 following"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up",
+          "Contact Uploading & Non-Users"
+        ],
+        "landmarks": [
+          "main",
+          "header",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/solutions",
+        "title": "Page couldn't load • Instagram",
+        "description": "85K Followers, 4 Following, 223 Posts - .solutions (@solutions) on Instagram: \"@solutions\"",
+        "headings": [
+          "Something went wrong"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://www.instagram.com/customers",
+        "title": "emonisla (@customers) • Instagram photos and videos",
+        "description": "1 Followers, 3 Following, 0 Posts - emonisla (@customers) on Instagram: \"Active July 2026\"",
+        "headings": [
+          "customers",
+          "No posts yet"
+        ],
+        "navLabels": [
+          "0 posts",
+          "1 follower",
+          "3 following"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up",
+          "Contact Uploading & Non-Users"
+        ],
+        "landmarks": [
+          "main",
+          "header",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/accounts/login/?next=%2Fdocs&source=omni_redirect",
+        "title": "Simon Grattan (@docs) • Instagram photos and videos",
+        "description": "38 Followers, 83 Following, 49 Posts - Simon Grattan (@docs) on Instagram: \"\"",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Log in",
+          "Log in with Facebook",
+          "Create new account",
+          "Contact Uploading & Non-Users"
+        ],
+        "landmarks": [
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://help.instagram.com/",
+        "title": "Help Center",
+        "headings": [
+          "How can we help you?",
+          "Featured topics",
+          "Other ways to get help",
+          "Looking for something else?"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Get started on Threads",
+          "Instagram for BusinessLearn more about promoting your business on Instagram"
+        ],
+        "landmarks": [
+          "banner:Instagram Help Center home page",
+          "nav:sideNavigationHeading",
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/blog",
+        "title": "Profile isn't available • Instagram",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Log in",
+          "Sign up for Instagram"
+        ],
+        "landmarks": [
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/about",
+        "title": "Profile isn't available • Instagram",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Log in",
+          "Sign up for Instagram"
+        ],
+        "landmarks": [
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/login",
+        "title": "Profile isn't available • Instagram",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Log in",
+          "Sign up for Instagram"
+        ],
+        "landmarks": [
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/sign-in",
+        "title": "Profile isn't available • Instagram",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Log in",
+          "Sign up for Instagram"
+        ],
+        "landmarks": [
+          "main"
+        ]
+      }
+    ],
+    "navLabels": [
+      "253 posts",
+      "72 followers",
+      "14 following",
+      "0 posts",
+      "9,621 followers",
+      "4 following",
+      "34 posts",
+      "2 followers",
+      "2 following",
+      "85 followers",
+      "0 following",
+      "1 follower",
+      "3 following"
+    ],
+    "ctas": [
+      "Log in",
+      "Log in with Facebook",
+      "Create new account",
+      "Contact Uploading & Non-Users",
+      "Sign Up",
+      "Sign up for Instagram",
+      "Get started on Threads",
+      "Instagram for BusinessLearn more about promoting your business on Instagram"
+    ],
+    "headings": [
+      "pricing",
+      "This profile is private",
+      "product",
+      "No posts yet",
+      "products",
+      "platform",
+      "Something went wrong",
+      "customers",
+      "How can we help you?",
+      "Featured topics",
+      "Other ways to get help",
+      "Looking for something else?"
+    ],
+    "techSignals": [],
+    "featureCandidates": [
+      "pricing",
+      "This profile is private",
+      "product",
+      "No posts yet",
+      "products",
+      "platform",
+      "Something went wrong",
+      "customers",
+      "How can we help you?",
+      "Featured topics",
+      "Other ways to get help",
+      "Looking for something else?",
+      "Create new account",
+      "Contact Uploading & Non-Users",
+      "Get started on Threads",
+      "Instagram for BusinessLearn more about promoting your business on Instagram"
+    ],
+    "patternCandidates": [
+      "Authentication",
+      "Pricing display"
+    ],
+    "platformsDetected": [
+      "web",
+      "api"
+    ],
+    "summary": "Captured 20 screenshots across 15 public URLs. Nav signals: 253 posts, 72 followers, 14 following, 0 posts, 9,621 followers, 4 following. UI patterns: Authentication, Pricing display."
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "slug": "tiktok",
+  "capturedAt": "2026-07-27T13:34:26.729Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "TikTok public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.tiktok.com/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth",
+      "caption": "TikTok homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.tiktok.com/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "TikTok homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.tiktok.com/"
+    },
+    {
+      "file": "card-1.jpg",
+      "title": "UI cards",
+      "caption": "Card / tile crops from TikTok",
+      "kind": "component",
+      "sourceUrl": "https://www.tiktok.com/"
+    },
+    {
+      "file": "search-composer.jpg",
+      "title": "Search / composer",
+      "caption": "Focused search or primary input on TikTok",
+      "kind": "component",
+      "sourceUrl": "https://www.tiktok.com/"
+    },
+    {
+      "file": "account-menu.jpg",
+      "title": "Account / nav menu",
+      "caption": "Expanded account or primary navigation menu on TikTok",
+      "kind": "component",
+      "sourceUrl": "https://www.tiktok.com/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on TikTok (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://www.tiktok.com/"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav",
+      "caption": "Same-origin product / pricing / docs links from TikTok",
+      "kind": "product",
+      "sourceUrl": "https://www.tiktok.com/explore"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "product",
+      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/pricing"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "product",
+      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/product"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/products"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Profile",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/features"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/platform"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/solutions"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/customers"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/docs"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/help"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/blog"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11 (1)",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/about?lang=en"
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "Supporting surface 11 (2)",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/about?lang=en"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/login"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/signin"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/sign-in"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T13:34:26.729Z",
+    "screenshotCount": 23,
+    "pageCount": 6,
+    "pages": [
+      {
+        "url": "https://www.tiktok.com/",
+        "title": "TikTok - Make Your Day",
+        "description": "TikTok - trends start here. On a device or on the web, viewers can watch and discover millions of personalized short videos. Download the app to get started.",
+        "headings": [
+          "For You",
+          "Shop",
+          "Explore",
+          "Following",
+          "LIVE",
+          "Profile",
+          "Company",
+          "Program",
+          "Terms & Policies"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Log in",
+          "Search",
+          "Explore"
+        ],
+        "landmarks": [
+          "main",
+          "aside"
+        ]
+      },
+      {
+        "url": "https://www.tiktok.com/explore",
+        "title": "Explore - Find your favourite videos on TikTok",
+        "description": "Discover the latest TikTok videos on our Explore page. Stay up-to-date on the latest trends and explore your interests here!",
+        "headings": [
+          "For You",
+          "Shop",
+          "Explore",
+          "Following",
+          "LIVE",
+          "Profile",
+          "Company",
+          "Program",
+          "Terms & Policies"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Log in",
+          "Search",
+          "Explore",
+          "cassiesbooktok"
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://www.tiktok.com/404?fromUrl=/pricing",
+        "title": "TikTok",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Log in",
+          "Contact"
+        ],
+        "landmarks": [
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.tiktok.com/help",
+        "title": "",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://www.tiktok.com/about?lang=en",
+        "title": "About | TikTok",
+        "description": "TikTok is the world's leading destination for short-form mobile videos. Our mission is to capture and present the world's creativity, knowledge, and moments that matter in everyday life. TikTok empowers everyone to be a creator directly from their smartphones, and is committed to building a community by encouraging users to share their passion and creative expression through their videos.",
+        "headings": [
+          "For you, by you",
+          "An experience tailored to what you love.",
+          "Endless Discovery",
+          "Find trends, talents, and topics that inspire you.",
+          "Community-Driven",
+          "Creativity, collaboration, and connection.",
+          "TikTok opens up a world of opportunities.",
+          "#BookTok",
+          "#LearnOnTikTok",
+          "#GamingOnTikTok",
+          "#FoodTok",
+          "#SportsOnTikTok",
+          "TikTok for Good",
+          "TikTok Creator Academy",
+          "Newsroom",
+          "Discover your next chapter with us"
+        ],
+        "navLabels": [
+          "About",
+          "Newsroom",
+          "Careers",
+          "Contact",
+          "Watch TikTok",
+          "English (US)",
+          "Store",
+          "ByteDance",
+          "TikTok For Good",
+          "TikTok For Developers",
+          "Effect House",
+          "Advertise",
+          "Browse",
+          "Embed",
+          "Rewards",
+          "Scaled LIVE Rewards",
+          "Help Center",
+          "Safety Center",
+          "Privacy Center",
+          "Creator Academy",
+          "Community Guidelines"
+        ],
+        "ctas": [
+          "Contact",
+          "Create real change",
+          "Join the academy"
+        ],
+        "landmarks": [
+          "main",
+          "header",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.tiktok.com/login",
+        "title": "Log in | TikTok",
+        "description": "Log in or sign up for an account on TikTok. Start watching to discover real people and real videos that will make your day.",
+        "headings": [
+          "Log in to TikTok"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Sign up"
+        ],
+        "landmarks": []
+      }
+    ],
+    "navLabels": [
+      "About",
+      "Newsroom",
+      "Careers",
+      "Contact",
+      "Watch TikTok",
+      "English (US)",
+      "Store",
+      "ByteDance",
+      "TikTok For Good",
+      "TikTok For Developers",
+      "Effect House",
+      "Advertise",
+      "Browse",
+      "Embed",
+      "Rewards",
+      "Scaled LIVE Rewards",
+      "Help Center",
+      "Safety Center",
+      "Privacy Center",
+      "Creator Academy",
+      "Community Guidelines"
+    ],
+    "ctas": [
+      "Log in",
+      "Search",
+      "Explore",
+      "cassiesbooktok",
+      "Contact",
+      "Create real change",
+      "Join the academy",
+      "Sign up"
+    ],
+    "headings": [
+      "For You",
+      "Shop",
+      "Explore",
+      "Following",
+      "LIVE",
+      "Profile",
+      "Company",
+      "Program",
+      "Terms & Policies",
+      "For you, by you",
+      "An experience tailored to what you love.",
+      "Endless Discovery",
+      "Find trends, talents, and topics that inspire you.",
+      "Community-Driven",
+      "Creativity, collaboration, and connection.",
+      "TikTok opens up a world of opportunities.",
+      "#BookTok",
+      "#LearnOnTikTok",
+      "#GamingOnTikTok",
+      "#FoodTok",
+      "#SportsOnTikTok",
+      "TikTok for Good",
+      "TikTok Creator Academy",
+      "Newsroom",
+      "Discover your next chapter with us",
+      "Log in to TikTok"
+    ],
+    "techSignals": [
+      "React",
+      "Next.js"
+    ],
+    "featureCandidates": [
+      "For You",
+      "Shop",
+      "Explore",
+      "Following",
+      "LIVE",
+      "Profile",
+      "Company",
+      "Program",
+      "Terms & Policies",
+      "For you, by you",
+      "An experience tailored to what you love.",
+      "Endless Discovery",
+      "Community-Driven",
+      "Creativity, collaboration, and connection.",
+      "TikTok opens up a world of opportunities.",
+      "#BookTok",
+      "#LearnOnTikTok",
+      "#GamingOnTikTok",
+      "#FoodTok",
+      "#SportsOnTikTok",
+      "TikTok for Good",
+      "TikTok Creator Academy",
+      "Newsroom",
+      "Discover your next chapter with us"
+    ],
+    "patternCandidates": [
+      "Search",
+      "Authentication",
+      "Modal dialogs",
+      "Tabs"
+    ],
+    "platformsDetected": [
+      "web",
+      "desktop",
+      "api",
+      "ios"
+    ],
+    "summary": "Captured 23 screenshots across 6 public URLs. Nav signals: About, Newsroom, Careers, Contact, Watch TikTok, English (US). Tech signals: React, Next.js. UI patterns: Search, Authentication, Modal dialogs, Tabs."
+  }
+}

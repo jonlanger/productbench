@@ -16,8 +16,8 @@ export function HomeHero() {
       />
       <div className="hero-grid absolute inset-0 -z-10 opacity-20" aria-hidden />
 
-      <div className="mx-auto flex min-h-[min(80vh,720px)] max-w-[1100px] flex-col items-center gap-6 px-4 py-14 sm:px-6 lg:flex-row lg:gap-8 lg:py-16">
-        <div className="hero-copy min-w-0 flex-1 space-y-5 lg:max-w-none">
+      <div className="mx-auto flex min-h-[min(80vh,720px)] max-w-[1100px] flex-col items-stretch gap-6 px-4 py-14 sm:px-6 lg:flex-row lg:items-center lg:gap-8 lg:py-16">
+        <div className="hero-copy w-full min-w-0 flex-1 space-y-5 lg:max-w-none">
           <p className="font-heading text-5xl tracking-tight sm:text-6xl md:text-7xl">
             ProductBench
           </p>

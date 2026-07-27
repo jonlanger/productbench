@@ -11,7 +11,7 @@
  *
  * Usage:
  *   npm run capture:ui -- --slug=notion
- *   npm run capture:ui -- --all [--limit=N]
+ *   npm run capture:ui -- --all [--limit=N] [--offset=N] [--skip-captured]
  *
  * Docs: https://playwright.dev/docs/intro
  */
@@ -19,7 +19,7 @@
 import { config } from "dotenv";
 import { eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/postgres-js";
-import { mkdirSync, writeFileSync } from "fs";
+import { existsSync, mkdirSync, writeFileSync } from "fs";
 import { join } from "path";
 import postgres from "postgres";
 import { chromium, type Locator, type Page } from "playwright";
@@ -43,6 +43,7 @@ import {
   needsWebFallback,
   runWebFallback,
 } from "./lib/capture-fallback";
+import { ShotDedupeRegistry } from "./lib/image-dedupe";
 import {
   aggregateInsights,
   detectPatterns,
@@ -61,6 +62,15 @@ type CaptureShot = {
   caption: string;
   kind: ProductScreenshotKind;
   sourceUrl: string;
+  capturedAt: string;
+  playbookStep: string;
+  viewport?: { width: number; height: number };
+  scrollY?: number;
+  pageTitle?: string;
+  width?: number;
+  height?: number;
+  phash?: string;
+  unique: boolean;
 };
 
 type ShotSpec = {
@@ -225,31 +235,49 @@ async function pageLooksBlocked(page: Page) {
   }
 }
 
-async function captureScrollBands(page: Page, dir: string, prefix: string) {
+async function captureScrollBands(
+  page: Page,
+  dir: string,
+  prefix: string,
+  maxBands = 6,
+) {
   const files: string[] = [];
   const height = await page.evaluate(() => document.documentElement.scrollHeight);
   const viewport = page.viewportSize()?.height ?? 900;
-  const bands = [
-    { id: `${prefix}-top`, y: 0 },
-    { id: `${prefix}-mid`, y: Math.max(0, Math.floor(height * 0.35)) },
-    { id: `${prefix}-lower`, y: Math.max(0, Math.floor(height * 0.65)) },
-  ];
-  // Skip near-duplicate bands on short pages
-  const unique = bands.filter((band, index, all) => {
+  const step = Math.max(Math.floor(viewport * 0.72), 360);
+  const positions = [0];
+
+  for (let y = step; y < height - viewport * 0.35; y += step) {
+    positions.push(y);
+    if (positions.length >= maxBands - 1) break;
+  }
+
+  if (height > viewport * 1.4) {
+    positions.push(Math.max(0, height - viewport));
+  }
+
+  const unique = positions.filter((y, index, all) => {
     if (index === 0) return true;
-    return Math.abs(band.y - all[index - 1]!.y) > viewport * 0.4;
+    return Math.abs(y - all[index - 1]!) > viewport * 0.28;
   });
 
-  for (const band of unique) {
-    await page.evaluate((y) => window.scrollTo(0, y), band.y);
+  for (const [index, y] of unique.entries()) {
+    await page.evaluate((scrollY) => window.scrollTo(0, scrollY), y);
     await page.waitForTimeout(400);
-    files.push(await saveJpeg(page, join(dir, band.id)));
+    const suffix =
+      index === 0
+        ? "top"
+        : index === unique.length - 1 && unique.length > 1
+          ? "lower"
+          : `band-${index + 1}`;
+    const id = suffix === "top" ? `${prefix}-top` : suffix === "lower" ? `${prefix}-lower` : `${prefix}-${suffix}`;
+    files.push(await saveJpeg(page, join(dir, id)));
   }
   await page.evaluate(() => window.scrollTo(0, 0));
   return files;
 }
 
-async function captureCardCrops(page: Page, dir: string, max = 4) {
+async function captureCardCrops(page: Page, dir: string, max = 8) {
   const cards = page.locator(CARD_SELECTOR);
   const count = Math.min(await cards.count(), max * 3);
   const files: Array<{ file: string; index: number }> = [];
@@ -311,8 +339,8 @@ function buildGenericPlaybook(product: ProductTarget): ShotSpec[] {
   const documented = sources
     ? flattenVisualSources(sources).filter((url) => url !== homepageUrl)
     : [];
-  // Prefer documented sources, then common path guesses — cap to keep runs bounded but deep
-  const MAX_SURFACE_URLS = 14;
+  // Prefer documented sources, then common path guesses — deeper crawl for 100+ unique shots
+  const MAX_SURFACE_URLS = 22;
   const secondary = [
     ...documented,
     ...guessCommonUrls(homepageUrl).filter((url) => !documented.includes(url)),
@@ -359,7 +387,7 @@ function buildGenericPlaybook(product: ProductTarget): ShotSpec[] {
       kind: "component",
       run: async (page, dir) => {
         await gotoReady(page, homepageUrl);
-        const crops = await captureCardCrops(page, dir, 4);
+        const crops = await captureCardCrops(page, dir, 6);
         return crops.length ? crops.map((c) => c.file) : null;
       },
     },
@@ -457,7 +485,7 @@ function buildGenericPlaybook(product: ProductTarget): ShotSpec[] {
         } catch {
           return null;
         }
-        const links = await collectSameOriginLinks(page, origin, 5);
+        const links = await collectSameOriginLinks(page, origin, 12);
         const files: string[] = [];
         for (const [index, url] of links.entries()) {
           try {
@@ -486,23 +514,14 @@ function buildGenericPlaybook(product: ProductTarget): ShotSpec[] {
         } catch {
           return null;
         }
-        const files = [await saveJpeg(page, join(dir, `surface-${index + 1}`))];
-        const height = await page.evaluate(
-          () => document.documentElement.scrollHeight,
+        const top = await saveJpeg(page, join(dir, `surface-${index + 1}`));
+        const bands = await captureScrollBands(
+          page,
+          dir,
+          `surface-${index + 1}`,
+          5,
         );
-        if (height > 1600) {
-          await page.evaluate(() =>
-            window.scrollTo(
-              0,
-              Math.floor(document.documentElement.scrollHeight * 0.45),
-            ),
-          );
-          await page.waitForTimeout(400);
-          files.push(
-            await saveJpeg(page, join(dir, `surface-${index + 1}-mid`)),
-          );
-        }
-        return files;
+        return [top, ...bands.filter((file) => file !== top)];
       },
     });
   }
@@ -780,6 +799,15 @@ async function syncDb(
     caption: shot.caption,
     kind: shot.kind,
     sourceUrl: shot.sourceUrl,
+    capturedAt: shot.capturedAt,
+    viewport: shot.viewport,
+    scrollY: shot.scrollY,
+    pageTitle: shot.pageTitle,
+    width: shot.width,
+    height: shot.height,
+    phash: shot.phash,
+    playbookStep: shot.playbookStep,
+    unique: shot.unique,
   }));
 
   const platforms = mergeUnique(
@@ -896,7 +924,13 @@ async function captureProduct(
   console.log(`\n${product.slug} (${mode}, ${shots.length} steps)`);
 
   const captured: CaptureShot[] = [];
+  let skippedDuplicates = 0;
   let blockedNavigations = 0;
+  const capturedAt = new Date().toISOString();
+  const dedupe = new ShotDedupeRegistry(10, (filePath) => {
+    dedupe.removeDuplicate(filePath);
+    skippedDuplicates += 1;
+  });
   const bag = {
     pages: new Map<string, CapturePageInsight>(),
     tech: new Set<string>(),
@@ -917,23 +951,58 @@ async function captureProduct(
         console.log("skipped");
         continue;
       }
+
+      const saved: string[] = [];
+      const viewport = page.viewportSize() ?? undefined;
+      const scrollY = await page
+        .evaluate(() => window.scrollY)
+        .catch(() => 0);
+      const pageTitle = await page.title().catch(() => "");
+      const sourceUrl = page.url();
+
       for (const [index, file] of files.entries()) {
+        const fullPath = join(dir, file);
+        const hash = await dedupe.register(fullPath);
+        if (!hash.unique) continue;
+
         captured.push({
           file,
           title:
             files.length > 1 ? `${shot.title} (${index + 1})` : shot.title,
           caption: shot.caption,
           kind: shot.kind,
-          sourceUrl: page.url(),
+          sourceUrl,
+          capturedAt,
+          playbookStep: shot.id,
+          viewport: viewport
+            ? { width: viewport.width, height: viewport.height }
+            : undefined,
+          scrollY,
+          pageTitle,
+          width: hash.width,
+          height: hash.height,
+          phash: hash.phash,
+          unique: true,
         });
+        saved.push(file);
       }
+
+      if (saved.length === 0) {
+        console.log("skipped (duplicates)");
+        continue;
+      }
+
       await notePage(page, bag);
-      console.log(files.join(", "));
+      console.log(saved.join(", "));
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
       if (message.startsWith("blocked:")) blockedNavigations += 1;
       console.log(`failed (${message.slice(0, 80)})`);
     }
+  }
+
+  if (skippedDuplicates > 0) {
+    console.log(`  deduped ${skippedDuplicates} near-duplicate shot(s)`);
   }
 
   if (needsWebFallback(captured.length, blockedNavigations, product.slug)) {
@@ -948,7 +1017,18 @@ async function captureProduct(
         existingCount: captured.length,
       });
       for (const shot of fallback) {
-        captured.push(shot);
+        const fullPath = join(dir, shot.file);
+        const hash = await dedupe.register(fullPath);
+        if (!hash.unique) continue;
+        captured.push({
+          ...shot,
+          capturedAt,
+          playbookStep: "web-fallback",
+          width: hash.width,
+          height: hash.height,
+          phash: hash.phash,
+          unique: true,
+        });
       }
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
@@ -991,26 +1071,51 @@ async function main() {
   const slug = argValue("slug");
   const runAll = argFlag("all");
   const limit = Number(argValue("limit") ?? "0");
+  const offset = Number(argValue("offset") ?? "0");
+  const skipCaptured = argFlag("skip-captured");
 
   if (!slug && !runAll) {
     console.error(
       [
         "Usage:",
         "  npm run capture:ui -- --slug=<product>",
-        "  npm run capture:ui -- --all [--limit=N]",
+        "  npm run capture:ui -- --all [--limit=N] [--offset=N] [--skip-captured]",
         "  npm run capture:ui -- --slug=notion --headed",
       ].join("\n"),
     );
     process.exit(1);
   }
 
-  const targets = await loadTargets(runAll ? undefined : slug);
+  let targets = await loadTargets(runAll ? undefined : slug);
   if (targets.length === 0) {
     console.error(slug ? `No product found for slug "${slug}"` : "No products found");
     process.exit(1);
   }
 
+  if (skipCaptured) {
+    const before = targets.length;
+    targets = targets.filter(
+      (product) =>
+        !existsSync(
+          join(process.cwd(), "public/products", product.slug, "manifest.json"),
+        ),
+    );
+    console.log(`Skipping ${before - targets.length} already-captured products`);
+  }
+
+  if (offset > 0) {
+    targets = targets.slice(offset);
+    console.log(`Offset ${offset} — ${targets.length} products remaining`);
+  }
+
   const queue = limit > 0 ? targets.slice(0, limit) : targets;
+
+  if (queue.length === 0) {
+    console.log("Nothing to capture.");
+    process.exit(0);
+  }
+
+  console.log(`Capturing ${queue.length} product(s)…`);
 
   const browser = await chromium.launch({ headless: !argFlag("headed") });
   const context = await browser.newContext({

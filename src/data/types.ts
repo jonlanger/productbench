@@ -64,6 +64,16 @@ export type ProductScreenshot = {
   caption?: string;
   kind?: ProductScreenshotKind;
   sourceUrl?: string;
+  /** Capture metadata (Playwright agent) */
+  capturedAt?: string;
+  viewport?: { width: number; height: number };
+  scrollY?: number;
+  pageTitle?: string;
+  width?: number;
+  height?: number;
+  phash?: string;
+  playbookStep?: string;
+  unique?: boolean;
 };
 
 /** Structured observations gathered by the Playwright capture agent */

@@ -1,0 +1,337 @@
+{
+  "capturedAt": "2026-07-27T13:35:23.685Z",
+  "screenshotCount": 26,
+  "pageCount": 7,
+  "pages": [
+    {
+      "url": "https://www.duolingo.com/",
+      "title": "Duolingo - The world’s most popular way to learn",
+      "description": "Free, fun, and effective courses in languages and more. Learn with quick, science-based lessons personalized to you.",
+      "headings": [
+        "The free, fun, and effective way to learn a language!",
+        "free. fun. effective.",
+        "backed by science",
+        "stay motivated",
+        "personalized learning",
+        "learn anytime, anywhere",
+        "duolingo english test",
+        "learn a language with duolingo"
+      ],
+      "navLabels": [
+        "Site language: English",
+        "Get started",
+        "I ALREADY HAVE AN ACCOUNT",
+        "English",
+        "Spanish",
+        "French",
+        "German",
+        "Italian",
+        "Portuguese",
+        "Math",
+        "Chess",
+        "Dutch",
+        "Japanese",
+        "Arabic",
+        "Czech",
+        "Welsh",
+        "Danish",
+        "Greek",
+        "Esperanto",
+        "Finnish",
+        "Irish",
+        "Scottish Gaelic",
+        "Hebrew",
+        "Hindi"
+      ],
+      "ctas": [
+        "Get started",
+        "research shows that it works",
+        "badge-app-storeDownload on theApp Store",
+        "Try 1 week free",
+        "Duolingo Handbook",
+        "Research",
+        "Contact us"
+      ],
+      "landmarks": [
+        "header",
+        "nav",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.duolingo.com/guidelines",
+      "title": "Community Guidelines - Duolingo",
+      "description": "Duolingo is a passionate community of language learners. Read the guidelines for joining and contributing to the community.",
+      "headings": [
+        "Community Guidelines",
+        "Please don’t use Duolingo to..."
+      ],
+      "navLabels": [
+        "Site language: English",
+        "Login",
+        "Get started"
+      ],
+      "ctas": [
+        "Get started"
+      ],
+      "landmarks": [
+        "header"
+      ]
+    },
+    {
+      "url": "https://www.duolingo.com/errors/404.html",
+      "title": "Error 404",
+      "headings": [
+        "Error 404"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Facebook"
+      ],
+      "landmarks": []
+    },
+    {
+      "url": "https://www.duolingo.com/help",
+      "title": "Duolingo - Help Center",
+      "description": "Free, fun, and effective courses in languages and more. Learn with quick, science-based lessons personalized to you.",
+      "headings": [],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": []
+    },
+    {
+      "url": "https://blog.duolingo.com/",
+      "title": "Duolingo Blog | Writing about the best way to learn a language",
+      "description": "Read about how Duolingo works, and how our learning scientists are working to make education fun and accessible to everyone.",
+      "headings": [
+        "How to add a new course on Duolingo",
+        "Sticking with it: tips for staying motivated",
+        "How I used Duolingo to find my family in Poland",
+        "Your guide to chess notation",
+        "Summer break!",
+        "30+ common German phrases for your trip to Germany",
+        "30+ common French phrases for your trip to France",
+        "How to use context clues while traveling",
+        "dear duolingo...",
+        "dear duolingo",
+        "Dear Duolingo: Why does Japanese have three writing systems?",
+        "Dear Duolingo: Is English a difficult language to learn?",
+        "shop duolingo",
+        "MOST RECENT POSTS",
+        "What’s the International Phonetic Alphabet, and how do I use it?",
+        "11 chess terms every beginner needs to know",
+        "RECENT POSTS"
+      ],
+      "navLabels": [
+        "Language",
+        "Chess",
+        "Math",
+        "Music",
+        "Announcements",
+        "Design",
+        "Engineering",
+        "Product",
+        "Life at Duolingo",
+        "Deutsch",
+        "English",
+        "Español",
+        "Français",
+        "Português",
+        "日本語",
+        "한국어"
+      ],
+      "ctas": [
+        "How to add a new course on Duolingo",
+        "START SHOPPING",
+        "Research",
+        "Contact us",
+        "Facebook"
+      ],
+      "landmarks": [
+        "header",
+        "nav",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://about.duolingo.com/#products",
+      "title": "About Duolingo",
+      "headings": [
+        "Our mission"
+      ],
+      "navLabels": [
+        "Products",
+        "Efficacy",
+        "Careers",
+        "Press",
+        "Blog",
+        "Contact",
+        "Duolingo app",
+        "About us",
+        "Help and support",
+        "Privacy and terms",
+        "Courses",
+        "Mission",
+        "Approach",
+        "Research",
+        "Brand guidelines",
+        "Investors",
+        "Contact us",
+        "Duolingo",
+        "Duolingo English Test",
+        "Duolingo for Business",
+        "Super Duolingo",
+        "Store",
+        "Duolingo for Desktop",
+        "Duolingo for Android"
+      ],
+      "ctas": [
+        "Contact",
+        "Learn more",
+        "Research",
+        "Contact us",
+        "Facebook"
+      ],
+      "landmarks": [
+        "header",
+        "nav",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.duolingo.com/login",
+      "title": "",
+      "headings": [],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": []
+    }
+  ],
+  "navLabels": [
+    "Site language: English",
+    "Get started",
+    "I ALREADY HAVE AN ACCOUNT",
+    "English",
+    "Spanish",
+    "French",
+    "German",
+    "Italian",
+    "Portuguese",
+    "Math",
+    "Chess",
+    "Dutch",
+    "Japanese",
+    "Arabic",
+    "Czech",
+    "Welsh",
+    "Danish",
+    "Greek",
+    "Esperanto",
+    "Finnish",
+    "Irish",
+    "Scottish Gaelic",
+    "Hebrew",
+    "Hindi",
+    "Login",
+    "Language",
+    "Music",
+    "Announcements",
+    "Design",
+    "Engineering"
+  ],
+  "ctas": [
+    "Get started",
+    "research shows that it works",
+    "badge-app-storeDownload on theApp Store",
+    "Try 1 week free",
+    "Duolingo Handbook",
+    "Research",
+    "Contact us",
+    "Facebook",
+    "How to add a new course on Duolingo",
+    "START SHOPPING",
+    "Contact",
+    "Learn more"
+  ],
+  "headings": [
+    "The free, fun, and effective way to learn a language!",
+    "free. fun. effective.",
+    "backed by science",
+    "stay motivated",
+    "personalized learning",
+    "learn anytime, anywhere",
+    "duolingo english test",
+    "learn a language with duolingo",
+    "Community Guidelines",
+    "Please don’t use Duolingo to...",
+    "Error 404",
+    "How to add a new course on Duolingo",
+    "Sticking with it: tips for staying motivated",
+    "How I used Duolingo to find my family in Poland",
+    "Your guide to chess notation",
+    "Summer break!",
+    "30+ common German phrases for your trip to Germany",
+    "30+ common French phrases for your trip to France",
+    "How to use context clues while traveling",
+    "dear duolingo...",
+    "dear duolingo",
+    "Dear Duolingo: Why does Japanese have three writing systems?",
+    "Dear Duolingo: Is English a difficult language to learn?",
+    "shop duolingo",
+    "MOST RECENT POSTS",
+    "What’s the International Phonetic Alphabet, and how do I use it?",
+    "11 chess terms every beginner needs to know",
+    "RECENT POSTS",
+    "Our mission"
+  ],
+  "techSignals": [
+    "Segment",
+    "Google Tag Manager",
+    "Cloudflare"
+  ],
+  "featureCandidates": [
+    "free. fun. effective.",
+    "backed by science",
+    "stay motivated",
+    "personalized learning",
+    "learn anytime, anywhere",
+    "duolingo english test",
+    "learn a language with duolingo",
+    "Community Guidelines",
+    "Please don’t use Duolingo to...",
+    "Error 404",
+    "How to add a new course on Duolingo",
+    "Sticking with it: tips for staying motivated",
+    "How I used Duolingo to find my family in Poland",
+    "Your guide to chess notation",
+    "Summer break!",
+    "How to use context clues while traveling",
+    "dear duolingo...",
+    "dear duolingo",
+    "shop duolingo",
+    "MOST RECENT POSTS",
+    "11 chess terms every beginner needs to know",
+    "RECENT POSTS",
+    "Our mission",
+    "Get started"
+  ],
+  "patternCandidates": [
+    "Search",
+    "Tabs",
+    "Authentication",
+    "Carousels",
+    "Card layout",
+    "Messaging"
+  ],
+  "platformsDetected": [
+    "web",
+    "ios",
+    "android",
+    "api",
+    "desktop"
+  ],
+  "summary": "Captured 26 screenshots across 7 public URLs. Nav signals: Site language: English, Get started, I ALREADY HAVE AN ACCOUNT, English, Spanish, French. Tech signals: Segment, Google Tag Manager, Cloudflare. UI patterns: Search, Tabs, Authentication, Carousels, Card layout, Messaging."
+}

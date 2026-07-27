@@ -4,6 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { ProductCard } from "@/components/catalog/product-card";
 import { Button } from "@/components/ui/button";
 import { getFeaturedProducts } from "@/data/queries";
+import { assignBentoSizes } from "@/lib/bento-size";
 
 const FEATURED_SLUGS = [
   "notion",
@@ -18,6 +19,7 @@ const FEATURED_SLUGS = [
 
 export async function HomeFeaturedCatalog() {
   const featured = await getFeaturedProducts(FEATURED_SLUGS);
+  const bentoSizes = assignBentoSizes(featured);
 
   return (
     <section className="border-b border-border/70 py-16 sm:py-20">
@@ -40,7 +42,11 @@ export async function HomeFeaturedCatalog() {
 
         <div className="grid auto-rows-[minmax(200px,auto)] grid-flow-dense grid-cols-1 gap-3 sm:auto-rows-[minmax(210px,auto)] sm:grid-cols-2 sm:gap-4 xl:grid-cols-3 2xl:grid-cols-4">
           {featured.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCard
+              key={product.id}
+              product={product}
+              bentoSize={bentoSizes.get(product.id)}
+            />
           ))}
         </div>
       </div>

@@ -1,0 +1,1237 @@
+{
+  "slug": "clickup",
+  "capturedAt": "2026-07-27T13:53:55.074Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "ClickUp public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://clickup.com/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "ClickUp homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://clickup.com/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "ClickUp homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://clickup.com/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "ClickUp homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://clickup.com/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "ClickUp homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://clickup.com/"
+    },
+    {
+      "file": "search-composer.jpg",
+      "title": "Search / composer",
+      "caption": "Focused search or primary input on ClickUp",
+      "kind": "component",
+      "sourceUrl": "https://clickup.com/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on ClickUp (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://clickup.com/"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from ClickUp",
+      "kind": "product",
+      "sourceUrl": "https://clickup.com/features/calendar"
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from ClickUp",
+      "kind": "product",
+      "sourceUrl": "https://clickup.com/features/calendar"
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "In-product nav (3)",
+      "caption": "Same-origin product / pricing / docs links from ClickUp",
+      "kind": "product",
+      "sourceUrl": "https://clickup.com/features/calendar"
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "In-product nav (4)",
+      "caption": "Same-origin product / pricing / docs links from ClickUp",
+      "kind": "product",
+      "sourceUrl": "https://clickup.com/features/calendar"
+    },
+    {
+      "file": "nav-5.jpg",
+      "title": "In-product nav (5)",
+      "caption": "Same-origin product / pricing / docs links from ClickUp",
+      "kind": "product",
+      "sourceUrl": "https://clickup.com/features/calendar"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard (1)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "product",
+      "sourceUrl": "https://clickup.com/pricing"
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "Dashboard (2)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "product",
+      "sourceUrl": "https://clickup.com/pricing"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings (1)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "product",
+      "sourceUrl": "https://clickup.com/product"
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "Settings (2)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "product",
+      "sourceUrl": "https://clickup.com/product"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search (1)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/products"
+    },
+    {
+      "file": "surface-3-mid.jpg",
+      "title": "Search (2)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/products"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Profile (1)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/features"
+    },
+    {
+      "file": "surface-4-mid.jpg",
+      "title": "Profile (2)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/features"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5 (1)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/platform"
+    },
+    {
+      "file": "surface-5-mid.jpg",
+      "title": "Supporting surface 5 (2)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/platform"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6 (1)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/solutions"
+    },
+    {
+      "file": "surface-6-mid.jpg",
+      "title": "Supporting surface 6 (2)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/solutions"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7 (1)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/customers"
+    },
+    {
+      "file": "surface-7-mid.jpg",
+      "title": "Supporting surface 7 (2)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/customers"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8 (1)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/features/docs"
+    },
+    {
+      "file": "surface-8-mid.jpg",
+      "title": "Supporting surface 8 (2)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/features/docs"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9 (1)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://help.clickup.com/hc/en-us"
+    },
+    {
+      "file": "surface-9-mid.jpg",
+      "title": "Supporting surface 9 (2)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://help.clickup.com/hc/en-us"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10 (1)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/blog/"
+    },
+    {
+      "file": "surface-10-mid.jpg",
+      "title": "Supporting surface 10 (2)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/blog/"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11 (1)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/about"
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "Supporting surface 11 (2)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/about"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://app.clickup.com/login"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13 (1)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/signin"
+    },
+    {
+      "file": "surface-13-mid.jpg",
+      "title": "Supporting surface 13 (2)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/signin"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14 (1)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/sign-in"
+    },
+    {
+      "file": "surface-14-mid.jpg",
+      "title": "Supporting surface 14 (2)",
+      "caption": "ClickUp public surface · clickup.com",
+      "kind": "docs",
+      "sourceUrl": "https://clickup.com/sign-in"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T13:53:55.074Z",
+    "screenshotCount": 39,
+    "pageCount": 16,
+    "pages": [
+      {
+        "url": "https://clickup.com/",
+        "title": "ClickUp™ | Maximize productivity • Software, AI, and humans converge",
+        "description": "Our mission is to make the world more productive. To do this, we built the everything app for work - Tasks, Docs, Goals, and Chat.",
+        "headings": [
+          "Software to replace all software",
+          "Software toreplace all software",
+          "60% of work is lost in context – and AI is lost without it",
+          "All apps, AI Agents, and humans in ClickUp",
+          "Projects",
+          "Docs",
+          "Brain",
+          "Chat",
+          "A new era of humans, with Super Agents",
+          "The best AI is your AI",
+          "Nothing comes close to Brain2",
+          "The only AI that actually knows your work",
+          "AI solutions for every team",
+          "Deliver projects on time, every time",
+          "Maximize marketing's impact and results",
+          "Ship faster, more reliable software",
+          "Create the systems, for scale",
+          "Build the process that power your people",
+          "Close the strategy- execution gap",
+          "It's like adding 15 full-time employees"
+        ],
+        "navLabels": [
+          "Brain AI",
+          "Product",
+          "Solutions",
+          "Learn",
+          "Pricing",
+          "Enterprise",
+          "Get a Demo",
+          "Login",
+          "Sign Up",
+          "macOS",
+          "iOS",
+          "Windows",
+          "Android"
+        ],
+        "ctas": [
+          "Pricing",
+          "Get a Demo",
+          "Sign Up",
+          "Get started. It's FREE",
+          "Get started. It's FREE!",
+          "Connected Search",
+          "Learn More",
+          "Get Started with Brain",
+          "Explore solution →",
+          "Get started",
+          "Get started FREE",
+          "Download",
+          "Enterprise Search",
+          "Contact Us",
+          "Research",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav",
+          "main",
+          "header",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://clickup.com/features/calendar",
+        "title": "ClickUp™ Calendar: Schedule your meetings and your work—automatically",
+        "description": "Plan, schedule, and manage tasks seamlessly with ClickUp Calendar. Sync with Google Calendar, customize views, and stay on top of deadlines—all in one place. Try it free!",
+        "headings": [
+          "AI-powered calendar that adapts to your priorities",
+          "What if your calendar could plan your day for you?",
+          "The old way",
+          "The ClickUp Way",
+          "Disconnected apps are killing productivity",
+          "Save time",
+          "Increase Focus",
+          "Get a customized schedule. Every. Single. Day.",
+          "Schedule your priority tasks—automatically",
+          "Automatic meeting notes",
+          "Your next call is always just a click away",
+          "Tasks get created & added for you",
+          "Send scheduling links",
+          "Search and ask questions about your schedule",
+          "See how Calendar can automatically plan your day",
+          "Join any call from anywhere in ClickUp",
+          "Zoom Meetings",
+          "Google Meet",
+          "Microsoft Teams",
+          "Plus, everything you'd expect from a calendar"
+        ],
+        "navLabels": [
+          "Brain AI",
+          "Product",
+          "Solutions",
+          "Learn",
+          "Pricing",
+          "Enterprise",
+          "Get a Demo",
+          "Login",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Get a Demo",
+          "Sign Up",
+          "Get Started. It's FREE",
+          "Learn more",
+          "Auto-add call info from Zoom, Meet, and Teams",
+          "Try it out",
+          "Download",
+          "Enterprise Search",
+          "Contact Us",
+          "Research",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://clickup.com/pricing",
+        "title": "ClickUp Pricing and Plans",
+        "description": "Unlimited Tasks, Users, Teams, Projects, and features - Free Forever!",
+        "headings": [
+          "The best work solution, for the best price.",
+          "free forever",
+          "unlimited",
+          "business",
+          "enterprise",
+          "The world's most advanced AI for work",
+          "Brain AI",
+          "Everything AI",
+          "AI Super Credits",
+          "ClickUp Certified Agents",
+          "When we optimize, you save $",
+          "Live training and support for AI",
+          "Save time. Save money. Kill busy work.",
+          "Frequently asked questions",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Brain AI",
+          "Product",
+          "Solutions",
+          "Learn",
+          "Pricing",
+          "Enterprise",
+          "Get a Demo",
+          "Login",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Get a Demo",
+          "Sign Up",
+          "Get Started",
+          "Contact sales",
+          "Book a demo",
+          "Learn more",
+          "Start saving with ClickUp today",
+          "Contact us",
+          "How am I billed when I add paid users to a Workspace?",
+          "Download",
+          "Enterprise Search",
+          "Research",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav",
+          "main",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://clickup.com/product",
+        "title": "Let's get that fixed",
+        "description": "Let us know if we can fix this for you. Contact help@clickup.com and tell us what happened.",
+        "headings": [
+          "Get the answer you were looking for.",
+          "In the meantime",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Brain AI",
+          "Product",
+          "Solutions",
+          "Learn",
+          "Pricing",
+          "Enterprise",
+          "Get a Demo",
+          "Login",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Get a Demo",
+          "Sign Up",
+          "Download",
+          "Enterprise Search",
+          "Contact Us",
+          "Research",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav",
+          "main",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://clickup.com/products",
+        "title": "Let's get that fixed",
+        "description": "Let us know if we can fix this for you. Contact help@clickup.com and tell us what happened.",
+        "headings": [
+          "Get the answer you were looking for.",
+          "In the meantime",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Brain AI",
+          "Product",
+          "Solutions",
+          "Learn",
+          "Pricing",
+          "Enterprise",
+          "Get a Demo",
+          "Login",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Get a Demo",
+          "Sign Up",
+          "Download",
+          "Enterprise Search",
+          "Contact Us",
+          "Research",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav",
+          "main",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://clickup.com/features",
+        "title": "ClickUp™ Product Features",
+        "description": "ClickUp comes with hundreds of powerful productivity features that can be customized for any work need — with more added every week. Try ClickUp Free Forever today!",
+        "headings": [
+          "All the features, one platform",
+          "Built different. With purpose.",
+          "Agents that work like humans",
+          "AI with real context",
+          "Hierarchy that scales",
+          "Reporting that reflects real work",
+          "Chat for real work",
+          "Shared knowledge",
+          "Proven templates",
+          "AI & AUTOMATION / WORK SMARTER",
+          "Brain Platform",
+          "Super Agents",
+          "Brain MAX",
+          "Premium AI models",
+          "AI Notetaker",
+          "Talk to Text",
+          "AI image generation",
+          "Enterprise search",
+          "Automations",
+          "AI Fields"
+        ],
+        "navLabels": [
+          "Brain AI",
+          "Product",
+          "Solutions",
+          "Learn",
+          "Pricing",
+          "Enterprise",
+          "Get a Demo",
+          "Login",
+          "Sign Up",
+          "AI & Automation",
+          "Tasks & Projects",
+          "Views",
+          "Collaboration",
+          "Knowledge",
+          "Time & Resources",
+          "Reporting",
+          "Integrations & Tools",
+          "Personalization"
+        ],
+        "ctas": [
+          "Pricing",
+          "Get a Demo",
+          "Sign Up",
+          "Get started. It's FREE",
+          "Learn more",
+          "Filter",
+          "HomeYour personalized start page with \"My Work,\" reminders, and recent activity.",
+          "Nested SubtasksAdd up to 7 levels of hierarchy to your subtasks.",
+          "Custom rolesCreate specialized permission sets.",
+          "DocsCreate collaborative documents, wikis, and SOPs directly linked to tasks.",
+          "Dates and timesPrecise scheduling with start dates, due dates, and exact times.",
+          "CardsCreate, resize, and place portable Cards anywhere in ClickUp."
+        ],
+        "landmarks": [
+          "nav",
+          "aside",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://clickup.com/platform",
+        "title": "Let's get that fixed",
+        "description": "Let us know if we can fix this for you. Contact help@clickup.com and tell us what happened.",
+        "headings": [
+          "Get the answer you were looking for.",
+          "In the meantime",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Brain AI",
+          "Product",
+          "Solutions",
+          "Learn",
+          "Pricing",
+          "Enterprise",
+          "Get a Demo",
+          "Login",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Get a Demo",
+          "Sign Up",
+          "Download",
+          "Enterprise Search",
+          "Contact Us",
+          "Research",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav",
+          "main",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://clickup.com/solutions",
+        "title": "Let's get that fixed",
+        "description": "Let us know if we can fix this for you. Contact help@clickup.com and tell us what happened.",
+        "headings": [
+          "Get the answer you were looking for.",
+          "In the meantime",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Brain AI",
+          "Product",
+          "Solutions",
+          "Learn",
+          "Pricing",
+          "Enterprise",
+          "Get a Demo",
+          "Login",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Get a Demo",
+          "Sign Up",
+          "Download",
+          "Enterprise Search",
+          "Contact Us",
+          "Research",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav",
+          "main",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://clickup.com/customers",
+        "title": "ClickUp™ Customer Stories",
+        "description": "Discover how ClickUp helps businesses of all sizes to streamline workflows, boost productivity, and achieve success. Read inspiring customer stories and see how ClickUp can help you too.",
+        "headings": [
+          "Software replaced. Results delivered.",
+          "33%",
+          "$120,000",
+          "100+ hours",
+          "6 tools",
+          "Loved by 5+ million teams, backed by 100+ awards",
+          "See how great teams get more done with ClickUp",
+          "It's like adding 15 full-time employees",
+          "#1 most referenced company on G2 reports",
+          "Powering businesses of all sizes",
+          "All your work, all your people, all powered by AI",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Brain AI",
+          "Product",
+          "Solutions",
+          "Learn",
+          "Pricing",
+          "Enterprise",
+          "Get a Demo",
+          "Login",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Get a Demo",
+          "Sign Up",
+          "Get started",
+          "Contact sales",
+          "Download",
+          "Enterprise Search",
+          "Contact Us",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav",
+          "main",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://clickup.com/features/docs",
+        "title": "Docs in ClickUp | ClickUp",
+        "description": "Create, collaborate on, and connect docs directly to your tasks and projects. Knowledge lives where work happens.",
+        "headings": [
+          "Beautiful, collaborative docs right where you work",
+          "What changes when docs and work live together",
+          "Without ClickUp Docs",
+          "With ClickUp Docs",
+          "Docs that actually work the way your team does",
+          "Docs that live next to the work",
+          "Write together, decide faster",
+          "Nothing gets lost. Nothing gets outdated.",
+          "Your knowledge should live where your work does",
+          "AI that knows your docs as well as your team does",
+          "AI that searches every doc to answer your questions",
+          "Your docs, updated without manual effort",
+          "Plus, everything you need to lead with confidence",
+          "Nested pages",
+          "Version history",
+          "Docs hub",
+          "Rich media",
+          "Permissions",
+          "Templates",
+          "Docs is just the beginning"
+        ],
+        "navLabels": [
+          "Brain AI",
+          "Product",
+          "Solutions",
+          "Learn",
+          "Pricing",
+          "Enterprise",
+          "Get a Demo",
+          "Login",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Get a Demo",
+          "Sign Up",
+          "Get started. It's FREE",
+          "Get started",
+          "Explore Super Agents",
+          "SchedulingAutomate calendar booking",
+          "All featuresExplore everything",
+          "Download",
+          "Enterprise Search",
+          "Contact Us",
+          "Research",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://help.clickup.com/hc/en-us",
+        "title": "ClickUp Help",
+        "headings": [
+          "How can we help?",
+          "Search",
+          "Templates",
+          "ClickUp University",
+          "Contact us",
+          "YouTube videos",
+          "Join our communities",
+          "Request a feature",
+          "Categories",
+          "Get started",
+          "ClickUp Agents",
+          "ClickUp Brain AI",
+          "Features and ClickApps",
+          "Chat",
+          "Integrations, API, and MCP",
+          "Mobile",
+          "Technical Support",
+          "Data, privacy, and security",
+          "Most viewed articles",
+          "Can't find what you're looking for?"
+        ],
+        "navLabels": [
+          "Toggle navigation menu",
+          "API & MCP",
+          "Categories",
+          "Get started",
+          "ClickUp Agents",
+          "ClickUp Brain AI",
+          "Features and ClickApps",
+          "Chat",
+          "Integrations, API, and MCP",
+          "Mobile",
+          "Technical Support",
+          "Data, privacy, and security",
+          "Status: Operational",
+          "My Tickets",
+          "Go to ClickUp",
+          "English (United States)",
+          "Deutsch",
+          "Español",
+          "Español (Latinoamérica)",
+          "Français (France)",
+          "Italiano",
+          "Português do Brasil"
+        ],
+        "ctas": [
+          "Get started",
+          "Join our communities Join one of our global communities",
+          "Get started Start using ClickUp.",
+          "Integrations, API, and MCP Search and sync data from other apps.",
+          "Intro to pricing",
+          "Create a template",
+          "Contact Us"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "search",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://clickup.com/blog/",
+        "title": "ClickUp",
+        "description": "Original content from the creators of ClickUp themselves",
+        "headings": [
+          "Project Management",
+          "Knowledge Management",
+          "Communication",
+          "Project management tips & trends, delivered.",
+          "Brain²: The Coming Wave",
+          "Articles",
+          "Recent Posts",
+          "20 Automation Examples in ClickUp Worth Stealing",
+          "The ROI of Consolidating 20+ Apps into One Platform",
+          "AI Team Morale Monitoring: A Guide for Leaders",
+          "How ClickUp’s Marketing Team Uses ClickUp",
+          "Why Most Companies Get AI Maturity Wrong",
+          "Subscribe to our blog",
+          "Why Smart Teams Make Worse decisions As They Scale",
+          "From Chaos to Clarity: A Project Manager’s Guide to AI-Powered Execution",
+          "AI Performance Metrics: 50+ KPIs to Measure AI-Driven Efficiency",
+          "AI Context Engineering: What It Is and How It Improves AI Accuracy",
+          "Popular Posts",
+          "The Art of High-Velocity Campaign Execution: Orchestrating GTM Success",
+          "Agentic Reasoning: Role in Decision-Making and Problem-Solving"
+        ],
+        "navLabels": [
+          "ClickUp Blog",
+          "Blog Home",
+          "Explore ClickUp",
+          "See Explore ClickUp sub-links.",
+          "Product Demo",
+          "Pricing",
+          "Templates",
+          "Features",
+          "Use Cases",
+          "Integrations",
+          "Customers",
+          "Topics",
+          "See Topics sub-links.",
+          "AI & Automation",
+          "Agencies",
+          "CRM",
+          "Data Insights",
+          "Higher Education",
+          "Marketing",
+          "Note Taking",
+          "Productivity",
+          "Project Management",
+          "Time Management",
+          "Software Reviews"
+        ],
+        "ctas": [
+          "Explore ClickUp",
+          "See Explore ClickUp sub-links.",
+          "Product Demo",
+          "Pricing",
+          "Sign Up",
+          "Clear Search",
+          "Open Search.",
+          "Open Search. Close Search.",
+          "Get Started",
+          "Universal search",
+          "Demos",
+          "Contact sales",
+          "Subscribe",
+          "Facebook",
+          "10 AI Enterprise Search Use Cases",
+          "Download"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main Navigation",
+          "nav",
+          "main",
+          "aside",
+          "nav:Footer Links.",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://clickup.com/about",
+        "title": "ClickUp™ | About",
+        "description": "We believe project management is broken. There has to be a better way to work; a more efficient way to be productive; a happier way to get shit done. That's why we created ClickUp.",
+        "headings": [
+          "We are ClickUp.",
+          "Our mission.",
+          "Maximize human productivity.",
+          "Save one day, Every week.",
+          "The faces behind ClickUp",
+          "Our core values",
+          "Normal f*cking sucks",
+          "Challenge the norms, push the boundaries",
+          "Embrace hard work, do hard things",
+          "Drive urgency",
+          "Grow 1% every day",
+          "Be fun to work with",
+          "Be in the details",
+          "Stay hungry",
+          "Deliver the best customer experience",
+          "Say what you mean, mean what you say",
+          "Our journey.",
+          "Life at ClickUp.",
+          "Privacy Preference Center",
+          "Manage Consent Preferences"
+        ],
+        "navLabels": [
+          "Brain AI",
+          "Product",
+          "Solutions",
+          "Learn",
+          "Pricing",
+          "Enterprise",
+          "Get a Demo",
+          "Login",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Get a Demo",
+          "Sign Up",
+          "Learn more about us",
+          "Join us",
+          "Add button label...",
+          "Join Our Team",
+          "Download",
+          "Enterprise Search",
+          "Contact Us"
+        ],
+        "landmarks": [
+          "nav",
+          "main",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://app.clickup.com/login",
+        "title": "Login",
+        "description": "ClickUp is the highest-rated and fastest growing Productivity Platform.",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Sign up",
+          "Continue with SSO",
+          "Log In"
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://clickup.com/signin",
+        "title": "Let's get that fixed",
+        "description": "Let us know if we can fix this for you. Contact help@clickup.com and tell us what happened.",
+        "headings": [
+          "Get the answer you were looking for.",
+          "In the meantime",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Brain AI",
+          "Product",
+          "Solutions",
+          "Learn",
+          "Pricing",
+          "Enterprise",
+          "Get a Demo",
+          "Login",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Get a Demo",
+          "Sign Up",
+          "Download",
+          "Enterprise Search",
+          "Contact Us",
+          "Research",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav",
+          "main",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://clickup.com/sign-in",
+        "title": "Let's get that fixed",
+        "description": "Let us know if we can fix this for you. Contact help@clickup.com and tell us what happened.",
+        "headings": [
+          "Get the answer you were looking for.",
+          "In the meantime",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Brain AI",
+          "Product",
+          "Solutions",
+          "Learn",
+          "Pricing",
+          "Enterprise",
+          "Get a Demo",
+          "Login",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Get a Demo",
+          "Sign Up",
+          "Download",
+          "Enterprise Search",
+          "Contact Us",
+          "Research",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav",
+          "main",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Brain AI",
+      "Product",
+      "Solutions",
+      "Learn",
+      "Pricing",
+      "Enterprise",
+      "Get a Demo",
+      "Login",
+      "Sign Up",
+      "macOS",
+      "iOS",
+      "Windows",
+      "Android",
+      "AI & Automation",
+      "Tasks & Projects",
+      "Views",
+      "Collaboration",
+      "Knowledge",
+      "Time & Resources",
+      "Reporting",
+      "Integrations & Tools",
+      "Personalization",
+      "Toggle navigation menu",
+      "API & MCP",
+      "Categories",
+      "Get started",
+      "ClickUp Agents",
+      "ClickUp Brain AI",
+      "Features and ClickApps",
+      "Chat"
+    ],
+    "ctas": [
+      "Pricing",
+      "Get a Demo",
+      "Sign Up",
+      "Get started. It's FREE",
+      "Get started. It's FREE!",
+      "Connected Search",
+      "Learn More",
+      "Get Started with Brain",
+      "Explore solution →",
+      "Get started",
+      "Get started FREE",
+      "Download",
+      "Enterprise Search",
+      "Contact Us",
+      "Research",
+      "Filter Icon",
+      "Auto-add call info from Zoom, Meet, and Teams",
+      "Try it out",
+      "Contact sales",
+      "Book a demo",
+      "Start saving with ClickUp today",
+      "How am I billed when I add paid users to a Workspace?",
+      "Filter",
+      "HomeYour personalized start page with \"My Work,\" reminders, and recent activity."
+    ],
+    "headings": [
+      "Software to replace all software",
+      "Software toreplace all software",
+      "60% of work is lost in context – and AI is lost without it",
+      "All apps, AI Agents, and humans in ClickUp",
+      "Projects",
+      "Docs",
+      "Brain",
+      "Chat",
+      "A new era of humans, with Super Agents",
+      "The best AI is your AI",
+      "Nothing comes close to Brain2",
+      "The only AI that actually knows your work",
+      "AI solutions for every team",
+      "Deliver projects on time, every time",
+      "Maximize marketing's impact and results",
+      "Ship faster, more reliable software",
+      "Create the systems, for scale",
+      "Build the process that power your people",
+      "Close the strategy- execution gap",
+      "It's like adding 15 full-time employees",
+      "AI-powered calendar that adapts to your priorities",
+      "What if your calendar could plan your day for you?",
+      "The old way",
+      "The ClickUp Way",
+      "Disconnected apps are killing productivity",
+      "Save time",
+      "Increase Focus",
+      "Get a customized schedule. Every. Single. Day.",
+      "Schedule your priority tasks—automatically",
+      "Automatic meeting notes"
+    ],
+    "techSignals": [
+      "Next.js",
+      "Webpack",
+      "Segment",
+      "Google Tag Manager",
+      "Vite",
+      "Cloudflare",
+      "Datadog"
+    ],
+    "featureCandidates": [
+      "Software to replace all software",
+      "Software toreplace all software",
+      "All apps, AI Agents, and humans in ClickUp",
+      "Projects",
+      "Docs",
+      "Brain",
+      "Chat",
+      "A new era of humans, with Super Agents",
+      "The best AI is your AI",
+      "Nothing comes close to Brain2",
+      "The only AI that actually knows your work",
+      "AI solutions for every team",
+      "Deliver projects on time, every time",
+      "Maximize marketing's impact and results",
+      "Ship faster, more reliable software",
+      "Create the systems, for scale",
+      "Build the process that power your people",
+      "Close the strategy- execution gap",
+      "It's like adding 15 full-time employees",
+      "The old way",
+      "The ClickUp Way",
+      "Disconnected apps are killing productivity",
+      "Save time",
+      "Increase Focus"
+    ],
+    "patternCandidates": [
+      "Search",
+      "Pricing display",
+      "Map view",
+      "Tabs",
+      "Card layout",
+      "Dashboard",
+      "Messaging",
+      "Calendar",
+      "Authentication",
+      "Filters",
+      "Checkout"
+    ],
+    "platformsDetected": [
+      "web",
+      "ios",
+      "android",
+      "api",
+      "desktop"
+    ],
+    "summary": "Captured 39 screenshots across 16 public URLs. Nav signals: Brain AI, Product, Solutions, Learn, Pricing, Enterprise. Tech signals: Next.js, Webpack, Segment, Google Tag Manager, Vite, Cloudflare. UI patterns: Search, Pricing display, Map view, Tabs, Card layout, Dashboard."
+  }
+}

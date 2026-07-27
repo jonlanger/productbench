@@ -19,8 +19,10 @@ export async function generateMetadata({
   const { slug } = await params;
   const product = await getVisibleProductBySlug(slug);
   return {
-    title: product ? `Add details · ${product.name}` : "Add details",
-    description: "Submit screenshots and UI details for review.",
+    title: product ? `Add details to ${product.name}` : "Add details",
+    description: product
+      ? `Share screenshots and UI notes for ${product.name}.`
+      : "Submit screenshots and UI details for review.",
   };
 }
 
@@ -44,12 +46,12 @@ export default async function AddDetailsPage({ params }: PageProps) {
         <p className="text-sm font-medium tracking-wide text-muted-foreground uppercase">
           Contribute
         </p>
-        <h1 className="font-heading text-4xl tracking-tight">Add details</h1>
+        <h1 className="font-heading text-4xl tracking-tight sm:text-5xl">
+          Add details to {product.name}
+        </h1>
         <p className="max-w-2xl text-sm leading-relaxed text-muted-foreground sm:text-base">
-          Submit screenshots of{" "}
-          <span className="font-medium text-foreground">{product.name}</span>{" "}
-          product surfaces or UI details. An admin reviews each submission
-          before it appears in the gallery.
+          Upload screenshots of key surfaces, components, or flows. Submissions
+          are reviewed before they appear in the gallery.
         </p>
       </div>
 

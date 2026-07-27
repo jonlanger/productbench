@@ -1,0 +1,642 @@
+{
+  "slug": "reddit",
+  "capturedAt": "2026-07-27T13:27:07.506Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Reddit public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.reddit.com/?solution=a2d2a275c5fc66a0a2d2a275c5fc66a0&js_challenge=1&token=7afd7253fec22262ff1c52b1703fe9eceac62159f2dc4df0dc1a29e64fe31761&jsc_orig_r="
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "Reddit homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.reddit.com/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Reddit homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.reddit.com/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "Reddit homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.reddit.com/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Reddit homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.reddit.com/"
+    },
+    {
+      "file": "account-menu.jpg",
+      "title": "Account / nav menu",
+      "caption": "Expanded account or primary navigation menu on Reddit",
+      "kind": "component",
+      "sourceUrl": "https://www.reddit.com/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on Reddit (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://www.reddit.com/"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from Reddit",
+      "kind": "product",
+      "sourceUrl": "https://www.reddit.com/explore/"
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from Reddit",
+      "kind": "product",
+      "sourceUrl": "https://www.reddit.com/explore/"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "product",
+      "sourceUrl": "https://www.reddit.com/pricing"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "product",
+      "sourceUrl": "https://www.reddit.com/product"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.reddit.com/products"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Profile",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.reddit.com/features"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.reddit.com/platform"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.reddit.com/solutions"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.reddit.com/customers"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.reddit.com/docs"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.reddit.com/help"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.reddit.com/blog"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11 (1)",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "docs",
+      "sourceUrl": "https://redditinc.com/"
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "Supporting surface 11 (2)",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "docs",
+      "sourceUrl": "https://redditinc.com/"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.reddit.com/login/"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.reddit.com/signin"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14",
+      "caption": "Reddit public surface · reddit.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.reddit.com/sign-in"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T13:27:07.506Z",
+    "screenshotCount": 24,
+    "pageCount": 16,
+    "pages": [
+      {
+        "url": "https://www.reddit.com/?solution=a2d2a275c5fc66a0a2d2a275c5fc66a0&js_challenge=1&token=7afd7253fec22262ff1c52b1703fe9eceac62159f2dc4df0dc1a29e64fe31761&jsc_orig_r=",
+        "title": "Reddit - The heart of the internet",
+        "description": "Reddit is where millions of people gather for conversations about the things they care about, in over 100,000 subreddit communities.",
+        "headings": [
+          "Popular Communities"
+        ],
+        "navLabels": [
+          "Open menu",
+          "Sign Up",
+          "Log In",
+          "Expand user menu"
+        ],
+        "ctas": [
+          "Sign Up",
+          "Log In",
+          "Explore"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "aside:Promotion",
+          "aside",
+          "aside:Popular Communities",
+          "aside:Entity Highlight Panel"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/explore/",
+        "title": "Explore Top Communities on Reddit",
+        "description": "Find the top communities on Reddit, including sports, gaming, news, pop culture and more",
+        "headings": [
+          "Explore Communities",
+          "Recommended for you",
+          "Spooky",
+          "Pop Culture",
+          "🇺🇸 Most popular in the US",
+          "Curated picks",
+          "Movies & TV",
+          "Games",
+          "Home & Garden",
+          "Business & Finance",
+          "Music",
+          "News & Politics"
+        ],
+        "navLabels": [
+          "Open menu",
+          "Sign Up",
+          "Log In",
+          "Expand user menu"
+        ],
+        "ctas": [
+          "Sign Up",
+          "Log In"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/pricing",
+        "title": "Reddit - The heart of the internet",
+        "headings": [
+          "Page not found"
+        ],
+        "navLabels": [
+          "Explore Reddit Communities"
+        ],
+        "ctas": [
+          "Explore Reddit Communities"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/product",
+        "title": "Reddit - The heart of the internet",
+        "headings": [
+          "Page not found"
+        ],
+        "navLabels": [
+          "Explore Reddit Communities"
+        ],
+        "ctas": [
+          "Explore Reddit Communities"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/products",
+        "title": "Reddit - The heart of the internet",
+        "headings": [
+          "Page not found"
+        ],
+        "navLabels": [
+          "Explore Reddit Communities"
+        ],
+        "ctas": [
+          "Explore Reddit Communities"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/features",
+        "title": "Reddit - The heart of the internet",
+        "headings": [
+          "Page not found"
+        ],
+        "navLabels": [
+          "Explore Reddit Communities"
+        ],
+        "ctas": [
+          "Explore Reddit Communities"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/platform",
+        "title": "Reddit - The heart of the internet",
+        "headings": [
+          "Page not found"
+        ],
+        "navLabels": [
+          "Explore Reddit Communities"
+        ],
+        "ctas": [
+          "Explore Reddit Communities"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/solutions",
+        "title": "Reddit - The heart of the internet",
+        "headings": [
+          "Page not found"
+        ],
+        "navLabels": [
+          "Explore Reddit Communities"
+        ],
+        "ctas": [
+          "Explore Reddit Communities"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/customers",
+        "title": "Reddit - The heart of the internet",
+        "headings": [
+          "Page not found"
+        ],
+        "navLabels": [
+          "Explore Reddit Communities"
+        ],
+        "ctas": [
+          "Explore Reddit Communities"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/docs",
+        "title": "Reddit - The heart of the internet",
+        "headings": [
+          "Page not found"
+        ],
+        "navLabels": [
+          "Explore Reddit Communities"
+        ],
+        "ctas": [
+          "Explore Reddit Communities"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/help",
+        "title": "Reddit - The heart of the internet",
+        "headings": [
+          "Page not found"
+        ],
+        "navLabels": [
+          "Explore Reddit Communities"
+        ],
+        "ctas": [
+          "Explore Reddit Communities"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/blog",
+        "title": "Reddit - The heart of the internet",
+        "headings": [
+          "Page not found"
+        ],
+        "navLabels": [
+          "Explore Reddit Communities"
+        ],
+        "ctas": [
+          "Explore Reddit Communities"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      },
+      {
+        "url": "https://redditinc.com/",
+        "title": "Reddit Inc Homepage",
+        "description": "Homepage - Reddit\n",
+        "headings": [
+          "The heart of the internet",
+          "How does Reddit work?",
+          "Post",
+          "Comment",
+          "Vote",
+          "Reddit by the numbers",
+          "Reddit news",
+          "Privacy Preference Center",
+          "Your Privacy",
+          "Strictly Necessary Cookies",
+          "Functional Cookies",
+          "Analytics & Performance Cookies",
+          "Advertising Cookies",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Company",
+          "About",
+          "Press",
+          "Careers",
+          "Brand",
+          "Investors",
+          "Values",
+          "Our values",
+          "Privacy",
+          "Transparency",
+          "Reddit for Good",
+          "News",
+          "Newsroom",
+          "Announcements",
+          "Product and Community",
+          "Policy and Safety",
+          "Life at Reddit",
+          "Support",
+          "Reddit help center",
+          "Contact",
+          "Reddit rules",
+          "Press inquiries",
+          "Legal requests",
+          "Terms & policies"
+        ],
+        "ctas": [
+          "Contact",
+          "Press Contact",
+          "Learn more about Reddit's use of cookies and similar technologies.",
+          "Filter Button"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Desktop navigation",
+          "nav:Mobile navigation",
+          "main",
+          "footer",
+          "navigation:Navigation Menu",
+          "dialog:Privacy Preference Center",
+          "navigation:Cookie Categories",
+          "dialog:Official_BrandLaunchVideo (1)",
+          "dialog"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/login/",
+        "title": "Welcome to Reddit",
+        "description": "Log in or sign up to personalize your feed, join conversations, vote, and explore communities.",
+        "headings": [
+          "Log In",
+          "Enter the 6-digit code from your authenticator app",
+          "Enter a 6-digit backup code"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Log In",
+          "Continue with SSO"
+        ],
+        "landmarks": [
+          "header"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/signin",
+        "title": "Reddit - The heart of the internet",
+        "headings": [
+          "Page not found"
+        ],
+        "navLabels": [
+          "Explore Reddit Communities"
+        ],
+        "ctas": [
+          "Explore Reddit Communities"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      },
+      {
+        "url": "https://www.reddit.com/sign-in",
+        "title": "Reddit - The heart of the internet",
+        "headings": [
+          "Page not found"
+        ],
+        "navLabels": [
+          "Explore Reddit Communities"
+        ],
+        "ctas": [
+          "Explore Reddit Communities"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Open menu",
+      "Sign Up",
+      "Log In",
+      "Expand user menu",
+      "Explore Reddit Communities",
+      "Company",
+      "About",
+      "Press",
+      "Careers",
+      "Brand",
+      "Investors",
+      "Values",
+      "Our values",
+      "Privacy",
+      "Transparency",
+      "Reddit for Good",
+      "News",
+      "Newsroom",
+      "Announcements",
+      "Product and Community",
+      "Policy and Safety",
+      "Life at Reddit",
+      "Support",
+      "Reddit help center",
+      "Contact",
+      "Reddit rules",
+      "Press inquiries",
+      "Legal requests",
+      "Terms & policies"
+    ],
+    "ctas": [
+      "Sign Up",
+      "Log In",
+      "Explore",
+      "Explore Reddit Communities",
+      "Contact",
+      "Press Contact",
+      "Learn more about Reddit's use of cookies and similar technologies.",
+      "Filter Button",
+      "Continue with SSO"
+    ],
+    "headings": [
+      "Popular Communities",
+      "Explore Communities",
+      "Recommended for you",
+      "Spooky",
+      "Pop Culture",
+      "🇺🇸 Most popular in the US",
+      "Curated picks",
+      "Movies & TV",
+      "Games",
+      "Home & Garden",
+      "Business & Finance",
+      "Music",
+      "News & Politics",
+      "Page not found",
+      "The heart of the internet",
+      "How does Reddit work?",
+      "Post",
+      "Comment",
+      "Vote",
+      "Reddit by the numbers",
+      "Reddit news",
+      "Privacy Preference Center",
+      "Your Privacy",
+      "Strictly Necessary Cookies",
+      "Functional Cookies",
+      "Analytics & Performance Cookies",
+      "Advertising Cookies",
+      "Cookie List",
+      "Log In",
+      "Enter the 6-digit code from your authenticator app"
+    ],
+    "techSignals": [
+      "Google Tag Manager",
+      "Sentry",
+      "Vite",
+      "Segment"
+    ],
+    "featureCandidates": [
+      "Popular Communities",
+      "Explore Communities",
+      "Recommended for you",
+      "Spooky",
+      "Pop Culture",
+      "🇺🇸 Most popular in the US",
+      "Curated picks",
+      "Movies & TV",
+      "Games",
+      "Home & Garden",
+      "Business & Finance",
+      "Music",
+      "News & Politics",
+      "Page not found",
+      "The heart of the internet",
+      "How does Reddit work?",
+      "Post",
+      "Comment",
+      "Vote",
+      "Reddit by the numbers",
+      "Reddit news",
+      "Privacy Preference Center",
+      "Your Privacy",
+      "Strictly Necessary Cookies"
+    ],
+    "patternCandidates": [
+      "Modal dialogs",
+      "Search",
+      "Filters",
+      "Map view",
+      "Tabs",
+      "Menus",
+      "Messaging",
+      "Authentication",
+      "Card layout",
+      "Checkout"
+    ],
+    "platformsDetected": [
+      "web",
+      "ios",
+      "api"
+    ],
+    "summary": "Captured 24 screenshots across 16 public URLs. Nav signals: Open menu, Sign Up, Log In, Expand user menu, Explore Reddit Communities, Company. Tech signals: Google Tag Manager, Sentry, Vite, Segment. UI patterns: Modal dialogs, Search, Filters, Map view, Tabs, Menus."
+  }
+}

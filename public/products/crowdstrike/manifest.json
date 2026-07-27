@@ -1,0 +1,237 @@
+{
+  "slug": "crowdstrike",
+  "capturedAt": "2026-07-27T13:36:46.460Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "CrowdStrike Falcon public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.crowdstrike.com/en-us/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "CrowdStrike Falcon homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.crowdstrike.com/en-us/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "CrowdStrike Falcon homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.crowdstrike.com/en-us/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "CrowdStrike Falcon homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.crowdstrike.com/en-us/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "CrowdStrike Falcon homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.crowdstrike.com/en-us/"
+    },
+    {
+      "file": "search-composer.jpg",
+      "title": "Search / composer",
+      "caption": "Focused search or primary input on CrowdStrike Falcon",
+      "kind": "component",
+      "sourceUrl": "https://www.crowdstrike.com/en-us/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on CrowdStrike Falcon (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://www.crowdstrike.com/en-us/"
+    },
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Social preview",
+      "caption": "Twitter/X card image (fallback)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.crowdstrike.com"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T13:36:46.460Z",
+    "screenshotCount": 8,
+    "pageCount": 1,
+    "pages": [
+      {
+        "url": "https://www.crowdstrike.com/en-us/",
+        "title": "CrowdStrike: We Stop Breaches with AI-native Cybersecurity",
+        "description": "CrowdStrike is a global cybersecurity leader with an advanced cloud-native platform for protecting endpoints, cloud workloads, identities and data.",
+        "headings": [
+          "CrowdStrike Announces Continuous Identity for AI Agents",
+          "AIDR: Defining the Next Era of Cybersecurity",
+          "How AI-Leading Security Teams Are Building the Agentic SOC",
+          "The Agentic Security Platform.Unified and built to secure the AI revolution.",
+          "The Future of Security Starts Here",
+          "Accelerate the SOC with AI",
+          "Stop AI-accelerated adversaries",
+          "Accelerate secure AI adoption and innovation",
+          "Recognition by trusted analysts",
+          "A Leader for the seventh consecutive time",
+          "Tailored bundles to stop breaches",
+          "Customers trust CrowdStrike to protect what matters most",
+          "David Anderson, Deputy CISO",
+          "Nathan Kelly, Sr. Information Security Engineer",
+          "Richard Lee, Director of Cybersecurity and Privacy",
+          "Experience industry-leading solutions from one powerful platform",
+          "Secure your AI",
+          "Secure your cloud",
+          "Stop identity attacks",
+          "The next SOC era starts here"
+        ],
+        "navLabels": [
+          "English (US)",
+          "Deutsch",
+          "English (AU)",
+          "English (UK)",
+          "Español (España)",
+          "Español (Latinoamérica)",
+          "Français",
+          "Italiano",
+          "Português (Brasil)",
+          "عربى",
+          "日本語",
+          "繁體中文",
+          "한국어",
+          "More information",
+          "Cookies Details"
+        ],
+        "ctas": [
+          "Contact us",
+          "Industry Recognition",
+          "Pricing",
+          "Explore products",
+          "Continue Shopping",
+          "Start free trial",
+          "Download report",
+          "Learn more",
+          "Explore now",
+          "Explore all bundles",
+          "Add to cartSwitch to monthly billing",
+          "Try free"
+        ],
+        "landmarks": [
+          "dialog:nav-mega-menu-calendar-title",
+          "nav",
+          "dialog:ABOUT COOKIES ON THIS SITE",
+          "dialog:Privacy Preference Center",
+          "navigation:Cookie Categories"
+        ]
+      }
+    ],
+    "navLabels": [
+      "English (US)",
+      "Deutsch",
+      "English (AU)",
+      "English (UK)",
+      "Español (España)",
+      "Español (Latinoamérica)",
+      "Français",
+      "Italiano",
+      "Português (Brasil)",
+      "عربى",
+      "日本語",
+      "繁體中文",
+      "한국어",
+      "More information",
+      "Cookies Details"
+    ],
+    "ctas": [
+      "Contact us",
+      "Industry Recognition",
+      "Pricing",
+      "Explore products",
+      "Continue Shopping",
+      "Start free trial",
+      "Download report",
+      "Learn more",
+      "Explore now",
+      "Explore all bundles",
+      "Add to cartSwitch to monthly billing",
+      "Try free"
+    ],
+    "headings": [
+      "CrowdStrike Announces Continuous Identity for AI Agents",
+      "AIDR: Defining the Next Era of Cybersecurity",
+      "How AI-Leading Security Teams Are Building the Agentic SOC",
+      "The Agentic Security Platform.Unified and built to secure the AI revolution.",
+      "The Future of Security Starts Here",
+      "Accelerate the SOC with AI",
+      "Stop AI-accelerated adversaries",
+      "Accelerate secure AI adoption and innovation",
+      "Recognition by trusted analysts",
+      "A Leader for the seventh consecutive time",
+      "Tailored bundles to stop breaches",
+      "Customers trust CrowdStrike to protect what matters most",
+      "David Anderson, Deputy CISO",
+      "Nathan Kelly, Sr. Information Security Engineer",
+      "Richard Lee, Director of Cybersecurity and Privacy",
+      "Experience industry-leading solutions from one powerful platform",
+      "Secure your AI",
+      "Secure your cloud",
+      "Stop identity attacks",
+      "The next SOC era starts here"
+    ],
+    "techSignals": [
+      "Next.js",
+      "Google Tag Manager",
+      "Datadog",
+      "Google Maps"
+    ],
+    "featureCandidates": [
+      "AIDR: Defining the Next Era of Cybersecurity",
+      "The Future of Security Starts Here",
+      "Accelerate the SOC with AI",
+      "Stop AI-accelerated adversaries",
+      "Accelerate secure AI adoption and innovation",
+      "Recognition by trusted analysts",
+      "A Leader for the seventh consecutive time",
+      "Tailored bundles to stop breaches",
+      "David Anderson, Deputy CISO",
+      "Nathan Kelly, Sr. Information Security Engineer",
+      "Secure your AI",
+      "Secure your cloud",
+      "Stop identity attacks",
+      "The next SOC era starts here",
+      "Contact us",
+      "Industry Recognition",
+      "Pricing",
+      "Explore products",
+      "Continue Shopping",
+      "Start free trial",
+      "Download report",
+      "Learn more",
+      "Explore now",
+      "Explore all bundles"
+    ],
+    "patternCandidates": [
+      "Search",
+      "Pricing display",
+      "Tabs",
+      "Card layout",
+      "Dashboard",
+      "Checkout",
+      "Menus",
+      "Map view"
+    ],
+    "platformsDetected": [
+      "web",
+      "api"
+    ],
+    "summary": "Captured 8 screenshots across 1 public URLs. Nav signals: English (US), Deutsch, English (AU), English (UK), Español (España), Español (Latinoamérica). Tech signals: Next.js, Google Tag Manager, Datadog, Google Maps. UI patterns: Search, Pricing display, Tabs, Card layout, Dashboard, Checkout."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

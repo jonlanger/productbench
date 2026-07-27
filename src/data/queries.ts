@@ -6,6 +6,7 @@ import type { Product } from "@/data/types";
 import { getDb, hasDatabaseUrl } from "@/db";
 import { products as productsTable, type ProductRow } from "@/db/schema";
 import { getViewer } from "@/lib/auth";
+import { stripProductForCatalog } from "@/lib/catalog-product";
 
 function isPublicProduct(product: Pick<Product, "isPublic">): boolean {
   return product.isPublic !== false;
@@ -53,8 +54,8 @@ function rowToProduct(row: ProductRow): Product {
   };
 }
 
-function filterForViewer(products: Product[], isAdmin: boolean): Product[] {
-  if (isAdmin) return products;
+function filterForViewer(products: Product[], actsAsAdmin: boolean): Product[] {
+  if (actsAsAdmin) return products;
   return products.filter(isPublicProduct);
 }
 
@@ -81,9 +82,15 @@ export const getAllProducts = cache(async (): Promise<Product[]> => {
 });
 
 /** Catalog visible to the current viewer (public set for guests, full for admins). */
+/** Catalog list — screenshots stripped to keep layout payload small. */
+export const getVisibleCatalogProducts = cache(async (): Promise<Product[]> => {
+  const products = await getVisibleProducts();
+  return products.map(stripProductForCatalog);
+});
+
 export const getVisibleProducts = cache(async (): Promise<Product[]> => {
-  const { isAdmin } = await getViewer();
-  return filterForViewer(await getAllProducts(), isAdmin);
+  const { actsAsAdmin } = await getViewer();
+  return filterForViewer(await getAllProducts(), actsAsAdmin);
 });
 
 export const getProductBySlug = cache(
@@ -116,8 +123,8 @@ export const getVisibleProductBySlug = cache(
     const product = await getProductBySlug(slug);
     if (!product) return undefined;
 
-    const { isAdmin } = await getViewer();
-    if (isAdmin || isPublicProduct(product)) return product;
+    const { actsAsAdmin } = await getViewer();
+    if (actsAsAdmin || isPublicProduct(product)) return product;
     return undefined;
   },
 );
@@ -180,14 +187,16 @@ export const getFeaturedProducts = cache(
 );
 
 export async function getCatalogStats() {
-  const { isAdmin } = await getViewer();
+  const { isAdmin, actsAsAdmin, isMemberPreview } = await getViewer();
   const all = await getAllProducts();
   const publicCount = all.filter(isPublicProduct).length;
 
   return {
-    isAdmin,
+    isAdmin: actsAsAdmin,
+    realIsAdmin: isAdmin,
+    isMemberPreview,
     publicCount,
     totalCount: all.length,
-    visibleCount: isAdmin ? all.length : publicCount,
+    visibleCount: actsAsAdmin ? all.length : publicCount,
   };
 }

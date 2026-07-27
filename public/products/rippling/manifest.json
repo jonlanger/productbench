@@ -1,0 +1,970 @@
+{
+  "slug": "rippling",
+  "capturedAt": "2026-07-27T13:38:14.727Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Rippling public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.rippling.com/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "Rippling homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Rippling homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "Rippling homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Rippling homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/"
+    },
+    {
+      "file": "card-1.jpg",
+      "title": "UI cards (1)",
+      "caption": "Card / tile crops from Rippling",
+      "kind": "component",
+      "sourceUrl": "https://www.rippling.com/"
+    },
+    {
+      "file": "card-2.jpg",
+      "title": "UI cards (2)",
+      "caption": "Card / tile crops from Rippling",
+      "kind": "component",
+      "sourceUrl": "https://www.rippling.com/"
+    },
+    {
+      "file": "card-3.jpg",
+      "title": "UI cards (3)",
+      "caption": "Card / tile crops from Rippling",
+      "kind": "component",
+      "sourceUrl": "https://www.rippling.com/"
+    },
+    {
+      "file": "account-menu.jpg",
+      "title": "Account / nav menu",
+      "caption": "Expanded account or primary navigation menu on Rippling",
+      "kind": "component",
+      "sourceUrl": "https://www.rippling.com/"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from Rippling",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/request-demo?product=hr"
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from Rippling",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/request-demo?product=hr"
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "In-product nav (3)",
+      "caption": "Same-origin product / pricing / docs links from Rippling",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/request-demo?product=hr"
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "In-product nav (4)",
+      "caption": "Same-origin product / pricing / docs links from Rippling",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/request-demo?product=hr"
+    },
+    {
+      "file": "nav-5.jpg",
+      "title": "In-product nav (5)",
+      "caption": "Same-origin product / pricing / docs links from Rippling",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/request-demo?product=hr"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/pricing"
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "Dashboard (2)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/pricing"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/product"
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "Settings (2)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/product"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/products"
+    },
+    {
+      "file": "surface-3-mid.jpg",
+      "title": "Search (2)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/products"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Profile (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/features"
+    },
+    {
+      "file": "surface-4-mid.jpg",
+      "title": "Profile (2)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/features"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5 (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/platform"
+    },
+    {
+      "file": "surface-5-mid.jpg",
+      "title": "Supporting surface 5 (2)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/platform"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6 (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/solutions"
+    },
+    {
+      "file": "surface-6-mid.jpg",
+      "title": "Supporting surface 6 (2)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/solutions"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7 (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/customers"
+    },
+    {
+      "file": "surface-7-mid.jpg",
+      "title": "Supporting surface 7 (2)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/customers"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8 (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/docs"
+    },
+    {
+      "file": "surface-8-mid.jpg",
+      "title": "Supporting surface 8 (2)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/docs"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9 (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/help"
+    },
+    {
+      "file": "surface-9-mid.jpg",
+      "title": "Supporting surface 9 (2)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/help"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10 (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/blog"
+    },
+    {
+      "file": "surface-10-mid.jpg",
+      "title": "Supporting surface 10 (2)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/blog"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11 (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/company/about"
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "Supporting surface 11 (2)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/company/about"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://app.rippling.com/sign-in/id?next=%2Flogin&disablePartnerAccount=undefined"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13 (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/signin"
+    },
+    {
+      "file": "surface-13-mid.jpg",
+      "title": "Supporting surface 13 (2)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/signin"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://app.rippling.com/sign-in/id"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T13:38:14.727Z",
+    "screenshotCount": 40,
+    "pageCount": 15,
+    "pages": [
+      {
+        "url": "https://www.rippling.com/",
+        "title": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+        "description": "Rippling eliminates the friction from running a business, combining HR, IT, and Finance apps on a unified data platform.",
+        "headings": [
+          "AI that knows your company, and acts like it",
+          "Start with the apps you need, or run them all together",
+          "The workforce OS with intelligence built in",
+          "Your business data with people at the center",
+          "Shared permissions and access controls",
+          "Get enterprise-grade reporting for real-time visibility everywhere",
+          "Go from prompt to productivity in seconds",
+          "Work moves faster when everything runs on one system",
+          "What’s new at Rippling",
+          "Get a demo—live or on demand",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See a demo"
+        ],
+        "ctas": [
+          "I'd prefer a 1:1 product demo",
+          "Pricing",
+          "See a demo",
+          "Create free account",
+          "Learn more",
+          "Get a demo",
+          "Explore prompts",
+          "Request live demo",
+          "Contact"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/request-demo?product=hr",
+        "title": "Request Demo - See Rippling in Action | Rippling",
+        "description": "Schedule a 30-minute demo of Rippling, the leading platform for companies that want to grow faster.",
+        "headings": [
+          "See Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "EN"
+        ],
+        "ctas": [
+          "Learn more"
+        ],
+        "landmarks": [
+          "header",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/pricing",
+        "title": "The platform for companies that want to grow faster",
+        "description": "Explore Rippling’s all-in-one workforce platform for HR, IT, and Spend management—including payroll, benefits, device management, expenses, and more.",
+        "headings": [
+          "The platform for companies that want to grow faster",
+          "The workplace platform",
+          "Rippling HCM",
+          "Rippling IT",
+          "Rippling Spend",
+          "Time is money. Switch and save both.",
+          "Companies that run on Rippling perform better",
+          "FAQs",
+          "Read Forrester's report on Rippling's Total Economic Impact",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
+        ],
+        "ctas": [
+          "Pricing",
+          "Learn more",
+          "Contact"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/product",
+        "title": "Oops! The page you're looking for doesn't exist.",
+        "description": "It looks like that link is broken. Browse our latest articles, check out our services, or contact our support team to get back on track.",
+        "headings": [
+          "404",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Learn more"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/products",
+        "title": "Explore Rippling’s Product Ecosystem | Rippling",
+        "description": "Everything HR, Payroll, IT, and Finance teams need in one system. See how Rippling’s products are powerful alone — and even stronger together.",
+        "headings": [
+          "Explore Rippling’s product ecosystem",
+          "Explore by suite",
+          "Platform",
+          "HCM",
+          "Payroll",
+          "IT",
+          "Finance",
+          "Global",
+          "Products A–Z",
+          "See Rippling in action",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
+        ],
+        "ctas": [
+          "Pricing",
+          "See a demo",
+          "Get started"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/features",
+        "title": "Oops! The page you're looking for doesn't exist.",
+        "description": "It looks like that link is broken. Browse our latest articles, check out our services, or contact our support team to get back on track.",
+        "headings": [
+          "404",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Learn more"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/platform",
+        "title": "Best Workforce Management Software | Rippling",
+        "description": "Manage your employees HR, IT, and more with Rippling — the first end-to-end software solution for workforce management and automation.",
+        "headings": [
+          "Your platform determines your business outcome",
+          "When everything runs on one system, work moves faster",
+          "Platform capabilities that scale across your business",
+          "Your data is secure with Rippling",
+          "Learn more about Rippling's platform",
+          "See Rippling in action",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
+        ],
+        "ctas": [
+          "Pricing",
+          "Learn more",
+          "Explore App Studio",
+          "Learn more about security",
+          "Request demo",
+          "Contact"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/solutions",
+        "title": "Oops! The page you're looking for doesn't exist.",
+        "description": "It looks like that link is broken. Browse our latest articles, check out our services, or contact our support team to get back on track.",
+        "headings": [
+          "404",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Learn more"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/customers",
+        "title": "Rippling Customers - See What Customers Are Saying About Us | Rippling",
+        "description": "Rippling has helped hundreds of businesses find the right employee management solutions that match their needs. See what our customers are saying about us here.",
+        "headings": [
+          "Customer stories",
+          "1 prompt for an investor-ready workforce report",
+          "6 hours reduced to minutes with a single Rippling AI prompt",
+          "20+ ESG questions answered without running a single report",
+          "5 minutes to run a flight risk analysis, reduced from 4 hours",
+          "30 seconds to write a prompt for complex workforce report",
+          "2 weeks of manual work replaced by one prompt",
+          "100+ apps audited for ghost access with a single prompt",
+          "Filters",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
+        ],
+        "ctas": [
+          "Pricing",
+          "Learn more",
+          "Country",
+          "Industry",
+          "Contact"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "search",
+          "aside",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/docs",
+        "title": "Oops! The page you're looking for doesn't exist.",
+        "description": "It looks like that link is broken. Browse our latest articles, check out our services, or contact our support team to get back on track.",
+        "headings": [
+          "404",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Learn more"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/help",
+        "title": "Oops! The page you're looking for doesn't exist.",
+        "description": "It looks like that link is broken. Browse our latest articles, check out our services, or contact our support team to get back on track.",
+        "headings": [
+          "404",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Learn more"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/blog",
+        "title": "Rippling Blog - News & Best Practices for HR, IT & Finance | Rippling",
+        "description": "The official Rippling blog: the best source of information for employee management tips, guidance, news and more across HR, IT, Finance, and Operations.",
+        "headings": [
+          "HR",
+          "IT",
+          "Finance",
+          "Global",
+          "Company",
+          "Engineering",
+          "Product",
+          "Startups",
+          "Rippling Blog",
+          "Hubs",
+          "Early access to the inside scoop",
+          "Global work glossary",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "HR",
+          "View HR articles",
+          "Aug 19, 2024The 11 Best PEO Companies for HR Software in 2026 (Compared)",
+          "Mar 4, 2025Top 8 Onboarding Software for Small Business in 2025",
+          "Dec 16, 20242025 payroll calendar templates for efficient management",
+          "IT",
+          "View IT articles",
+          "Jun 18, 202410 best mobile device management (MDM) solutions and tools in 2025",
+          "Mar 6, 20256 password cracker & hacking tools + online password protection tips",
+          "Jul 31, 2024The 8 best IT inventory management systems",
+          "Feb 25, 2025Top 11 IT management solutions in 2025",
+          "Finance",
+          "View Finance articles",
+          "Aug 28, 2024Small business expense tracking: 8 best tools",
+          "Jul 18, 2024What is an expense report? Free template and complete guide"
+        ],
+        "ctas": [
+          "Pricing",
+          "Apr 21, 2023How to work remotely for a US company from another country",
+          "Startups",
+          "View Startups articles",
+          "Aug 14, 2025AI startups are building the future. And they run on Rippling.",
+          "Subscribe",
+          "ProductExplore new launches, feature updates, and innovations from Rippling.",
+          "Filter By Hub",
+          "Learn more",
+          "Contact"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "aside",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/company/about",
+        "title": "About Us | Rippling | We free smart people to work on hard problems",
+        "description": "We're on a mission to free smart people to work on hard problems. Rippling helps to automate and eliminate the administrative work of running a company.",
+        "headings": [
+          "We free smart people to work on hard problems",
+          "Meet our leadership team",
+          "Where we work",
+          "Join the team",
+          "Rippling in the news",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
+        ],
+        "ctas": [
+          "Pricing",
+          "Explore the Rippling platform",
+          "Explore open roles",
+          "HR software firm Rippling to create 100 jobs at new EU HQ in DublinRead article",
+          "Contact",
+          "Learn more"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://app.rippling.com/sign-in/id?next=%2Flogin&disablePartnerAccount=undefined",
+        "title": "Sign in | Rippling",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Continue"
+        ],
+        "landmarks": [
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/signin",
+        "title": "Oops! The page you're looking for doesn't exist.",
+        "description": "It looks like that link is broken. Browse our latest articles, check out our services, or contact our support team to get back on track.",
+        "headings": [
+          "404",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Learn more"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Back to main menu",
+      "Products",
+      "Platform",
+      "Solutions",
+      "Global",
+      "Resources",
+      "Pricing",
+      "Login",
+      "EN",
+      "See a demo",
+      "See Rippling",
+      "HR",
+      "View HR articles",
+      "Aug 19, 2024The 11 Best PEO Companies for HR Software in 2026 (Compared)",
+      "Mar 4, 2025Top 8 Onboarding Software for Small Business in 2025",
+      "Dec 16, 20242025 payroll calendar templates for efficient management",
+      "IT",
+      "View IT articles",
+      "Jun 18, 202410 best mobile device management (MDM) solutions and tools in 2025",
+      "Mar 6, 20256 password cracker & hacking tools + online password protection tips",
+      "Jul 31, 2024The 8 best IT inventory management systems",
+      "Feb 25, 2025Top 11 IT management solutions in 2025",
+      "Finance",
+      "View Finance articles",
+      "Aug 28, 2024Small business expense tracking: 8 best tools",
+      "Jul 18, 2024What is an expense report? Free template and complete guide"
+    ],
+    "ctas": [
+      "I'd prefer a 1:1 product demo",
+      "Pricing",
+      "See a demo",
+      "Create free account",
+      "Learn more",
+      "Get a demo",
+      "Explore prompts",
+      "Request live demo",
+      "Contact",
+      "Get started",
+      "Explore App Studio",
+      "Learn more about security",
+      "Request demo",
+      "Country",
+      "Industry",
+      "Apr 21, 2023How to work remotely for a US company from another country",
+      "Startups",
+      "View Startups articles",
+      "Aug 14, 2025AI startups are building the future. And they run on Rippling.",
+      "Subscribe",
+      "ProductExplore new launches, feature updates, and innovations from Rippling.",
+      "Filter By Hub",
+      "Explore the Rippling platform",
+      "Explore open roles"
+    ],
+    "headings": [
+      "AI that knows your company, and acts like it",
+      "Start with the apps you need, or run them all together",
+      "The workforce OS with intelligence built in",
+      "Your business data with people at the center",
+      "Shared permissions and access controls",
+      "Get enterprise-grade reporting for real-time visibility everywhere",
+      "Go from prompt to productivity in seconds",
+      "Work moves faster when everything runs on one system",
+      "What’s new at Rippling",
+      "Get a demo—live or on demand",
+      "Request a demo to see Rippling in action",
+      "See Rippling in action",
+      "The platform for companies that want to grow faster",
+      "The workplace platform",
+      "Rippling HCM",
+      "Rippling IT",
+      "Rippling Spend",
+      "Time is money. Switch and save both.",
+      "Companies that run on Rippling perform better",
+      "FAQs",
+      "Read Forrester's report on Rippling's Total Economic Impact",
+      "404",
+      "Explore Rippling’s product ecosystem",
+      "Explore by suite",
+      "Platform",
+      "HCM",
+      "Payroll",
+      "IT",
+      "Finance",
+      "Global"
+    ],
+    "techSignals": [
+      "Next.js",
+      "Webpack",
+      "Segment",
+      "Google Tag Manager",
+      "Cloudflare"
+    ],
+    "featureCandidates": [
+      "AI that knows your company, and acts like it",
+      "The workforce OS with intelligence built in",
+      "Your business data with people at the center",
+      "Shared permissions and access controls",
+      "Go from prompt to productivity in seconds",
+      "What’s new at Rippling",
+      "Get a demo—live or on demand",
+      "Request a demo to see Rippling in action",
+      "See Rippling in action",
+      "The workplace platform",
+      "Rippling HCM",
+      "Rippling IT",
+      "Rippling Spend",
+      "Time is money. Switch and save both.",
+      "Companies that run on Rippling perform better",
+      "FAQs",
+      "Explore Rippling’s product ecosystem",
+      "Explore by suite",
+      "Platform",
+      "Payroll",
+      "Finance",
+      "Global",
+      "I'd prefer a 1:1 product demo",
+      "Pricing"
+    ],
+    "patternCandidates": [
+      "Filters",
+      "Pricing display",
+      "Card layout",
+      "Dashboard",
+      "Authentication",
+      "Tabs",
+      "Search",
+      "Map view",
+      "Messaging"
+    ],
+    "platformsDetected": [
+      "web",
+      "api",
+      "ios",
+      "desktop"
+    ],
+    "summary": "Captured 40 screenshots across 15 public URLs. Nav signals: Back to main menu, Products, Platform, Solutions, Global, Resources. Tech signals: Next.js, Webpack, Segment, Google Tag Manager, Cloudflare. UI patterns: Filters, Pricing display, Card layout, Dashboard, Authentication, Tabs."
+  }
+}

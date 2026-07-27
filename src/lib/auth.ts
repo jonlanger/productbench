@@ -1,11 +1,17 @@
 import { cache } from "react";
 import type { User } from "@supabase/supabase-js";
 
+import { isMemberPreviewActive } from "@/lib/member-preview";
 import { createClient, hasSupabasePublicConfig } from "@/lib/supabase/server";
 
 export type Viewer = {
   user: User | null;
+  /** Signed-in email is on ADMIN_EMAILS */
   isAdmin: boolean;
+  /** Admin is previewing the member experience */
+  isMemberPreview: boolean;
+  /** Use for catalog + nav visibility (false while member preview is on) */
+  actsAsAdmin: boolean;
 };
 
 function parseAdminEmails(): Set<string> {
@@ -25,7 +31,7 @@ export function isAdminEmail(email: string | null | undefined): boolean {
 
 export const getViewer = cache(async (): Promise<Viewer> => {
   if (!hasSupabasePublicConfig()) {
-    return { user: null, isAdmin: false };
+    return { user: null, isAdmin: false, isMemberPreview: false, actsAsAdmin: false };
   }
 
   try {
@@ -34,12 +40,17 @@ export const getViewer = cache(async (): Promise<Viewer> => {
       data: { user },
     } = await supabase.auth.getUser();
 
+    const isAdmin = isAdminEmail(user?.email);
+    const isMemberPreview = isAdmin ? await isMemberPreviewActive() : false;
+
     return {
       user,
-      isAdmin: isAdminEmail(user?.email),
+      isAdmin,
+      isMemberPreview,
+      actsAsAdmin: isAdmin && !isMemberPreview,
     };
   } catch (error) {
     console.error("[getViewer] failed to resolve auth session.", error);
-    return { user: null, isAdmin: false };
+    return { user: null, isAdmin: false, isMemberPreview: false, actsAsAdmin: false };
   }
 });

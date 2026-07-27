@@ -1,5 +1,6 @@
 import type { Product } from "./types";
 import { additionalProducts } from "./additional-products";
+import { batch2Products } from "./batch-2-products";
 import { extraWorkflows } from "./extra-workflows";
 
 function withCoreWorkflows(list: Product[]): Product[] {
@@ -1459,6 +1460,7 @@ export const products: Product[] = withCoreWorkflows([
     tags: ["deployment", "frontend", "edge", "DX"],
   },
   ...additionalProducts,
+  ...batch2Products,
 ]);
 
 /** @deprecated Prefer `@/data/queries` — kept for seed + offline fallback. */

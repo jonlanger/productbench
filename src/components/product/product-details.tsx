@@ -147,6 +147,7 @@ export function ProductDetails({ product }: { product: Product }) {
 
       {product.screenshots && product.screenshots.length > 0 ? (
         <ProductVisualGalleries
+          slug={product.slug}
           screenshots={product.screenshots}
           accent={product.accent}
         />
@@ -243,6 +244,7 @@ export function ProductDetails({ product }: { product: Product }) {
         <TabsContent value="screens" className="space-y-4">
           {product.screenshots && product.screenshots.length > 0 ? (
             <ProductVisualGalleries
+              slug={product.slug}
               screenshots={product.screenshots}
               accent={product.accent}
             />

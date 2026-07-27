@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 
+import { MemberPreviewPanel } from "@/components/admin/member-preview-panel";
 import { AvatarUploader } from "@/components/auth/avatar-uploader";
 import { SignOutButton } from "@/components/auth/sign-out-button";
 import { Badge } from "@/components/ui/badge";
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
 };
 
 export default async function AccountPage() {
-  const { user, isAdmin } = await getViewer();
+  const { user, isAdmin, isMemberPreview } = await getViewer();
   if (!user) {
     redirect("/sign-in?next=/account");
   }
@@ -38,7 +39,7 @@ export default async function AccountPage() {
         <div className="flex flex-wrap items-center gap-3">
           <h1 className="font-heading text-4xl tracking-tight">Your account</h1>
           {isAdmin ? (
-            <Badge>Admin</Badge>
+            <Badge>{isMemberPreview ? "Admin · previewing" : "Admin"}</Badge>
           ) : (
             <Badge variant="secondary">Member</Badge>
           )}
@@ -67,6 +68,12 @@ export default async function AccountPage() {
 
       {isAdmin ? (
         <>
+          <MemberPreviewPanel
+            isMemberPreview={isMemberPreview}
+            publicCount={stats.publicCount}
+            totalCount={stats.totalCount}
+          />
+          <Separator className="my-8" />
           <section className="space-y-4">
             <h2 className="font-heading text-xl tracking-tight">
               Admin review
@@ -91,7 +98,9 @@ export default async function AccountPage() {
         <h2 className="font-heading text-xl tracking-tight">Catalog access</h2>
         <p className="text-sm leading-relaxed text-muted-foreground">
           {isAdmin
-            ? `You have admin access to the full catalog (${stats.totalCount} products).`
+            ? isMemberPreview
+              ? `Member preview is on — you're browsing the public catalog (${stats.publicCount} products).`
+              : `You have admin access to the full catalog (${stats.totalCount} products).`
             : `You can browse the public catalog (${stats.publicCount} products). Admin accounts unlock entries marked private.`}
         </p>
         <div className="flex flex-wrap gap-2">
