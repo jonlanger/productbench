@@ -20,8 +20,10 @@ export function SignInForm() {
   const searchParams = useSearchParams();
   const next = searchParams.get("next") || "/account";
   const authError = searchParams.get("error");
+  const initialMode =
+    searchParams.get("mode") === "sign-up" ? "sign-up" : "sign-in";
 
-  const [mode, setMode] = useState<Mode>("sign-in");
+  const [mode, setMode] = useState<Mode>(initialMode);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState<string | null>(

@@ -1,0 +1,432 @@
+{
+  "capturedAt": "2026-07-27T14:17:32.779Z",
+  "screenshotCount": 33,
+  "pageCount": 15,
+  "pages": [
+    {
+      "url": "https://basecamp.com/",
+      "title": "Basecamp",
+      "description": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide.",
+      "headings": [
+        "Tell me if this sounds about right.",
+        "Big numbers. Highly-trusted. Rugged, reliable, and ready.",
+        "Remember when companies cared about service? We still do.",
+        "All these questions have the same answer: Yes!",
+        "Join us for a free live class.",
+        "And there’s more…"
+      ],
+      "navLabels": [
+        "Sign in",
+        "Sign up free",
+        "Pricing",
+        "Basecamp 5 is here",
+        "Features",
+        "Paths",
+        "API, CLI, Skills",
+        "Reliable to the core",
+        "people in Basecamp now"
+      ],
+      "ctas": [
+        "Sign in",
+        "Sign up free",
+        "Pricing",
+        "Pricing & sign up — Two paid plans, one free plan",
+        "Books we’ve written",
+        "Employee handbook",
+        "Try Basecamp free"
+      ],
+      "landmarks": [
+        "nav",
+        "main",
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://basecamp.com/guides/how-we-communicate",
+      "title": "Basecamp — The 37signals Guide to Internal Communication",
+      "description": "The how, where, why, and when we communicate. Long form asynchronous? Real-time chat? In-person? Video? Verbal? Written? Via email? In Basecamp? How do we keep everyone in the loop without everyone getting tangled in everyone else’s business? It’s all in here.",
+      "headings": [
+        "The 37signals Guide to Internal Communication.",
+        "Rules of thumb, and general philosophy",
+        "Communicating day-to-day",
+        "Basic toolset",
+        "Automatic daily: “What did you work on today?”",
+        "Automatic weekly: “What will you be working on this week?”",
+        "Automatic occasionally: “Social questions”",
+        "← Reflect every 6 weeks: Heartbeats",
+        "→ Project every 6 weeks: Kickoffs",
+        "Whenever relevant: Announcements",
+        "Day-to-day project work: In context",
+        "And there’s more…"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Books we’ve written",
+        "Employee handbook",
+        "Sign in",
+        "Try Basecamp free"
+      ],
+      "landmarks": [
+        "main",
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://basecamp.com/pricing",
+      "title": "Basecamp — Pricing",
+      "description": "Start free with Basecamp — one project, 20 users, forever free. Or upgrade to Plus (/user/mo) or Pro Unlimited (/mo) for unlimited projects and premium support.",
+      "headings": [
+        "Pick a package and try Basecamp for free.",
+        "Pro Unlimited",
+        "Top-of-the-line, all-inclusive pricing. Unlimited users, no per-user fees.",
+        "Pro",
+        "A great choice for freelancers, startups, and smaller teams.",
+        "The same core features are included with every package.",
+        "A stable, well-run company is part of the deal, too.",
+        "Risk-free, cancel anytime, no long-term lock-in",
+        "A big boost for bootstrappers & small businesses",
+        "Basecamp eliminates the Hassle Tax",
+        "I have pricing questions…",
+        "And there’s more…"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Book a personal demo",
+        "learn more about Admin Pro Pack here",
+        "Books we’ve written",
+        "Employee handbook",
+        "Sign in"
+      ],
+      "landmarks": [
+        "main",
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://basecamp.com/product",
+      "title": "Basecamp — Page not found",
+      "description": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide.",
+      "headings": [
+        "Page not found"
+      ],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": [
+        "main",
+        "header"
+      ]
+    },
+    {
+      "url": "https://basecamp.com/products",
+      "title": "Basecamp — Page not found",
+      "description": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide.",
+      "headings": [
+        "Page not found"
+      ],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": [
+        "main",
+        "header"
+      ]
+    },
+    {
+      "url": "https://basecamp.com/features",
+      "title": "Basecamp — Features, benefits, benefits, and benefits",
+      "description": "Basecamp continues to get better without getting complicated. For decades we’ve focused on building straightforward project management software that’s exceptionally capable, fast, flexible, reliable, and easy-to-use. This page details some of the key features (and benefits) at the heart of Basecamp.",
+      "headings": [
+        "Where there’s work, there’s Basecamp.",
+        "The Project page keeps it all together",
+        "Message Boards for announcements and discussions",
+        "To-do Lists for tracking all the little things",
+        "Hill Charts show you where things really stand",
+        "Card Tables for tracking work through stages",
+        "Campfire chats for quick, casual conversations",
+        "The Basecamp Calendar for big dates",
+        "Automatic Check-ins for recurring questions",
+        "Docs & Files for reference materials, assets, and links",
+        "My Tasks, Events, Today, Bookmarks, and Notes",
+        "Reports for high-level overviews",
+        "Everything Views are like having x-ray vision",
+        "The Lineup is your bird’s eye view",
+        "API, CLI, SDK, Skills, and Integrations",
+        "Keyboard shortcuts speed everything up",
+        "Decide what clients get to see",
+        "Activity that’s easy to absorb",
+        "And there’s more…"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Books we’ve written",
+        "Employee handbook",
+        "Sign in",
+        "Try Basecamp free"
+      ],
+      "landmarks": [
+        "main",
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://basecamp.com/platform",
+      "title": "Basecamp — Page not found",
+      "description": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide.",
+      "headings": [
+        "Page not found"
+      ],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": [
+        "main",
+        "header"
+      ]
+    },
+    {
+      "url": "https://basecamp.com/solutions",
+      "title": "Basecamp — Page not found",
+      "description": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide.",
+      "headings": [
+        "Page not found"
+      ],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": [
+        "main",
+        "header"
+      ]
+    },
+    {
+      "url": "https://basecamp.com/customers",
+      "title": "Basecamp — Customer Testimonials",
+      "description": "We asked our customers what changed for the better since switching to Basecamp. Deadlines met, accountability up, drama down. Here’s what they said.",
+      "headings": [
+        "And there’s more…"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Books we’ve written",
+        "Employee handbook",
+        "Sign in",
+        "Try Basecamp free"
+      ],
+      "landmarks": [
+        "main",
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://basecamp.com/docs",
+      "title": "Basecamp — Page not found",
+      "description": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide.",
+      "headings": [
+        "Page not found"
+      ],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": [
+        "main",
+        "header"
+      ]
+    },
+    {
+      "url": "https://basecamp.com/help",
+      "title": "Basecamp — Basecamp Help",
+      "description": "Get help for any version of Basecamp",
+      "headings": [
+        "Which version of Basecamp can we help you with?",
+        "Basecamp 5",
+        "Basecamp 2",
+        "Basecamp Classic",
+        "And there’s more…"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Books we’ve written",
+        "Employee handbook",
+        "Sign in",
+        "Try Basecamp free"
+      ],
+      "landmarks": [
+        "main",
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://basecamp.com/blog",
+      "title": "Basecamp — Page not found",
+      "description": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide.",
+      "headings": [
+        "Page not found"
+      ],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": [
+        "main",
+        "header"
+      ]
+    },
+    {
+      "url": "https://basecamp.com/about",
+      "title": "Basecamp — Where we came from",
+      "description": "Born out of desperate necessity to stop embarrassing ourselves in front of our clients, the story of how Basecamp was born is likely your story, too.",
+      "headings": [
+        "Where we came from.",
+        "And there’s more…"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "giving Basecamp a try",
+        "Books we’ve written",
+        "Employee handbook",
+        "Sign in",
+        "Try Basecamp free"
+      ],
+      "landmarks": [
+        "main",
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://launchpad.37signals.com/signin",
+      "title": "Basecamp Log In",
+      "headings": [
+        "Cookies are not enabled.",
+        "Log in to Basecamp",
+        "Logging you in…"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Sign in with Google",
+        "Sign up for free"
+      ],
+      "landmarks": []
+    },
+    {
+      "url": "https://basecamp.com/sign-in",
+      "title": "Basecamp — Page not found",
+      "description": "Trusted by millions, Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide.",
+      "headings": [
+        "Page not found"
+      ],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": [
+        "main",
+        "header"
+      ]
+    }
+  ],
+  "navLabels": [
+    "Sign in",
+    "Sign up free",
+    "Pricing",
+    "Basecamp 5 is here",
+    "Features",
+    "Paths",
+    "API, CLI, Skills",
+    "Reliable to the core",
+    "people in Basecamp now"
+  ],
+  "ctas": [
+    "Sign in",
+    "Sign up free",
+    "Pricing",
+    "Pricing & sign up — Two paid plans, one free plan",
+    "Books we’ve written",
+    "Employee handbook",
+    "Try Basecamp free",
+    "Book a personal demo",
+    "learn more about Admin Pro Pack here",
+    "giving Basecamp a try",
+    "Sign in with Google",
+    "Sign up for free"
+  ],
+  "headings": [
+    "Tell me if this sounds about right.",
+    "Big numbers. Highly-trusted. Rugged, reliable, and ready.",
+    "Remember when companies cared about service? We still do.",
+    "All these questions have the same answer: Yes!",
+    "Join us for a free live class.",
+    "And there’s more…",
+    "The 37signals Guide to Internal Communication.",
+    "Rules of thumb, and general philosophy",
+    "Communicating day-to-day",
+    "Basic toolset",
+    "Automatic daily: “What did you work on today?”",
+    "Automatic weekly: “What will you be working on this week?”",
+    "Automatic occasionally: “Social questions”",
+    "← Reflect every 6 weeks: Heartbeats",
+    "→ Project every 6 weeks: Kickoffs",
+    "Whenever relevant: Announcements",
+    "Day-to-day project work: In context",
+    "Pick a package and try Basecamp for free.",
+    "Pro Unlimited",
+    "Top-of-the-line, all-inclusive pricing. Unlimited users, no per-user fees.",
+    "Pro",
+    "A great choice for freelancers, startups, and smaller teams.",
+    "The same core features are included with every package.",
+    "A stable, well-run company is part of the deal, too.",
+    "Risk-free, cancel anytime, no long-term lock-in",
+    "A big boost for bootstrappers & small businesses",
+    "Basecamp eliminates the Hassle Tax",
+    "I have pricing questions…",
+    "Page not found",
+    "Where there’s work, there’s Basecamp."
+  ],
+  "techSignals": [
+    "Vite",
+    "Next.js",
+    "Shopify"
+  ],
+  "featureCandidates": [
+    "Tell me if this sounds about right.",
+    "All these questions have the same answer: Yes!",
+    "Join us for a free live class.",
+    "And there’s more…",
+    "The 37signals Guide to Internal Communication.",
+    "Rules of thumb, and general philosophy",
+    "Communicating day-to-day",
+    "Basic toolset",
+    "Automatic daily: “What did you work on today?”",
+    "Automatic occasionally: “Social questions”",
+    "← Reflect every 6 weeks: Heartbeats",
+    "→ Project every 6 weeks: Kickoffs",
+    "Whenever relevant: Announcements",
+    "Day-to-day project work: In context",
+    "Pick a package and try Basecamp for free.",
+    "Pro Unlimited",
+    "Risk-free, cancel anytime, no long-term lock-in",
+    "Basecamp eliminates the Hassle Tax",
+    "I have pricing questions…",
+    "Page not found",
+    "Where there’s work, there’s Basecamp.",
+    "Pricing",
+    "Books we’ve written",
+    "Employee handbook"
+  ],
+  "patternCandidates": [
+    "Pricing display",
+    "Tabs",
+    "Card layout",
+    "Messaging",
+    "Calendar",
+    "Authentication",
+    "Search",
+    "Filters"
+  ],
+  "platformsDetected": [
+    "web",
+    "api",
+    "cli",
+    "ios",
+    "desktop"
+  ],
+  "summary": "Captured 33 screenshots across 15 public URLs. Nav signals: Sign in, Sign up free, Pricing, Basecamp 5 is here, Features, Paths. Tech signals: Vite, Next.js, Shopify. UI patterns: Pricing display, Tabs, Card layout, Messaging, Calendar, Authentication."
+}

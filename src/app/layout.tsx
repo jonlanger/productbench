@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     "Research database of enterprise, consumer, and industrial software — UX patterns, workflows, tech stacks, and product architecture.",
 };
 
+/** Auth + catalog visibility depend on cookies / request session. */
+export const dynamic = "force-dynamic";
+
 export default async function RootLayout({
   children,
 }: Readonly<{

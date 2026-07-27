@@ -1,0 +1,46 @@
+{
+  "slug": "adobe-photoshop",
+  "capturedAt": "2026-07-27T14:56:49.450Z",
+  "shots": [
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.adobe.com/products/photoshop.html"
+    },
+    {
+      "file": "fallback-wayback-1.jpg",
+      "title": "Archived Marketing preview",
+      "caption": "Wayback Machine snapshot 20260726174512 · https://www.adobe.com/products/photoshop.html",
+      "kind": "marketing",
+      "sourceUrl": "http://web.archive.org/web/20260726174512/https://www.adobe.com/products/photoshop.html"
+    },
+    {
+      "file": "fallback-wayback-2.jpg",
+      "title": "Archived Marketing preview",
+      "caption": "Wayback Machine snapshot 20260726174512 · https://www.adobe.com/products/photoshop.html",
+      "kind": "marketing",
+      "sourceUrl": "http://web.archive.org/web/20260726174512/https://www.adobe.com/products/photoshop.html"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T14:56:49.450Z",
+    "screenshotCount": 3,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 3 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

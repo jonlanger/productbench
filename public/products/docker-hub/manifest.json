@@ -1,0 +1,985 @@
+{
+  "slug": "docker-hub",
+  "capturedAt": "2026-07-27T14:05:30.954Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Docker Hub public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://hub.docker.com/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "Docker Hub homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://hub.docker.com/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Docker Hub homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://hub.docker.com/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "Docker Hub homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://hub.docker.com/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Docker Hub homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://hub.docker.com/"
+    },
+    {
+      "file": "card-1.jpg",
+      "title": "UI cards (1)",
+      "caption": "Card / tile crops from Docker Hub",
+      "kind": "component",
+      "sourceUrl": "https://hub.docker.com/"
+    },
+    {
+      "file": "card-2.jpg",
+      "title": "UI cards (2)",
+      "caption": "Card / tile crops from Docker Hub",
+      "kind": "component",
+      "sourceUrl": "https://hub.docker.com/"
+    },
+    {
+      "file": "card-3.jpg",
+      "title": "UI cards (3)",
+      "caption": "Card / tile crops from Docker Hub",
+      "kind": "component",
+      "sourceUrl": "https://hub.docker.com/"
+    },
+    {
+      "file": "card-4.jpg",
+      "title": "UI cards (4)",
+      "caption": "Card / tile crops from Docker Hub",
+      "kind": "component",
+      "sourceUrl": "https://hub.docker.com/"
+    },
+    {
+      "file": "search-composer.jpg",
+      "title": "Search / composer",
+      "caption": "Focused search or primary input on Docker Hub",
+      "kind": "component",
+      "sourceUrl": "https://hub.docker.com/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on Docker Hub (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://login.docker.com/u/login/identifier?state=hKFo2SBSX1lja0xNdlhxMWdLWmF6b0VuT2ZVbnNUODUxcmNzcKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEoxNk9rVjJTaUt0UDZSSU83TGRkNUNXZFo0SnZadHRfo2NpZNkgbHZlOUdHbDhKdFNVcm5lUTFFVnVDMGxiakhkaTluYjk"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav",
+      "caption": "Same-origin product / pricing / docs links from Docker Hub",
+      "kind": "product",
+      "sourceUrl": "https://login.docker.com/u/login/identifier?state=hKFo2SB1Tm5naU9LTTlMZDd2dVhIbXoxT2VfeXJPVm9Uc2NtR6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEdycS1LQm9nUExYZ0hqRHU0S3oxeGJybkpIaVZPX0pGo2NpZNkgbHZlOUdHbDhKdFNVcm5lUTFFVnVDMGxiakhkaTluYjk"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard (1)",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "product",
+      "sourceUrl": "https://www.docker.com/pricing/"
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "Dashboard (2)",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "product",
+      "sourceUrl": "https://www.docker.com/pricing/"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "product",
+      "sourceUrl": "https://hub.docker.com/product"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "docs",
+      "sourceUrl": "https://hub.docker.com/products"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Profile",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "docs",
+      "sourceUrl": "https://hub.docker.com/features"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "docs",
+      "sourceUrl": "https://hub.docker.com/platform"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "docs",
+      "sourceUrl": "https://hub.docker.com/solutions"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "docs",
+      "sourceUrl": "https://hub.docker.com/customers"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "docs",
+      "sourceUrl": "https://hub.docker.com/docs"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9 (1)",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "docs",
+      "sourceUrl": "https://hub.docker.com/"
+    },
+    {
+      "file": "surface-9-mid.jpg",
+      "title": "Supporting surface 9 (2)",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "docs",
+      "sourceUrl": "https://hub.docker.com/"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "docs",
+      "sourceUrl": "https://hub.docker.com/blog"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "docs",
+      "sourceUrl": "https://hub.docker.com/about"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "docs",
+      "sourceUrl": "https://login.docker.com/u/login/identifier?state=hKFo2SBWeUsxUklSZ0FfeTVfZElGNnNYVGhNMWZHX2l5cGtsdaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIF96WFFyck11dTFYOTNZTi1DdHpXTFBlVjBWNUN6VzN2o2NpZNkgbHZlOUdHbDhKdFNVcm5lUTFFVnVDMGxiakhkaTluYjk"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "docs",
+      "sourceUrl": "https://hub.docker.com/signin"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14",
+      "caption": "Docker Hub public surface · hub.docker.com",
+      "kind": "docs",
+      "sourceUrl": "https://hub.docker.com/sign-in"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T14:05:30.954Z",
+    "screenshotCount": 28,
+    "pageCount": 14,
+    "pages": [
+      {
+        "url": "https://hub.docker.com/",
+        "title": "Docker Hub Container Image Library | App Containerization",
+        "description": "Welcome to the world's largest container registry built for developers and open source contributors to find, use, and share their container images. Build, push and pull.",
+        "headings": [
+          "Docker Hardened Images - Now free",
+          "Generative AI",
+          "Trusted content",
+          "Categories",
+          "The perfect home for your team's applications.",
+          "Increase your reach and adoption on Docker Hub",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Search Docker Hub⌘K",
+          "Get started",
+          "Find an image",
+          "Run a container",
+          "Push my image",
+          "Help",
+          "Back",
+          "Documentation⁠",
+          "Forums⁠",
+          "Contact support⁠",
+          "System status⁠",
+          "System theme",
+          "Sign in",
+          "Sign up",
+          "Docker Suite",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Docker Admin ConsoleManage users, control access, & set policies.",
+          "Docker HubFind and share images with your team.",
+          "Docker ScoutSecure your supply chain at every level.",
+          "Docker DesktopLocal development, simplified.",
+          "Docker Build CloudSpeed up your builds.",
+          "Testcontainers CloudNewRun integration tests with real dependencies."
+        ],
+        "ctas": [
+          "Search Docker Hub⌘K",
+          "Get started",
+          "Contact support⁠",
+          "Sign in",
+          "Sign up",
+          "Start enterprise trial",
+          "Create your first repository",
+          "Learn more",
+          "Getting Started",
+          "Contact Us",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "menu",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://login.docker.com/u/login/identifier?state=hKFo2SBSX1lja0xNdlhxMWdLWmF6b0VuT2ZVbnNUODUxcmNzcKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEoxNk9rVjJTaUt0UDZSSU83TGRkNUNXZFo0SnZadHRfo2NpZNkgbHZlOUdHbDhKdFNVcm5lUTFFVnVDMGxiakhkaTluYjk",
+        "title": "",
+        "headings": [
+          "Sign in"
+        ],
+        "navLabels": [
+          "Sign Up"
+        ],
+        "ctas": [
+          "Continue",
+          "Continue with Google",
+          "Continue with GitHub",
+          "Continue with SSO",
+          "Sign Up"
+        ],
+        "landmarks": [
+          "main",
+          "header",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.docker.com/pricing/",
+        "title": "Pricing | Docker",
+        "description": "Docker licensing is always free for personal use. But what if your team or business wants to use Docker? Compare our pricing options and features.",
+        "headings": [
+          "Find Your Perfect Docker Plan",
+          "Docker Personal",
+          "$0",
+          "Docker Pro",
+          "$11",
+          "$9",
+          "Docker Team",
+          "$16",
+          "$15",
+          "Docker Business",
+          "$24",
+          "Docker Hardened Images (DHI)",
+          "Free for every developer",
+          "Starting at $5k/repo",
+          "Contact us for pricing",
+          "Take advantage of our premium offerings",
+          "Need help selecting your plan?",
+          "Still have questions?",
+          "Additional resources",
+          "Personal"
+        ],
+        "navLabels": [
+          "Products",
+          "Docker Sandboxes New Isolated environments for coding agents",
+          "AI Governance New Govern agents and Claws across every team",
+          "Gordon New Your AI Agent across Docker",
+          "Docker Model Runner Local-first LLM inference made easy",
+          "Docker MCP Catalog and Toolkit Connect and manage MCP tools",
+          "Docker Hardened Images Ship with secure, enterprise-ready images",
+          "Docker Scout Simplify the software supply chain",
+          "Docker Desktop Containerize your applications",
+          "Docker Hub Discover and share container images",
+          "Docker Offload Break free of local constraints",
+          "Support",
+          "Documentation Find guides for Docker products",
+          "Getting Started Learn the Docker basics",
+          "Resources Search a library of helpful materials",
+          "Training Skill up your Docker knowledge",
+          "Extensions SDK Create and share your own extensions",
+          "Community Connect with other Docker developers",
+          "Open Source Explore open source projects",
+          "Preview Program Help shape the future of Docker",
+          "Customer Stories Get inspired with customer stories",
+          "Get the latest Docker news",
+          "Pricing",
+          "Yearly"
+        ],
+        "ctas": [
+          "Getting Started Learn the Docker basics",
+          "Resources Search a library of helpful materials",
+          "Extensions SDK Create and share your own extensions",
+          "Open Source Explore open source projects",
+          "Pricing",
+          "Get started",
+          "Buy now",
+          "Contact sales",
+          "Start Free Trial",
+          "Sign In",
+          "Get Demo",
+          "Request a demo of DHI Enterprise"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Ponyo Menu",
+          "search",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://hub.docker.com/product",
+        "title": "",
+        "headings": [
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Search Docker Hub⌘K",
+          "What can you do?",
+          "Docker basics",
+          "Common commands",
+          "Best practices",
+          "Go back",
+          "Documentation⁠",
+          "Forums⁠",
+          "Contact support⁠",
+          "System status⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Docker Admin ConsoleManage users, control access, & set policies.",
+          "Docker HubFind and share images with your team.",
+          "Docker ScoutSecure your supply chain at every level.",
+          "Docker DesktopLocal development, simplified.",
+          "Docker Build CloudSpeed up your builds.",
+          "Testcontainers CloudNewRun integration tests with real dependencies.",
+          "Sign in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Search Docker Hub⌘K",
+          "Contact support⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Sign in",
+          "Sign up",
+          "Getting Started",
+          "Contact Us",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://hub.docker.com/products",
+        "title": "",
+        "headings": [
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Search Docker Hub⌘K",
+          "What can you do?",
+          "Docker basics",
+          "Common commands",
+          "Best practices",
+          "Go back",
+          "Documentation⁠",
+          "Forums⁠",
+          "Contact support⁠",
+          "System status⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Docker Admin ConsoleManage users, control access, & set policies.",
+          "Docker HubFind and share images with your team.",
+          "Docker ScoutSecure your supply chain at every level.",
+          "Docker DesktopLocal development, simplified.",
+          "Docker Build CloudSpeed up your builds.",
+          "Testcontainers CloudNewRun integration tests with real dependencies.",
+          "Sign in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Search Docker Hub⌘K",
+          "Contact support⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Sign in",
+          "Sign up",
+          "Getting Started",
+          "Contact Us",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://hub.docker.com/features",
+        "title": "",
+        "headings": [
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Search Docker Hub⌘K",
+          "What can you do?",
+          "Docker basics",
+          "Common commands",
+          "Best practices",
+          "Go back",
+          "Documentation⁠",
+          "Forums⁠",
+          "Contact support⁠",
+          "System status⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Docker Admin ConsoleManage users, control access, & set policies.",
+          "Docker HubFind and share images with your team.",
+          "Docker ScoutSecure your supply chain at every level.",
+          "Docker DesktopLocal development, simplified.",
+          "Docker Build CloudSpeed up your builds.",
+          "Testcontainers CloudNewRun integration tests with real dependencies.",
+          "Sign in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Search Docker Hub⌘K",
+          "Contact support⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Sign in",
+          "Sign up",
+          "Getting Started",
+          "Contact Us",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://hub.docker.com/platform",
+        "title": "",
+        "headings": [
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Search Docker Hub⌘K",
+          "What can you do?",
+          "Docker basics",
+          "Common commands",
+          "Best practices",
+          "Go back",
+          "Documentation⁠",
+          "Forums⁠",
+          "Contact support⁠",
+          "System status⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Docker Admin ConsoleManage users, control access, & set policies.",
+          "Docker HubFind and share images with your team.",
+          "Docker ScoutSecure your supply chain at every level.",
+          "Docker DesktopLocal development, simplified.",
+          "Docker Build CloudSpeed up your builds.",
+          "Testcontainers CloudNewRun integration tests with real dependencies.",
+          "Sign in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Search Docker Hub⌘K",
+          "Contact support⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Sign in",
+          "Sign up",
+          "Getting Started",
+          "Contact Us",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://hub.docker.com/solutions",
+        "title": "",
+        "headings": [
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Search Docker Hub⌘K",
+          "What can you do?",
+          "Docker basics",
+          "Common commands",
+          "Best practices",
+          "Go back",
+          "Documentation⁠",
+          "Forums⁠",
+          "Contact support⁠",
+          "System status⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Docker Admin ConsoleManage users, control access, & set policies.",
+          "Docker HubFind and share images with your team.",
+          "Docker ScoutSecure your supply chain at every level.",
+          "Docker DesktopLocal development, simplified.",
+          "Docker Build CloudSpeed up your builds.",
+          "Testcontainers CloudNewRun integration tests with real dependencies.",
+          "Sign in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Search Docker Hub⌘K",
+          "Contact support⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Sign in",
+          "Sign up",
+          "Getting Started",
+          "Contact Us",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://hub.docker.com/customers",
+        "title": "",
+        "headings": [
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Search Docker Hub⌘K",
+          "What can you do?",
+          "Docker basics",
+          "Common commands",
+          "Best practices",
+          "Go back",
+          "Documentation⁠",
+          "Forums⁠",
+          "Contact support⁠",
+          "System status⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Docker Admin ConsoleManage users, control access, & set policies.",
+          "Docker HubFind and share images with your team.",
+          "Docker ScoutSecure your supply chain at every level.",
+          "Docker DesktopLocal development, simplified.",
+          "Docker Build CloudSpeed up your builds.",
+          "Testcontainers CloudNewRun integration tests with real dependencies.",
+          "Sign in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Search Docker Hub⌘K",
+          "Contact support⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Sign in",
+          "Sign up",
+          "Getting Started",
+          "Contact Us",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://hub.docker.com/docs",
+        "title": "",
+        "headings": [
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Search Docker Hub⌘K",
+          "What can you do?",
+          "Docker basics",
+          "Common commands",
+          "Best practices",
+          "Go back",
+          "Documentation⁠",
+          "Forums⁠",
+          "Contact support⁠",
+          "System status⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Docker Admin ConsoleManage users, control access, & set policies.",
+          "Docker HubFind and share images with your team.",
+          "Docker ScoutSecure your supply chain at every level.",
+          "Docker DesktopLocal development, simplified.",
+          "Docker Build CloudSpeed up your builds.",
+          "Testcontainers CloudNewRun integration tests with real dependencies.",
+          "Sign in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Search Docker Hub⌘K",
+          "Contact support⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Sign in",
+          "Sign up",
+          "Getting Started",
+          "Contact Us",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://hub.docker.com/blog",
+        "title": "",
+        "headings": [
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Search Docker Hub⌘K",
+          "What can you do?",
+          "Docker basics",
+          "Common commands",
+          "Best practices",
+          "Go back",
+          "Documentation⁠",
+          "Forums⁠",
+          "Contact support⁠",
+          "System status⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Docker Admin ConsoleManage users, control access, & set policies.",
+          "Docker HubFind and share images with your team.",
+          "Docker ScoutSecure your supply chain at every level.",
+          "Docker DesktopLocal development, simplified.",
+          "Docker Build CloudSpeed up your builds.",
+          "Testcontainers CloudNewRun integration tests with real dependencies.",
+          "Sign in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Search Docker Hub⌘K",
+          "Contact support⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Sign in",
+          "Sign up",
+          "Getting Started",
+          "Contact Us",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://hub.docker.com/about",
+        "title": "",
+        "headings": [
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Search Docker Hub⌘K",
+          "What can you do?",
+          "Docker basics",
+          "Common commands",
+          "Best practices",
+          "Go back",
+          "Documentation⁠",
+          "Forums⁠",
+          "Contact support⁠",
+          "System status⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Docker Admin ConsoleManage users, control access, & set policies.",
+          "Docker HubFind and share images with your team.",
+          "Docker ScoutSecure your supply chain at every level.",
+          "Docker DesktopLocal development, simplified.",
+          "Docker Build CloudSpeed up your builds.",
+          "Testcontainers CloudNewRun integration tests with real dependencies.",
+          "Sign in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Search Docker Hub⌘K",
+          "Contact support⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Sign in",
+          "Sign up",
+          "Getting Started",
+          "Contact Us",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://hub.docker.com/signin",
+        "title": "",
+        "headings": [
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Search Docker Hub⌘K",
+          "What can you do?",
+          "Docker basics",
+          "Common commands",
+          "Best practices",
+          "Go back",
+          "Documentation⁠",
+          "Forums⁠",
+          "Contact support⁠",
+          "System status⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Docker Admin ConsoleManage users, control access, & set policies.",
+          "Docker HubFind and share images with your team.",
+          "Docker ScoutSecure your supply chain at every level.",
+          "Docker DesktopLocal development, simplified.",
+          "Docker Build CloudSpeed up your builds.",
+          "Testcontainers CloudNewRun integration tests with real dependencies.",
+          "Sign in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Search Docker Hub⌘K",
+          "Contact support⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Sign in",
+          "Sign up",
+          "Getting Started",
+          "Contact Us",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://hub.docker.com/sign-in",
+        "title": "",
+        "headings": [
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Search Docker Hub⌘K",
+          "What can you do?",
+          "Docker basics",
+          "Common commands",
+          "Best practices",
+          "Go back",
+          "Documentation⁠",
+          "Forums⁠",
+          "Contact support⁠",
+          "System status⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Docker Admin ConsoleManage users, control access, & set policies.",
+          "Docker HubFind and share images with your team.",
+          "Docker ScoutSecure your supply chain at every level.",
+          "Docker DesktopLocal development, simplified.",
+          "Docker Build CloudSpeed up your builds.",
+          "Testcontainers CloudNewRun integration tests with real dependencies.",
+          "Sign in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Search Docker Hub⌘K",
+          "Contact support⁠",
+          "Docker HomeExplore and manage your Docker experience.",
+          "Sign in",
+          "Sign up",
+          "Getting Started",
+          "Contact Us",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "footer"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Search Docker Hub⌘K",
+      "Get started",
+      "Find an image",
+      "Run a container",
+      "Push my image",
+      "Help",
+      "Back",
+      "Documentation⁠",
+      "Forums⁠",
+      "Contact support⁠",
+      "System status⁠",
+      "System theme",
+      "Sign in",
+      "Sign up",
+      "Docker Suite",
+      "Docker HomeExplore and manage your Docker experience.",
+      "Docker Admin ConsoleManage users, control access, & set policies.",
+      "Docker HubFind and share images with your team.",
+      "Docker ScoutSecure your supply chain at every level.",
+      "Docker DesktopLocal development, simplified.",
+      "Docker Build CloudSpeed up your builds.",
+      "Testcontainers CloudNewRun integration tests with real dependencies.",
+      "Products",
+      "Docker Sandboxes New Isolated environments for coding agents",
+      "AI Governance New Govern agents and Claws across every team",
+      "Gordon New Your AI Agent across Docker",
+      "Docker Model Runner Local-first LLM inference made easy",
+      "Docker MCP Catalog and Toolkit Connect and manage MCP tools",
+      "Docker Hardened Images Ship with secure, enterprise-ready images",
+      "Docker Scout Simplify the software supply chain"
+    ],
+    "ctas": [
+      "Search Docker Hub⌘K",
+      "Get started",
+      "Contact support⁠",
+      "Sign in",
+      "Sign up",
+      "Start enterprise trial",
+      "Create your first repository",
+      "Learn more",
+      "Getting Started",
+      "Contact Us",
+      "Docker HomeExplore and manage your Docker experience.",
+      "Filter Icon",
+      "Continue",
+      "Continue with Google",
+      "Continue with GitHub",
+      "Continue with SSO",
+      "Getting Started Learn the Docker basics",
+      "Resources Search a library of helpful materials",
+      "Extensions SDK Create and share your own extensions",
+      "Open Source Explore open source projects",
+      "Pricing",
+      "Buy now",
+      "Contact sales",
+      "Start Free Trial"
+    ],
+    "headings": [
+      "Docker Hardened Images - Now free",
+      "Generative AI",
+      "Trusted content",
+      "Categories",
+      "The perfect home for your team's applications.",
+      "Increase your reach and adoption on Docker Hub",
+      "Privacy Preference Center",
+      "Manage Consent Preferences",
+      "Cookie List",
+      "Sign in",
+      "Find Your Perfect Docker Plan",
+      "Docker Personal",
+      "$0",
+      "Docker Pro",
+      "$11",
+      "$9",
+      "Docker Team",
+      "$16",
+      "$15",
+      "Docker Business",
+      "$24",
+      "Docker Hardened Images (DHI)",
+      "Free for every developer",
+      "Starting at $5k/repo",
+      "Contact us for pricing",
+      "Take advantage of our premium offerings",
+      "Need help selecting your plan?",
+      "Still have questions?",
+      "Additional resources",
+      "Personal"
+    ],
+    "techSignals": [
+      "Next.js",
+      "Segment",
+      "Google Tag Manager"
+    ],
+    "featureCandidates": [
+      "Docker Hardened Images - Now free",
+      "Generative AI",
+      "Trusted content",
+      "Categories",
+      "The perfect home for your team's applications.",
+      "Increase your reach and adoption on Docker Hub",
+      "Privacy Preference Center",
+      "Manage Consent Preferences",
+      "Cookie List",
+      "Sign in",
+      "Find Your Perfect Docker Plan",
+      "Docker Personal",
+      "Docker Pro",
+      "Docker Team",
+      "Docker Business",
+      "Docker Hardened Images (DHI)",
+      "Free for every developer",
+      "Starting at $5k/repo",
+      "Contact us for pricing",
+      "Take advantage of our premium offerings",
+      "Need help selecting your plan?",
+      "Still have questions?",
+      "Additional resources",
+      "Personal"
+    ],
+    "patternCandidates": [
+      "Search",
+      "Tabs",
+      "Messaging",
+      "Authentication",
+      "Pricing display",
+      "Dashboard"
+    ],
+    "platformsDetected": [
+      "web",
+      "desktop",
+      "api",
+      "cli"
+    ],
+    "summary": "Captured 28 screenshots across 14 public URLs. Nav signals: Search Docker Hub⌘K, Get started, Find an image, Run a container, Push my image, Help. Tech signals: Next.js, Segment, Google Tag Manager. UI patterns: Search, Tabs, Messaging, Authentication, Pricing display, Dashboard."
+  }
+}

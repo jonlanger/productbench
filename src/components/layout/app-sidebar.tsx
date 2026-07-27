@@ -30,7 +30,6 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar";
 import { getUserInitials } from "@/lib/avatar";
-import { hasSupabasePublicConfig } from "@/lib/supabase/client";
 
 const NAV_ITEMS: Array<{
   href: string;
@@ -61,7 +60,6 @@ function isNavActive(
 
 export function AppSidebar({ email, avatarUrl, isAdmin }: AppSidebarProps) {
   const pathname = usePathname();
-  const authReady = hasSupabasePublicConfig();
 
   return (
     <Sidebar collapsible="icon">
@@ -120,13 +118,23 @@ export function AppSidebar({ email, avatarUrl, isAdmin }: AppSidebarProps) {
       <SidebarFooter>
         <SidebarMenu>
           <SidebarMenuItem>
-            {!authReady ? null : !email ? (
+            {!email ? (
               <SidebarMenuButton
+                size="lg"
                 render={<Link href="/sign-in" />}
                 tooltip="Sign in"
               >
-                <LogIn />
-                <span>Sign in</span>
+                <Avatar className="size-8 rounded-lg after:rounded-lg">
+                  <AvatarFallback className="rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
+                    <LogIn className="size-4" aria-hidden />
+                  </AvatarFallback>
+                </Avatar>
+                <div className="grid flex-1 text-left text-sm leading-tight">
+                  <span className="truncate font-medium">Sign in</span>
+                  <span className="truncate text-xs text-sidebar-foreground/70">
+                    Or create an account
+                  </span>
+                </div>
               </SidebarMenuButton>
             ) : (
               <SidebarMenuButton
@@ -134,7 +142,7 @@ export function AppSidebar({ email, avatarUrl, isAdmin }: AppSidebarProps) {
                 render={<Link href="/account" />}
                 tooltip={email}
               >
-                <Avatar className="size-8 rounded-lg">
+                <Avatar className="size-8 rounded-lg after:rounded-lg">
                   {avatarUrl ? (
                     <AvatarImage src={avatarUrl} alt="" />
                   ) : null}

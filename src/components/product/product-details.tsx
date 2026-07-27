@@ -30,7 +30,16 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import type { Product } from "@/data/types";
 import { formatLabel } from "@/lib/filters";
 
-export function ProductDetails({ product }: { product: Product }) {
+export function ProductDetails({
+  product,
+  signedIn = false,
+  screenshotTotal,
+}: {
+  product: Product;
+  signedIn?: boolean;
+  /** Full gallery size when guests only receive a preview slice. */
+  screenshotTotal?: number;
+}) {
   return (
     <div className="mx-auto w-full max-w-6xl flex-1 px-4 py-6 sm:px-6 sm:py-10">
       <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
@@ -150,6 +159,8 @@ export function ProductDetails({ product }: { product: Product }) {
           slug={product.slug}
           screenshots={product.screenshots}
           accent={product.accent}
+          signedIn={signedIn}
+          screenshotTotal={screenshotTotal}
         />
       ) : null}
 
@@ -247,6 +258,8 @@ export function ProductDetails({ product }: { product: Product }) {
               slug={product.slug}
               screenshots={product.screenshots}
               accent={product.accent}
+              signedIn={signedIn}
+              screenshotTotal={screenshotTotal}
             />
           ) : (
             <Card>

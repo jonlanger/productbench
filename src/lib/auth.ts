@@ -1,5 +1,6 @@
 import { cache } from "react";
 import type { User } from "@supabase/supabase-js";
+import { unstable_rethrow } from "next/navigation";
 
 import { isMemberPreviewActive } from "@/lib/member-preview";
 import { createClient, hasSupabasePublicConfig } from "@/lib/supabase/server";
@@ -50,6 +51,9 @@ export const getViewer = cache(async (): Promise<Viewer> => {
       actsAsAdmin: isAdmin && !isMemberPreview,
     };
   } catch (error) {
+    // Next throws when cookies() is used during static generation — rethrow
+    // so the route opts into dynamic rendering instead of baking a guest page.
+    unstable_rethrow(error);
     console.error("[getViewer] failed to resolve auth session.", error);
     return { user: null, isAdmin: false, isMemberPreview: false, actsAsAdmin: false };
   }

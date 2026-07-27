@@ -2,19 +2,13 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { ProductDetails } from "@/components/product/product-details";
-import {
-  getPublicProductSlugs,
-  getVisibleProductBySlug,
-} from "@/data/queries";
+import { getVisibleProductBySlug } from "@/data/queries";
+import { getViewer } from "@/lib/auth";
+import { GUEST_PREVIEW_COUNT } from "@/lib/gallery";
 
 type ProductPageProps = {
   params: Promise<{ slug: string }>;
 };
-
-export async function generateStaticParams() {
-  const slugs = await getPublicProductSlugs();
-  return slugs.map((slug) => ({ slug }));
-}
 
 export async function generateMetadata({
   params,
@@ -31,8 +25,28 @@ export async function generateMetadata({
 
 export default async function ProductPage({ params }: ProductPageProps) {
   const { slug } = await params;
-  const product = await getVisibleProductBySlug(slug);
+  const [product, { user }] = await Promise.all([
+    getVisibleProductBySlug(slug),
+    getViewer(),
+  ]);
   if (!product) notFound();
 
-  return <ProductDetails product={product} />;
+  const signedIn = Boolean(user);
+  const allShots = product.screenshots ?? [];
+  const screenshotTotal = allShots.length;
+  const productForView =
+    signedIn || screenshotTotal <= GUEST_PREVIEW_COUNT
+      ? product
+      : {
+          ...product,
+          screenshots: allShots.slice(0, GUEST_PREVIEW_COUNT),
+        };
+
+  return (
+    <ProductDetails
+      product={productForView}
+      signedIn={signedIn}
+      screenshotTotal={screenshotTotal}
+    />
+  );
 }

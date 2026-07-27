@@ -1,0 +1,32 @@
+{
+  "slug": "ansys",
+  "capturedAt": "2026-07-27T14:54:46.991Z",
+  "shots": [
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.ansys.com"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T14:54:46.991Z",
+    "screenshotCount": 1,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 1 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "slug": "twitch",
+  "capturedAt": "2026-07-27T14:38:12.171Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Twitch public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.twitch.tv/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth",
+      "caption": "Twitch homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.twitch.tv/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Twitch homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.twitch.tv/"
+    },
+    {
+      "file": "search-composer.jpg",
+      "title": "Search / composer",
+      "caption": "Focused search or primary input on Twitch",
+      "kind": "component",
+      "sourceUrl": "https://www.twitch.tv/"
+    },
+    {
+      "file": "account-menu.jpg",
+      "title": "Account / nav menu",
+      "caption": "Expanded account or primary navigation menu on Twitch",
+      "kind": "component",
+      "sourceUrl": "https://www.twitch.tv/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on Twitch (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://www.twitch.tv/"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard",
+      "caption": "Twitch public surface · twitch.tv",
+      "kind": "product",
+      "sourceUrl": "https://www.twitch.tv/pricing"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings",
+      "caption": "Twitch public surface · twitch.tv",
+      "kind": "product",
+      "sourceUrl": "https://www.twitch.tv/product"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search",
+      "caption": "Twitch public surface · twitch.tv",
+      "kind": "docs",
+      "sourceUrl": "https://www.twitch.tv/products"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Profile",
+      "caption": "Twitch public surface · twitch.tv",
+      "kind": "docs",
+      "sourceUrl": "https://www.twitch.tv/features"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5",
+      "caption": "Twitch public surface · twitch.tv",
+      "kind": "docs",
+      "sourceUrl": "https://www.twitch.tv/platform"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6",
+      "caption": "Twitch public surface · twitch.tv",
+      "kind": "docs",
+      "sourceUrl": "https://www.twitch.tv/solutions"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7",
+      "caption": "Twitch public surface · twitch.tv",
+      "kind": "docs",
+      "sourceUrl": "https://www.twitch.tv/customers"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8",
+      "caption": "Twitch public surface · twitch.tv",
+      "kind": "docs",
+      "sourceUrl": "https://www.twitch.tv/docs"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9 (1)",
+      "caption": "Twitch public surface · twitch.tv",
+      "kind": "docs",
+      "sourceUrl": "https://help.twitch.tv/s/contactsupport?language=en_US"
+    },
+    {
+      "file": "surface-9-mid.jpg",
+      "title": "Supporting surface 9 (2)",
+      "caption": "Twitch public surface · twitch.tv",
+      "kind": "docs",
+      "sourceUrl": "https://help.twitch.tv/s/contactsupport?language=en_US"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12",
+      "caption": "Twitch public surface · twitch.tv",
+      "kind": "docs",
+      "sourceUrl": "https://www.twitch.tv/login"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13",
+      "caption": "Twitch public surface · twitch.tv",
+      "kind": "docs",
+      "sourceUrl": "https://www.twitch.tv/signin"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14",
+      "caption": "Twitch public surface · twitch.tv",
+      "kind": "docs",
+      "sourceUrl": "https://www.twitch.tv/sign-in"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T14:38:12.171Z",
+    "screenshotCount": 19,
+    "pageCount": 13,
+    "pages": [
+      {
+        "url": "https://www.twitch.tv/",
+        "title": "Twitch",
+        "description": "Twitch is an interactive livestreaming service for content spanning gaming, entertainment, sports, music, and more.",
+        "headings": [
+          "Live Channels",
+          "Live on Twitch",
+          "Categories we think you’ll like",
+          "Just Chatting",
+          "Fortnite",
+          "Marvel Rivals",
+          "IRL",
+          "Palworld",
+          "League of Legends",
+          "Just Chatting & IRL"
+        ],
+        "navLabels": [
+          "Skip to...⌥P",
+          "Browse",
+          "Log In",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up",
+          "The Guild: Ren Faire'd KICKSTARTER MARATHONFeliciaDayVerified",
+          "The Guild: Ren Faire'd KICKSTARTER MARATHON"
+        ],
+        "landmarks": [
+          "nav",
+          "search",
+          "nav:Left Navigation",
+          "main",
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.twitch.tv/pricing",
+        "title": "Pricing - Twitch",
+        "description": "Twitch is the world's leading video platform and community for gamers.",
+        "headings": [
+          "Live Channels",
+          "Pricing is offline.",
+          "Pricing",
+          "Pricing suggests these streamers"
+        ],
+        "navLabels": [
+          "Skip to...⌥P",
+          "Browse",
+          "Log In",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up",
+          "Pricing"
+        ],
+        "landmarks": [
+          "nav",
+          "search",
+          "nav:Left Navigation",
+          "main",
+          "header",
+          "aside:Stream Chat",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.twitch.tv/product",
+        "title": "Product - Twitch",
+        "description": "Twitch is the world's leading video platform and community for gamers.",
+        "headings": [
+          "Live Channels",
+          "Product is offline.",
+          "Product"
+        ],
+        "navLabels": [
+          "Skip to...⌥P",
+          "Browse",
+          "Log In",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up"
+        ],
+        "landmarks": [
+          "nav",
+          "search",
+          "nav:Left Navigation",
+          "main",
+          "header",
+          "aside:Stream Chat",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.twitch.tv/products",
+        "title": "products - Twitch",
+        "description": "Just Started Playing WoW\rTips and Triks Needed",
+        "headings": [],
+        "navLabels": [
+          "Log in"
+        ],
+        "ctas": [
+          "Log in"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      },
+      {
+        "url": "https://www.twitch.tv/features",
+        "title": "features - Twitch",
+        "description": "features streams live on Twitch! Check out their videos, sign up to chat, and join their community.",
+        "headings": [
+          "Live Channels"
+        ],
+        "navLabels": [
+          "Skip to...⌥P",
+          "Browse",
+          "Log In",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up"
+        ],
+        "landmarks": [
+          "nav",
+          "search",
+          "nav:Left Navigation",
+          "main",
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.twitch.tv/platform",
+        "title": "platform - Twitch",
+        "description": "Twitch is the world's leading video platform and community for gamers.",
+        "headings": [
+          "Live Channels",
+          "platform is offline.",
+          "platform"
+        ],
+        "navLabels": [
+          "Skip to...⌥P",
+          "Browse",
+          "Log In",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up"
+        ],
+        "landmarks": [
+          "nav",
+          "search",
+          "nav:Left Navigation",
+          "main",
+          "header",
+          "aside:Stream Chat",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.twitch.tv/solutions",
+        "title": "solutions - Twitch",
+        "description": "Twitch is the world's leading video platform and community for gamers.",
+        "headings": [
+          "Live Channels",
+          "solutions is offline.",
+          "solutions"
+        ],
+        "navLabels": [
+          "Skip to...⌥P",
+          "Browse",
+          "Log In",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up"
+        ],
+        "landmarks": [
+          "nav",
+          "search",
+          "nav:Left Navigation",
+          "main",
+          "header",
+          "aside:Stream Chat",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.twitch.tv/customers",
+        "title": "customers - Twitch",
+        "description": "Twitch is the world's leading video platform and community for gamers.",
+        "headings": [
+          "Live Channels",
+          "customers is offline.",
+          "customers"
+        ],
+        "navLabels": [
+          "Skip to...⌥P",
+          "Browse",
+          "Log In",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up"
+        ],
+        "landmarks": [
+          "nav",
+          "search",
+          "nav:Left Navigation",
+          "main",
+          "header",
+          "aside:Stream Chat",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.twitch.tv/docs",
+        "title": "docs - Twitch",
+        "description": "Competitive Valorant / Fortnite Player | business inquires: westonchief12@gmail.com",
+        "headings": [
+          "Live Channels",
+          "docs Viewers Also Watch",
+          "docs is offline.",
+          "docs",
+          "docs suggests these streamers"
+        ],
+        "navLabels": [
+          "Skip to...⌥P",
+          "Browse",
+          "Log In",
+          "Sign Up",
+          "Show More"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up",
+          "Subscribe"
+        ],
+        "landmarks": [
+          "nav",
+          "search",
+          "nav:Left Navigation",
+          "main",
+          "header",
+          "aside:Stream Chat",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://help.twitch.tv/s/contactsupport?language=en_US",
+        "title": "Contact Support",
+        "headings": [
+          "Contact Us"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Search"
+        ],
+        "landmarks": [
+          "dialog:auraErrorTitle",
+          "banner",
+          "search",
+          "main",
+          "contentinfo",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.twitch.tv/login",
+        "title": "Log In - Twitch",
+        "description": "Twitch is the world's leading video platform and community for gamers.",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Log In",
+          "Continue with Google",
+          "Continue with Amazon",
+          "Continue with Apple",
+          "Don't have an account? Sign up"
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://www.twitch.tv/signin",
+        "title": "signin - Twitch",
+        "description": "Twitch is the world's leading video platform and community for gamers.",
+        "headings": [
+          "Live Channels",
+          "signin is offline.",
+          "signin"
+        ],
+        "navLabels": [
+          "Skip to...⌥P",
+          "Browse",
+          "Log In",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up"
+        ],
+        "landmarks": [
+          "nav",
+          "search",
+          "nav:Left Navigation",
+          "main",
+          "header",
+          "aside:Stream Chat",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.twitch.tv/sign-in",
+        "title": "sign-in - Twitch",
+        "description": "Twitch is the world's leading video platform and community for gamers.",
+        "headings": [
+          "Live Channels"
+        ],
+        "navLabels": [
+          "Skip to...⌥P",
+          "Browse",
+          "Log In",
+          "Sign Up"
+        ],
+        "ctas": [
+          "Log In",
+          "Sign Up"
+        ],
+        "landmarks": [
+          "nav",
+          "search",
+          "nav:Left Navigation",
+          "main",
+          "header",
+          "footer"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Skip to...⌥P",
+      "Browse",
+      "Log In",
+      "Sign Up",
+      "Show More"
+    ],
+    "ctas": [
+      "Log In",
+      "Sign Up",
+      "The Guild: Ren Faire'd KICKSTARTER MARATHONFeliciaDayVerified",
+      "The Guild: Ren Faire'd KICKSTARTER MARATHON",
+      "Pricing",
+      "Subscribe",
+      "Search",
+      "Continue with Google",
+      "Continue with Amazon",
+      "Continue with Apple",
+      "Don't have an account? Sign up"
+    ],
+    "headings": [
+      "Live Channels",
+      "Live on Twitch",
+      "Categories we think you’ll like",
+      "Just Chatting",
+      "Fortnite",
+      "Marvel Rivals",
+      "IRL",
+      "Palworld",
+      "League of Legends",
+      "Just Chatting & IRL",
+      "Pricing is offline.",
+      "Pricing",
+      "Pricing suggests these streamers",
+      "Product is offline.",
+      "Product",
+      "platform is offline.",
+      "platform",
+      "solutions is offline.",
+      "solutions",
+      "customers is offline.",
+      "customers",
+      "docs Viewers Also Watch",
+      "docs is offline.",
+      "docs",
+      "docs suggests these streamers",
+      "Contact Us",
+      "signin is offline.",
+      "signin"
+    ],
+    "techSignals": [
+      "React",
+      "Segment",
+      "Google Tag Manager"
+    ],
+    "featureCandidates": [
+      "Live Channels",
+      "Live on Twitch",
+      "Categories we think you’ll like",
+      "Just Chatting",
+      "Fortnite",
+      "Marvel Rivals",
+      "Palworld",
+      "League of Legends",
+      "Just Chatting & IRL",
+      "Pricing is offline.",
+      "Pricing",
+      "Pricing suggests these streamers",
+      "Product is offline.",
+      "Product",
+      "platform is offline.",
+      "platform",
+      "solutions is offline.",
+      "solutions",
+      "customers is offline.",
+      "customers",
+      "docs Viewers Also Watch",
+      "docs is offline.",
+      "docs",
+      "docs suggests these streamers"
+    ],
+    "patternCandidates": [
+      "Search",
+      "Card layout",
+      "Authentication",
+      "Modal dialogs",
+      "Pricing display",
+      "Messaging"
+    ],
+    "platformsDetected": [
+      "web",
+      "api"
+    ],
+    "summary": "Captured 19 screenshots across 13 public URLs. Nav signals: Skip to...⌥P, Browse, Log In, Sign Up, Show More. Tech signals: React, Segment, Google Tag Manager. UI patterns: Search, Card layout, Authentication, Modal dialogs, Pricing display, Messaging."
+  }
+}

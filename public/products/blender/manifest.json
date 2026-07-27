@@ -1,0 +1,1029 @@
+{
+  "slug": "blender",
+  "capturedAt": "2026-07-27T14:56:36.486Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Blender public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.blender.org/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "Blender homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.blender.org/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Blender homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.blender.org/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "Blender homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.blender.org/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Blender homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.blender.org/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on Blender (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://developer.blender.org/?utm_medium=www-footer"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from Blender",
+      "kind": "product",
+      "sourceUrl": "https://www.blender.org/about/institute/"
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from Blender",
+      "kind": "product",
+      "sourceUrl": "https://www.blender.org/about/institute/"
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "In-product nav (3)",
+      "caption": "Same-origin product / pricing / docs links from Blender",
+      "kind": "product",
+      "sourceUrl": "https://www.blender.org/about/institute/"
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "In-product nav (4)",
+      "caption": "Same-origin product / pricing / docs links from Blender",
+      "kind": "product",
+      "sourceUrl": "https://www.blender.org/about/institute/"
+    },
+    {
+      "file": "nav-5.jpg",
+      "title": "In-product nav (5)",
+      "caption": "Same-origin product / pricing / docs links from Blender",
+      "kind": "product",
+      "sourceUrl": "https://www.blender.org/about/institute/"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard",
+      "caption": "Blender public surface · blender.org",
+      "kind": "product",
+      "sourceUrl": "https://www.blender.org/pricing"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings",
+      "caption": "Blender public surface · blender.org",
+      "kind": "product",
+      "sourceUrl": "https://www.blender.org/product"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search",
+      "caption": "Blender public surface · blender.org",
+      "kind": "docs",
+      "sourceUrl": "https://www.blender.org/products"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Profile (1)",
+      "caption": "Blender public surface · blender.org",
+      "kind": "docs",
+      "sourceUrl": "https://www.blender.org/features/"
+    },
+    {
+      "file": "surface-4-mid.jpg",
+      "title": "Profile (2)",
+      "caption": "Blender public surface · blender.org",
+      "kind": "docs",
+      "sourceUrl": "https://www.blender.org/features/"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5",
+      "caption": "Blender public surface · blender.org",
+      "kind": "docs",
+      "sourceUrl": "https://www.blender.org/platform"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6",
+      "caption": "Blender public surface · blender.org",
+      "kind": "docs",
+      "sourceUrl": "https://www.blender.org/solutions"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7",
+      "caption": "Blender public surface · blender.org",
+      "kind": "docs",
+      "sourceUrl": "https://www.blender.org/customers"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8",
+      "caption": "Blender public surface · blender.org",
+      "kind": "docs",
+      "sourceUrl": "https://www.blender.org/docs"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9",
+      "caption": "Blender public surface · blender.org",
+      "kind": "docs",
+      "sourceUrl": "https://www.blender.org/help"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10",
+      "caption": "Blender public surface · blender.org",
+      "kind": "docs",
+      "sourceUrl": "https://www.blender.org/blog"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11 (1)",
+      "caption": "Blender public surface · blender.org",
+      "kind": "docs",
+      "sourceUrl": "https://www.blender.org/about/"
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "Supporting surface 11 (2)",
+      "caption": "Blender public surface · blender.org",
+      "kind": "docs",
+      "sourceUrl": "https://www.blender.org/about/"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13",
+      "caption": "Blender public surface · blender.org",
+      "kind": "docs",
+      "sourceUrl": "https://www.blender.org/signin"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14",
+      "caption": "Blender public surface · blender.org",
+      "kind": "docs",
+      "sourceUrl": "https://www.blender.org/sign-in"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T14:56:36.486Z",
+    "screenshotCount": 26,
+    "pageCount": 16,
+    "pages": [
+      {
+        "url": "https://www.blender.org/",
+        "title": "Blender - The Free and Open Source 3D Creation Software — blender.org",
+        "description": "The Freedom to Create",
+        "headings": [
+          "Blender 5.2 LTS",
+          "Latest News",
+          "Blender Development",
+          "Blender Studio",
+          "Free and Open Source",
+          "Part of the industry",
+          "It’s about people."
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate"
+        ],
+        "ctas": [
+          "Download",
+          "Learn More",
+          "Showcasing Blender at industry events",
+          "The demo scene is back with Nodevember",
+          "Download Blender",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://developer.blender.org/?utm_medium=www-footer",
+        "title": "Developer Portal - developer.blender.org",
+        "description": "Join the global community of Blender developers.",
+        "headings": [
+          "BLENDER.ORG",
+          "LEARNING & RESOURCES",
+          "DEVELOPMENT",
+          "DONATE",
+          "Make Blender"
+        ],
+        "navLabels": [
+          "Developer",
+          "Roadmap",
+          "Projects",
+          "Docs",
+          "Blog",
+          "Forum",
+          "Builds",
+          "BLENDER.ORG",
+          "Download Get the latest Blender, older versions, or experimental builds.",
+          "What's New Stay up-to-date with the new features in the latest Blender releases.",
+          "LEARNING & RESOURCES",
+          "Blender Studio Access production assets and knowledge from the open movies.",
+          "Manual Documentation on the usage and features in Blender.",
+          "DEVELOPMENT",
+          "Developers Blog Latest development updates, by Blender developers.",
+          "Documentation Guidelines, release notes and development docs.",
+          "Benchmark A platform to collect and share results of the Blender Benchmark.",
+          "Blender Conference The yearly event that brings the community together.",
+          "DONATE",
+          "Development Fund Support core development with a monthly contribution."
+        ],
+        "ctas": [
+          "Download Get the latest Blender, older versions, or experimental builds.",
+          "Add-on Development Extend Blender beyond its capabilities.",
+          "Download",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/about/institute/",
+        "title": "Blender Institute — Blender",
+        "description": "Blender Institute formally acts as the working company of Blender Foundation.",
+        "headings": [
+          "Blender Institute",
+          "Organization",
+          "Goals",
+          "History",
+          "Contact",
+          "Can I come visit?"
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Blender Foundation",
+          "Blender Institute",
+          "Blender Studio",
+          "Roles",
+          "People",
+          "License",
+          "History",
+          "Logo",
+          "Credits",
+          "Website",
+          "Trademark Policy"
+        ],
+        "ctas": [
+          "Download",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/pricing",
+        "title": "Page not found — Blender",
+        "description": "The Free and Open Source 3D Creation Software — blender.org",
+        "headings": [
+          "\"Wait wait wait wait wait wait.\""
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Releases",
+          "Blender Lab",
+          "MCP Server",
+          "Homepage",
+          "Modeling",
+          "Sculpting",
+          "Animation & Rigging",
+          "Story Artist",
+          "Rendering",
+          "Simulation",
+          "Video Editing",
+          "Scripting",
+          "VFX",
+          "Interface",
+          "Pipeline"
+        ],
+        "ctas": [
+          "Download",
+          "Demo Files",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/product",
+        "title": "Page not found — Blender",
+        "description": "The Free and Open Source 3D Creation Software — blender.org",
+        "headings": [
+          "\"You're closer than you know.\""
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Releases",
+          "Blender Lab",
+          "MCP Server",
+          "Homepage",
+          "Modeling",
+          "Sculpting",
+          "Animation & Rigging",
+          "Story Artist",
+          "Rendering",
+          "Simulation",
+          "Video Editing",
+          "Scripting",
+          "VFX",
+          "Interface",
+          "Pipeline"
+        ],
+        "ctas": [
+          "Download",
+          "Demo Files",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/products",
+        "title": "Page not found — Blender",
+        "description": "The Free and Open Source 3D Creation Software — blender.org",
+        "headings": [
+          "\"I just want to be awesome in space.\""
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Releases",
+          "Blender Lab",
+          "MCP Server",
+          "Homepage",
+          "Modeling",
+          "Sculpting",
+          "Animation & Rigging",
+          "Story Artist",
+          "Rendering",
+          "Simulation",
+          "Video Editing",
+          "Scripting",
+          "VFX",
+          "Interface",
+          "Pipeline"
+        ],
+        "ctas": [
+          "Download",
+          "Demo Files",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/features/",
+        "title": "Features — Blender",
+        "description": "The Free and Open Source 3D Creation Software — blender.org",
+        "headings": [
+          "Free Software Never Looked This Awesome"
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Modeling",
+          "Sculpting",
+          "Animation & Rigging",
+          "Story Artist",
+          "Rendering",
+          "Simulation",
+          "Video Editing",
+          "Scripting",
+          "VFX",
+          "Interface",
+          "Pipeline"
+        ],
+        "ctas": [
+          "Download",
+          "Create jaw-dropping renders thanks to Cycles, high-end production path tracer.",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/platform",
+        "title": "Page not found — Blender",
+        "description": "The Free and Open Source 3D Creation Software — blender.org",
+        "headings": [
+          "\"Could I interest you in some peppermint tea?\""
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Releases",
+          "Blender Lab",
+          "MCP Server",
+          "Homepage",
+          "Modeling",
+          "Sculpting",
+          "Animation & Rigging",
+          "Story Artist",
+          "Rendering",
+          "Simulation",
+          "Video Editing",
+          "Scripting",
+          "VFX",
+          "Interface",
+          "Pipeline"
+        ],
+        "ctas": [
+          "Download",
+          "Demo Files",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/solutions",
+        "title": "Page not found — Blender",
+        "description": "The Free and Open Source 3D Creation Software — blender.org",
+        "headings": [
+          "\"What do you see at your left side, Emo?\""
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Releases",
+          "Blender Lab",
+          "MCP Server",
+          "Homepage",
+          "Modeling",
+          "Sculpting",
+          "Animation & Rigging",
+          "Story Artist",
+          "Rendering",
+          "Simulation",
+          "Video Editing",
+          "Scripting",
+          "VFX",
+          "Interface",
+          "Pipeline"
+        ],
+        "ctas": [
+          "Download",
+          "Demo Files",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/customers",
+        "title": "Page not found — Blender",
+        "description": "The Free and Open Source 3D Creation Software — blender.org",
+        "headings": [
+          "\"You're closer than you know.\""
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Releases",
+          "Blender Lab",
+          "MCP Server",
+          "Homepage",
+          "Modeling",
+          "Sculpting",
+          "Animation & Rigging",
+          "Story Artist",
+          "Rendering",
+          "Simulation",
+          "Video Editing",
+          "Scripting",
+          "VFX",
+          "Interface",
+          "Pipeline"
+        ],
+        "ctas": [
+          "Download",
+          "Demo Files",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/docs",
+        "title": "Page not found — Blender",
+        "description": "The Free and Open Source 3D Creation Software — blender.org",
+        "headings": [
+          "\"I just wanted a haircut.\""
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Releases",
+          "Blender Lab",
+          "MCP Server",
+          "Homepage",
+          "Modeling",
+          "Sculpting",
+          "Animation & Rigging",
+          "Story Artist",
+          "Rendering",
+          "Simulation",
+          "Video Editing",
+          "Scripting",
+          "VFX",
+          "Interface",
+          "Pipeline"
+        ],
+        "ctas": [
+          "Download",
+          "Demo Files",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/help",
+        "title": "Page not found — Blender",
+        "description": "The Free and Open Source 3D Creation Software — blender.org",
+        "headings": [
+          "\"I just wanted a haircut.\""
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Releases",
+          "Blender Lab",
+          "MCP Server",
+          "Homepage",
+          "Modeling",
+          "Sculpting",
+          "Animation & Rigging",
+          "Story Artist",
+          "Rendering",
+          "Simulation",
+          "Video Editing",
+          "Scripting",
+          "VFX",
+          "Interface",
+          "Pipeline"
+        ],
+        "ctas": [
+          "Download",
+          "Demo Files",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/blog",
+        "title": "Page not found — Blender",
+        "description": "The Free and Open Source 3D Creation Software — blender.org",
+        "headings": [
+          "\"Is it usually this... empty?\""
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Releases",
+          "Blender Lab",
+          "MCP Server",
+          "Homepage",
+          "Modeling",
+          "Sculpting",
+          "Animation & Rigging",
+          "Story Artist",
+          "Rendering",
+          "Simulation",
+          "Video Editing",
+          "Scripting",
+          "VFX",
+          "Interface",
+          "Pipeline"
+        ],
+        "ctas": [
+          "Download",
+          "Demo Files",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/about/",
+        "title": "About — Blender",
+        "description": "The Free and Open Source 3D Creation Software — blender.org",
+        "headings": [
+          "The Freedom to Create",
+          "More than Software",
+          "Mission",
+          "Vision",
+          "Activities",
+          "Community Contributions",
+          "Development",
+          "Production",
+          "Funding",
+          "Affiliations",
+          "License"
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Blender Foundation",
+          "Blender Institute",
+          "Blender Studio",
+          "Roles",
+          "People",
+          "License",
+          "History",
+          "Logo",
+          "Credits",
+          "Website",
+          "Trademark Policy"
+        ],
+        "ctas": [
+          "Download",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/signin",
+        "title": "Page not found — Blender",
+        "description": "The Free and Open Source 3D Creation Software — blender.org",
+        "headings": [
+          "\"Took me ages to tie that rope.\""
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Releases",
+          "Blender Lab",
+          "MCP Server",
+          "Homepage",
+          "Modeling",
+          "Sculpting",
+          "Animation & Rigging",
+          "Story Artist",
+          "Rendering",
+          "Simulation",
+          "Video Editing",
+          "Scripting",
+          "VFX",
+          "Interface",
+          "Pipeline"
+        ],
+        "ctas": [
+          "Download",
+          "Demo Files",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.blender.org/sign-in",
+        "title": "Page not found — Blender",
+        "description": "The Free and Open Source 3D Creation Software — blender.org",
+        "headings": [
+          "\"Wait wait wait wait wait wait.\""
+        ],
+        "navLabels": [
+          "Toggle navigation",
+          "Features",
+          "Download",
+          "Support",
+          "Get Involved",
+          "About",
+          "Jobs",
+          "Store",
+          "Donate",
+          "Releases",
+          "Blender Lab",
+          "MCP Server",
+          "Homepage",
+          "Modeling",
+          "Sculpting",
+          "Animation & Rigging",
+          "Story Artist",
+          "Rendering",
+          "Simulation",
+          "Video Editing",
+          "Scripting",
+          "VFX",
+          "Interface",
+          "Pipeline"
+        ],
+        "ctas": [
+          "Download",
+          "Demo Files",
+          "Add-ons",
+          "Get Started"
+        ],
+        "landmarks": [
+          "navigation",
+          "nav",
+          "footer"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Toggle navigation",
+      "Features",
+      "Download",
+      "Support",
+      "Get Involved",
+      "About",
+      "Jobs",
+      "Store",
+      "Donate",
+      "Developer",
+      "Roadmap",
+      "Projects",
+      "Docs",
+      "Blog",
+      "Forum",
+      "Builds",
+      "BLENDER.ORG",
+      "Download Get the latest Blender, older versions, or experimental builds.",
+      "What's New Stay up-to-date with the new features in the latest Blender releases.",
+      "LEARNING & RESOURCES",
+      "Blender Studio Access production assets and knowledge from the open movies.",
+      "Manual Documentation on the usage and features in Blender.",
+      "DEVELOPMENT",
+      "Developers Blog Latest development updates, by Blender developers.",
+      "Documentation Guidelines, release notes and development docs.",
+      "Benchmark A platform to collect and share results of the Blender Benchmark.",
+      "Blender Conference The yearly event that brings the community together.",
+      "Development Fund Support core development with a monthly contribution.",
+      "Blender Foundation",
+      "Blender Institute"
+    ],
+    "ctas": [
+      "Download",
+      "Learn More",
+      "Showcasing Blender at industry events",
+      "The demo scene is back with Nodevember",
+      "Download Blender",
+      "Add-ons",
+      "Get Started",
+      "Download Get the latest Blender, older versions, or experimental builds.",
+      "Add-on Development Extend Blender beyond its capabilities.",
+      "Demo Files",
+      "Create jaw-dropping renders thanks to Cycles, high-end production path tracer."
+    ],
+    "headings": [
+      "Blender 5.2 LTS",
+      "Latest News",
+      "Blender Development",
+      "Blender Studio",
+      "Free and Open Source",
+      "Part of the industry",
+      "It’s about people.",
+      "BLENDER.ORG",
+      "LEARNING & RESOURCES",
+      "DEVELOPMENT",
+      "DONATE",
+      "Make Blender",
+      "Blender Institute",
+      "Organization",
+      "Goals",
+      "History",
+      "Contact",
+      "Can I come visit?",
+      "\"Wait wait wait wait wait wait.\"",
+      "\"You're closer than you know.\"",
+      "\"I just want to be awesome in space.\"",
+      "Free Software Never Looked This Awesome",
+      "\"Could I interest you in some peppermint tea?\"",
+      "\"What do you see at your left side, Emo?\"",
+      "\"I just wanted a haircut.\"",
+      "\"Is it usually this... empty?\"",
+      "The Freedom to Create",
+      "More than Software",
+      "Mission",
+      "Vision"
+    ],
+    "techSignals": [
+      "Cloudflare",
+      "Next.js",
+      "Google Maps"
+    ],
+    "featureCandidates": [
+      "Blender 5.2 LTS",
+      "Latest News",
+      "Blender Development",
+      "Blender Studio",
+      "Free and Open Source",
+      "Part of the industry",
+      "It’s about people.",
+      "BLENDER.ORG",
+      "LEARNING & RESOURCES",
+      "DEVELOPMENT",
+      "DONATE",
+      "Make Blender",
+      "Blender Institute",
+      "Organization",
+      "Goals",
+      "History",
+      "Contact",
+      "Can I come visit?",
+      "\"Wait wait wait wait wait wait.\"",
+      "\"You're closer than you know.\"",
+      "\"I just want to be awesome in space.\"",
+      "Free Software Never Looked This Awesome",
+      "\"Could I interest you in some peppermint tea?\"",
+      "\"What do you see at your left side, Emo?\""
+    ],
+    "patternCandidates": [
+      "Map view",
+      "Tabs",
+      "Search"
+    ],
+    "platformsDetected": [
+      "web",
+      "api",
+      "ios"
+    ],
+    "summary": "Captured 26 screenshots across 16 public URLs. Nav signals: Toggle navigation, Features, Download, Support, Get Involved, About. Tech signals: Cloudflare, Next.js, Google Maps. UI patterns: Map view, Tabs, Search."
+  }
+}

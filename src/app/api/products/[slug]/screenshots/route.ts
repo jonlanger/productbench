@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 
 import { getVisibleProductBySlug } from "@/data/queries";
 import type { ProductScreenshotKind } from "@/data/types";
+import { getViewer } from "@/lib/auth";
+import { GUEST_PREVIEW_COUNT } from "@/lib/gallery";
 
 const DEFAULT_LIMIT = 20;
 const MAX_LIMIT = 60;
@@ -23,7 +25,10 @@ export async function GET(request: Request, context: RouteContext) {
     ? (kindsParam.split(",").filter(Boolean) as ProductScreenshotKind[])
     : null;
 
-  const product = await getVisibleProductBySlug(slug);
+  const [product, { user }] = await Promise.all([
+    getVisibleProductBySlug(slug),
+    getViewer(),
+  ]);
   if (!product) {
     return NextResponse.json({ error: "Not found" }, { status: 404 });
   }
@@ -34,15 +39,17 @@ export async function GET(request: Request, context: RouteContext) {
       ? all.filter((shot) => kinds.includes(shot.kind ?? "marketing"))
       : all;
 
-  const items = filtered.slice(offset, offset + limit);
+  const visible = user ? filtered : filtered.slice(0, GUEST_PREVIEW_COUNT);
+  const items = visible.slice(offset, offset + limit);
   const nextOffset = offset + items.length;
 
   return NextResponse.json({
     items,
-    total: filtered.length,
+    total: visible.length,
     offset,
     limit,
-    hasMore: nextOffset < filtered.length,
+    hasMore: nextOffset < visible.length,
     nextOffset,
+    gated: !user && filtered.length > GUEST_PREVIEW_COUNT,
   });
 }

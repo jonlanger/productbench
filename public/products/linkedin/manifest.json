@@ -1,0 +1,928 @@
+{
+  "slug": "linkedin",
+  "capturedAt": "2026-07-27T14:35:05.342Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "LinkedIn public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.linkedin.com/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "LinkedIn homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.linkedin.com/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "LinkedIn homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.linkedin.com/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "LinkedIn homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.linkedin.com/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "LinkedIn homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.linkedin.com/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on LinkedIn (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://www.linkedin.com/login/?trk=guest_homepage-basic_nav-header-signin"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from LinkedIn",
+      "kind": "product",
+      "sourceUrl": "https://www.linkedin.com/jobs/human-resources-jobs-boston-ma?trk=homepage-basic_suggested-search&position=1&pageNum=0"
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from LinkedIn",
+      "kind": "product",
+      "sourceUrl": "https://www.linkedin.com/jobs/human-resources-jobs-boston-ma?trk=homepage-basic_suggested-search&position=1&pageNum=0"
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "In-product nav (3)",
+      "caption": "Same-origin product / pricing / docs links from LinkedIn",
+      "kind": "product",
+      "sourceUrl": "https://www.linkedin.com/jobs/human-resources-jobs-boston-ma?trk=homepage-basic_suggested-search&position=1&pageNum=0"
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "In-product nav (4)",
+      "caption": "Same-origin product / pricing / docs links from LinkedIn",
+      "kind": "product",
+      "sourceUrl": "https://www.linkedin.com/jobs/human-resources-jobs-boston-ma?trk=homepage-basic_suggested-search&position=1&pageNum=0"
+    },
+    {
+      "file": "nav-5.jpg",
+      "title": "In-product nav (5)",
+      "caption": "Same-origin product / pricing / docs links from LinkedIn",
+      "kind": "product",
+      "sourceUrl": "https://www.linkedin.com/jobs/human-resources-jobs-boston-ma?trk=homepage-basic_suggested-search&position=1&pageNum=0"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "product",
+      "sourceUrl": "https://www.linkedin.com/pricing?_l=en_US"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "product",
+      "sourceUrl": "https://www.linkedin.com/product?_l=en_US"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search (1)",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.linkedin.com/products"
+    },
+    {
+      "file": "surface-3-mid.jpg",
+      "title": "Search (2)",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.linkedin.com/products"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Profile",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.linkedin.com/features?_l=en_US"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://business.linkedin.com/advertise/cx/21/08/marketing-solutions-podcast-b?src=re-pod&trk=platform&mcid=7092147490010890240&veh=platform"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6 (1)",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://business.linkedin.com/sales-solutions/cx/20/09/sales-navigator-podcast?src=re-pod&trk=solutions&mcid=7150283309476921377&veh=solutions"
+    },
+    {
+      "file": "surface-6-mid.jpg",
+      "title": "Supporting surface 6 (2)",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://business.linkedin.com/sales-solutions/cx/20/09/sales-navigator-podcast?src=re-pod&trk=solutions&mcid=7150283309476921377&veh=solutions"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.linkedin.com/customers?_l=en_US"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.linkedin.com/docs?_l=en_US"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9 (1)",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.linkedin.com/help/linkedin"
+    },
+    {
+      "file": "surface-9-mid.jpg",
+      "title": "Supporting surface 9 (2)",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.linkedin.com/help/linkedin"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10 (1)",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.linkedin.com/blog/member"
+    },
+    {
+      "file": "surface-10-mid.jpg",
+      "title": "Supporting surface 10 (2)",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.linkedin.com/blog/member"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.linkedin.com/about?_l=en_US"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.linkedin.com/login/"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.linkedin.com/signin?_l=en_US"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14",
+      "caption": "LinkedIn public surface · linkedin.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.linkedin.com/sign-in?_l=en_US"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T14:35:05.342Z",
+    "screenshotCount": 29,
+    "pageCount": 16,
+    "pages": [
+      {
+        "url": "https://www.linkedin.com/",
+        "title": "LinkedIn: Log In or Sign Up",
+        "description": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+        "headings": [
+          "Discover new opportunities",
+          "Explore top LinkedIn content",
+          "Find the right job or internship for you",
+          "Post your job for millions of people to see",
+          "Discover the best software tools",
+          "Keep your mind sharp with games",
+          "Let the right people know you’re open to work",
+          "Conversations today could lead to opportunity tomorrow",
+          "Stay up to date on your industry",
+          "Connect with people who can help",
+          "Learn the skills you need to succeed",
+          "Who is LinkedIn for?",
+          "Join your colleagues, classmates, and friends on LinkedIn",
+          "General",
+          "Browse LinkedIn",
+          "Business Solutions",
+          "Directories"
+        ],
+        "navLabels": [
+          "LinkedIn",
+          "Top Content",
+          "People",
+          "Learning",
+          "Jobs",
+          "Games",
+          "Sign in",
+          "Join now"
+        ],
+        "ctas": [
+          "Sign in",
+          "Join now",
+          "Sign in with email",
+          "Research",
+          "Get started",
+          "Sign Up",
+          "Top Startups",
+          "People Search"
+        ],
+        "landmarks": [
+          "nav:Primary",
+          "main",
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/login/?trk=guest_homepage-basic_nav-header-signin",
+        "title": "LinkedIn Login, Sign in | LinkedIn",
+        "description": "Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.",
+        "headings": [
+          "0 notifications"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Join now",
+          "Continue with GoogleContinue with Google",
+          "Sign in with Apple",
+          "Sign in"
+        ],
+        "landmarks": [
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/jobs/human-resources-jobs-boston-ma?trk=homepage-basic_suggested-search&position=1&pageNum=0",
+        "title": "1,000+ Human Resources jobs in Boston",
+        "description": "Today&#39;s top 1,000+ Human Resources jobs in Boston. Leverage your professional network, and get hired. New Human Resources jobs added daily.",
+        "headings": [
+          "1,000+ Human Resources Jobs in Boston",
+          "HR Generalist",
+          "HR Generalist (649778)",
+          "HR Specialist",
+          "Human Resources Generalist",
+          "Human Resources Associate",
+          "Human Resources Coordinator",
+          "Employee Relations Specialist",
+          "People & Culture HR Administrator",
+          "HR Business Partner, AMZL",
+          "Leave, ADA, and Workers Compensation Adm (649209)",
+          "Execution Specialist",
+          "Human Resources Specialist",
+          "Benefits Representative 2",
+          "Human Resources Business Partner"
+        ],
+        "navLabels": [
+          "LinkedIn",
+          "Human Resources in Boston Expand search",
+          "Jobs",
+          "People",
+          "Learning",
+          "Clear text",
+          "Sign in",
+          "Join now"
+        ],
+        "ctas": [
+          "Human Resources in Boston Expand search",
+          "Sign in",
+          "Join now",
+          "Where are the filters?",
+          "Learn more",
+          "Sign in to create job alert",
+          "Buyers Edge Platform",
+          "Sign in with Email"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Primary",
+          "search",
+          "dialog:You&#39;re now using AI-powered job search",
+          "main",
+          "dialog:job-details-topcard-apply-modal-modal-header",
+          "dialog:public_jobs_ai_button_contextual_sign_in_info_modal-modal-header",
+          "dialog:public_jobs_ai_button_fit_contextual_sign_in_info_modal-modal-header",
+          "dialog:public_jobs_ai_button_resume_contextual_sign_in_info_modal-modal-header",
+          "footer",
+          "dialog:base-contextual-sign-in-modal-modal-header"
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/pricing?_l=en_US",
+        "title": "LinkedIn",
+        "headings": [
+          "لم يتم العثور على الصفحة",
+          "Stránka nenalezena",
+          "Siden blev ikke fundet",
+          "Seite nicht gefunden",
+          "Page not found",
+          "Página no encontrada",
+          "Impossible de trouver cette page",
+          "पेज नहीं मिला",
+          "Halaman ini tidak dapat ditemukan",
+          "Pagina non trovata",
+          "ページが見つかりませんでした",
+          "申し訳ありません。お探しのページが見つかりません。前のページに戻るか、ヘルプセンターで詳細をご確認ください",
+          "페이지 없음",
+          "원하시는 페이지를 찾을 수 없습니다. 이전 페이지로 돌아가거나 고객센터에서 자세히 알아보세요."
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": [
+          "banner",
+          "main",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/product?_l=en_US",
+        "title": "LinkedIn",
+        "headings": [
+          "لم يتم العثور على الصفحة",
+          "Stránka nenalezena",
+          "Siden blev ikke fundet",
+          "Seite nicht gefunden",
+          "Page not found",
+          "Página no encontrada",
+          "Impossible de trouver cette page",
+          "पेज नहीं मिला",
+          "Halaman ini tidak dapat ditemukan",
+          "Pagina non trovata",
+          "ページが見つかりませんでした",
+          "申し訳ありません。お探しのページが見つかりません。前のページに戻るか、ヘルプセンターで詳細をご確認ください",
+          "페이지 없음",
+          "원하시는 페이지를 찾을 수 없습니다. 이전 페이지로 돌아가거나 고객센터에서 자세히 알아보세요."
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": [
+          "banner",
+          "main",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/products",
+        "title": "Products | LinkedIn",
+        "description": "Browse products across various categories on LinkedIn",
+        "headings": [
+          "Discover products used by a trusted network of professionals",
+          "Choose the right tool for the job from 30,000 products on LinkedIn",
+          "Popular Product Categories",
+          "Products people are talking about",
+          "LinkedIn Sales Navigator",
+          "LinkedIn Recruiter",
+          "LinkedIn Hiring Pro",
+          "LinkedIn Learning AI-powered Coaching",
+          "LinkedIn Interview Prep AI",
+          "Facebook",
+          "LinkedIn Ads",
+          "LinkedIn Learning",
+          "LinkedIn Talent Insights",
+          "Instagram"
+        ],
+        "navLabels": [
+          "LinkedIn",
+          "Join now",
+          "Sign in"
+        ],
+        "ctas": [
+          "Join now",
+          "Sign in",
+          "Facebook"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Primary",
+          "main",
+          "search",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/features?_l=en_US",
+        "title": "LinkedIn",
+        "headings": [
+          "لم يتم العثور على الصفحة",
+          "Stránka nenalezena",
+          "Siden blev ikke fundet",
+          "Seite nicht gefunden",
+          "Page not found",
+          "Página no encontrada",
+          "Impossible de trouver cette page",
+          "पेज नहीं मिला",
+          "Halaman ini tidak dapat ditemukan",
+          "Pagina non trovata",
+          "ページが見つかりませんでした",
+          "申し訳ありません。お探しのページが見つかりません。前のページに戻るか、ヘルプセンターで詳細をご確認ください",
+          "페이지 없음",
+          "원하시는 페이지를 찾을 수 없습니다. 이전 페이지로 돌아가거나 고객센터에서 자세히 알아보세요."
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": [
+          "banner",
+          "main",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://business.linkedin.com/advertise/cx/21/08/marketing-solutions-podcast-b?src=re-pod&trk=platform&mcid=7092147490010890240&veh=platform",
+        "title": "404",
+        "headings": [
+          "Advertising Advertising",
+          "How to get started",
+          "Ad formats",
+          "Learn More",
+          "Compare Ads Compare Ads",
+          "Resources Resources",
+          "Getting Started",
+          "Learn",
+          "By Business Type",
+          "Page not found"
+        ],
+        "navLabels": [
+          "LinkedIn Marketing Academyopens in a new tab",
+          "Help Centeropens in a new tab",
+          "Blogopens in a new tab",
+          "Advertising",
+          "Create a LinkedIn Page",
+          "Campaign Manager",
+          "Sign in to Campaign Manager",
+          "Sponsored Content",
+          "Sponsored Messaging",
+          "Dynamic Ads",
+          "Text Ads",
+          "See all Ad formats",
+          "Pricing",
+          "Targeting",
+          "Lead Generation",
+          "Boosting",
+          "Partners",
+          "Ad Tips & Best Practices",
+          "Compare Ads",
+          "Resources",
+          "How to Create a Campaign",
+          "Ad Specs",
+          "Success Hub",
+          "Learning Courses & Certifications"
+        ],
+        "ctas": [
+          "Create a LinkedIn Page",
+          "Sign in to Campaign Manager",
+          "Pricing",
+          "How to Create a Campaign",
+          "Sign in",
+          "Create ad opens in a new tab"
+        ],
+        "landmarks": [
+          "header"
+        ]
+      },
+      {
+        "url": "https://business.linkedin.com/sales-solutions/cx/20/09/sales-navigator-podcast?src=re-pod&trk=solutions&mcid=7150283309476921377&veh=solutions",
+        "title": "LinkedIn Sales Navigator",
+        "description": "Tap into the power of LinkedIn’s member network and build relationships that’ll last. Find leads and close deals with LinkedIn Sales Navigator.",
+        "headings": [
+          "English(EN)",
+          "Sales Navigator Sales Navigator",
+          "Plans & Pricing Plans & Pricing",
+          "Resources Resources",
+          "For B2B sellers",
+          "For customers",
+          "For technical support",
+          "Which Sales Navigator plan is right for you?",
+          "Core",
+          "How LinkedIn Sales Navigator can help",
+          "See why we are the #1 sales intelligence provider",
+          "Contact sales",
+          "Meet some of our customers"
+        ],
+        "navLabels": [
+          "English(EN)",
+          "Sign into Sales Navigatoropens in a new tab",
+          "Visit Help Centeropens in a new tab",
+          "Sales Navigator",
+          "Product details",
+          "Benefits",
+          "Customer stories",
+          "Plans & Pricing",
+          "Resources",
+          "Strategies & tips",
+          "Social Selling Index",
+          "How to reduce churn",
+          "Using Sales Navigator",
+          "Training & community",
+          "Sales Integrations",
+          "Contact customer supportopens in a new tab",
+          "Contact sales"
+        ],
+        "ctas": [
+          "Sign into Sales Navigatoropens in a new tab",
+          "Plans & Pricing",
+          "Contact customer supportopens in a new tab",
+          "Contact sales",
+          "Request demo",
+          "Start your 60-day free trial opens in a new tab",
+          "Start your free trial opens in a new tab",
+          "Contact customer support opens in a new tab"
+        ],
+        "landmarks": [
+          "header"
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/customers?_l=en_US",
+        "title": "LinkedIn",
+        "headings": [
+          "لم يتم العثور على الصفحة",
+          "Stránka nenalezena",
+          "Siden blev ikke fundet",
+          "Seite nicht gefunden",
+          "Page not found",
+          "Página no encontrada",
+          "Impossible de trouver cette page",
+          "Halaman ini tidak dapat ditemukan",
+          "Pagina non trovata",
+          "ページが見つかりませんでした",
+          "申し訳ありません。お探しのページが見つかりません。前のページに戻るか、ヘルプセンターで詳細をご確認ください",
+          "페이지 없음",
+          "원하시는 페이지를 찾을 수 없습니다. 이전 페이지로 돌아가거나 고객센터에서 자세히 알아보세요.",
+          "Laman tidak ditemui"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": [
+          "banner",
+          "main",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/docs?_l=en_US",
+        "title": "LinkedIn",
+        "headings": [
+          "لم يتم العثور على الصفحة",
+          "Stránka nenalezena",
+          "Siden blev ikke fundet",
+          "Seite nicht gefunden",
+          "Page not found",
+          "Página no encontrada",
+          "Impossible de trouver cette page",
+          "पेज नहीं मिला",
+          "Halaman ini tidak dapat ditemukan",
+          "Pagina non trovata",
+          "ページが見つかりませんでした",
+          "申し訳ありません。お探しのページが見つかりません。前のページに戻るか、ヘルプセンターで詳細をご確認ください",
+          "페이지 없음",
+          "원하시는 페이지를 찾을 수 없습니다. 이전 페이지로 돌아가거나 고객센터에서 자세히 알아보세요."
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": [
+          "banner",
+          "main",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/help/linkedin",
+        "title": "LinkedIn Help",
+        "description": "LinkedIn Help - Need help using LinkedIn? LinkedIn Help is here to help you get answers to your questions.",
+        "headings": [
+          "We’re here to help.",
+          "Other ways we can help",
+          "LinkedIn shortcuts",
+          "Recommended topics",
+          "Suggested articles",
+          "Manage emails from LinkedIn",
+          "Cancel LinkedIn Premium subscription",
+          "Visibility of shared posts",
+          "Visibility and impact of your social activity on the LinkedIn feed",
+          "Share profile updates with your network",
+          "Access country specific employment types",
+          "More help"
+        ],
+        "navLabels": [
+          "Skip to content",
+          "Skip to search",
+          "Close jump menu",
+          "Help LinkedIn Help",
+          "Dropdown menu, expand to explore help for other LinkedIn products",
+          "Close menu",
+          "LinkedIn",
+          "Corporate Billing",
+          "Learning",
+          "Marketing Solutions",
+          "Recruiter",
+          "Sales Navigator",
+          "Talent Insights",
+          "Go to LinkedIn",
+          "Sign in",
+          "Manage emails from LinkedIn",
+          "Cancel LinkedIn Premium subscription",
+          "Visibility of shared posts",
+          "Visibility and impact of your social activity on the LinkedIn feed",
+          "Share profile updates with your network",
+          "Access country specific employment types"
+        ],
+        "ctas": [
+          "Skip to search",
+          "Dropdown menu, expand to explore help for other LinkedIn products",
+          "Sign in",
+          "Clear search",
+          "Submit search",
+          "Change or add an email address Opens in new tab.",
+          "Search and Apply for Jobs",
+          "Access country specific employment types",
+          "Learn more",
+          "Contact us"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "dialog:LinkedIn products menu",
+          "main:Help content",
+          "search",
+          "aside:page-aside__aria-title",
+          "contentinfo",
+          "dialog:Privacy and Terms menu"
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/blog/member",
+        "title": "Official LinkedIn Blog",
+        "headings": [
+          "Latest Posts"
+        ],
+        "navLabels": [
+          "Official Blog",
+          "Open navigation",
+          "Close navigation",
+          "Product updates",
+          "Member stories",
+          "Creators",
+          "Platform Information",
+          "Trust and Safety",
+          "...",
+          "153"
+        ],
+        "ctas": [
+          "Mythbusting the Feed: How We Work to Address Bias",
+          "Tips to turbocharge your career search"
+        ],
+        "landmarks": [
+          "header",
+          "nav:main",
+          "main",
+          "nav:Pagination",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/about?_l=en_US",
+        "title": "LinkedIn",
+        "headings": [
+          "لم يتم العثور على الصفحة",
+          "Stránka nenalezena",
+          "Siden blev ikke fundet",
+          "Seite nicht gefunden",
+          "Page not found",
+          "Página no encontrada",
+          "Impossible de trouver cette page",
+          "पेज नहीं मिला",
+          "Halaman ini tidak dapat ditemukan",
+          "Pagina non trovata",
+          "ページが見つかりませんでした",
+          "申し訳ありません。お探しのページが見つかりません。前のページに戻るか、ヘルプセンターで詳細をご確認ください",
+          "페이지 없음",
+          "원하시는 페이지를 찾을 수 없습니다. 이전 페이지로 돌아가거나 고객센터에서 자세히 알아보세요."
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": [
+          "banner",
+          "main",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/signin?_l=en_US",
+        "title": "LinkedIn",
+        "headings": [
+          "لم يتم العثور على الصفحة",
+          "Stránka nenalezena",
+          "Siden blev ikke fundet",
+          "Seite nicht gefunden",
+          "Page not found",
+          "Página no encontrada",
+          "Impossible de trouver cette page",
+          "पेज नहीं मिला",
+          "Halaman ini tidak dapat ditemukan",
+          "Pagina non trovata",
+          "ページが見つかりませんでした",
+          "申し訳ありません。お探しのページが見つかりません。前のページに戻るか、ヘルプセンターで詳細をご確認ください",
+          "페이지 없음",
+          "원하시는 페이지를 찾을 수 없습니다. 이전 페이지로 돌아가거나 고객센터에서 자세히 알아보세요."
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": [
+          "banner",
+          "main",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/sign-in?_l=en_US",
+        "title": "LinkedIn",
+        "headings": [
+          "لم يتم العثور على الصفحة",
+          "Stránka nenalezena",
+          "Siden blev ikke fundet",
+          "Seite nicht gefunden",
+          "Page not found",
+          "Página no encontrada",
+          "Impossible de trouver cette page",
+          "पेज नहीं मिला",
+          "Halaman ini tidak dapat ditemukan",
+          "Pagina non trovata",
+          "ページが見つかりませんでした",
+          "申し訳ありません。お探しのページが見つかりません。前のページに戻るか、ヘルプセンターで詳細をご確認ください",
+          "페이지 없음",
+          "원하시는 페이지를 찾을 수 없습니다. 이전 페이지로 돌아가거나 고객센터에서 자세히 알아보세요."
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": [
+          "banner",
+          "main",
+          "contentinfo"
+        ]
+      }
+    ],
+    "navLabels": [
+      "LinkedIn",
+      "Top Content",
+      "People",
+      "Learning",
+      "Jobs",
+      "Games",
+      "Sign in",
+      "Join now",
+      "Human Resources in Boston Expand search",
+      "Clear text",
+      "LinkedIn Marketing Academyopens in a new tab",
+      "Help Centeropens in a new tab",
+      "Blogopens in a new tab",
+      "Advertising",
+      "Create a LinkedIn Page",
+      "Campaign Manager",
+      "Sign in to Campaign Manager",
+      "Sponsored Content",
+      "Sponsored Messaging",
+      "Dynamic Ads",
+      "Text Ads",
+      "See all Ad formats",
+      "Pricing",
+      "Targeting",
+      "Lead Generation",
+      "Boosting",
+      "Partners",
+      "Ad Tips & Best Practices",
+      "Compare Ads",
+      "Resources"
+    ],
+    "ctas": [
+      "Sign in",
+      "Join now",
+      "Sign in with email",
+      "Research",
+      "Get started",
+      "Sign Up",
+      "Top Startups",
+      "People Search",
+      "Continue with GoogleContinue with Google",
+      "Sign in with Apple",
+      "Human Resources in Boston Expand search",
+      "Where are the filters?",
+      "Learn more",
+      "Sign in to create job alert",
+      "Buyers Edge Platform",
+      "Facebook",
+      "Create a LinkedIn Page",
+      "Sign in to Campaign Manager",
+      "Pricing",
+      "How to Create a Campaign",
+      "Create ad opens in a new tab",
+      "Sign into Sales Navigatoropens in a new tab",
+      "Plans & Pricing",
+      "Contact customer supportopens in a new tab"
+    ],
+    "headings": [
+      "Discover new opportunities",
+      "Explore top LinkedIn content",
+      "Find the right job or internship for you",
+      "Post your job for millions of people to see",
+      "Discover the best software tools",
+      "Keep your mind sharp with games",
+      "Let the right people know you’re open to work",
+      "Conversations today could lead to opportunity tomorrow",
+      "Stay up to date on your industry",
+      "Connect with people who can help",
+      "Learn the skills you need to succeed",
+      "Who is LinkedIn for?",
+      "Join your colleagues, classmates, and friends on LinkedIn",
+      "General",
+      "Browse LinkedIn",
+      "Business Solutions",
+      "Directories",
+      "0 notifications",
+      "1,000+ Human Resources Jobs in Boston",
+      "HR Generalist",
+      "HR Generalist (649778)",
+      "HR Specialist",
+      "Human Resources Generalist",
+      "Human Resources Associate",
+      "Human Resources Coordinator",
+      "Employee Relations Specialist",
+      "People & Culture HR Administrator",
+      "HR Business Partner, AMZL",
+      "Leave, ADA, and Workers Compensation Adm (649209)",
+      "Execution Specialist"
+    ],
+    "techSignals": [
+      "Next.js",
+      "Google Tag Manager",
+      "Zendesk"
+    ],
+    "featureCandidates": [
+      "Discover new opportunities",
+      "Explore top LinkedIn content",
+      "Find the right job or internship for you",
+      "Post your job for millions of people to see",
+      "Discover the best software tools",
+      "Keep your mind sharp with games",
+      "Let the right people know you’re open to work",
+      "Stay up to date on your industry",
+      "Connect with people who can help",
+      "Learn the skills you need to succeed",
+      "Who is LinkedIn for?",
+      "General",
+      "Browse LinkedIn",
+      "Business Solutions",
+      "Directories",
+      "0 notifications",
+      "1,000+ Human Resources Jobs in Boston",
+      "HR Generalist",
+      "HR Generalist (649778)",
+      "HR Specialist",
+      "Human Resources Generalist",
+      "Human Resources Associate",
+      "Human Resources Coordinator",
+      "Employee Relations Specialist"
+    ],
+    "patternCandidates": [
+      "Search",
+      "Messaging",
+      "Authentication",
+      "Filters",
+      "Tabs",
+      "Pricing display",
+      "Menus"
+    ],
+    "platformsDetected": [
+      "web",
+      "desktop",
+      "api"
+    ],
+    "summary": "Captured 29 screenshots across 16 public URLs. Nav signals: LinkedIn, Top Content, People, Learning, Jobs, Games. Tech signals: Next.js, Google Tag Manager, Zendesk. UI patterns: Search, Messaging, Authentication, Filters, Tabs, Pricing display."
+  }
+}

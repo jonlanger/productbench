@@ -8,9 +8,7 @@ import {
   AvatarFallback,
   AvatarImage,
 } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
 import { getUserInitials } from "@/lib/avatar";
-import { hasSupabasePublicConfig } from "@/lib/supabase/client";
 import { cn } from "@/lib/utils";
 
 type AuthMenuProps = {
@@ -26,23 +24,25 @@ export function AuthMenu({
   isAdmin,
   className,
 }: AuthMenuProps) {
-  const authReady = hasSupabasePublicConfig();
-
-  if (!authReady) {
-    return null;
-  }
-
   if (!email) {
     return (
-      <Button
-        variant="outline"
-        size="sm"
-        className={cn("shrink-0", className)}
-        render={<Link href="/sign-in" />}
+      <Link
+        href="/sign-in"
+        className={cn(
+          "group shrink-0 rounded-full outline-none focus-visible:ring-3 focus-visible:ring-ring/50",
+          className,
+        )}
+        aria-label="Sign in"
       >
-        <LogIn className="size-3.5" />
-        Sign in
-      </Button>
+        <Avatar
+          size="default"
+          className="transition-opacity group-hover:opacity-90"
+        >
+          <AvatarFallback className="bg-foreground text-background">
+            <LogIn className="size-3.5" aria-hidden />
+          </AvatarFallback>
+        </Avatar>
+      </Link>
     );
   }
 

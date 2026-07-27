@@ -1,0 +1,643 @@
+{
+  "slug": "telegram",
+  "capturedAt": "2026-07-27T14:40:15.072Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Telegram public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://telegram.org/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "Telegram homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://telegram.org/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Telegram homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://telegram.org/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "Telegram homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://telegram.org/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Telegram homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://telegram.org/"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from Telegram",
+      "kind": "product",
+      "sourceUrl": "https://telegram.org/blog/ai-bot-revolution-11-new-features"
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from Telegram",
+      "kind": "product",
+      "sourceUrl": "https://telegram.org/blog/ai-bot-revolution-11-new-features"
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "In-product nav (3)",
+      "caption": "Same-origin product / pricing / docs links from Telegram",
+      "kind": "product",
+      "sourceUrl": "https://telegram.org/blog/ai-bot-revolution-11-new-features"
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "In-product nav (4)",
+      "caption": "Same-origin product / pricing / docs links from Telegram",
+      "kind": "product",
+      "sourceUrl": "https://telegram.org/blog/ai-bot-revolution-11-new-features"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "product",
+      "sourceUrl": "https://telegram.org/pricing"
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "Dashboard (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "product",
+      "sourceUrl": "https://telegram.org/pricing"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "product",
+      "sourceUrl": "https://telegram.org/product"
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "Settings (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "product",
+      "sourceUrl": "https://telegram.org/product"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/products"
+    },
+    {
+      "file": "surface-3-mid.jpg",
+      "title": "Search (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/products"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Profile (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/features"
+    },
+    {
+      "file": "surface-4-mid.jpg",
+      "title": "Profile (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/features"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5 (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/platform"
+    },
+    {
+      "file": "surface-5-mid.jpg",
+      "title": "Supporting surface 5 (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/platform"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6 (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/solutions"
+    },
+    {
+      "file": "surface-6-mid.jpg",
+      "title": "Supporting surface 6 (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/solutions"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7 (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/customers"
+    },
+    {
+      "file": "surface-7-mid.jpg",
+      "title": "Supporting surface 7 (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/customers"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8 (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/docs"
+    },
+    {
+      "file": "surface-8-mid.jpg",
+      "title": "Supporting surface 8 (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/docs"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9 (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/help"
+    },
+    {
+      "file": "surface-9-mid.jpg",
+      "title": "Supporting surface 9 (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/help"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10 (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/blog"
+    },
+    {
+      "file": "surface-10-mid.jpg",
+      "title": "Supporting surface 10 (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/blog"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11 (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/about"
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "Supporting surface 11 (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/about"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12 (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/login"
+    },
+    {
+      "file": "surface-12-mid.jpg",
+      "title": "Supporting surface 12 (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/login"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13 (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/signin"
+    },
+    {
+      "file": "surface-13-mid.jpg",
+      "title": "Supporting surface 13 (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/signin"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14 (1)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/sign-in"
+    },
+    {
+      "file": "surface-14-mid.jpg",
+      "title": "Supporting surface 14 (2)",
+      "caption": "Telegram public surface · telegram.org",
+      "kind": "docs",
+      "sourceUrl": "https://telegram.org/sign-in"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T14:40:15.072Z",
+    "screenshotCount": 37,
+    "pageCount": 16,
+    "pages": [
+      {
+        "url": "https://telegram.org/",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/blog/ai-bot-revolution-11-new-features",
+        "title": "Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji & Sticker Search and Much More",
+        "description": "Telegram adds over 10 new features, including ways for users to access AI services from any chat, automate their inbox with bots, create custom styles in the AI text editor, set limits and view statistics for polls — and much more.",
+        "headings": [
+          "Other News"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/pricing",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/product",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/products",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/features",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/platform",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/solutions",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/customers",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/docs",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/help",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/blog",
+        "title": "Telegram Blog",
+        "headings": [
+          "Telegram News"
+        ],
+        "navLabels": [
+          "Older →"
+        ],
+        "ctas": [],
+        "landmarks": [
+          "nav:..."
+        ]
+      },
+      {
+        "url": "https://telegram.org/about",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/login",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/signin",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://telegram.org/sign-in",
+        "title": "Telegram Messenger",
+        "description": "Fast. Secure. Powerful.",
+        "headings": [
+          "Recent News",
+          "Why Telegram?",
+          "Simple",
+          "Private",
+          "Synced",
+          "Fast",
+          "Powerful",
+          "Open",
+          "Secure",
+          "Social",
+          "Expressive"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      }
+    ],
+    "navLabels": [
+      "Older →"
+    ],
+    "ctas": [],
+    "headings": [
+      "Recent News",
+      "Why Telegram?",
+      "Simple",
+      "Private",
+      "Synced",
+      "Fast",
+      "Powerful",
+      "Open",
+      "Secure",
+      "Social",
+      "Expressive",
+      "Other News",
+      "Telegram News"
+    ],
+    "techSignals": [
+      "React",
+      "Vite"
+    ],
+    "featureCandidates": [
+      "Recent News",
+      "Why Telegram?",
+      "Simple",
+      "Private",
+      "Synced",
+      "Fast",
+      "Powerful",
+      "Open",
+      "Secure",
+      "Social",
+      "Expressive",
+      "Other News",
+      "Telegram News"
+    ],
+    "patternCandidates": [
+      "Search",
+      "Messaging",
+      "Tabs",
+      "Filters"
+    ],
+    "platformsDetected": [
+      "web",
+      "ios",
+      "android",
+      "desktop",
+      "api"
+    ],
+    "summary": "Captured 37 screenshots across 16 public URLs. Nav signals: Older →. Tech signals: React, Vite. UI patterns: Search, Messaging, Tabs, Filters."
+  }
+}

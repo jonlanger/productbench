@@ -1,0 +1,776 @@
+{
+  "capturedAt": "2026-07-27T14:47:33.909Z",
+  "screenshotCount": 42,
+  "pageCount": 16,
+  "pages": [
+    {
+      "url": "https://ramp.com/",
+      "title": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+      "description": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+      "headings": [
+        "Time is money. Save both.",
+        "One platform for all of finance. Agents for every workflow, working 24/7.",
+        "Cards & Expenses that handle themselves",
+        "Procure to pay without chasing approvals",
+        "Accounting automation eliminates month-end madness",
+        "Banking that flows money to the highest return",
+        "200+ Integrations to the tools you already use",
+        "Systems that never spoke",
+        "Keep your finance team focused on strategy. Let agents handle the busywork.",
+        "AI that learns from your team. And gets smarter with every team that joins.",
+        "Scale the team.Shrink the paperwork.",
+        "Set user access on autopilot.",
+        "One platform for all your global spend.",
+        "We've got the receipts."
+      ],
+      "navLabels": [
+        "close",
+        "Learn more",
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Learn more",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "Get started for free",
+        "View Demo",
+        "Explore Ramp Intelligence",
+        "Startups",
+        "Facebook"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://app.ramp.com/sign-in",
+      "title": "Official Ramp Login Page: Time is money. Save both.",
+      "description": "Master expense management with Ramp's finance platform. Experience corporate card flexibility and streamline your accounts payable processes for optimal financial efficiency and automation.",
+      "headings": [
+        "Welcome to Ramp"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Continue",
+        "Sign up↗"
+      ],
+      "landmarks": [
+        "main"
+      ]
+    },
+    {
+      "url": "https://ramp.com/customers/eight-sleep",
+      "title": "How Eight Sleep found millions hiding in their own spend",
+      "description": "Replacing Amex and Expensify with Ramp for over $2.8M in savings through spend controls, cashback, and Savings Insights. See how in this Ramp customer story.",
+      "headings": [
+        "How Eight Sleep found millions hiding in their own spend",
+        "Zombie SaaS subscriptions and inefficient expense reporting",
+        "Automated accounting, unlimited cards, zero blindspots",
+        "$2.8 million saved and the books close themselves",
+        "Don't miss these",
+        "Time is money. Save both."
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "The 192-year-old bank that banks on Ramp to take the waste out of its own books",
+        "Brandt grew finance operations 3x with zero added accounting headcount",
+        "Get started for free",
+        "Startups",
+        "Facebook"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://ramp.com/pricing",
+      "title": "Ramp Pricing and Plans",
+      "description": "Start for free with plans to help any business save time and money.",
+      "headings": [
+        "Start for free. Scale with Intelligence.",
+        "Compare Features",
+        "Free",
+        "Plus",
+        "Enterprise",
+        "Corporate Card",
+        "Travel",
+        "Expense Management",
+        "Accounts Payable",
+        "Procurement (Add-on to Plus or Enterprise)",
+        "Treasury",
+        "Accounting Automation",
+        "Integrations",
+        "Global",
+        "Budgets & Reporting",
+        "User management",
+        "Vendor management",
+        "Support",
+        "FAQ",
+        "Is there a free version of Ramp?"
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "Get started for free",
+        "Contact sales",
+        "Travel bookings",
+        "Guest bookings",
+        "Create bills using CSV uploads",
+        "Procurement (Add-on to Plus or Enterprise)",
+        "Issue limits and create spend programs in local currencies",
+        "Create custom reports using AI",
+        "Startups",
+        "Facebook",
+        "Checking Account Addendum"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://ramp.com/product",
+      "title": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+      "description": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+      "headings": [
+        "Something doesn't feel right.",
+        "Looking to try Ramp?",
+        "Check out the demo below.",
+        "Looking for something else?"
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "Startups",
+        "Get started for free",
+        "Facebook"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://ramp.com/products",
+      "title": "Ramp Products and Platform Features | Cards, Expenses, AP & More",
+      "description": "Discover Ramp’s products and platform features for managing cards, expenses, AP automation, reporting, and integrations—all in one place.",
+      "headings": [
+        "Take control of company spend in one place.",
+        "Core Products",
+        "Corporate cards",
+        "Expense management",
+        "Accounts payable",
+        "Travel",
+        "Business banking*",
+        "Procurement",
+        "Virtual cards",
+        "Card Integrations",
+        "Business expense cards",
+        "Reimbursements",
+        "Receipt automation",
+        "Mileage tracking",
+        "Invoice management software",
+        "ACH bill payments",
+        "Payment approvals",
+        "Checking account*",
+        "Investment account †"
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "Learn more"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://ramp.com/features",
+      "title": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+      "description": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+      "headings": [
+        "Something doesn't feel right.",
+        "Looking to try Ramp?",
+        "Check out the demo below.",
+        "Looking for something else?"
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "Startups",
+        "Get started for free",
+        "Facebook"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://ramp.com/platform",
+      "title": "Finance Operations on One Intuitive Platform | Ramp",
+      "description": "Power your finance operations with one platform that has everything your finance team needs to save time and money. Ramp has all-in-one spend management, price intelligence, and advanced finance automation so you get the best pricing, prevent overspending, and focus on what matters.",
+      "headings": [
+        "Power your finance operations on one intuitive platform",
+        "Prevent your company from overspending",
+        "Stay in compliance",
+        "Control access to data",
+        "Keep your books accurate",
+        "Save time and focus on what matters",
+        "Create time-saving workflows in minutes",
+        "Control spend from the beginning",
+        "Works with all your tools, so you don’t have to",
+        "Stay connected as you grow",
+        "Speed up monthly close",
+        "Connect with your software",
+        "Everything you need to scale with ease",
+        "Make local payments abroad",
+        "Consolidate your global spend",
+        "Lean on us at any time",
+        "Time is money. Save both."
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "Get started for free",
+        "Startups",
+        "Facebook"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://ramp.com/solutions",
+      "title": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+      "description": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+      "headings": [
+        "Something doesn't feel right.",
+        "Looking to try Ramp?",
+        "Check out the demo below.",
+        "Looking for something else?"
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "Startups",
+        "Get started for free",
+        "Facebook"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://ramp.com/customers",
+      "title": "Ramp Customers are Happy Customers - Case Studies | Ramp",
+      "description": "Finance teams from early-stage startup to 1,000+ employees, from VC-backed tech to complex farming operations, join the thousands of finance leaders switching to Ramp - for free.",
+      "headings": [
+        "Customer Stories",
+        "Healthier businesses run on Ramp.",
+        "All stories",
+        "The 192-year-old bank that banks on Ramp to take the waste out of its own books",
+        "Prosper cuts travel costs 15% and gave finance a week back every month",
+        "Time is money. Save both."
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "Industrykeyboard_arrow_down",
+        "Get started for free",
+        "Startups",
+        "Facebook"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://ramp.com/docs",
+      "title": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+      "description": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+      "headings": [
+        "Something doesn't feel right.",
+        "Looking to try Ramp?",
+        "Check out the demo below.",
+        "Looking for something else?"
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "Startups",
+        "Get started for free",
+        "Facebook"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://ramp.com/help",
+      "title": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+      "description": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+      "headings": [
+        "Something doesn't feel right.",
+        "Looking to try Ramp?",
+        "Check out the demo below.",
+        "Looking for something else?"
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "Startups",
+        "Get started for free",
+        "Facebook"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://ramp.com/blog",
+      "title": "The Ramp Blog | Finance Blog for Modern Finance Teams",
+      "description": "Find Ramp articles, webinars, guides, and other resources to help finance teams and founders work smarter.",
+      "headings": [
+        "The Ramp Blog",
+        "AI spend moves fast. Know where your next AI dollar is going.",
+        "Welcoming my Co-Founder Karim as Co-CEO of Ramp",
+        "Introducing Ramp Applied AI Solutions",
+        "Ramp at $44 Billion: The Third Pillar",
+        "The question every accountant should ask: What's in your stack?",
+        "Buy at the speed of AI",
+        "The trillion-dollar blindspot you’re missing",
+        "Fix an invoice once and AP agent remembers forever",
+        "The world's most demanding companies run on Ramp",
+        "Ramp news",
+        "Business credit cards",
+        "Which high-limit business credit card is right for you? July 2026",
+        "How to get a business credit card with an EIN only",
+        "6 easiest business credit cards to get in 2026",
+        "Expense management",
+        "7 best expense management software in 2026",
+        "8 best corporate card expense management platforms",
+        "Best expense trackers for business in 2026",
+        "Alternatives"
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "searchSearch...",
+        "Explore categories",
+        "Article - 3 min readBuy at the speed of AISam PackardProduct Management",
+        "Subscribe",
+        "Explore cards",
+        "Startups",
+        "Get started for free",
+        "Facebook"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://ramp.com/about",
+      "title": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+      "description": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+      "headings": [
+        "Something doesn't feel right.",
+        "Looking to try Ramp?",
+        "Check out the demo below.",
+        "Looking for something else?"
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "Startups",
+        "Get started for free",
+        "Facebook"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://ramp.com/login",
+      "title": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+      "description": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+      "headings": [
+        "Something doesn't feel right.",
+        "Looking to try Ramp?",
+        "Check out the demo below.",
+        "Looking for something else?"
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "Startups",
+        "Get started for free",
+        "Facebook"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://ramp.com/signin",
+      "title": "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp",
+      "description": "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency.",
+      "headings": [
+        "Something doesn't feel right.",
+        "Looking to try Ramp?",
+        "Check out the demo below.",
+        "Looking for something else?"
+      ],
+      "navLabels": [
+        "Products",
+        "Partners",
+        "Solutions",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "arrow_back_iosBack"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "See a demo",
+        "Startups",
+        "Get started for free",
+        "Facebook"
+      ],
+      "landmarks": [
+        "nav:Main",
+        "header",
+        "main",
+        "footer"
+      ]
+    }
+  ],
+  "navLabels": [
+    "close",
+    "Learn more",
+    "Products",
+    "Partners",
+    "Solutions",
+    "Resources",
+    "Customers",
+    "Pricing",
+    "Sign in",
+    "See a demo",
+    "arrow_back_iosBack"
+  ],
+  "ctas": [
+    "Learn more",
+    "Pricing",
+    "Sign in",
+    "See a demo",
+    "Get started for free",
+    "View Demo",
+    "Explore Ramp Intelligence",
+    "Startups",
+    "Facebook",
+    "Continue",
+    "Sign up↗",
+    "The 192-year-old bank that banks on Ramp to take the waste out of its own books",
+    "Brandt grew finance operations 3x with zero added accounting headcount",
+    "Contact sales",
+    "Travel bookings",
+    "Guest bookings",
+    "Create bills using CSV uploads",
+    "Procurement (Add-on to Plus or Enterprise)",
+    "Issue limits and create spend programs in local currencies",
+    "Create custom reports using AI",
+    "Checking Account Addendum",
+    "Industrykeyboard_arrow_down",
+    "searchSearch...",
+    "Explore categories"
+  ],
+  "headings": [
+    "Time is money. Save both.",
+    "One platform for all of finance. Agents for every workflow, working 24/7.",
+    "Cards & Expenses that handle themselves",
+    "Procure to pay without chasing approvals",
+    "Accounting automation eliminates month-end madness",
+    "Banking that flows money to the highest return",
+    "200+ Integrations to the tools you already use",
+    "Systems that never spoke",
+    "Keep your finance team focused on strategy. Let agents handle the busywork.",
+    "AI that learns from your team. And gets smarter with every team that joins.",
+    "Scale the team.Shrink the paperwork.",
+    "Set user access on autopilot.",
+    "One platform for all your global spend.",
+    "We've got the receipts.",
+    "Welcome to Ramp",
+    "How Eight Sleep found millions hiding in their own spend",
+    "Zombie SaaS subscriptions and inefficient expense reporting",
+    "Automated accounting, unlimited cards, zero blindspots",
+    "$2.8 million saved and the books close themselves",
+    "Don't miss these",
+    "Start for free. Scale with Intelligence.",
+    "Compare Features",
+    "Free",
+    "Plus",
+    "Enterprise",
+    "Corporate Card",
+    "Travel",
+    "Expense Management",
+    "Accounts Payable",
+    "Procurement (Add-on to Plus or Enterprise)"
+  ],
+  "techSignals": [
+    "Next.js",
+    "Segment",
+    "Google Tag Manager",
+    "Shopify",
+    "Vite",
+    "Stripe"
+  ],
+  "featureCandidates": [
+    "Time is money. Save both.",
+    "Cards & Expenses that handle themselves",
+    "Procure to pay without chasing approvals",
+    "Banking that flows money to the highest return",
+    "200+ Integrations to the tools you already use",
+    "Systems that never spoke",
+    "Scale the team.Shrink the paperwork.",
+    "Set user access on autopilot.",
+    "One platform for all your global spend.",
+    "We've got the receipts.",
+    "Welcome to Ramp",
+    "Don't miss these",
+    "Start for free. Scale with Intelligence.",
+    "Compare Features",
+    "Free",
+    "Plus",
+    "Enterprise",
+    "Corporate Card",
+    "Travel",
+    "Expense Management",
+    "Accounts Payable",
+    "Procurement (Add-on to Plus or Enterprise)",
+    "Learn more",
+    "Pricing"
+  ],
+  "patternCandidates": [
+    "Pricing display",
+    "Card layout",
+    "Authentication",
+    "Tabs",
+    "Dashboard",
+    "Search"
+  ],
+  "platformsDetected": [
+    "web",
+    "api",
+    "ios",
+    "desktop"
+  ],
+  "summary": "Captured 42 screenshots across 16 public URLs. Nav signals: close, Learn more, Products, Partners, Solutions, Resources. Tech signals: Next.js, Segment, Google Tag Manager, Shopify, Vite, Stripe. UI patterns: Pricing display, Card layout, Authentication, Tabs, Dashboard, Search."
+}

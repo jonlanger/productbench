@@ -1,0 +1,950 @@
+{
+  "slug": "coda",
+  "capturedAt": "2026-07-27T14:32:40.951Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Coda public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://coda.io/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "Coda homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://coda.io/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Coda homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://coda.io/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "Coda homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://coda.io/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Coda homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://coda.io/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on Coda (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://coda.io/"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from Coda",
+      "kind": "product",
+      "sourceUrl": "https://coda.io/product/integrations"
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from Coda",
+      "kind": "product",
+      "sourceUrl": "https://coda.io/product/integrations"
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "In-product nav (3)",
+      "caption": "Same-origin product / pricing / docs links from Coda",
+      "kind": "product",
+      "sourceUrl": "https://coda.io/product/integrations"
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "In-product nav (4)",
+      "caption": "Same-origin product / pricing / docs links from Coda",
+      "kind": "product",
+      "sourceUrl": "https://coda.io/product/integrations"
+    },
+    {
+      "file": "nav-5.jpg",
+      "title": "In-product nav (5)",
+      "caption": "Same-origin product / pricing / docs links from Coda",
+      "kind": "product",
+      "sourceUrl": "https://coda.io/product/integrations"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard (1)",
+      "caption": "Coda public surface · coda.io",
+      "kind": "product",
+      "sourceUrl": "https://superhuman.com/docs/pricing"
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "Dashboard (2)",
+      "caption": "Coda public surface · coda.io",
+      "kind": "product",
+      "sourceUrl": "https://superhuman.com/docs/pricing"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings (1)",
+      "caption": "Coda public surface · coda.io",
+      "kind": "product",
+      "sourceUrl": "https://coda.io/product"
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "Settings (2)",
+      "caption": "Coda public surface · coda.io",
+      "kind": "product",
+      "sourceUrl": "https://coda.io/product"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://docs.superhuman.com/products"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Profile",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://docs.superhuman.com/features"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://docs.superhuman.com/platform"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6 (1)",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://coda.io/solutions"
+    },
+    {
+      "file": "surface-6-mid.jpg",
+      "title": "Supporting surface 6 (2)",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://coda.io/solutions"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://docs.superhuman.com/customers"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9 (1)",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://help.superhuman.com/hc/en-us"
+    },
+    {
+      "file": "surface-9-mid.jpg",
+      "title": "Supporting surface 9 (2)",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://help.superhuman.com/hc/en-us"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10 (1)",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://coda.io/blog"
+    },
+    {
+      "file": "surface-10-mid.jpg",
+      "title": "Supporting surface 10 (2)",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://coda.io/blog"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11 (1)",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://coda.io/about"
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "Supporting surface 11 (2)",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://coda.io/about"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://coda.io/signin"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://coda.io/signin"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14",
+      "caption": "Coda public surface · coda.io",
+      "kind": "docs",
+      "sourceUrl": "https://docs.superhuman.com/sign-in"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T14:32:40.951Z",
+    "screenshotCount": 30,
+    "pageCount": 14,
+    "pages": [
+      {
+        "url": "https://coda.io/",
+        "title": "Coda: Your all-in-one collaborative workspace.",
+        "description": "Coda is an all-in-one platform that blends the flexibility of docs, structure of spreadsheets, power of applications, and intelligence of AI.",
+        "headings": [
+          "Coda is now Superhuman Docs!",
+          "Your all-in-one collaborative workspace.",
+          "\"It’s more powerful than Google Docs and more flexible than Airtable or Notion.\"",
+          "4 ways 50,000+ teams use Coda to supercharge their work days.",
+          "Writeups",
+          "Hubs",
+          "Trackers",
+          "Applications",
+          "Want to see more?",
+          "Take the busywork out of your work with Coda AI.",
+          "Create workflows across your must-have tools.",
+          "And getting started is easy.",
+          "For product teams",
+          "Want to know more about running your product team on Coda?",
+          "For sales teams",
+          "Want to know more about running your sales team on Coda?",
+          "For engineering teams",
+          "Want to know more about running your engineering team on Coda?",
+          "For design teams",
+          "Want to know more about running your design team on Coda?"
+        ],
+        "navLabels": [
+          "Product",
+          "Explore",
+          "Docs & team hubs",
+          "Trackers & apps",
+          "See all →",
+          "AI & integrations",
+          "Coda AI",
+          "Integrate your tools",
+          "Consolidate your tools",
+          "More",
+          "What's newFEATURED",
+          "Packs",
+          "Publishing",
+          "Compare",
+          "vs Notion",
+          "vs Confluence",
+          "vs Quip",
+          "vs Airtable",
+          "Solutions",
+          "By role",
+          "Marketing",
+          "Sales",
+          "By scenario",
+          "Planning & OKRs"
+        ],
+        "ctas": [
+          "Startups",
+          "Get started with Superhuman Docs AI",
+          "Pricing",
+          "Request a demo",
+          "Get started",
+          "Get started for free",
+          "Contact sales",
+          "Explore Zoom’s decision doc",
+          "Explore Coda's team hub",
+          "Explore Figma’s product roadmap",
+          "Explore Google's LaunchCal",
+          "Explore the Gallery",
+          "Start using this template"
+        ],
+        "landmarks": [
+          "header",
+          "main",
+          "footer",
+          "nav"
+        ]
+      },
+      {
+        "url": "https://coda.io/product/integrations",
+        "title": "Coda integrations, connect Coda to the tools you use - Coda",
+        "description": "Bring your disparate tools into a unified workspace in Coda. Integrate the tools you use with Coda to make them more powerful—and your workday more efficient.",
+        "headings": [
+          "Coda is now Superhuman Docs!",
+          "Unify your workflows.",
+          "Coda is now Superhuman Docs",
+          "Turn data into action.",
+          "Coda + Snowflake",
+          "Leave no great ideas behind.",
+          "Coda + Figma",
+          "Level up your task tracking.",
+          "Coda + Jira",
+          "Transform your team collaboration.",
+          "Coda + Slack",
+          "Make the most of your sales data.",
+          "Coda + Salesforce",
+          "Turn ideation into execution.",
+          "Coda + Miro",
+          "Keep the conversation going.",
+          "Coda + Zoom",
+          "Optimize your workflows.",
+          "Coda + Google",
+          "Reduce friction in your dev process."
+        ],
+        "navLabels": [
+          "Product",
+          "Explore",
+          "Docs & team hubs",
+          "Trackers & apps",
+          "See all →",
+          "AI & integrations",
+          "Coda AI",
+          "Integrate your tools",
+          "Consolidate your tools",
+          "More",
+          "What's newFEATURED",
+          "Packs",
+          "Publishing",
+          "Compare",
+          "vs Notion",
+          "vs Confluence",
+          "vs Quip",
+          "vs Airtable",
+          "Solutions",
+          "By role",
+          "Marketing",
+          "Sales",
+          "By scenario",
+          "Planning & OKRs"
+        ],
+        "ctas": [
+          "Startups",
+          "Get started with Superhuman Docs AI",
+          "Pricing",
+          "Request a demo",
+          "Get started",
+          "Explore all integrations",
+          "Learn more",
+          "Get started with a templateAutomate reports using Snowflake data.",
+          "Get started with a templateTurn Jira Epics into an editable roadmap.",
+          "Add Coda Bot to SlackAutomate Coda notifications in Slack.",
+          "Get started with a templateVisualize your team’s progress."
+        ],
+        "landmarks": [
+          "header",
+          "main",
+          "footer",
+          "nav"
+        ]
+      },
+      {
+        "url": "https://superhuman.com/docs/pricing",
+        "title": "Superhuman Docs | Pricing & Plans",
+        "description": "Explore plans for Superhuman Docs, where docs, collaboration, and proactive AI come together. Free to start, with flexible pricing for teams and Enterprise.",
+        "headings": [
+          "Every great team needs a plan",
+          "Free",
+          "Pro",
+          "Business",
+          "Enterprise",
+          "Your go-to AI assistant",
+          "Plans and features",
+          "Docs",
+          "Across the suite",
+          "FAQs",
+          "What is a Workspace?+",
+          "What is a 'Doc Maker'?+",
+          "Who do I pay for and why?+",
+          "What is Docs AI?+",
+          "Is Docs AI included in all plans?+",
+          "Can I use Superhuman Docs via an MCP server?+",
+          "Can I give access to people outside?+",
+          "What happens when I publish my doc?+",
+          "When will I get billed for my workspace?+",
+          "Do I get a refund if I remove members from my workspace or cancel my plan?+"
+        ],
+        "navLabels": [
+          "Products",
+          "Solutions",
+          "AI",
+          "Resources",
+          "Pricing",
+          "Love",
+          "Sign In",
+          "GoAI that works in every app.",
+          "MailThe most productive inbox ever.",
+          "DocsThe all-in-one AI workspace.",
+          "Superhuman Go",
+          "Mail",
+          "Calendar",
+          "Docs",
+          "Databases",
+          "Enterprises",
+          "Education",
+          "Marketing teams",
+          "IT teams",
+          "Project management",
+          "Knowledge management",
+          "Collaborative documents",
+          "Grammarly",
+          "Agent Store"
+        ],
+        "ctas": [
+          "Pricing",
+          "Sign In",
+          "Contact Sales",
+          "Explore the bundle",
+          "How does Enterprise pricing work?+",
+          "Contact our Sales team",
+          "Get started",
+          "Contact Us",
+          "Facebook"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "nav:Mobile",
+          "footer",
+          "main",
+          "nav:Footer"
+        ]
+      },
+      {
+        "url": "https://coda.io/product",
+        "title": "What is Coda? The all-in-one platform for teams. - Coda",
+        "description": "Coda is the collaborative all-in-one platform that blends the best of docs, spreadsheets, and applications. Learn why 40,000+ teams run on Coda.",
+        "headings": [
+          "Coda is now Superhuman Docs!",
+          "Meet Coda.",
+          "What's Coda?",
+          "Why Coda?",
+          "AI & integrations",
+          "Platform",
+          "Do Not Sell or Share My Personal Data",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Product",
+          "Explore",
+          "Docs & team hubs",
+          "Trackers & apps",
+          "See all →",
+          "AI & integrations",
+          "Coda AI",
+          "Integrate your tools",
+          "Consolidate your tools",
+          "More",
+          "What's newFEATURED",
+          "Packs",
+          "Publishing",
+          "Compare",
+          "vs Notion",
+          "vs Confluence",
+          "vs Quip",
+          "vs Airtable",
+          "Solutions",
+          "By role",
+          "Marketing",
+          "Sales",
+          "By scenario",
+          "Planning & OKRs"
+        ],
+        "ctas": [
+          "Startups",
+          "Get started with Superhuman Docs AI",
+          "Pricing",
+          "Request a demo",
+          "Get started",
+          "Contact support",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "main",
+          "footer",
+          "nav"
+        ]
+      },
+      {
+        "url": "https://docs.superhuman.com/products",
+        "title": "Superhuman Docs | Page not found",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Contact help"
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://docs.superhuman.com/features",
+        "title": "Superhuman Docs | Page not found",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Contact help"
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://docs.superhuman.com/platform",
+        "title": "Superhuman Docs | Page not found",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Contact help"
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://coda.io/solutions",
+        "title": "Coda solutions for every team - Coda",
+        "description": "Over 40,000 teams use Coda to consolidate documents, spreadsheets, and apps into one platform. Explore Coda's solutions for every team and every scenario.",
+        "headings": [
+          "Coda is now Superhuman Docs!",
+          "Solutions for every team",
+          "Coda for product teams",
+          "Coda handbooks for every team",
+          "Solutions for every scenario",
+          "Coda for planning and OKRs",
+          "Solutions for every team size",
+          "Enterprise",
+          "Do Not Sell or Share My Personal Data",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Product",
+          "Explore",
+          "Docs & team hubs",
+          "Trackers & apps",
+          "See all →",
+          "AI & integrations",
+          "Coda AI",
+          "Integrate your tools",
+          "Consolidate your tools",
+          "More",
+          "What's newFEATURED",
+          "Packs",
+          "Publishing",
+          "Compare",
+          "vs Notion",
+          "vs Confluence",
+          "vs Quip",
+          "vs Airtable",
+          "Solutions",
+          "By role",
+          "Marketing",
+          "Sales",
+          "By scenario",
+          "Planning & OKRs"
+        ],
+        "ctas": [
+          "Startups",
+          "Get started with Superhuman Docs AI",
+          "Pricing",
+          "Request a demo",
+          "Get started",
+          "Learn more",
+          "Read the handbook",
+          "Measure what mattersAn OKRs starter kit from John Doerr.",
+          "Maker BillingExplore our unique billing model.",
+          "Contact support",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "main",
+          "footer",
+          "nav"
+        ]
+      },
+      {
+        "url": "https://docs.superhuman.com/customers",
+        "title": "Superhuman Docs | Page not found",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Contact help"
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://help.superhuman.com/hc/en-us",
+        "title": "Superhuman Help Center",
+        "headings": [
+          "How can we help?",
+          "Accounts & Billing",
+          "Products"
+        ],
+        "navLabels": [
+          "Plans",
+          "Sign in"
+        ],
+        "ctas": [
+          "Learn more here.",
+          "Sign in",
+          "Getting started with Mail",
+          "Getting started with Go",
+          "Getting started with Docs",
+          "Superhuman plans & pricing",
+          "Contact us"
+        ],
+        "landmarks": [
+          "banner",
+          "header",
+          "main",
+          "search",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://coda.io/blog",
+        "title": "The Coda Blog: Stories, insights, and the future of work",
+        "description": "We have stories to tell you—about the features we build, our makers, our company, and our vision on the future of work. Explore stories, insights, and more.",
+        "headings": [
+          "Coda is now Superhuman Docs!",
+          "The Blog",
+          "5 reasons I used Coda to create a stronger style guide for Grammarly",
+          "Grammarly is acquiring Coda to define a new era of AI-native productivity",
+          "How to build with advanced features in Coda",
+          "How to move beyond the basics in Coda",
+          "3 proven strategies for collaborating better with your teammates",
+          "Who wins: Coda tables vs. Confluence databases",
+          "4 essential roles for onboarding a new tool",
+          "How companies use objectives and key results for strategic planning",
+          "Decision-making was broken, then we did this",
+          "A deep dive into editors and Doc Makers in Coda",
+          "4 ways AI frees me from product management busywork",
+          "7 Principles of Great Product Teams",
+          "There’s more to life than copy/paste",
+          "Supercharge your Coda rituals with Relay’s automations",
+          "How AEs can reimagine workflows with AI",
+          "Read more.",
+          "Do Not Sell or Share My Personal Data",
+          "Manage Consent Preferences"
+        ],
+        "navLabels": [
+          "Product",
+          "Explore",
+          "Docs & team hubs",
+          "Trackers & apps",
+          "See all →",
+          "AI & integrations",
+          "Coda AI",
+          "Integrate your tools",
+          "Consolidate your tools",
+          "More",
+          "What's newFEATURED",
+          "Packs",
+          "Publishing",
+          "Compare",
+          "vs Notion",
+          "vs Confluence",
+          "vs Quip",
+          "vs Airtable",
+          "Solutions",
+          "By role",
+          "Marketing",
+          "Sales",
+          "By scenario",
+          "Planning & OKRs"
+        ],
+        "ctas": [
+          "Startups",
+          "Get started with Superhuman Docs AI",
+          "Pricing",
+          "Request a demo",
+          "Get started",
+          "5 reasons I used Coda to create a stronger style guide for Grammarly",
+          "Buy or build your next tool? A quick guide.",
+          "10 tips to maximize Coda’s search and sharing features",
+          "How product managers can get buy-in for roadmaps",
+          "How to plan an effective user research study",
+          "A PM’s guide to user research design principles",
+          "Coda acquires Plato to jointly spread engineering excellence",
+          "Coda + Snowflake: Democratizing data for everyone",
+          "5 tips for getting your startup started in Coda",
+          "How we’re thinking about pricing for enterprise AI",
+          "AI at Work Challenge: Explore the winning templates",
+          "Principle 1: Create cathedrals, not bricks",
+          "Principle 2: Create systems, not goals",
+          "Explore the archive",
+          "Contact support"
+        ],
+        "landmarks": [
+          "header",
+          "main",
+          "footer",
+          "nav"
+        ]
+      },
+      {
+        "url": "https://coda.io/about",
+        "title": "About us - Coda",
+        "description": "We believe tools should fit teams, not the other way around. That's why we built Coda, a work operating system that works for you.",
+        "headings": [
+          "Coda is now Superhuman Docs!",
+          "The most exciting stories are the ones that continue to evolve.",
+          "It started with a big idea.",
+          "Our mission.",
+          "Docs were just the beginning.",
+          "Everyone is a maker.",
+          "Coda by the numbers.",
+          "Backed by the world's leading investors.",
+          "Discover how teams use Coda to maximize productivity and elevate their workflow.",
+          "Timeline ipsum",
+          "Coda in the news.",
+          "Do Not Sell or Share My Personal Data",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Product",
+          "Explore",
+          "Docs & team hubs",
+          "Trackers & apps",
+          "See all →",
+          "AI & integrations",
+          "Coda AI",
+          "Integrate your tools",
+          "Consolidate your tools",
+          "More",
+          "What's newFEATURED",
+          "Packs",
+          "Publishing",
+          "Compare",
+          "vs Notion",
+          "vs Confluence",
+          "vs Quip",
+          "vs Airtable",
+          "Solutions",
+          "By role",
+          "Marketing",
+          "Sales",
+          "By scenario",
+          "Planning & OKRs"
+        ],
+        "ctas": [
+          "Startups",
+          "Get started with Superhuman Docs AI",
+          "Pricing",
+          "Request a demo",
+          "Get started",
+          "Get started for free",
+          "Learn more about Coda",
+          "Join us",
+          "Explore our case studies",
+          "Contact support",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "main",
+          "footer",
+          "nav"
+        ]
+      },
+      {
+        "url": "https://coda.io/signin",
+        "title": "Coda | Welcome back",
+        "description": "Welcome back to Coda. Sign in via Google, Microsoft, Apple, SSO, or enter your email address for a password-free login.",
+        "headings": [
+          "Welcome back",
+          "Do Not Sell or Share My Personal Data",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Learn more",
+          "Continue",
+          "sign in with a password.",
+          "Sign up",
+          "Filter Icon"
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://docs.superhuman.com/sign-in",
+        "title": "Superhuman Docs | Page not found",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Contact help"
+        ],
+        "landmarks": []
+      }
+    ],
+    "navLabels": [
+      "Product",
+      "Explore",
+      "Docs & team hubs",
+      "Trackers & apps",
+      "See all →",
+      "AI & integrations",
+      "Coda AI",
+      "Integrate your tools",
+      "Consolidate your tools",
+      "More",
+      "What's newFEATURED",
+      "Packs",
+      "Publishing",
+      "Compare",
+      "vs Notion",
+      "vs Confluence",
+      "vs Quip",
+      "vs Airtable",
+      "Solutions",
+      "By role",
+      "Marketing",
+      "Sales",
+      "By scenario",
+      "Planning & OKRs",
+      "Products",
+      "AI",
+      "Resources",
+      "Pricing",
+      "Love",
+      "Sign In"
+    ],
+    "ctas": [
+      "Startups",
+      "Get started with Superhuman Docs AI",
+      "Pricing",
+      "Request a demo",
+      "Get started",
+      "Get started for free",
+      "Contact sales",
+      "Explore Zoom’s decision doc",
+      "Explore Coda's team hub",
+      "Explore Figma’s product roadmap",
+      "Explore Google's LaunchCal",
+      "Explore the Gallery",
+      "Start using this template",
+      "Explore all integrations",
+      "Learn more",
+      "Get started with a templateAutomate reports using Snowflake data.",
+      "Get started with a templateTurn Jira Epics into an editable roadmap.",
+      "Add Coda Bot to SlackAutomate Coda notifications in Slack.",
+      "Get started with a templateVisualize your team’s progress.",
+      "Sign In",
+      "Explore the bundle",
+      "How does Enterprise pricing work?+",
+      "Contact our Sales team",
+      "Contact Us"
+    ],
+    "headings": [
+      "Coda is now Superhuman Docs!",
+      "Your all-in-one collaborative workspace.",
+      "\"It’s more powerful than Google Docs and more flexible than Airtable or Notion.\"",
+      "4 ways 50,000+ teams use Coda to supercharge their work days.",
+      "Writeups",
+      "Hubs",
+      "Trackers",
+      "Applications",
+      "Want to see more?",
+      "Take the busywork out of your work with Coda AI.",
+      "Create workflows across your must-have tools.",
+      "And getting started is easy.",
+      "For product teams",
+      "Want to know more about running your product team on Coda?",
+      "For sales teams",
+      "Want to know more about running your sales team on Coda?",
+      "For engineering teams",
+      "Want to know more about running your engineering team on Coda?",
+      "For design teams",
+      "Want to know more about running your design team on Coda?",
+      "Unify your workflows.",
+      "Coda is now Superhuman Docs",
+      "Turn data into action.",
+      "Coda + Snowflake",
+      "Leave no great ideas behind.",
+      "Coda + Figma",
+      "Level up your task tracking.",
+      "Coda + Jira",
+      "Transform your team collaboration.",
+      "Coda + Slack"
+    ],
+    "techSignals": [
+      "Segment",
+      "Google Tag Manager",
+      "Vite",
+      "Next.js",
+      "Webpack",
+      "Intercom"
+    ],
+    "featureCandidates": [
+      "Coda is now Superhuman Docs!",
+      "Your all-in-one collaborative workspace.",
+      "Writeups",
+      "Hubs",
+      "Trackers",
+      "Applications",
+      "Want to see more?",
+      "Create workflows across your must-have tools.",
+      "And getting started is easy.",
+      "For product teams",
+      "For sales teams",
+      "For engineering teams",
+      "For design teams",
+      "Unify your workflows.",
+      "Coda is now Superhuman Docs",
+      "Turn data into action.",
+      "Coda + Snowflake",
+      "Leave no great ideas behind.",
+      "Coda + Figma",
+      "Level up your task tracking.",
+      "Coda + Jira",
+      "Transform your team collaboration.",
+      "Coda + Slack",
+      "Startups"
+    ],
+    "patternCandidates": [
+      "Modal dialogs",
+      "Pricing display",
+      "Map view",
+      "Tabs",
+      "Calendar",
+      "Dashboard",
+      "Messaging",
+      "Menus",
+      "Authentication"
+    ],
+    "platformsDetected": [
+      "web",
+      "ios",
+      "android",
+      "api",
+      "desktop"
+    ],
+    "summary": "Captured 30 screenshots across 14 public URLs. Nav signals: Product, Explore, Docs & team hubs, Trackers & apps, See all →, AI & integrations. Tech signals: Segment, Google Tag Manager, Vite, Next.js, Webpack, Intercom. UI patterns: Modal dialogs, Pricing display, Map view, Tabs, Calendar, Dashboard."
+  }
+}

@@ -1,0 +1,711 @@
+{
+  "slug": "onshape",
+  "capturedAt": "2026-07-27T14:54:41.902Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Onshape public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "Onshape homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Onshape homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "Onshape homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Onshape homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "search-composer.jpg",
+      "title": "Search / composer",
+      "caption": "Focused search or primary input on Onshape",
+      "kind": "component",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "account-menu.jpg",
+      "title": "Account / nav menu",
+      "caption": "Expanded account or primary navigation menu on Onshape",
+      "kind": "component",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on Onshape (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from Onshape",
+      "kind": "product",
+      "sourceUrl": "https://www.onshape.com/en/features/drawings"
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from Onshape",
+      "kind": "product",
+      "sourceUrl": "https://www.onshape.com/en/features/drawings"
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "In-product nav (3)",
+      "caption": "Same-origin product / pricing / docs links from Onshape",
+      "kind": "product",
+      "sourceUrl": "https://www.onshape.com/en/features/drawings"
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "In-product nav (4)",
+      "caption": "Same-origin product / pricing / docs links from Onshape",
+      "kind": "product",
+      "sourceUrl": "https://www.onshape.com/en/features/drawings"
+    },
+    {
+      "file": "nav-5.jpg",
+      "title": "In-product nav (5)",
+      "caption": "Same-origin product / pricing / docs links from Onshape",
+      "kind": "product",
+      "sourceUrl": "https://www.onshape.com/en/features/drawings"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "product",
+      "sourceUrl": "https://www.onshape.com/en/pricing"
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "Dashboard (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "product",
+      "sourceUrl": "https://www.onshape.com/en/pricing"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "product",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "Settings (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "product",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-3-mid.jpg",
+      "title": "Search (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Profile (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-4-mid.jpg",
+      "title": "Profile (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5 (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/platform"
+    },
+    {
+      "file": "surface-5-mid.jpg",
+      "title": "Supporting surface 5 (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/platform"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6 (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-6-mid.jpg",
+      "title": "Supporting surface 6 (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7 (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-7-mid.jpg",
+      "title": "Supporting surface 7 (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8 (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-8-mid.jpg",
+      "title": "Supporting surface 8 (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9 (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-9-mid.jpg",
+      "title": "Supporting surface 9 (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10 (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-10-mid.jpg",
+      "title": "Supporting surface 10 (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11 (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "Supporting surface 11 (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12 (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-12-mid.jpg",
+      "title": "Supporting surface 12 (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13 (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-13-mid.jpg",
+      "title": "Supporting surface 13 (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14 (1)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    },
+    {
+      "file": "surface-14-mid.jpg",
+      "title": "Supporting surface 14 (2)",
+      "caption": "Onshape public surface · onshape.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.onshape.com/en/"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T14:54:41.902Z",
+    "screenshotCount": 41,
+    "pageCount": 4,
+    "pages": [
+      {
+        "url": "https://www.onshape.com/en/",
+        "title": "Onshape | Product Development Platform",
+        "description": "Onshape is a product development platform that brings together all the tools needed to develop a product from conception to production.",
+        "headings": [
+          "PRODUCT OVERVIEW",
+          "Parts",
+          "assemblies",
+          "drawings",
+          "sheet metal",
+          "frames",
+          "configurations",
+          "surfacing",
+          "DATA MANAGEMENT",
+          "BRANCHING & MERGING",
+          "RELEASE MANAGEMENT",
+          "BILL OF MATERIALS",
+          "ARENA PLM CONNECTION",
+          "Windchill PLM Connection (Beta)",
+          "COLLABORATION",
+          "INTEGRATIONS",
+          "Onshape Government",
+          "SECURITY",
+          "SUPPORT",
+          "ANALYTICS"
+        ],
+        "navLabels": [
+          "Why Onshape",
+          "Product",
+          "learn more",
+          "3D CAD",
+          "Parts",
+          "assemblies",
+          "drawings",
+          "sheet metal",
+          "frames",
+          "configurations",
+          "surfacing",
+          "Product Data Management (PDM)",
+          "DATA MANAGEMENT",
+          "BRANCHING & MERGING",
+          "RELEASE MANAGEMENT",
+          "BILL OF MATERIALS",
+          "ARENA PLM CONNECTION",
+          "Windchill PLM Connection (Beta)",
+          "Real Time Communication",
+          "COLLABORATION",
+          "INTEGRATIONS",
+          "Onshape Government",
+          "SECURITY",
+          "SUPPORT"
+        ],
+        "ctas": [
+          "Create a Student Account",
+          "Sign in",
+          "learn more",
+          "Pricing",
+          "Resource CenterView all content and filter by industry and technology needs.",
+          "Startups",
+          "Sign up now",
+          "How can I try Onshape?",
+          "Sign Up Free",
+          "CONTACT SALES",
+          "EXPLORE ONSHAPE"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer",
+          "dialog:Onshape Hype video 2025_4 FS",
+          "dialog:Privacy"
+        ]
+      },
+      {
+        "url": "https://www.onshape.com/en/features/drawings",
+        "title": "Online CAD Drawing Software",
+        "description": "Create fully detailed CAD drawings of complex parts & assemblies, all online, with Onshape software. Access free resources and more here.",
+        "headings": [
+          "PRODUCT OVERVIEW",
+          "Parts",
+          "assemblies",
+          "drawings",
+          "sheet metal",
+          "frames",
+          "configurations",
+          "surfacing",
+          "DATA MANAGEMENT",
+          "BRANCHING & MERGING",
+          "RELEASE MANAGEMENT",
+          "BILL OF MATERIALS",
+          "ARENA PLM CONNECTION",
+          "Windchill PLM Connection (Beta)",
+          "COLLABORATION",
+          "INTEGRATIONS",
+          "Onshape Government",
+          "SECURITY",
+          "SUPPORT",
+          "ANALYTICS"
+        ],
+        "navLabels": [
+          "Why Onshape",
+          "Product",
+          "learn more",
+          "3D CAD",
+          "Parts",
+          "assemblies",
+          "drawings",
+          "sheet metal",
+          "frames",
+          "configurations",
+          "surfacing",
+          "Product Data Management (PDM)",
+          "DATA MANAGEMENT",
+          "BRANCHING & MERGING",
+          "RELEASE MANAGEMENT",
+          "BILL OF MATERIALS",
+          "ARENA PLM CONNECTION",
+          "Windchill PLM Connection (Beta)",
+          "Real Time Communication",
+          "COLLABORATION",
+          "INTEGRATIONS",
+          "Onshape Government",
+          "SECURITY",
+          "SUPPORT"
+        ],
+        "ctas": [
+          "Create a Student Account",
+          "Sign in",
+          "learn more",
+          "Pricing",
+          "Resource CenterView all content and filter by industry and technology needs.",
+          "Startups",
+          "Sign up now",
+          "How can I try Onshape?",
+          "get started now",
+          "Plans & Pricing",
+          "Industry Focus",
+          "Contact Us",
+          "Contact Sales",
+          "Sign Up"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.onshape.com/en/pricing",
+        "title": "Onshape Plans and Pricing",
+        "description": "See pricing for Onshape, the only product design platform that combines 3D CAD, PDM, collaboration and analytics tools in the cloud.",
+        "headings": [
+          "PRODUCT OVERVIEW",
+          "Parts",
+          "assemblies",
+          "drawings",
+          "sheet metal",
+          "frames",
+          "configurations",
+          "surfacing",
+          "DATA MANAGEMENT",
+          "BRANCHING & MERGING",
+          "RELEASE MANAGEMENT",
+          "BILL OF MATERIALS",
+          "ARENA PLM CONNECTION",
+          "Windchill PLM Connection (Beta)",
+          "COLLABORATION",
+          "INTEGRATIONS",
+          "Onshape Government",
+          "SECURITY",
+          "SUPPORT",
+          "ANALYTICS"
+        ],
+        "navLabels": [
+          "Why Onshape",
+          "Product",
+          "learn more",
+          "3D CAD",
+          "Parts",
+          "assemblies",
+          "drawings",
+          "sheet metal",
+          "frames",
+          "configurations",
+          "surfacing",
+          "Product Data Management (PDM)",
+          "DATA MANAGEMENT",
+          "BRANCHING & MERGING",
+          "RELEASE MANAGEMENT",
+          "BILL OF MATERIALS",
+          "ARENA PLM CONNECTION",
+          "Windchill PLM Connection (Beta)",
+          "Real Time Communication",
+          "COLLABORATION",
+          "INTEGRATIONS",
+          "Onshape Government",
+          "SECURITY",
+          "SUPPORT"
+        ],
+        "ctas": [
+          "Create a Student Account",
+          "Sign in",
+          "learn more",
+          "Pricing",
+          "Resource CenterView all content and filter by industry and technology needs.",
+          "Startups",
+          "Sign up now",
+          "How can I try Onshape?",
+          "Contact the Sales Team",
+          "sign up free",
+          "Try for free",
+          "contact sales",
+          "Startup Program",
+          "Search and Where Used"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.onshape.com/en/platform",
+        "title": "Cloud-Native CAD & PDM",
+        "description": "Be agile, improve collaboration and accelerate your design with modern solutions.",
+        "headings": [
+          "PRODUCT OVERVIEW",
+          "Parts",
+          "assemblies",
+          "drawings",
+          "sheet metal",
+          "frames",
+          "configurations",
+          "surfacing",
+          "DATA MANAGEMENT",
+          "BRANCHING & MERGING",
+          "RELEASE MANAGEMENT",
+          "BILL OF MATERIALS",
+          "ARENA PLM CONNECTION",
+          "Windchill PLM Connection (Beta)",
+          "COLLABORATION",
+          "INTEGRATIONS",
+          "Onshape Government",
+          "SECURITY",
+          "SUPPORT",
+          "ANALYTICS"
+        ],
+        "navLabels": [
+          "Why Onshape",
+          "Product",
+          "learn more",
+          "3D CAD",
+          "Parts",
+          "assemblies",
+          "drawings",
+          "sheet metal",
+          "frames",
+          "configurations",
+          "surfacing",
+          "Product Data Management (PDM)",
+          "DATA MANAGEMENT",
+          "BRANCHING & MERGING",
+          "RELEASE MANAGEMENT",
+          "BILL OF MATERIALS",
+          "ARENA PLM CONNECTION",
+          "Windchill PLM Connection (Beta)",
+          "Real Time Communication",
+          "COLLABORATION",
+          "INTEGRATIONS",
+          "Onshape Government",
+          "SECURITY",
+          "SUPPORT"
+        ],
+        "ctas": [
+          "Create a Student Account",
+          "Sign in",
+          "learn more",
+          "Pricing",
+          "Resource CenterView all content and filter by industry and technology needs.",
+          "Startups",
+          "Sign up now",
+          "How can I try Onshape?",
+          "Get Started In Onshape"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Why Onshape",
+      "Product",
+      "learn more",
+      "3D CAD",
+      "Parts",
+      "assemblies",
+      "drawings",
+      "sheet metal",
+      "frames",
+      "configurations",
+      "surfacing",
+      "Product Data Management (PDM)",
+      "DATA MANAGEMENT",
+      "BRANCHING & MERGING",
+      "RELEASE MANAGEMENT",
+      "BILL OF MATERIALS",
+      "ARENA PLM CONNECTION",
+      "Windchill PLM Connection (Beta)",
+      "Real Time Communication",
+      "COLLABORATION",
+      "INTEGRATIONS",
+      "Onshape Government",
+      "SECURITY",
+      "SUPPORT"
+    ],
+    "ctas": [
+      "Create a Student Account",
+      "Sign in",
+      "learn more",
+      "Pricing",
+      "Resource CenterView all content and filter by industry and technology needs.",
+      "Startups",
+      "Sign up now",
+      "How can I try Onshape?",
+      "Sign Up Free",
+      "CONTACT SALES",
+      "EXPLORE ONSHAPE",
+      "get started now",
+      "Plans & Pricing",
+      "Industry Focus",
+      "Contact Us",
+      "Sign Up",
+      "Contact the Sales Team",
+      "Try for free",
+      "Startup Program",
+      "Search and Where Used",
+      "Get Started In Onshape"
+    ],
+    "headings": [
+      "PRODUCT OVERVIEW",
+      "Parts",
+      "assemblies",
+      "drawings",
+      "sheet metal",
+      "frames",
+      "configurations",
+      "surfacing",
+      "DATA MANAGEMENT",
+      "BRANCHING & MERGING",
+      "RELEASE MANAGEMENT",
+      "BILL OF MATERIALS",
+      "ARENA PLM CONNECTION",
+      "Windchill PLM Connection (Beta)",
+      "COLLABORATION",
+      "INTEGRATIONS",
+      "Onshape Government",
+      "SECURITY",
+      "SUPPORT",
+      "ANALYTICS"
+    ],
+    "techSignals": [
+      "Google Tag Manager",
+      "Sentry"
+    ],
+    "featureCandidates": [
+      "PRODUCT OVERVIEW",
+      "Parts",
+      "assemblies",
+      "drawings",
+      "sheet metal",
+      "frames",
+      "configurations",
+      "surfacing",
+      "DATA MANAGEMENT",
+      "BRANCHING & MERGING",
+      "RELEASE MANAGEMENT",
+      "BILL OF MATERIALS",
+      "ARENA PLM CONNECTION",
+      "Windchill PLM Connection (Beta)",
+      "COLLABORATION",
+      "INTEGRATIONS",
+      "Onshape Government",
+      "SECURITY",
+      "SUPPORT",
+      "ANALYTICS",
+      "Create a Student Account",
+      "learn more",
+      "Pricing",
+      "Resource CenterView all content and filter by industry and technology needs."
+    ],
+    "patternCandidates": [
+      "Search",
+      "Pricing display",
+      "Tabs",
+      "Card layout",
+      "Authentication",
+      "Dashboard"
+    ],
+    "platformsDetected": [
+      "web",
+      "ios",
+      "android",
+      "desktop",
+      "api"
+    ],
+    "summary": "Captured 41 screenshots across 4 public URLs. Nav signals: Why Onshape, Product, learn more, 3D CAD, Parts, assemblies. Tech signals: Google Tag Manager, Sentry. UI patterns: Search, Pricing display, Tabs, Card layout, Authentication, Dashboard."
+  }
+}

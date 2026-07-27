@@ -1,0 +1,1197 @@
+{
+  "slug": "close",
+  "capturedAt": "2026-07-27T14:57:53.698Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Close public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://close.com/"
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "Close homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://close.com/"
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Close homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://close.com/"
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "Close homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://close.com/"
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Close homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://close.com/"
+    },
+    {
+      "file": "card-1.jpg",
+      "title": "UI cards (1)",
+      "caption": "Card / tile crops from Close",
+      "kind": "component",
+      "sourceUrl": "https://close.com/"
+    },
+    {
+      "file": "card-2.jpg",
+      "title": "UI cards (2)",
+      "caption": "Card / tile crops from Close",
+      "kind": "component",
+      "sourceUrl": "https://close.com/"
+    },
+    {
+      "file": "card-3.jpg",
+      "title": "UI cards (3)",
+      "caption": "Card / tile crops from Close",
+      "kind": "component",
+      "sourceUrl": "https://close.com/"
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on Close (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://app.close.com/login/"
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from Close",
+      "kind": "product",
+      "sourceUrl": "https://close.com/demo"
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from Close",
+      "kind": "product",
+      "sourceUrl": "https://close.com/demo"
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "In-product nav (3)",
+      "caption": "Same-origin product / pricing / docs links from Close",
+      "kind": "product",
+      "sourceUrl": "https://close.com/demo"
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "In-product nav (4)",
+      "caption": "Same-origin product / pricing / docs links from Close",
+      "kind": "product",
+      "sourceUrl": "https://close.com/demo"
+    },
+    {
+      "file": "nav-5.jpg",
+      "title": "In-product nav (5)",
+      "caption": "Same-origin product / pricing / docs links from Close",
+      "kind": "product",
+      "sourceUrl": "https://close.com/demo"
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard (1)",
+      "caption": "Close public surface · close.com",
+      "kind": "product",
+      "sourceUrl": "https://close.com/pricing"
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "Dashboard (2)",
+      "caption": "Close public surface · close.com",
+      "kind": "product",
+      "sourceUrl": "https://close.com/pricing"
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings (1)",
+      "caption": "Close public surface · close.com",
+      "kind": "product",
+      "sourceUrl": "https://close.com/"
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "Settings (2)",
+      "caption": "Close public surface · close.com",
+      "kind": "product",
+      "sourceUrl": "https://close.com/"
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search (1)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/products"
+    },
+    {
+      "file": "surface-3-mid.jpg",
+      "title": "Search (2)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/products"
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "Profile (1)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/"
+    },
+    {
+      "file": "surface-4-mid.jpg",
+      "title": "Profile (2)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/"
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5 (1)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/platform"
+    },
+    {
+      "file": "surface-5-mid.jpg",
+      "title": "Supporting surface 5 (2)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/platform"
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6 (1)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/solutions"
+    },
+    {
+      "file": "surface-6-mid.jpg",
+      "title": "Supporting surface 6 (2)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/solutions"
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "Supporting surface 7 (1)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/customers"
+    },
+    {
+      "file": "surface-7-mid.jpg",
+      "title": "Supporting surface 7 (2)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/customers"
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "Supporting surface 8 (1)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/docs"
+    },
+    {
+      "file": "surface-8-mid.jpg",
+      "title": "Supporting surface 8 (2)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/docs"
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "Supporting surface 9 (1)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/help"
+    },
+    {
+      "file": "surface-9-mid.jpg",
+      "title": "Supporting surface 9 (2)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/help"
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "Supporting surface 10 (1)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/blog"
+    },
+    {
+      "file": "surface-10-mid.jpg",
+      "title": "Supporting surface 10 (2)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/blog"
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "Supporting surface 11 (1)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/about"
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "Supporting surface 11 (2)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/about"
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13 (1)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/signin"
+    },
+    {
+      "file": "surface-13-mid.jpg",
+      "title": "Supporting surface 13 (2)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/signin"
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "Supporting surface 14 (1)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/sign-in"
+    },
+    {
+      "file": "surface-14-mid.jpg",
+      "title": "Supporting surface 14 (2)",
+      "caption": "Close public surface · close.com",
+      "kind": "docs",
+      "sourceUrl": "https://close.com/sign-in"
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T14:57:53.698Z",
+    "screenshotCount": 40,
+    "pageCount": 14,
+    "pages": [
+      {
+        "url": "https://close.com/",
+        "title": "Close CRM | The CRM That Does the Work",
+        "description": "Close is the CRM with a built-in AI teammate that works with your team to call leads, qualify prospects, book meetings, and keep your CRM up to date automatically, so you can focus on selling.",
+        "headings": [
+          "The sales CRM built for calling, emailing, texting, automation and action",
+          "What is Close?",
+          "What is Chloe?",
+          "Built for conversations.Now Close runs them, end-to-end.",
+          "Customers can’t stop talking about how much they love Close",
+          "Your CRM has all the data. Now it can act on it.",
+          "Every call, captured and summarized",
+          "The right message, right on time",
+          "The CRM that updates itself",
+          "Daily action-items",
+          "Works with the tools you already use",
+          "Ask AIabout Close",
+          "Build on Close",
+          "Stop missing leads. Start closing deals.",
+          "Platform",
+          "Who we help",
+          "Resources",
+          "Get help",
+          "Company"
+        ],
+        "navLabels": [
+          "Sales communication Email, calls, SMS — one inbox",
+          "Sales automationWorkflows that automate and unlock your team",
+          "Lead & pipeline managementSee every deal, every stage",
+          "Built-in power dialerCall faster, log automatically",
+          "Native formsCapture leads straight into Close",
+          "ReportingPipeline, activity, forecasting",
+          "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+          "Chloe AI agentNEW",
+          "BlogSales playbooks & AI deep-dives",
+          "EventsWebinars and live sessions",
+          "ResourcesTemplates, scripts, and guides",
+          "PartnersBuild with us, earn with us",
+          "Customer storiesHow teams close more with Close",
+          "Close vs. other CRMsSide-by-side comparisons",
+          "Help centerDocs, FAQs, and how-tos",
+          "Office hoursLive Q&A with our experts",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo"
+        ],
+        "ctas": [
+          "BlogSales playbooks & AI deep-dives",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo",
+          "Start free with Google",
+          "Start your free trial",
+          "Explore the developer platform",
+          "Download the Close app"
+        ],
+        "landmarks": [
+          "header",
+          "banner:Main Navigation",
+          "navigation",
+          "nav:w-dropdown-toggle-0",
+          "nav:w-dropdown-toggle-1",
+          "main",
+          "footer",
+          "footer:Footer navigation"
+        ]
+      },
+      {
+        "url": "https://app.close.com/login/",
+        "title": "Login | Close",
+        "description": "Login to Close CRM — Purpose-built for SMBs. Call, text, and email in one place and close deals faster. Try Close free.",
+        "headings": [
+          "Please log in to your account"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Google LogoLog in with Google",
+          "Log In",
+          "Sign Up"
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://close.com/demo",
+        "title": "Book a Demo | Close CRM",
+        "description": "See how Close calls leads, books meetings, sends follow-up, and updates your CRM automatically. Book a 30-minute demo.",
+        "headings": [
+          "See Close in action."
+        ],
+        "navLabels": [
+          "Sales communication Email, calls, SMS — one inbox",
+          "Sales automationWorkflows that automate and unlock your team",
+          "Lead & pipeline managementSee every deal, every stage",
+          "Built-in power dialerCall faster, log automatically",
+          "Native formsCapture leads straight into Close",
+          "ReportingPipeline, activity, forecasting",
+          "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+          "Chloe AI agentNEW",
+          "BlogSales playbooks & AI deep-dives",
+          "EventsWebinars and live sessions",
+          "ResourcesTemplates, scripts, and guides",
+          "PartnersBuild with us, earn with us",
+          "Customer storiesHow teams close more with Close",
+          "Close vs. other CRMsSide-by-side comparisons",
+          "Help centerDocs, FAQs, and how-tos",
+          "Office hoursLive Q&A with our experts",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo"
+        ],
+        "ctas": [
+          "BlogSales playbooks & AI deep-dives",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo",
+          "Start a free trial"
+        ],
+        "landmarks": [
+          "header",
+          "banner:Main Navigation",
+          "navigation",
+          "nav:w-dropdown-toggle-0",
+          "nav:w-dropdown-toggle-1",
+          "main"
+        ]
+      },
+      {
+        "url": "https://close.com/pricing",
+        "title": "Pricing | Close CRM",
+        "description": "Compare Close plans and pricing to find the right fit for your business. See why growing teams choose the CRM that does the work. Start your free 14-day trial—no credit card required.",
+        "headings": [
+          "Scale your sales team without adding headcount",
+          "Your next hire lives in your CRM",
+          "Chloe access is free on all Close plans",
+          "Frequently Asked Questions",
+          "Which Close plan is right for you?",
+          "Solo/Essentials",
+          "Growth",
+          "Scale",
+          "Try Close free for 14 Days",
+          "Platform",
+          "Who we help",
+          "Resources",
+          "Get help",
+          "Company"
+        ],
+        "navLabels": [
+          "Sales communication Email, calls, SMS — one inbox",
+          "Sales automationWorkflows that automate and unlock your team",
+          "Lead & pipeline managementSee every deal, every stage",
+          "Built-in power dialerCall faster, log automatically",
+          "Native formsCapture leads straight into Close",
+          "ReportingPipeline, activity, forecasting",
+          "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+          "Chloe AI agentNEW",
+          "BlogSales playbooks & AI deep-dives",
+          "EventsWebinars and live sessions",
+          "ResourcesTemplates, scripts, and guides",
+          "PartnersBuild with us, earn with us",
+          "Customer storiesHow teams close more with Close",
+          "Close vs. other CRMsSide-by-side comparisons",
+          "Help centerDocs, FAQs, and how-tos",
+          "Office hoursLive Q&A with our experts",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo"
+        ],
+        "ctas": [
+          "BlogSales playbooks & AI deep-dives",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo",
+          "Add-ons",
+          "Download the Close app"
+        ],
+        "landmarks": [
+          "header",
+          "banner:Main Navigation",
+          "navigation",
+          "nav:w-dropdown-toggle-0",
+          "nav:w-dropdown-toggle-1",
+          "footer",
+          "footer:Footer navigation"
+        ]
+      },
+      {
+        "url": "https://close.com/products",
+        "title": "Not Found",
+        "headings": [
+          "Close, but no cigar",
+          "Platform",
+          "Who we help",
+          "Resources",
+          "Get help",
+          "Company"
+        ],
+        "navLabels": [
+          "Sales communication Email, calls, SMS — one inbox",
+          "Sales automationWorkflows that automate and unlock your team",
+          "Lead & pipeline managementSee every deal, every stage",
+          "Built-in power dialerCall faster, log automatically",
+          "Native formsCapture leads straight into Close",
+          "ReportingPipeline, activity, forecasting",
+          "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+          "Chloe AI agentNEW",
+          "BlogSales playbooks & AI deep-dives",
+          "EventsWebinars and live sessions",
+          "ResourcesTemplates, scripts, and guides",
+          "PartnersBuild with us, earn with us",
+          "Customer storiesHow teams close more with Close",
+          "Close vs. other CRMsSide-by-side comparisons",
+          "Help centerDocs, FAQs, and how-tos",
+          "Office hoursLive Q&A with our experts",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo"
+        ],
+        "ctas": [
+          "BlogSales playbooks & AI deep-dives",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo",
+          "Download the Close app"
+        ],
+        "landmarks": [
+          "header",
+          "banner:Main Navigation",
+          "navigation",
+          "nav:w-dropdown-toggle-0",
+          "nav:w-dropdown-toggle-1",
+          "footer",
+          "footer:Footer navigation"
+        ]
+      },
+      {
+        "url": "https://close.com/platform",
+        "title": "Not Found",
+        "headings": [
+          "Close, but no cigar",
+          "Platform",
+          "Who we help",
+          "Resources",
+          "Get help",
+          "Company"
+        ],
+        "navLabels": [
+          "Sales communication Email, calls, SMS — one inbox",
+          "Sales automationWorkflows that automate and unlock your team",
+          "Lead & pipeline managementSee every deal, every stage",
+          "Built-in power dialerCall faster, log automatically",
+          "Native formsCapture leads straight into Close",
+          "ReportingPipeline, activity, forecasting",
+          "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+          "Chloe AI agentNEW",
+          "BlogSales playbooks & AI deep-dives",
+          "EventsWebinars and live sessions",
+          "ResourcesTemplates, scripts, and guides",
+          "PartnersBuild with us, earn with us",
+          "Customer storiesHow teams close more with Close",
+          "Close vs. other CRMsSide-by-side comparisons",
+          "Help centerDocs, FAQs, and how-tos",
+          "Office hoursLive Q&A with our experts",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo"
+        ],
+        "ctas": [
+          "BlogSales playbooks & AI deep-dives",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo",
+          "Download the Close app"
+        ],
+        "landmarks": [
+          "header",
+          "banner:Main Navigation",
+          "navigation",
+          "nav:w-dropdown-toggle-0",
+          "nav:w-dropdown-toggle-1",
+          "footer",
+          "footer:Footer navigation"
+        ]
+      },
+      {
+        "url": "https://close.com/solutions",
+        "title": "Not Found",
+        "headings": [
+          "Close, but no cigar",
+          "Platform",
+          "Who we help",
+          "Resources",
+          "Get help",
+          "Company"
+        ],
+        "navLabels": [
+          "Sales communication Email, calls, SMS — one inbox",
+          "Sales automationWorkflows that automate and unlock your team",
+          "Lead & pipeline managementSee every deal, every stage",
+          "Built-in power dialerCall faster, log automatically",
+          "Native formsCapture leads straight into Close",
+          "ReportingPipeline, activity, forecasting",
+          "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+          "Chloe AI agentNEW",
+          "BlogSales playbooks & AI deep-dives",
+          "EventsWebinars and live sessions",
+          "ResourcesTemplates, scripts, and guides",
+          "PartnersBuild with us, earn with us",
+          "Customer storiesHow teams close more with Close",
+          "Close vs. other CRMsSide-by-side comparisons",
+          "Help centerDocs, FAQs, and how-tos",
+          "Office hoursLive Q&A with our experts",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo"
+        ],
+        "ctas": [
+          "BlogSales playbooks & AI deep-dives",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo",
+          "Download the Close app"
+        ],
+        "landmarks": [
+          "header",
+          "banner:Main Navigation",
+          "navigation",
+          "nav:w-dropdown-toggle-0",
+          "nav:w-dropdown-toggle-1",
+          "footer",
+          "footer:Footer navigation"
+        ]
+      },
+      {
+        "url": "https://close.com/customers",
+        "title": "Customer Stories | Close CRM",
+        "description": "See why 11,500+ growing businesses choose Close CRM. Read customer stories from teams that switched from bloated CRMs, closed more deals, and moved faster.",
+        "headings": [
+          "The CRM that founders and sellers actually love to use",
+          "How OutboundSync Cut Costs, Clicks, and Complexity by Returning to Close",
+          "Built to sell better: How Posted garnered 2,200+ organic leads in 5 months",
+          "How Switching from Pipedrive to Close Streamlined Sales for ResQ Club",
+          "How Commonwealth Joe Achieved a 9-day Sales Cycle",
+          "How Sales Transformation Group grew MRR 5x in 1 year using Close",
+          "How Hownd 5x’d ROI by Switching to Close from Salesforce",
+          "How Printavo Doubled Revenue After Switching to Close from Spreadsheets",
+          "Why Small Businesses Don't Just Use Close, They Swear By It",
+          "#HowIClose: Real Stories from Real Users",
+          "Stop settling for a CRM. Start loving one that helps you close more.",
+          "Platform",
+          "Who we help",
+          "Resources",
+          "Get help",
+          "Company"
+        ],
+        "navLabels": [
+          "Sales communication Email, calls, SMS — one inbox",
+          "Sales automationWorkflows that automate and unlock your team",
+          "Lead & pipeline managementSee every deal, every stage",
+          "Built-in power dialerCall faster, log automatically",
+          "Native formsCapture leads straight into Close",
+          "ReportingPipeline, activity, forecasting",
+          "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+          "Chloe AI agentNEW",
+          "BlogSales playbooks & AI deep-dives",
+          "EventsWebinars and live sessions",
+          "ResourcesTemplates, scripts, and guides",
+          "PartnersBuild with us, earn with us",
+          "Customer storiesHow teams close more with Close",
+          "Close vs. other CRMsSide-by-side comparisons",
+          "Help centerDocs, FAQs, and how-tos",
+          "Office hoursLive Q&A with our experts",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo"
+        ],
+        "ctas": [
+          "BlogSales playbooks & AI deep-dives",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo",
+          "Start my free trial",
+          "Download the Close app"
+        ],
+        "landmarks": [
+          "header",
+          "banner:Main Navigation",
+          "navigation",
+          "nav:w-dropdown-toggle-0",
+          "nav:w-dropdown-toggle-1",
+          "main",
+          "footer",
+          "footer:Footer navigation"
+        ]
+      },
+      {
+        "url": "https://close.com/docs",
+        "title": "Not Found",
+        "headings": [
+          "Close, but no cigar",
+          "Platform",
+          "Who we help",
+          "Resources",
+          "Get help",
+          "Company"
+        ],
+        "navLabels": [
+          "Sales communication Email, calls, SMS — one inbox",
+          "Sales automationWorkflows that automate and unlock your team",
+          "Lead & pipeline managementSee every deal, every stage",
+          "Built-in power dialerCall faster, log automatically",
+          "Native formsCapture leads straight into Close",
+          "ReportingPipeline, activity, forecasting",
+          "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+          "Chloe AI agentNEW",
+          "BlogSales playbooks & AI deep-dives",
+          "EventsWebinars and live sessions",
+          "ResourcesTemplates, scripts, and guides",
+          "PartnersBuild with us, earn with us",
+          "Customer storiesHow teams close more with Close",
+          "Close vs. other CRMsSide-by-side comparisons",
+          "Help centerDocs, FAQs, and how-tos",
+          "Office hoursLive Q&A with our experts",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo"
+        ],
+        "ctas": [
+          "BlogSales playbooks & AI deep-dives",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo",
+          "Download the Close app"
+        ],
+        "landmarks": [
+          "header",
+          "banner:Main Navigation",
+          "navigation",
+          "nav:w-dropdown-toggle-0",
+          "nav:w-dropdown-toggle-1",
+          "footer",
+          "footer:Footer navigation"
+        ]
+      },
+      {
+        "url": "https://close.com/help",
+        "title": "Not Found",
+        "headings": [
+          "Close, but no cigar",
+          "Platform",
+          "Who we help",
+          "Resources",
+          "Get help",
+          "Company"
+        ],
+        "navLabels": [
+          "Sales communication Email, calls, SMS — one inbox",
+          "Sales automationWorkflows that automate and unlock your team",
+          "Lead & pipeline managementSee every deal, every stage",
+          "Built-in power dialerCall faster, log automatically",
+          "Native formsCapture leads straight into Close",
+          "ReportingPipeline, activity, forecasting",
+          "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+          "Chloe AI agentNEW",
+          "BlogSales playbooks & AI deep-dives",
+          "EventsWebinars and live sessions",
+          "ResourcesTemplates, scripts, and guides",
+          "PartnersBuild with us, earn with us",
+          "Customer storiesHow teams close more with Close",
+          "Close vs. other CRMsSide-by-side comparisons",
+          "Help centerDocs, FAQs, and how-tos",
+          "Office hoursLive Q&A with our experts",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo"
+        ],
+        "ctas": [
+          "BlogSales playbooks & AI deep-dives",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo",
+          "Download the Close app"
+        ],
+        "landmarks": [
+          "header",
+          "banner:Main Navigation",
+          "navigation",
+          "nav:w-dropdown-toggle-0",
+          "nav:w-dropdown-toggle-1",
+          "footer",
+          "footer:Footer navigation"
+        ]
+      },
+      {
+        "url": "https://close.com/blog",
+        "title": "Sales, CRM & AI Blog | Close",
+        "description": "Expert advice on sales, CRM, AI, and growing a small business. Learn practical strategies, playbooks, and insights from the team behind Close.",
+        "headings": [
+          "How to Use Close Forms with Workflows (and Never Miss a Lead Again)",
+          "WTF is n8n, and How Do I Use it for Sales?",
+          "What's Actually Changing (and What Isn't)",
+          "How a Sales Pipeline CRM Accelerates Sales: 5 Tools & How to Use Them",
+          "6 No-Brainer Workflows Every Sales Team Needs to Save Time and Sell More",
+          "The Remote Sales Team Playbook",
+          "60+ CRM Training Resources - Courses, Programs, Workshops, and Guides",
+          "52 Top Remote Sales Tools for Your Team to Absolutely Crush It",
+          "How to Choose the Right Dialer Software for Your Sales Team",
+          "Introducing Chloe, Your AI Sales Teammate in Close",
+          "How to Get Speed-to-Lead Under 1 Minute With AI Voice (2026 Benchmark Edition)",
+          "How to Automatically Qualify and Call Inbound Leads with AI",
+          "3 Ways to Call in Close: Power Dialer, Predictive Dialer, and Chloe",
+          "Do AI Voice Agents Really Work? The Operations Reality Check",
+          "Best AI Voice Agents for Small Business in 2026",
+          "Build or Buy AI Voice Agents? A Decision Framework for Sales Teams",
+          "Data Hygiene: How to Get Your CRM Shit Together",
+          "Best Practices for Training Your AI Sales Agent",
+          "Platform",
+          "Who we help"
+        ],
+        "navLabels": [
+          "Sales communication Email, calls, SMS — one inbox",
+          "Sales automationWorkflows that automate and unlock your team",
+          "Lead & pipeline managementSee every deal, every stage",
+          "Built-in power dialerCall faster, log automatically",
+          "Native formsCapture leads straight into Close",
+          "ReportingPipeline, activity, forecasting",
+          "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+          "Chloe AI agentNEW",
+          "BlogSales playbooks & AI deep-dives",
+          "EventsWebinars and live sessions",
+          "ResourcesTemplates, scripts, and guides",
+          "PartnersBuild with us, earn with us",
+          "Customer storiesHow teams close more with Close",
+          "Close vs. other CRMsSide-by-side comparisons",
+          "Help centerDocs, FAQs, and how-tos",
+          "Office hoursLive Q&A with our experts",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo"
+        ],
+        "ctas": [
+          "BlogSales playbooks & AI deep-dives",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo",
+          "Filter by Category",
+          "The Remote Sales Team PlaybookClose TeamJuly 16, 2026",
+          "Download the Close app"
+        ],
+        "landmarks": [
+          "header",
+          "banner:Main Navigation",
+          "navigation",
+          "nav:w-dropdown-toggle-0",
+          "nav:w-dropdown-toggle-1",
+          "main",
+          "aside",
+          "search",
+          "nav:w-dropdown-toggle-2",
+          "footer",
+          "navigation:List",
+          "footer:Footer navigation"
+        ]
+      },
+      {
+        "url": "https://close.com/about",
+        "title": "Meet the Close Team",
+        "description": "Meet the team building Close—the CRM designed to help sales teams move faster, stay focused, and close more deals.",
+        "headings": [
+          "Built for (and by) a bold, remote team",
+          "Close (verb), pronounced as /klōz/;",
+          "We help startups and SMBs grow",
+          "Close’s core values",
+          "Build a house you want to live in",
+          "No BS",
+          "Invest in each other",
+          "Discipline equals freedom",
+          "Strive for greatness",
+          "Our leadership team",
+          "Close ❤’sMother Earth",
+          "Ready for your next move?",
+          "Our people love working at Close",
+          "People-first benefits.",
+          "Connect in-person with our annual retreats.",
+          "What to expect in the Close hiring process",
+          "Platform",
+          "Who we help",
+          "Resources",
+          "Get help"
+        ],
+        "navLabels": [
+          "Sales communication Email, calls, SMS — one inbox",
+          "Sales automationWorkflows that automate and unlock your team",
+          "Lead & pipeline managementSee every deal, every stage",
+          "Built-in power dialerCall faster, log automatically",
+          "Native formsCapture leads straight into Close",
+          "ReportingPipeline, activity, forecasting",
+          "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+          "Chloe AI agentNEW",
+          "BlogSales playbooks & AI deep-dives",
+          "EventsWebinars and live sessions",
+          "ResourcesTemplates, scripts, and guides",
+          "PartnersBuild with us, earn with us",
+          "Customer storiesHow teams close more with Close",
+          "Close vs. other CRMsSide-by-side comparisons",
+          "Help centerDocs, FAQs, and how-tos",
+          "Office hoursLive Q&A with our experts",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo"
+        ],
+        "ctas": [
+          "BlogSales playbooks & AI deep-dives",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo",
+          "Explore all open roles",
+          "Download the Close app"
+        ],
+        "landmarks": [
+          "header",
+          "banner:Main Navigation",
+          "navigation",
+          "nav:w-dropdown-toggle-0",
+          "nav:w-dropdown-toggle-1",
+          "main",
+          "footer",
+          "footer:Footer navigation"
+        ]
+      },
+      {
+        "url": "https://close.com/signin",
+        "title": "Not Found",
+        "headings": [
+          "Close, but no cigar",
+          "Platform",
+          "Who we help",
+          "Resources",
+          "Get help",
+          "Company"
+        ],
+        "navLabels": [
+          "Sales communication Email, calls, SMS — one inbox",
+          "Sales automationWorkflows that automate and unlock your team",
+          "Lead & pipeline managementSee every deal, every stage",
+          "Built-in power dialerCall faster, log automatically",
+          "Native formsCapture leads straight into Close",
+          "ReportingPipeline, activity, forecasting",
+          "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+          "Chloe AI agentNEW",
+          "BlogSales playbooks & AI deep-dives",
+          "EventsWebinars and live sessions",
+          "ResourcesTemplates, scripts, and guides",
+          "PartnersBuild with us, earn with us",
+          "Customer storiesHow teams close more with Close",
+          "Close vs. other CRMsSide-by-side comparisons",
+          "Help centerDocs, FAQs, and how-tos",
+          "Office hoursLive Q&A with our experts",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo"
+        ],
+        "ctas": [
+          "BlogSales playbooks & AI deep-dives",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo",
+          "Download the Close app"
+        ],
+        "landmarks": [
+          "header",
+          "banner:Main Navigation",
+          "navigation",
+          "nav:w-dropdown-toggle-0",
+          "nav:w-dropdown-toggle-1",
+          "footer",
+          "footer:Footer navigation"
+        ]
+      },
+      {
+        "url": "https://close.com/sign-in",
+        "title": "Not Found",
+        "headings": [
+          "Close, but no cigar",
+          "Platform",
+          "Who we help",
+          "Resources",
+          "Get help",
+          "Company"
+        ],
+        "navLabels": [
+          "Sales communication Email, calls, SMS — one inbox",
+          "Sales automationWorkflows that automate and unlock your team",
+          "Lead & pipeline managementSee every deal, every stage",
+          "Built-in power dialerCall faster, log automatically",
+          "Native formsCapture leads straight into Close",
+          "ReportingPipeline, activity, forecasting",
+          "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+          "Chloe AI agentNEW",
+          "BlogSales playbooks & AI deep-dives",
+          "EventsWebinars and live sessions",
+          "ResourcesTemplates, scripts, and guides",
+          "PartnersBuild with us, earn with us",
+          "Customer storiesHow teams close more with Close",
+          "Close vs. other CRMsSide-by-side comparisons",
+          "Help centerDocs, FAQs, and how-tos",
+          "Office hoursLive Q&A with our experts",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo"
+        ],
+        "ctas": [
+          "BlogSales playbooks & AI deep-dives",
+          "Pricing",
+          "Try for free",
+          "View demo",
+          "Log In",
+          "Demo",
+          "Download the Close app"
+        ],
+        "landmarks": [
+          "header",
+          "banner:Main Navigation",
+          "navigation",
+          "nav:w-dropdown-toggle-0",
+          "nav:w-dropdown-toggle-1",
+          "footer",
+          "footer:Footer navigation"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Sales communication Email, calls, SMS — one inbox",
+      "Sales automationWorkflows that automate and unlock your team",
+      "Lead & pipeline managementSee every deal, every stage",
+      "Built-in power dialerCall faster, log automatically",
+      "Native formsCapture leads straight into Close",
+      "ReportingPipeline, activity, forecasting",
+      "IntegrationsChatGPT, Claude, WhatsApp, and 100+ more",
+      "Chloe AI agentNEW",
+      "BlogSales playbooks & AI deep-dives",
+      "EventsWebinars and live sessions",
+      "ResourcesTemplates, scripts, and guides",
+      "PartnersBuild with us, earn with us",
+      "Customer storiesHow teams close more with Close",
+      "Close vs. other CRMsSide-by-side comparisons",
+      "Help centerDocs, FAQs, and how-tos",
+      "Office hoursLive Q&A with our experts",
+      "Pricing",
+      "Try for free",
+      "View demo",
+      "Log In",
+      "Demo"
+    ],
+    "ctas": [
+      "BlogSales playbooks & AI deep-dives",
+      "Pricing",
+      "Try for free",
+      "View demo",
+      "Log In",
+      "Demo",
+      "Start free with Google",
+      "Start your free trial",
+      "Explore the developer platform",
+      "Download the Close app",
+      "Google LogoLog in with Google",
+      "Sign Up",
+      "Start a free trial",
+      "Add-ons",
+      "Start my free trial",
+      "Filter by Category",
+      "The Remote Sales Team PlaybookClose TeamJuly 16, 2026",
+      "Explore all open roles"
+    ],
+    "headings": [
+      "The sales CRM built for calling, emailing, texting, automation and action",
+      "What is Close?",
+      "What is Chloe?",
+      "Built for conversations.Now Close runs them, end-to-end.",
+      "Customers can’t stop talking about how much they love Close",
+      "Your CRM has all the data. Now it can act on it.",
+      "Every call, captured and summarized",
+      "The right message, right on time",
+      "The CRM that updates itself",
+      "Daily action-items",
+      "Works with the tools you already use",
+      "Ask AIabout Close",
+      "Build on Close",
+      "Stop missing leads. Start closing deals.",
+      "Platform",
+      "Who we help",
+      "Resources",
+      "Get help",
+      "Company",
+      "Please log in to your account",
+      "See Close in action.",
+      "Scale your sales team without adding headcount",
+      "Your next hire lives in your CRM",
+      "Chloe access is free on all Close plans",
+      "Frequently Asked Questions",
+      "Which Close plan is right for you?",
+      "Solo/Essentials",
+      "Growth",
+      "Scale",
+      "Try Close free for 14 Days"
+    ],
+    "techSignals": [
+      "Next.js",
+      "Segment",
+      "Google Tag Manager",
+      "Cloudflare"
+    ],
+    "featureCandidates": [
+      "What is Close?",
+      "What is Chloe?",
+      "Every call, captured and summarized",
+      "The right message, right on time",
+      "The CRM that updates itself",
+      "Daily action-items",
+      "Works with the tools you already use",
+      "Ask AIabout Close",
+      "Build on Close",
+      "Stop missing leads. Start closing deals.",
+      "Platform",
+      "Who we help",
+      "Resources",
+      "Get help",
+      "Company",
+      "Please log in to your account",
+      "See Close in action.",
+      "Scale your sales team without adding headcount",
+      "Your next hire lives in your CRM",
+      "Chloe access is free on all Close plans",
+      "Frequently Asked Questions",
+      "Which Close plan is right for you?",
+      "Solo/Essentials",
+      "Growth"
+    ],
+    "patternCandidates": [
+      "Modal dialogs",
+      "Search",
+      "Filters",
+      "Carousels",
+      "Tabs",
+      "Card layout",
+      "Messaging",
+      "Pricing display",
+      "Authentication",
+      "Dashboard",
+      "Calendar"
+    ],
+    "platformsDetected": [
+      "web",
+      "api"
+    ],
+    "summary": "Captured 40 screenshots across 14 public URLs. Nav signals: Sales communication Email, calls, SMS — one inbox, Sales automationWorkflows that automate and unlock your team, Lead & pipeline managementSee every deal, every stage, Built-in power dialerCall faster, log automatically, Native formsCapture leads straight into Close, ReportingPipeline, activity, forecasting. Tech signals: Next.js, Segment, Google Tag Manager, Cloudflare. UI patterns: Modal dialogs, Search, Filters, Carousels, Tabs, Card layout."
+  }
+}
