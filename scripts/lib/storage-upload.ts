@@ -56,7 +56,7 @@ export async function uploadStorageObject(
       "Cache-Control": "31536000",
       "x-upsert": "true",
     },
-    body: new Uint8Array(body),
+    body: new Uint8Array(body) as unknown as BodyInit,
   });
 
   if (!response.ok) {
