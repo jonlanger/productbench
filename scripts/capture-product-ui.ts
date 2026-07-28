@@ -43,6 +43,11 @@ import {
   needsWebFallback,
   runWebFallback,
 } from "./lib/capture-fallback";
+import {
+  formatCoverageReport,
+  validateProductCapture,
+  type CoverageReport,
+} from "./lib/capture-coverage";
 import { ShotDedupeRegistry } from "./lib/image-dedupe";
 import {
   aggregateInsights,
@@ -127,32 +132,50 @@ async function dismissNoise(page: Page) {
   await page.keyboard.press("Escape").catch(() => undefined);
 }
 
-async function toJpeg(pngPath: string) {
-  const jpgPath = pngPath.replace(/\.png$/i, ".jpg");
-  try {
-    const { execSync } = await import("child_process");
-    execSync(
-      `sips -s format jpeg -s formatOptions 82 "${pngPath}" --out "${jpgPath}"`,
-      { stdio: "ignore" },
-    );
-    const { unlinkSync } = await import("fs");
-    unlinkSync(pngPath);
-    return jpgPath.split("/").pop()!;
-  } catch {
-    return pngPath.split("/").pop()!;
-  }
+/**
+ * Capture settings for sharp UI/text:
+ * - deviceScaleFactor 2 (set on browser context) → retina pixel density
+ * - PNG kept as-is (no JPEG recompress) for crisp chrome and typography
+ * - Prefer viewport + scroll bands over fullPage for gallery usability;
+ *   pass fullPage=true only for short surfaces where one tall shot is useful
+ */
+async function saveScreenshot(
+  page: Page,
+  pathWithoutExt: string,
+  fullPage = false,
+) {
+  const pngPath = `${pathWithoutExt}.png`;
+  await page.screenshot({
+    path: pngPath,
+    fullPage,
+    type: "png",
+    animations: "disabled",
+    caret: "hide",
+    scale: "device",
+  });
+  return pngPath.split("/").pop()!;
 }
 
+async function saveLocatorScreenshot(locator: Locator, pathWithoutExt: string) {
+  const pngPath = `${pathWithoutExt}.png`;
+  await locator.screenshot({
+    path: pngPath,
+    type: "png",
+    animations: "disabled",
+    caret: "hide",
+    scale: "device",
+  });
+  return pngPath.split("/").pop()!;
+}
+
+/** @deprecated Prefer saveScreenshot — kept as alias during playbook migration */
 async function saveJpeg(page: Page, pathWithoutExt: string, fullPage = false) {
-  const pngPath = `${pathWithoutExt}.png`;
-  await page.screenshot({ path: pngPath, fullPage, type: "png" });
-  return toJpeg(pngPath);
+  return saveScreenshot(page, pathWithoutExt, fullPage);
 }
 
+/** @deprecated Prefer saveLocatorScreenshot */
 async function saveLocatorJpeg(locator: Locator, pathWithoutExt: string) {
-  const pngPath = `${pathWithoutExt}.png`;
-  await locator.screenshot({ path: pngPath, type: "png" });
-  return toJpeg(pngPath);
+  return saveLocatorScreenshot(locator, pathWithoutExt);
 }
 
 async function clickFirst(
@@ -529,6 +552,461 @@ function buildGenericPlaybook(product: ProductTarget): ShotSpec[] {
   return shots;
 }
 
+function surfaceBands(
+  url: string,
+  prefix: string,
+  bands = 5,
+): ShotSpec["run"] {
+  return async (page, dir) => {
+    try {
+      await gotoReady(page, url);
+    } catch {
+      return null;
+    }
+    const top = await saveJpeg(page, join(dir, prefix));
+    const deeper = await captureScrollBands(page, dir, prefix, bands);
+    return [top, ...deeper.filter((file) => file !== top)];
+  };
+}
+
+/**
+ * Deep 1Password playbook — titles tuned to Product Detail screen categories.
+ * Public vault UI is gated; how-tos, demos, reviews, and marketing fill the gaps.
+ */
+function buildOnePasswordPlaybook(): ShotSpec[] {
+  const shots: ShotSpec[] = [
+    // Homepage & landing
+    {
+      id: "homepage",
+      title: "Homepage / landing",
+      caption: "1Password marketing homepage hero and primary CTA",
+      kind: "homepage",
+      run: async (page, dir) => {
+        await gotoReady(page, "https://1password.com/");
+        return saveJpeg(page, join(dir, "homepage"));
+      },
+    },
+    {
+      id: "homepage-scroll",
+      title: "Homepage depth",
+      caption: "1Password homepage scrolled product story sections",
+      kind: "homepage",
+      run: async (page, dir) => {
+        await gotoReady(page, "https://1password.com/");
+        return captureScrollBands(page, dir, "homepage", 7);
+      },
+    },
+    {
+      id: "homepage-mobile",
+      title: "Homepage mobile",
+      caption: "1Password homepage at mobile viewport",
+      kind: "homepage",
+      run: async (page, dir) => {
+        await page.setViewportSize({ width: 390, height: 844 });
+        await gotoReady(page, "https://1password.com/");
+        const file = await saveJpeg(page, join(dir, "homepage-mobile"));
+        await page.setViewportSize({ width: 1440, height: 900 });
+        return file;
+      },
+    },
+    // Marketing & pricing
+    {
+      id: "pricing",
+      title: "Marketing pricing plans",
+      caption: "Pricing table for Individual, Families, Teams, Business",
+      kind: "marketing",
+      run: surfaceBands(
+        "https://1password.com/pricing/password-manager",
+        "pricing",
+        5,
+      ),
+    },
+    {
+      id: "product-personal",
+      title: "Marketing feature page — personal",
+      caption: "Personal password manager product marketing",
+      kind: "marketing",
+      run: surfaceBands(
+        "https://1password.com/product/password-manager",
+        "product-personal",
+        5,
+      ),
+    },
+    {
+      id: "product-enterprise",
+      title: "Marketing feature page — enterprise",
+      caption: "Enterprise Password Manager marketing surface",
+      kind: "marketing",
+      run: surfaceBands(
+        "https://1password.com/product/enterprise-password-manager",
+        "product-enterprise",
+        4,
+      ),
+    },
+    {
+      id: "business",
+      title: "Marketing campaign — business",
+      caption: "1Password Business solutions landing",
+      kind: "marketing",
+      run: surfaceBands("https://1password.com/business", "business", 4),
+    },
+    {
+      id: "families",
+      title: "Marketing campaign — families",
+      caption: "1Password Families marketing surface",
+      kind: "marketing",
+      run: surfaceBands("https://1password.com/families", "families", 4),
+    },
+    {
+      id: "demos",
+      title: "Marketing demos & product tours",
+      caption: "Interactive demos and video tour hub",
+      kind: "marketing",
+      run: surfaceBands("https://1password.com/demos", "demos", 5),
+    },
+    {
+      id: "downloads",
+      title: "Marketing downloads",
+      caption: "Platform download page for apps and extensions",
+      kind: "marketing",
+      run: surfaceBands("https://1password.com/downloads", "downloads", 3),
+    },
+    // Auth & onboarding
+    {
+      id: "sign-in",
+      title: "Sign in",
+      caption: "Sign-in surface on my.1password.com (pattern only — no credentials)",
+      kind: "component",
+      run: async (page, dir) => {
+        try {
+          await gotoReady(page, "https://my.1password.com/signin");
+        } catch {
+          return null;
+        }
+        return saveJpeg(page, join(dir, "sign-in"));
+      },
+    },
+    {
+      id: "onboarding-get-started",
+      title: "Onboarding get started",
+      caption: "Public get-started / trial onboarding entry",
+      kind: "component",
+      run: surfaceBands("https://1password.com/sign-up", "onboarding", 3),
+    },
+    {
+      id: "getting-started-browser",
+      title: "Onboarding browser guide",
+      caption: "Support how-to: get to know 1Password in the browser",
+      kind: "docs",
+      run: surfaceBands(
+        "https://support.1password.com/getting-started-browser/",
+        "gs-browser",
+        5,
+      ),
+    },
+    {
+      id: "getting-started-mac",
+      title: "Onboarding Mac guide",
+      caption: "Support how-to: get to know 1Password for Mac",
+      kind: "docs",
+      run: surfaceBands(
+        "https://support.1password.com/getting-started-mac/",
+        "gs-mac",
+        4,
+      ),
+    },
+    {
+      id: "getting-started-windows",
+      title: "Onboarding Windows guide",
+      caption: "Support how-to: get to know 1Password for Windows",
+      kind: "docs",
+      run: surfaceBands(
+        "https://support.1password.com/getting-started-windows/",
+        "gs-windows",
+        4,
+      ),
+    },
+    {
+      id: "getting-started-ios",
+      title: "Onboarding iOS guide",
+      caption: "Support how-to: get to know 1Password for iOS",
+      kind: "docs",
+      run: surfaceBands(
+        "https://support.1password.com/getting-started-ios/",
+        "gs-ios",
+        4,
+      ),
+    },
+    // Navigation & shell
+    {
+      id: "nav-menu",
+      title: "Navigation menu chrome",
+      caption: "Expanded primary marketing navigation",
+      kind: "component",
+      run: async (page, dir) => {
+        await gotoReady(page, "https://1password.com/");
+        const opened = await clickFirst(page, [
+          () =>
+            page.getByRole("button", {
+              name: /main navigation menu|open menu|menu/i,
+            }),
+          () => page.locator('button[aria-label*="menu" i]'),
+        ]);
+        if (!opened) return null;
+        await page.waitForTimeout(500);
+        return saveJpeg(page, join(dir, "nav-menu"));
+      },
+    },
+    {
+      id: "sidebar-docs",
+      title: "Sidebar navigation docs",
+      caption: "Support article: use the sidebar in the 1Password app",
+      kind: "docs",
+      run: surfaceBands(
+        "https://support.1password.com/sidebar/",
+        "sidebar-docs",
+        5,
+      ),
+    },
+    // Search & discovery
+    {
+      id: "search-docs",
+      title: "Search & discovery docs",
+      caption: "Support how-to: search in the 1Password app",
+      kind: "docs",
+      run: surfaceBands(
+        "https://support.1password.com/search-1password/",
+        "search-docs",
+        4,
+      ),
+    },
+    {
+      id: "features-index",
+      title: "Browse features discovery",
+      caption: "Features index — browse product capabilities",
+      kind: "product",
+      run: surfaceBands("https://1password.com/features", "features", 5),
+    },
+    {
+      id: "support-search",
+      title: "Help center search",
+      caption: "1Password Support hub with search and topic browse",
+      kind: "docs",
+      run: async (page, dir) => {
+        await gotoReady(page, "https://support.1password.com/");
+        const top = await saveJpeg(page, join(dir, "support-hub"));
+        await clickFirst(page, [
+          () => page.getByRole("searchbox"),
+          () => page.locator('input[type="search"], input[placeholder*="Search" i]'),
+        ]);
+        await page.waitForTimeout(400);
+        const focused = await saveJpeg(page, join(dir, "support-search"));
+        return [top, focused];
+      },
+    },
+    // Dashboards & overview
+    {
+      id: "watchtower-dashboard",
+      title: "Watchtower dashboard overview",
+      caption: "Watchtower security HQ marketing + how-to screenshots",
+      kind: "product",
+      run: surfaceBands(
+        "https://support.1password.com/watchtower/",
+        "watchtower-dashboard",
+        5,
+      ),
+    },
+    {
+      id: "watchtower-marketing",
+      title: "Watchtower dashboard marketing",
+      caption: "Watchtower public product page with dashboard visuals",
+      kind: "product",
+      run: surfaceBands(
+        "https://1password.com/features/watchtower",
+        "watchtower-mkt",
+        4,
+      ),
+    },
+    {
+      id: "watchtower-site",
+      title: "Watchtower overview site",
+      caption: "watchtower.1password.com security overview",
+      kind: "product",
+      run: surfaceBands("https://watchtower.1password.com/", "watchtower-site", 3),
+    },
+    // Workspace & editors
+    {
+      id: "autofill-workspace",
+      title: "Autofill workspace detail",
+      caption: "Autofill feature page + in-browser fill UI visuals",
+      kind: "product",
+      run: surfaceBands(
+        "https://1password.com/features/autofill",
+        "autofill",
+        5,
+      ),
+    },
+    {
+      id: "autofill-docs",
+      title: "Autofill workspace docs",
+      caption: "Support how-to: save and autofill credentials",
+      kind: "docs",
+      run: surfaceBands(
+        "https://support.1password.com/autofill/",
+        "autofill-docs",
+        4,
+      ),
+    },
+    {
+      id: "passkeys-workspace",
+      title: "Passkeys workspace detail",
+      caption: "Passkeys product surface and item detail visuals",
+      kind: "product",
+      run: surfaceBands(
+        "https://1password.com/features/passkeys",
+        "passkeys",
+        4,
+      ),
+    },
+    {
+      id: "generator-workspace",
+      title: "Password generator workspace",
+      caption: "Support how-to: password generator UI",
+      kind: "docs",
+      run: surfaceBands(
+        "https://support.1password.com/password-generator/",
+        "generator",
+        4,
+      ),
+    },
+    {
+      id: "cli-workspace",
+      title: "CLI developer workspace",
+      caption: "Developer docs — CLI get started workspace",
+      kind: "technical",
+      run: surfaceBands(
+        "https://developer.1password.com/docs/cli/get-started/",
+        "cli-docs",
+        4,
+      ),
+    },
+    {
+      id: "ssh-workspace",
+      title: "SSH & Git workspace docs",
+      caption: "Developer docs — SSH agent and Git signing",
+      kind: "technical",
+      run: surfaceBands(
+        "https://developer.1password.com/docs/ssh/",
+        "ssh-docs",
+        4,
+      ),
+    },
+    // Lists, tables & boards (vault / item collections)
+    {
+      id: "vaults-collection",
+      title: "Vault list & collections",
+      caption: "Support how-to: create and share vaults",
+      kind: "docs",
+      run: surfaceBands(
+        "https://support.1password.com/create-share-vaults/",
+        "vaults",
+        5,
+      ),
+    },
+    {
+      id: "share-items-collection",
+      title: "Item list & sharing",
+      caption: "Support how-to: share items securely",
+      kind: "docs",
+      run: surfaceBands(
+        "https://support.1password.com/share-items/",
+        "share-items",
+        4,
+      ),
+    },
+    {
+      id: "customer-stories-grid",
+      title: "Customer stories gallery grid",
+      caption: "Customer stories collection / card grid",
+      kind: "marketing",
+      run: surfaceBands(
+        "https://1password.com/customer-stories",
+        "stories-grid",
+        3,
+      ),
+    },
+    // Settings & admin
+    {
+      id: "developer-docs",
+      title: "Developer admin docs home",
+      caption: "developer.1password.com documentation index",
+      kind: "technical",
+      run: surfaceBands("https://developer.1password.com/", "dev-home", 5),
+    },
+    {
+      id: "product-update",
+      title: "Settings & admin product updates",
+      caption: "Product update blog with mobile/settings UI shots",
+      kind: "docs",
+      run: surfaceBands(
+        "https://1password.com/blog/product-update-improvements-and-features",
+        "product-update",
+        5,
+      ),
+    },
+    // UI details & docs + reviews
+    {
+      id: "support-hub",
+      title: "Help center docs hub",
+      caption: "1Password Support home — guides and featured articles",
+      kind: "docs",
+      run: surfaceBands("https://support.1password.com/", "support", 4),
+    },
+    {
+      id: "guides",
+      title: "Help guides tutorial index",
+      caption: "Support guides and tutorials index",
+      kind: "docs",
+      run: surfaceBands("https://support.1password.com/guides/", "guides", 3),
+    },
+    {
+      id: "wired-review",
+      title: "Review UI detail — WIRED",
+      caption: "WIRED 1Password review with product UI screenshots",
+      kind: "supporting",
+      run: surfaceBands(
+        "https://www.wired.com/review/1password-2025/",
+        "wired-review",
+        5,
+      ),
+    },
+    {
+      id: "pcworld-review",
+      title: "Review UI detail — PCWorld",
+      caption: "PCWorld 1Password review with vault and Watchtower UI",
+      kind: "supporting",
+      run: surfaceBands(
+        "https://www.pcworld.com/article/3020324/1password-review-2.html",
+        "pcworld-review",
+        5,
+      ),
+    },
+    {
+      id: "cards",
+      title: "UI cards / component detail",
+      caption: "Card and tile crops from 1Password homepage",
+      kind: "component",
+      run: async (page, dir) => {
+        await gotoReady(page, "https://1password.com/");
+        const crops = await captureCardCrops(page, dir, 6);
+        return crops.length ? crops.map((c) => c.file) : null;
+      },
+    },
+  ];
+
+  return shots;
+}
+
 /** Richer Airbnb-specific flows; optional override. */
 function buildAirbnbPlaybook(): ShotSpec[] {
   return [
@@ -713,6 +1191,7 @@ function buildAirbnbPlaybook(): ShotSpec[] {
 }
 
 const SPECIFIC_PLAYBOOKS: Record<string, () => ShotSpec[]> = {
+  "1password": buildOnePasswordPlaybook,
   airbnb: buildAirbnbPlaybook,
 };
 
@@ -780,6 +1259,17 @@ function mergeUnique(existing: string[], incoming: string[], maxExtra = 12) {
     if (merged.length >= existing.length + maxExtra) break;
   }
   return merged;
+}
+
+/** Post-capture taxonomy check — writes coverage.json and prints the report. */
+function validateAndWriteCoverage(slug: string): CoverageReport {
+  const report = validateProductCapture(slug);
+  const dir = join(process.cwd(), "public/products", slug);
+  if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+  writeFileSync(join(dir, "coverage.json"), JSON.stringify(report, null, 2));
+  console.log(formatCoverageReport(report));
+  console.log(`  wrote public/products/${slug}/coverage.json`);
+  return report;
 }
 
 async function syncDb(
@@ -1188,22 +1678,37 @@ async function main() {
   const browser = await chromium.launch({ headless: !argFlag("headed") });
   const context = await browser.newContext({
     viewport: { width: 1440, height: 900 },
+    // 2× CSS pixels → sharp UI/text at 2880×1800 desktop / 780×1688 mobile
+    deviceScaleFactor: 2,
     userAgent:
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 ProductBenchCapture/0.1",
   });
   const page = await context.newPage();
 
-  const summary: Array<{ slug: string; count: number }> = [];
+  const summary: Array<{ slug: string; count: number; pass?: boolean; score?: number }> =
+    [];
   for (const product of queue) {
     const captured = await captureProduct(page, product);
-    summary.push({ slug: product.slug, count: captured.length });
+    const coverage = validateAndWriteCoverage(product.slug);
+    summary.push({
+      slug: product.slug,
+      count: captured.length,
+      pass: coverage.pass,
+      score: coverage.score,
+    });
   }
 
   await browser.close();
 
   console.log("\nDone:");
   for (const row of summary) {
-    console.log(`  ${row.slug}: ${row.count} shots`);
+    const cov =
+      row.pass == null
+        ? ""
+        : row.pass
+          ? ` · coverage PASS (${row.score}/100)`
+          : ` · coverage FAIL (${row.score}/100)`;
+    console.log(`  ${row.slug}: ${row.count} shots${cov}`);
   }
 }
 

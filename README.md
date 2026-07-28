@@ -81,18 +81,22 @@ Preferred path is Playwright live UI capture. When a site is bot-blocked or the 
 npm run db:collect-screenshots
 npm run db:enrich-screenshots
 
-# Preferred: Playwright live UI capture (+ automatic fallback)
+# Preferred: Playwright live UI capture (+ automatic fallback + coverage check)
 npm run capture:install
 npm run capture:ui -- --slug=notion
 npm run capture:ui -- --all                 # every product
 npm run capture:ui -- --all --limit=5       # smoke test
+npm run validate:ui -- --slug=notion        # taxonomy coverage vs capture-process.ts
+npm run validate:ui -- --all
 ```
 
 Playwright loads every catalog product (from Supabase when `DATABASE_URL` is set, otherwise seed data). Each product gets a **generic** playbook (homepage, card crop, account menu, sign-in, supporting docs URLs). Products with custom flows can ship a richer override — Airbnb is the first.
 
 Each run also extracts **live insights** (nav labels, CTAs, headings, tech/pattern signals) into `capture_insights`, and soft-merges candidates into features / UX patterns / platforms / metrics without wiping curated seed copy.
 
-Images land under `public/products/[slug]/` with a `manifest.json` + `insights.json`, then sync to the database.
+After shots are written, capture runs a **coverage validation** against the taxonomy in `src/data/capture-process.ts` (surface / component / state / structure / source). Thin = fewer than 20 unique screenshots. Results land in `coverage.json` and are printed in the capture summary; re-run anytime with `npm run validate:ui`.
+
+Images land under `public/products/[slug]/` with a `manifest.json` + `insights.json`, then sync to the database. Live captures are **PNG at 2× device scale** (sharp UI/text); fallback assets may still be JPEG.
 
 See **[/process](/process)** for the capture taxonomy (cards, modals, menus, states, limits).
 
@@ -105,8 +109,10 @@ See **[/process](/process)** for the capture taxonomy (cards, modals, menus, sta
 | `npm run db:collect-screenshots` | Collect OG/marketing gallery images into Supabase |
 | `npm run db:enrich-screenshots` | Prefer docs UI images over OG cards |
 | `npm run capture:install` | Install Playwright Chromium |
-| `npm run capture:ui -- --slug=…` | Capture one product (with web fallback) |
+| `npm run capture:ui -- --slug=…` | Capture one product (with web fallback + coverage) |
 | `npm run capture:ui -- --all` | Capture every product |
+| `npm run validate:ui -- --slug=…` | Taxonomy coverage report for an already-captured product |
+| `npm run validate:ui -- --all` | Coverage report for every captured product |
 | `npm run db:studio` | Open Drizzle Studio |
 | `npm run db:generate` | Generate SQL migrations |
 | `npm run db:url` | Encode and write `DATABASE_URL` (pooler) |

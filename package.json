@@ -17,7 +17,8 @@
     "db:collect-screenshots": "tsx scripts/collect-screenshots.ts",
     "db:enrich-screenshots": "tsx scripts/enrich-screenshots.ts",
     "capture:ui": "tsx scripts/capture-product-ui.ts",
-    "capture:install": "playwright install chromium"
+    "capture:install": "playwright install chromium",
+    "validate:ui": "tsx scripts/validate-capture.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",
