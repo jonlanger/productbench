@@ -7,6 +7,7 @@ import { ChevronLeft, ChevronRight, LogIn } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ScreenshotImage } from "@/components/product/screenshot-image";
+import { ScreenshotPreview } from "@/components/product/screenshot-preview";
 import type {
   ProductScreenshot,
   ProductScreenshotKind,
@@ -120,6 +121,7 @@ export function ScreenshotCarousel({
   const [scrollRoot, setScrollRoot] = useState<Element | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [canScroll, setCanScroll] = useState({ prev: false, next: false });
+  const [previewIndex, setPreviewIndex] = useState<number | null>(null);
 
   const items = useMemo(() => {
     if (!kinds || kinds.length === 0) return screenshots;
@@ -249,13 +251,16 @@ export function ScreenshotCarousel({
               data-shot
               className="group relative w-[min(100%,28rem)] shrink-0 snap-center overflow-hidden rounded-2xl border border-border/80 bg-card sm:w-[32rem]"
             >
-              <div
-                className="relative aspect-[16/10] overflow-hidden"
+              <button
+                type="button"
+                className="relative aspect-[16/10] w-full cursor-zoom-in overflow-hidden text-left"
                 style={{
                   background: accent
                     ? `linear-gradient(145deg, ${accent}22, transparent 55%), oklch(0.97 0.01 240)`
                     : undefined,
                 }}
+                aria-label={`View ${shot.title} full size`}
+                onClick={() => setPreviewIndex(index)}
               >
                 {inWindow ? (
                   <ScreenshotImage
@@ -273,12 +278,12 @@ export function ScreenshotCarousel({
                 {shot.kind ? (
                   <Badge
                     variant="secondary"
-                    className="absolute top-3 left-3 bg-background/90 backdrop-blur-sm"
+                    className="pointer-events-none absolute top-3 left-3 bg-background/90 backdrop-blur-sm"
                   >
                     {KIND_LABEL[shot.kind]}
                   </Badge>
                 ) : null}
-              </div>
+              </button>
               <figcaption className="space-y-1 border-t border-border/70 px-4 py-3">
                 <div className="text-sm font-medium">{shot.title}</div>
                 {shot.caption ? (
@@ -351,6 +356,11 @@ export function ScreenshotCarousel({
           </Button>
         </div>
       ) : null}
+
+      <ScreenshotPreview
+        shot={previewIndex !== null ? (items[previewIndex] ?? null) : null}
+        onClose={() => setPreviewIndex(null)}
+      />
     </section>
   );
 }

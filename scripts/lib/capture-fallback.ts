@@ -41,8 +41,8 @@ const REJECT_RE =
 
 const MIN_LIVE_SHOTS = 14;
 /** Soft gallery target — fallback tops up toward this when curated media exists */
-const GALLERY_TARGET = 32;
-const MAX_FALLBACK_SHOTS = 24;
+const GALLERY_TARGET = 120;
+const MAX_FALLBACK_SHOTS = 48;
 
 export function looksBlockedText(text: string) {
   return BLOCKED_RE.test(text);
@@ -69,6 +69,9 @@ export function needsWebFallback(
 ) {
   if (blockedNavigations >= 3) return true;
   if (liveShotCount < MIN_LIVE_SHOTS) return true;
+  // Always top up when curated YouTube / App Store / docs media exists —
+  // deep live playbooks still miss mobile store shots and video frames.
+  if (slug && hasCuratedMedia(slug)) return true;
   if (slug && liveShotCount < GALLERY_TARGET && hasCuratedMedia(slug)) return true;
   return false;
 }
@@ -594,9 +597,12 @@ export async function runWebFallback(options: {
   existingCount: number;
 }): Promise<FallbackShot[]> {
   const { slug, website, dir, existingCount } = options;
+  // Prefer topping up toward GALLERY_TARGET; when already past it still pull
+  // curated App Store / YouTube / docs images (budget = MAX_FALLBACK_SHOTS).
+  const towardTarget = Math.max(0, GALLERY_TARGET - existingCount);
   const budget = Math.min(
     MAX_FALLBACK_SHOTS,
-    Math.max(0, GALLERY_TARGET - existingCount),
+    towardTarget > 0 ? towardTarget : MAX_FALLBACK_SHOTS,
   );
   if (budget === 0) return [];
 

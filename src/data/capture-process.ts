@@ -186,6 +186,11 @@ export const CAPTURE_PIPELINE = [
   },
   {
     step: "5",
+    title: "Validate coverage",
+    body: "Check the gallery against the taxonomy layers. Thin coverage is fewer than 20 unique screenshots — flag missing layers, placeholder labels, and near-duplicates before treating a run as complete.",
+  },
+  {
+    step: "6",
     title: "Publish to the catalog",
     body: "Attach captures to the product record so detail pages and galleries stay in sync.",
   },

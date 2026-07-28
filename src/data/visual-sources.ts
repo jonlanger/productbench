@@ -36,6 +36,57 @@ import { GENERATED_VISUAL_SOURCES } from "./visual-sources-generated";
 
 /** Hand-curated sources — win over generated on key collision */
 const CURATED_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
+  "1password": {
+    homepage: "https://1password.com",
+    help: [
+      "https://support.1password.com/",
+      "https://support.1password.com/getting-started-browser/",
+      "https://support.1password.com/getting-started-mac/",
+      "https://support.1password.com/getting-started-windows/",
+      "https://support.1password.com/getting-started-ios/",
+      "https://support.1password.com/sidebar/",
+      "https://support.1password.com/watchtower/",
+      "https://support.1password.com/search-1password/",
+      "https://support.1password.com/create-share-vaults/",
+      "https://support.1password.com/share-items/",
+      "https://support.1password.com/autofill/",
+      "https://support.1password.com/password-generator/",
+      "https://support.1password.com/guides/",
+    ],
+    technical: [
+      "https://developer.1password.com/",
+      "https://developer.1password.com/docs/cli/get-started/",
+      "https://developer.1password.com/docs/ssh/",
+      "https://developer.1password.com/docs/sdks/",
+    ],
+    supporting: [
+      "https://1password.com/demos",
+      "https://1password.com/features",
+      "https://1password.com/features/watchtower",
+      "https://1password.com/features/autofill",
+      "https://1password.com/features/passkeys",
+      "https://1password.com/product/password-manager",
+      "https://1password.com/product/enterprise-password-manager",
+      "https://1password.com/pricing/password-manager",
+      "https://1password.com/business",
+      "https://1password.com/families",
+      "https://1password.com/downloads",
+      "https://watchtower.1password.com/",
+      "https://1password.com/blog/product-update-improvements-and-features",
+      "https://www.wired.com/review/1password-2025/",
+      "https://www.pcworld.com/article/3020324/1password-review-2.html",
+    ],
+    releases: ["https://1password.com/downloads/mac/release-notes"],
+    youtube: [
+      "https://www.youtube.com/watch?v=RzBAWGjgnAU",
+      "https://www.youtube.com/watch?v=3NIgBoVJ2FA",
+      "https://www.youtube.com/watch?v=dHjPQVrCC5E",
+      "https://www.youtube.com/watch?v=yrqkJsas7ng",
+    ],
+    appStoreId: "1511601750",
+    notes:
+      "Deep product UI lives in support how-tos, App Store shots, and demo/review pages — signed-in vault is not public.",
+  },
   notion: {
     homepage: "https://www.notion.com",
     help: [

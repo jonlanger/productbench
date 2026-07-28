@@ -82,7 +82,15 @@ const TITLE_RULES: CategoryRule[] = [
   {
     id: "auth",
     pattern:
-      /\b(sign[\s-]?in|sign[\s-]?up|log[\s-]?in|log[\s-]?on|register|onboarding|invite|password|sso|otp|verify)\b/i,
+      /\b(sign[\s-]?in|sign[\s-]?up|log[\s-]?in|log[\s-]?on|register|onboarding|invite|password[\s-]?(?:reset|change|recovery)|forgot[\s-]?password|sso|otp|verify|unlock\s+screen)\b/i,
+  },
+  {
+    id: "homepage",
+    pattern: /\b(homepage|landing|home\s+page|marketing\s+home)\b/i,
+  },
+  {
+    id: "marketing",
+    pattern: /\b(marketing|pricing|campaign|promo|feature\s+page|customers?)\b/i,
   },
   {
     id: "navigation",
@@ -100,27 +108,19 @@ const TITLE_RULES: CategoryRule[] = [
       /\b(dashboard|overview|home\s*\/\s*favorites|analytics|insights|summary|report)\b/i,
   },
   {
-    id: "collections",
-    pattern:
-      /\b(table|board|kanban|list|grid|feed|gallery|collection|inbox|queue)\b/i,
-  },
-  {
     id: "settings",
     pattern:
       /\b(settings|admin|members|preferences|account|billing|profile|permissions|workspace\s+settings)\b/i,
   },
   {
+    id: "collections",
+    pattern:
+      /\b(table|board|kanban|list|grid|feed|gallery|collection|inbox|queue)\b/i,
+  },
+  {
     id: "patterns",
     pattern:
-      /\b(docs?|help|support|api|guide|tutorial|reference|changelog|card|modal|dialog|drawer|sheet|toast|empty|tooltip|component|ui\s+detail)\b/i,
-  },
-  {
-    id: "homepage",
-    pattern: /\b(homepage|landing|home\s+page|marketing\s+home)\b/i,
-  },
-  {
-    id: "marketing",
-    pattern: /\b(marketing|pricing|campaign|promo|feature\s+page|customers?)\b/i,
+      /\b(docs?|help|support|api|guide|tutorial|reference|changelog|card|modal|dialog|drawer|sheet|toast|empty|tooltip|component|ui\s+detail|review)\b/i,
   },
   {
     id: "workspace",
@@ -152,6 +152,11 @@ function haystack(shot: ProductScreenshot): string {
     .join(" · ");
 }
 
+/** Title + playbook step only — avoids caption/URL keywords stealing categories. */
+function titleHaystack(shot: ProductScreenshot): string {
+  return [shot.title, shot.playbookStep].filter(Boolean).join(" · ");
+}
+
 export function categorizeScreenshot(
   shot: ProductScreenshot,
 ): ScreenCategoryId {
@@ -159,8 +164,12 @@ export function categorizeScreenshot(
   // (e.g. Notion’s “Home / Favorites”).
   if (shot.kind === "homepage") return "homepage";
 
-  const text = haystack(shot);
+  const titleText = titleHaystack(shot);
+  for (const rule of TITLE_RULES) {
+    if (rule.pattern.test(titleText)) return rule.id;
+  }
 
+  const text = haystack(shot);
   for (const rule of TITLE_RULES) {
     if (rule.pattern.test(text)) return rule.id;
   }

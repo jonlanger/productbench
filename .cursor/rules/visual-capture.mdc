@@ -13,14 +13,26 @@ When the user asks to capture screenshots, UI details, product visuals, enrich p
    - One product: `npm run capture:ui -- --slug=<slug>`
    - Catalog: `npm run capture:ui -- --all` (optional `--limit=N`)
    - First-time setup: `npm run capture:install`
+   - Validate coverage (standalone): `npm run validate:ui -- --slug=<slug>` (or `--all`)
 
-3. **What capture writes**
-   - Screenshots → `public/products/[slug]/` + `products.screenshots`
-   - Structured insights → `insights.json` + `products.capture_insights` (nav, CTAs, headings, tech/pattern signals, pages visited)
+3. **Always validate after capture** — `capture:ui` writes a taxonomy coverage report automatically, but treat capture as incomplete until you have reviewed it:
+   - Read / print the coverage summary (pass/fail, score, thin layers)
+   - Or re-run: `npm run validate:ui -- --slug=<slug>`
+   - Report per-layer counts (surface / component / state / structure / source), thin flags, placeholder labels, and near-duplicates to the user
+   - Do **not** declare the run “done” solely because Playwright exited 0 — a FAIL coverage score means the gallery still needs a deeper playbook, curated `visual-sources`, or a re-capture
+   - Artifacts: Postgres + Storage (remote); or `public/products/[slug]/` with `--local`
+
+4. **What capture writes**
+   - **Default (remote):** when `SUPABASE_SERVICE_ROLE_KEY` is set, capture uses a temp workspace, uploads binaries to Storage bucket `product-screenshots`, syncs metadata to Postgres, and **does not** write under `public/products/`
+   - **`--local`:** persist screenshots + manifest/insights/coverage under `public/products/[slug]/` (debug / offline)
+   - `--skip-storage` forces local persistence even when Storage is configured
+   - Structured insights → `products.capture_insights` (+ local `insights.json` in `--local` mode)
    - Soft-merge into curated fields: `metrics.screenCount` / `pageCount`, `ux.patterns`, `ux.keyScreens`, `features`, `platforms`, `techStack` (append-only, does not wipe seed copy)
+   - Coverage → printed after each run; `coverage.json` only in `--local` mode
+   - Backfill legacy local trees with `npm run storage:sync-screenshots`
 
-4. **Goal is volume + detail**: full surfaces, scroll bands, mobile viewport, cards, menus, modals, composers, docs/help URLs — as many public shots as practical.
+5. **Goal is volume + detail**: full surfaces, scroll bands, mobile viewport, cards, menus, modals, composers, docs/help URLs — as many public shots as practical. Thin = fewer than **20 unique** screenshots (distinct layouts/states/frames — not near-duplicate crops).
 
-5. **Custom playbooks**: for complex products, extend `scripts/capture-product-ui.ts` (Airbnb is the template). Curate alternate hosts / YouTube demos in `src/data/visual-sources.ts`. Manual browser MCP is fine for exploration; Playwright is the durable path.
+6. **Custom playbooks**: for complex products, extend `scripts/capture-product-ui.ts` (Airbnb is the template). Curate alternate hosts / YouTube demos in `src/data/visual-sources.ts`. Manual browser MCP is fine for exploration; Playwright is the durable path. Coverage validation is the durable check that playbooks meet the taxonomy — not a chat-only reminder.
 
-6. **Public Process page** (`/process`) stays high-level — do not put npm/Playwright internals on that page. Operator details live in README and this rule.
+7. **Public Process page** (`/process`) stays high-level — do not put npm/Playwright internals on that page. Operator details live in README and this rule.

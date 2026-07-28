@@ -7,5 +7,5 @@ This version has breaking changes — APIs, conventions, and file structure may 
 <!-- BEGIN:visual-capture -->
 # Visual capture
 
-For product screenshots / UI galleries, use the Playwright agent (`npm run capture:ui`), not OG scrapers, unless asked otherwise. See `.cursor/rules/visual-capture.mdc`.
+For product screenshots / UI galleries, use the Playwright agent (`npm run capture:ui`), then confirm coverage with `npm run validate:ui` (or the report printed at the end of capture). See `.cursor/rules/visual-capture.mdc`.
 <!-- END:visual-capture -->
