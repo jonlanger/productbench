@@ -57,6 +57,9 @@ import {
   extractPageInsight,
   extractRawSignals,
 } from "./lib/extract-page-insights";
+import { syncProductScreenshotsToStorage } from "./lib/sync-product-screenshots-storage";
+import { hasStorageUploadConfig } from "./lib/supabase-admin";
+import { PRODUCT_SCREENSHOTS_BUCKET } from "../src/lib/product-screenshots";
 
 config({ path: ".env.local" });
 config();
@@ -1622,6 +1625,27 @@ async function captureProduct(
   writeFileSync(insightsPath, JSON.stringify(mergedInsights, null, 2));
 
   await syncDb(product, mergedShots, mergedInsights);
+
+  if (hasStorageUploadConfig() && !argFlag("skip-storage")) {
+    try {
+      const storage = await syncProductScreenshotsToStorage(product.slug);
+      if (storage.skipped) {
+        console.log(`  storage: skipped (${storage.reason})`);
+      } else {
+        console.log(
+          `  storage: uploaded ${storage.uploaded} → ${PRODUCT_SCREENSHOTS_BUCKET}/${product.slug}/ · rewrote ${storage.rewritten} DB src(s)`,
+        );
+      }
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      console.log(`  storage: failed (${message.slice(0, 120)})`);
+    }
+  } else if (!argFlag("skip-storage")) {
+    console.log(
+      "  storage: skipped (set SUPABASE_SERVICE_ROLE_KEY to upload after capture)",
+    );
+  }
+
   return mergedShots;
 }
 

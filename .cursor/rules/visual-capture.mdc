@@ -23,10 +23,12 @@ When the user asks to capture screenshots, UI details, product visuals, enrich p
    - Artifacts: `public/products/[slug]/coverage.json` (+ `manifest.json`, `insights.json`)
 
 4. **What capture writes**
-   - Screenshots → `public/products/[slug]/` + `products.screenshots` (PNG at 2× device scale)
+   - Screenshots → `public/products/[slug]/` (local capture workspace) + `products.screenshots`
+   - When `SUPABASE_SERVICE_ROLE_KEY` is set: upload binaries to Storage bucket `product-screenshots` and rewrite DB `src` to public URLs (skip with `--skip-storage`)
    - Structured insights → `insights.json` + `products.capture_insights` (nav, CTAs, headings, tech/pattern signals, pages visited)
    - Soft-merge into curated fields: `metrics.screenCount` / `pageCount`, `ux.patterns`, `ux.keyScreens`, `features`, `platforms`, `techStack` (append-only, does not wipe seed copy)
    - Coverage → `coverage.json` (taxonomy check vs `src/data/capture-process.ts`)
+   - Do **not** treat git as the long-term home for image binaries — sync to Storage for deploys; backfill with `npm run storage:sync-screenshots`
 
 5. **Goal is volume + detail**: full surfaces, scroll bands, mobile viewport, cards, menus, modals, composers, docs/help URLs — as many public shots as practical. Thin = fewer than **20 unique** screenshots (distinct layouts/states/frames — not near-duplicate crops).
 

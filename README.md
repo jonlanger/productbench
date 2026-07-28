@@ -6,7 +6,7 @@ Research catalog of enterprise, consumer, and industrial software — UX pattern
 
 - Next.js (App Router)
 - Supabase Postgres (via Drizzle ORM)
-- Supabase client ready for Storage (screenshots)
+- Supabase Storage for product screenshots (local `public/products` is the capture workspace)
 
 Without `DATABASE_URL`, the app falls back to the TypeScript seed catalog in `src/data/`.
 
@@ -37,11 +37,14 @@ Fill in:
 ```env
 DATABASE_URL=postgresql://...
 NEXT_PUBLIC_SUPABASE_URL=https://[PROJECT-REF].supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your-publishable-key
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 ADMIN_EMAILS=you@example.com
 ```
 
 `ADMIN_EMAILS` is a comma-separated allowlist. Those accounts see the full catalog (including products with `is_public = false`). Guests and non-admin accounts only see the public set (the current ~50 products).
+
+`SUPABASE_SERVICE_ROLE_KEY` is for **scripts only** (capture → Storage upload). Never put it in client-side env or commit it.
 
 Enable **Email** auth in the Supabase dashboard (**Authentication → Providers**). Add your site URL and `/auth/callback` under **Authentication → URL Configuration**.
 
@@ -52,11 +55,12 @@ npm run db:push
 npm run db:seed
 npm run db:setup-avatars
 npm run db:setup-submissions
+npm run storage:setup-screenshots
 ```
 
 `db:setup-avatars` creates a public Supabase Storage bucket for profile photos (used on `/account`).
 `db:setup-submissions` creates storage for user-submitted product screenshots (reviewed at `/admin/submissions`).
-
+`storage:setup-screenshots` creates the public `product-screenshots` bucket for catalog captures.
 ### 5. Run the app
 
 ```bash
@@ -96,7 +100,18 @@ Each run also extracts **live insights** (nav labels, CTAs, headings, tech/patte
 
 After shots are written, capture runs a **coverage validation** against the taxonomy in `src/data/capture-process.ts` (surface / component / state / structure / source). Thin = fewer than 20 unique screenshots. Results land in `coverage.json` and are printed in the capture summary; re-run anytime with `npm run validate:ui`.
 
-Images land under `public/products/[slug]/` with a `manifest.json` + `insights.json`, then sync to the database. Live captures are **PNG at 2× device scale** (sharp UI/text); fallback assets may still be JPEG.
+Images land under `public/products/[slug]/` (capture workspace) with a `manifest.json` + `insights.json`, then sync to the database. When `SUPABASE_SERVICE_ROLE_KEY` is set, capture also **uploads binaries to Supabase Storage** (`product-screenshots` bucket) and rewrites `products.screenshots[].src` to public Storage URLs for production. Live captures are **PNG at 2× device scale**; fallback assets may still be JPEG.
+
+```bash
+# One-time: create the public product-screenshots bucket
+npm run storage:setup-screenshots
+
+# Backfill existing local captures → Storage + DB URL rewrite
+npm run storage:sync-screenshots -- --slug=notion
+npm run storage:sync-screenshots -- --all --limit=10
+```
+
+Local `public/products` stays for Playwright dedupe/validation; Storage is the deploy source of truth once synced. Prefer not committing large new image trees to git as the catalog grows.
 
 See **[/process](/process)** for the capture taxonomy (cards, modals, menus, states, limits).
 
@@ -106,10 +121,12 @@ See **[/process](/process)** for the capture taxonomy (cards, modals, menus, sta
 | `npm run db:seed` | Upsert all products from `src/data/` |
 | `npm run db:setup-avatars` | Create public Storage bucket + RLS for profile photos |
 | `npm run db:setup-submissions` | Create Storage bucket + RLS for screenshot submissions |
+| `npm run storage:setup-screenshots` | Create public `product-screenshots` Storage bucket |
+| `npm run storage:sync-screenshots` | Upload local captures → Storage and rewrite DB `src` |
 | `npm run db:collect-screenshots` | Collect OG/marketing gallery images into Supabase |
 | `npm run db:enrich-screenshots` | Prefer docs UI images over OG cards |
 | `npm run capture:install` | Install Playwright Chromium |
-| `npm run capture:ui -- --slug=…` | Capture one product (with web fallback + coverage) |
+| `npm run capture:ui -- --slug=…` | Capture one product (fallback + coverage + Storage upload) |
 | `npm run capture:ui -- --all` | Capture every product |
 | `npm run validate:ui -- --slug=…` | Taxonomy coverage report for an already-captured product |
 | `npm run validate:ui -- --all` | Coverage report for every captured product |
