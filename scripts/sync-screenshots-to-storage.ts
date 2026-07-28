@@ -50,7 +50,7 @@ async function main() {
       [
         "Usage:",
         "  npm run storage:sync-screenshots -- --slug=<product>",
-        "  npm run storage:sync-screenshots -- --all [--limit=N]",
+        "  npm run storage:sync-screenshots -- --all [--limit=N] [--offset=N]",
         "",
         "Requires NEXT_PUBLIC_SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY.",
         "Create the bucket first: npm run storage:setup-screenshots",
@@ -67,6 +67,8 @@ async function main() {
   }
 
   let slugs = runAll ? listLocalSlugs() : [slug!];
+  const offset = Number(argValue("offset") ?? "0");
+  if (offset > 0) slugs = slugs.slice(offset);
   if (limit > 0) slugs = slugs.slice(0, limit);
 
   if (slugs.length === 0) {

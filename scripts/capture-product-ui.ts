@@ -12,6 +12,7 @@
  * Usage:
  *   npm run capture:ui -- --slug=notion
  *   npm run capture:ui -- --all [--limit=N] [--offset=N] [--skip-captured]
+ *   npm run capture:ui -- --local          # persist under public/products/ (debug)
  *
  * Docs: https://playwright.dev/docs/intro
  */
@@ -45,9 +46,19 @@ import {
 } from "./lib/capture-fallback";
 import {
   formatCoverageReport,
+  validateCaptureData,
   validateProductCapture,
   type CoverageReport,
 } from "./lib/capture-coverage";
+import {
+  captureWorkspaceDir,
+  cleanupCaptureDir,
+  ensureCaptureDir,
+  loadCapturedSlugsFromDb,
+  loadPriorCaptureFromDb,
+  productHasLocalCapture,
+  useRemoteCapture,
+} from "./lib/capture-workspace";
 import { ShotDedupeRegistry } from "./lib/image-dedupe";
 import {
   aggregateInsights,
@@ -59,7 +70,12 @@ import {
 } from "./lib/extract-page-insights";
 import { syncProductScreenshotsToStorage } from "./lib/sync-product-screenshots-storage";
 import { hasStorageUploadConfig } from "./lib/supabase-admin";
-import { PRODUCT_SCREENSHOTS_BUCKET } from "../src/lib/product-screenshots";
+import {
+  localProductScreenshotSrc,
+  PRODUCT_SCREENSHOTS_BUCKET,
+  productScreenshotPublicUrl,
+  screenshotFileName,
+} from "../src/lib/product-screenshots";
 
 config({ path: ".env.local" });
 config();
@@ -1264,21 +1280,50 @@ function mergeUnique(existing: string[], incoming: string[], maxExtra = 12) {
   return merged;
 }
 
-/** Post-capture taxonomy check — writes coverage.json and prints the report. */
-function validateAndWriteCoverage(slug: string): CoverageReport {
-  const report = validateProductCapture(slug);
+/** Post-capture taxonomy check — writes coverage.json locally only in --local mode. */
+function validateAndWriteCoverage(
+  slug: string,
+  remote: boolean,
+  shots?: Parameters<typeof validateCaptureData>[1],
+  insights?: Parameters<typeof validateCaptureData>[2],
+): CoverageReport {
+  const report =
+    shots != null
+      ? validateCaptureData(slug, shots, insights ?? null)
+      : validateProductCapture(slug);
+
+  console.log(formatCoverageReport(report));
+
+  if (remote) {
+    console.log("  coverage validated (remote — not written locally)");
+    return report;
+  }
+
   const dir = join(process.cwd(), "public/products", slug);
   if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
   writeFileSync(join(dir, "coverage.json"), JSON.stringify(report, null, 2));
-  console.log(formatCoverageReport(report));
   console.log(`  wrote public/products/${slug}/coverage.json`);
   return report;
+}
+
+function screenshotSrc(slug: string, file: string, remote: boolean): string {
+  if (remote) {
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    if (!supabaseUrl) {
+      throw new Error(
+        "NEXT_PUBLIC_SUPABASE_URL required for remote capture",
+      );
+    }
+    return productScreenshotPublicUrl(supabaseUrl, slug, file);
+  }
+  return localProductScreenshotSrc(slug, file);
 }
 
 async function syncDb(
   product: ProductTarget,
   shots: CaptureShot[],
   insights: ReturnType<typeof aggregateInsights>,
+  remote: boolean,
 ) {
   const url = process.env.DATABASE_URL;
   if (!url) {
@@ -1288,7 +1333,7 @@ async function syncDb(
 
   const screenshots: ProductScreenshot[] = shots.map((shot) => ({
     title: shot.title,
-    src: `/products/${product.slug}/${shot.file}`,
+    src: screenshotSrc(product.slug, shot.file, remote),
     caption: shot.caption,
     kind: shot.kind,
     sourceUrl: shot.sourceUrl,
@@ -1342,14 +1387,16 @@ async function syncDb(
     .from(productsTable)
     .where(eq(productsTable.slug, product.slug));
   const prior = (existing[0]?.screenshots as ProductScreenshot[] | null) ?? [];
-  const bySrc = new Map<string, ProductScreenshot>();
+  const byFile = new Map<string, ProductScreenshot>();
   for (const shot of prior) {
-    if (shot?.src) bySrc.set(shot.src, shot);
+    const file = screenshotFileName(shot.src);
+    if (file) byFile.set(file, shot);
   }
   for (const shot of screenshots) {
-    bySrc.set(shot.src, shot);
+    const file = screenshotFileName(shot.src);
+    if (file) byFile.set(file, shot);
   }
-  const mergedScreenshots = [...bySrc.values()];
+  const mergedScreenshots = [...byFile.values()];
 
   const metrics: ProductMetrics = {
     ...product.metrics,
@@ -1408,9 +1455,17 @@ async function notePage(
 async function captureProduct(
   page: Page,
   product: ProductTarget,
-): Promise<CaptureShot[]> {
-  const dir = join(process.cwd(), "public/products", product.slug);
-  mkdirSync(dir, { recursive: true });
+): Promise<{
+  shots: CaptureShot[];
+  insights: ReturnType<typeof aggregateInsights>;
+}> {
+  const remote = useRemoteCapture();
+  const dir = captureWorkspaceDir(product.slug, remote);
+  ensureCaptureDir(dir);
+
+  if (remote) {
+    console.log(`  workspace: temp (remote → ${PRODUCT_SCREENSHOTS_BUCKET})`);
+  }
 
   const shots = playbookFor(product);
   const mode = SPECIFIC_PLAYBOOKS[product.slug] ? "specific" : "generic";
@@ -1529,17 +1584,25 @@ async function captureProduct(
     }
   }
 
-  // Soft-merge local manifest so a thin re-capture never drops prior shot records
-  const manifestPath = join(dir, "manifest.json");
+  // Soft-merge prior shots so a thin re-capture never drops prior records
   let priorShots: CaptureShot[] = [];
-  if (existsSync(manifestPath)) {
-    try {
-      const priorManifest = JSON.parse(
-        readFileSync(manifestPath, "utf8"),
-      ) as { shots?: CaptureShot[]; screenshots?: CaptureShot[] };
-      priorShots = priorManifest.shots ?? priorManifest.screenshots ?? [];
-    } catch {
-      /* ignore corrupt prior manifest */
+  let priorInsights: ReturnType<typeof aggregateInsights> | null = null;
+
+  if (remote) {
+    const prior = await loadPriorCaptureFromDb(product.slug);
+    priorShots = prior.shots as CaptureShot[];
+    priorInsights = prior.insights;
+  } else {
+    const manifestPath = join(dir, "manifest.json");
+    if (existsSync(manifestPath)) {
+      try {
+        const priorManifest = JSON.parse(
+          readFileSync(manifestPath, "utf8"),
+        ) as { shots?: CaptureShot[]; screenshots?: CaptureShot[] };
+        priorShots = priorManifest.shots ?? priorManifest.screenshots ?? [];
+      } catch {
+        /* ignore corrupt prior manifest */
+      }
     }
   }
 
@@ -1562,91 +1625,155 @@ async function captureProduct(
 
   // Prefer richer prior insights when this run was thin / blocked
   let mergedInsights = insights;
-  const insightsPath = join(dir, "insights.json");
-  if (existsSync(insightsPath)) {
-    try {
-      const priorInsights = JSON.parse(
-        readFileSync(insightsPath, "utf8"),
-      ) as typeof insights;
-      if (
-        (priorInsights.pageCount ?? 0) > insights.pageCount ||
-        (priorInsights.pages?.length ?? 0) > (insights.pages?.length ?? 0)
-      ) {
-        mergedInsights = {
-          ...priorInsights,
-          screenshotCount: mergedShots.length,
-          capturedAt: insights.capturedAt,
-          featureCandidates: mergeUnique(
-            priorInsights.featureCandidates ?? [],
-            insights.featureCandidates ?? [],
-            24,
-          ),
-          patternCandidates: mergeUnique(
-            priorInsights.patternCandidates ?? [],
-            insights.patternCandidates ?? [],
-            16,
-          ),
-          techSignals: mergeUnique(
-            priorInsights.techSignals ?? [],
-            insights.techSignals ?? [],
-            16,
-          ),
-          platformsDetected: mergeUnique(
-            priorInsights.platformsDetected ?? [],
-            insights.platformsDetected ?? [],
-            6,
-          ) as typeof insights.platformsDetected,
-          summary: `Captured ${mergedShots.length} screenshots across ${Math.max(priorInsights.pageCount ?? 0, insights.pageCount)} public URLs.`,
-        };
+  if (remote && priorInsights) {
+    if (
+      (priorInsights.pageCount ?? 0) > insights.pageCount ||
+      (priorInsights.pages?.length ?? 0) > (insights.pages?.length ?? 0)
+    ) {
+      mergedInsights = {
+        ...priorInsights,
+        screenshotCount: mergedShots.length,
+        capturedAt: insights.capturedAt,
+        featureCandidates: mergeUnique(
+          priorInsights.featureCandidates ?? [],
+          insights.featureCandidates ?? [],
+          24,
+        ),
+        patternCandidates: mergeUnique(
+          priorInsights.patternCandidates ?? [],
+          insights.patternCandidates ?? [],
+          16,
+        ),
+        techSignals: mergeUnique(
+          priorInsights.techSignals ?? [],
+          insights.techSignals ?? [],
+          16,
+        ),
+        platformsDetected: mergeUnique(
+          priorInsights.platformsDetected ?? [],
+          insights.platformsDetected ?? [],
+          6,
+        ) as typeof insights.platformsDetected,
+        summary: `Captured ${mergedShots.length} screenshots across ${Math.max(priorInsights.pageCount ?? 0, insights.pageCount)} public URLs.`,
+      };
+    }
+  } else if (!remote) {
+    const insightsPath = join(dir, "insights.json");
+    if (existsSync(insightsPath)) {
+      try {
+        const priorInsightsLocal = JSON.parse(
+          readFileSync(insightsPath, "utf8"),
+        ) as typeof insights;
+        if (
+          (priorInsightsLocal.pageCount ?? 0) > insights.pageCount ||
+          (priorInsightsLocal.pages?.length ?? 0) > (insights.pages?.length ?? 0)
+        ) {
+          mergedInsights = {
+            ...priorInsightsLocal,
+            screenshotCount: mergedShots.length,
+            capturedAt: insights.capturedAt,
+            featureCandidates: mergeUnique(
+              priorInsightsLocal.featureCandidates ?? [],
+              insights.featureCandidates ?? [],
+              24,
+            ),
+            patternCandidates: mergeUnique(
+              priorInsightsLocal.patternCandidates ?? [],
+              insights.patternCandidates ?? [],
+              16,
+            ),
+            techSignals: mergeUnique(
+              priorInsightsLocal.techSignals ?? [],
+              insights.techSignals ?? [],
+              16,
+            ),
+            platformsDetected: mergeUnique(
+              priorInsightsLocal.platformsDetected ?? [],
+              insights.platformsDetected ?? [],
+              6,
+            ) as typeof insights.platformsDetected,
+            summary: `Captured ${mergedShots.length} screenshots across ${Math.max(priorInsightsLocal.pageCount ?? 0, insights.pageCount)} public URLs.`,
+          };
+        }
+      } catch {
+        /* ignore */
       }
-    } catch {
-      /* ignore */
     }
   }
 
-  writeFileSync(
-    manifestPath,
-    JSON.stringify(
-      {
-        slug: product.slug,
-        capturedAt: mergedInsights.capturedAt,
-        shots: mergedShots,
-        insights: mergedInsights,
-        fallback:
-          blockedNavigations > 0 ||
-          mergedShots.some((s) => s.file.startsWith("fallback-"))
-            ? { blockedNavigations }
-            : undefined,
-      },
-      null,
-      2,
-    ),
-  );
-  writeFileSync(insightsPath, JSON.stringify(mergedInsights, null, 2));
-
-  await syncDb(product, mergedShots, mergedInsights);
-
-  if (hasStorageUploadConfig() && !argFlag("skip-storage")) {
-    try {
-      const storage = await syncProductScreenshotsToStorage(product.slug);
-      if (storage.skipped) {
-        console.log(`  storage: skipped (${storage.reason})`);
-      } else {
-        console.log(
-          `  storage: uploaded ${storage.uploaded} → ${PRODUCT_SCREENSHOTS_BUCKET}/${product.slug}/ · rewrote ${storage.rewritten} DB src(s)`,
-        );
-      }
-    } catch (error) {
-      const message = error instanceof Error ? error.message : String(error);
-      console.log(`  storage: failed (${message.slice(0, 120)})`);
-    }
-  } else if (!argFlag("skip-storage")) {
-    console.log(
-      "  storage: skipped (set SUPABASE_SERVICE_ROLE_KEY to upload after capture)",
+  if (!remote) {
+    const manifestPath = join(dir, "manifest.json");
+    writeFileSync(
+      manifestPath,
+      JSON.stringify(
+        {
+          slug: product.slug,
+          capturedAt: mergedInsights.capturedAt,
+          shots: mergedShots,
+          insights: mergedInsights,
+          fallback:
+            blockedNavigations > 0 ||
+            mergedShots.some((s) => s.file.startsWith("fallback-"))
+              ? { blockedNavigations }
+              : undefined,
+        },
+        null,
+        2,
+      ),
+    );
+    writeFileSync(
+      join(dir, "insights.json"),
+      JSON.stringify(mergedInsights, null, 2),
     );
   }
 
-  return mergedShots;
+  if (remote) {
+    if (!hasStorageUploadConfig()) {
+      throw new Error(
+        "Remote capture requires SUPABASE_SERVICE_ROLE_KEY and NEXT_PUBLIC_SUPABASE_URL (or pass --local)",
+      );
+    }
+
+    const storage = await syncProductScreenshotsToStorage(product.slug, {
+      dir,
+      skipDb: true,
+    });
+    if (storage.skipped) {
+      throw new Error(`Storage upload failed: ${storage.reason ?? "unknown"}`);
+    }
+    console.log(
+      `  storage: uploaded ${storage.uploaded} → ${PRODUCT_SCREENSHOTS_BUCKET}/${product.slug}/`,
+    );
+
+    await syncDb(product, mergedShots, mergedInsights, true);
+    cleanupCaptureDir(dir, true);
+  } else {
+    await syncDb(product, mergedShots, mergedInsights, false);
+
+    if (hasStorageUploadConfig() && !argFlag("skip-storage")) {
+      try {
+        const storage = await syncProductScreenshotsToStorage(product.slug, {
+          dir,
+        });
+        if (storage.skipped) {
+          console.log(`  storage: skipped (${storage.reason})`);
+        } else {
+          console.log(
+            `  storage: uploaded ${storage.uploaded} → ${PRODUCT_SCREENSHOTS_BUCKET}/${product.slug}/ · rewrote ${storage.rewritten} DB src(s)`,
+          );
+        }
+      } catch (error) {
+        const message = error instanceof Error ? error.message : String(error);
+        console.log(`  storage: failed (${message.slice(0, 120)})`);
+      }
+    } else if (!argFlag("skip-storage")) {
+      console.log(
+        "  storage: skipped (set SUPABASE_SERVICE_ROLE_KEY to upload after capture)",
+      );
+    }
+  }
+
+  return { shots: mergedShots, insights: mergedInsights };
 }
 
 async function main() {
@@ -1663,6 +1790,7 @@ async function main() {
         "  npm run capture:ui -- --slug=<product>",
         "  npm run capture:ui -- --all [--limit=N] [--offset=N] [--skip-captured]",
         "  npm run capture:ui -- --slug=notion --headed",
+        "  npm run capture:ui -- --slug=notion --local",
       ].join("\n"),
     );
     process.exit(1);
@@ -1676,12 +1804,15 @@ async function main() {
 
   if (skipCaptured) {
     const before = targets.length;
-    targets = targets.filter(
-      (product) =>
-        !existsSync(
-          join(process.cwd(), "public/products", product.slug, "manifest.json"),
-        ),
-    );
+    const remoteSkip = useRemoteCapture();
+    if (remoteSkip) {
+      const captured = await loadCapturedSlugsFromDb();
+      targets = targets.filter((product) => !captured.has(product.slug));
+    } else {
+      targets = targets.filter(
+        (product) => !productHasLocalCapture(product.slug),
+      );
+    }
     console.log(`Skipping ${before - targets.length} already-captured products`);
   }
 
@@ -1695,6 +1826,13 @@ async function main() {
   if (queue.length === 0) {
     console.log("Nothing to capture.");
     process.exit(0);
+  }
+
+  const remote = useRemoteCapture();
+  if (remote) {
+    console.log(
+      "Remote capture: screenshots → Supabase Storage + Postgres (no public/products/ writes)",
+    );
   }
 
   console.log(`Capturing ${queue.length} product(s)…`);
@@ -1712,8 +1850,13 @@ async function main() {
   const summary: Array<{ slug: string; count: number; pass?: boolean; score?: number }> =
     [];
   for (const product of queue) {
-    const captured = await captureProduct(page, product);
-    const coverage = validateAndWriteCoverage(product.slug);
+    const { shots: captured, insights } = await captureProduct(page, product);
+    const coverage = validateAndWriteCoverage(
+      product.slug,
+      remote,
+      captured,
+      insights,
+    );
     summary.push({
       slug: product.slug,
       count: captured.length,

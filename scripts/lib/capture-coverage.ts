@@ -17,6 +17,7 @@ import type {
   ProductScreenshot,
   ProductScreenshotKind,
 } from "../../src/data/types";
+import { screenshotFileName } from "../../src/lib/product-screenshots";
 import { hammingDistance } from "./image-dedupe";
 
 /** Overall thin coverage: fewer than this many unique shots. */
@@ -317,12 +318,15 @@ function scoreReport(input: {
   );
 }
 
-export function validateProductCapture(slug: string): CoverageReport {
-  const dir = join(process.cwd(), "public/products", slug);
+export function validateCaptureData(
+  slug: string,
+  shots: ManifestShot[],
+  insights: ProductCaptureInsights | null,
+): CoverageReport {
   const issues: CoverageIssue[] = [];
   const checkedAt = new Date().toISOString();
 
-  if (!existsSync(dir)) {
+  if (shots.length === 0 && !insights) {
     return {
       slug,
       checkedAt,
@@ -349,7 +353,7 @@ export function validateProductCapture(slug: string): CoverageReport {
         {
           code: "missing-artifacts",
           severity: "error",
-          message: `No capture directory at public/products/${slug}`,
+          message: `No capture data for ${slug}`,
         },
       ],
       score: 0,
@@ -358,8 +362,6 @@ export function validateProductCapture(slug: string): CoverageReport {
     };
   }
 
-  const shots = loadManifestShots(dir);
-  const insights = loadInsights(dir);
   const { count: nearDuplicateCount, pairs: dupPairs } =
     countNearDuplicates(shots);
   const uniqueShots = computeUniqueCount(shots, nearDuplicateCount);
@@ -513,12 +515,24 @@ export function validateProductCapture(slug: string): CoverageReport {
   };
 }
 
+export function validateProductCapture(slug: string): CoverageReport {
+  const dir = join(process.cwd(), "public/products", slug);
+
+  if (!existsSync(dir)) {
+    return validateCaptureData(slug, [], null);
+  }
+
+  const shots = loadManifestShots(dir);
+  const insights = loadInsights(dir);
+  return validateCaptureData(slug, shots, insights);
+}
+
 /** Map DB ProductScreenshot[] into ManifestShot shape for validation without disk. */
 export function screenshotsToManifestShots(
   shots: ProductScreenshot[],
 ): ManifestShot[] {
   return shots.map((s) => ({
-    file: s.src?.split("/").pop() ?? s.title,
+    file: screenshotFileName(s.src) ?? s.title,
     title: s.title,
     caption: s.caption,
     kind: s.kind,

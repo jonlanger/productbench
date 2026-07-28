@@ -17,10 +17,8 @@ import {
   productScreenshotPublicUrl,
   screenshotFileName,
 } from "../../src/lib/product-screenshots";
-import {
-  createServiceRoleClient,
-  hasStorageUploadConfig,
-} from "./supabase-admin";
+import { hasStorageUploadConfig } from "./supabase-admin";
+import { uploadStorageObject } from "./storage-upload";
 
 const IMAGE_RE = /\.(png|jpe?g|webp|gif)$/i;
 
@@ -50,7 +48,7 @@ export type SyncStorageResult = {
 
 export async function syncProductScreenshotsToStorage(
   slug: string,
-  options: { skipDb?: boolean } = {},
+  options: { skipDb?: boolean; dir?: string } = {},
 ): Promise<SyncStorageResult> {
   if (!hasStorageUploadConfig()) {
     return {
@@ -58,19 +56,20 @@ export async function syncProductScreenshotsToStorage(
       uploaded: 0,
       skipped: true,
       reason:
-        "SUPABASE_SERVICE_ROLE_KEY / NEXT_PUBLIC_SUPABASE_URL not set — skipping Storage upload",
+        "NEXT_PUBLIC_SUPABASE_URL / Supabase API key not set — skipping Storage upload",
       rewritten: 0,
     };
   }
 
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-  const dir = join(process.cwd(), "public/products", slug);
+  const dir =
+    options.dir ?? join(process.cwd(), "public/products", slug);
   if (!existsSync(dir)) {
     return {
       slug,
       uploaded: 0,
       skipped: true,
-      reason: `No local directory public/products/${slug}`,
+      reason: `No capture directory at ${dir}`,
       rewritten: 0,
     };
   }
@@ -86,22 +85,12 @@ export async function syncProductScreenshotsToStorage(
     };
   }
 
-  const supabase = createServiceRoleClient();
   let uploaded = 0;
 
   for (const file of files) {
     const objectPath = productScreenshotObjectPath(slug, file);
     const body = readFileSync(join(dir, file));
-    const { error } = await supabase.storage
-      .from(PRODUCT_SCREENSHOTS_BUCKET)
-      .upload(objectPath, body, {
-        upsert: true,
-        contentType: contentTypeFor(file),
-        cacheControl: "31536000",
-      });
-    if (error) {
-      throw new Error(`Upload failed for ${objectPath}: ${error.message}`);
-    }
+    await uploadStorageObject(objectPath, body, contentTypeFor(file));
     uploaded += 1;
   }
 

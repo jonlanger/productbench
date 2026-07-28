@@ -1,7 +1,7 @@
 /**
  * Product catalog screenshots in Supabase Storage.
- * Local `public/products/[slug]/` remains the Playwright capture workspace;
- * Storage is the production source of truth once synced.
+ * Playwright capture uses a temp workspace when Storage is configured;
+ * `public/products/[slug]/` is only used with `--local`.
  */
 
 export const PRODUCT_SCREENSHOTS_BUCKET = "product-screenshots";

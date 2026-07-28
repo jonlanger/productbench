@@ -44,3 +44,6 @@ next-env.d.ts
 # generated research artifacts
 /src/data/collected-screenshots.json
 /drizzle
+
+# Playwright capture workspace (remote capture uses temp; legacy local runs)
+/public/products/
