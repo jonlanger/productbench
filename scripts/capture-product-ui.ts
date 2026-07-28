@@ -69,7 +69,6 @@ import {
   captureScrollBands,
   captureViewportVariants,
   clickFirst,
-  dismissNoise,
   gotoReady as gotoReadyBase,
   saveLocatorScreenshot,
   saveScreenshot,
