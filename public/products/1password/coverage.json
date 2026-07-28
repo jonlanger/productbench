@@ -1,0 +1,151 @@
+{
+  "slug": "1password",
+  "checkedAt": "2026-07-28T13:00:37.335Z",
+  "totalShots": 169,
+  "uniqueShots": 141,
+  "nearDuplicateCount": 28,
+  "placeholderCount": 21,
+  "thinTotal": false,
+  "layers": [
+    {
+      "layer": "surface",
+      "title": "Surfaces",
+      "targets": [
+        "Homepage / marketing entry",
+        "Primary product surfaces"
+      ],
+      "shotCount": 151,
+      "uniqueCount": 130,
+      "thin": false,
+      "minUnique": 8,
+      "evidence": [
+        "151 screenshot(s)"
+      ],
+      "sampleTitles": [
+        "Homepage / landing",
+        "Homepage depth (2)",
+        "Homepage depth (3)",
+        "Homepage depth (4)",
+        "Homepage depth (5)"
+      ]
+    },
+    {
+      "layer": "component",
+      "title": "Components",
+      "targets": [
+        "Cards & list items",
+        "Modals, sheets & dialogs",
+        "Menus & chrome",
+        "Forms & inputs"
+      ],
+      "shotCount": 12,
+      "uniqueCount": 12,
+      "thin": false,
+      "minUnique": 3,
+      "evidence": [
+        "12 screenshot(s)"
+      ],
+      "sampleTitles": [
+        "UI cards / component detail (1)",
+        "UI cards / component detail (2)",
+        "UI cards / component detail (3)",
+        "Search / composer",
+        "Sign in"
+      ]
+    },
+    {
+      "layer": "state",
+      "title": "States",
+      "targets": [
+        "Empty, loading & error states",
+        "Responsive / platform variants"
+      ],
+      "shotCount": 6,
+      "uniqueCount": 6,
+      "thin": false,
+      "minUnique": 1,
+      "evidence": [
+        "6 screenshot(s)"
+      ],
+      "sampleTitles": [
+        "Homepage mobile",
+        "Settings & admin product updates (1)",
+        "Settings & admin product updates (3)",
+        "Settings & admin product updates (4)",
+        "Settings & admin product updates (5)"
+      ]
+    },
+    {
+      "layer": "structure",
+      "title": "Structure",
+      "targets": [
+        "Live DOM / a11y structure"
+      ],
+      "shotCount": 0,
+      "uniqueCount": 1,
+      "thin": false,
+      "minUnique": 1,
+      "evidence": [
+        "insights landmarks"
+      ],
+      "sampleTitles": []
+    },
+    {
+      "layer": "source",
+      "title": "Source",
+      "targets": [
+        "Open-source code (when available)"
+      ],
+      "shotCount": 0,
+      "uniqueCount": 0,
+      "thin": false,
+      "minUnique": 0,
+      "evidence": [
+        "optional (no open-source signals)"
+      ],
+      "sampleTitles": []
+    }
+  ],
+  "thinLayers": [],
+  "issues": [
+    {
+      "code": "near-duplicate",
+      "severity": "warn",
+      "message": "28 likely near-duplicate shot(s)",
+      "shots": [
+        "nav-1.jpg ≈ pricing.jpg",
+        "nav-4.jpg ≈ product-enterprise.jpg",
+        "nav-10.jpg ≈ product-personal.jpg",
+        "nav-11.jpg ≈ demos.jpg",
+        "nav-12.jpg ≈ autofill.jpg",
+        "surface-1.jpg ≈ support-hub.jpg",
+        "surface-1-band-2.jpg ≈ support-band-2.jpg",
+        "surface-1-band-3.jpg ≈ support-band-3.jpg",
+        "surface-1-band-4.jpg ≈ support-lower.jpg",
+        "surface-2.jpg ≈ dev-home.jpg",
+        "surface-2-band-2.jpg ≈ dev-home-band-2.jpg",
+        "surface-2-band-3.jpg ≈ dev-home-band-3.jpg"
+      ]
+    },
+    {
+      "code": "placeholder-label",
+      "severity": "warn",
+      "message": "21 shot(s) with placeholder / non-descriptive labels",
+      "shots": [
+        "Supporting surface 9 (1)",
+        "Supporting surface 9 (3)",
+        "Supporting surface 12 (1)",
+        "Supporting surface 12 (3)",
+        "Supporting surface 12 (4)",
+        "Supporting surface 13 (3)",
+        "Supporting surface 13 (4)",
+        "surface 1 mid",
+        "surface 10 mid",
+        "surface 11 mid"
+      ]
+    }
+  ],
+  "score": 95,
+  "pass": true,
+  "summary": "PASS — 141 unique / 169 total · score 95/100"
+}

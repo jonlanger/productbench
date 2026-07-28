@@ -1,0 +1,137 @@
+{
+  "slug": "adaptive-insights",
+  "checkedAt": "2026-07-28T13:00:37.933Z",
+  "totalShots": 26,
+  "uniqueShots": 26,
+  "nearDuplicateCount": 0,
+  "placeholderCount": 22,
+  "thinTotal": false,
+  "layers": [
+    {
+      "layer": "surface",
+      "title": "Surfaces",
+      "targets": [
+        "Homepage / marketing entry",
+        "Primary product surfaces"
+      ],
+      "shotCount": 24,
+      "uniqueCount": 24,
+      "thin": false,
+      "minUnique": 8,
+      "evidence": [
+        "24 screenshot(s)"
+      ],
+      "sampleTitles": [
+        "homepage",
+        "nav 1",
+        "nav 10",
+        "nav 11",
+        "nav 2"
+      ]
+    },
+    {
+      "layer": "component",
+      "title": "Components",
+      "targets": [
+        "Cards & list items",
+        "Modals, sheets & dialogs",
+        "Menus & chrome",
+        "Forms & inputs"
+      ],
+      "shotCount": 1,
+      "uniqueCount": 1,
+      "thin": true,
+      "minUnique": 3,
+      "evidence": [
+        "1 screenshot(s)"
+      ],
+      "sampleTitles": [
+        "search composer"
+      ]
+    },
+    {
+      "layer": "state",
+      "title": "States",
+      "targets": [
+        "Empty, loading & error states",
+        "Responsive / platform variants"
+      ],
+      "shotCount": 1,
+      "uniqueCount": 1,
+      "thin": false,
+      "minUnique": 1,
+      "evidence": [
+        "1 screenshot(s)"
+      ],
+      "sampleTitles": [
+        "homepage mobile"
+      ]
+    },
+    {
+      "layer": "structure",
+      "title": "Structure",
+      "targets": [
+        "Live DOM / a11y structure"
+      ],
+      "shotCount": 0,
+      "uniqueCount": 0,
+      "thin": true,
+      "minUnique": 1,
+      "evidence": [],
+      "sampleTitles": []
+    },
+    {
+      "layer": "source",
+      "title": "Source",
+      "targets": [
+        "Open-source code (when available)"
+      ],
+      "shotCount": 0,
+      "uniqueCount": 0,
+      "thin": false,
+      "minUnique": 0,
+      "evidence": [
+        "optional (no open-source signals)"
+      ],
+      "sampleTitles": []
+    }
+  ],
+  "thinLayers": [
+    "component",
+    "structure"
+  ],
+  "issues": [
+    {
+      "code": "placeholder-label",
+      "severity": "error",
+      "message": "22 shot(s) with placeholder / non-descriptive labels",
+      "shots": [
+        "nav 1",
+        "nav 10",
+        "nav 11",
+        "nav 2",
+        "nav 3",
+        "nav 4",
+        "nav 5",
+        "nav 6",
+        "nav 7",
+        "nav 8"
+      ]
+    },
+    {
+      "code": "thin-layer",
+      "severity": "error",
+      "message": "Components layer thin: 1 unique (need ≥ 3)",
+      "layer": "component"
+    },
+    {
+      "code": "thin-layer",
+      "severity": "warn",
+      "message": "Structure layer thin: 0 unique (need ≥ 1)",
+      "layer": "structure"
+    }
+  ],
+  "score": 72,
+  "pass": false,
+  "summary": "FAIL — 26 unique / 26 total · score 72/100 · thin layers: component, structure"
+}
