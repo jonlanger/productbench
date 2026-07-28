@@ -603,11 +603,51 @@
       "height": 96,
       "phash": "7460646068686854",
       "unique": true
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "homepage mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T21:57:11.718Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "surface 1 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T21:57:11.718Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "surface 11 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T21:57:11.718Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-7-mid.jpg",
+      "title": "surface 7 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T21:57:11.718Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T21:57:11.718Z",
-    "screenshotCount": 32,
+    "screenshotCount": 36,
     "pageCount": 8,
     "pages": [
       {
@@ -1168,7 +1208,5 @@
     ],
     "summary": "Captured 32 screenshots across 8 public URLs. Nav signals: Features, Solutions, Plans, Pricing, Resources, Log in. Tech signals: Google Tag Manager, Sentry, Cloudflare, GraphQL, Next.js. UI patterns: Pricing display, Tabs, Card layout, Messaging, Calendar, Authentication."
   },
-  "fallback": {
-    "blockedNavigations": 0
-  }
+  "repairedAt": "2026-07-28T00:58:54.384Z"
 }

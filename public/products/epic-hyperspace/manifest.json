@@ -478,11 +478,41 @@
       "height": 90,
       "phash": "2665f0e0ecf47032",
       "unique": true
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "homepage mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:03:30.019Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "surface 2 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:03:30.019Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-4-mid.jpg",
+      "title": "surface 4 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:03:30.019Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T22:03:30.019Z",
-    "screenshotCount": 27,
+    "screenshotCount": 30,
     "pageCount": 7,
     "pages": [
       {
@@ -973,7 +1003,5 @@
     ],
     "summary": "Captured 27 screenshots across 7 public URLs. Nav signals: Open main menu, Software, About Us, Newsroom, Visit EpicShare, Visit Epic Research. Tech signals: Next.js, Webpack. UI patterns: Search, Tabs, Authentication."
   },
-  "fallback": {
-    "blockedNavigations": 0
-  }
+  "repairedAt": "2026-07-28T00:58:54.289Z"
 }

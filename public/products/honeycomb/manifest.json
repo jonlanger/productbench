@@ -79,11 +79,481 @@
       "height": 627,
       "phash": "4160617171611021",
       "unique": true
+    },
+    {
+      "file": "homepage-band-2.jpg",
+      "title": "homepage band 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-3.jpg",
+      "title": "homepage band 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "homepage band 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "homepage band 5",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "homepage lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "homepage mobile",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage.jpg",
+      "title": "homepage",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "nav 1",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "nav-10.jpg",
+      "title": "nav 10",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "nav-11.jpg",
+      "title": "nav 11",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "nav 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "nav 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "nav 6",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "nav 8",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "nav 9",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-2.jpg",
+      "title": "surface 1 band 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-3.jpg",
+      "title": "surface 1 band 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-4.jpg",
+      "title": "surface 1 band 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "surface 1",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-11-band-2.jpg",
+      "title": "surface 11 band 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-11-band-3.jpg",
+      "title": "surface 11 band 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-11-band-4.jpg",
+      "title": "surface 11 band 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-2.jpg",
+      "title": "surface 13 band 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-3.jpg",
+      "title": "surface 13 band 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-4.jpg",
+      "title": "surface 13 band 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "surface 13",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-2.jpg",
+      "title": "surface 14 band 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-3.jpg",
+      "title": "surface 14 band 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-4.jpg",
+      "title": "surface 14 band 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "surface 14",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-2.jpg",
+      "title": "surface 15 band 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-3.jpg",
+      "title": "surface 15 band 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-4.jpg",
+      "title": "surface 15 band 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-15-lower.jpg",
+      "title": "surface 15 lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-15.jpg",
+      "title": "surface 15",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-2.jpg",
+      "title": "surface 2 band 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-2-lower.jpg",
+      "title": "surface 2 lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "surface 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-2.jpg",
+      "title": "surface 3 band 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-3.jpg",
+      "title": "surface 3 band 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-4.jpg",
+      "title": "surface 3 band 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "surface 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-6-lower.jpg",
+      "title": "surface 6 lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-9-band-2.jpg",
+      "title": "surface 9 band 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-9-band-3.jpg",
+      "title": "surface 9 band 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-9-band-4.jpg",
+      "title": "surface 9 band 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "surface 9",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:56:16.411Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T22:56:16.411Z",
-    "screenshotCount": 6,
+    "screenshotCount": 53,
     "pageCount": 0,
     "pages": [],
     "navLabels": [],
@@ -97,7 +567,5 @@
     ],
     "summary": "Captured 6 screenshots across 0 public URLs."
   },
-  "fallback": {
-    "blockedNavigations": 0
-  }
+  "repairedAt": "2026-07-28T00:58:54.313Z"
 }

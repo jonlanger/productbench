@@ -970,11 +970,161 @@
       "height": 900,
       "phash": "5d8d960645696969",
       "unique": true
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "homepage mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "surface 1 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-10-mid.jpg",
+      "title": "surface 10 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "surface 11 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-12-mid.jpg",
+      "title": "surface 12 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-13-mid.jpg",
+      "title": "surface 13 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-14-mid.jpg",
+      "title": "surface 14 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "surface 2 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3-mid.jpg",
+      "title": "surface 3 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-4-mid.jpg",
+      "title": "surface 4 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-5-mid.jpg",
+      "title": "surface 5 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-6-mid.jpg",
+      "title": "surface 6 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-7-mid.jpg",
+      "title": "surface 7 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-8-mid.jpg",
+      "title": "surface 8 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-9-mid.jpg",
+      "title": "surface 9 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:33:08.458Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T22:33:08.458Z",
-    "screenshotCount": 51,
+    "screenshotCount": 66,
     "pageCount": 12,
     "pages": [
       {
@@ -1721,5 +1871,6 @@
       "desktop"
     ],
     "summary": "Captured 51 screenshots across 12 public URLs. Nav signals: Secure credentials for humans, machines, and AI agents. Switch to 1Password., Sign in, Business, Personal, Developers, Partners. Tech signals: Next.js, Webpack, React, Cloudflare, Vite, Intercom. UI patterns: Pricing display, Map view, Tabs, Authentication, Menus, Card layout."
-  }
+  },
+  "repairedAt": "2026-07-28T00:58:54.244Z"
 }

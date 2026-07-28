@@ -603,11 +603,61 @@
       "height": 630,
       "phash": "3126c24d6da52426",
       "unique": true
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "homepage mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:31:09.420Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "surface 1 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:31:09.420Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-14-mid.jpg",
+      "title": "surface 14 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:31:09.420Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "surface 2 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:31:09.420Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "surface 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:31:09.420Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T22:31:09.420Z",
-    "screenshotCount": 32,
+    "screenshotCount": 37,
     "pageCount": 7,
     "pages": [
       {
@@ -937,7 +987,5 @@
     ],
     "summary": "Captured 32 screenshots across 7 public URLs. Nav signals: .cls-1fill:#FFF;stroke-width:0px;, What We Offer, Invest, IPO Access, Strategies, Retirement. Tech signals: Next.js, Webpack, Google Tag Manager, Segment, Stripe. UI patterns: Tabs, Card layout, Authentication."
   },
-  "fallback": {
-    "blockedNavigations": 0
-  }
+  "repairedAt": "2026-07-28T00:58:54.355Z"
 }

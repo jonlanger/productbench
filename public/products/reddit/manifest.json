@@ -480,11 +480,31 @@
       "height": 768,
       "phash": "322bccccea2baa2a",
       "unique": true
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "homepage mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T21:38:04.770Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "surface 11 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T21:38:04.770Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T21:38:04.770Z",
-    "screenshotCount": 29,
+    "screenshotCount": 31,
     "pageCount": 4,
     "pages": [
       {
@@ -760,7 +780,5 @@
     ],
     "summary": "Captured 29 screenshots across 4 public URLs. Nav signals: Open menu, Sign Up, Log In, Expand user menu, Explore Reddit Communities, Company. Tech signals: React, Vue, Google Tag Manager, Sentry, Next.js, Segment. UI patterns: Modal dialogs, Search, Filters, Map view, Tabs, Menus."
   },
-  "fallback": {
-    "blockedNavigations": 0
-  }
+  "repairedAt": "2026-07-28T00:58:54.350Z"
 }

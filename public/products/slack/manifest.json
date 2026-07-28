@@ -235,11 +235,361 @@
       "height": 414,
       "phash": "7033c0c4f0f0d860",
       "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "homepage lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "homepage mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "homepage mobile",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "homepage top",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage.jpg",
+      "title": "homepage",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "nav 1",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "nav 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "nav 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "nav 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "nav-5.jpg",
+      "title": "nav 5",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "search-composer.jpg",
+      "title": "search composer",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "sign in",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "surface 1",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-10-mid.jpg",
+      "title": "surface 10 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-10.jpg",
+      "title": "surface 10",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "surface 11 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-11.jpg",
+      "title": "surface 11",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "surface 12",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "surface 13",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-14-mid.jpg",
+      "title": "surface 14 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-14.jpg",
+      "title": "surface 14",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "surface 2 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "surface 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3-mid.jpg",
+      "title": "surface 3 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "surface 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-4-mid.jpg",
+      "title": "surface 4 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "surface 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-5-mid.jpg",
+      "title": "surface 5 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "surface 5",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-6-mid.jpg",
+      "title": "surface 6 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "surface 6",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-7-mid.jpg",
+      "title": "surface 7 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-7.jpg",
+      "title": "surface 7",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-8.jpg",
+      "title": "surface 8",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-9.jpg",
+      "title": "surface 9",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:54:04.027Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T22:54:04.027Z",
-    "screenshotCount": 18,
+    "screenshotCount": 53,
     "pageCount": 0,
     "pages": [],
     "navLabels": [],
@@ -253,7 +603,5 @@
     ],
     "summary": "Captured 18 screenshots across 0 public URLs."
   },
-  "fallback": {
-    "blockedNavigations": 0
-  }
+  "repairedAt": "2026-07-28T00:58:54.366Z"
 }

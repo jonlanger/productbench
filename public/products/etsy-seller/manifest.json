@@ -1,10 +1,171 @@
 {
   "slug": "etsy-seller",
   "capturedAt": "2026-07-27T23:00:32.136Z",
-  "shots": [],
+  "shots": [
+    {
+      "file": "homepage-band-2.jpg",
+      "title": "homepage band 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-3.jpg",
+      "title": "homepage band 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "homepage band 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "homepage band 5",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "homepage lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "homepage mobile",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "homepage.jpg",
+      "title": "homepage",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "sign in",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-2.jpg",
+      "title": "surface 15 band 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-3.jpg",
+      "title": "surface 15 band 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-4.jpg",
+      "title": "surface 15 band 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-15-lower.jpg",
+      "title": "surface 15 lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-15.jpg",
+      "title": "surface 15",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "surface 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-4-lower.jpg",
+      "title": "surface 4 lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-4.jpg",
+      "title": "surface 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:00:32.136Z",
+      "playbookStep": "recovered",
+      "unique": true
+    }
+  ],
   "insights": {
     "capturedAt": "2026-07-27T23:00:32.136Z",
-    "screenshotCount": 0,
+    "screenshotCount": 16,
     "pageCount": 0,
     "pages": [],
     "navLabels": [],
@@ -17,5 +178,6 @@
       "web"
     ],
     "summary": "Captured 0 screenshots across 0 public URLs."
-  }
+  },
+  "repairedAt": "2026-07-28T00:58:54.292Z"
 }

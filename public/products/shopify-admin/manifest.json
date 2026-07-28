@@ -1236,11 +1236,101 @@
       "height": 900,
       "phash": "ceccece4988c6317",
       "unique": true
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "homepage mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:46:10.326Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-10-mid.jpg",
+      "title": "surface 10 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:46:10.326Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "surface 11 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:46:10.326Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-12-mid.jpg",
+      "title": "surface 12 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:46:10.326Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-13-mid.jpg",
+      "title": "surface 13 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:46:10.326Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-4-mid.jpg",
+      "title": "surface 4 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:46:10.326Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-5-mid.jpg",
+      "title": "surface 5 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:46:10.326Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-6-mid.jpg",
+      "title": "surface 6 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:46:10.326Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-9-mid.jpg",
+      "title": "surface 9 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:46:10.326Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T22:46:10.326Z",
-    "screenshotCount": 65,
+    "screenshotCount": 74,
     "pageCount": 18,
     "pages": [
       {
@@ -2351,5 +2441,6 @@
       "android"
     ],
     "summary": "Captured 65 screenshots across 18 public URLs. Nav signals: Get started fastYou could be selling by tomorrow., Switch to ShopifyGet more customers. Make more sales., Trusted by enterprise brandsNo matter your size, complexity, or ambition., World's best checkoutProven to convert better., SidekickYour commerce-obsessed AI assistant., Website Builder. Tech signals: Next.js, Google Tag Manager, Shopify, Tailwind CSS, React, GraphQL. UI patterns: Search, Pricing display, Map view, Tabs, Checkout, Authentication."
-  }
+  },
+  "repairedAt": "2026-07-28T00:58:54.364Z"
 }

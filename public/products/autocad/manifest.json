@@ -170,11 +170,71 @@
       "height": 414,
       "phash": "8e4d4c4c4d5d1d85",
       "unique": true
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "surface 1",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:53:08.326Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-2.jpg",
+      "title": "surface 3 band 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:53:08.326Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-3.jpg",
+      "title": "surface 3 band 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:53:08.326Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-4.jpg",
+      "title": "surface 3 band 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:53:08.326Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3-lower.jpg",
+      "title": "surface 3 lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:53:08.326Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "surface 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:53:08.326Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T22:53:08.326Z",
-    "screenshotCount": 13,
+    "screenshotCount": 19,
     "pageCount": 0,
     "pages": [],
     "navLabels": [],
@@ -188,7 +248,5 @@
     ],
     "summary": "Captured 13 screenshots across 0 public URLs."
   },
-  "fallback": {
-    "blockedNavigations": 0
-  }
+  "repairedAt": "2026-07-28T00:58:54.256Z"
 }
