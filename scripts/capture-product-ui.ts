@@ -61,6 +61,21 @@ import {
 } from "./lib/capture-workspace";
 import { ShotDedupeRegistry } from "./lib/image-dedupe";
 import {
+  CAPTURE_DEVICE_SCALE,
+  VIEWPORTS,
+  captureChromeClips,
+  captureClickSequence,
+  captureHoverStates,
+  captureScrollBands,
+  captureViewportVariants,
+  clickFirst,
+  dismissNoise,
+  gotoReady as gotoReadyBase,
+  saveLocatorScreenshot,
+  saveScreenshot,
+  setViewport,
+} from "./lib/capture-playbook-helpers";
+import {
   aggregateInsights,
   detectPatterns,
   detectPlatforms,
@@ -128,89 +143,36 @@ function argValue(name: string) {
   return hit ? hit.slice(prefix.length) : undefined;
 }
 
-async function dismissNoise(page: Page) {
-  const labels = [
-    "Got it",
-    "Accept",
-    "Accept all",
-    "Accept All",
-    "I agree",
-    "Agree",
-    "OK",
-    "Close",
-    "Dismiss",
-    "No thanks",
-    "Not now",
-  ];
-  for (const label of labels) {
-    const btn = page.getByRole("button", { name: label, exact: true });
-    if (await btn.count()) {
-      await btn.first().click({ timeout: 1200 }).catch(() => undefined);
-    }
+async function pageLooksBlocked(page: Page) {
+  try {
+    const text = await page.evaluate(() => {
+      const title = document.title || "";
+      const body = (document.body?.innerText || "").slice(0, 2500);
+      return `${title}\n${body}`;
+    });
+    return looksBlockedText(text);
+  } catch {
+    return false;
   }
-  await page.keyboard.press("Escape").catch(() => undefined);
 }
 
-/**
- * Capture settings for sharp UI/text:
- * - deviceScaleFactor 2 (set on browser context) → retina pixel density
- * - PNG kept as-is (no JPEG recompress) for crisp chrome and typography
- * - Prefer viewport + scroll bands over fullPage for gallery usability;
- *   pass fullPage=true only for short surfaces where one tall shot is useful
- */
-async function saveScreenshot(
-  page: Page,
-  pathWithoutExt: string,
-  fullPage = false,
-) {
-  const pngPath = `${pathWithoutExt}.png`;
-  await page.screenshot({
-    path: pngPath,
-    fullPage,
-    type: "png",
-    animations: "disabled",
-    caret: "hide",
-    scale: "device",
+async function gotoReady(page: Page, url: string) {
+  await gotoReadyBase(page, url, {
+    onBlocked: async () => pageLooksBlocked(page),
   });
-  return pngPath.split("/").pop()!;
-}
-
-async function saveLocatorScreenshot(locator: Locator, pathWithoutExt: string) {
-  const pngPath = `${pathWithoutExt}.png`;
-  await locator.screenshot({
-    path: pngPath,
-    type: "png",
-    animations: "disabled",
-    caret: "hide",
-    scale: "device",
-  });
-  return pngPath.split("/").pop()!;
+  if (await pageLooksBlocked(page)) {
+    throw new Error(`blocked:${hostLabel(url)}`);
+  }
 }
 
 /** @deprecated Prefer saveScreenshot — kept as alias during playbook migration */
 async function saveJpeg(page: Page, pathWithoutExt: string, fullPage = false) {
-  return saveScreenshot(page, pathWithoutExt, fullPage);
+  return saveScreenshot(page, pathWithoutExt, { fullPage });
 }
 
 /** @deprecated Prefer saveLocatorScreenshot */
 async function saveLocatorJpeg(locator: Locator, pathWithoutExt: string) {
   return saveLocatorScreenshot(locator, pathWithoutExt);
-}
-
-async function clickFirst(
-  page: Page,
-  candidates: Array<() => Locator>,
-  timeout = 2000,
-) {
-  for (const make of candidates) {
-    const loc = make();
-    if ((await loc.count()) === 0) continue;
-    const target = loc.first();
-    if (!(await target.isVisible().catch(() => false))) continue;
-    await target.click({ timeout }).catch(() => undefined);
-    return true;
-  }
-  return false;
 }
 
 const CARD_SELECTOR = [
@@ -253,70 +215,6 @@ function hostLabel(url: string) {
   } catch {
     return "site";
   }
-}
-
-async function gotoReady(page: Page, url: string) {
-  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
-  await page.waitForTimeout(1600);
-  await dismissNoise(page);
-  if (await pageLooksBlocked(page)) {
-    throw new Error(`blocked:${hostLabel(url)}`);
-  }
-}
-
-async function pageLooksBlocked(page: Page) {
-  try {
-    const text = await page.evaluate(() => {
-      const title = document.title || "";
-      const body = (document.body?.innerText || "").slice(0, 2500);
-      return `${title}\n${body}`;
-    });
-    return looksBlockedText(text);
-  } catch {
-    return false;
-  }
-}
-
-async function captureScrollBands(
-  page: Page,
-  dir: string,
-  prefix: string,
-  maxBands = 6,
-) {
-  const files: string[] = [];
-  const height = await page.evaluate(() => document.documentElement.scrollHeight);
-  const viewport = page.viewportSize()?.height ?? 900;
-  const step = Math.max(Math.floor(viewport * 0.72), 360);
-  const positions = [0];
-
-  for (let y = step; y < height - viewport * 0.35; y += step) {
-    positions.push(y);
-    if (positions.length >= maxBands - 1) break;
-  }
-
-  if (height > viewport * 1.4) {
-    positions.push(Math.max(0, height - viewport));
-  }
-
-  const unique = positions.filter((y, index, all) => {
-    if (index === 0) return true;
-    return Math.abs(y - all[index - 1]!) > viewport * 0.28;
-  });
-
-  for (const [index, y] of unique.entries()) {
-    await page.evaluate((scrollY) => window.scrollTo(0, scrollY), y);
-    await page.waitForTimeout(400);
-    const suffix =
-      index === 0
-        ? "top"
-        : index === unique.length - 1 && unique.length > 1
-          ? "lower"
-          : `band-${index + 1}`;
-    const id = suffix === "top" ? `${prefix}-top` : suffix === "lower" ? `${prefix}-lower` : `${prefix}-${suffix}`;
-    files.push(await saveJpeg(page, join(dir, id)));
-  }
-  await page.evaluate(() => window.scrollTo(0, 0));
-  return files;
 }
 
 async function captureCardCrops(page: Page, dir: string, max = 8) {
@@ -392,34 +290,45 @@ function buildGenericPlaybook(product: ProductTarget): ShotSpec[] {
     {
       id: "homepage",
       title: product.keyScreens[0] ?? "Homepage",
-      caption: `${product.name} public homepage (top of page)`,
+      caption: `${product.name} public homepage (viewport top)`,
       kind: "homepage",
       run: async (page, dir) => {
+        await setViewport(page, "desktop");
         await gotoReady(page, homepageUrl);
-        return saveJpeg(page, join(dir, "homepage"));
+        // Viewport-only — prefer scroll bands over fullPage on long marketing pages
+        return saveScreenshot(page, join(dir, "homepage"), { fullPage: false });
       },
     },
     {
       id: "homepage-scroll",
       title: "Homepage depth",
-      caption: `${product.name} homepage scrolled sections`,
+      caption: `${product.name} homepage scrolled section bands`,
       kind: "product",
       run: async (page, dir) => {
+        await setViewport(page, "desktop");
         await gotoReady(page, homepageUrl);
-        return captureScrollBands(page, dir, "homepage");
+        return captureScrollBands(page, dir, "homepage", 7);
       },
     },
     {
-      id: "homepage-mobile",
-      title: "Homepage mobile",
-      caption: `${product.name} homepage at mobile viewport`,
+      id: "viewports",
+      title: "Responsive viewports",
+      caption: `${product.name} homepage at desktop, tablet, and mobile`,
       kind: "product",
       run: async (page, dir) => {
-        await page.setViewportSize({ width: 390, height: 844 });
+        return captureViewportVariants(page, dir, homepageUrl, gotoReady);
+      },
+    },
+    {
+      id: "chrome-clips",
+      title: "Nav / chrome clips",
+      caption: `Isolated header/nav and footer crops from ${product.name}`,
+      kind: "component",
+      run: async (page, dir) => {
+        await setViewport(page, "desktop");
         await gotoReady(page, homepageUrl);
-        const file = await saveJpeg(page, join(dir, "homepage-mobile"));
-        await page.setViewportSize({ width: 1440, height: 900 });
-        return file;
+        const files = await captureChromeClips(page, dir);
+        return files.length ? files : null;
       },
     },
     {
@@ -431,6 +340,36 @@ function buildGenericPlaybook(product: ProductTarget): ShotSpec[] {
         await gotoReady(page, homepageUrl);
         const crops = await captureCardCrops(page, dir, 6);
         return crops.length ? crops.map((c) => c.file) : null;
+      },
+    },
+    {
+      id: "hover-states",
+      title: "Hover / menu states",
+      caption: `Nav hover menus and tooltips on ${product.name}`,
+      kind: "component",
+      run: async (page, dir) => {
+        await setViewport(page, "desktop");
+        await gotoReady(page, homepageUrl);
+        const files = await captureHoverStates(page, dir, 4);
+        return files.length ? files : null;
+      },
+    },
+    {
+      id: "click-sequence",
+      title: "Nav click sequence",
+      caption: `Multi-step nav click-through captures on ${product.name}`,
+      kind: "product",
+      run: async (page, dir) => {
+        await setViewport(page, "desktop");
+        await gotoReady(page, homepageUrl);
+        let origin: string;
+        try {
+          origin = new URL(homepageUrl).origin;
+        } catch {
+          return null;
+        }
+        const files = await captureClickSequence(page, dir, origin, 6);
+        return files.length ? files : null;
       },
     },
     {
@@ -1839,11 +1778,11 @@ async function main() {
 
   const browser = await chromium.launch({ headless: !argFlag("headed") });
   const context = await browser.newContext({
-    viewport: { width: 1440, height: 900 },
-    // 2× CSS pixels → sharp UI/text at 2880×1800 desktop / 780×1688 mobile
-    deviceScaleFactor: 2,
+    viewport: VIEWPORTS.desktop,
+    // 3× CSS pixels → sharper UI/text for gallery zooms
+    deviceScaleFactor: CAPTURE_DEVICE_SCALE,
     userAgent:
-      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 ProductBenchCapture/0.1",
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 ProductBenchCapture/0.2",
   });
   const page = await context.newPage();
 

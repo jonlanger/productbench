@@ -7,7 +7,7 @@ alwaysApply: true
 
 When the user asks to capture screenshots, UI details, product visuals, enrich product data from the live site, or fill gallery content:
 
-1. **Prefer the Playwright capture agent** — it now auto-falls back when live capture is thin or bot-blocked: curated docs/help images → OG/meta → thum.io → Wayback → YouTube frame stills → App Store screenshots. Standalone `db:collect-screenshots` / `db:enrich-screenshots` remain available for marketing-only runs.
+1. **Prefer the Playwright capture agent** — it now auto-falls back when live capture is thin or bot-blocked: curated docs/help images → OG/meta → thum.io → Wayback → YouTube frame stills → App Store. Standalone `db:collect-screenshots` / `db:enrich-screenshots` remain available for marketing-only runs.
 
 2. **Commands** (repo root):
    - One product: `npm run capture:ui -- --slug=<slug>`
@@ -23,7 +23,7 @@ When the user asks to capture screenshots, UI details, product visuals, enrich p
    - Artifacts: Postgres + Storage (remote); or `public/products/[slug]/` with `--local`
 
 4. **What capture writes**
-   - **Default (remote):** when `SUPABASE_SERVICE_ROLE_KEY` is set, capture uses a temp workspace, uploads binaries to Storage bucket `product-screenshots`, syncs metadata to Postgres, and **does not** write under `public/products/`
+   - **Default (remote):** when Storage upload is configured, capture uses a temp workspace, uploads binaries to Storage bucket `product-screenshots`, syncs metadata to Postgres, and **does not** write under `public/products/`
    - **`--local`:** persist screenshots + manifest/insights/coverage under `public/products/[slug]/` (debug / offline)
    - `--skip-storage` forces local persistence even when Storage is configured
    - Structured insights → `products.capture_insights` (+ local `insights.json` in `--local` mode)
@@ -31,8 +31,15 @@ When the user asks to capture screenshots, UI details, product visuals, enrich p
    - Coverage → printed after each run; `coverage.json` only in `--local` mode
    - Backfill legacy local trees with `npm run storage:sync-screenshots`
 
-5. **Goal is volume + detail**: full surfaces, scroll bands, mobile viewport, cards, menus, modals, composers, docs/help URLs — as many public shots as practical. Thin = fewer than **20 unique** screenshots (distinct layouts/states/frames — not near-duplicate crops).
+5. **Capture quality defaults** (generic playbook):
+   - `deviceScaleFactor: 3` + PNG + `scale: "device"` for sharp UI/text
+   - Prefer **viewport + scroll bands** over `fullPage` on long pages; element **clips** for nav/header/footer/modals/cards
+   - Waiting: `domcontentloaded` → `networkidle` → cookie/modal dismiss → ready selector → short settle
+   - Multi-viewport in one run: desktop (1440), tablet (768), mobile (390)
+   - Navigation: click-through sequences, scroll-and-capture bands, hover/focus menus, conditional cookie-banner dismiss
 
-6. **Custom playbooks**: for complex products, extend `scripts/capture-product-ui.ts` (Airbnb is the template). Curate alternate hosts / YouTube demos in `src/data/visual-sources.ts`. Manual browser MCP is fine for exploration; Playwright is the durable path. Coverage validation is the durable check that playbooks meet the taxonomy — not a chat-only reminder.
+6. **Goal is volume + detail**: full surfaces, scroll bands, mobile viewport, cards, menus, modals, composers, docs/help URLs — as many public shots as practical. Thin = fewer than **20 unique** screenshots (distinct layouts/states/frames — not near-duplicate crops).
 
-7. **Public Process page** (`/process`) stays high-level — do not put npm/Playwright internals on that page. Operator details live in README and this rule.
+7. **Custom playbooks**: for complex products, extend `scripts/capture-product-ui.ts` (Airbnb is the template). Curate alternate hosts / YouTube demos in `src/data/visual-sources.ts`. Manual browser MCP is fine for exploration; Playwright is the durable path. Coverage validation is the durable check that playbooks meet the taxonomy — not a chat-only reminder.
+
+8. **Public Process page** (`/process`) stays high-level — do not put npm/Playwright internals on that page. Operator details live in README and this rule.
