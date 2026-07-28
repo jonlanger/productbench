@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-07-26T22:07:50.988Z",
-  "screenshotCount": 40,
-  "pageCount": 16,
+  "capturedAt": "2026-07-27T22:24:35.370Z",
+  "screenshotCount": 64,
+  "pageCount": 18,
   "pages": [
     {
       "url": "https://www.datadoghq.com/",
@@ -61,17 +61,16 @@
       ]
     },
     {
-      "url": "https://www.datadoghq.com/product/metrics/",
-      "title": "Metrics | Datadog",
-      "description": "Gain complete visibility into infrastructure, application, and business metrics. Datadog unifies metrics, logs, and traces, so you can analyze them in context.",
+      "url": "https://www.datadoghq.com/product/storage-management/",
+      "title": "Storage Management | Cloud Object Storage Monitoring | Datadog",
+      "description": "Datadog Storage Monitoring provides detailed visibility into your cloud object storage, helping you eliminate unnecessary costs.",
       "headings": [
-        "Metrics",
+        "Storage Management",
         "Feature Overview",
-        "Monitor every metric across your stack in seconds",
-        "Eliminate blind spots and troubleshoot faster in a unified platform",
-        "Run advanced analysis at scale on deep, granular metrics data",
-        "Collaborate effectively on a single platform anyone can use",
-        "Optimize cost and coverage with comprehensive governance tools",
+        "Pinpoint cost drivers in your storage buckets",
+        "Confidently move cold data to lower-cost storage classes",
+        "Accelerate savings with granular recommendations",
+        "Proactively detect and address anomalies",
         "Resources",
         "What's Next",
         "Get started today with a 14-day free-trial of the entire Datadog product suite"
@@ -111,13 +110,12 @@
         "Contact",
         "GET STARTED FREE Free Trial",
         "Get Started",
-        "Try Metrics Free",
+        "Try Storage Management Free",
         "Request a Demo",
         "Learn More",
-        "EBOOKBusiness Observability with Custom Metrics",
-        "EBOOKHow to Prioritize Metrics as an E-commerce CTO",
         "Start Free Trial",
-        "Contact Us"
+        "Contact Us",
+        "Icon/world Created with Sketch. English"
       ],
       "landmarks": [
         "nav",
@@ -951,11 +949,26 @@
       ]
     },
     {
-      "url": "https://www.datadoghq.com/features",
-      "title": "404 Page Not Found | Datadog",
+      "url": "https://www.datadoghq.com/customers/",
+      "title": "Customers | Datadog",
       "description": " ",
       "headings": [
-        "Arf."
+        "Auth0 strengthens resiliency and service reliability with Datadog",
+        "How Forbes delivers a premium digital experience with Datadog",
+        "Itaú Unibanco modernizes its observability platform with Datadog",
+        "How TriZetto’s CIO Consolidates Tools to Reduce IT Costs with Datadog",
+        "How Autodesk uses Datadog to help its users design and make anything",
+        "Thousands of customers love & trust Datadog",
+        "Customer Spotlights",
+        "Customer Stories",
+        "Filter Topics",
+        "Story Type",
+        "Industry",
+        "Product",
+        "Region",
+        "Use Case",
+        "Join our Datadog community",
+        "Webinar: Better Reliability with SLOs"
       ],
       "navLabels": [
         "Product",
@@ -998,16 +1011,104 @@
       ],
       "landmarks": [
         "nav",
+        "dialog:videoBsModal",
         "footer",
         "dialog:signupDemoLabel"
       ]
     },
     {
-      "url": "https://www.datadoghq.com/platform",
-      "title": "404 Page Not Found | Datadog",
+      "url": "https://www.datadoghq.com/blog/",
+      "title": "The Monitor | Datadog Official Blog",
+      "description": "Check out The Monitor, Datadog's main blog, to learn more about new Datadog products and features, integrations, and more.",
+      "headings": [
+        "Get Started with Datadog",
+        "The Monitor",
+        "Featured Articles",
+        "Normalize security logs to Google SecOps UDM with Observability Pipelines",
+        "Efficient multi-provider agent environments with AI gateways: best practices",
+        "DASH Articles",
+        "DASH 2026: Guide to Datadog’s newest announcements",
+        "DASH 2026 Harnessing AI: Guide to Datadog’s newest announcements",
+        "DASH 2026 End-to-End Observability: Guide to Datadog’s newest announcements",
+        "DASH 2026 Security & Compliance: Guide to Datadog’s newest announcements",
+        "Latest Articles",
+        "Provision Datadog on Stripe Projects",
+        "Answer any cost question faster with the Cloud Cost skill in Bits Chat",
+        "How we brought agentic workflows to Cloud SIEM with the Datadog MCP Server",
+        "Monitor Apigee X API traffic and security with Datadog",
+        "Start monitoring your metrics in minutes"
+      ],
+      "navLabels": [
+        "Product",
+        "Observability",
+        "security-platform Security",
+        "rum Digital Experience",
+        "ci Software Delivery",
+        "Service Management",
+        "AI",
+        "dashboard Platform Capabilities",
+        "View pricing",
+        "Infrastructure Monitoring",
+        "Metrics",
+        "Network Monitoring",
+        "Container Monitoring",
+        "Kubernetes Autoscaling",
+        "Serverless",
+        "Cloud Cost Management",
+        "Cloudcraft",
+        "Storage Management",
+        "GPU Monitoring",
+        "Application Performance Monitoring",
+        "Universal Service Monitoring",
+        "Continuous Profiler",
+        "Dynamic Instrumentation",
+        "Agent Observability"
+      ],
+      "ctas": [
+        "View pricing",
+        "Security Labs Research",
+        "Notebooks",
+        "OpenTelemetry",
+        "Pricing",
+        "Contact",
+        "GET STARTED FREE Free Trial",
+        "Get Started",
+        "Contact Us",
+        "Icon/world Created with Sketch. English"
+      ],
+      "landmarks": [
+        "nav",
+        "main",
+        "header",
+        "nav:Blog subnavigation",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.datadoghq.com/about/leadership/",
+      "title": "Leadership | Datadog",
       "description": " ",
       "headings": [
-        "Arf."
+        "About",
+        "The leading AI-powered observability and security platform",
+        "Leadership",
+        "Olivier Pomel",
+        "Alexis Lê-Quôc",
+        "David Obstler",
+        "Sara Varni",
+        "Adam Blitzer",
+        "Yanbing Li",
+        "David Galloreese",
+        "Sean Walters",
+        "Emilio Escobar",
+        "Kerry Acocella",
+        "Board of Directors",
+        "Shardul Shah",
+        "Dev Ittycheria",
+        "Michael Callahan",
+        "Julie Richardson",
+        "Matt Jacobson",
+        "Titilope Cole"
       ],
       "navLabels": [
         "Product",
@@ -1050,8 +1151,26 @@
       ],
       "landmarks": [
         "nav",
+        "header",
+        "main",
+        "aside",
         "footer",
         "dialog:signupDemoLabel"
+      ]
+    },
+    {
+      "url": "https://app.datadoghq.com/account/login?next=%2F",
+      "title": "Datadog: Log In",
+      "headings": [
+        "Log in to Datadog"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Try for free",
+        "Log in"
+      ],
+      "landmarks": [
+        "footer:Datadog Copyright and Legal Information"
       ]
     }
   ],
@@ -1080,7 +1199,11 @@
     "Continuous Profiler",
     "Dynamic Instrumentation",
     "Agent Observability",
-    "View Product Pricing"
+    "View Product Pricing",
+    "security-platform Security",
+    "rum Digital Experience",
+    "ci Software Delivery",
+    "dashboard Platform Capabilities"
   ],
   "ctas": [
     "View pricing",
@@ -1093,12 +1216,11 @@
     "Get Started",
     "LEARN MORE",
     "Get the eBook",
-    "Try Metrics Free",
+    "Try Storage Management Free",
     "Request a Demo",
-    "EBOOKBusiness Observability with Custom Metrics",
-    "EBOOKHow to Prioritize Metrics as an E-commerce CTO",
     "Start Free Trial",
     "Contact Us",
+    "Icon/world Created with Sketch. English",
     "https://docs.datadoghq.com/getting_started.md",
     "View Product Pricing",
     "Getting Started",
@@ -1106,20 +1228,20 @@
     "Product-Specific Search",
     "Create an Agent-based Integration",
     "Create an API-based Integration",
-    "Create a Log Pipeline"
+    "Create a Log Pipeline",
+    "Create an Integration Dashboard"
   ],
   "headings": [
     "AI-Powered Observability and Security",
     "Define and track KPIs for successfully moving your data and applications to AWS",
     "Define and track KPIs for successfullymoving your data and applications to GCP",
     "Products",
-    "Metrics",
+    "Storage Management",
     "Feature Overview",
-    "Monitor every metric across your stack in seconds",
-    "Eliminate blind spots and troubleshoot faster in a unified platform",
-    "Run advanced analysis at scale on deep, granular metrics data",
-    "Collaborate effectively on a single platform anyone can use",
-    "Optimize cost and coverage with comprehensive governance tools",
+    "Pinpoint cost drivers in your storage buckets",
+    "Confidently move cold data to lower-cost storage classes",
+    "Accelerate savings with granular recommendations",
+    "Proactively detect and address anomalies",
     "Resources",
     "What's Next",
     "Get started today with a 14-day free-trial of the entire Datadog product suite",
@@ -1138,7 +1260,8 @@
     "Overview",
     "Use cases",
     "Trace Explorer",
-    "Service page"
+    "Service page",
+    "Correlating traces with other telemetry"
   ],
   "techSignals": [
     "Segment",
@@ -1147,13 +1270,16 @@
     "Cloudflare",
     "Next.js",
     "Vite",
-    "Zendesk"
+    "Zendesk",
+    "Stripe"
   ],
   "featureCandidates": [
     "AI-Powered Observability and Security",
     "Products",
-    "Metrics",
+    "Storage Management",
     "Feature Overview",
+    "Pinpoint cost drivers in your storage buckets",
+    "Proactively detect and address anomalies",
     "Resources",
     "What's Next",
     "Getting Started",
@@ -1171,9 +1297,7 @@
     "Use cases",
     "Trace Explorer",
     "Service page",
-    "View pricing",
-    "Security Labs Research",
-    "Notebooks"
+    "Correlating traces with other telemetry"
   ],
   "patternCandidates": [
     "Modal dialogs",
@@ -1181,9 +1305,9 @@
     "Pricing display",
     "Tabs",
     "Dashboard",
-    "Card layout",
     "Filters",
     "Map view",
+    "Card layout",
     "Authentication",
     "Menus",
     "Messaging",
@@ -1196,5 +1320,5 @@
     "ios",
     "android"
   ],
-  "summary": "Captured 40 screenshots across 16 public URLs. Nav signals: Product, Observability, Security, Digital Experience, Software Delivery, Service Management. Tech signals: Segment, Google Tag Manager, Datadog, Cloudflare, Next.js, Vite. UI patterns: Modal dialogs, Search, Pricing display, Tabs, Dashboard, Card layout."
+  "summary": "Captured 64 screenshots across 18 public URLs. Nav signals: Product, Observability, Security, Digital Experience, Software Delivery, Service Management. Tech signals: Segment, Google Tag Manager, Datadog, Cloudflare, Next.js, Vite. UI patterns: Modal dialogs, Search, Pricing display, Tabs, Dashboard, Filters."
 }

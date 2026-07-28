@@ -1,0 +1,384 @@
+{
+  "capturedAt": "2026-07-27T21:31:05.534Z",
+  "screenshotCount": 34,
+  "pageCount": 7,
+  "pages": [
+    {
+      "url": "https://www.simplepractice.com/",
+      "title": "EHR Software for Health & Wellness Professionals | SimplePractice",
+      "description": "Get the #1 HIPAA-compliant EHR and practice management software. Join 250,000+ therapists, health & wellness professionals. Start your free trial today. ",
+      "headings": [
+        "Privacy Settings",
+        "Everything you need to thrive in private practice",
+        "Therapists",
+        "Speech-Language Pathologists",
+        "Occupational Therapists",
+        "Psychiatrists",
+        "Intuitive tools to help you thrive",
+        "Voted #1",
+        "In partnership with leading healthcare organizations",
+        "Four simple steps to get started",
+        "Start for free"
+      ],
+      "navLabels": [
+        "Who we're forWho we're for",
+        "FeaturesFeatures",
+        "ResourcesResources",
+        "pricing",
+        "Sign in",
+        "Start free trial"
+      ],
+      "ctas": [
+        "pricing",
+        "Sign in",
+        "Start free trial",
+        "Explore all features",
+        "See plans and pricing",
+        "Step 1Create your SimplePractice account in less than 5 minutes.",
+        "Step 2Explore all our features on the Plus plan free for 30 days.",
+        "Step 4Customize your plan with add-on features and see prices up front.",
+        "Product demo",
+        "Join telehealth"
+      ],
+      "landmarks": [
+        "dialog:Cookie Consent Banner",
+        "nav",
+        "header",
+        "nav:Main",
+        "aside"
+      ]
+    },
+    {
+      "url": "https://account.simplepractice.com/saml/auth?SAMLRequest=fVJNbxoxFPwre%2FPJLDEkAYtFoqCqSEm7gk0PvVTG%2B2gs7dqu39uE%2FvvafCRbKeVkyW9mPDN%2BM1Rt4%2BWio2e7gd8dIGULRAhknF06i10LYQvhxWh42jwU7JnIo8xzBN0FGKBpfQM%2BKE0RMdCuzbvIxjzp5irKsmwVRY1VSfGdr7R2naWPBHrU9apgP8WonujbyZgLfTvlY7ib8sl%2BB1yMxsP9CG6msBMRitjB2iIpSwUTQ3HHh%2Fdc3FfiRoqJHI1%2FsKwMjpx2zSdja2N%2FFawLVjqFBqVVLaAkLbeLxwcpBkO5O4FQfqmqkpffthXLvsdoxxgRwLJD21iUye51JXUptE%2Fx1zn%2BbJXNZwktj%2FHC%2FN%2B6uPJ%2Blvfns9N%2Ffo1661XpGqP%2FZIumca%2FLAIqgYBQ6YNlnF1pF1x2kG1Pz%2FREqKSiLBiyx%2FPLIeV%2BgPm5PXBaCA2VL13oVDKaW4BB9XhL0UcsmdrKB%2FfxqbVrqhIvXZTxeXajTB4KOT1bJjneBzvE%2FFD%2FN%2FmP0bdrf%2Fflf",
+      "title": "Sign In - Account",
+      "headings": [
+        "Privacy Settings",
+        "Sign in"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Sign in with passkey",
+        "Create a free account"
+      ],
+      "landmarks": [
+        "dialog:Cookie Consent Banner",
+        "footer",
+        "aside"
+      ]
+    },
+    {
+      "url": "https://www.simplepractice.com/features/new-practice/",
+      "title": "New to Private Practice | SimplePractice",
+      "description": "Set your own rates, choose the clients you want to work with, and manage every part of your practice from one intuitive platform.",
+      "headings": [
+        "New to private practice? Start here.",
+        "90%",
+        "The tools you need to launch your practice",
+        "The best EHR for starting a private practice",
+        "Unlock your earning potential in private practice",
+        "Over 20M clients and 250k practitioners trust the SimplePractice platform2",
+        "Resources",
+        "Start a private practice kit for therapists and clinicians",
+        "How to create a business plan for your private practice",
+        "Start a private practice: Guide to getting your first 30 clients",
+        "Find the right plan for your needs",
+        "FAQs",
+        "Start for free"
+      ],
+      "navLabels": [
+        "Who we're forWho we're for",
+        "FeaturesFeatures",
+        "ResourcesResources",
+        "pricing",
+        "Sign in",
+        "Start free trial"
+      ],
+      "ctas": [
+        "pricing",
+        "Sign in",
+        "Start free trial",
+        "Start your free trial",
+        "Start a private practice kit for therapists and clinicians",
+        "How to create a business plan for your private practice",
+        "Start a private practice: Guide to getting your first 30 clients",
+        "Explore pricing",
+        "Product demo",
+        "Join telehealth"
+      ],
+      "landmarks": [
+        "nav",
+        "header",
+        "nav:Main",
+        "aside"
+      ]
+    },
+    {
+      "url": "https://support.simplepractice.com/hc/en-us",
+      "title": "SimplePractice Support",
+      "headings": [
+        "How can we help?",
+        "Getting started",
+        "Account & settings",
+        "Calendar & scheduling",
+        "Client management",
+        "Documentation",
+        "Telehealth & ePrescribe",
+        "Billing & payments",
+        "Insurance",
+        "Reporting & practice insights",
+        "Managing your group practice",
+        "Marketing your practice",
+        "Learning SimplePractice",
+        "Promoted articles",
+        "Learn more",
+        "Live training sessions",
+        "On-demand classes",
+        "SimplePractice Community",
+        "Still have questions?"
+      ],
+      "navLabels": [
+        "Blog",
+        "Sign in"
+      ],
+      "ctas": [
+        "Sign in",
+        "Getting started",
+        "Getting started with SimplePractice",
+        "Getting started with calendar sync",
+        "Getting started with telehealth",
+        "Getting started with online payments",
+        "Facebook"
+      ],
+      "landmarks": [
+        "header",
+        "nav",
+        "search",
+        "dialog:modal-title-1",
+        "main",
+        "footer",
+        "aside"
+      ]
+    },
+    {
+      "url": "https://www.simplepractice.com/docs/",
+      "title": "Page not found - Simplepractice",
+      "headings": [
+        "Whoops, page not found"
+      ],
+      "navLabels": [
+        "Who we're forWho we're for",
+        "FeaturesFeatures",
+        "ResourcesResources",
+        "pricing",
+        "Sign in",
+        "Start free trial"
+      ],
+      "ctas": [
+        "pricing",
+        "Sign in",
+        "Start free trial",
+        "Product demo",
+        "Join telehealth"
+      ],
+      "landmarks": [
+        "nav",
+        "header",
+        "nav:Main",
+        "aside"
+      ]
+    },
+    {
+      "url": "https://www.simplepractice.com/features/support/",
+      "title": "SimplePractice™ Live Customer Support for Your Practice",
+      "description": "From one-on-one screen share sessions to phone support and live chat, SimplePractice™ Customer Support offers many ways to get you the help you need.",
+      "headings": [
+        "Support when and how you need it",
+        "Live customer support",
+        "Why customers trust SimplePractice",
+        "More from SimplePractice",
+        "Why your EHR's customer support team matters",
+        "Benefits of an EHR: How software can support private practice",
+        "EHR evaluation checklist",
+        "FAQs",
+        "Start for free"
+      ],
+      "navLabels": [
+        "Who we're forWho we're for",
+        "FeaturesFeatures",
+        "ResourcesResources",
+        "pricing",
+        "Sign in",
+        "Start free trial"
+      ],
+      "ctas": [
+        "pricing",
+        "Sign in",
+        "Start free trial",
+        "Product demo",
+        "Join telehealth"
+      ],
+      "landmarks": [
+        "nav",
+        "header",
+        "nav:Main",
+        "aside"
+      ]
+    },
+    {
+      "url": "https://www.simplepractice.com/blog/",
+      "title": "SimplePractice Blog",
+      "description": "Get practical insights, expert advice, and tips to help you build and grow a thriving private practice with the SimplePractice Blog.",
+      "headings": [
+        "SimplePractice Blog",
+        "How technology is reshaping the therapeutic alliance in modern therapy",
+        "Mindfulness-based cognitive therapy techniques",
+        "How to choose the right addiction treatment program for your clients",
+        "Wearable technology in practice: Benefits and best practices",
+        "Practice management",
+        "How to audit-proof documentation",
+        "Setting boundaries with insurance companies: A guide to panel management",
+        "Industry guidance",
+        "Tips for speaking at mental health conferences",
+        "EHR software"
+      ],
+      "navLabels": [
+        "Who we're forWho we're for",
+        "FeaturesFeatures",
+        "ResourcesResources",
+        "pricing",
+        "Sign in",
+        "Start free trial"
+      ],
+      "ctas": [
+        "pricing",
+        "Sign in",
+        "Start free trial",
+        "Search",
+        "Industry guidance",
+        "Learn more",
+        "Product demo",
+        "Join telehealth"
+      ],
+      "landmarks": [
+        "nav",
+        "header",
+        "nav:Main",
+        "aside"
+      ]
+    }
+  ],
+  "navLabels": [
+    "Who we're forWho we're for",
+    "FeaturesFeatures",
+    "ResourcesResources",
+    "pricing",
+    "Sign in",
+    "Start free trial",
+    "Blog"
+  ],
+  "ctas": [
+    "pricing",
+    "Sign in",
+    "Start free trial",
+    "Explore all features",
+    "See plans and pricing",
+    "Step 1Create your SimplePractice account in less than 5 minutes.",
+    "Step 2Explore all our features on the Plus plan free for 30 days.",
+    "Step 4Customize your plan with add-on features and see prices up front.",
+    "Product demo",
+    "Join telehealth",
+    "Sign in with passkey",
+    "Create a free account",
+    "Start your free trial",
+    "Start a private practice kit for therapists and clinicians",
+    "How to create a business plan for your private practice",
+    "Start a private practice: Guide to getting your first 30 clients",
+    "Explore pricing",
+    "Getting started",
+    "Getting started with SimplePractice",
+    "Getting started with calendar sync",
+    "Getting started with telehealth",
+    "Getting started with online payments",
+    "Facebook",
+    "Search"
+  ],
+  "headings": [
+    "Privacy Settings",
+    "Everything you need to thrive in private practice",
+    "Therapists",
+    "Speech-Language Pathologists",
+    "Occupational Therapists",
+    "Psychiatrists",
+    "Intuitive tools to help you thrive",
+    "Voted #1",
+    "In partnership with leading healthcare organizations",
+    "Four simple steps to get started",
+    "Start for free",
+    "Sign in",
+    "New to private practice? Start here.",
+    "90%",
+    "The tools you need to launch your practice",
+    "The best EHR for starting a private practice",
+    "Unlock your earning potential in private practice",
+    "Over 20M clients and 250k practitioners trust the SimplePractice platform2",
+    "Resources",
+    "Start a private practice kit for therapists and clinicians",
+    "How to create a business plan for your private practice",
+    "Start a private practice: Guide to getting your first 30 clients",
+    "Find the right plan for your needs",
+    "FAQs",
+    "How can we help?",
+    "Getting started",
+    "Account & settings",
+    "Calendar & scheduling",
+    "Client management",
+    "Documentation"
+  ],
+  "techSignals": [
+    "Next.js",
+    "Webpack",
+    "Segment",
+    "Google Tag Manager",
+    "Sentry",
+    "Zendesk"
+  ],
+  "featureCandidates": [
+    "Privacy Settings",
+    "Therapists",
+    "Speech-Language Pathologists",
+    "Occupational Therapists",
+    "Psychiatrists",
+    "Intuitive tools to help you thrive",
+    "Voted #1",
+    "Four simple steps to get started",
+    "Start for free",
+    "Sign in",
+    "New to private practice? Start here.",
+    "The tools you need to launch your practice",
+    "The best EHR for starting a private practice",
+    "Resources",
+    "Find the right plan for your needs",
+    "FAQs",
+    "How can we help?",
+    "Getting started",
+    "Account & settings",
+    "Calendar & scheduling",
+    "Client management",
+    "Documentation",
+    "pricing",
+    "Start free trial"
+  ],
+  "patternCandidates": [
+    "Pricing display",
+    "Tabs",
+    "Card layout",
+    "Authentication",
+    "Calendar",
+    "Search"
+  ],
+  "platformsDetected": [
+    "web",
+    "api"
+  ],
+  "summary": "Captured 34 screenshots across 7 public URLs. Nav signals: Who we're forWho we're for, FeaturesFeatures, ResourcesResources, pricing, Sign in, Start free trial. Tech signals: Next.js, Webpack, Segment, Google Tag Manager, Sentry, Zendesk. UI patterns: Pricing display, Tabs, Card layout, Authentication, Calendar, Search."
+}

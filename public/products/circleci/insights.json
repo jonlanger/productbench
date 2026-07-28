@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-07-27T14:03:30.794Z",
-  "screenshotCount": 38,
-  "pageCount": 14,
+  "capturedAt": "2026-07-27T22:15:54.669Z",
+  "screenshotCount": 48,
+  "pageCount": 12,
   "pages": [
     {
       "url": "https://circleci.com/",
@@ -66,9 +66,9 @@
       ]
     },
     {
-      "url": "https://circleci.com/product/chunk/",
-      "title": "Chunk: Validation that keeps up with your agents - CircleCI",
-      "description": "Chunk brings fast inner loop validation to your coding agents. Sidecars catch failures before the push. CircleCI keeps CI clean. Ship cleaner, move faster.",
+      "url": "https://circleci.com/solutions/platform-engineer/",
+      "title": "The CI/CD platform for platform teams - CircleCI",
+      "description": "Boost productivity and scale with confidence on the only CI/CD platform built for elite engineering teams.",
       "headings": [
         "Overview",
         "Features",
@@ -128,9 +128,9 @@
       ]
     },
     {
-      "url": "https://circleci.com/pricing/",
-      "title": "Pricing and Plan Information - CircleCI",
-      "description": "Start building on CircleCI for free. Plans scale as you go: choose the machines and resources your team needs to go fast.",
+      "url": "https://circleci.com/help",
+      "title": "404 - Page Not Found - CircleCI",
+      "description": "Rapidly release code with confidence on CircleCI’s modern continuous integration and delivery platform. Offered on hosted cloud, Enterprise, and macOS platforms.",
       "headings": [
         "Overview",
         "Features",
@@ -188,6 +188,101 @@
         "footer",
         "nav"
       ]
+    },
+    {
+      "url": "https://circleci.com/docs/",
+      "title": "Welcome to CircleCI Documentation - CircleCI Docs",
+      "headings": [
+        "[path]",
+        "Home",
+        "Hi, welcome to CircleCI documentation!"
+      ],
+      "navLabels": [
+        "Clear",
+        "Ask AI",
+        "Go to Application",
+        "Home",
+        "Guides",
+        "Reference",
+        "Server",
+        "Orbs",
+        "Services",
+        "Contributors",
+        "Dev Hub",
+        "API",
+        "Support",
+        "Discuss",
+        "CircleCI.com",
+        "12"
+      ],
+      "ctas": [
+        "Quickstart guide",
+        "Get started with deploys"
+      ],
+      "landmarks": [
+        "dialog:light-modal-label",
+        "header",
+        "nav",
+        "aside",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://support.circleci.com/hc/en-us/",
+      "title": "CircleCI Support Center",
+      "headings": [
+        "Annual members hub",
+        "Docs",
+        "Visit the community",
+        "CircleCI Ideas",
+        "Knowledge base",
+        "Using CircleCI",
+        "Active User & Unregistered User",
+        "Optimizing CircleCI",
+        "Logging into CircleCI",
+        "Accounts and permissions",
+        "Execution environments",
+        "Security",
+        "API",
+        "Orbs",
+        "Billing",
+        "Deploying applications",
+        "Languages and databases",
+        "Mobile",
+        "CircleCI on-premise solutions - Server & Runner",
+        "Working with Support"
+      ],
+      "navLabels": [
+        "toggle menu",
+        "Status",
+        "Developer Hub",
+        "What's new",
+        "Submit a request",
+        "Sign in"
+      ],
+      "ctas": [
+        "Sign in",
+        "Cannot sign in or page is blank in the CircleCI web app"
+      ],
+      "landmarks": [
+        "header",
+        "search",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://app.circleci.com/developers",
+      "title": "CircleCI",
+      "headings": [
+        "Page Not Found"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Log in",
+        "sign up"
+      ],
+      "landmarks": []
     },
     {
       "url": "https://circleci.com/product/",
@@ -252,71 +347,9 @@
       ]
     },
     {
-      "url": "https://circleci.com/products",
-      "title": "404 - Page Not Found - CircleCI",
-      "description": "Rapidly release code with confidence on CircleCI’s modern continuous integration and delivery platform. Offered on hosted cloud, Enterprise, and macOS platforms.",
-      "headings": [
-        "Overview",
-        "Features",
-        "Integrations",
-        "Role",
-        "Use case",
-        "Company size",
-        "Developers",
-        "Explore",
-        "Community",
-        "Benefits",
-        "Compare",
-        "Company"
-      ],
-      "navLabels": [
-        "CircleCI",
-        "Overview",
-        "Integrations",
-        "Customer stories",
-        "Changelog",
-        "Cloud",
-        "Runner (hybrid)",
-        "Server (on-prem)",
-        "Continuous integration",
-        "Platform teams",
-        "DevSecOps",
-        "AI",
-        "Mobile",
-        "Startup",
-        "SMB",
-        "Enterprise",
-        "Get started",
-        "Documentation",
-        "Developer portal",
-        "Blog",
-        "Topics",
-        "Events",
-        "Get support",
-        "Discuss forum"
-      ],
-      "ctas": [
-        "Demo",
-        "Startup",
-        "Orbs registry",
-        "Image registry",
-        "Pricing",
-        "Search",
-        "Log in",
-        "Sign up"
-      ],
-      "landmarks": [
-        "dialog:light-modal-label",
-        "search",
-        "main",
-        "footer",
-        "nav"
-      ]
-    },
-    {
-      "url": "https://circleci.com/platform",
-      "title": "404 - Page Not Found - CircleCI",
-      "description": "Rapidly release code with confidence on CircleCI’s modern continuous integration and delivery platform. Offered on hosted cloud, Enterprise, and macOS platforms.",
+      "url": "https://circleci.com/pricing/",
+      "title": "Pricing and Plan Information - CircleCI",
+      "description": "Start building on CircleCI for free. Plans scale as you go: choose the machines and resources your team needs to go fast.",
       "headings": [
         "Overview",
         "Features",
@@ -500,106 +533,6 @@
       ]
     },
     {
-      "url": "https://circleci.com/docs/",
-      "title": "Welcome to CircleCI Documentation - CircleCI Docs",
-      "headings": [
-        "[path]",
-        "Home",
-        "Hi, welcome to CircleCI documentation!"
-      ],
-      "navLabels": [
-        "Clear",
-        "Ask AI",
-        "Go to Application",
-        "Home",
-        "Guides",
-        "Reference",
-        "Server",
-        "Orbs",
-        "Services",
-        "Contributors",
-        "Dev Hub",
-        "API",
-        "Support",
-        "Discuss",
-        "CircleCI.com",
-        "12"
-      ],
-      "ctas": [
-        "Quickstart guide",
-        "Get started with deploys"
-      ],
-      "landmarks": [
-        "dialog:light-modal-label",
-        "header",
-        "nav",
-        "aside",
-        "footer"
-      ]
-    },
-    {
-      "url": "https://circleci.com/help",
-      "title": "404 - Page Not Found - CircleCI",
-      "description": "Rapidly release code with confidence on CircleCI’s modern continuous integration and delivery platform. Offered on hosted cloud, Enterprise, and macOS platforms.",
-      "headings": [
-        "Overview",
-        "Features",
-        "Integrations",
-        "Role",
-        "Use case",
-        "Company size",
-        "Developers",
-        "Explore",
-        "Community",
-        "Benefits",
-        "Compare",
-        "Company"
-      ],
-      "navLabels": [
-        "CircleCI",
-        "Overview",
-        "Integrations",
-        "Customer stories",
-        "Changelog",
-        "Cloud",
-        "Runner (hybrid)",
-        "Server (on-prem)",
-        "Continuous integration",
-        "Platform teams",
-        "DevSecOps",
-        "AI",
-        "Mobile",
-        "Startup",
-        "SMB",
-        "Enterprise",
-        "Get started",
-        "Documentation",
-        "Developer portal",
-        "Blog",
-        "Topics",
-        "Events",
-        "Get support",
-        "Discuss forum"
-      ],
-      "ctas": [
-        "Demo",
-        "Startup",
-        "Orbs registry",
-        "Image registry",
-        "Pricing",
-        "Search",
-        "Log in",
-        "Sign up"
-      ],
-      "landmarks": [
-        "dialog:light-modal-label",
-        "search",
-        "main",
-        "footer",
-        "nav"
-      ]
-    },
-    {
       "url": "https://circleci.com/blog/",
       "title": "The CircleCI Blog - CircleCI",
       "description": "The home for DevOps, continuous integration and delivery, and engineering productivity.",
@@ -709,130 +642,6 @@
         "footer",
         "nav"
       ]
-    },
-    {
-      "url": "https://circleci.com/signin",
-      "title": "404 - Page Not Found - CircleCI",
-      "description": "Rapidly release code with confidence on CircleCI’s modern continuous integration and delivery platform. Offered on hosted cloud, Enterprise, and macOS platforms.",
-      "headings": [
-        "Overview",
-        "Features",
-        "Integrations",
-        "Role",
-        "Use case",
-        "Company size",
-        "Developers",
-        "Explore",
-        "Community",
-        "Benefits",
-        "Compare",
-        "Company"
-      ],
-      "navLabels": [
-        "CircleCI",
-        "Overview",
-        "Integrations",
-        "Customer stories",
-        "Changelog",
-        "Cloud",
-        "Runner (hybrid)",
-        "Server (on-prem)",
-        "Continuous integration",
-        "Platform teams",
-        "DevSecOps",
-        "AI",
-        "Mobile",
-        "Startup",
-        "SMB",
-        "Enterprise",
-        "Get started",
-        "Documentation",
-        "Developer portal",
-        "Blog",
-        "Topics",
-        "Events",
-        "Get support",
-        "Discuss forum"
-      ],
-      "ctas": [
-        "Demo",
-        "Startup",
-        "Orbs registry",
-        "Image registry",
-        "Pricing",
-        "Search",
-        "Log in",
-        "Sign up"
-      ],
-      "landmarks": [
-        "dialog:light-modal-label",
-        "search",
-        "main",
-        "footer",
-        "nav"
-      ]
-    },
-    {
-      "url": "https://circleci.com/sign-in",
-      "title": "404 - Page Not Found - CircleCI",
-      "description": "Rapidly release code with confidence on CircleCI’s modern continuous integration and delivery platform. Offered on hosted cloud, Enterprise, and macOS platforms.",
-      "headings": [
-        "Overview",
-        "Features",
-        "Integrations",
-        "Role",
-        "Use case",
-        "Company size",
-        "Developers",
-        "Explore",
-        "Community",
-        "Benefits",
-        "Compare",
-        "Company"
-      ],
-      "navLabels": [
-        "CircleCI",
-        "Overview",
-        "Integrations",
-        "Customer stories",
-        "Changelog",
-        "Cloud",
-        "Runner (hybrid)",
-        "Server (on-prem)",
-        "Continuous integration",
-        "Platform teams",
-        "DevSecOps",
-        "AI",
-        "Mobile",
-        "Startup",
-        "SMB",
-        "Enterprise",
-        "Get started",
-        "Documentation",
-        "Developer portal",
-        "Blog",
-        "Topics",
-        "Events",
-        "Get support",
-        "Discuss forum"
-      ],
-      "ctas": [
-        "Demo",
-        "Startup",
-        "Orbs registry",
-        "Image registry",
-        "Pricing",
-        "Search",
-        "Log in",
-        "Sign up"
-      ],
-      "landmarks": [
-        "dialog:light-modal-label",
-        "search",
-        "main",
-        "footer",
-        "nav"
-      ]
     }
   ],
   "navLabels": [
@@ -878,6 +687,8 @@
     "Sign up",
     "Quickstart guide",
     "Get started with deploys",
+    "Sign in",
+    "Cannot sign in or page is blank in the CircleCI web app",
     "Search CircleCI blog",
     "Learn more"
   ],
@@ -897,28 +708,30 @@
     "[path]",
     "Home",
     "Hi, welcome to CircleCI documentation!",
-    "Blog",
-    "Site",
-    "AI Development",
-    "CircleCI News",
-    "Engineering Productivity",
+    "Annual members hub",
+    "Docs",
+    "Visit the community",
+    "CircleCI Ideas",
+    "Knowledge base",
+    "Using CircleCI",
+    "Active User & Unregistered User",
+    "Optimizing CircleCI",
+    "Logging into CircleCI",
+    "Accounts and permissions",
+    "Execution environments",
     "Security",
-    "Most popular",
-    "5 takeaways from the State of Software Delivery Q2 Pulse report",
-    "Introducing Chunk™: The agent that validates code at AI speed",
-    "The real reason your AI initiatives are failing",
-    "CircleCI MCP server: Natural language CI for AI-driven workflows",
-    "CI/CD at scale: A performance analysis of CircleCI vs GitHub Actions",
-    "Introduction to developer experience: What, why, and how",
-    ">Subscribe"
+    "API",
+    "Orbs",
+    "Billing"
   ],
   "techSignals": [
     "Next.js",
-    "React",
-    "Contentful",
     "Vite",
     "Segment",
-    "Google Tag Manager"
+    "Google Tag Manager",
+    "Webpack",
+    "React",
+    "Contentful"
   ],
   "featureCandidates": [
     "Overview",
@@ -936,15 +749,15 @@
     "[path]",
     "Home",
     "Hi, welcome to CircleCI documentation!",
-    "Blog",
-    "Site",
-    "AI Development",
-    "CircleCI News",
-    "Engineering Productivity",
-    "Security",
-    "Most popular",
-    "The real reason your AI initiatives are failing",
-    ">Subscribe"
+    "Annual members hub",
+    "Docs",
+    "Visit the community",
+    "CircleCI Ideas",
+    "Knowledge base",
+    "Using CircleCI",
+    "Active User & Unregistered User",
+    "Optimizing CircleCI",
+    "Logging into CircleCI"
   ],
   "patternCandidates": [
     "Modal dialogs",
@@ -954,9 +767,9 @@
     "Tabs",
     "Menus",
     "Authentication",
+    "Dashboard",
     "Card layout",
-    "Filters",
-    "Dashboard"
+    "Filters"
   ],
   "platformsDetected": [
     "web",
@@ -965,5 +778,5 @@
     "cli",
     "ios"
   ],
-  "summary": "Captured 38 screenshots across 14 public URLs. Nav signals: CircleCI, Overview, Integrations, Customer stories, Changelog, Cloud. Tech signals: Next.js, React, Contentful, Vite, Segment, Google Tag Manager. UI patterns: Modal dialogs, Search, Pricing display, Map view, Tabs, Menus."
+  "summary": "Captured 48 screenshots across 12 public URLs. Nav signals: CircleCI, Overview, Integrations, Customer stories, Changelog, Cloud. Tech signals: Next.js, Vite, Segment, Google Tag Manager, Webpack, React. UI patterns: Modal dialogs, Search, Pricing display, Map view, Tabs, Menus."
 }

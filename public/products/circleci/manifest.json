@@ -1,278 +1,924 @@
 {
   "slug": "circleci",
-  "capturedAt": "2026-07-27T14:03:30.794Z",
+  "capturedAt": "2026-07-27T22:15:54.669Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "CircleCI public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://circleci.com/"
+      "sourceUrl": "https://circleci.com/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autonomous validation for the AI era - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "985d65650d0f4534",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "CircleCI homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://circleci.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "CircleCI homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://circleci.com/"
+      "sourceUrl": "https://circleci.com/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autonomous validation for the AI era - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "c824121a5c1c6d7c",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "CircleCI homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://circleci.com/"
+      "sourceUrl": "https://circleci.com/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autonomous validation for the AI era - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d4f5ea02b220434",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "CircleCI homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://circleci.com/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autonomous validation for the AI era - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "9418012325212134",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "CircleCI homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://circleci.com/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autonomous validation for the AI era - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "05210b0783db5b74",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "CircleCI homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://circleci.com/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autonomous validation for the AI era - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "c4d0130040410634",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "CircleCI homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://circleci.com/"
-    },
-    {
-      "file": "search-composer.jpg",
-      "title": "Search / composer",
-      "caption": "Focused search or primary input on CircleCI",
-      "kind": "component",
-      "sourceUrl": "https://circleci.com/"
-    },
-    {
-      "file": "sign-in.jpg",
-      "title": "Sign in",
-      "caption": "Sign in / log in UI on CircleCI (pattern only — no credentials)",
-      "kind": "component",
-      "sourceUrl": "https://circleci.com/"
+      "sourceUrl": "https://circleci.com/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autonomous validation for the AI era - CircleCI",
+      "width": 390,
+      "height": 844,
+      "phash": "707fb7b1c6475318",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from CircleCI",
       "kind": "product",
-      "sourceUrl": "https://circleci.com/product/chunk/"
+      "sourceUrl": "https://circleci.com/solutions/platform-engineer/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The CI/CD platform for platform teams - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "1831727171079d1c",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from CircleCI",
       "kind": "product",
-      "sourceUrl": "https://circleci.com/product/chunk/"
+      "sourceUrl": "https://circleci.com/solutions/platform-engineer/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The CI/CD platform for platform teams - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "90ce8e9e9a530d34",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from CircleCI",
       "kind": "product",
-      "sourceUrl": "https://circleci.com/product/chunk/"
+      "sourceUrl": "https://circleci.com/solutions/platform-engineer/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The CI/CD platform for platform teams - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "88255551242c1234",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from CircleCI",
       "kind": "product",
-      "sourceUrl": "https://circleci.com/product/chunk/"
+      "sourceUrl": "https://circleci.com/solutions/platform-engineer/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The CI/CD platform for platform teams - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "d43161c1c9759274",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from CircleCI",
       "kind": "product",
-      "sourceUrl": "https://circleci.com/product/chunk/"
+      "sourceUrl": "https://circleci.com/solutions/platform-engineer/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The CI/CD platform for platform teams - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c45686921b28e34",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from CircleCI",
+      "kind": "product",
+      "sourceUrl": "https://circleci.com/solutions/platform-engineer/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The CI/CD platform for platform teams - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "a81a7121513b1f34",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from CircleCI",
+      "kind": "product",
+      "sourceUrl": "https://circleci.com/solutions/platform-engineer/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The CI/CD platform for platform teams - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "8832715136395964",
+      "unique": true
+    },
+    {
+      "file": "nav-10.jpg",
+      "title": "In-product nav (10)",
+      "caption": "Same-origin product / pricing / docs links from CircleCI",
+      "kind": "product",
+      "sourceUrl": "https://circleci.com/solutions/platform-engineer/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The CI/CD platform for platform teams - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "a806160200884674",
+      "unique": true
+    },
+    {
+      "file": "nav-11.jpg",
+      "title": "In-product nav (11)",
+      "caption": "Same-origin product / pricing / docs links from CircleCI",
+      "kind": "product",
+      "sourceUrl": "https://circleci.com/solutions/platform-engineer/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The CI/CD platform for platform teams - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "785839336236377c",
+      "unique": true
+    },
+    {
+      "file": "nav-12.jpg",
+      "title": "In-product nav (12)",
+      "caption": "Same-origin product / pricing / docs links from CircleCI",
+      "kind": "product",
+      "sourceUrl": "https://circleci.com/solutions/platform-engineer/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The CI/CD platform for platform teams - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "5822315107313474",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "Dashboard (1)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "product",
-      "sourceUrl": "https://circleci.com/pricing/"
+      "sourceUrl": "https://circleci.com/help",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 - Page Not Found - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "98807d7964850574",
+      "unique": true
     },
     {
-      "file": "surface-1-mid.jpg",
-      "title": "Dashboard (2)",
+      "file": "surface-1-band-2.jpg",
+      "title": "Dashboard (3)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "product",
-      "sourceUrl": "https://circleci.com/pricing/"
+      "sourceUrl": "https://circleci.com/help",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 - Page Not Found - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "4922e0d4d0a20674",
+      "unique": true
     },
     {
-      "file": "surface-2.jpg",
-      "title": "Settings (1)",
+      "file": "surface-2-band-2.jpg",
+      "title": "Settings (3)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "product",
-      "sourceUrl": "https://circleci.com/product/"
+      "sourceUrl": "https://circleci.com/docs/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Welcome to CircleCI Documentation - CircleCI Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "d43051cb4d93d374",
+      "unique": true
     },
     {
-      "file": "surface-2-mid.jpg",
-      "title": "Settings (2)",
+      "file": "surface-2-lower.jpg",
+      "title": "Settings (4)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "product",
-      "sourceUrl": "https://circleci.com/product/"
+      "sourceUrl": "https://circleci.com/docs/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Welcome to CircleCI Documentation - CircleCI Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "d4736989b6b0cc74",
+      "unique": true
     },
     {
       "file": "surface-3.jpg",
       "title": "Search (1)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/products"
+      "sourceUrl": "https://support.circleci.com/hc/en-us/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "CircleCI Support Center",
+      "width": 1440,
+      "height": 900,
+      "phash": "92cc0c1155555562",
+      "unique": true
     },
     {
-      "file": "surface-3-mid.jpg",
-      "title": "Search (2)",
+      "file": "surface-3-band-2.jpg",
+      "title": "Search (3)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/products"
+      "sourceUrl": "https://support.circleci.com/hc/en-us/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "CircleCI Support Center",
+      "width": 1440,
+      "height": 900,
+      "phash": "d866376767677372",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-3.jpg",
+      "title": "Search (4)",
+      "caption": "CircleCI public surface · circleci.com",
+      "kind": "docs",
+      "sourceUrl": "https://support.circleci.com/hc/en-us/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "CircleCI Support Center",
+      "width": 1440,
+      "height": 900,
+      "phash": "c867637577774772",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-4.jpg",
+      "title": "Search (5)",
+      "caption": "CircleCI public surface · circleci.com",
+      "kind": "docs",
+      "sourceUrl": "https://support.circleci.com/hc/en-us/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "CircleCI Support Center",
+      "width": 1440,
+      "height": 900,
+      "phash": "c07727673d494b5a",
+      "unique": true
+    },
+    {
+      "file": "surface-3-lower.jpg",
+      "title": "Search (6)",
+      "caption": "CircleCI public surface · circleci.com",
+      "kind": "docs",
+      "sourceUrl": "https://support.circleci.com/hc/en-us/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "CircleCI Support Center",
+      "width": 1440,
+      "height": 900,
+      "phash": "6777205b5b5c2c48",
+      "unique": true
     },
     {
       "file": "surface-4.jpg",
       "title": "Profile (1)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/product/"
+      "sourceUrl": "https://app.circleci.com/developers",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c34c21333334b04",
+      "unique": true
     },
     {
-      "file": "surface-4-mid.jpg",
-      "title": "Profile (2)",
+      "file": "surface-7-band-2.jpg",
+      "title": "Sign in (3)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/product/"
+      "sourceUrl": "https://circleci.com/product/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Product and features - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c1c1c2168916774",
+      "unique": true
     },
     {
-      "file": "surface-5.jpg",
-      "title": "Supporting surface 5 (1)",
+      "file": "surface-7-band-3.jpg",
+      "title": "Sign in (4)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/platform"
+      "sourceUrl": "https://circleci.com/product/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Product and features - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "606725a565272654",
+      "unique": true
     },
     {
-      "file": "surface-5-mid.jpg",
-      "title": "Supporting surface 5 (2)",
+      "file": "surface-7-band-4.jpg",
+      "title": "Sign in (5)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/platform"
-    },
-    {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6 (1)",
-      "caption": "CircleCI public surface · circleci.com",
-      "kind": "docs",
-      "sourceUrl": "https://circleci.com/solutions/"
-    },
-    {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
-      "caption": "CircleCI public surface · circleci.com",
-      "kind": "docs",
-      "sourceUrl": "https://circleci.com/solutions/"
-    },
-    {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
-      "caption": "CircleCI public surface · circleci.com",
-      "kind": "docs",
-      "sourceUrl": "https://circleci.com/customers/"
-    },
-    {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
-      "caption": "CircleCI public surface · circleci.com",
-      "kind": "docs",
-      "sourceUrl": "https://circleci.com/customers/"
-    },
-    {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
-      "caption": "CircleCI public surface · circleci.com",
-      "kind": "docs",
-      "sourceUrl": "https://circleci.com/docs/"
-    },
-    {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
-      "caption": "CircleCI public surface · circleci.com",
-      "kind": "docs",
-      "sourceUrl": "https://circleci.com/docs/"
+      "sourceUrl": "https://circleci.com/product/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Product and features - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "48004c6cd2da9634",
+      "unique": true
     },
     {
       "file": "surface-9.jpg",
       "title": "Supporting surface 9 (1)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/help"
+      "sourceUrl": "https://circleci.com/pricing/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing and Plan Information - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "0020c903969696b4",
+      "unique": true
     },
     {
-      "file": "surface-9-mid.jpg",
-      "title": "Supporting surface 9 (2)",
+      "file": "surface-9-band-2.jpg",
+      "title": "Supporting surface 9 (3)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/help"
+      "sourceUrl": "https://circleci.com/pricing/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing and Plan Information - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "9696929696130d74",
+      "unique": true
     },
     {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
+      "file": "surface-9-band-3.jpg",
+      "title": "Supporting surface 9 (4)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/blog/"
+      "sourceUrl": "https://circleci.com/pricing/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing and Plan Information - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "880900591a945434",
+      "unique": true
     },
     {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
+      "file": "surface-9-band-4.jpg",
+      "title": "Supporting surface 9 (5)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/blog/"
+      "sourceUrl": "https://circleci.com/pricing/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing and Plan Information - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c02081515e29634",
+      "unique": true
     },
     {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12 (1)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/about/"
+      "sourceUrl": "https://circleci.com/solutions/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Software delivery solutions by use case - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "c82b0fcc200cd674",
+      "unique": true
     },
     {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
+      "file": "surface-12-band-2.jpg",
+      "title": "Supporting surface 12 (3)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/about/"
+      "sourceUrl": "https://circleci.com/solutions/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Software delivery solutions by use case - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "989aca4221410234",
+      "unique": true
+    },
+    {
+      "file": "surface-12-band-3.jpg",
+      "title": "Supporting surface 12 (4)",
+      "caption": "CircleCI public surface · circleci.com",
+      "kind": "docs",
+      "sourceUrl": "https://circleci.com/solutions/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Software delivery solutions by use case - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "c820d4ccd0018274",
+      "unique": true
     },
     {
       "file": "surface-13.jpg",
       "title": "Supporting surface 13 (1)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/signin"
+      "sourceUrl": "https://circleci.com/customers/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer Stories - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "4c0151514e6e9514",
+      "unique": true
     },
     {
-      "file": "surface-13-mid.jpg",
-      "title": "Supporting surface 13 (2)",
+      "file": "surface-13-band-2.jpg",
+      "title": "Supporting surface 13 (3)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/signin"
+      "sourceUrl": "https://circleci.com/customers/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer Stories - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "959595f495959574",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-3.jpg",
+      "title": "Supporting surface 13 (4)",
+      "caption": "CircleCI public surface · circleci.com",
+      "kind": "docs",
+      "sourceUrl": "https://circleci.com/customers/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer Stories - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "9415749595155574",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-4.jpg",
+      "title": "Supporting surface 13 (5)",
+      "caption": "CircleCI public surface · circleci.com",
+      "kind": "docs",
+      "sourceUrl": "https://circleci.com/customers/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer Stories - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "e815959565059514",
+      "unique": true
     },
     {
       "file": "surface-14.jpg",
       "title": "Supporting surface 14 (1)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/sign-in"
+      "sourceUrl": "https://circleci.com/blog/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The CircleCI Blog - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "50c577353d376574",
+      "unique": true
     },
     {
-      "file": "surface-14-mid.jpg",
-      "title": "Supporting surface 14 (2)",
+      "file": "surface-14-band-3.jpg",
+      "title": "Supporting surface 14 (4)",
       "caption": "CircleCI public surface · circleci.com",
       "kind": "docs",
-      "sourceUrl": "https://circleci.com/sign-in"
+      "sourceUrl": "https://circleci.com/blog/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The CircleCI Blog - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "c809764949094b34",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-4.jpg",
+      "title": "Supporting surface 14 (5)",
+      "caption": "CircleCI public surface · circleci.com",
+      "kind": "docs",
+      "sourceUrl": "https://circleci.com/blog/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The CircleCI Blog - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "c0db4b92d02e0674",
+      "unique": true
+    },
+    {
+      "file": "surface-15.jpg",
+      "title": "Supporting surface 15 (1)",
+      "caption": "CircleCI public surface · circleci.com",
+      "kind": "docs",
+      "sourceUrl": "https://circleci.com/about/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "183034332b8dbc7c",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-2.jpg",
+      "title": "Supporting surface 15 (3)",
+      "caption": "CircleCI public surface · circleci.com",
+      "kind": "docs",
+      "sourceUrl": "https://circleci.com/about/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "b81cb290b4343274",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-3.jpg",
+      "title": "Supporting surface 15 (4)",
+      "caption": "CircleCI public surface · circleci.com",
+      "kind": "docs",
+      "sourceUrl": "https://circleci.com/about/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "f0310a2204010744",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-4.jpg",
+      "title": "Supporting surface 15 (5)",
+      "caption": "CircleCI public surface · circleci.com",
+      "kind": "docs",
+      "sourceUrl": "https://circleci.com/about/",
+      "capturedAt": "2026-07-27T22:13:50.593Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us - CircleCI",
+      "width": 1440,
+      "height": 900,
+      "phash": "c3474f4f4e4c3334",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T14:03:30.794Z",
-    "screenshotCount": 38,
-    "pageCount": 14,
+    "capturedAt": "2026-07-27T22:15:54.669Z",
+    "screenshotCount": 48,
+    "pageCount": 12,
     "pages": [
       {
         "url": "https://circleci.com/",
@@ -337,9 +983,9 @@
         ]
       },
       {
-        "url": "https://circleci.com/product/chunk/",
-        "title": "Chunk: Validation that keeps up with your agents - CircleCI",
-        "description": "Chunk brings fast inner loop validation to your coding agents. Sidecars catch failures before the push. CircleCI keeps CI clean. Ship cleaner, move faster.",
+        "url": "https://circleci.com/solutions/platform-engineer/",
+        "title": "The CI/CD platform for platform teams - CircleCI",
+        "description": "Boost productivity and scale with confidence on the only CI/CD platform built for elite engineering teams.",
         "headings": [
           "Overview",
           "Features",
@@ -399,9 +1045,9 @@
         ]
       },
       {
-        "url": "https://circleci.com/pricing/",
-        "title": "Pricing and Plan Information - CircleCI",
-        "description": "Start building on CircleCI for free. Plans scale as you go: choose the machines and resources your team needs to go fast.",
+        "url": "https://circleci.com/help",
+        "title": "404 - Page Not Found - CircleCI",
+        "description": "Rapidly release code with confidence on CircleCI’s modern continuous integration and delivery platform. Offered on hosted cloud, Enterprise, and macOS platforms.",
         "headings": [
           "Overview",
           "Features",
@@ -459,6 +1105,101 @@
           "footer",
           "nav"
         ]
+      },
+      {
+        "url": "https://circleci.com/docs/",
+        "title": "Welcome to CircleCI Documentation - CircleCI Docs",
+        "headings": [
+          "[path]",
+          "Home",
+          "Hi, welcome to CircleCI documentation!"
+        ],
+        "navLabels": [
+          "Clear",
+          "Ask AI",
+          "Go to Application",
+          "Home",
+          "Guides",
+          "Reference",
+          "Server",
+          "Orbs",
+          "Services",
+          "Contributors",
+          "Dev Hub",
+          "API",
+          "Support",
+          "Discuss",
+          "CircleCI.com",
+          "12"
+        ],
+        "ctas": [
+          "Quickstart guide",
+          "Get started with deploys"
+        ],
+        "landmarks": [
+          "dialog:light-modal-label",
+          "header",
+          "nav",
+          "aside",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://support.circleci.com/hc/en-us/",
+        "title": "CircleCI Support Center",
+        "headings": [
+          "Annual members hub",
+          "Docs",
+          "Visit the community",
+          "CircleCI Ideas",
+          "Knowledge base",
+          "Using CircleCI",
+          "Active User & Unregistered User",
+          "Optimizing CircleCI",
+          "Logging into CircleCI",
+          "Accounts and permissions",
+          "Execution environments",
+          "Security",
+          "API",
+          "Orbs",
+          "Billing",
+          "Deploying applications",
+          "Languages and databases",
+          "Mobile",
+          "CircleCI on-premise solutions - Server & Runner",
+          "Working with Support"
+        ],
+        "navLabels": [
+          "toggle menu",
+          "Status",
+          "Developer Hub",
+          "What's new",
+          "Submit a request",
+          "Sign in"
+        ],
+        "ctas": [
+          "Sign in",
+          "Cannot sign in or page is blank in the CircleCI web app"
+        ],
+        "landmarks": [
+          "header",
+          "search",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://app.circleci.com/developers",
+        "title": "CircleCI",
+        "headings": [
+          "Page Not Found"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Log in",
+          "sign up"
+        ],
+        "landmarks": []
       },
       {
         "url": "https://circleci.com/product/",
@@ -523,71 +1264,9 @@
         ]
       },
       {
-        "url": "https://circleci.com/products",
-        "title": "404 - Page Not Found - CircleCI",
-        "description": "Rapidly release code with confidence on CircleCI’s modern continuous integration and delivery platform. Offered on hosted cloud, Enterprise, and macOS platforms.",
-        "headings": [
-          "Overview",
-          "Features",
-          "Integrations",
-          "Role",
-          "Use case",
-          "Company size",
-          "Developers",
-          "Explore",
-          "Community",
-          "Benefits",
-          "Compare",
-          "Company"
-        ],
-        "navLabels": [
-          "CircleCI",
-          "Overview",
-          "Integrations",
-          "Customer stories",
-          "Changelog",
-          "Cloud",
-          "Runner (hybrid)",
-          "Server (on-prem)",
-          "Continuous integration",
-          "Platform teams",
-          "DevSecOps",
-          "AI",
-          "Mobile",
-          "Startup",
-          "SMB",
-          "Enterprise",
-          "Get started",
-          "Documentation",
-          "Developer portal",
-          "Blog",
-          "Topics",
-          "Events",
-          "Get support",
-          "Discuss forum"
-        ],
-        "ctas": [
-          "Demo",
-          "Startup",
-          "Orbs registry",
-          "Image registry",
-          "Pricing",
-          "Search",
-          "Log in",
-          "Sign up"
-        ],
-        "landmarks": [
-          "dialog:light-modal-label",
-          "search",
-          "main",
-          "footer",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://circleci.com/platform",
-        "title": "404 - Page Not Found - CircleCI",
-        "description": "Rapidly release code with confidence on CircleCI’s modern continuous integration and delivery platform. Offered on hosted cloud, Enterprise, and macOS platforms.",
+        "url": "https://circleci.com/pricing/",
+        "title": "Pricing and Plan Information - CircleCI",
+        "description": "Start building on CircleCI for free. Plans scale as you go: choose the machines and resources your team needs to go fast.",
         "headings": [
           "Overview",
           "Features",
@@ -771,106 +1450,6 @@
         ]
       },
       {
-        "url": "https://circleci.com/docs/",
-        "title": "Welcome to CircleCI Documentation - CircleCI Docs",
-        "headings": [
-          "[path]",
-          "Home",
-          "Hi, welcome to CircleCI documentation!"
-        ],
-        "navLabels": [
-          "Clear",
-          "Ask AI",
-          "Go to Application",
-          "Home",
-          "Guides",
-          "Reference",
-          "Server",
-          "Orbs",
-          "Services",
-          "Contributors",
-          "Dev Hub",
-          "API",
-          "Support",
-          "Discuss",
-          "CircleCI.com",
-          "12"
-        ],
-        "ctas": [
-          "Quickstart guide",
-          "Get started with deploys"
-        ],
-        "landmarks": [
-          "dialog:light-modal-label",
-          "header",
-          "nav",
-          "aside",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://circleci.com/help",
-        "title": "404 - Page Not Found - CircleCI",
-        "description": "Rapidly release code with confidence on CircleCI’s modern continuous integration and delivery platform. Offered on hosted cloud, Enterprise, and macOS platforms.",
-        "headings": [
-          "Overview",
-          "Features",
-          "Integrations",
-          "Role",
-          "Use case",
-          "Company size",
-          "Developers",
-          "Explore",
-          "Community",
-          "Benefits",
-          "Compare",
-          "Company"
-        ],
-        "navLabels": [
-          "CircleCI",
-          "Overview",
-          "Integrations",
-          "Customer stories",
-          "Changelog",
-          "Cloud",
-          "Runner (hybrid)",
-          "Server (on-prem)",
-          "Continuous integration",
-          "Platform teams",
-          "DevSecOps",
-          "AI",
-          "Mobile",
-          "Startup",
-          "SMB",
-          "Enterprise",
-          "Get started",
-          "Documentation",
-          "Developer portal",
-          "Blog",
-          "Topics",
-          "Events",
-          "Get support",
-          "Discuss forum"
-        ],
-        "ctas": [
-          "Demo",
-          "Startup",
-          "Orbs registry",
-          "Image registry",
-          "Pricing",
-          "Search",
-          "Log in",
-          "Sign up"
-        ],
-        "landmarks": [
-          "dialog:light-modal-label",
-          "search",
-          "main",
-          "footer",
-          "nav"
-        ]
-      },
-      {
         "url": "https://circleci.com/blog/",
         "title": "The CircleCI Blog - CircleCI",
         "description": "The home for DevOps, continuous integration and delivery, and engineering productivity.",
@@ -980,130 +1559,6 @@
           "footer",
           "nav"
         ]
-      },
-      {
-        "url": "https://circleci.com/signin",
-        "title": "404 - Page Not Found - CircleCI",
-        "description": "Rapidly release code with confidence on CircleCI’s modern continuous integration and delivery platform. Offered on hosted cloud, Enterprise, and macOS platforms.",
-        "headings": [
-          "Overview",
-          "Features",
-          "Integrations",
-          "Role",
-          "Use case",
-          "Company size",
-          "Developers",
-          "Explore",
-          "Community",
-          "Benefits",
-          "Compare",
-          "Company"
-        ],
-        "navLabels": [
-          "CircleCI",
-          "Overview",
-          "Integrations",
-          "Customer stories",
-          "Changelog",
-          "Cloud",
-          "Runner (hybrid)",
-          "Server (on-prem)",
-          "Continuous integration",
-          "Platform teams",
-          "DevSecOps",
-          "AI",
-          "Mobile",
-          "Startup",
-          "SMB",
-          "Enterprise",
-          "Get started",
-          "Documentation",
-          "Developer portal",
-          "Blog",
-          "Topics",
-          "Events",
-          "Get support",
-          "Discuss forum"
-        ],
-        "ctas": [
-          "Demo",
-          "Startup",
-          "Orbs registry",
-          "Image registry",
-          "Pricing",
-          "Search",
-          "Log in",
-          "Sign up"
-        ],
-        "landmarks": [
-          "dialog:light-modal-label",
-          "search",
-          "main",
-          "footer",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://circleci.com/sign-in",
-        "title": "404 - Page Not Found - CircleCI",
-        "description": "Rapidly release code with confidence on CircleCI’s modern continuous integration and delivery platform. Offered on hosted cloud, Enterprise, and macOS platforms.",
-        "headings": [
-          "Overview",
-          "Features",
-          "Integrations",
-          "Role",
-          "Use case",
-          "Company size",
-          "Developers",
-          "Explore",
-          "Community",
-          "Benefits",
-          "Compare",
-          "Company"
-        ],
-        "navLabels": [
-          "CircleCI",
-          "Overview",
-          "Integrations",
-          "Customer stories",
-          "Changelog",
-          "Cloud",
-          "Runner (hybrid)",
-          "Server (on-prem)",
-          "Continuous integration",
-          "Platform teams",
-          "DevSecOps",
-          "AI",
-          "Mobile",
-          "Startup",
-          "SMB",
-          "Enterprise",
-          "Get started",
-          "Documentation",
-          "Developer portal",
-          "Blog",
-          "Topics",
-          "Events",
-          "Get support",
-          "Discuss forum"
-        ],
-        "ctas": [
-          "Demo",
-          "Startup",
-          "Orbs registry",
-          "Image registry",
-          "Pricing",
-          "Search",
-          "Log in",
-          "Sign up"
-        ],
-        "landmarks": [
-          "dialog:light-modal-label",
-          "search",
-          "main",
-          "footer",
-          "nav"
-        ]
       }
     ],
     "navLabels": [
@@ -1149,6 +1604,8 @@
       "Sign up",
       "Quickstart guide",
       "Get started with deploys",
+      "Sign in",
+      "Cannot sign in or page is blank in the CircleCI web app",
       "Search CircleCI blog",
       "Learn more"
     ],
@@ -1168,28 +1625,30 @@
       "[path]",
       "Home",
       "Hi, welcome to CircleCI documentation!",
-      "Blog",
-      "Site",
-      "AI Development",
-      "CircleCI News",
-      "Engineering Productivity",
+      "Annual members hub",
+      "Docs",
+      "Visit the community",
+      "CircleCI Ideas",
+      "Knowledge base",
+      "Using CircleCI",
+      "Active User & Unregistered User",
+      "Optimizing CircleCI",
+      "Logging into CircleCI",
+      "Accounts and permissions",
+      "Execution environments",
       "Security",
-      "Most popular",
-      "5 takeaways from the State of Software Delivery Q2 Pulse report",
-      "Introducing Chunk™: The agent that validates code at AI speed",
-      "The real reason your AI initiatives are failing",
-      "CircleCI MCP server: Natural language CI for AI-driven workflows",
-      "CI/CD at scale: A performance analysis of CircleCI vs GitHub Actions",
-      "Introduction to developer experience: What, why, and how",
-      ">Subscribe"
+      "API",
+      "Orbs",
+      "Billing"
     ],
     "techSignals": [
       "Next.js",
-      "React",
-      "Contentful",
       "Vite",
       "Segment",
-      "Google Tag Manager"
+      "Google Tag Manager",
+      "Webpack",
+      "React",
+      "Contentful"
     ],
     "featureCandidates": [
       "Overview",
@@ -1207,15 +1666,15 @@
       "[path]",
       "Home",
       "Hi, welcome to CircleCI documentation!",
-      "Blog",
-      "Site",
-      "AI Development",
-      "CircleCI News",
-      "Engineering Productivity",
-      "Security",
-      "Most popular",
-      "The real reason your AI initiatives are failing",
-      ">Subscribe"
+      "Annual members hub",
+      "Docs",
+      "Visit the community",
+      "CircleCI Ideas",
+      "Knowledge base",
+      "Using CircleCI",
+      "Active User & Unregistered User",
+      "Optimizing CircleCI",
+      "Logging into CircleCI"
     ],
     "patternCandidates": [
       "Modal dialogs",
@@ -1225,9 +1684,9 @@
       "Tabs",
       "Menus",
       "Authentication",
+      "Dashboard",
       "Card layout",
-      "Filters",
-      "Dashboard"
+      "Filters"
     ],
     "platformsDetected": [
       "web",
@@ -1236,6 +1695,6 @@
       "cli",
       "ios"
     ],
-    "summary": "Captured 38 screenshots across 14 public URLs. Nav signals: CircleCI, Overview, Integrations, Customer stories, Changelog, Cloud. Tech signals: Next.js, React, Contentful, Vite, Segment, Google Tag Manager. UI patterns: Modal dialogs, Search, Pricing display, Map view, Tabs, Menus."
+    "summary": "Captured 48 screenshots across 12 public URLs. Nav signals: CircleCI, Overview, Integrations, Customer stories, Changelog, Cloud. Tech signals: Next.js, Vite, Segment, Google Tag Manager, Webpack, React. UI patterns: Modal dialogs, Search, Pricing display, Map view, Tabs, Menus."
   }
 }

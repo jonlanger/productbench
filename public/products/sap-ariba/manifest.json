@@ -1,0 +1,51 @@
+{
+  "slug": "sap-ariba",
+  "capturedAt": "2026-07-27T23:18:29.741Z",
+  "shots": [
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.ariba.com",
+      "capturedAt": "2026-07-27T23:18:20.363Z",
+      "playbookStep": "web-fallback",
+      "width": 300,
+      "height": 300,
+      "phash": "0056a929d69c6804",
+      "unique": true
+    },
+    {
+      "file": "fallback-wayback-1.jpg",
+      "title": "Archived Marketing preview",
+      "caption": "Wayback Machine snapshot 20230207043255 · https://www.ariba.com",
+      "kind": "marketing",
+      "sourceUrl": "http://web.archive.org/web/20230207043255/https://www.ariba.com/",
+      "capturedAt": "2026-07-27T23:18:20.363Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 630,
+      "phash": "00151c1674584200",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T23:18:29.741Z",
+    "screenshotCount": 2,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 2 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

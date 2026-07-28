@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-07-26T22:22:24.711Z",
-  "screenshotCount": 38,
-  "pageCount": 17,
+  "capturedAt": "2026-07-27T22:37:01.481Z",
+  "screenshotCount": 64,
+  "pageCount": 15,
   "pages": [
     {
       "url": "https://webflow.com/",
@@ -81,8 +81,9 @@
         "complementary",
         "banner:Primary",
         "navigation",
-        "listbox:persona-toggle-1785104481727",
+        "listbox:persona-toggle-1785191705085",
         "nav:w-dropdown-toggle-3",
+        "listbox:persona-toggle-1785191705086",
         "main",
         "aside",
         "header",
@@ -92,24 +93,17 @@
     },
     {
       "url": "https://webflow.com/login",
-      "title": "Login - Webflow",
-      "description": "Log in to Webflow",
+      "title": "Access to this page has been denied",
+      "description": "px-captcha",
       "headings": [],
       "navLabels": [],
-      "ctas": [
-        "Continue with GitHub",
-        "Continue with SSO",
-        "Continue",
-        "Sign up"
-      ],
-      "landmarks": [
-        "main"
-      ]
+      "ctas": [],
+      "landmarks": []
     },
     {
-      "url": "https://webflow.com/feature/collaboration",
-      "title": "Collaboration in Webflow",
-      "description": "Webflow unites modern GTM teams in an AI-native platform designed for speed and control.",
+      "url": "https://webflow.com/feature/optimize",
+      "title": "Webflow Optimize | Website Optimization & Personalization",
+      "description": "Webflow Optimize brings A/B testing and personalization to your website, on any CMS. Leverage AI-driven optimization to maximize conversions.",
       "headings": [
         "Platform",
         "Build",
@@ -130,7 +124,7 @@
         "Discover",
         "Get help",
         "Site Settings",
-        "The web moves fast. Your team should, too."
+        "Learn what performs. Deliver it at scale."
       ],
       "navLabels": [
         "Platform→",
@@ -170,26 +164,20 @@
         "Log in",
         "Contact Sales",
         "Start for free",
-        "Get started — it's free",
-        "Explore designing as a team",
-        "Explore editing in Webflow",
-        "Explore Webflow Analyze",
-        "Explore page branching",
-        "Explore the editing in Webflow",
-        "Explore Page Building",
-        "Explore commenting",
-        "Explore the AI Assistance"
+        "Watch demo",
+        "Facebook"
       ],
       "landmarks": [
         "banner:Primary",
         "navigation",
-        "listbox:persona-toggle-1785104509260",
+        "listbox:persona-toggle-1785191747647",
         "nav:w-dropdown-toggle-3",
-        "main",
         "header",
         "nav:w-dropdown-toggle-6",
+        "main",
         "footer",
-        "nav:Directory"
+        "nav:Directory",
+        "dialog"
       ]
     },
     {
@@ -199,7 +187,7 @@
       "headings": [
         "Learn how to build pro websites — visually.",
         "Featured learning",
-        "Get started with the Webflow MCP",
+        "Get started with Webflow MCP",
         "AEO from Webflow",
         "AI guardrails for teams",
         "Getting started with Webflow",
@@ -238,7 +226,7 @@
         "Try Webflow — it's free",
         "Try Webflow — it's free→",
         "Search Webflow University",
-        "Get started with the Webflow MCP",
+        "Get started with Webflow MCP",
         "Getting started with Webflow",
         "Startups",
         "Webinars & ebooks",
@@ -262,6 +250,7 @@
         "Developer resources"
       ],
       "navLabels": [
+        "MCP Server",
         "Data API.fa-secondary{opacity:.4}Data APIIntegrate with Webflow",
         "v2v2",
         "Search/",
@@ -284,8 +273,7 @@
         "Localize components",
         "Localize CMS content",
         "Tutorial",
-        "Working with Custom Code",
-        "Custom code in preview mode"
+        "Working with Custom Code"
       ],
       "ctas": [
         "Search/",
@@ -302,7 +290,8 @@
         "nav:Site navigation",
         "header",
         "footer",
-        "nav:Up next"
+        "nav:Up next",
+        "dialog:rmiz-modal-img-0a02bc582f98"
       ]
     },
     {
@@ -360,8 +349,8 @@
         "header",
         "footer",
         "nav:Up next",
-        "dialog:rmiz-modal-img-7b9a61882db8",
-        "dialog:rmiz-modal-img-40fdd7f687b8"
+        "dialog:rmiz-modal-img-dfa3a9383d19",
+        "dialog:rmiz-modal-img-97b874492038"
       ]
     },
     {
@@ -483,8 +472,7 @@
         "complementary",
         "banner:Primary",
         "navigation",
-        "listbox:persona-toggle-1785104521173",
-        "listbox:persona-toggle-1785104521174",
+        "listbox:persona-toggle-1785191767213",
         "nav:w-dropdown-toggle-3",
         "main",
         "header",
@@ -495,22 +483,6 @@
     },
     {
       "url": "https://webflow.com/product",
-      "title": "404",
-      "headings": [
-        "This is not the page you were looking for. . . ."
-      ],
-      "navLabels": [],
-      "ctas": [
-        "Pricing",
-        "Ebooks",
-        "Contact Support"
-      ],
-      "landmarks": [
-        "footer"
-      ]
-    },
-    {
-      "url": "https://webflow.com/products",
       "title": "404",
       "headings": [
         "This is not the page you were looking for. . . ."
@@ -676,7 +648,7 @@
       "landmarks": [
         "banner:Primary",
         "navigation",
-        "listbox:persona-toggle-1785104530609",
+        "listbox:persona-toggle-1785191783449",
         "nav:w-dropdown-toggle-3",
         "main",
         "header",
@@ -754,7 +726,7 @@
       "landmarks": [
         "banner:Primary",
         "navigation",
-        "listbox:persona-toggle-1785104533133",
+        "listbox:persona-toggle-1785191788158",
         "nav:w-dropdown-toggle-3",
         "main",
         "footer",
@@ -835,7 +807,7 @@
       "landmarks": [
         "banner:Primary",
         "navigation",
-        "listbox:persona-toggle-1785104535525",
+        "listbox:persona-toggle-1785191791522",
         "nav:w-dropdown-toggle-3",
         "main",
         "header",
@@ -845,38 +817,6 @@
         "navigation:List",
         "footer",
         "nav:Directory"
-      ]
-    },
-    {
-      "url": "https://webflow.com/docs",
-      "title": "404",
-      "headings": [
-        "This is not the page you were looking for. . . ."
-      ],
-      "navLabels": [],
-      "ctas": [
-        "Pricing",
-        "Ebooks",
-        "Contact Support"
-      ],
-      "landmarks": [
-        "footer"
-      ]
-    },
-    {
-      "url": "https://webflow.com/help",
-      "title": "404",
-      "headings": [
-        "This is not the page you were looking for. . . ."
-      ],
-      "navLabels": [],
-      "ctas": [
-        "Pricing",
-        "Ebooks",
-        "Contact Support"
-      ],
-      "landmarks": [
-        "footer"
       ]
     },
     {
@@ -952,11 +892,90 @@
       "landmarks": [
         "banner:Primary",
         "navigation",
-        "listbox:persona-toggle-1785104542459",
+        "listbox:persona-toggle-1785191803258",
         "nav:w-dropdown-toggle-3",
         "main",
         "header",
         "navigation:List",
+        "footer",
+        "nav:Directory"
+      ]
+    },
+    {
+      "url": "https://webflow.com/company/about",
+      "title": "About: our mission, vision, and principles | Webflow",
+      "description": "We’re bringing development superpowers to everyone.",
+      "headings": [
+        "Platform",
+        "Build",
+        "Manage",
+        "Optimize",
+        "Extend",
+        "Platform Overview",
+        "Webflow AI",
+        "Solutions",
+        "Marketing",
+        "Engineering",
+        "Service Providers",
+        "Enterprise",
+        "AEO",
+        "Resources",
+        "Get started",
+        "Learn",
+        "Discover",
+        "Get help",
+        "Site Settings",
+        "Weʼre building for the teams shaping what's next."
+      ],
+      "navLabels": [
+        "Platform→",
+        "←Back",
+        "Design",
+        "Edit content",
+        "Interactions",
+        "Collaboration",
+        "Page building",
+        "CMS",
+        "Hosting",
+        "Localize",
+        "Security",
+        "Shared Libraries",
+        "Analyze",
+        "Optimize",
+        "SEO",
+        "AEO new",
+        "Apps",
+        "Figma to Webflow",
+        "Webflow Cloud",
+        "DevLink",
+        "MCP new",
+        "Learn more about Platform",
+        "Learn more about Ai",
+        "Marketer"
+      ],
+      "ctas": [
+        "Learn more about Platform",
+        "Learn more about Ai",
+        "Learn more about Enterprise",
+        "Learn more about AEO",
+        "Webinars & ebooks",
+        "Join the Community",
+        "Pricing",
+        "Get started",
+        "Log in",
+        "Contact Sales",
+        "Start for free",
+        "Webflow CEO Linda Tong on Optimizing for AI Search Future",
+        "Craig Mestel joins Webflow as first Chief Financial Officer",
+        "Facebook"
+      ],
+      "landmarks": [
+        "banner:Primary",
+        "navigation",
+        "listbox:persona-toggle-1785191807800",
+        "nav:w-dropdown-toggle-3",
+        "main",
+        "header",
         "footer",
         "nav:Directory"
       ]
@@ -1015,10 +1034,10 @@
     "Create fully custom web experiences that integrate with your clients’ tech stack",
     "Create scroll-stopping interactions and animations",
     "Add high-margin services without adding tools",
-    "Continue with GitHub",
-    "Continue with SSO",
-    "Continue",
-    "Sign up"
+    "Watch demo",
+    "Facebook",
+    "Search⌘E",
+    "Try Webflow — it's free"
   ],
   "headings": [
     "Platform",
@@ -1041,10 +1060,10 @@
     "Get help",
     "Site Settings",
     "Make your website a growth engine",
-    "The web moves fast. Your team should, too.",
+    "Learn what performs. Deliver it at scale.",
     "Learn how to build pro websites — visually.",
     "Featured learning",
-    "Get started with the Webflow MCP",
+    "Get started with Webflow MCP",
     "AEO from Webflow",
     "AI guardrails for teams",
     "Getting started with Webflow",
@@ -1056,12 +1075,9 @@
     "Google Tag Manager",
     "Cloudflare",
     "Next.js",
-    "Webpack",
-    "Stripe",
     "Segment",
-    "Vite",
-    "Contentful",
-    "Datadog"
+    "Datadog",
+    "Contentful"
   ],
   "featureCandidates": [
     "Platform",
@@ -1083,10 +1099,10 @@
     "Get help",
     "Site Settings",
     "Make your website a growth engine",
-    "The web moves fast. Your team should, too.",
+    "Learn what performs. Deliver it at scale.",
     "Learn how to build pro websites — visually.",
     "Featured learning",
-    "Get started with the Webflow MCP",
+    "Get started with Webflow MCP",
     "AEO from Webflow"
   ],
   "patternCandidates": [
@@ -1096,15 +1112,16 @@
     "Tabs",
     "Authentication",
     "Dashboard",
-    "Filters",
     "Checkout",
     "Map view",
-    "Messaging"
+    "Filters",
+    "Messaging",
+    "Calendar"
   ],
   "platformsDetected": [
     "web",
     "api",
     "cli"
   ],
-  "summary": "Captured 38 screenshots across 17 public URLs. Nav signals: Platform→, ←Back, Design, Edit content, Interactions, Collaboration. Tech signals: Google Tag Manager, Cloudflare, Next.js, Webpack, Stripe, Segment. UI patterns: Modal dialogs, Search, Pricing display, Tabs, Authentication, Dashboard."
+  "summary": "Captured 64 screenshots across 15 public URLs. Nav signals: Platform→, ←Back, Design, Edit content, Interactions, Collaboration. Tech signals: Google Tag Manager, Cloudflare, Next.js, Segment, Datadog, Contentful. UI patterns: Modal dialogs, Search, Pricing display, Tabs, Authentication, Dashboard."
 }

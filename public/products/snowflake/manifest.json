@@ -1,243 +1,886 @@
 {
   "slug": "snowflake",
-  "capturedAt": "2026-07-26T22:47:40.642Z",
+  "capturedAt": "2026-07-27T21:55:42.254Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Worksheets",
       "caption": "Snowflake public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://www.snowflake.com/en/"
+      "sourceUrl": "https://www.snowflake.com/en/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake AI Data Cloud",
+      "width": 390,
+      "height": 844,
+      "phash": "8743492f33c2a28e",
+      "unique": true
     },
     {
       "file": "homepage-top.jpg",
       "title": "Homepage depth (1)",
       "caption": "Snowflake homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.snowflake.com/en/"
+      "sourceUrl": "https://www.snowflake.com/en/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake AI Data Cloud",
+      "width": 390,
+      "height": 844,
+      "phash": "8743492f33715551",
+      "unique": true
     },
     {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Snowflake homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.snowflake.com/en/"
+      "sourceUrl": "https://www.snowflake.com/en/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake AI Data Cloud",
+      "width": 390,
+      "height": 844,
+      "phash": "4759272b6b3e231f",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Snowflake homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.snowflake.com/en/"
+      "sourceUrl": "https://www.snowflake.com/en/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake AI Data Cloud",
+      "width": 390,
+      "height": 844,
+      "phash": "231f0f2796071b1b",
+      "unique": true
     },
     {
-      "file": "homepage-mobile.jpg",
-      "title": "Homepage mobile",
-      "caption": "Snowflake homepage at mobile viewport",
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Snowflake homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.snowflake.com/en/"
+      "sourceUrl": "https://www.snowflake.com/en/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake AI Data Cloud",
+      "width": 390,
+      "height": 844,
+      "phash": "571978435b406b4b",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Snowflake homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.snowflake.com/en/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake AI Data Cloud",
+      "width": 390,
+      "height": 844,
+      "phash": "435b404d6b37372b",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Snowflake homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.snowflake.com/en/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake AI Data Cloud",
+      "width": 390,
+      "height": 844,
+      "phash": "c798cea2b274a080",
+      "unique": true
     },
     {
       "file": "card-1.jpg",
       "title": "UI cards (1)",
       "caption": "Card / tile crops from Snowflake",
       "kind": "component",
-      "sourceUrl": "https://www.snowflake.com/en/"
-    },
-    {
-      "file": "card-2.jpg",
-      "title": "UI cards (2)",
-      "caption": "Card / tile crops from Snowflake",
-      "kind": "component",
-      "sourceUrl": "https://www.snowflake.com/en/"
+      "sourceUrl": "https://www.snowflake.com/en/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2313,
+      "pageTitle": "Snowflake AI Data Cloud",
+      "width": 385,
+      "height": 317,
+      "phash": "404068691b595880",
+      "unique": true
     },
     {
       "file": "card-3.jpg",
       "title": "UI cards (3)",
       "caption": "Card / tile crops from Snowflake",
       "kind": "component",
-      "sourceUrl": "https://www.snowflake.com/en/"
+      "sourceUrl": "https://www.snowflake.com/en/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2313,
+      "pageTitle": "Snowflake AI Data Cloud",
+      "width": 383,
+      "height": 235,
+      "phash": "81607b5b49588408",
+      "unique": true
     },
     {
       "file": "card-4.jpg",
       "title": "UI cards (4)",
       "caption": "Card / tile crops from Snowflake",
       "kind": "component",
-      "sourceUrl": "https://www.snowflake.com/en/"
+      "sourceUrl": "https://www.snowflake.com/en/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2313,
+      "pageTitle": "Snowflake AI Data Cloud",
+      "width": 384,
+      "height": 317,
+      "phash": "0040585b67094000",
+      "unique": true
+    },
+    {
+      "file": "card-6.jpg",
+      "title": "UI cards (6)",
+      "caption": "Card / tile crops from Snowflake",
+      "kind": "component",
+      "sourceUrl": "https://www.snowflake.com/en/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2313,
+      "pageTitle": "Snowflake AI Data Cloud",
+      "width": 382,
+      "height": 235,
+      "phash": "a1586b6524000000",
+      "unique": true
     },
     {
       "file": "search-composer.jpg",
       "title": "Search / composer",
       "caption": "Focused search or primary input on Snowflake",
       "kind": "component",
-      "sourceUrl": "https://www.snowflake.com/en/"
+      "sourceUrl": "https://www.snowflake.com/en/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "search-composer",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 6720,
+      "pageTitle": "Snowflake AI Data Cloud",
+      "width": 1440,
+      "height": 900,
+      "phash": "a48246d05224249a",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on Snowflake (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://www.snowflake.com/en/"
+      "sourceUrl": "https://www.snowflake.com/en/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake AI Data Cloud",
+      "width": 1440,
+      "height": 900,
+      "phash": "4512169c1e665656",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Snowflake",
       "kind": "product",
-      "sourceUrl": "https://www.snowflake.com/en/product/features/postgres/"
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "61320f680b26272b",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Snowflake",
       "kind": "product",
-      "sourceUrl": "https://www.snowflake.com/en/product/features/postgres/"
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "4500cc0e061e9925",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Snowflake",
       "kind": "product",
-      "sourceUrl": "https://www.snowflake.com/en/product/features/postgres/"
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "5500496d43416569",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from Snowflake",
       "kind": "product",
-      "sourceUrl": "https://www.snowflake.com/en/product/features/postgres/"
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "55e097179fdc787c",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from Snowflake",
       "kind": "product",
-      "sourceUrl": "https://www.snowflake.com/en/product/features/postgres/"
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "51046c6a6341206d",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from Snowflake",
+      "kind": "product",
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "750073736565626d",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Snowflake",
+      "kind": "product",
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "0000000000000000",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from Snowflake",
+      "kind": "product",
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "7504747e5f6a6d6d",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from Snowflake",
+      "kind": "product",
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "410474737b625d5d",
+      "unique": true
+    },
+    {
+      "file": "nav-11.jpg",
+      "title": "In-product nav (11)",
+      "caption": "Same-origin product / pricing / docs links from Snowflake",
+      "kind": "product",
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "750c968e0e8d9d02",
+      "unique": true
+    },
+    {
+      "file": "nav-12.jpg",
+      "title": "In-product nav (12)",
+      "caption": "Same-origin product / pricing / docs links from Snowflake",
+      "kind": "product",
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "4c04256565396d6d",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
-      "title": "Databases",
+      "title": "Databases (1)",
       "caption": "Snowflake public surface · docs.snowflake.com",
       "kind": "product",
-      "sourceUrl": "https://docs.snowflake.com/en/user-guide-getting-started"
+      "sourceUrl": "https://docs.snowflake.com/en/user-guide-getting-started",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "",
+      "width": 1440,
+      "height": 900,
+      "phash": "d3b6b69c1d353616",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
-      "title": "Warehouses",
+      "title": "Warehouses (1)",
       "caption": "Snowflake public surface · docs.snowflake.com",
       "kind": "product",
-      "sourceUrl": "https://docs.snowflake.com/en/developer-guide"
+      "sourceUrl": "https://docs.snowflake.com/en/developer-guide",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 File Not Found - Snowflake Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "5210000c0e160600",
+      "unique": true
     },
     {
       "file": "surface-3.jpg",
-      "title": "Sharing",
+      "title": "Sharing (1)",
       "caption": "Snowflake public surface · docs.snowflake.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.snowflake.com/en/sql-reference"
+      "sourceUrl": "https://docs.snowflake.com/en/sql-reference",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "General reference | Snowflake Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "72989e9696979e93",
+      "unique": true
     },
     {
       "file": "surface-4.jpg",
-      "title": "Marketplace",
+      "title": "Marketplace (1)",
       "caption": "Snowflake public surface · docs.snowflake.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.snowflake.com/en/user-guide/ui-snowsight"
+      "sourceUrl": "https://docs.snowflake.com/en/user-guide/ui-snowsight",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowsight: The Snowflake web interface | Snowflake Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "518f9e9e989e9e9c",
+      "unique": true
     },
     {
-      "file": "surface-5.jpg",
-      "title": "Admin",
-      "caption": "Snowflake public surface · docs.snowflake.com",
-      "kind": "docs",
-      "sourceUrl": "https://docs.snowflake.com/en/user-guide/security"
-    },
-    {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6",
-      "caption": "Snowflake public surface · docs.snowflake.com",
-      "kind": "docs",
-      "sourceUrl": "https://docs.snowflake.com/en/user-guide/admin"
-    },
-    {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
+      "file": "surface-7-band-2.jpg",
+      "title": "Supporting surface 7 (3)",
       "caption": "Snowflake public surface · snowflake.com",
       "kind": "docs",
-      "sourceUrl": "https://www.snowflake.com/en/pricing-options/"
+      "sourceUrl": "https://www.snowflake.com/en/pricing-options/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Pricing | Choose the Right Edition for Your Data Needs",
+      "width": 1440,
+      "height": 900,
+      "phash": "4545459c1d56566c",
+      "unique": true
     },
     {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
+      "file": "surface-7-band-3.jpg",
+      "title": "Supporting surface 7 (4)",
       "caption": "Snowflake public surface · snowflake.com",
       "kind": "docs",
-      "sourceUrl": "https://www.snowflake.com/en/pricing-options/"
+      "sourceUrl": "https://www.snowflake.com/en/pricing-options/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Pricing | Choose the Right Edition for Your Data Needs",
+      "width": 1440,
+      "height": 900,
+      "phash": "456548337b7b6388",
+      "unique": true
     },
     {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
+      "file": "surface-7-band-4.jpg",
+      "title": "Supporting surface 7 (5)",
       "caption": "Snowflake public surface · snowflake.com",
       "kind": "docs",
-      "sourceUrl": "https://www.snowflake.com/en/product/platform/"
+      "sourceUrl": "https://www.snowflake.com/en/pricing-options/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Pricing | Choose the Right Edition for Your Data Needs",
+      "width": 1440,
+      "height": 900,
+      "phash": "45c00717c4673434",
+      "unique": true
     },
     {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
+      "file": "surface-8-band-2.jpg",
+      "title": "Supporting surface 8 (3)",
       "caption": "Snowflake public surface · snowflake.com",
       "kind": "docs",
-      "sourceUrl": "https://www.snowflake.com/en/product/platform/"
+      "sourceUrl": "https://www.snowflake.com/en/product/platform/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Snowflake Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "516d35925b491717",
+      "unique": true
     },
     {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9",
+      "file": "surface-8-band-3.jpg",
+      "title": "Supporting surface 8 (4)",
       "caption": "Snowflake public surface · snowflake.com",
       "kind": "docs",
-      "sourceUrl": "https://www.snowflake.com/products/"
+      "sourceUrl": "https://www.snowflake.com/en/product/platform/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Snowflake Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "4117276171652565",
+      "unique": true
     },
     {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10",
+      "file": "surface-8-band-4.jpg",
+      "title": "Supporting surface 8 (5)",
       "caption": "Snowflake public surface · snowflake.com",
       "kind": "docs",
-      "sourceUrl": "https://www.snowflake.com/features/"
+      "sourceUrl": "https://www.snowflake.com/en/product/platform/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Snowflake Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "4167652048969659",
+      "unique": true
     },
     {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11",
+      "file": "surface-8-lower.jpg",
+      "title": "Supporting surface 8 (6)",
       "caption": "Snowflake public surface · snowflake.com",
       "kind": "docs",
-      "sourceUrl": "https://www.snowflake.com/platform/"
+      "sourceUrl": "https://www.snowflake.com/en/product/platform/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Snowflake Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "51c6d4d224249280",
+      "unique": true
     },
     {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
+      "file": "surface-13-band-2.jpg",
+      "title": "Supporting surface 13 (3)",
       "caption": "Snowflake public surface · snowflake.com",
       "kind": "docs",
-      "sourceUrl": "https://www.snowflake.com/solutions/"
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d6d6f0d96694949",
+      "unique": true
     },
     {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13 (1)",
+      "file": "surface-13-band-3.jpg",
+      "title": "Supporting surface 13 (4)",
       "caption": "Snowflake public surface · snowflake.com",
       "kind": "docs",
-      "sourceUrl": "https://www.snowflake.com/en/customers/"
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "154b5b6969694b0c",
+      "unique": true
     },
     {
-      "file": "surface-13-mid.jpg",
-      "title": "Supporting surface 13 (2)",
+      "file": "surface-13-band-4.jpg",
+      "title": "Supporting surface 13 (5)",
       "caption": "Snowflake public surface · snowflake.com",
       "kind": "docs",
-      "sourceUrl": "https://www.snowflake.com/en/customers/"
+      "sourceUrl": "https://www.snowflake.com/en/customers/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Snowflake Customers: Join the World's Leading Brands",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d0c617119597523",
+      "unique": true
     },
     {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14",
+      "file": "surface-16.jpg",
+      "title": "Supporting surface 16 (1)",
       "caption": "Snowflake public surface · snowflake.com",
       "kind": "docs",
-      "sourceUrl": "https://www.snowflake.com/docs/"
+      "sourceUrl": "https://www.snowflake.com/en/blog/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Inside the AI Data Cloud | Snowflake Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "554b4f591b1d1b73",
+      "unique": true
+    },
+    {
+      "file": "surface-16-band-2.jpg",
+      "title": "Supporting surface 16 (3)",
+      "caption": "Snowflake public surface · snowflake.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.snowflake.com/en/blog/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Inside the AI Data Cloud | Snowflake Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d53d35264637379",
+      "unique": true
+    },
+    {
+      "file": "surface-16-band-3.jpg",
+      "title": "Supporting surface 16 (4)",
+      "caption": "Snowflake public surface · snowflake.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.snowflake.com/en/blog/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Inside the AI Data Cloud | Snowflake Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "5579636f7862616b",
+      "unique": true
+    },
+    {
+      "file": "surface-16-band-4.jpg",
+      "title": "Supporting surface 16 (5)",
+      "caption": "Snowflake public surface · snowflake.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.snowflake.com/en/blog/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Inside the AI Data Cloud | Snowflake Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "4543694b534b5b4b",
+      "unique": true
+    },
+    {
+      "file": "surface-17.jpg",
+      "title": "Supporting surface 17 (1)",
+      "caption": "Snowflake public surface · snowflake.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.snowflake.com/en/company/overview/about-snowflake/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-17",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Snowflake",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d16961b969e9e07",
+      "unique": true
+    },
+    {
+      "file": "surface-17-band-2.jpg",
+      "title": "Supporting surface 17 (3)",
+      "caption": "Snowflake public surface · snowflake.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.snowflake.com/en/company/overview/about-snowflake/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-17",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Snowflake",
+      "width": 1440,
+      "height": 900,
+      "phash": "9717496969214d8e",
+      "unique": true
+    },
+    {
+      "file": "surface-17-band-3.jpg",
+      "title": "Supporting surface 17 (4)",
+      "caption": "Snowflake public surface · snowflake.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.snowflake.com/en/company/overview/about-snowflake/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-17",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Snowflake",
+      "width": 1440,
+      "height": 900,
+      "phash": "0d0ea5656565255a",
+      "unique": true
+    },
+    {
+      "file": "surface-17-band-4.jpg",
+      "title": "Supporting surface 17 (5)",
+      "caption": "Snowflake public surface · snowflake.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.snowflake.com/en/company/overview/about-snowflake/",
+      "capturedAt": "2026-07-27T21:53:28.450Z",
+      "playbookStep": "surface-17",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Snowflake",
+      "width": 1440,
+      "height": 900,
+      "phash": "255b5b1f3e788e8e",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-26T22:47:40.642Z",
-    "screenshotCount": 33,
-    "pageCount": 16,
+    "capturedAt": "2026-07-27T21:55:42.254Z",
+    "screenshotCount": 46,
+    "pageCount": 10,
     "pages": [
       {
         "url": "https://www.snowflake.com/en/",
@@ -263,24 +906,11 @@
           "Cookie List"
         ],
         "navLabels": [
-          "Pricing",
-          "English",
-          "日本語",
-          "한국어",
-          "中文（简体）",
-          "Português",
-          "Deutsch",
-          "Français",
-          "Español",
-          "Italiano",
-          "Sign in",
-          "CONTACT SALES",
-          "start for free"
+          "start for free",
+          "More information",
+          "Cookies Details"
         ],
         "ctas": [
-          "Pricing",
-          "Sign in",
-          "CONTACT SALES",
           "start for free",
           "View Pricing",
           "Explore the solution",
@@ -294,6 +924,7 @@
           "Watch a demo",
           "unsubscribe links",
           "Subscribe Now",
+          "Pricing",
           "Contact",
           "Live Demos",
           "Filter Button"
@@ -307,21 +938,13 @@
         ]
       },
       {
-        "url": "https://www.snowflake.com/en/product/features/postgres/",
-        "title": "Snowflake Postgres | Production-Ready from Day One",
-        "description": "Run Postgres on an enterprise-grade foundation with seamless data mirroring to analytics, world-class performance and advanced security. One platform for apps, AI and insights.",
+        "url": "https://www.snowflake.com/en/customers/",
+        "title": "Snowflake Customers: Join the World's Leading Brands",
+        "description": "Thousands of customers - rely on Snowflake to simplify their data foundation, power AI strategy and scale with apps.",
         "headings": [
-          "SNOWFLAKE POSTGRES",
-          "Unify Postgres and analytics",
-          "Innovate faster on a proven foundation",
-          "Build freely without pipelines",
-          "Get one platform for all your data",
-          "Scale your mission-critical apps and AI",
-          "Mirror your data without middleware",
-          "Power Your Apps and AI on One Trusted Platform",
-          "feature overview",
-          "RESOURCES",
-          "Frequently Asked Questions",
+          "Join the World’s Leading Brands",
+          "Stories in the Spotlight",
+          "RelatedResources",
           "Where Data Does More",
           "Privacy Preference Center",
           "Your Privacy",
@@ -351,11 +974,6 @@
           "Sign in",
           "CONTACT SALES",
           "start for free",
-          "Notebooks",
-          "watch the demo",
-          "GUIDEGetting Started with Snowflake PostgresExplore the guide",
-          "DemoPostgres & AI: A RAGS to riches storyWatch the video",
-          "How does pricing work?",
           "Watch a demo",
           "unsubscribe links",
           "Subscribe Now",
@@ -371,7 +989,7 @@
       },
       {
         "url": "https://docs.snowflake.com/en/user-guide-getting-started",
-        "title": "Get Started - Snowflake Documentation",
+        "title": "",
         "headings": [
           "Get started",
           "Get started with Snowflake for users",
@@ -401,7 +1019,7 @@
           "Reference",
           "Release notes",
           "Tutorials",
-          "StatusAll Systems Operational",
+          "Status",
           "Overview",
           "Get started for users",
           "Concepts for administrators",
@@ -582,86 +1200,6 @@
         ]
       },
       {
-        "url": "https://docs.snowflake.com/en/user-guide/security",
-        "title": "404 File Not Found - Snowflake Documentation",
-        "headings": [
-          "We couldn't find that",
-          "Privacy Preference Center",
-          "Your Privacy",
-          "Strictly Necessary Cookies",
-          "Performance Cookies",
-          "Functional Cookies",
-          "Targeting Cookies",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "DOCUMENTATION",
-          "EN",
-          "English",
-          "Français",
-          "Deutsch",
-          "日本語",
-          "한국어",
-          "Português",
-          "Get started",
-          "Guides",
-          "Developer",
-          "Reference",
-          "Release notes",
-          "Tutorials",
-          "StatusAll Systems Operational"
-        ],
-        "ctas": [
-          "Get started",
-          "Filter Button"
-        ],
-        "landmarks": [
-          "nav",
-          "search",
-          "dialog:Privacy Preference Center"
-        ]
-      },
-      {
-        "url": "https://docs.snowflake.com/en/user-guide/admin",
-        "title": "404 File Not Found - Snowflake Documentation",
-        "headings": [
-          "We couldn't find that",
-          "Privacy Preference Center",
-          "Your Privacy",
-          "Strictly Necessary Cookies",
-          "Performance Cookies",
-          "Functional Cookies",
-          "Targeting Cookies",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "DOCUMENTATION",
-          "EN",
-          "English",
-          "Français",
-          "Deutsch",
-          "日本語",
-          "한국어",
-          "Português",
-          "Get started",
-          "Guides",
-          "Developer",
-          "Reference",
-          "Release notes",
-          "Tutorials",
-          "StatusAll Systems Operational"
-        ],
-        "ctas": [
-          "Get started",
-          "Filter Button"
-        ],
-        "landmarks": [
-          "nav",
-          "search",
-          "dialog:Privacy Preference Center"
-        ]
-      },
-      {
         "url": "https://www.snowflake.com/en/pricing-options/",
         "title": "Snowflake Pricing | Choose the Right Edition for Your Data Needs",
         "description": "Discover Snowflake pricing editions tailored to your security and compliance needs. Discover how you only pay for the storage and compute resources you use.",
@@ -790,46 +1328,89 @@
         ]
       },
       {
-        "url": "https://www.snowflake.com/products/",
-        "title": "",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.snowflake.com/features/",
-        "title": "",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.snowflake.com/platform/",
-        "title": "",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.snowflake.com/solutions/",
-        "title": "",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.snowflake.com/en/customers/",
-        "title": "Snowflake Customers: Join the World's Leading Brands",
-        "description": "Thousands of customers - rely on Snowflake to simplify their data foundation, power AI strategy and scale with apps.",
+        "url": "https://www.snowflake.com/en/blog/",
+        "title": "Inside the AI Data Cloud | Snowflake Blog",
+        "description": "From technical articles about AI and application strategies to real-world success stories, the Snowflake Blog explores what's possible in the data cloud.",
         "headings": [
-          "Join the World’s Leading Brands",
-          "Stories in the Spotlight",
-          "RelatedResources",
+          "Inside the AI Data Cloud",
+          "Technological Revolution: Preparing for the Era of Agentic AI",
+          "Announcing Anthropic Claude Opus 5 on Snowflake Cortex AI",
+          "Delivering ROI for the Agentic Enterprise: 3 Considerations for Executives",
+          "Featured",
+          "Featured AI & ML",
+          "Snowflake CoCo: Built to Scale Enterprise AI with Trust",
+          "LATEST STORIES",
+          "A Blueprint for Closing the Loop Between Snowflake Context and Meta Campaigns",
+          "Your Agents Are in Production. Now What?",
+          "The New Partner Playbook: Building in the Age of Snowflake Cortex AI",
+          "Activate the Context Layer of Business Activity: Your Documents",
+          "Snowflake and ICF: Unlocking Data Value for the Public Sector",
+          "Open Interoperability: Delivering Customer Choice",
+          "Inside the Data Collaboration That Helped Team USA Win Olympic Gold",
           "Where Data Does More",
+          "Privacy Preference Center"
+        ],
+        "navLabels": [
+          "Pricing",
+          "English",
+          "日本語",
+          "한국어",
+          "中文（简体）",
+          "Português",
+          "Deutsch",
+          "Français",
+          "Español",
+          "Italiano",
+          "Sign in",
+          "CONTACT SALES",
+          "start for free",
+          "ENGINEERING BLOG",
+          "AI/ML",
+          "At Snowflake",
+          "Industry Solutions",
+          "Partner & Customer Value",
+          "Product & Technology",
+          "Strategy & Insights"
+        ],
+        "ctas": [
+          "Pricing",
+          "Sign in",
+          "CONTACT SALES",
+          "start for free",
+          "Industry Solutions",
+          "Filter",
+          "Apply filters",
+          "Watch a demo",
+          "unsubscribe links",
+          "Subscribe Now",
+          "Contact",
+          "Live Demos",
+          "Filter Button"
+        ],
+        "landmarks": [
+          "nav",
+          "dialog:Privacy Preference Center",
+          "navigation:Cookie Categories"
+        ]
+      },
+      {
+        "url": "https://www.snowflake.com/en/company/overview/about-snowflake/",
+        "title": "About Snowflake",
+        "description": "Discover the origins of the Snowflake Data Cloud, where thousands of organizations have seamless access to explore, share, & unlock the true value of data.",
+        "headings": [
+          "How It All Started",
+          "12,062",
+          "6.3B",
+          "3,400",
+          "Meet our leadership",
+          "Leadership Team",
+          "Board of Directors",
+          "Our Values",
+          "Our Offices",
+          "Snowflake spans the globe",
+          "AWARDS &RECOGNITION",
+          "Learn moreabout snowflake",
+          "Policies",
           "Privacy Preference Center",
           "Your Privacy",
           "Strictly Necessary Cookies",
@@ -858,7 +1439,7 @@
           "Sign in",
           "CONTACT SALES",
           "start for free",
-          "Watch a demo",
+          "Learn More",
           "unsubscribe links",
           "Subscribe Now",
           "Contact",
@@ -870,17 +1451,12 @@
           "dialog:Privacy Preference Center",
           "navigation:Cookie Categories"
         ]
-      },
-      {
-        "url": "https://www.snowflake.com/docs/",
-        "title": "",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
       }
     ],
     "navLabels": [
+      "start for free",
+      "More information",
+      "Cookies Details",
       "Pricing",
       "English",
       "日本語",
@@ -893,7 +1469,6 @@
       "Italiano",
       "Sign in",
       "CONTACT SALES",
-      "start for free",
       "DOCUMENTATION",
       "EN",
       "Get started",
@@ -902,20 +1477,15 @@
       "Reference",
       "Release notes",
       "Tutorials",
-      "StatusAll Systems Operational",
+      "Status",
       "Overview",
       "Get started for users",
       "Concepts for administrators",
       "Sample data",
       "Contacting support",
-      "SQL data types reference",
-      "SQL command reference",
-      "Function and stored procedure reference"
+      "StatusAll Systems Operational"
     ],
     "ctas": [
-      "Pricing",
-      "Sign in",
-      "CONTACT SALES",
       "start for free",
       "View Pricing",
       "Explore the solution",
@@ -929,14 +1499,17 @@
       "Watch a demo",
       "unsubscribe links",
       "Subscribe Now",
+      "Pricing",
       "Contact",
       "Live Demos",
       "Filter Button",
-      "Notebooks",
-      "watch the demo",
-      "GUIDEGetting Started with Snowflake PostgresExplore the guide",
-      "DemoPostgres & AI: A RAGS to riches storyWatch the video",
-      "How does pricing work?"
+      "Sign in",
+      "CONTACT SALES",
+      "Get started",
+      "Get started for users",
+      "Contacting support",
+      "Sign into SnowflakeLearn how to use various interfaces to sign into Snowflake.",
+      "Join the conversation"
     ],
     "headings": [
       "Code Work",
@@ -956,19 +1529,19 @@
       "Functional Cookies",
       "Targeting Cookies",
       "Cookie List",
-      "SNOWFLAKE POSTGRES",
-      "Unify Postgres and analytics",
-      "Innovate faster on a proven foundation",
-      "Build freely without pipelines",
-      "Get one platform for all your data",
-      "Scale your mission-critical apps and AI",
-      "Mirror your data without middleware",
-      "Power Your Apps and AI on One Trusted Platform",
-      "feature overview",
-      "RESOURCES",
-      "Frequently Asked Questions",
+      "Join the World’s Leading Brands",
+      "Stories in the Spotlight",
+      "RelatedResources",
       "Get started",
-      "Get started with Snowflake for users"
+      "Get started with Snowflake for users",
+      "Start learning Snowflake with interactive lessons",
+      "Learn key concepts for Snowflake administrators",
+      "Sample data sets",
+      "We couldn't find that",
+      "General reference¶",
+      "Snowsight: The Snowflake web interface¶",
+      "Snowflake Pricing",
+      "$2.00"
     ],
     "techSignals": [
       "React",
@@ -995,27 +1568,28 @@
       "Functional Cookies",
       "Targeting Cookies",
       "Cookie List",
-      "SNOWFLAKE POSTGRES",
-      "Unify Postgres and analytics",
-      "Innovate faster on a proven foundation",
-      "Build freely without pipelines",
-      "Get one platform for all your data",
-      "Scale your mission-critical apps and AI",
-      "Mirror your data without middleware"
+      "Join the World’s Leading Brands",
+      "Stories in the Spotlight",
+      "RelatedResources",
+      "Get started",
+      "Get started with Snowflake for users",
+      "Learn key concepts for Snowflake administrators",
+      "Sample data sets"
     ],
     "patternCandidates": [
       "Pricing display",
       "Map view",
       "Tabs",
       "Authentication",
+      "Messaging",
       "Dashboard",
-      "Messaging"
+      "Filters"
     ],
     "platformsDetected": [
       "web",
       "api",
       "cli"
     ],
-    "summary": "Captured 33 screenshots across 16 public URLs. Nav signals: Pricing, English, 日本語, 한국어, 中文（简体）, Português. Tech signals: React, Google Tag Manager, Cloudflare, Next.js, Webpack. UI patterns: Pricing display, Map view, Tabs, Authentication, Dashboard, Messaging."
+    "summary": "Captured 46 screenshots across 10 public URLs. Nav signals: start for free, More information, Cookies Details, Pricing, English, 日本語. Tech signals: React, Google Tag Manager, Cloudflare, Next.js, Webpack. UI patterns: Pricing display, Map view, Tabs, Authentication, Messaging, Dashboard."
   }
 }

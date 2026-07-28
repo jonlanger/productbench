@@ -1,313 +1,981 @@
 {
   "slug": "1password",
-  "capturedAt": "2026-07-27T13:18:42.366Z",
+  "capturedAt": "2026-07-27T22:33:08.458Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "1Password public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://1password.com/"
+      "sourceUrl": "https://1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Passwords, Secrets, and Access Management | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d557269696969e8",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "1Password homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://1password.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "1Password homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://1password.com/"
+      "sourceUrl": "https://1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Passwords, Secrets, and Access Management | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d98babebab69eaa",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "1Password homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://1password.com/"
+      "sourceUrl": "https://1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Passwords, Secrets, and Access Management | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "59a8aac492696969",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "1Password homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Passwords, Secrets, and Access Management | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "594d326969b29e8a",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "1Password homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Passwords, Secrets, and Access Management | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5996929696696969",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "1Password homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Passwords, Secrets, and Access Management | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "a4b0dcd852696969",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "1Password homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://1password.com/"
+      "sourceUrl": "https://1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Passwords, Secrets, and Access Management | 1Password",
+      "width": 390,
+      "height": 844,
+      "phash": "70f0c8d633b18e8e",
+      "unique": true
     },
     {
       "file": "card-1.jpg",
       "title": "UI cards (1)",
       "caption": "Card / tile crops from 1Password",
       "kind": "component",
-      "sourceUrl": "https://1password.com/"
+      "sourceUrl": "https://1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2359,
+      "pageTitle": "Passwords, Secrets, and Access Management | 1Password",
+      "width": 406,
+      "height": 527,
+      "phash": "8e67274e65272434",
+      "unique": true
     },
     {
       "file": "card-2.jpg",
       "title": "UI cards (2)",
       "caption": "Card / tile crops from 1Password",
       "kind": "component",
-      "sourceUrl": "https://1password.com/"
+      "sourceUrl": "https://1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2359,
+      "pageTitle": "Passwords, Secrets, and Access Management | 1Password",
+      "width": 406,
+      "height": 527,
+      "phash": "86571f660f2b9383",
+      "unique": true
     },
     {
       "file": "card-3.jpg",
       "title": "UI cards (3)",
       "caption": "Card / tile crops from 1Password",
       "kind": "component",
-      "sourceUrl": "https://1password.com/"
+      "sourceUrl": "https://1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2359,
+      "pageTitle": "Passwords, Secrets, and Access Management | 1Password",
+      "width": 406,
+      "height": 527,
+      "phash": "cc2f1b0cb7b7afaf",
+      "unique": true
     },
     {
       "file": "search-composer.jpg",
       "title": "Search / composer",
       "caption": "Focused search or primary input on 1Password",
       "kind": "component",
-      "sourceUrl": "https://1password.com/"
+      "sourceUrl": "https://1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "search-composer",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 5568,
+      "pageTitle": "Passwords, Secrets, and Access Management | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "dd8d4d71926b6b6b",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on 1Password (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://my.1password.com/signin?l=en"
+      "sourceUrl": "https://my.1password.com/signin?l=en",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "1Password — Password Manager for Teams, Businesses, and Families",
+      "width": 1440,
+      "height": 900,
+      "phash": "0000000000000000",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from 1Password",
       "kind": "product",
-      "sourceUrl": "https://1password.com/product/saas-manager"
-    },
-    {
-      "file": "nav-2.jpg",
-      "title": "In-product nav (2)",
-      "caption": "Same-origin product / pricing / docs links from 1Password",
-      "kind": "product",
-      "sourceUrl": "https://1password.com/product/saas-manager"
+      "sourceUrl": "https://1password.com/features/autofill",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autofill: Automatically Fill Passwords | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "59811a3861d74d69",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from 1Password",
       "kind": "product",
-      "sourceUrl": "https://1password.com/product/saas-manager"
+      "sourceUrl": "https://1password.com/features/autofill",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autofill: Automatically Fill Passwords | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5959a2c4a1e8deae",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from 1Password",
       "kind": "product",
-      "sourceUrl": "https://1password.com/product/saas-manager"
+      "sourceUrl": "https://1password.com/features/autofill",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autofill: Automatically Fill Passwords | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "595986848a696969",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from 1Password",
       "kind": "product",
-      "sourceUrl": "https://1password.com/product/saas-manager"
+      "sourceUrl": "https://1password.com/features/autofill",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autofill: Automatically Fill Passwords | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d99c28080550d29",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from 1Password",
+      "kind": "product",
+      "sourceUrl": "https://1password.com/features/autofill",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autofill: Automatically Fill Passwords | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "598103677c7c4c6a",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from 1Password",
+      "kind": "product",
+      "sourceUrl": "https://1password.com/features/autofill",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autofill: Automatically Fill Passwords | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "594ce3135371890e",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from 1Password",
+      "kind": "product",
+      "sourceUrl": "https://1password.com/features/autofill",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autofill: Automatically Fill Passwords | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5959a6a4b0690d6e",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from 1Password",
+      "kind": "product",
+      "sourceUrl": "https://1password.com/features/autofill",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autofill: Automatically Fill Passwords | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5969829fa0b88ce8",
+      "unique": true
+    },
+    {
+      "file": "nav-10.jpg",
+      "title": "In-product nav (10)",
+      "caption": "Same-origin product / pricing / docs links from 1Password",
+      "kind": "product",
+      "sourceUrl": "https://1password.com/features/autofill",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autofill: Automatically Fill Passwords | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "59417a7878794c4c",
+      "unique": true
+    },
+    {
+      "file": "nav-11.jpg",
+      "title": "In-product nav (11)",
+      "caption": "Same-origin product / pricing / docs links from 1Password",
+      "kind": "product",
+      "sourceUrl": "https://1password.com/features/autofill",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autofill: Automatically Fill Passwords | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d81277765976969",
+      "unique": true
+    },
+    {
+      "file": "nav-12.jpg",
+      "title": "In-product nav (12)",
+      "caption": "Same-origin product / pricing / docs links from 1Password",
+      "kind": "product",
+      "sourceUrl": "https://1password.com/features/autofill",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Autofill: Automatically Fill Passwords | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5969060e4c8c1e2e",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "Dashboard (1)",
-      "caption": "1Password public surface · 1password.com",
+      "caption": "1Password public surface · support.1password.com",
       "kind": "product",
-      "sourceUrl": "https://1password.com/pricing/password-manager"
+      "sourceUrl": "https://support.1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "1Password Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "4370696950330f2a",
+      "unique": true
     },
     {
-      "file": "surface-1-mid.jpg",
-      "title": "Dashboard (2)",
-      "caption": "1Password public surface · 1password.com",
+      "file": "surface-1-band-2.jpg",
+      "title": "Dashboard (3)",
+      "caption": "1Password public surface · support.1password.com",
       "kind": "product",
-      "sourceUrl": "https://1password.com/pricing/password-manager"
+      "sourceUrl": "https://support.1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "1Password Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "332b2b2b2b3b1f0a",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-3.jpg",
+      "title": "Dashboard (4)",
+      "caption": "1Password public surface · support.1password.com",
+      "kind": "product",
+      "sourceUrl": "https://support.1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "1Password Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "0f0b6b2616796969",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-4.jpg",
+      "title": "Dashboard (5)",
+      "caption": "1Password public surface · support.1password.com",
+      "kind": "product",
+      "sourceUrl": "https://support.1password.com/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "1Password Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "66363b66d0696969",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
       "title": "Settings (1)",
-      "caption": "1Password public surface · 1password.com",
+      "caption": "1Password public surface · developer.1password.com",
       "kind": "product",
-      "sourceUrl": "https://1password.com/product/password-manager"
+      "sourceUrl": "https://www.1password.dev/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "1Password Developer Documentation - 1Password Developer",
+      "width": 1440,
+      "height": 900,
+      "phash": "c47c86861e313a49",
+      "unique": true
     },
     {
-      "file": "surface-2-mid.jpg",
-      "title": "Settings (2)",
-      "caption": "1Password public surface · 1password.com",
+      "file": "surface-2-band-2.jpg",
+      "title": "Settings (3)",
+      "caption": "1Password public surface · developer.1password.com",
       "kind": "product",
-      "sourceUrl": "https://1password.com/product/password-manager"
+      "sourceUrl": "https://www.1password.dev/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "1Password Developer Documentation - 1Password Developer",
+      "width": 1440,
+      "height": 900,
+      "phash": "d45b4bd04d3c765b",
+      "unique": true
     },
     {
-      "file": "surface-3.jpg",
-      "title": "Search (1)",
-      "caption": "1Password public surface · 1password.com",
-      "kind": "docs",
-      "sourceUrl": "https://1password.com/product/password-manager"
+      "file": "surface-2-band-3.jpg",
+      "title": "Settings (4)",
+      "caption": "1Password public surface · developer.1password.com",
+      "kind": "product",
+      "sourceUrl": "https://www.1password.dev/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "1Password Developer Documentation - 1Password Developer",
+      "width": 1440,
+      "height": 900,
+      "phash": "d45949c274da4992",
+      "unique": true
     },
     {
-      "file": "surface-3-mid.jpg",
-      "title": "Search (2)",
-      "caption": "1Password public surface · 1password.com",
-      "kind": "docs",
-      "sourceUrl": "https://1password.com/product/password-manager"
+      "file": "surface-2-band-4.jpg",
+      "title": "Settings (5)",
+      "caption": "1Password public surface · developer.1password.com",
+      "kind": "product",
+      "sourceUrl": "https://www.1password.dev/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "1Password Developer Documentation - 1Password Developer",
+      "width": 1440,
+      "height": 900,
+      "phash": "c4d05a4974cbcb96",
+      "unique": true
     },
     {
-      "file": "surface-4.jpg",
-      "title": "Profile (1)",
-      "caption": "1Password public surface · 1password.com",
-      "kind": "docs",
-      "sourceUrl": "https://1password.com/features"
+      "file": "surface-2-lower.jpg",
+      "title": "Settings (6)",
+      "caption": "1Password public surface · developer.1password.com",
+      "kind": "product",
+      "sourceUrl": "https://www.1password.dev/",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "1Password Developer Documentation - 1Password Developer",
+      "width": 1440,
+      "height": 900,
+      "phash": "c45b737b7b7b340a",
+      "unique": true
     },
     {
-      "file": "surface-4-mid.jpg",
-      "title": "Profile (2)",
+      "file": "surface-3-band-2.jpg",
+      "title": "Search (3)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/features"
+      "sourceUrl": "https://1password.com/pricing/password-manager",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing Plans for the Best Password Manager | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "e955576923971e0e",
+      "unique": true
     },
     {
-      "file": "surface-5.jpg",
-      "title": "Supporting surface 5 (1)",
+      "file": "surface-3-band-3.jpg",
+      "title": "Search (4)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/platform"
+      "sourceUrl": "https://1password.com/pricing/password-manager",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing Plans for the Best Password Manager | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5941636565710d69",
+      "unique": true
     },
     {
-      "file": "surface-5-mid.jpg",
-      "title": "Supporting surface 5 (2)",
+      "file": "surface-3-band-4.jpg",
+      "title": "Search (5)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/platform"
+      "sourceUrl": "https://1password.com/pricing/password-manager",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing Plans for the Best Password Manager | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "dd6567172f151d6e",
+      "unique": true
     },
     {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6 (1)",
+      "file": "surface-4-band-2.jpg",
+      "title": "Profile (3)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/solutions"
+      "sourceUrl": "https://1password.com/product/password-manager",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Password Manager for Individuals & Families | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "7dd4dc54f4690d6e",
+      "unique": true
     },
     {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
+      "file": "surface-4-band-3.jpg",
+      "title": "Profile (4)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/solutions"
+      "sourceUrl": "https://1password.com/product/password-manager",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Password Manager for Individuals & Families | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "595d6f6144072b4e",
+      "unique": true
+    },
+    {
+      "file": "surface-4-band-4.jpg",
+      "title": "Profile (5)",
+      "caption": "1Password public surface · 1password.com",
+      "kind": "docs",
+      "sourceUrl": "https://1password.com/product/password-manager",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Password Manager for Individuals & Families | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5965660f26161f0e",
+      "unique": true
+    },
+    {
+      "file": "surface-6-band-2.jpg",
+      "title": "Search / composer (3)",
+      "caption": "1Password public surface · 1password.com",
+      "kind": "docs",
+      "sourceUrl": "https://1password.com/features",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Password Manager Features | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5919496d2d696969",
+      "unique": true
+    },
+    {
+      "file": "surface-6-band-3.jpg",
+      "title": "Search / composer (4)",
+      "caption": "1Password public surface · 1password.com",
+      "kind": "docs",
+      "sourceUrl": "https://1password.com/features",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Password Manager Features | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d49168e2f110d6c",
+      "unique": true
+    },
+    {
+      "file": "surface-6-band-4.jpg",
+      "title": "Search / composer (5)",
+      "caption": "1Password public surface · 1password.com",
+      "kind": "docs",
+      "sourceUrl": "https://1password.com/features",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Password Manager Features | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d6c6c655bcbcdcf",
+      "unique": true
     },
     {
       "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
+      "title": "Sign in (1)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/customer-stories"
+      "sourceUrl": "https://1password.com/platform",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 - Page Not Found | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d30708c34732f6e",
+      "unique": true
     },
     {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
+      "file": "surface-7-band-2.jpg",
+      "title": "Sign in (3)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/customer-stories"
+      "sourceUrl": "https://1password.com/platform",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 - Page Not Found | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "3758002040696969",
+      "unique": true
     },
     {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
+      "file": "surface-7-band-3.jpg",
+      "title": "Sign in (4)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/docs"
-    },
-    {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
-      "caption": "1Password public surface · 1password.com",
-      "kind": "docs",
-      "sourceUrl": "https://1password.com/docs"
+      "sourceUrl": "https://1password.com/platform",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 - Page Not Found | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d00a4504d696969",
+      "unique": true
     },
     {
       "file": "surface-9.jpg",
       "title": "Supporting surface 9 (1)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/help"
+      "sourceUrl": "https://1password.com/customer-stories",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer Stories | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "59d1d0accce86969",
+      "unique": true
     },
     {
-      "file": "surface-9-mid.jpg",
-      "title": "Supporting surface 9 (2)",
+      "file": "surface-9-band-2.jpg",
+      "title": "Supporting surface 9 (3)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/help"
-    },
-    {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
-      "caption": "1Password public surface · 1password.com",
-      "kind": "docs",
-      "sourceUrl": "https://1password.com/blog"
-    },
-    {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
-      "caption": "1Password public surface · 1password.com",
-      "kind": "docs",
-      "sourceUrl": "https://1password.com/blog"
-    },
-    {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
-      "caption": "1Password public surface · 1password.com",
-      "kind": "docs",
-      "sourceUrl": "https://1password.com/company"
-    },
-    {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
-      "caption": "1Password public surface · 1password.com",
-      "kind": "docs",
-      "sourceUrl": "https://1password.com/company"
+      "sourceUrl": "https://1password.com/customer-stories",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer Stories | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "59e14b4b49491d69",
+      "unique": true
     },
     {
       "file": "surface-12.jpg",
       "title": "Supporting surface 12 (1)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/login"
+      "sourceUrl": "https://1password.com/blog",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Blog | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "598d861f5f6f6d6d",
+      "unique": true
     },
     {
-      "file": "surface-12-mid.jpg",
-      "title": "Supporting surface 12 (2)",
+      "file": "surface-12-band-2.jpg",
+      "title": "Supporting surface 12 (3)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/login"
+      "sourceUrl": "https://1password.com/blog",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Blog | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d5d5b7860159c69",
+      "unique": true
     },
     {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13 (1)",
+      "file": "surface-12-band-3.jpg",
+      "title": "Supporting surface 12 (4)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/signin"
+      "sourceUrl": "https://1password.com/blog",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Blog | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "d94d6d6ddb796969",
+      "unique": true
     },
     {
-      "file": "surface-13-mid.jpg",
-      "title": "Supporting surface 13 (2)",
+      "file": "surface-13-band-2.jpg",
+      "title": "Supporting surface 13 (3)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/signin"
+      "sourceUrl": "https://1password.com/company",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Learn About Company Values & History | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "59490e07655d1e0e",
+      "unique": true
     },
     {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14 (1)",
+      "file": "surface-13-band-3.jpg",
+      "title": "Supporting surface 13 (4)",
       "caption": "1Password public surface · 1password.com",
       "kind": "docs",
-      "sourceUrl": "https://1password.com/sign-in"
-    },
-    {
-      "file": "surface-14-mid.jpg",
-      "title": "Supporting surface 14 (2)",
-      "caption": "1Password public surface · 1password.com",
-      "kind": "docs",
-      "sourceUrl": "https://1password.com/sign-in"
+      "sourceUrl": "https://1password.com/company",
+      "capturedAt": "2026-07-27T22:31:09.925Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Learn About Company Values & History | 1Password",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d8d960645696969",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T13:18:42.366Z",
-    "screenshotCount": 43,
-    "pageCount": 16,
+    "capturedAt": "2026-07-27T22:33:08.458Z",
+    "screenshotCount": 51,
+    "pageCount": 12,
     "pages": [
       {
         "url": "https://1password.com/",
@@ -324,16 +992,25 @@
         ],
         "navLabels": [
           "Secure credentials for humans, machines, and AI agents. Switch to 1Password.",
+          "Sign in",
+          "Business",
+          "Personal",
+          "Developers",
+          "Partners",
+          "Resources",
+          "Pricing",
           "Talk to sales",
+          "Get started free",
           "View plans"
         ],
         "ctas": [
+          "Sign in",
+          "Pricing",
+          "Get started free",
           "Explore 1Password® Unified Access",
           "Try Enterprise Password Manager",
           "Request SaaS Manger demo",
-          "Downloads",
-          "Demos",
-          "Pricing"
+          "Demos"
         ],
         "landmarks": [
           "navigation",
@@ -344,47 +1021,32 @@
       },
       {
         "url": "https://my.1password.com/signin?l=en",
-        "title": "Login | 1Password — Password Manager for Teams, Businesses, and Families",
+        "title": "1Password — Password Manager for Teams, Businesses, and Families",
         "headings": [
           "We couldn’t connect to 1Password"
         ],
         "navLabels": [],
         "ctas": [
-          "Create a new account",
           "Contact 1Password Support."
         ],
-        "landmarks": [
-          "main:Sign In",
-          "footer"
-        ]
+        "landmarks": []
       },
       {
-        "url": "https://1password.com/product/saas-manager",
-        "title": "SaaS Management for IT Teams | 1Password",
-        "description": "Discover every app your business uses, manage access and spend, and eliminate shadow IT. 1Password SaaS Manager gives IT full visibility and control.",
+        "url": "https://1password.com/features/autofill",
+        "title": "Autofill: Automatically Fill Passwords | 1Password",
+        "description": "Discover the power of auto password fill. Quickly and securely autofill passwords, payment details, and addresses every time you browse.",
         "headings": [
-          "SaaS management",
-          "1Password named a Leader for SaaS Management Platforms",
-          "AI and SaaS sprawl creates gaps in visibility, access, and runaway spend",
-          "Control AI token consumption",
-          "Uncover shadow AI and IT",
-          "Manage the SaaS lifecycle",
-          "Eliminate unnecessary spend",
-          "1Password SaaS Manager",
-          "Unified AI and SaaS governance",
-          "Manage",
-          "Track and control AI consumption and spend",
-          "Discover",
-          "Continuously discover and inventory all AI and SaaS applications",
-          "Control",
-          "Powerful AI and SaaS workflow automation",
-          "Optimize",
-          "Eliminate unnecessary AI and SaaS spend",
-          "Integrate",
-          "Govern accounts beyond SSO",
-          "See the power of 1Password SaaS Manager"
+          "Password autofill",
+          "What’s password autofill?",
+          "Getting started with password autofill",
+          "How to use 1Password’s autofill",
+          "Quick Access to your credentials",
+          "How password autofill keeps you safe online",
+          "Speed up your logins safely and efficiently",
+          "Secure your digital life with 1Password"
         ],
         "navLabels": [
+          "Secure credentials for humans, machines, and AI agents. Switch to 1Password.",
           "Sign in",
           "Business",
           "Personal",
@@ -394,23 +1056,15 @@
           "Pricing",
           "Talk to sales",
           "Get started free",
-          "Request a demo",
-          "Sign in to SaaS Manager",
-          "SaaS Manager"
+          "Try 1Password free",
+          "Features",
+          "Password autofill"
         ],
         "ctas": [
           "Sign in",
           "Pricing",
           "Get started free",
-          "Request a demo",
-          "Sign in to SaaS Manager",
-          "Learn more",
-          "Explore AI spend management",
-          "Explore SaaS discovery",
-          "Explore SaaS workflow automation",
-          "Explore SaaS spend management",
-          "Explore account governance",
-          "Get started",
+          "Try 1Password free",
           "Demos"
         ],
         "landmarks": [
@@ -419,6 +1073,122 @@
           "header",
           "footer",
           "nav:Breadcrumb"
+        ]
+      },
+      {
+        "url": "https://support.1password.com/",
+        "title": "1Password Support",
+        "description": "Learn how to set up and use 1Password, troubleshoot problems, and contact support.",
+        "headings": [
+          "Welcome to 1Password Support",
+          "We’re here to help!",
+          "Featured articles"
+        ],
+        "navLabels": [
+          "Menu",
+          "Home",
+          "Tour",
+          "Families",
+          "Business",
+          "Developers",
+          "Pricing",
+          "Security",
+          "Download",
+          "Support",
+          "Blog",
+          "Sign in",
+          "Try 1Password FREE",
+          "Secret Key",
+          "lost account password",
+          "browser extension not working"
+        ],
+        "ctas": [
+          "Pricing",
+          "Download",
+          "Sign in",
+          "Try 1Password FREE",
+          "Get started Set up 1Password for yourself or your family.Get started",
+          "Team members: Get started Set up 1Password at your workplace.Join your team",
+          "Try out exploratory features in 1Password",
+          "Contact Support"
+        ],
+        "landmarks": [
+          "nav",
+          "header",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.1password.dev/",
+        "title": "1Password Developer Documentation - 1Password Developer",
+        "headings": [
+          "Documentation Index",
+          "About",
+          "Quickstart",
+          "Developer workflows",
+          "Administrator workflows",
+          "Resources",
+          "Secure developer workflows with 1Password",
+          "Secure agentic workflows",
+          "Secure AI access",
+          "1Password Environments Beta",
+          "1Password MCP Server Beta",
+          "Agentic Autofill Early Access",
+          "1Password for VS Code",
+          "Authenticate with SSH & Git",
+          "Secure SSH & Git workflows",
+          "1Password for SSH & Git",
+          "Sign Git commits with SSH",
+          "Develop locally",
+          "Secure local development",
+          "1Password CLI"
+        ],
+        "navLabels": [
+          "1Password MCP Server",
+          "1Password Developer home page",
+          "Search...⌘K",
+          "Ask Assistant",
+          "Community",
+          "GitHub",
+          "Search...",
+          "Navigation1Password Developer Documentation",
+          "Get Started",
+          "Security for AI",
+          "Environments",
+          "SSH & Git",
+          "CLI",
+          "SDKs",
+          "More Tools",
+          "Overview",
+          "Developer quickstart",
+          "Administrator quickstart",
+          "Partner quickstart",
+          "Secure local development",
+          "Secure your deployments",
+          "Secure SSH & Git workflows",
+          "Secure AI access",
+          "Build integrations"
+        ],
+        "ctas": [
+          "Search...⌘K",
+          "Search...",
+          "Get Started",
+          "Developer quickstart",
+          "Administrator quickstart",
+          "Partner quickstart",
+          "Admin quickstart",
+          "Explore more projects",
+          "facebook",
+          "How do I get started with 1Password?",
+          "Contact support"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "nav:Pages",
+          "main",
+          "footer"
         ]
       },
       {
@@ -592,8 +1362,6 @@
           "Download 1Password",
           "Learn about addresses",
           "Explore 1Password CLI",
-          "Subscribe to The Vault",
-          "Unsubscribe any time",
           "Demos"
         ],
         "landmarks": [
@@ -606,52 +1374,6 @@
       },
       {
         "url": "https://1password.com/platform",
-        "title": "404 - Page Not Found | 1Password",
-        "description": "Page not found",
-        "headings": [
-          "404: Page Not Found",
-          "Well this is awkward."
-        ],
-        "navLabels": [
-          "Product",
-          "1Password PersonalPersonalFor you and your family.",
-          "1Password BusinessBusinessFor growing businesses.",
-          "1Password EnterpriseEnterpriseFor security at scale.",
-          "1Password Developer ToolsDeveloperKeep secrets out of code.",
-          "View 1Password features",
-          "Unified AccessDiscover, secure, and audit access",
-          "Enterprise Password ManagerProtect credentials and logins",
-          "SaaS ManagerDiscover and govern SaaS spend",
-          "Device TrustSecure every device's access",
-          "View plans",
-          "Talk to sales",
-          "Download 1Password",
-          "Resources",
-          "SecuritySecurityHow 1Password is different.",
-          "Resource LibraryResource libraryHelpful guides and research.",
-          "1Password blogBlogNews, tips, and inspiration.",
-          "WebinarsWebinarsWatch live or on demand.",
-          "Support",
-          "Pricing",
-          "Sign in"
-        ],
-        "ctas": [
-          "Download 1Password",
-          "Resource LibraryResource libraryHelpful guides and research.",
-          "Pricing",
-          "Sign in",
-          "Contact us",
-          "Contact support"
-        ],
-        "landmarks": [
-          "navigation",
-          "main",
-          "header",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://1password.com/solutions",
         "title": "404 - Page Not Found | 1Password",
         "description": "Page not found",
         "headings": [
@@ -747,98 +1469,6 @@
           "header",
           "footer",
           "nav:Breadcrumb"
-        ]
-      },
-      {
-        "url": "https://1password.com/docs",
-        "title": "404 - Page Not Found | 1Password",
-        "description": "Page not found",
-        "headings": [
-          "404: Page Not Found",
-          "Well this is awkward."
-        ],
-        "navLabels": [
-          "Product",
-          "1Password PersonalPersonalFor you and your family.",
-          "1Password BusinessBusinessFor growing businesses.",
-          "1Password EnterpriseEnterpriseFor security at scale.",
-          "1Password Developer ToolsDeveloperKeep secrets out of code.",
-          "View 1Password features",
-          "Unified AccessDiscover, secure, and audit access",
-          "Enterprise Password ManagerProtect credentials and logins",
-          "SaaS ManagerDiscover and govern SaaS spend",
-          "Device TrustSecure every device's access",
-          "View plans",
-          "Talk to sales",
-          "Download 1Password",
-          "Resources",
-          "SecuritySecurityHow 1Password is different.",
-          "Resource LibraryResource libraryHelpful guides and research.",
-          "1Password blogBlogNews, tips, and inspiration.",
-          "WebinarsWebinarsWatch live or on demand.",
-          "Support",
-          "Pricing",
-          "Sign in"
-        ],
-        "ctas": [
-          "Download 1Password",
-          "Resource LibraryResource libraryHelpful guides and research.",
-          "Pricing",
-          "Sign in",
-          "Contact us",
-          "Contact support"
-        ],
-        "landmarks": [
-          "navigation",
-          "main",
-          "header",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://1password.com/help",
-        "title": "404 - Page Not Found | 1Password",
-        "description": "Page not found",
-        "headings": [
-          "404: Page Not Found",
-          "Well this is awkward."
-        ],
-        "navLabels": [
-          "Product",
-          "1Password PersonalPersonalFor you and your family.",
-          "1Password BusinessBusinessFor growing businesses.",
-          "1Password EnterpriseEnterpriseFor security at scale.",
-          "1Password Developer ToolsDeveloperKeep secrets out of code.",
-          "View 1Password features",
-          "Unified AccessDiscover, secure, and audit access",
-          "Enterprise Password ManagerProtect credentials and logins",
-          "SaaS ManagerDiscover and govern SaaS spend",
-          "Device TrustSecure every device's access",
-          "View plans",
-          "Talk to sales",
-          "Download 1Password",
-          "Resources",
-          "SecuritySecurityHow 1Password is different.",
-          "Resource LibraryResource libraryHelpful guides and research.",
-          "1Password blogBlogNews, tips, and inspiration.",
-          "WebinarsWebinarsWatch live or on demand.",
-          "Support",
-          "Pricing",
-          "Sign in"
-        ],
-        "ctas": [
-          "Download 1Password",
-          "Resource LibraryResource libraryHelpful guides and research.",
-          "Pricing",
-          "Sign in",
-          "Contact us",
-          "Contact support"
-        ],
-        "landmarks": [
-          "navigation",
-          "main",
-          "header",
-          "footer"
         ]
       },
       {
@@ -946,150 +1576,10 @@
           "footer",
           "nav:Breadcrumb"
         ]
-      },
-      {
-        "url": "https://1password.com/login",
-        "title": "404 - Page Not Found | 1Password",
-        "description": "Page not found",
-        "headings": [
-          "404: Page Not Found",
-          "Well this is awkward."
-        ],
-        "navLabels": [
-          "Product",
-          "1Password PersonalPersonalFor you and your family.",
-          "1Password BusinessBusinessFor growing businesses.",
-          "1Password EnterpriseEnterpriseFor security at scale.",
-          "1Password Developer ToolsDeveloperKeep secrets out of code.",
-          "View 1Password features",
-          "Unified AccessDiscover, secure, and audit access",
-          "Enterprise Password ManagerProtect credentials and logins",
-          "SaaS ManagerDiscover and govern SaaS spend",
-          "Device TrustSecure every device's access",
-          "View plans",
-          "Talk to sales",
-          "Download 1Password",
-          "Resources",
-          "SecuritySecurityHow 1Password is different.",
-          "Resource LibraryResource libraryHelpful guides and research.",
-          "1Password blogBlogNews, tips, and inspiration.",
-          "WebinarsWebinarsWatch live or on demand.",
-          "Support",
-          "Pricing",
-          "Sign in"
-        ],
-        "ctas": [
-          "Download 1Password",
-          "Resource LibraryResource libraryHelpful guides and research.",
-          "Pricing",
-          "Sign in",
-          "Contact us",
-          "Contact support"
-        ],
-        "landmarks": [
-          "navigation",
-          "main",
-          "header",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://1password.com/signin",
-        "title": "404 - Page Not Found | 1Password",
-        "description": "Page not found",
-        "headings": [
-          "404: Page Not Found",
-          "Well this is awkward."
-        ],
-        "navLabels": [
-          "Product",
-          "1Password PersonalPersonalFor you and your family.",
-          "1Password BusinessBusinessFor growing businesses.",
-          "1Password EnterpriseEnterpriseFor security at scale.",
-          "1Password Developer ToolsDeveloperKeep secrets out of code.",
-          "View 1Password features",
-          "Unified AccessDiscover, secure, and audit access",
-          "Enterprise Password ManagerProtect credentials and logins",
-          "SaaS ManagerDiscover and govern SaaS spend",
-          "Device TrustSecure every device's access",
-          "View plans",
-          "Talk to sales",
-          "Download 1Password",
-          "Resources",
-          "SecuritySecurityHow 1Password is different.",
-          "Resource LibraryResource libraryHelpful guides and research.",
-          "1Password blogBlogNews, tips, and inspiration.",
-          "WebinarsWebinarsWatch live or on demand.",
-          "Support",
-          "Pricing",
-          "Sign in"
-        ],
-        "ctas": [
-          "Download 1Password",
-          "Resource LibraryResource libraryHelpful guides and research.",
-          "Pricing",
-          "Sign in",
-          "Contact us",
-          "Contact support"
-        ],
-        "landmarks": [
-          "navigation",
-          "main",
-          "header",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://1password.com/sign-in",
-        "title": "404 - Page Not Found | 1Password",
-        "description": "Page not found",
-        "headings": [
-          "404: Page Not Found",
-          "Well this is awkward."
-        ],
-        "navLabels": [
-          "Product",
-          "1Password PersonalPersonalFor you and your family.",
-          "1Password BusinessBusinessFor growing businesses.",
-          "1Password EnterpriseEnterpriseFor security at scale.",
-          "1Password Developer ToolsDeveloperKeep secrets out of code.",
-          "View 1Password features",
-          "Unified AccessDiscover, secure, and audit access",
-          "Enterprise Password ManagerProtect credentials and logins",
-          "SaaS ManagerDiscover and govern SaaS spend",
-          "Device TrustSecure every device's access",
-          "View plans",
-          "Talk to sales",
-          "Download 1Password",
-          "Resources",
-          "SecuritySecurityHow 1Password is different.",
-          "Resource LibraryResource libraryHelpful guides and research.",
-          "1Password blogBlogNews, tips, and inspiration.",
-          "WebinarsWebinarsWatch live or on demand.",
-          "Support",
-          "Pricing",
-          "Sign in"
-        ],
-        "ctas": [
-          "Download 1Password",
-          "Resource LibraryResource libraryHelpful guides and research.",
-          "Pricing",
-          "Sign in",
-          "Contact us",
-          "Contact support"
-        ],
-        "landmarks": [
-          "navigation",
-          "main",
-          "header",
-          "footer"
-        ]
       }
     ],
     "navLabels": [
       "Secure credentials for humans, machines, and AI agents. Switch to 1Password.",
-      "Talk to sales",
-      "View plans",
       "Sign in",
       "Business",
       "Personal",
@@ -1097,52 +1587,54 @@
       "Partners",
       "Resources",
       "Pricing",
+      "Talk to sales",
       "Get started free",
-      "Request a demo",
-      "Sign in to SaaS Manager",
-      "SaaS Manager",
-      "Enterprise",
-      "Business and Personal",
-      "Pricing - Password Manager",
-      "Try free for 14 days",
-      "Compare plans",
-      "Personal Password Manager",
-      "Download 1Password",
-      "Learn about password generator",
-      "Learn about password vaults",
-      "Learn about password sharing",
+      "View plans",
+      "Try 1Password free",
       "Features",
-      "Product",
-      "1Password PersonalPersonalFor you and your family.",
-      "1Password BusinessBusinessFor growing businesses.",
-      "1Password EnterpriseEnterpriseFor security at scale.",
-      "1Password Developer ToolsDeveloperKeep secrets out of code."
+      "Password autofill",
+      "Menu",
+      "Home",
+      "Tour",
+      "Families",
+      "Security",
+      "Download",
+      "Support",
+      "Blog",
+      "Secret Key",
+      "lost account password",
+      "browser extension not working",
+      "1Password MCP Server",
+      "1Password Developer home page",
+      "Search...⌘K",
+      "Ask Assistant",
+      "Community"
     ],
     "ctas": [
+      "Sign in",
+      "Pricing",
+      "Get started free",
       "Explore 1Password® Unified Access",
       "Try Enterprise Password Manager",
       "Request SaaS Manger demo",
-      "Downloads",
       "Demos",
-      "Pricing",
-      "Create a new account",
       "Contact 1Password Support.",
-      "Sign in",
-      "Get started free",
-      "Request a demo",
-      "Sign in to SaaS Manager",
-      "Learn more",
-      "Explore AI spend management",
-      "Explore SaaS discovery",
-      "Explore SaaS workflow automation",
-      "Explore SaaS spend management",
-      "Explore account governance",
-      "Get started",
-      "Try FREE for 14 days",
-      "Buy with AWS",
-      "MSPs try FREE for 14 days",
-      "Teams Starter Pack",
-      "contact us"
+      "Try 1Password free",
+      "Download",
+      "Get started Set up 1Password for yourself or your family.Get started",
+      "Team members: Get started Set up 1Password at your workplace.Join your team",
+      "Try out exploratory features in 1Password",
+      "Contact Support",
+      "Search...⌘K",
+      "Search...",
+      "Get Started",
+      "Developer quickstart",
+      "Administrator quickstart",
+      "Partner quickstart",
+      "Admin quickstart",
+      "Explore more projects",
+      "facebook",
+      "How do I get started with 1Password?"
     ],
     "headings": [
       "Secure access for every human and AI agent",
@@ -1153,71 +1645,72 @@
       "1Password named a Leader for SaaS Management Platforms",
       "Bring modern access under control",
       "We couldn’t connect to 1Password",
-      "SaaS management",
-      "AI and SaaS sprawl creates gaps in visibility, access, and runaway spend",
-      "Control AI token consumption",
-      "Uncover shadow AI and IT",
-      "Manage the SaaS lifecycle",
-      "Eliminate unnecessary spend",
-      "1Password SaaS Manager",
-      "Unified AI and SaaS governance",
-      "Manage",
-      "Track and control AI consumption and spend",
-      "Discover",
-      "Continuously discover and inventory all AI and SaaS applications",
-      "Control",
-      "Powerful AI and SaaS workflow automation",
-      "Optimize",
-      "Eliminate unnecessary AI and SaaS spend",
-      "Integrate",
-      "Govern accounts beyond SSO",
-      "See the power of 1Password SaaS Manager",
-      "Pricing and plans",
-      "Individual",
-      "Families"
+      "Password autofill",
+      "What’s password autofill?",
+      "Getting started with password autofill",
+      "How to use 1Password’s autofill",
+      "Quick Access to your credentials",
+      "How password autofill keeps you safe online",
+      "Speed up your logins safely and efficiently",
+      "Secure your digital life with 1Password",
+      "Welcome to 1Password Support",
+      "We’re here to help!",
+      "Featured articles",
+      "Documentation Index",
+      "About",
+      "Quickstart",
+      "Developer workflows",
+      "Administrator workflows",
+      "Resources",
+      "Secure developer workflows with 1Password",
+      "Secure agentic workflows",
+      "Secure AI access",
+      "1Password Environments Beta",
+      "1Password MCP Server Beta"
     ],
     "techSignals": [
       "Next.js",
       "Webpack",
       "React",
+      "Cloudflare",
       "Vite",
-      "Intercom",
-      "Cloudflare"
+      "Intercom"
     ],
     "featureCandidates": [
       "Secure access for every human and AI agent",
       "Discover, secure, audit",
       "Bring modern access under control",
       "We couldn’t connect to 1Password",
-      "SaaS management",
-      "Control AI token consumption",
-      "Uncover shadow AI and IT",
-      "Manage the SaaS lifecycle",
-      "Eliminate unnecessary spend",
-      "1Password SaaS Manager",
-      "Unified AI and SaaS governance",
-      "Manage",
-      "Track and control AI consumption and spend",
-      "Discover",
-      "Control",
-      "Powerful AI and SaaS workflow automation",
-      "Optimize",
-      "Eliminate unnecessary AI and SaaS spend",
-      "Integrate",
-      "Govern accounts beyond SSO",
-      "See the power of 1Password SaaS Manager",
-      "Pricing and plans",
-      "Individual",
-      "Families"
+      "Password autofill",
+      "What’s password autofill?",
+      "Getting started with password autofill",
+      "How to use 1Password’s autofill",
+      "Quick Access to your credentials",
+      "How password autofill keeps you safe online",
+      "Speed up your logins safely and efficiently",
+      "Secure your digital life with 1Password",
+      "Welcome to 1Password Support",
+      "We’re here to help!",
+      "Featured articles",
+      "Documentation Index",
+      "About",
+      "Quickstart",
+      "Developer workflows",
+      "Administrator workflows",
+      "Resources",
+      "Secure developer workflows with 1Password",
+      "Secure agentic workflows",
+      "Secure AI access"
     ],
     "patternCandidates": [
+      "Pricing display",
       "Map view",
       "Tabs",
-      "Pricing display",
       "Authentication",
-      "Dashboard",
+      "Menus",
       "Card layout",
-      "Search"
+      "Search",
+      "Dashboard"
     ],
     "platformsDetected": [
       "web",
@@ -1227,6 +1720,6 @@
       "cli",
       "desktop"
     ],
-    "summary": "Captured 43 screenshots across 16 public URLs. Nav signals: Secure credentials for humans, machines, and AI agents. Switch to 1Password., Talk to sales, View plans, Sign in, Business, Personal. Tech signals: Next.js, Webpack, React, Vite, Intercom, Cloudflare. UI patterns: Map view, Tabs, Pricing display, Authentication, Dashboard, Card layout."
+    "summary": "Captured 51 screenshots across 12 public URLs. Nav signals: Secure credentials for humans, machines, and AI agents. Switch to 1Password., Sign in, Business, Personal, Developers, Partners. Tech signals: Next.js, Webpack, React, Cloudflare, Vite, Intercom. UI patterns: Pricing display, Map view, Tabs, Authentication, Menus, Card layout."
   }
 }

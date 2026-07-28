@@ -1,0 +1,21 @@
+{
+  "slug": "aveva-pi",
+  "capturedAt": "2026-07-27T22:55:37.717Z",
+  "shots": [],
+  "insights": {
+    "capturedAt": "2026-07-27T22:55:37.717Z",
+    "screenshotCount": 0,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 0 screenshots across 0 public URLs."
+  }
+}

@@ -1,292 +1,1228 @@
 {
   "slug": "datadog",
-  "capturedAt": "2026-07-26T22:07:50.988Z",
+  "capturedAt": "2026-07-27T22:24:35.370Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Infrastructure list",
       "caption": "Datadog public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://www.datadoghq.com/"
+      "sourceUrl": "https://www.datadoghq.com/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Cloud Monitoring as a Service | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "690d271f126b7b67",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Datadog homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.datadoghq.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Datadog homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.datadoghq.com/"
+      "sourceUrl": "https://www.datadoghq.com/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Cloud Monitoring as a Service | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "79673fb86dedc898",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Datadog homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.datadoghq.com/"
+      "sourceUrl": "https://www.datadoghq.com/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Cloud Monitoring as a Service | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "e990d89892828424",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Datadog homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.datadoghq.com/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Cloud Monitoring as a Service | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d013ab2b23636b2",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Datadog homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.datadoghq.com/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Cloud Monitoring as a Service | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "7cb63b3b7b5b9b67",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Datadog homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.datadoghq.com/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Cloud Monitoring as a Service | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d646664646460cd",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Datadog homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://www.datadoghq.com/"
-    },
-    {
-      "file": "search-composer.jpg",
-      "title": "Search / composer",
-      "caption": "Focused search or primary input on Datadog",
-      "kind": "component",
-      "sourceUrl": "https://www.datadoghq.com/"
+      "sourceUrl": "https://www.datadoghq.com/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Cloud Monitoring as a Service | Datadog",
+      "width": 390,
+      "height": 844,
+      "phash": "fc0707436b31552b",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on Datadog (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://www.datadoghq.com/"
+      "sourceUrl": "https://www.datadoghq.com/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Cloud Monitoring as a Service | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6971717171717171",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Datadog",
       "kind": "product",
-      "sourceUrl": "https://www.datadoghq.com/product/metrics/"
+      "sourceUrl": "https://www.datadoghq.com/product/storage-management/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Storage Management | Cloud Object Storage Monitoring | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "379c9e9c98da8e8e",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Datadog",
       "kind": "product",
-      "sourceUrl": "https://www.datadoghq.com/product/metrics/"
+      "sourceUrl": "https://www.datadoghq.com/product/storage-management/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Storage Management | Cloud Object Storage Monitoring | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6de8f0f0d8f86147",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Datadog",
       "kind": "product",
-      "sourceUrl": "https://www.datadoghq.com/product/metrics/"
+      "sourceUrl": "https://www.datadoghq.com/product/storage-management/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Storage Management | Cloud Object Storage Monitoring | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6968070648486746",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from Datadog",
       "kind": "product",
-      "sourceUrl": "https://www.datadoghq.com/product/metrics/"
+      "sourceUrl": "https://www.datadoghq.com/product/storage-management/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Storage Management | Cloud Object Storage Monitoring | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6f09414a4849c87a",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from Datadog",
       "kind": "product",
-      "sourceUrl": "https://www.datadoghq.com/product/metrics/"
+      "sourceUrl": "https://www.datadoghq.com/product/storage-management/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Storage Management | Cloud Object Storage Monitoring | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6f09c046c5444a7a",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from Datadog",
+      "kind": "product",
+      "sourceUrl": "https://www.datadoghq.com/product/storage-management/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Storage Management | Cloud Object Storage Monitoring | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d09d958485b5b7b",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "APM service page (1)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "product",
-      "sourceUrl": "https://docs.datadoghq.com/getting_started/"
+      "sourceUrl": "https://docs.datadoghq.com/getting_started/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Getting Started",
+      "width": 1440,
+      "height": 900,
+      "phash": "691899dacec7cf46",
+      "unique": true
     },
     {
-      "file": "surface-1-mid.jpg",
-      "title": "APM service page (2)",
+      "file": "surface-1-band-2.jpg",
+      "title": "APM service page (3)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "product",
-      "sourceUrl": "https://docs.datadoghq.com/getting_started/"
+      "sourceUrl": "https://docs.datadoghq.com/getting_started/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Getting Started",
+      "width": 1440,
+      "height": 900,
+      "phash": "6dc7c7d69a95d55e",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-3.jpg",
+      "title": "APM service page (4)",
+      "caption": "Datadog public surface · docs.datadoghq.com",
+      "kind": "product",
+      "sourceUrl": "https://docs.datadoghq.com/getting_started/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Getting Started",
+      "width": 1440,
+      "height": 900,
+      "phash": "299fd8d6ded6df56",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-4.jpg",
+      "title": "APM service page (5)",
+      "caption": "Datadog public surface · docs.datadoghq.com",
+      "kind": "product",
+      "sourceUrl": "https://docs.datadoghq.com/getting_started/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Getting Started",
+      "width": 1440,
+      "height": 900,
+      "phash": "0dd3ded6d2d6d75e",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
       "title": "Log explorer (1)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "product",
-      "sourceUrl": "https://docs.datadoghq.com/api/latest/?tab=java"
+      "sourceUrl": "https://docs.datadoghq.com/api/latest/?tab=java",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "API Reference",
+      "width": 1440,
+      "height": 900,
+      "phash": "695993dedadedede",
+      "unique": true
     },
     {
-      "file": "surface-2-mid.jpg",
-      "title": "Log explorer (2)",
+      "file": "surface-2-band-3.jpg",
+      "title": "Log explorer (4)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "product",
-      "sourceUrl": "https://docs.datadoghq.com/api/latest/?tab=java"
+      "sourceUrl": "https://docs.datadoghq.com/api/latest/?tab=java",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "API Reference",
+      "width": 1440,
+      "height": 900,
+      "phash": "49dfdedadadcdf5a",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-4.jpg",
+      "title": "Log explorer (5)",
+      "caption": "Datadog public surface · docs.datadoghq.com",
+      "kind": "product",
+      "sourceUrl": "https://docs.datadoghq.com/api/latest/?tab=java",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "API Reference",
+      "width": 1440,
+      "height": 900,
+      "phash": "69dbd1d2dedacb16",
+      "unique": true
     },
     {
       "file": "surface-3.jpg",
       "title": "Dashboard (1)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/tracing/"
+      "sourceUrl": "https://docs.datadoghq.com/tracing/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "APM",
+      "width": 1440,
+      "height": 900,
+      "phash": "69b993978f939f1a",
+      "unique": true
     },
     {
-      "file": "surface-3-mid.jpg",
-      "title": "Dashboard (2)",
+      "file": "surface-3-band-2.jpg",
+      "title": "Dashboard (3)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/tracing/"
+      "sourceUrl": "https://docs.datadoghq.com/tracing/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "APM",
+      "width": 1440,
+      "height": 900,
+      "phash": "0d93535656df4f76",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-3.jpg",
+      "title": "Dashboard (4)",
+      "caption": "Datadog public surface · docs.datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.datadoghq.com/tracing/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "APM",
+      "width": 1440,
+      "height": 900,
+      "phash": "2d954d4e4ec7565e",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-4.jpg",
+      "title": "Dashboard (5)",
+      "caption": "Datadog public surface · docs.datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.datadoghq.com/tracing/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "APM",
+      "width": 1440,
+      "height": 900,
+      "phash": "0d97555a4af55b5a",
+      "unique": true
     },
     {
       "file": "surface-4.jpg",
       "title": "Monitor edit (1)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/logs/"
+      "sourceUrl": "https://docs.datadoghq.com/logs/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log Management",
+      "width": 1440,
+      "height": 900,
+      "phash": "6998995cd095d19c",
+      "unique": true
     },
     {
-      "file": "surface-4-mid.jpg",
-      "title": "Monitor edit (2)",
+      "file": "surface-4-band-2.jpg",
+      "title": "Monitor edit (3)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/logs/"
+      "sourceUrl": "https://docs.datadoghq.com/logs/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log Management",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d939e8e9e8e8d90",
+      "unique": true
+    },
+    {
+      "file": "surface-4-band-3.jpg",
+      "title": "Monitor edit (4)",
+      "caption": "Datadog public surface · docs.datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.datadoghq.com/logs/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log Management",
+      "width": 1440,
+      "height": 900,
+      "phash": "9d97d99d8d9d9d82",
+      "unique": true
+    },
+    {
+      "file": "surface-4-band-4.jpg",
+      "title": "Monitor edit (5)",
+      "caption": "Datadog public surface · docs.datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.datadoghq.com/logs/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log Management",
+      "width": 1440,
+      "height": 900,
+      "phash": "099b684646cfcfdc",
+      "unique": true
     },
     {
       "file": "surface-5.jpg",
       "title": "Notebook (1)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/dashboards/"
+      "sourceUrl": "https://docs.datadoghq.com/dashboards/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Dashboards",
+      "width": 1440,
+      "height": 900,
+      "phash": "69999586d6cdddf0",
+      "unique": true
     },
     {
-      "file": "surface-5-mid.jpg",
-      "title": "Notebook (2)",
+      "file": "surface-5-band-2.jpg",
+      "title": "Notebook (3)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/dashboards/"
+      "sourceUrl": "https://docs.datadoghq.com/dashboards/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Dashboards",
+      "width": 1440,
+      "height": 900,
+      "phash": "29ddcdccd0dec6c6",
+      "unique": true
+    },
+    {
+      "file": "surface-5-band-3.jpg",
+      "title": "Notebook (4)",
+      "caption": "Datadog public surface · docs.datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.datadoghq.com/dashboards/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Dashboards",
+      "width": 1440,
+      "height": 900,
+      "phash": "6dc7cdd6d6d7dbd8",
+      "unique": true
+    },
+    {
+      "file": "surface-5-band-4.jpg",
+      "title": "Notebook (5)",
+      "caption": "Datadog public surface · docs.datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.datadoghq.com/dashboards/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Dashboards",
+      "width": 1440,
+      "height": 900,
+      "phash": "2dd9dd96c6e5e7e4",
+      "unique": true
     },
     {
       "file": "surface-6.jpg",
       "title": "Supporting surface 6 (1)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/account_management/"
+      "sourceUrl": "https://docs.datadoghq.com/account_management/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Account Management",
+      "width": 1440,
+      "height": 900,
+      "phash": "69995d5e46d3df9c",
+      "unique": true
     },
     {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
+      "file": "surface-6-band-2.jpg",
+      "title": "Supporting surface 6 (3)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/account_management/"
+      "sourceUrl": "https://docs.datadoghq.com/account_management/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Account Management",
+      "width": 1440,
+      "height": 900,
+      "phash": "2d9d555654dfdf96",
+      "unique": true
     },
     {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
+      "file": "surface-7-band-2.jpg",
+      "title": "Supporting surface 7 (3)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/security/"
+      "sourceUrl": "https://docs.datadoghq.com/security/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Datadog Security",
+      "width": 1440,
+      "height": 900,
+      "phash": "2d97cfda52c7db5e",
+      "unique": true
     },
     {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
+      "file": "surface-7-band-3.jpg",
+      "title": "Supporting surface 7 (4)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/security/"
+      "sourceUrl": "https://docs.datadoghq.com/security/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Datadog Security",
+      "width": 1440,
+      "height": 900,
+      "phash": "2d97ddde5edbbbbe",
+      "unique": true
+    },
+    {
+      "file": "surface-7-band-4.jpg",
+      "title": "Supporting surface 7 (5)",
+      "caption": "Datadog public surface · docs.datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.datadoghq.com/security/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Datadog Security",
+      "width": 1440,
+      "height": 900,
+      "phash": "29bbbdba56dfdb5a",
+      "unique": true
     },
     {
       "file": "surface-8.jpg",
       "title": "Supporting surface 8 (1)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/monitors/"
+      "sourceUrl": "https://docs.datadoghq.com/monitors/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Monitors",
+      "width": 1440,
+      "height": 900,
+      "phash": "69b1d5d258d5df5c",
+      "unique": true
     },
     {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
+      "file": "surface-8-band-2.jpg",
+      "title": "Supporting surface 8 (3)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/monitors/"
+      "sourceUrl": "https://docs.datadoghq.com/monitors/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Monitors",
+      "width": 1440,
+      "height": 900,
+      "phash": "2ddd5dda5ede5bd0",
+      "unique": true
+    },
+    {
+      "file": "surface-8-band-3.jpg",
+      "title": "Supporting surface 8 (4)",
+      "caption": "Datadog public surface · docs.datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.datadoghq.com/monitors/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Monitors",
+      "width": 1440,
+      "height": 900,
+      "phash": "2d9555d85cdb5fce",
+      "unique": true
+    },
+    {
+      "file": "surface-8-band-4.jpg",
+      "title": "Supporting surface 8 (5)",
+      "caption": "Datadog public surface · docs.datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.datadoghq.com/monitors/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Monitors",
+      "width": 1440,
+      "height": 900,
+      "phash": "6ddfcd52828b6861",
+      "unique": true
     },
     {
       "file": "surface-9.jpg",
       "title": "Supporting surface 9 (1)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/release_notes/"
+      "sourceUrl": "https://docs.datadoghq.com/release_notes/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 Page not found",
+      "width": 1440,
+      "height": 900,
+      "phash": "69d89b9ada68e8e0",
+      "unique": true
     },
     {
-      "file": "surface-9-mid.jpg",
-      "title": "Supporting surface 9 (2)",
+      "file": "surface-9-band-2.jpg",
+      "title": "Supporting surface 9 (3)",
       "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.datadoghq.com/release_notes/"
+      "sourceUrl": "https://docs.datadoghq.com/release_notes/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 Page not found",
+      "width": 1440,
+      "height": 900,
+      "phash": "69668b8b69606065",
+      "unique": true
     },
     {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
-      "caption": "Datadog public surface · datadoghq.com",
+      "file": "surface-9-band-3.jpg",
+      "title": "Supporting surface 9 (4)",
+      "caption": "Datadog public surface · docs.datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://www.datadoghq.com/pricing/"
+      "sourceUrl": "https://docs.datadoghq.com/release_notes/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 Page not found",
+      "width": 1440,
+      "height": 900,
+      "phash": "6962646565646160",
+      "unique": true
     },
     {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
+      "file": "surface-10-band-2.jpg",
+      "title": "Supporting surface 10 (3)",
       "caption": "Datadog public surface · datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://www.datadoghq.com/pricing/"
+      "sourceUrl": "https://www.datadoghq.com/pricing/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6dc7d55555551544",
+      "unique": true
     },
     {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
+      "file": "surface-10-band-4.jpg",
+      "title": "Supporting surface 10 (5)",
       "caption": "Datadog public surface · datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://www.datadoghq.com/product/"
+      "sourceUrl": "https://www.datadoghq.com/pricing/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "65e5c64459515150",
+      "unique": true
     },
     {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
+      "file": "surface-11-band-2.jpg",
+      "title": "Supporting surface 11 (3)",
       "caption": "Datadog public surface · datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://www.datadoghq.com/product/"
+      "sourceUrl": "https://www.datadoghq.com/product/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Infrastructure & Application Monitoring as a Service | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d6545456544634f",
+      "unique": true
+    },
+    {
+      "file": "surface-11-band-3.jpg",
+      "title": "Supporting surface 11 (4)",
+      "caption": "Datadog public surface · datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.datadoghq.com/product/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Infrastructure & Application Monitoring as a Service | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d4f4d7d6d7dcf4e",
+      "unique": true
+    },
+    {
+      "file": "surface-11-band-4.jpg",
+      "title": "Supporting surface 11 (5)",
+      "caption": "Datadog public surface · datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.datadoghq.com/product/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Infrastructure & Application Monitoring as a Service | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "794e4e46474db39b",
+      "unique": true
     },
     {
       "file": "surface-12.jpg",
       "title": "Supporting surface 12 (1)",
       "caption": "Datadog public surface · datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://www.datadoghq.com/products/"
+      "sourceUrl": "https://www.datadoghq.com/products/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 Page Not Found | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "692c173f3ccc6860",
+      "unique": true
     },
     {
-      "file": "surface-12-mid.jpg",
-      "title": "Supporting surface 12 (2)",
+      "file": "surface-16.jpg",
+      "title": "Supporting surface 16 (1)",
       "caption": "Datadog public surface · datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://www.datadoghq.com/products/"
+      "sourceUrl": "https://www.datadoghq.com/customers/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customers | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "692ece969e5c963c",
+      "unique": true
     },
     {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13 (1)",
+      "file": "surface-16-band-2.jpg",
+      "title": "Supporting surface 16 (3)",
       "caption": "Datadog public surface · datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://www.datadoghq.com/features"
+      "sourceUrl": "https://www.datadoghq.com/customers/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customers | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "693c2cc3438c4d57",
+      "unique": true
     },
     {
-      "file": "surface-13-mid.jpg",
-      "title": "Supporting surface 13 (2)",
+      "file": "surface-16-band-3.jpg",
+      "title": "Supporting surface 16 (4)",
       "caption": "Datadog public surface · datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://www.datadoghq.com/features"
+      "sourceUrl": "https://www.datadoghq.com/customers/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customers | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d57553133e5cc1d",
+      "unique": true
     },
     {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14 (1)",
+      "file": "surface-16-band-4.jpg",
+      "title": "Supporting surface 16 (5)",
       "caption": "Datadog public surface · datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://www.datadoghq.com/platform"
+      "sourceUrl": "https://www.datadoghq.com/customers/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customers | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d0d9995959b9915",
+      "unique": true
     },
     {
-      "file": "surface-14-mid.jpg",
-      "title": "Supporting surface 14 (2)",
+      "file": "surface-19.jpg",
+      "title": "Supporting surface 19 (1)",
       "caption": "Datadog public surface · datadoghq.com",
       "kind": "docs",
-      "sourceUrl": "https://www.datadoghq.com/platform"
+      "sourceUrl": "https://www.datadoghq.com/blog/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-19",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Monitor | Datadog Official Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "690c52525f59595f",
+      "unique": true
+    },
+    {
+      "file": "surface-19-band-2.jpg",
+      "title": "Supporting surface 19 (3)",
+      "caption": "Datadog public surface · datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.datadoghq.com/blog/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-19",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Monitor | Datadog Official Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "595f273949575555",
+      "unique": true
+    },
+    {
+      "file": "surface-19-band-3.jpg",
+      "title": "Supporting surface 19 (4)",
+      "caption": "Datadog public surface · datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.datadoghq.com/blog/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-19",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Monitor | Datadog Official Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "5555845467276567",
+      "unique": true
+    },
+    {
+      "file": "surface-19-band-4.jpg",
+      "title": "Supporting surface 19 (5)",
+      "caption": "Datadog public surface · datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.datadoghq.com/blog/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-19",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Monitor | Datadog Official Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d67376745890388",
+      "unique": true
+    },
+    {
+      "file": "surface-20.jpg",
+      "title": "Supporting surface 20 (1)",
+      "caption": "Datadog public surface · datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.datadoghq.com/about/leadership/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-20",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Leadership | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "ed000000032b0d4c",
+      "unique": true
+    },
+    {
+      "file": "surface-20-band-2.jpg",
+      "title": "Supporting surface 20 (3)",
+      "caption": "Datadog public surface · datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.datadoghq.com/about/leadership/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-20",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Leadership | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d0c4d7b277b7967",
+      "unique": true
+    },
+    {
+      "file": "surface-20-band-3.jpg",
+      "title": "Supporting surface 20 (4)",
+      "caption": "Datadog public surface · datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.datadoghq.com/about/leadership/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-20",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Leadership | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "ed6f6f1f7b677739",
+      "unique": true
+    },
+    {
+      "file": "surface-20-band-4.jpg",
+      "title": "Supporting surface 20 (5)",
+      "caption": "Datadog public surface · datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.datadoghq.com/about/leadership/",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-20",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Leadership | Datadog",
+      "width": 1440,
+      "height": 900,
+      "phash": "ed796b6b797b6779",
+      "unique": true
+    },
+    {
+      "file": "surface-21.jpg",
+      "title": "Supporting surface 21 (1)",
+      "caption": "Datadog public surface · datadoghq.com",
+      "kind": "docs",
+      "sourceUrl": "https://app.datadoghq.com/account/login?next=%2F",
+      "capturedAt": "2026-07-27T22:21:09.163Z",
+      "playbookStep": "surface-21",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Datadog: Log In",
+      "width": 1440,
+      "height": 900,
+      "phash": "c269e3e9d9e7cf6b",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-26T22:07:50.988Z",
-    "screenshotCount": 40,
-    "pageCount": 16,
+    "capturedAt": "2026-07-27T22:24:35.370Z",
+    "screenshotCount": 64,
+    "pageCount": 18,
     "pages": [
       {
         "url": "https://www.datadoghq.com/",
@@ -346,17 +1282,16 @@
         ]
       },
       {
-        "url": "https://www.datadoghq.com/product/metrics/",
-        "title": "Metrics | Datadog",
-        "description": "Gain complete visibility into infrastructure, application, and business metrics. Datadog unifies metrics, logs, and traces, so you can analyze them in context.",
+        "url": "https://www.datadoghq.com/product/storage-management/",
+        "title": "Storage Management | Cloud Object Storage Monitoring | Datadog",
+        "description": "Datadog Storage Monitoring provides detailed visibility into your cloud object storage, helping you eliminate unnecessary costs.",
         "headings": [
-          "Metrics",
+          "Storage Management",
           "Feature Overview",
-          "Monitor every metric across your stack in seconds",
-          "Eliminate blind spots and troubleshoot faster in a unified platform",
-          "Run advanced analysis at scale on deep, granular metrics data",
-          "Collaborate effectively on a single platform anyone can use",
-          "Optimize cost and coverage with comprehensive governance tools",
+          "Pinpoint cost drivers in your storage buckets",
+          "Confidently move cold data to lower-cost storage classes",
+          "Accelerate savings with granular recommendations",
+          "Proactively detect and address anomalies",
           "Resources",
           "What's Next",
           "Get started today with a 14-day free-trial of the entire Datadog product suite"
@@ -396,13 +1331,12 @@
           "Contact",
           "GET STARTED FREE Free Trial",
           "Get Started",
-          "Try Metrics Free",
+          "Try Storage Management Free",
           "Request a Demo",
           "Learn More",
-          "EBOOKBusiness Observability with Custom Metrics",
-          "EBOOKHow to Prioritize Metrics as an E-commerce CTO",
           "Start Free Trial",
-          "Contact Us"
+          "Contact Us",
+          "Icon/world Created with Sketch. English"
         ],
         "landmarks": [
           "nav",
@@ -1236,11 +2170,26 @@
         ]
       },
       {
-        "url": "https://www.datadoghq.com/features",
-        "title": "404 Page Not Found | Datadog",
+        "url": "https://www.datadoghq.com/customers/",
+        "title": "Customers | Datadog",
         "description": " ",
         "headings": [
-          "Arf."
+          "Auth0 strengthens resiliency and service reliability with Datadog",
+          "How Forbes delivers a premium digital experience with Datadog",
+          "Itaú Unibanco modernizes its observability platform with Datadog",
+          "How TriZetto’s CIO Consolidates Tools to Reduce IT Costs with Datadog",
+          "How Autodesk uses Datadog to help its users design and make anything",
+          "Thousands of customers love & trust Datadog",
+          "Customer Spotlights",
+          "Customer Stories",
+          "Filter Topics",
+          "Story Type",
+          "Industry",
+          "Product",
+          "Region",
+          "Use Case",
+          "Join our Datadog community",
+          "Webinar: Better Reliability with SLOs"
         ],
         "navLabels": [
           "Product",
@@ -1283,16 +2232,104 @@
         ],
         "landmarks": [
           "nav",
+          "dialog:videoBsModal",
           "footer",
           "dialog:signupDemoLabel"
         ]
       },
       {
-        "url": "https://www.datadoghq.com/platform",
-        "title": "404 Page Not Found | Datadog",
+        "url": "https://www.datadoghq.com/blog/",
+        "title": "The Monitor | Datadog Official Blog",
+        "description": "Check out The Monitor, Datadog's main blog, to learn more about new Datadog products and features, integrations, and more.",
+        "headings": [
+          "Get Started with Datadog",
+          "The Monitor",
+          "Featured Articles",
+          "Normalize security logs to Google SecOps UDM with Observability Pipelines",
+          "Efficient multi-provider agent environments with AI gateways: best practices",
+          "DASH Articles",
+          "DASH 2026: Guide to Datadog’s newest announcements",
+          "DASH 2026 Harnessing AI: Guide to Datadog’s newest announcements",
+          "DASH 2026 End-to-End Observability: Guide to Datadog’s newest announcements",
+          "DASH 2026 Security & Compliance: Guide to Datadog’s newest announcements",
+          "Latest Articles",
+          "Provision Datadog on Stripe Projects",
+          "Answer any cost question faster with the Cloud Cost skill in Bits Chat",
+          "How we brought agentic workflows to Cloud SIEM with the Datadog MCP Server",
+          "Monitor Apigee X API traffic and security with Datadog",
+          "Start monitoring your metrics in minutes"
+        ],
+        "navLabels": [
+          "Product",
+          "Observability",
+          "security-platform Security",
+          "rum Digital Experience",
+          "ci Software Delivery",
+          "Service Management",
+          "AI",
+          "dashboard Platform Capabilities",
+          "View pricing",
+          "Infrastructure Monitoring",
+          "Metrics",
+          "Network Monitoring",
+          "Container Monitoring",
+          "Kubernetes Autoscaling",
+          "Serverless",
+          "Cloud Cost Management",
+          "Cloudcraft",
+          "Storage Management",
+          "GPU Monitoring",
+          "Application Performance Monitoring",
+          "Universal Service Monitoring",
+          "Continuous Profiler",
+          "Dynamic Instrumentation",
+          "Agent Observability"
+        ],
+        "ctas": [
+          "View pricing",
+          "Security Labs Research",
+          "Notebooks",
+          "OpenTelemetry",
+          "Pricing",
+          "Contact",
+          "GET STARTED FREE Free Trial",
+          "Get Started",
+          "Contact Us",
+          "Icon/world Created with Sketch. English"
+        ],
+        "landmarks": [
+          "nav",
+          "main",
+          "header",
+          "nav:Blog subnavigation",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.datadoghq.com/about/leadership/",
+        "title": "Leadership | Datadog",
         "description": " ",
         "headings": [
-          "Arf."
+          "About",
+          "The leading AI-powered observability and security platform",
+          "Leadership",
+          "Olivier Pomel",
+          "Alexis Lê-Quôc",
+          "David Obstler",
+          "Sara Varni",
+          "Adam Blitzer",
+          "Yanbing Li",
+          "David Galloreese",
+          "Sean Walters",
+          "Emilio Escobar",
+          "Kerry Acocella",
+          "Board of Directors",
+          "Shardul Shah",
+          "Dev Ittycheria",
+          "Michael Callahan",
+          "Julie Richardson",
+          "Matt Jacobson",
+          "Titilope Cole"
         ],
         "navLabels": [
           "Product",
@@ -1335,8 +2372,26 @@
         ],
         "landmarks": [
           "nav",
+          "header",
+          "main",
+          "aside",
           "footer",
           "dialog:signupDemoLabel"
+        ]
+      },
+      {
+        "url": "https://app.datadoghq.com/account/login?next=%2F",
+        "title": "Datadog: Log In",
+        "headings": [
+          "Log in to Datadog"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Try for free",
+          "Log in"
+        ],
+        "landmarks": [
+          "footer:Datadog Copyright and Legal Information"
         ]
       }
     ],
@@ -1365,7 +2420,11 @@
       "Continuous Profiler",
       "Dynamic Instrumentation",
       "Agent Observability",
-      "View Product Pricing"
+      "View Product Pricing",
+      "security-platform Security",
+      "rum Digital Experience",
+      "ci Software Delivery",
+      "dashboard Platform Capabilities"
     ],
     "ctas": [
       "View pricing",
@@ -1378,12 +2437,11 @@
       "Get Started",
       "LEARN MORE",
       "Get the eBook",
-      "Try Metrics Free",
+      "Try Storage Management Free",
       "Request a Demo",
-      "EBOOKBusiness Observability with Custom Metrics",
-      "EBOOKHow to Prioritize Metrics as an E-commerce CTO",
       "Start Free Trial",
       "Contact Us",
+      "Icon/world Created with Sketch. English",
       "https://docs.datadoghq.com/getting_started.md",
       "View Product Pricing",
       "Getting Started",
@@ -1391,20 +2449,20 @@
       "Product-Specific Search",
       "Create an Agent-based Integration",
       "Create an API-based Integration",
-      "Create a Log Pipeline"
+      "Create a Log Pipeline",
+      "Create an Integration Dashboard"
     ],
     "headings": [
       "AI-Powered Observability and Security",
       "Define and track KPIs for successfully moving your data and applications to AWS",
       "Define and track KPIs for successfullymoving your data and applications to GCP",
       "Products",
-      "Metrics",
+      "Storage Management",
       "Feature Overview",
-      "Monitor every metric across your stack in seconds",
-      "Eliminate blind spots and troubleshoot faster in a unified platform",
-      "Run advanced analysis at scale on deep, granular metrics data",
-      "Collaborate effectively on a single platform anyone can use",
-      "Optimize cost and coverage with comprehensive governance tools",
+      "Pinpoint cost drivers in your storage buckets",
+      "Confidently move cold data to lower-cost storage classes",
+      "Accelerate savings with granular recommendations",
+      "Proactively detect and address anomalies",
       "Resources",
       "What's Next",
       "Get started today with a 14-day free-trial of the entire Datadog product suite",
@@ -1423,7 +2481,8 @@
       "Overview",
       "Use cases",
       "Trace Explorer",
-      "Service page"
+      "Service page",
+      "Correlating traces with other telemetry"
     ],
     "techSignals": [
       "Segment",
@@ -1432,13 +2491,16 @@
       "Cloudflare",
       "Next.js",
       "Vite",
-      "Zendesk"
+      "Zendesk",
+      "Stripe"
     ],
     "featureCandidates": [
       "AI-Powered Observability and Security",
       "Products",
-      "Metrics",
+      "Storage Management",
       "Feature Overview",
+      "Pinpoint cost drivers in your storage buckets",
+      "Proactively detect and address anomalies",
       "Resources",
       "What's Next",
       "Getting Started",
@@ -1456,9 +2518,7 @@
       "Use cases",
       "Trace Explorer",
       "Service page",
-      "View pricing",
-      "Security Labs Research",
-      "Notebooks"
+      "Correlating traces with other telemetry"
     ],
     "patternCandidates": [
       "Modal dialogs",
@@ -1466,9 +2526,9 @@
       "Pricing display",
       "Tabs",
       "Dashboard",
-      "Card layout",
       "Filters",
       "Map view",
+      "Card layout",
       "Authentication",
       "Menus",
       "Messaging",
@@ -1481,6 +2541,6 @@
       "ios",
       "android"
     ],
-    "summary": "Captured 40 screenshots across 16 public URLs. Nav signals: Product, Observability, Security, Digital Experience, Software Delivery, Service Management. Tech signals: Segment, Google Tag Manager, Datadog, Cloudflare, Next.js, Vite. UI patterns: Modal dialogs, Search, Pricing display, Tabs, Dashboard, Card layout."
+    "summary": "Captured 64 screenshots across 18 public URLs. Nav signals: Product, Observability, Security, Digital Experience, Software Delivery, Service Management. Tech signals: Segment, Google Tag Manager, Datadog, Cloudflare, Next.js, Vite. UI patterns: Modal dialogs, Search, Pricing display, Tabs, Dashboard, Filters."
   }
 }

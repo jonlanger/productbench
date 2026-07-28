@@ -1,0 +1,844 @@
+{
+  "slug": "klarna",
+  "capturedAt": "2026-07-27T19:38:37.411Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Klarna public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.klarna.com/us/?grs=%2F&grr=empty",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Klarna US - A secure, flexible way to manage your money",
+      "width": 1440,
+      "height": 900,
+      "phash": "ccf2617171656764",
+      "unique": true
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "Klarna homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.klarna.com/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Klarna International | Safe & easy-to-use payment solutions",
+      "width": 1440,
+      "height": 900,
+      "phash": "dc081b103030526a",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-2.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Klarna homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.klarna.com/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Klarna International | Safe & easy-to-use payment solutions",
+      "width": 1440,
+      "height": 900,
+      "phash": "5a4b5a4a5a4a524b",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Klarna homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.klarna.com/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Klarna International | Safe & easy-to-use payment solutions",
+      "width": 1440,
+      "height": 900,
+      "phash": "5a5a5a4a6b605a6a",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Klarna homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.klarna.com/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Klarna International | Safe & easy-to-use payment solutions",
+      "width": 1440,
+      "height": 900,
+      "phash": "3040882ab1d49975",
+      "unique": true
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Klarna homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.klarna.com/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Klarna International | Safe & easy-to-use payment solutions",
+      "width": 390,
+      "height": 844,
+      "phash": "3c47579868786878",
+      "unique": true
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on Klarna (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://app.klarna.com/login/?_gl=1*1h34my8*_gcl_au*MTE4OTI1MjM4MS4xNzg1MTgxMDI3",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Klarna",
+      "width": 1440,
+      "height": 900,
+      "phash": "4f4bc36732c04c42",
+      "unique": true
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav",
+      "caption": "Same-origin product / pricing / docs links from Klarna",
+      "kind": "product",
+      "sourceUrl": "https://www.klarna.com/international/about-us/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Klarna | Klarna International",
+      "width": 1440,
+      "height": 900,
+      "phash": "fcfcdcbca9a5e591",
+      "unique": true
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard (1)",
+      "caption": "Klarna public surface · klarna.com",
+      "kind": "product",
+      "sourceUrl": "https://www.klarna.com/us/help/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer service | Klarna US",
+      "width": 1440,
+      "height": 900,
+      "phash": "ccc0300c0c162636",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-2.jpg",
+      "title": "Dashboard (3)",
+      "caption": "Klarna public surface · klarna.com",
+      "kind": "product",
+      "sourceUrl": "https://www.klarna.com/us/help/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer service | Klarna US",
+      "width": 1440,
+      "height": 900,
+      "phash": "263626200038393b",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-3.jpg",
+      "title": "Dashboard (4)",
+      "caption": "Klarna public surface · klarna.com",
+      "kind": "product",
+      "sourceUrl": "https://www.klarna.com/us/help/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer service | Klarna US",
+      "width": 1440,
+      "height": 900,
+      "phash": "393b3b3b37666084",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-4.jpg",
+      "title": "Dashboard (5)",
+      "caption": "Klarna public surface · klarna.com",
+      "kind": "product",
+      "sourceUrl": "https://www.klarna.com/us/help/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer service | Klarna US",
+      "width": 1440,
+      "height": 900,
+      "phash": "60c2383337353580",
+      "unique": true
+    },
+    {
+      "file": "surface-1-lower.jpg",
+      "title": "Dashboard (6)",
+      "caption": "Klarna public surface · klarna.com",
+      "kind": "product",
+      "sourceUrl": "https://www.klarna.com/us/help/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer service | Klarna US",
+      "width": 1440,
+      "height": 900,
+      "phash": "4c0c702ab9d0c490",
+      "unique": true
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings (1)",
+      "caption": "Klarna public surface · docs.klarna.com",
+      "kind": "product",
+      "sourceUrl": "https://docs.klarna.com/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Klarna Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "e0968e555555d4aa",
+      "unique": true
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search (1)",
+      "caption": "Klarna public surface · klarna.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.klarna.com/us/pricing/?grs=%2Fpricing%2F&grr=empty",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 - Klarna US",
+      "width": 1440,
+      "height": 900,
+      "phash": "e80c8e0c083ab1d0",
+      "unique": true
+    },
+    {
+      "file": "surface-3-lower.jpg",
+      "title": "Search (3)",
+      "caption": "Klarna public surface · klarna.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.klarna.com/us/pricing/?grs=%2Fpricing%2F&grr=empty",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 - Klarna US",
+      "width": 1440,
+      "height": 900,
+      "phash": "f4d1e0961955f7a3",
+      "unique": true
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12 (1)",
+      "caption": "Klarna public surface · klarna.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.klarna.com/international/press/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Klarna newsroom",
+      "width": 1440,
+      "height": 900,
+      "phash": "cc148081030f125b",
+      "unique": true
+    },
+    {
+      "file": "surface-12-band-2.jpg",
+      "title": "Supporting surface 12 (3)",
+      "caption": "Klarna public surface · klarna.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.klarna.com/international/press/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Klarna newsroom",
+      "width": 1440,
+      "height": 900,
+      "phash": "525b2b4b6b644f4b",
+      "unique": true
+    },
+    {
+      "file": "surface-12-band-3.jpg",
+      "title": "Supporting surface 12 (4)",
+      "caption": "Klarna public surface · klarna.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.klarna.com/international/press/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Klarna newsroom",
+      "width": 1440,
+      "height": 900,
+      "phash": "4f4b4b4b5343436b",
+      "unique": true
+    },
+    {
+      "file": "surface-12-band-4.jpg",
+      "title": "Supporting surface 12 (5)",
+      "caption": "Klarna public surface · klarna.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.klarna.com/international/press/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Klarna newsroom",
+      "width": 1440,
+      "height": 900,
+      "phash": "236b4a0931302b2b",
+      "unique": true
+    },
+    {
+      "file": "surface-12-lower.jpg",
+      "title": "Supporting surface 12 (6)",
+      "caption": "Klarna public surface · klarna.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.klarna.com/international/press/",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Klarna newsroom",
+      "width": 1440,
+      "height": 900,
+      "phash": "2b0bc00a31d09971",
+      "unique": true
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13 (1)",
+      "caption": "Klarna public surface · klarna.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.klarna.com/about",
+      "capturedAt": "2026-07-27T19:37:01.285Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "",
+      "width": 1440,
+      "height": 900,
+      "phash": "0000000000000000",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T19:38:37.411Z",
+    "screenshotCount": 22,
+    "pageCount": 9,
+    "pages": [
+      {
+        "url": "https://www.klarna.com/us/?grs=%2F&grr=empty",
+        "title": "Klarna US - A secure, flexible way to manage your money",
+        "description": "Manage everyday payments securely with Klarna - online, in store, or with the Klarna Card. Flexible and interest-free options in the United States.",
+        "headings": [
+          "Your money treated right",
+          "Trusted by millions worldwide",
+          "Your everyday money app",
+          "Explore our offering",
+          "Payments",
+          "Cards",
+          "Memberships",
+          "Klarna balance",
+          "Savings",
+          "Cashback",
+          "Shopping",
+          "Mobile",
+          "Say yes to more",
+          "Pick how you pay",
+          "Checkout",
+          "Klarna app",
+          "Klarna cards",
+          "Apple Pay",
+          "Shop with built-in security",
+          "Real reviews from real people"
+        ],
+        "navLabels": [
+          "Discover Klarna",
+          "Shop",
+          "App",
+          "Help",
+          "Show more",
+          "Sign in"
+        ],
+        "ctas": [
+          "Sign in",
+          "Explore memberships",
+          "Learn more",
+          "Explore savings",
+          "Explore cashback",
+          "Sign up",
+          "Learn more about security",
+          "1% cashbackBooking.comFree shipping",
+          "https://www.klarna.com/us/buyer-protection/"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.klarna.com/",
+        "title": "Klarna International | Safe & easy-to-use payment solutions",
+        "description": "Klarna offers direct payments, pay after delivery options and installment plans in a smooth one-click purchase experience → Get started today!",
+        "headings": [
+          "Klarna international",
+          "Klarna markets",
+          "PriceRunner",
+          "More from Klarna",
+          "Your Privacy",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Investor relations",
+          "Corporate governance",
+          "ESG",
+          "Sustainability",
+          "News",
+          "About us",
+          "Show more",
+          "Continue in app"
+        ],
+        "ctas": [
+          "Continue in app",
+          "Contact for authorities",
+          "Business log in",
+          "Learn more",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "dialog"
+        ]
+      },
+      {
+        "url": "https://app.klarna.com/login/?_gl=1*1h34my8*_gcl_au*MTE4OTI1MjM4MS4xNzg1MTgxMDI3",
+        "title": "Klarna",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Sign in"
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://www.klarna.com/international/about-us/",
+        "title": "About Klarna | Klarna International",
+        "description": "Klarna was founded in 2005 in Stockholm, Sweden with the aim of making it easier for people to shop online.",
+        "headings": [
+          "Hej, we’re Klarna",
+          "Smarter shopping starts here",
+          "Our history",
+          "The numbers don't lie",
+          "Trusted by the world's most loved brands",
+          "Meet the board",
+          "Get to know our culture",
+          "Want to find out more?",
+          "Shop smart with Klarna today",
+          "Your Privacy",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Investor relations",
+          "Corporate governance",
+          "ESG",
+          "Sustainability",
+          "News",
+          "About us",
+          "Show more",
+          "Continue in app"
+        ],
+        "ctas": [
+          "Continue in app",
+          "Learn more",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.klarna.com/us/help/",
+        "title": "Customer service | Klarna US",
+        "description": "Get help with Klarna payments, orders, refunds, returns, and account questions. Access customer support via chat or talk with an agent.",
+        "headings": [
+          "Customer service",
+          "How can we help?",
+          "Get immediate support",
+          "Customer service in the app",
+          "More ways we can help",
+          "Get support anytime, anywhere"
+        ],
+        "navLabels": [
+          "Discover Klarna",
+          "Shop",
+          "App",
+          "Help",
+          "Show more",
+          "Sign in"
+        ],
+        "ctas": [
+          "Sign in",
+          "Sign in to chat",
+          "Download the app",
+          "Learn more",
+          "Contact",
+          "Contact for authorities",
+          "Log in",
+          "Buyer Protection Policy",
+          "Business log in"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "dialog"
+        ]
+      },
+      {
+        "url": "https://docs.klarna.com/",
+        "title": "Klarna Docs",
+        "description": "The home of Klarna’s documentation.",
+        "headings": [
+          "Welcome to Klarna Docs",
+          "Maximize your sales",
+          "Developer Resources",
+          "Your Privacy",
+          "Manage Consent Preferences",
+          "Back Button Performance Cookies"
+        ],
+        "navLabels": [
+          "Documentation",
+          "API Resources",
+          "Partner Portal"
+        ],
+        "ctas": [
+          "Demo store",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "banner:Header",
+          "search",
+          "footer",
+          "dialog:ot-pc-title"
+        ]
+      },
+      {
+        "url": "https://www.klarna.com/us/pricing/?grs=%2Fpricing%2F&grr=empty",
+        "title": "404 - Klarna US",
+        "headings": [
+          "We can't find the page you are looking for"
+        ],
+        "navLabels": [
+          "Discover Klarna",
+          "Shop",
+          "App",
+          "Help",
+          "Show more",
+          "Sign in"
+        ],
+        "ctas": [
+          "Sign in",
+          "Contact",
+          "Contact for authorities",
+          "Log in",
+          "Buyer Protection Policy",
+          "Business log in"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "dialog"
+        ]
+      },
+      {
+        "url": "https://www.klarna.com/international/press/",
+        "title": "Klarna newsroom",
+        "description": "Klarna newsroom is home to news and announcements from Klarna. Find our press kit and how to get in touch with Klarna for media inquiries.",
+        "headings": [
+          "Klarna newsroom",
+          "Categories",
+          "Hot off the press",
+          "Follow us on X",
+          "About Klarna",
+          "Your Privacy",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Investor relations",
+          "Corporate governance",
+          "ESG",
+          "Sustainability",
+          "News",
+          "About us",
+          "Show more",
+          "Continue in app"
+        ],
+        "ctas": [
+          "Continue in app",
+          "Download press kit",
+          "Learn more",
+          "Klarna launches AI-powered Shopping Search app in ChatGPT",
+          "Klarna partners with EZContacts to bring flexible payments to vision care",
+          "Klarna partners with Coinbase to add stablecoin to funding mix",
+          "Klarna Announces Pricing of its Initial Public Offering",
+          "Laybuy returns, powered by Klarna",
+          "Klarna ‘Pay in 3’ launches for Zalando shoppers in five additional markets",
+          "Klarna and Xero bring ‘buy now, pay later’ to small businesses",
+          "Klarna partners with UATP to tap the $1 trillion air travel industry",
+          "Klarna acquires Laybuy in New Zealand",
+          "Klarna Plus soars to 100,000 subscribers in the US",
+          "Klarna and Reddit unveil the most popular ‘Buy It For Life’ items of 2023"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "dialog"
+        ]
+      },
+      {
+        "url": "https://www.klarna.com/about",
+        "title": "",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      }
+    ],
+    "navLabels": [
+      "Discover Klarna",
+      "Shop",
+      "App",
+      "Help",
+      "Show more",
+      "Sign in",
+      "Investor relations",
+      "Corporate governance",
+      "ESG",
+      "Sustainability",
+      "News",
+      "About us",
+      "Continue in app",
+      "Documentation",
+      "API Resources",
+      "Partner Portal"
+    ],
+    "ctas": [
+      "Sign in",
+      "Explore memberships",
+      "Learn more",
+      "Explore savings",
+      "Explore cashback",
+      "Sign up",
+      "Learn more about security",
+      "1% cashbackBooking.comFree shipping",
+      "https://www.klarna.com/us/buyer-protection/",
+      "Continue in app",
+      "Contact for authorities",
+      "Business log in",
+      "Filter Icon",
+      "Sign in to chat",
+      "Download the app",
+      "Contact",
+      "Log in",
+      "Buyer Protection Policy",
+      "Demo store",
+      "Download press kit",
+      "Klarna launches AI-powered Shopping Search app in ChatGPT",
+      "Klarna partners with EZContacts to bring flexible payments to vision care",
+      "Klarna partners with Coinbase to add stablecoin to funding mix",
+      "Klarna Announces Pricing of its Initial Public Offering"
+    ],
+    "headings": [
+      "Your money treated right",
+      "Trusted by millions worldwide",
+      "Your everyday money app",
+      "Explore our offering",
+      "Payments",
+      "Cards",
+      "Memberships",
+      "Klarna balance",
+      "Savings",
+      "Cashback",
+      "Shopping",
+      "Mobile",
+      "Say yes to more",
+      "Pick how you pay",
+      "Checkout",
+      "Klarna app",
+      "Klarna cards",
+      "Apple Pay",
+      "Shop with built-in security",
+      "Real reviews from real people",
+      "Klarna international",
+      "Klarna markets",
+      "PriceRunner",
+      "More from Klarna",
+      "Your Privacy",
+      "Manage Consent Preferences",
+      "Cookie List",
+      "Hej, we’re Klarna",
+      "Smarter shopping starts here",
+      "Our history"
+    ],
+    "techSignals": [
+      "Google Tag Manager",
+      "Contentful",
+      "Next.js",
+      "Webpack",
+      "Stripe",
+      "Segment",
+      "Shopify"
+    ],
+    "featureCandidates": [
+      "Your money treated right",
+      "Trusted by millions worldwide",
+      "Your everyday money app",
+      "Explore our offering",
+      "Payments",
+      "Cards",
+      "Memberships",
+      "Klarna balance",
+      "Savings",
+      "Cashback",
+      "Shopping",
+      "Mobile",
+      "Say yes to more",
+      "Pick how you pay",
+      "Checkout",
+      "Klarna app",
+      "Klarna cards",
+      "Apple Pay",
+      "Shop with built-in security",
+      "Real reviews from real people",
+      "Klarna international",
+      "Klarna markets",
+      "PriceRunner",
+      "More from Klarna"
+    ],
+    "patternCandidates": [
+      "Search",
+      "Pricing display",
+      "Carousels",
+      "Card layout",
+      "Messaging",
+      "Checkout",
+      "Authentication",
+      "Tabs"
+    ],
+    "platformsDetected": [
+      "web",
+      "api",
+      "ios"
+    ],
+    "summary": "Captured 22 screenshots across 9 public URLs. Nav signals: Discover Klarna, Shop, App, Help, Show more, Sign in. Tech signals: Google Tag Manager, Contentful, Next.js, Webpack, Stripe, Segment. UI patterns: Search, Pricing display, Carousels, Card layout, Messaging, Checkout."
+  }
+}

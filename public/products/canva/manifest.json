@@ -1,441 +1,207 @@
 {
   "slug": "canva",
-  "capturedAt": "2026-07-27T00:24:34.207Z",
+  "capturedAt": "2026-07-27T22:59:24.502Z",
   "shots": [
-    {
-      "file": "homepage.jpg",
-      "title": "Home",
-      "caption": "Canva public homepage (top of page)",
-      "kind": "homepage",
-      "sourceUrl": "https://www.canva.com/"
-    },
-    {
-      "file": "surface-2.jpg",
-      "title": "Brand kit (1)",
-      "caption": "Canva public surface · canva.dev",
-      "kind": "product",
-      "sourceUrl": "https://www.canva.dev/docs/apps/"
-    },
-    {
-      "file": "surface-2-mid.jpg",
-      "title": "Brand kit (2)",
-      "caption": "Canva public surface · canva.dev",
-      "kind": "product",
-      "sourceUrl": "https://www.canva.dev/docs/apps/"
-    },
-    {
-      "file": "surface-3.jpg",
-      "title": "Projects (1)",
-      "caption": "Canva public surface · canva.dev",
-      "kind": "docs",
-      "sourceUrl": "https://www.canva.dev/docs/connect/"
-    },
-    {
-      "file": "surface-3-mid.jpg",
-      "title": "Projects (2)",
-      "caption": "Canva public surface · canva.dev",
-      "kind": "docs",
-      "sourceUrl": "https://www.canva.dev/docs/connect/"
-    },
     {
       "file": "fallback-og-1.jpg",
       "title": "Marketing preview",
       "caption": "Open Graph image (fallback when live UI capture was thin)",
       "kind": "marketing",
-      "sourceUrl": "https://www.canva.com"
+      "sourceUrl": "https://www.canva.com",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 630,
+      "phash": "93b340c0a0809644",
+      "unique": true
     },
     {
       "file": "fallback-wayback-1.jpg",
       "title": "Archived Marketing preview",
-      "caption": "Wayback Machine snapshot 20260726145227 · https://www.canva.com",
+      "caption": "Wayback Machine snapshot 20260727150048 · https://www.canva.com",
       "kind": "marketing",
-      "sourceUrl": "http://web.archive.org/web/20260726145227/https://www.canva.com/"
+      "sourceUrl": "http://web.archive.org/web/20260727150048/https://www.canva.com/",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 630,
+      "phash": "11918088e068fe9c",
+      "unique": true
     },
     {
       "file": "fallback-wayback-2.jpg",
       "title": "An interface showing an &quot;Advanced animations&quot; menu being used to apply effects t",
-      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260726145227/https://www.canva.com/",
+      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260727150048/https://www.canva.com/",
       "kind": "docs",
-      "sourceUrl": "http://web.archive.org/web/20260726145227/https://www.canva.com/"
+      "sourceUrl": "http://web.archive.org/web/20260727150048/https://www.canva.com/",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 1866,
+      "height": 776,
+      "phash": "f2b6c7a786c6c614",
+      "unique": true
     },
     {
       "file": "fallback-wayback-3.jpg",
       "title": "Canva video editor timeline showing a video clip, layered text and effects tracks, and an ",
-      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260726145227/https://www.canva.com/",
+      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260727150048/https://www.canva.com/",
       "kind": "docs",
-      "sourceUrl": "http://web.archive.org/web/20260726145227/https://www.canva.com/"
+      "sourceUrl": "http://web.archive.org/web/20260727150048/https://www.canva.com/",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 1866,
+      "height": 776,
+      "phash": "1202078129292b06",
+      "unique": true
     },
     {
       "file": "fallback-wayback-4.jpg",
       "title": "A video editor interface showing collaborative cursors adding a caption that reads &quot;A",
-      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260726145227/https://www.canva.com/",
+      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260727150048/https://www.canva.com/",
       "kind": "docs",
-      "sourceUrl": "http://web.archive.org/web/20260726145227/https://www.canva.com/"
+      "sourceUrl": "http://web.archive.org/web/20260727150048/https://www.canva.com/",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 1866,
+      "height": 776,
+      "phash": "1a39252747434343",
+      "unique": true
     },
     {
       "file": "fallback-yt-tCIiWdnH738-poster.jpg",
       "title": "YouTube poster (tCIiWdnH738)",
       "caption": "YouTube poster · https://www.youtube.com/watch?v=tCIiWdnH738",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738"
+      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 1280,
+      "height": 720,
+      "phash": "2f2c4e8fffbdbffd",
+      "unique": true
     },
     {
       "file": "fallback-yt-tCIiWdnH738-frame-0.jpg",
       "title": "YouTube frame still (tCIiWdnH738)",
       "caption": "YouTube frame-0 · https://www.youtube.com/watch?v=tCIiWdnH738",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738"
+      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 480,
+      "height": 360,
+      "phash": "432d2c8fbdbdfde9",
+      "unique": true
     },
     {
       "file": "fallback-yt-tCIiWdnH738-frame-1.jpg",
       "title": "YouTube frame still (tCIiWdnH738)",
       "caption": "YouTube frame-1 · https://www.youtube.com/watch?v=tCIiWdnH738",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738"
+      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "1c90c8cac89e9677",
+      "unique": true
     },
     {
       "file": "fallback-yt-tCIiWdnH738-frame-2.jpg",
       "title": "YouTube frame still (tCIiWdnH738)",
       "caption": "YouTube frame-2 · https://www.youtube.com/watch?v=tCIiWdnH738",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738"
-    },
-    {
-      "file": "fallback-yt-tCIiWdnH738-frame-3.jpg",
-      "title": "YouTube frame still (tCIiWdnH738)",
-      "caption": "YouTube frame-3 · https://www.youtube.com/watch?v=tCIiWdnH738",
-      "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738"
+      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "6767a7a7a7e7c69e",
+      "unique": true
     },
     {
       "file": "fallback-yt-tUkCiqHgvm0-poster.jpg",
       "title": "YouTube poster (tUkCiqHgvm0)",
       "caption": "YouTube poster · https://www.youtube.com/watch?v=tUkCiqHgvm0",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tUkCiqHgvm0"
+      "sourceUrl": "https://www.youtube.com/watch?v=tUkCiqHgvm0",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 1280,
+      "height": 720,
+      "phash": "90b5b7b3b3b5b3b0",
+      "unique": true
     },
     {
       "file": "fallback-yt-tUkCiqHgvm0-frame-0.jpg",
       "title": "YouTube frame still (tUkCiqHgvm0)",
       "caption": "YouTube frame-0 · https://www.youtube.com/watch?v=tUkCiqHgvm0",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tUkCiqHgvm0"
+      "sourceUrl": "https://www.youtube.com/watch?v=tUkCiqHgvm0",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 480,
+      "height": 360,
+      "phash": "4890b5b3b7b1b240",
+      "unique": true
     },
     {
       "file": "fallback-yt-tUkCiqHgvm0-frame-1.jpg",
       "title": "YouTube frame still (tUkCiqHgvm0)",
       "caption": "YouTube frame-1 · https://www.youtube.com/watch?v=tUkCiqHgvm0",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tUkCiqHgvm0"
+      "sourceUrl": "https://www.youtube.com/watch?v=tUkCiqHgvm0",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "94969696b216171b",
+      "unique": true
     },
     {
       "file": "fallback-yt-tUkCiqHgvm0-frame-2.jpg",
       "title": "YouTube frame still (tUkCiqHgvm0)",
       "caption": "YouTube frame-2 · https://www.youtube.com/watch?v=tUkCiqHgvm0",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tUkCiqHgvm0"
+      "sourceUrl": "https://www.youtube.com/watch?v=tUkCiqHgvm0",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "2739193bdb9313c3",
+      "unique": true
     },
     {
       "file": "fallback-yt-tUkCiqHgvm0-frame-3.jpg",
       "title": "YouTube frame still (tUkCiqHgvm0)",
       "caption": "YouTube frame-3 · https://www.youtube.com/watch?v=tUkCiqHgvm0",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tUkCiqHgvm0"
+      "sourceUrl": "https://www.youtube.com/watch?v=tUkCiqHgvm0",
+      "capturedAt": "2026-07-27T22:59:10.333Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "0d2d2d54b4b43c3c",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T00:24:34.207Z",
-    "screenshotCount": 20,
-    "pageCount": 3,
-    "pages": [
-      {
-        "url": "https://www.canva.com/",
-        "title": "Canva: Visual Suite for Everyone",
-        "description": "Canva is a free-to-use online graphic design tool. Use it to create social media posts, presentations, posters, videos, logos and more.",
-        "headings": [
-          "Digital design",
-          "Print design",
-          "Images and photos",
-          "Videos and audio",
-          "Product",
-          "Canva AI",
-          "All Canva AI",
-          "Plans",
-          "Canva for business",
-          "Business plans",
-          "All Canva for business",
-          "Solutions",
-          "All solutions",
-          "Features"
-        ],
-        "navLabels": [
-          "Sheets",
-          "Docs",
-          "Whiteboards",
-          "Presentations",
-          "Social",
-          "Photo Editor",
-          "Videos",
-          "Print",
-          "Websites",
-          "PDF Editor",
-          "Business cards",
-          "Invitations",
-          "Flyers",
-          "Brochures",
-          "T-shirts",
-          "Mugs",
-          "Stickers",
-          "Hoodies",
-          "Labels",
-          "Posters",
-          "Background remover",
-          "Photo collages",
-          "Mockups",
-          "Image enhancer"
-        ],
-        "ctas": [
-          "Compare pricing",
-          "Contact Sales",
-          "Demo video",
-          "Contact us",
-          "Contact Campus Sales",
-          "All create guides",
-          "Sign up",
-          "Log in",
-          "Start designing",
-          "Explore Canva AI(opens in a new tab or window)",
-          "Explore Magic Eraser(opens in a new tab or window)",
-          "Explore Magic Write(opens in a new tab or window)",
-          "Explore Magic Layers(opens in a new tab or window)",
-          "Explore Presentations(opens in a new tab or window)",
-          "Explore templates(opens in a new tab or window)",
-          "Explore Brand Kit(opens in a new tab or window)",
-          "Explore animations(opens in a new tab or window)",
-          "Explore the collection(opens in a new tab or window)",
-          "Explore Background Remover(opens in a new tab or window)",
-          "Explore Image Upscaler(opens in a new tab or window)"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.canva.dev/docs/apps/",
-        "title": "Apps SDK documentation - Canva Apps SDK Documentation",
-        "description": "How to develop apps with the Apps SDK.",
-        "headings": [
-          "Apps SDK documentation",
-          "First steps",
-          "What can apps do?",
-          "Why create apps?",
-          "Developer community"
-        ],
-        "navLabels": [
-          "Home",
-          "Documentation",
-          "Solutions",
-          "Blogs",
-          "Your apps",
-          "Your integrations",
-          "First steps",
-          "What can apps do?",
-          "Why create apps?",
-          "Developer community"
-        ],
-        "ctas": [
-          "Quickstart",
-          "Setting up the starter kit",
-          "starter kit⁠(opens in a new tab or window)",
-          "create a support ticket⁠(opens in a new tab or window)",
-          "Why create apps?"
-        ],
-        "landmarks": [
-          "header",
-          "main",
-          "nav:On this page",
-          "dialog:AI Assistant",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.canva.dev/docs/connect/",
-        "title": "Canva Connect APIs - Canva Connect APIs Documentation",
-        "description": "How to integrate into Canva using our REST API.",
-        "headings": [
-          "Canva Connect APIs",
-          "Public vs. private integrations",
-          "First steps",
-          "Connect APIs Starter Kit",
-          "OpenAPI description",
-          "Preview APIs",
-          "Want to add features to Canva?"
-        ],
-        "navLabels": [
-          "Home",
-          "Documentation",
-          "Solutions",
-          "Blogs",
-          "Your apps",
-          "Your integrations",
-          "Public vs. private integrations",
-          "First steps",
-          "Connect APIs Starter Kit",
-          "OpenAPI description",
-          "Preview APIs",
-          "Want to add features to Canva?"
-        ],
-        "ctas": [
-          "Quickstart",
-          "Create a new integration",
-          "Starter Kit repository⁠(opens in a new tab or window)",
-          "Connect APIs Starter Kit",
-          "Want to add features to Canva?"
-        ],
-        "landmarks": [
-          "header",
-          "main",
-          "nav:On this page",
-          "dialog:AI Assistant",
-          "footer"
-        ]
-      }
-    ],
-    "navLabels": [
-      "Sheets",
-      "Docs",
-      "Whiteboards",
-      "Presentations",
-      "Social",
-      "Photo Editor",
-      "Videos",
-      "Print",
-      "Websites",
-      "PDF Editor",
-      "Business cards",
-      "Invitations",
-      "Flyers",
-      "Brochures",
-      "T-shirts",
-      "Mugs",
-      "Stickers",
-      "Hoodies",
-      "Labels",
-      "Posters",
-      "Background remover",
-      "Photo collages",
-      "Mockups",
-      "Image enhancer",
-      "Home",
-      "Documentation",
-      "Solutions",
-      "Blogs",
-      "Your apps",
-      "Your integrations"
-    ],
-    "ctas": [
-      "Compare pricing",
-      "Contact Sales",
-      "Demo video",
-      "Contact us",
-      "Contact Campus Sales",
-      "All create guides",
-      "Sign up",
-      "Log in",
-      "Start designing",
-      "Explore Canva AI(opens in a new tab or window)",
-      "Explore Magic Eraser(opens in a new tab or window)",
-      "Explore Magic Write(opens in a new tab or window)",
-      "Explore Magic Layers(opens in a new tab or window)",
-      "Explore Presentations(opens in a new tab or window)",
-      "Explore templates(opens in a new tab or window)",
-      "Explore Brand Kit(opens in a new tab or window)",
-      "Explore animations(opens in a new tab or window)",
-      "Explore the collection(opens in a new tab or window)",
-      "Explore Background Remover(opens in a new tab or window)",
-      "Explore Image Upscaler(opens in a new tab or window)",
-      "Quickstart",
-      "Setting up the starter kit",
-      "starter kit⁠(opens in a new tab or window)",
-      "create a support ticket⁠(opens in a new tab or window)"
-    ],
-    "headings": [
-      "Digital design",
-      "Print design",
-      "Images and photos",
-      "Videos and audio",
-      "Product",
-      "Canva AI",
-      "All Canva AI",
-      "Plans",
-      "Canva for business",
-      "Business plans",
-      "All Canva for business",
-      "Solutions",
-      "All solutions",
-      "Features",
-      "Apps SDK documentation",
-      "First steps",
-      "What can apps do?",
-      "Why create apps?",
-      "Developer community",
-      "Canva Connect APIs",
-      "Public vs. private integrations",
-      "Connect APIs Starter Kit",
-      "OpenAPI description",
-      "Preview APIs",
-      "Want to add features to Canva?"
-    ],
-    "techSignals": [
-      "Next.js",
-      "Google Tag Manager",
-      "Sentry",
-      "Cloudflare",
-      "Webpack"
-    ],
-    "featureCandidates": [
-      "Digital design",
-      "Print design",
-      "Images and photos",
-      "Videos and audio",
-      "Product",
-      "Canva AI",
-      "All Canva AI",
-      "Plans",
-      "Canva for business",
-      "Business plans",
-      "All Canva for business",
-      "Solutions",
-      "All solutions",
-      "Features",
-      "Apps SDK documentation",
-      "First steps",
-      "What can apps do?",
-      "Why create apps?",
-      "Developer community",
-      "Canva Connect APIs",
-      "Public vs. private integrations",
-      "Connect APIs Starter Kit",
-      "OpenAPI description",
-      "Preview APIs"
-    ],
-    "patternCandidates": [
-      "Pricing display",
-      "Map view",
-      "Tabs",
-      "Authentication",
-      "Search"
-    ],
+    "capturedAt": "2026-07-27T22:59:24.502Z",
+    "screenshotCount": 14,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
     "platformsDetected": [
-      "web",
-      "api"
+      "web"
     ],
-    "summary": "Captured 20 screenshots across 3 public URLs. Nav signals: Sheets, Docs, Whiteboards, Presentations, Social, Photo Editor. Tech signals: Next.js, Google Tag Manager, Sentry, Cloudflare, Webpack. UI patterns: Pricing display, Map view, Tabs, Authentication, Search."
+    "summary": "Captured 14 screenshots across 0 public URLs."
   },
   "fallback": {
-    "blockedNavigations": 7
+    "blockedNavigations": 0
   }
 }

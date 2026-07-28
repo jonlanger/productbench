@@ -1,0 +1,266 @@
+{
+  "capturedAt": "2026-07-27T19:04:05.240Z",
+  "screenshotCount": 20,
+  "pageCount": 4,
+  "pages": [
+    {
+      "url": "https://www.ibm.com/products/datastax",
+      "title": "IBM DataStax",
+      "description": "Deepening watsonx capabilities to address enterprise gen AI data needs with DataStax.",
+      "headings": [
+        "DataStax, an IBM company",
+        "Manage data for AI at scale",
+        "Key Technologies",
+        "How we accelerate value together",
+        "Impact",
+        "Resources"
+      ],
+      "navLabels": [
+        "Home",
+        "Products"
+      ],
+      "ctas": [
+        "Learn more",
+        "Log into Astra DB",
+        "Start your free trial",
+        "Start building on Langflow",
+        "Contact the Support team",
+        "View pricing"
+      ],
+      "landmarks": [
+        "navigation:Skip to content",
+        "navigation:Breadcrumb",
+        "contentinfo:footer",
+        "navigation:Footer navigation",
+        "banner:consent_blackbar",
+        "dialog"
+      ]
+    },
+    {
+      "url": "https://www.datastax.com/api",
+      "title": "500: Internal Server Error",
+      "headings": [
+        "500",
+        "Internal Server Error."
+      ],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": []
+    },
+    {
+      "url": "https://docs.datastax.com/en/home/index.html",
+      "title": "DataStax Docs | DataStax Docs",
+      "headings": [
+        "DataStax Docs",
+        "Astra DB Serverless",
+        "Popular Products",
+        "Latest Additions",
+        "Work with AI"
+      ],
+      "navLabels": [
+        "Search⌘K",
+        "home Docs Home",
+        "Astra expand_more",
+        "Astra DB Serverless",
+        "Astra Streaming",
+        "Astra CLI",
+        "Langflow expand_more",
+        "Langflow Open Source open_in_new",
+        "HCD expand_more",
+        "HCD 2.0",
+        "HCD 1.2",
+        "HCD 1.1",
+        "DSE expand_more",
+        "DSE 6.9",
+        "DSE 6.8",
+        "DSE 5.1",
+        "DSE capacity planning guide",
+        "OpsCenter 6.8",
+        "Third-party software",
+        "Supported platforms",
+        "Product compatibility",
+        "Open Source expand_more",
+        "Apache Cassandra open_in_new",
+        "Apache Cassandra capacity planning guide"
+      ],
+      "ctas": [
+        "Search⌘K",
+        "Get Started",
+        "Sign up for Astra DB",
+        "Downloads Install files and drivers",
+        "Contact IBM"
+      ],
+      "landmarks": [
+        "nav",
+        "main",
+        "footer",
+        "banner:consent_blackbar"
+      ]
+    },
+    {
+      "url": "https://www.ibm.com/products/watsonx-data/pricing",
+      "title": "IBM watsonx.data Pricing",
+      "description": "IBM watsonx.data pricing. ",
+      "headings": [
+        "watsonx.data pricing",
+        "Estimated Monthly Price For Your Solution",
+        "Contact Sales",
+        "Request a quote",
+        "Ways to buy",
+        "Buy from IBM",
+        "Only pay for what you use",
+        "Find the right fit with flexible deployment options",
+        "FAQ",
+        "Can I deploy watsonx.data across different environments?",
+        "What pricing options are available?",
+        "Where can I purchase it?",
+        "Chat window"
+      ],
+      "navLabels": [
+        "Home",
+        "Products",
+        "watsonx.data"
+      ],
+      "ctas": [
+        "Start your free trial",
+        "See the pricing",
+        "Build your own solutionUsage-based pricing",
+        "Buy now",
+        "Buy on IBM Cloud",
+        "Buy on AWS",
+        "Contact sales",
+        "What pricing options are available?"
+      ],
+      "landmarks": [
+        "navigation:Skip to content",
+        "navigation:Breadcrumb",
+        "dialog",
+        "contentinfo:footer",
+        "navigation:Footer navigation",
+        "banner:consent_blackbar"
+      ]
+    }
+  ],
+  "navLabels": [
+    "Home",
+    "Products",
+    "Search⌘K",
+    "home Docs Home",
+    "Astra expand_more",
+    "Astra DB Serverless",
+    "Astra Streaming",
+    "Astra CLI",
+    "Langflow expand_more",
+    "Langflow Open Source open_in_new",
+    "HCD expand_more",
+    "HCD 2.0",
+    "HCD 1.2",
+    "HCD 1.1",
+    "DSE expand_more",
+    "DSE 6.9",
+    "DSE 6.8",
+    "DSE 5.1",
+    "DSE capacity planning guide",
+    "OpsCenter 6.8",
+    "Third-party software",
+    "Supported platforms",
+    "Product compatibility",
+    "Open Source expand_more",
+    "Apache Cassandra open_in_new",
+    "Apache Cassandra capacity planning guide",
+    "watsonx.data"
+  ],
+  "ctas": [
+    "Learn more",
+    "Log into Astra DB",
+    "Start your free trial",
+    "Start building on Langflow",
+    "Contact the Support team",
+    "View pricing",
+    "Search⌘K",
+    "Get Started",
+    "Sign up for Astra DB",
+    "Downloads Install files and drivers",
+    "Contact IBM",
+    "See the pricing",
+    "Build your own solutionUsage-based pricing",
+    "Buy now",
+    "Buy on IBM Cloud",
+    "Buy on AWS",
+    "Contact sales",
+    "What pricing options are available?"
+  ],
+  "headings": [
+    "DataStax, an IBM company",
+    "Manage data for AI at scale",
+    "Key Technologies",
+    "How we accelerate value together",
+    "Impact",
+    "Resources",
+    "500",
+    "Internal Server Error.",
+    "DataStax Docs",
+    "Astra DB Serverless",
+    "Popular Products",
+    "Latest Additions",
+    "Work with AI",
+    "watsonx.data pricing",
+    "Estimated Monthly Price For Your Solution",
+    "Contact Sales",
+    "Request a quote",
+    "Ways to buy",
+    "Buy from IBM",
+    "Only pay for what you use",
+    "Find the right fit with flexible deployment options",
+    "FAQ",
+    "Can I deploy watsonx.data across different environments?",
+    "What pricing options are available?",
+    "Where can I purchase it?",
+    "Chat window"
+  ],
+  "techSignals": [
+    "Next.js",
+    "Google Tag Manager",
+    "Webpack",
+    "React"
+  ],
+  "featureCandidates": [
+    "DataStax, an IBM company",
+    "Manage data for AI at scale",
+    "Key Technologies",
+    "How we accelerate value together",
+    "Impact",
+    "Resources",
+    "Internal Server Error.",
+    "DataStax Docs",
+    "Astra DB Serverless",
+    "Popular Products",
+    "Latest Additions",
+    "Work with AI",
+    "watsonx.data pricing",
+    "Estimated Monthly Price For Your Solution",
+    "Contact Sales",
+    "Request a quote",
+    "Ways to buy",
+    "Buy from IBM",
+    "Only pay for what you use",
+    "What pricing options are available?",
+    "Where can I purchase it?",
+    "Chat window",
+    "Learn more",
+    "Start your free trial"
+  ],
+  "patternCandidates": [
+    "Modal dialogs",
+    "Search",
+    "Pricing display",
+    "Tabs",
+    "Authentication",
+    "Card layout"
+  ],
+  "platformsDetected": [
+    "web",
+    "api"
+  ],
+  "summary": "Captured 20 screenshots across 4 public URLs. Nav signals: Home, Products, Search⌘K, home Docs Home, Astra expand_more, Astra DB Serverless. Tech signals: Next.js, Google Tag Manager, Webpack, React. UI patterns: Modal dialogs, Search, Pricing display, Tabs, Authentication, Card layout."
+}

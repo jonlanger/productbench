@@ -1,173 +1,522 @@
 {
   "slug": "tiktok",
-  "capturedAt": "2026-07-27T13:34:26.729Z",
+  "capturedAt": "2026-07-27T21:48:29.557Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "TikTok public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://www.tiktok.com/"
-    },
-    {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth",
-      "caption": "TikTok homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.tiktok.com/"
+      "sourceUrl": "https://www.tiktok.com/",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "TikTok - Make Your Day",
+      "width": 1440,
+      "height": 900,
+      "phash": "9e969e96d69e868f",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "TikTok homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://www.tiktok.com/"
+      "sourceUrl": "https://www.tiktok.com/",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "TikTok - Make Your Day",
+      "width": 390,
+      "height": 844,
+      "phash": "dc3f3c0f06262f0a",
+      "unique": true
     },
     {
       "file": "card-1.jpg",
       "title": "UI cards",
       "caption": "Card / tile crops from TikTok",
       "kind": "component",
-      "sourceUrl": "https://www.tiktok.com/"
+      "sourceUrl": "https://www.tiktok.com/",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "TikTok - Make Your Day",
+      "width": 490,
+      "height": 868,
+      "phash": "4e4d84850d0b8888",
+      "unique": true
     },
     {
       "file": "search-composer.jpg",
       "title": "Search / composer",
       "caption": "Focused search or primary input on TikTok",
       "kind": "component",
-      "sourceUrl": "https://www.tiktok.com/"
+      "sourceUrl": "https://www.tiktok.com/",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "search-composer",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "TikTok - Make Your Day",
+      "width": 1440,
+      "height": 900,
+      "phash": "969e969e8e8e1e0e",
+      "unique": true
     },
     {
       "file": "account-menu.jpg",
       "title": "Account / nav menu",
       "caption": "Expanded account or primary navigation menu on TikTok",
       "kind": "component",
-      "sourceUrl": "https://www.tiktok.com/"
+      "sourceUrl": "https://www.tiktok.com/",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "account-menu",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log in | TikTok",
+      "width": 1440,
+      "height": 900,
+      "phash": "84b2b2f2f2f2b29e",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on TikTok (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://www.tiktok.com/"
+      "sourceUrl": "https://www.tiktok.com/",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log in | TikTok",
+      "width": 428,
+      "height": 562,
+      "phash": "96174d17070f2386",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav",
       "caption": "Same-origin product / pricing / docs links from TikTok",
       "kind": "product",
-      "sourceUrl": "https://www.tiktok.com/explore"
+      "sourceUrl": "https://www.tiktok.com/explore",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Explore - Find your favourite videos on TikTok",
+      "width": 1440,
+      "height": 900,
+      "phash": "32332816132b1909",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
-      "title": "Dashboard",
-      "caption": "TikTok public surface · tiktok.com",
+      "title": "Dashboard (1)",
+      "caption": "TikTok public surface · support.tiktok.com",
       "kind": "product",
-      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/pricing"
+      "sourceUrl": "https://www.tiktok.com/support",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "TikTok Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "d81a3267644a4b4b",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
-      "title": "Settings",
-      "caption": "TikTok public surface · tiktok.com",
+      "title": "Settings (1)",
+      "caption": "TikTok public surface · developers.tiktok.com",
       "kind": "product",
-      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/product"
+      "sourceUrl": "https://developers.tiktok.com/doc/",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "TikTok for Developers",
+      "width": 1440,
+      "height": 900,
+      "phash": "a300010060809551",
+      "unique": true
+    },
+    {
+      "file": "surface-2-lower.jpg",
+      "title": "Settings (3)",
+      "caption": "TikTok public surface · developers.tiktok.com",
+      "kind": "product",
+      "sourceUrl": "https://developers.tiktok.com/doc/",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "TikTok for Developers",
+      "width": 1440,
+      "height": 900,
+      "phash": "a30061809060b585",
+      "unique": true
     },
     {
       "file": "surface-3.jpg",
-      "title": "Search",
-      "caption": "TikTok public surface · tiktok.com",
+      "title": "Search (1)",
+      "caption": "TikTok public surface · ads.tiktok.com",
       "kind": "docs",
-      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/products"
+      "sourceUrl": "https://ads.tiktok.com/help/",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Business Help Center",
+      "width": 1440,
+      "height": 900,
+      "phash": "124dcc61c12d4b5a",
+      "unique": true
     },
     {
       "file": "surface-4.jpg",
-      "title": "Profile",
+      "title": "Profile (1)",
       "caption": "TikTok public surface · tiktok.com",
       "kind": "docs",
-      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/features"
+      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/pricing",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "TikTok",
+      "width": 1440,
+      "height": 900,
+      "phash": "cc1296964c0c10f4",
+      "unique": true
     },
     {
-      "file": "surface-5.jpg",
-      "title": "Supporting surface 5",
+      "file": "surface-4-lower.jpg",
+      "title": "Profile (3)",
       "caption": "TikTok public surface · tiktok.com",
       "kind": "docs",
-      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/platform"
-    },
-    {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6",
-      "caption": "TikTok public surface · tiktok.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/solutions"
-    },
-    {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7",
-      "caption": "TikTok public surface · tiktok.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/customers"
-    },
-    {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8",
-      "caption": "TikTok public surface · tiktok.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/docs"
-    },
-    {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9",
-      "caption": "TikTok public surface · tiktok.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.tiktok.com/help"
-    },
-    {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10",
-      "caption": "TikTok public surface · tiktok.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/blog"
-    },
-    {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
-      "caption": "TikTok public surface · tiktok.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.tiktok.com/about?lang=en"
-    },
-    {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
-      "caption": "TikTok public surface · tiktok.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.tiktok.com/about?lang=en"
+      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/pricing",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "TikTok",
+      "width": 1440,
+      "height": 900,
+      "phash": "cc0c706492525c82",
+      "unique": true
     },
     {
       "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
+      "title": "Supporting surface 5 (1)",
       "caption": "TikTok public surface · tiktok.com",
       "kind": "docs",
-      "sourceUrl": "https://www.tiktok.com/login"
-    },
-    {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13",
-      "caption": "TikTok public surface · tiktok.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/signin"
+      "sourceUrl": "https://www.tiktok.com/help",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "",
+      "width": 1440,
+      "height": 900,
+      "phash": "0000000000000000",
+      "unique": true
     },
     {
       "file": "surface-14.jpg",
-      "title": "Supporting surface 14",
+      "title": "Supporting surface 14 (1)",
       "caption": "TikTok public surface · tiktok.com",
       "kind": "docs",
-      "sourceUrl": "https://www.tiktok.com/404?fromUrl=/sign-in"
+      "sourceUrl": "https://www.tiktok.com/about?lang=en",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About | TikTok",
+      "width": 1440,
+      "height": 900,
+      "phash": "c588716165710003",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-2.jpg",
+      "title": "Supporting surface 14 (3)",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/about?lang=en",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About | TikTok",
+      "width": 1440,
+      "height": 900,
+      "phash": "dc82220a2b330220",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-3.jpg",
+      "title": "Supporting surface 14 (4)",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/about?lang=en",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About | TikTok",
+      "width": 1440,
+      "height": 900,
+      "phash": "d42d29696caccd00",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-4.jpg",
+      "title": "Supporting surface 14 (5)",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/about?lang=en",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About | TikTok",
+      "width": 1440,
+      "height": 900,
+      "phash": "3b3b9a969aa62727",
+      "unique": true
+    },
+    {
+      "file": "surface-14-lower.jpg",
+      "title": "Supporting surface 14 (6)",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/about?lang=en",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About | TikTok",
+      "width": 1440,
+      "height": 900,
+      "phash": "0094c5051708d4d6",
+      "unique": true
+    },
+    {
+      "file": "surface-15.jpg",
+      "title": "Supporting surface 15 (1)",
+      "caption": "TikTok public surface · tiktok.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.tiktok.com/login",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log in | TikTok",
+      "width": 1440,
+      "height": 900,
+      "phash": "8c0c8c0c0c0c008e",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-835599320-1.jpg",
+      "title": "TikTok - Videos, Shop & LIVE screenshot 1",
+      "caption": "Apple App Store public screenshot (id 835599320)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id835599320",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "331061dd7825c2f0",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-835599320-2.jpg",
+      "title": "TikTok - Videos, Shop & LIVE screenshot 2",
+      "caption": "Apple App Store public screenshot (id 835599320)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id835599320",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "372f3f3f331b3b33",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-835599320-3.jpg",
+      "title": "TikTok - Videos, Shop & LIVE screenshot 3",
+      "caption": "Apple App Store public screenshot (id 835599320)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id835599320",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "072b2b2b333f2333",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-835599320-4.jpg",
+      "title": "TikTok - Videos, Shop & LIVE screenshot 4",
+      "caption": "Apple App Store public screenshot (id 835599320)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id835599320",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "16271b130f0f2333",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-835599320-5.jpg",
+      "title": "TikTok - Videos, Shop & LIVE screenshot 5",
+      "caption": "Apple App Store public screenshot (id 835599320)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id835599320",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "3b23231f0f0d2f33",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-835599320-7.jpg",
+      "title": "TikTok - Videos, Shop & LIVE screenshot 7",
+      "caption": "Apple App Store public screenshot (id 835599320)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id835599320",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "2b2733232b331733",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-835599320-8.jpg",
+      "title": "TikTok - Videos, Shop & LIVE screenshot 8",
+      "caption": "Apple App Store public screenshot (id 835599320)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id835599320",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "9c96332333072b23",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-835599320-9.jpg",
+      "title": "TikTok - Videos, Shop & LIVE screenshot 9",
+      "caption": "Apple App Store public screenshot (id 835599320)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id835599320",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "949ee1c5f1f1f100",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-835599320-10.jpg",
+      "title": "TikTok - Videos, Shop & LIVE screenshot 10",
+      "caption": "Apple App Store public screenshot (id 835599320)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id835599320",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "0c960b3b3b0f0f2b",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-835599320-11.jpg",
+      "title": "TikTok - Videos, Shop & LIVE screenshot 11",
+      "caption": "Apple App Store public screenshot (id 835599320)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id835599320",
+      "capturedAt": "2026-07-27T21:46:58.846Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "04960b030b0f250f",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T13:34:26.729Z",
-    "screenshotCount": 23,
-    "pageCount": 6,
+    "capturedAt": "2026-07-27T21:48:29.557Z",
+    "screenshotCount": 30,
+    "pageCount": 9,
     "pages": [
       {
         "url": "https://www.tiktok.com/",
@@ -220,6 +569,104 @@
         "landmarks": []
       },
       {
+        "url": "https://www.tiktok.com/support",
+        "title": "TikTok Support",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Log in"
+        ],
+        "landmarks": [
+          "main"
+        ]
+      },
+      {
+        "url": "https://developers.tiktok.com/doc/",
+        "title": "TikTok for Developers",
+        "description": "Build awesome experiences and powerful tools that inspire creativity and allow users to create, connect, and share with the world.",
+        "headings": [],
+        "navLabels": [
+          "Products",
+          "Docs",
+          "Support",
+          "Blog",
+          "Get started",
+          "Share Kit",
+          "Login Kit",
+          "Content Posting API",
+          "Research API",
+          "Display API",
+          "Embed Videos",
+          "Data Portability API",
+          "Green Screen Kit",
+          "Commercial Content API",
+          "TikTok Embeds",
+          "TikTok for Business",
+          "Advertise on TikTok",
+          "TikTok Creative Center",
+          "TikTok.com",
+          "About TikTok",
+          "Newsroom",
+          "Contact",
+          "Careers",
+          "ByteDance"
+        ],
+        "ctas": [
+          "Get started",
+          "Research API",
+          "Contact"
+        ],
+        "landmarks": [
+          "nav",
+          "main",
+          "footer",
+          "dialog:Chat support window",
+          "header"
+        ]
+      },
+      {
+        "url": "https://ads.tiktok.com/help/",
+        "title": "Business Help Center",
+        "headings": [
+          "How can we help you?",
+          "What's new",
+          "Upgraded Smart+ for SMBs: Automation on Your Terms",
+          "New to Smart+: Campaign Optimization for Paid and Organic Traffic",
+          "Reach high-intent players with TikTok Growth Max: Mini Games",
+          "Help Center Guide",
+          "Getting started",
+          "Ad creation",
+          "Ad formats",
+          "Ad objectives",
+          "Ad optimization",
+          "Measurement",
+          "Payment and billing",
+          "Policies and security",
+          "Sell on TikTok Shop",
+          "Advertise your TikTok Shop",
+          "Collaborate with creators",
+          "Creators",
+          "Creative Partners",
+          "Popular Articles"
+        ],
+        "navLabels": [
+          "Business Help Center",
+          "Home",
+          "What's new",
+          "Create an Ad"
+        ],
+        "ctas": [
+          "Create an Ad",
+          "Sign up",
+          "how to create a lead generation campaign with your own website",
+          "Industry Best Practices"
+        ],
+        "landmarks": [
+          "header",
+          "footer"
+        ]
+      },
+      {
         "url": "https://www.tiktok.com/404?fromUrl=/pricing",
         "title": "TikTok",
         "headings": [],
@@ -245,13 +692,13 @@
         "title": "About | TikTok",
         "description": "TikTok is the world's leading destination for short-form mobile videos. Our mission is to capture and present the world's creativity, knowledge, and moments that matter in everyday life. TikTok empowers everyone to be a creator directly from their smartphones, and is committed to building a community by encouraging users to share their passion and creative expression through their videos.",
         "headings": [
+          "Our mission is to inspire creativity and bring joy.",
           "For you, by you",
           "An experience tailored to what you love.",
           "Endless Discovery",
           "Find trends, talents, and topics that inspire you.",
           "Community-Driven",
           "Creativity, collaboration, and connection.",
-          "TikTok opens up a world of opportunities.",
           "#BookTok",
           "#LearnOnTikTok",
           "#GamingOnTikTok",
@@ -312,37 +759,51 @@
       }
     ],
     "navLabels": [
-      "About",
+      "Products",
+      "Docs",
+      "Support",
+      "Blog",
+      "Get started",
+      "Share Kit",
+      "Login Kit",
+      "Content Posting API",
+      "Research API",
+      "Display API",
+      "Embed Videos",
+      "Data Portability API",
+      "Green Screen Kit",
+      "Commercial Content API",
+      "TikTok Embeds",
+      "TikTok for Business",
+      "Advertise on TikTok",
+      "TikTok Creative Center",
+      "TikTok.com",
+      "About TikTok",
       "Newsroom",
-      "Careers",
       "Contact",
-      "Watch TikTok",
-      "English (US)",
-      "Store",
+      "Careers",
       "ByteDance",
-      "TikTok For Good",
-      "TikTok For Developers",
-      "Effect House",
-      "Advertise",
-      "Browse",
-      "Embed",
-      "Rewards",
-      "Scaled LIVE Rewards",
-      "Help Center",
-      "Safety Center",
-      "Privacy Center",
-      "Creator Academy",
-      "Community Guidelines"
+      "Business Help Center",
+      "Home",
+      "What's new",
+      "Create an Ad",
+      "About",
+      "Watch TikTok"
     ],
     "ctas": [
       "Log in",
       "Search",
       "Explore",
       "cassiesbooktok",
+      "Get started",
+      "Research API",
       "Contact",
+      "Create an Ad",
+      "Sign up",
+      "how to create a lead generation campaign with your own website",
+      "Industry Best Practices",
       "Create real change",
-      "Join the academy",
-      "Sign up"
+      "Join the academy"
     ],
     "headings": [
       "For You",
@@ -354,26 +815,31 @@
       "Company",
       "Program",
       "Terms & Policies",
-      "For you, by you",
-      "An experience tailored to what you love.",
-      "Endless Discovery",
-      "Find trends, talents, and topics that inspire you.",
-      "Community-Driven",
-      "Creativity, collaboration, and connection.",
-      "TikTok opens up a world of opportunities.",
-      "#BookTok",
-      "#LearnOnTikTok",
-      "#GamingOnTikTok",
-      "#FoodTok",
-      "#SportsOnTikTok",
-      "TikTok for Good",
-      "TikTok Creator Academy",
-      "Newsroom",
-      "Discover your next chapter with us",
-      "Log in to TikTok"
+      "How can we help you?",
+      "What's new",
+      "Upgraded Smart+ for SMBs: Automation on Your Terms",
+      "New to Smart+: Campaign Optimization for Paid and Organic Traffic",
+      "Reach high-intent players with TikTok Growth Max: Mini Games",
+      "Help Center Guide",
+      "Getting started",
+      "Ad creation",
+      "Ad formats",
+      "Ad objectives",
+      "Ad optimization",
+      "Measurement",
+      "Payment and billing",
+      "Policies and security",
+      "Sell on TikTok Shop",
+      "Advertise your TikTok Shop",
+      "Collaborate with creators",
+      "Creators",
+      "Creative Partners",
+      "Popular Articles",
+      "Our mission is to inspire creativity and bring joy."
     ],
     "techSignals": [
       "React",
+      "Datadog",
       "Next.js"
     ],
     "featureCandidates": [
@@ -386,27 +852,28 @@
       "Company",
       "Program",
       "Terms & Policies",
-      "For you, by you",
-      "An experience tailored to what you love.",
-      "Endless Discovery",
-      "Community-Driven",
-      "Creativity, collaboration, and connection.",
-      "TikTok opens up a world of opportunities.",
-      "#BookTok",
-      "#LearnOnTikTok",
-      "#GamingOnTikTok",
-      "#FoodTok",
-      "#SportsOnTikTok",
-      "TikTok for Good",
-      "TikTok Creator Academy",
-      "Newsroom",
-      "Discover your next chapter with us"
+      "How can we help you?",
+      "What's new",
+      "Help Center Guide",
+      "Getting started",
+      "Ad creation",
+      "Ad formats",
+      "Ad objectives",
+      "Ad optimization",
+      "Measurement",
+      "Payment and billing",
+      "Policies and security",
+      "Sell on TikTok Shop",
+      "Advertise your TikTok Shop",
+      "Collaborate with creators",
+      "Creators"
     ],
     "patternCandidates": [
       "Search",
       "Authentication",
+      "Tabs",
       "Modal dialogs",
-      "Tabs"
+      "Map view"
     ],
     "platformsDetected": [
       "web",
@@ -414,6 +881,9 @@
       "api",
       "ios"
     ],
-    "summary": "Captured 23 screenshots across 6 public URLs. Nav signals: About, Newsroom, Careers, Contact, Watch TikTok, English (US). Tech signals: React, Next.js. UI patterns: Search, Authentication, Modal dialogs, Tabs."
+    "summary": "Captured 30 screenshots across 9 public URLs. Nav signals: Products, Docs, Support, Blog, Get started, Share Kit. Tech signals: React, Datadog, Next.js. UI patterns: Search, Authentication, Tabs, Modal dialogs, Map view."
+  },
+  "fallback": {
+    "blockedNavigations": 0
   }
 }

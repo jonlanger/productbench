@@ -1,0 +1,64 @@
+{
+  "slug": "ukg-pro",
+  "capturedAt": "2026-07-27T23:26:06.188Z",
+  "shots": [
+    {
+      "file": "fallback-docs-1.jpg",
+      "title": "Two coworkers discuss workflow in a warehouse.",
+      "caption": "Fallback from public docs: https://www.ukg.com/support",
+      "kind": "docs",
+      "sourceUrl": "https://www.ukg.com/support",
+      "capturedAt": "2026-07-27T23:26:03.535Z",
+      "playbookStep": "web-fallback",
+      "width": 1248,
+      "height": 1234,
+      "phash": "36685355e9e98993",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-2.jpg",
+      "title": "Two coworkers collaborate on laptops near a whiteboard.",
+      "caption": "Fallback from public docs: https://www.ukg.com/support",
+      "kind": "docs",
+      "sourceUrl": "https://www.ukg.com/support",
+      "capturedAt": "2026-07-27T23:26:03.535Z",
+      "playbookStep": "web-fallback",
+      "width": 2000,
+      "height": 1332,
+      "phash": "80d072129696a092",
+      "unique": true
+    },
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.ukg.com/products/ukg-pro",
+      "capturedAt": "2026-07-27T23:26:03.535Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 630,
+      "phash": "52585a5e64646c2b",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T23:26:06.188Z",
+    "screenshotCount": 3,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 3 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

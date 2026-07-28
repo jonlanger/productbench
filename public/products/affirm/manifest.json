@@ -1,694 +1,142 @@
 {
   "slug": "affirm",
-  "capturedAt": "2026-07-27T14:49:42.097Z",
+  "capturedAt": "2026-07-27T23:06:47.232Z",
   "shots": [
     {
-      "file": "homepage.jpg",
-      "title": "Home",
-      "caption": "Affirm public homepage (top of page)",
-      "kind": "homepage",
-      "sourceUrl": "https://www.affirm.com/"
-    },
-    {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Affirm homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.affirm.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
-      "title": "Homepage depth (2)",
-      "caption": "Affirm homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.affirm.com/"
-    },
-    {
-      "file": "homepage-lower.jpg",
-      "title": "Homepage depth (3)",
-      "caption": "Affirm homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.affirm.com/"
-    },
-    {
-      "file": "homepage-mobile.jpg",
-      "title": "Homepage mobile",
-      "caption": "Affirm homepage at mobile viewport",
-      "kind": "product",
-      "sourceUrl": "https://www.affirm.com/"
-    },
-    {
-      "file": "search-composer.jpg",
-      "title": "Search / composer",
-      "caption": "Focused search or primary input on Affirm",
-      "kind": "component",
-      "sourceUrl": "https://www.affirm.com/"
-    },
-    {
-      "file": "sign-in.jpg",
-      "title": "Sign in",
-      "caption": "Sign in / log in UI on Affirm (pattern only — no credentials)",
-      "kind": "component",
-      "sourceUrl": "https://www.affirm.com/user/signin"
-    },
-    {
-      "file": "nav-1.jpg",
-      "title": "In-product nav (1)",
-      "caption": "Same-origin product / pricing / docs links from Affirm",
-      "kind": "product",
-      "sourceUrl": "https://www.affirm.com/about"
-    },
-    {
-      "file": "nav-2.jpg",
-      "title": "In-product nav (2)",
-      "caption": "Same-origin product / pricing / docs links from Affirm",
-      "kind": "product",
-      "sourceUrl": "https://www.affirm.com/about"
-    },
-    {
-      "file": "nav-3.jpg",
-      "title": "In-product nav (3)",
-      "caption": "Same-origin product / pricing / docs links from Affirm",
-      "kind": "product",
-      "sourceUrl": "https://www.affirm.com/about"
-    },
-    {
-      "file": "nav-4.jpg",
-      "title": "In-product nav (4)",
-      "caption": "Same-origin product / pricing / docs links from Affirm",
-      "kind": "product",
-      "sourceUrl": "https://www.affirm.com/about"
-    },
-    {
-      "file": "nav-5.jpg",
-      "title": "In-product nav (5)",
-      "caption": "Same-origin product / pricing / docs links from Affirm",
-      "kind": "product",
-      "sourceUrl": "https://www.affirm.com/about"
-    },
-    {
-      "file": "surface-1.jpg",
-      "title": "Dashboard",
-      "caption": "Affirm public surface · affirm.com",
-      "kind": "product",
-      "sourceUrl": "https://www.affirm.com/pricing"
-    },
-    {
-      "file": "surface-2.jpg",
-      "title": "Settings",
-      "caption": "Affirm public surface · affirm.com",
-      "kind": "product",
-      "sourceUrl": "https://www.affirm.com/product"
-    },
-    {
-      "file": "surface-3.jpg",
-      "title": "Search",
-      "caption": "Affirm public surface · affirm.com",
+      "file": "fallback-docs-1.jpg",
+      "title": "Docs UI 1",
+      "caption": "Fallback from public docs: https://www.affirm.com/docs",
       "kind": "docs",
-      "sourceUrl": "https://www.affirm.com/products"
+      "sourceUrl": "https://www.affirm.com/docs",
+      "capturedAt": "2026-07-27T23:06:43.620Z",
+      "playbookStep": "web-fallback",
+      "width": 841,
+      "height": 438,
+      "phash": "33694dd4d4a2a2a2",
+      "unique": true
     },
     {
-      "file": "surface-4.jpg",
-      "title": "Profile",
-      "caption": "Affirm public surface · affirm.com",
+      "file": "fallback-docs-2.jpg",
+      "title": "The Australian flag",
+      "caption": "Fallback from public docs: https://www.affirm.com/docs",
       "kind": "docs",
-      "sourceUrl": "https://www.affirm.com/features"
+      "sourceUrl": "https://www.affirm.com/docs",
+      "capturedAt": "2026-07-27T23:06:43.620Z",
+      "playbookStep": "web-fallback",
+      "width": 24,
+      "height": 24,
+      "phash": "07034564252d330f",
+      "unique": true
     },
     {
-      "file": "surface-5.jpg",
-      "title": "Supporting surface 5",
-      "caption": "Affirm public surface · affirm.com",
+      "file": "fallback-docs-3.jpg",
+      "title": "The Canadian flag",
+      "caption": "Fallback from public docs: https://www.affirm.com/docs",
       "kind": "docs",
-      "sourceUrl": "https://www.affirm.com/platform/"
+      "sourceUrl": "https://www.affirm.com/docs",
+      "capturedAt": "2026-07-27T23:06:43.620Z",
+      "playbookStep": "web-fallback",
+      "width": 24,
+      "height": 24,
+      "phash": "69694dccd44d6907",
+      "unique": true
     },
     {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6",
-      "caption": "Affirm public surface · affirm.com",
+      "file": "fallback-docs-4.jpg",
+      "title": "The American flag",
+      "caption": "Fallback from public docs: https://www.affirm.com/docs",
       "kind": "docs",
-      "sourceUrl": "https://www.affirm.com/solutions"
+      "sourceUrl": "https://www.affirm.com/docs",
+      "capturedAt": "2026-07-27T23:06:43.620Z",
+      "playbookStep": "web-fallback",
+      "width": 24,
+      "height": 24,
+      "phash": "1f3b591b1945330f",
+      "unique": true
     },
     {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7",
-      "caption": "Affirm public surface · affirm.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.affirm.com/customers"
+      "file": "fallback-docs-5.jpg",
+      "title": "Affirm-Home",
+      "caption": "Fallback from public docs: https://docs.affirm.com",
+      "kind": "technical",
+      "sourceUrl": "https://docs.affirm.com",
+      "capturedAt": "2026-07-27T23:06:43.620Z",
+      "playbookStep": "web-fallback",
+      "width": 199,
+      "height": 80,
+      "phash": "0000000000000000",
+      "unique": true
     },
     {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
-      "caption": "Affirm public surface · affirm.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.affirm.com/docs"
+      "file": "fallback-docs-6.png",
+      "title": "Docs UI 6",
+      "caption": "Fallback from public docs: https://docs.affirm.com",
+      "kind": "technical",
+      "sourceUrl": "https://docs.affirm.com",
+      "capturedAt": "2026-07-27T23:06:43.620Z",
+      "playbookStep": "web-fallback",
+      "width": 60,
+      "height": 60,
+      "phash": "78f0caacaacee878",
+      "unique": true
     },
     {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
-      "caption": "Affirm public surface · affirm.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.affirm.com/docs"
+      "file": "fallback-docs-7.png",
+      "title": "Docs UI 7",
+      "caption": "Fallback from public docs: https://docs.affirm.com",
+      "kind": "technical",
+      "sourceUrl": "https://docs.affirm.com",
+      "capturedAt": "2026-07-27T23:06:43.620Z",
+      "playbookStep": "web-fallback",
+      "width": 40,
+      "height": 41,
+      "phash": "483b1b1f150c150c",
+      "unique": true
     },
     {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9 (1)",
-      "caption": "Affirm public surface · affirm.com",
-      "kind": "docs",
-      "sourceUrl": "https://helpcenter.affirm.com/s/"
+      "file": "fallback-docs-8.png",
+      "title": "Docs UI 8",
+      "caption": "Fallback from public docs: https://docs.affirm.com",
+      "kind": "technical",
+      "sourceUrl": "https://docs.affirm.com",
+      "capturedAt": "2026-07-27T23:06:43.620Z",
+      "playbookStep": "web-fallback",
+      "width": 40,
+      "height": 41,
+      "phash": "11d14f8a5714b6b0",
+      "unique": true
     },
     {
-      "file": "surface-9-mid.jpg",
-      "title": "Supporting surface 9 (2)",
-      "caption": "Affirm public surface · affirm.com",
-      "kind": "docs",
-      "sourceUrl": "https://helpcenter.affirm.com/s/"
-    },
-    {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10",
-      "caption": "Affirm public surface · affirm.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.affirm.com/blog"
-    },
-    {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
-      "caption": "Affirm public surface · affirm.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.affirm.com/about"
-    },
-    {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
-      "caption": "Affirm public surface · affirm.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.affirm.com/about"
-    },
-    {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
-      "caption": "Affirm public surface · affirm.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.affirm.com/login"
-    },
-    {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13",
-      "caption": "Affirm public surface · affirm.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.affirm.com/user/signin"
-    },
-    {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14",
-      "caption": "Affirm public surface · affirm.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.affirm.com/sign-in"
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.affirm.com",
+      "capturedAt": "2026-07-27T23:06:43.620Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 630,
+      "phash": "102830f0f0d1d0b0",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T14:49:42.097Z",
-    "screenshotCount": 29,
-    "pageCount": 15,
-    "pages": [
-      {
-        "url": "https://www.affirm.com/",
-        "title": "Affirm | Pay over time with flexible payment plans and no fees",
-        "description": "Buy now pay later without the fees. Flexible payment options with longer plans, lower payments, and no fees. Pay in 4 interest-free or get more time and see your total cost upfront.",
-        "headings": [
-          "Get to know Affirm",
-          "Using Affirm",
-          "Get to know the app",
-          "Discover the card",
-          "Start in Google Chrome",
-          "Add Affirm to your digital wallets",
-          "Shop by category",
-          "Shop your favorite stores",
-          "Flexible plans for every purchase",
-          "Pay how you want, wherever you want",
-          "See what you can spend",
-          "Everywhere you already pay",
-          "Pay with Affirm anywhere. Right from your desktop.",
-          "We care about your privacy.",
-          "Do Not Sell or Share My Personal Data",
-          "Your Privacy"
-        ],
-        "navLabels": [
-          "For shoppers",
-          "For businesses",
-          "Discover",
-          "How to use Affirm",
-          "Affirm Card",
-          "Why Affirm",
-          "See how it works",
-          "Shop",
-          "Accessories",
-          "Apparel",
-          "Auto",
-          "Beauty & health",
-          "Black-owned businesses",
-          "Electronics",
-          "Events & experiences",
-          "Fitness & gear",
-          "Home & furniture",
-          "Luxury",
-          "Shoes",
-          "Toys & games",
-          "Travel",
-          "Veteran-owned businesses",
-          "Wedding",
-          "Help Center"
-        ],
-        "ctas": [
-          "Log in",
-          "Sign up",
-          "Download the App",
-          "Explore the Affirm Card",
-          "Try it now",
-          "Get started",
-          "Learn more",
-          "Filter Button"
-        ],
-        "landmarks": [
-          "dialog:Location Redirect Prompt",
-          "banner:Main Navigation",
-          "nav",
-          "nav:Main",
-          "main",
-          "dialog",
-          "nav:Footer",
-          "dialog:We care about your privacy.",
-          "dialog:Do Not Sell or Share My Personal Data",
-          "navigation:Cookie Categories"
-        ]
-      },
-      {
-        "url": "https://www.affirm.com/user/signin",
-        "title": "Sign in to your Affirm account",
-        "description": "Log into your Affirm account to buy now, pay later at your favorite stores and manage your payments.",
-        "headings": [
-          "This page isn’t loading right now",
-          "Shopping is great when your purchase works out",
-          "Do Not Sell or Share My Personal Data",
-          "Your Privacy",
-          "Strictly necessary cookies",
-          "Allow Selling, Sharing, Targeted Advertising",
-          "Cookie List"
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Filter Button"
-        ],
-        "landmarks": [
-          "main",
-          "dialog:Do Not Sell or Share My Personal Data"
-        ]
-      },
-      {
-        "url": "https://www.affirm.com/about",
-        "title": "About Us | Affirm",
-        "description": "Learn about Affirm's mission to deliver honest financial products that improve lives. No hidden fees, no gotchas—just simple, transparent payment options.",
-        "headings": [
-          "Get to know Affirm",
-          "Using Affirm",
-          "Get to know the app",
-          "Discover the card",
-          "Start in Google Chrome",
-          "Add Affirm to your digital wallets",
-          "Shop by category",
-          "Shop your favorite stores",
-          "So long, fees. Hello, Affirm.",
-          "Meet our leadership team",
-          "Feeling inspired? Come join us!",
-          "Do Not Sell or Share My Personal Data",
-          "Your Privacy",
-          "Strictly necessary cookies",
-          "Allow Selling, Sharing, Targeted Advertising",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "For shoppers",
-          "For businesses",
-          "Discover",
-          "How to use Affirm",
-          "Affirm Card",
-          "Why Affirm",
-          "See how it works",
-          "Shop",
-          "Accessories",
-          "Apparel",
-          "Auto",
-          "Beauty & health",
-          "Black-owned businesses",
-          "Electronics",
-          "Events & experiences",
-          "Fitness & gear",
-          "Home & furniture",
-          "Luxury",
-          "Shoes",
-          "Toys & games",
-          "Travel",
-          "Veteran-owned businesses",
-          "Wedding",
-          "Help Center"
-        ],
-        "ctas": [
-          "Log in",
-          "Sign up",
-          "Download the App",
-          "Get started",
-          "Learn more",
-          "Filter Button"
-        ],
-        "landmarks": [
-          "dialog:Location Redirect Prompt",
-          "banner:Main Navigation",
-          "nav",
-          "nav:Main",
-          "main",
-          "dialog",
-          "nav:Footer",
-          "dialog:Do Not Sell or Share My Personal Data",
-          "navigation:Cookie Categories"
-        ]
-      },
-      {
-        "url": "https://www.affirm.com/pricing",
-        "title": "404 - Wrong Page",
-        "headings": [
-          "You’re in the right place,just on the wrong page"
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Learn more"
-        ],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.affirm.com/product",
-        "title": "404 - Wrong Page",
-        "headings": [
-          "You’re in the right place,just on the wrong page"
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Learn more"
-        ],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.affirm.com/products",
-        "title": "404 - Wrong Page",
-        "headings": [
-          "You’re in the right place,just on the wrong page"
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Learn more"
-        ],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.affirm.com/features",
-        "title": "404 - Wrong Page",
-        "headings": [
-          "You’re in the right place,just on the wrong page"
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Learn more"
-        ],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.affirm.com/platform/",
-        "title": "404 - Wrong Page",
-        "headings": [
-          "You’re in the right place,just on the wrong page"
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Learn more"
-        ],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.affirm.com/solutions",
-        "title": "404 - Wrong Page",
-        "headings": [
-          "You’re in the right place,just on the wrong page"
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Learn more"
-        ],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.affirm.com/customers",
-        "title": "404 - Wrong Page",
-        "headings": [
-          "You’re in the right place,just on the wrong page"
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Learn more"
-        ],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.affirm.com/docs",
-        "title": "Docs",
-        "headings": [
-          "A simple integration. A better way to pay.",
-          "Platform integration",
-          "Direct API integration",
-          "Operations",
-          "Promotional messaging",
-          "Do Not Sell or Share My Personal Data",
-          "Your Privacy",
-          "Strictly necessary cookies",
-          "Allow Selling, Sharing, Targeted Advertising",
-          "Cookie List"
-        ],
-        "navLabels": [
-          ".st3{fill:#101820}",
-          "Documentation",
-          "API reference",
-          "Changelog",
-          "How it works",
-          "Affirm Card™",
-          "Affirm Money™",
-          "Help",
-          "Get started",
-          "Solutions",
-          "Partner directory",
-          "For developers",
-          "Business support",
-          "About us",
-          "Careers"
-        ],
-        "ctas": [
-          "Get started",
-          "Learn more",
-          "Filter Button"
-        ],
-        "landmarks": [
-          "dialog:Location Redirect Prompt",
-          "banner:Main Navigation",
-          "nav",
-          "nav:Main",
-          "main",
-          "dialog",
-          "nav:Footer",
-          "dialog:Do Not Sell or Share My Personal Data",
-          "navigation:Cookie Categories"
-        ]
-      },
-      {
-        "url": "https://helpcenter.affirm.com/s/",
-        "title": "Affirm Help Center – Search for answers and contact us",
-        "headings": [],
-        "navLabels": [
-          "Help Center",
-          "Credit reporting: goodwill requests",
-          "Affirm credit reporting process",
-          "Credit reporting disputes",
-          "Affirm credit reporting policy",
-          "About purchasing power",
-          "United States",
-          "United Kingdom",
-          "Canada - En",
-          "Canada - Fr",
-          "Australia",
-          "Log in",
-          "Contact us"
-        ],
-        "ctas": [],
-        "landmarks": [
-          "dialog:auraErrorTitle",
-          "header",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.affirm.com/blog",
-        "title": "404 - Wrong Page",
-        "headings": [
-          "You’re in the right place,just on the wrong page"
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Learn more"
-        ],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.affirm.com/login",
-        "title": "404 - Wrong Page",
-        "headings": [
-          "You’re in the right place,just on the wrong page"
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Learn more"
-        ],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.affirm.com/sign-in",
-        "title": "404 - Wrong Page",
-        "headings": [
-          "You’re in the right place,just on the wrong page"
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Learn more"
-        ],
-        "landmarks": []
-      }
-    ],
-    "navLabels": [
-      "For shoppers",
-      "For businesses",
-      "Discover",
-      "How to use Affirm",
-      "Affirm Card",
-      "Why Affirm",
-      "See how it works",
-      "Shop",
-      "Accessories",
-      "Apparel",
-      "Auto",
-      "Beauty & health",
-      "Black-owned businesses",
-      "Electronics",
-      "Events & experiences",
-      "Fitness & gear",
-      "Home & furniture",
-      "Luxury",
-      "Shoes",
-      "Toys & games",
-      "Travel",
-      "Veteran-owned businesses",
-      "Wedding",
-      "Help Center",
-      ".st3{fill:#101820}",
-      "Documentation",
-      "API reference",
-      "Changelog",
-      "How it works",
-      "Affirm Card™"
-    ],
-    "ctas": [
-      "Log in",
-      "Sign up",
-      "Download the App",
-      "Explore the Affirm Card",
-      "Try it now",
-      "Get started",
-      "Learn more",
-      "Filter Button"
-    ],
-    "headings": [
-      "Get to know Affirm",
-      "Using Affirm",
-      "Get to know the app",
-      "Discover the card",
-      "Start in Google Chrome",
-      "Add Affirm to your digital wallets",
-      "Shop by category",
-      "Shop your favorite stores",
-      "Flexible plans for every purchase",
-      "Pay how you want, wherever you want",
-      "See what you can spend",
-      "Everywhere you already pay",
-      "Pay with Affirm anywhere. Right from your desktop.",
-      "We care about your privacy.",
-      "Do Not Sell or Share My Personal Data",
-      "Your Privacy",
-      "This page isn’t loading right now",
-      "Shopping is great when your purchase works out",
-      "Strictly necessary cookies",
-      "Allow Selling, Sharing, Targeted Advertising",
-      "Cookie List",
-      "So long, fees. Hello, Affirm.",
-      "Meet our leadership team",
-      "Feeling inspired? Come join us!",
-      "You’re in the right place,just on the wrong page",
-      "A simple integration. A better way to pay.",
-      "Platform integration",
-      "Direct API integration",
-      "Operations",
-      "Promotional messaging"
-    ],
-    "techSignals": [
-      "Webpack",
-      "Google Tag Manager",
-      "Cloudflare",
-      "Segment"
-    ],
-    "featureCandidates": [
-      "Get to know Affirm",
-      "Using Affirm",
-      "Get to know the app",
-      "Discover the card",
-      "Start in Google Chrome",
-      "Add Affirm to your digital wallets",
-      "Shop by category",
-      "Shop your favorite stores",
-      "Flexible plans for every purchase",
-      "Pay how you want, wherever you want",
-      "See what you can spend",
-      "Everywhere you already pay",
-      "We care about your privacy.",
-      "Do Not Sell or Share My Personal Data",
-      "Your Privacy",
-      "This page isn’t loading right now",
-      "Shopping is great when your purchase works out",
-      "Strictly necessary cookies",
-      "Allow Selling, Sharing, Targeted Advertising",
-      "Cookie List",
-      "So long, fees. Hello, Affirm.",
-      "Meet our leadership team",
-      "Feeling inspired? Come join us!",
-      "A simple integration. A better way to pay."
-    ],
-    "patternCandidates": [
-      "Pricing display",
-      "Tabs",
-      "Card layout",
-      "Checkout",
-      "Authentication",
-      "Dashboard",
-      "Search"
-    ],
+    "capturedAt": "2026-07-27T23:06:47.232Z",
+    "screenshotCount": 9,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
     "platformsDetected": [
-      "web",
-      "ios",
-      "desktop",
-      "api"
+      "web"
     ],
-    "summary": "Captured 29 screenshots across 15 public URLs. Nav signals: For shoppers, For businesses, Discover, How to use Affirm, Affirm Card, Why Affirm. Tech signals: Webpack, Google Tag Manager, Cloudflare, Segment. UI patterns: Pricing display, Tabs, Card layout, Checkout, Authentication, Dashboard."
+    "summary": "Captured 9 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
   }
 }

@@ -1,0 +1,1084 @@
+{
+  "slug": "planful",
+  "capturedAt": "2026-07-27T21:08:41.416Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Planful public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://planful.com/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drive Financial Performance with Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "1ce06970b0b6f6d0",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-2.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Planful homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drive Financial Performance with Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "1dd0f2aac2d8c809",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-3.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "Planful homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drive Financial Performance with Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c49495867656567",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Planful homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drive Financial Performance with Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "0d614e093133496b",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Planful homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drive Financial Performance with Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c695b652f2bcd63",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Planful homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drive Financial Performance with Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "1470838888880908",
+      "unique": true
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Planful homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drive Financial Performance with Planful",
+      "width": 390,
+      "height": 844,
+      "phash": "03e39ce061d4d0f8",
+      "unique": true
+    },
+    {
+      "file": "account-menu.jpg",
+      "title": "Account / nav menu",
+      "caption": "Expanded account or primary navigation menu on Planful",
+      "kind": "component",
+      "sourceUrl": "https://planful.com/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "account-menu",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2909,
+      "pageTitle": "Drive Financial Performance with Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c2c2b6231310303",
+      "unique": true
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from Planful",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/resources/ebook/continuous-planning/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harness the Power of Continuous Planning. Get the guide - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c6c78330d40f0e8",
+      "unique": true
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from Planful",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/resources/ebook/continuous-planning/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harness the Power of Continuous Planning. Get the guide - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c80005818504000",
+      "unique": true
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "In-product nav (3)",
+      "caption": "Same-origin product / pricing / docs links from Planful",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/resources/ebook/continuous-planning/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harness the Power of Continuous Planning. Get the guide - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c5c7973524c8ca1",
+      "unique": true
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "In-product nav (4)",
+      "caption": "Same-origin product / pricing / docs links from Planful",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/resources/ebook/continuous-planning/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harness the Power of Continuous Planning. Get the guide - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "4c0f0e0591555555",
+      "unique": true
+    },
+    {
+      "file": "nav-5.jpg",
+      "title": "In-product nav (5)",
+      "caption": "Same-origin product / pricing / docs links from Planful",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/resources/ebook/continuous-planning/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harness the Power of Continuous Planning. Get the guide - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "744d0d547a6e54b2",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from Planful",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/resources/ebook/continuous-planning/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harness the Power of Continuous Planning. Get the guide - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "4c304d4d6d4b4c65",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Planful",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/resources/ebook/continuous-planning/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harness the Power of Continuous Planning. Get the guide - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "c45a785f5f4d4f4d",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from Planful",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/resources/ebook/continuous-planning/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harness the Power of Continuous Planning. Get the guide - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c332f4dd54d4d45",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from Planful",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/resources/ebook/continuous-planning/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harness the Power of Continuous Planning. Get the guide - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "cc00000000000000",
+      "unique": true
+    },
+    {
+      "file": "nav-10.jpg",
+      "title": "In-product nav (10)",
+      "caption": "Same-origin product / pricing / docs links from Planful",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/resources/ebook/continuous-planning/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harness the Power of Continuous Planning. Get the guide - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "c153511371517131",
+      "unique": true
+    },
+    {
+      "file": "nav-11.jpg",
+      "title": "In-product nav (11)",
+      "caption": "Same-origin product / pricing / docs links from Planful",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/resources/ebook/continuous-planning/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harness the Power of Continuous Planning. Get the guide - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "dc67676c2d696165",
+      "unique": true
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard (1)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/help",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "",
+      "width": 1440,
+      "height": 900,
+      "phash": "4c0f170f070f0f0c",
+      "unique": true
+    },
+    {
+      "file": "surface-1-lower.jpg",
+      "title": "Dashboard (3)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "product",
+      "sourceUrl": "https://planful.com/help",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "",
+      "width": 1440,
+      "height": 900,
+      "phash": "0f170f070f0f4c0c",
+      "unique": true
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search (1)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "docs",
+      "sourceUrl": "https://planfulcommunity.force.com/customer",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "",
+      "width": 1440,
+      "height": 900,
+      "phash": "f87c7d0000000000",
+      "unique": true
+    },
+    {
+      "file": "surface-12.jpg",
+      "title": "Supporting surface 12 (1)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "docs",
+      "sourceUrl": "https://planful.com/why-planful/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Choosing a Trusted FP&A Platform | Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c360f8e0f23f4da",
+      "unique": true
+    },
+    {
+      "file": "surface-12-band-2.jpg",
+      "title": "Supporting surface 12 (3)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "docs",
+      "sourceUrl": "https://planful.com/why-planful/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Choosing a Trusted FP&A Platform | Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "0cdad2f8cac40313",
+      "unique": true
+    },
+    {
+      "file": "surface-12-band-3.jpg",
+      "title": "Supporting surface 12 (4)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "docs",
+      "sourceUrl": "https://planful.com/why-planful/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Choosing a Trusted FP&A Platform | Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "0c120f0c224d0d05",
+      "unique": true
+    },
+    {
+      "file": "surface-12-band-4.jpg",
+      "title": "Supporting surface 12 (5)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "docs",
+      "sourceUrl": "https://planful.com/why-planful/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Choosing a Trusted FP&A Platform | Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "140d0f332c13034f",
+      "unique": true
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13 (1)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "docs",
+      "sourceUrl": "https://planful.com/service-and-support/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "World Class Support, Every Step of the Way - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "0c8935256565858c",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-2.jpg",
+      "title": "Supporting surface 13 (3)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "docs",
+      "sourceUrl": "https://planful.com/service-and-support/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "World Class Support, Every Step of the Way - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "0ca4a4cc0c555520",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-3.jpg",
+      "title": "Supporting surface 13 (4)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "docs",
+      "sourceUrl": "https://planful.com/service-and-support/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "World Class Support, Every Step of the Way - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c800c5d49b40e00",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-4.jpg",
+      "title": "Supporting surface 13 (5)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "docs",
+      "sourceUrl": "https://planful.com/service-and-support/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "World Class Support, Every Step of the Way - Planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "1cec4b014b487b5b",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-2.jpg",
+      "title": "Supporting surface 14 (3)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "docs",
+      "sourceUrl": "https://planful.com/blog/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Planful Blog | Blog by planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "dc4766c2669d6979",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-3.jpg",
+      "title": "Supporting surface 14 (4)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "docs",
+      "sourceUrl": "https://planful.com/blog/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Planful Blog | Blog by planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "697971d59c99991d",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-4.jpg",
+      "title": "Supporting surface 14 (5)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "docs",
+      "sourceUrl": "https://planful.com/blog/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Planful Blog | Blog by planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "9d9d99b5920c6c78",
+      "unique": true
+    },
+    {
+      "file": "surface-14-lower.jpg",
+      "title": "Supporting surface 14 (6)",
+      "caption": "Planful public surface · planful.com",
+      "kind": "docs",
+      "sourceUrl": "https://planful.com/blog/",
+      "capturedAt": "2026-07-27T21:06:30.636Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Planful Blog | Blog by planful",
+      "width": 1440,
+      "height": 900,
+      "phash": "7c088c888a890888",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T21:08:41.416Z",
+    "screenshotCount": 34,
+    "pageCount": 7,
+    "pages": [
+      {
+        "url": "https://planful.com/",
+        "title": "Drive Financial Performance with Planful",
+        "description": "Achieve peak financial performance with Planful. Empower your team to plan confidently, adapt quickly, and make informed decisions with AI-powered trusted, explainable intelligence—all in one secure, collaborative platform.",
+        "headings": [
+          "Empower Your Team to Drive Financial Success",
+          "planful ai",
+          "AI that Works the Way Finance Works",
+          "Meet Planful AI",
+          "Where Every Team Plans With Confidence",
+          "Planful for Finance",
+          "“Planful is a Swiss army knife for finance; it’s the tool we’re always using.”",
+          "Resources"
+        ],
+        "navLabels": [
+          "Platform",
+          "Planful AIElevate financial performance with AI-driven insights.",
+          "AnalystYour financial partner delivering instant, explainable insights.",
+          "PlannerNEWBuild forecasts from your data, with clear explanations.",
+          "Help AssistantGet answers, learn skills, and do more in Planful—instantly.",
+          "SignalsDetect anomalies, surface errors, and flag potential risks",
+          "placeholder",
+          "Solutions",
+          "FinanceSpeed, insights, and confidence to guide business growth.",
+          "Human ResourcesCollaborative planning to maximize your workforce potential.",
+          "Solution HubExplore solutions by industry, function, and more.",
+          "Customers",
+          "Resources",
+          "EventsJoin us for live events, conferences, and webinars worldwide.",
+          "Planful PerformThe premier event for business leaders.",
+          "Company",
+          "PartnersLearn more about our partner program and different partner tiers.",
+          "Life at PlanfulHow we’ve crafted our culture and what makes The Planful Way."
+        ],
+        "ctas": [
+          "Solution HubExplore solutions by industry, function, and more.",
+          "EventsJoin us for live events, conferences, and webinars worldwide.",
+          "PartnersLearn more about our partner program and different partner tiers.",
+          "Contact usAsk questions, get help, or just drop us a line.",
+          "Get Started",
+          "Log in",
+          "Book Demo",
+          "Book a Demo",
+          "Explore Planful AI",
+          "Learn More",
+          "Watch demo",
+          "Contact Us",
+          "Demos",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "footer",
+          "dialog:Privacy",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://planful.com/resources/ebook/continuous-planning/",
+        "title": "Harness the Power of Continuous Planning. Get the guide - Planful",
+        "description": "Get the continuous planning guide and uncover the continuous planning strategies used by today’s modern finance teams.",
+        "headings": [
+          "Ebook",
+          "Your Continuous Planning Guide for Modern Finance Teams",
+          "Learn how you can move beyond static planning and adapt to changing conditions",
+          "Get Started with Planful",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List",
+          "Performance Cookies"
+        ],
+        "navLabels": [
+          "Platform",
+          "Planful AIElevate financial performance with AI-driven insights.",
+          "AnalystYour financial partner delivering instant, explainable insights.",
+          "PlannerNEWBuild forecasts from your data, with clear explanations.",
+          "Help AssistantGet answers, learn skills, and do more in Planful—instantly.",
+          "SignalsDetect anomalies, surface errors, and flag potential risks",
+          "placeholder",
+          "Solutions",
+          "FinanceSpeed, insights, and confidence to guide business growth.",
+          "Human ResourcesCollaborative planning to maximize your workforce potential.",
+          "Solution HubExplore solutions by industry, function, and more.",
+          "Customers",
+          "Resources",
+          "EventsJoin us for live events, conferences, and webinars worldwide.",
+          "Planful PerformThe premier event for business leaders.",
+          "Company",
+          "PartnersLearn more about our partner program and different partner tiers.",
+          "Life at PlanfulHow we’ve crafted our culture and what makes The Planful Way."
+        ],
+        "ctas": [
+          "Solution HubExplore solutions by industry, function, and more.",
+          "EventsJoin us for live events, conferences, and webinars worldwide.",
+          "PartnersLearn more about our partner program and different partner tiers.",
+          "Contact usAsk questions, get help, or just drop us a line.",
+          "Get Started",
+          "Log in",
+          "Book Demo",
+          "Watch demo",
+          "Contact Us",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://planful.com/help",
+        "title": "",
+        "headings": [
+          "Oops, sorry",
+          "We're forecasting this page for later....",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List",
+          "Performance Cookies"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://planfulcommunity.force.com/customer",
+        "title": "",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://planful.com/why-planful/",
+        "title": "Choosing a Trusted FP&A Platform | Planful",
+        "description": "Planful’s modern FP&A platform is trusted by over 1,000 companies to plan rapidly, close faster, & report accurately with greater confidence",
+        "headings": [
+          "Companies of Every Size, in Every Industry, Trust Planful’s Modern FP&A Platform",
+          "Let Everyone Do Their Best Work",
+          "Experience the Difference with Planful’s Cloud FP&A Platform",
+          "Reach Your Goals Faster With Our Proven Experience",
+          "You’re in Good Company.",
+          "Get Started with Planful",
+          "The FinancialPerformance Platform.",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List",
+          "Performance Cookies"
+        ],
+        "navLabels": [
+          "Platform",
+          "Planful AIElevate financial performance with AI-driven insights.",
+          "AnalystYour financial partner delivering instant, explainable insights.",
+          "PlannerNEWBuild forecasts from your data, with clear explanations.",
+          "Help AssistantGet answers, learn skills, and do more in Planful—instantly.",
+          "SignalsDetect anomalies, surface errors, and flag potential risks",
+          "placeholder",
+          "Solutions",
+          "FinanceSpeed, insights, and confidence to guide business growth.",
+          "Human ResourcesCollaborative planning to maximize your workforce potential.",
+          "Solution HubExplore solutions by industry, function, and more.",
+          "Customers",
+          "Resources",
+          "EventsJoin us for live events, conferences, and webinars worldwide.",
+          "Planful PerformThe premier event for business leaders.",
+          "Company",
+          "PartnersLearn more about our partner program and different partner tiers.",
+          "Life at PlanfulHow we’ve crafted our culture and what makes The Planful Way."
+        ],
+        "ctas": [
+          "Solution HubExplore solutions by industry, function, and more.",
+          "EventsJoin us for live events, conferences, and webinars worldwide.",
+          "PartnersLearn more about our partner program and different partner tiers.",
+          "Contact usAsk questions, get help, or just drop us a line.",
+          "Get Started",
+          "Log in",
+          "Book Demo",
+          "Watch Demo",
+          "Contact Us",
+          "Demos",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://planful.com/service-and-support/",
+        "title": "World Class Support, Every Step of the Way - Planful",
+        "description": "Your path to value starts today. From initial scoping to ongoing adoption–we’ll work as a partnership to build a value-focused strategy that maps your team’s tactical goals to your organization’s macro business outcomes.",
+        "headings": [
+          "World Class Support, Every Step of the Way",
+          "Discover The Planful Difference",
+          "Our Customers Are Never Alone",
+          "Stevie Awards Winner in 2022",
+          "You’re in Good Company",
+          "Your One-Stop Shop for Financial Performance Management Software",
+          "Planful Engage: Your Ticket to Community",
+          "Always Here For You, In More Ways Than One",
+          "Related Resources",
+          "Finance How To",
+          "Guides",
+          "ebook",
+          "Analyst Report",
+          "Report"
+        ],
+        "navLabels": [
+          "Platform",
+          "Planful AIElevate financial performance with AI-driven insights.",
+          "AnalystYour financial partner delivering instant, explainable insights.",
+          "PlannerNEWBuild forecasts from your data, with clear explanations.",
+          "Help AssistantGet answers, learn skills, and do more in Planful—instantly.",
+          "SignalsDetect anomalies, surface errors, and flag potential risks",
+          "placeholder",
+          "Solutions",
+          "FinanceSpeed, insights, and confidence to guide business growth.",
+          "Human ResourcesCollaborative planning to maximize your workforce potential.",
+          "Solution HubExplore solutions by industry, function, and more.",
+          "Customers",
+          "Resources",
+          "EventsJoin us for live events, conferences, and webinars worldwide.",
+          "Planful PerformThe premier event for business leaders.",
+          "Company",
+          "PartnersLearn more about our partner program and different partner tiers.",
+          "Life at PlanfulHow we’ve crafted our culture and what makes The Planful Way."
+        ],
+        "ctas": [
+          "Solution HubExplore solutions by industry, function, and more.",
+          "EventsJoin us for live events, conferences, and webinars worldwide.",
+          "PartnersLearn more about our partner program and different partner tiers.",
+          "Contact usAsk questions, get help, or just drop us a line.",
+          "Get Started",
+          "Log in",
+          "Book Demo",
+          "Contact us",
+          "Watch demo",
+          "Demos",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      },
+      {
+        "url": "https://planful.com/blog/",
+        "title": "The Planful Blog | Blog by planful",
+        "description": "The Planful blog features industry insights, Planful updates, and more. ",
+        "headings": [
+          "Featured Blog Posts",
+          "Ram Narayanan, Senior Director of Product Management at Planful",
+          "Planful Team",
+          "Join our newsletter",
+          "Get Started with Planful",
+          "The FinancialPerformance Platform.",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Platform",
+          "Planful AIElevate financial performance with AI-driven insights.",
+          "AnalystYour financial partner delivering instant, explainable insights.",
+          "PlannerNEWBuild forecasts from your data, with clear explanations.",
+          "Help AssistantGet answers, learn skills, and do more in Planful—instantly.",
+          "SignalsDetect anomalies, surface errors, and flag potential risks",
+          "placeholder",
+          "Solutions",
+          "FinanceSpeed, insights, and confidence to guide business growth.",
+          "Human ResourcesCollaborative planning to maximize your workforce potential.",
+          "Solution HubExplore solutions by industry, function, and more.",
+          "Customers",
+          "Resources",
+          "EventsJoin us for live events, conferences, and webinars worldwide.",
+          "Planful PerformThe premier event for business leaders.",
+          "Company",
+          "PartnersLearn more about our partner program and different partner tiers.",
+          "Life at PlanfulHow we’ve crafted our culture and what makes The Planful Way."
+        ],
+        "ctas": [
+          "Solution HubExplore solutions by industry, function, and more.",
+          "EventsJoin us for live events, conferences, and webinars worldwide.",
+          "PartnersLearn more about our partner program and different partner tiers.",
+          "Contact usAsk questions, get help, or just drop us a line.",
+          "Get Started",
+          "Log in",
+          "Book Demo",
+          "Subscribe",
+          "Watch demo",
+          "Contact Us",
+          "Demos",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "footer",
+          "dialog:Privacy Preference Center"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Platform",
+      "Planful AIElevate financial performance with AI-driven insights.",
+      "AnalystYour financial partner delivering instant, explainable insights.",
+      "PlannerNEWBuild forecasts from your data, with clear explanations.",
+      "Help AssistantGet answers, learn skills, and do more in Planful—instantly.",
+      "SignalsDetect anomalies, surface errors, and flag potential risks",
+      "placeholder",
+      "Solutions",
+      "FinanceSpeed, insights, and confidence to guide business growth.",
+      "Human ResourcesCollaborative planning to maximize your workforce potential.",
+      "Solution HubExplore solutions by industry, function, and more.",
+      "Customers",
+      "Resources",
+      "EventsJoin us for live events, conferences, and webinars worldwide.",
+      "Planful PerformThe premier event for business leaders.",
+      "Company",
+      "PartnersLearn more about our partner program and different partner tiers.",
+      "Life at PlanfulHow we’ve crafted our culture and what makes The Planful Way."
+    ],
+    "ctas": [
+      "Solution HubExplore solutions by industry, function, and more.",
+      "EventsJoin us for live events, conferences, and webinars worldwide.",
+      "PartnersLearn more about our partner program and different partner tiers.",
+      "Contact usAsk questions, get help, or just drop us a line.",
+      "Get Started",
+      "Log in",
+      "Book Demo",
+      "Book a Demo",
+      "Explore Planful AI",
+      "Learn More",
+      "Watch demo",
+      "Contact Us",
+      "Demos",
+      "Filter Icon",
+      "Subscribe"
+    ],
+    "headings": [
+      "Empower Your Team to Drive Financial Success",
+      "planful ai",
+      "AI that Works the Way Finance Works",
+      "Meet Planful AI",
+      "Where Every Team Plans With Confidence",
+      "Planful for Finance",
+      "“Planful is a Swiss army knife for finance; it’s the tool we’re always using.”",
+      "Resources",
+      "Ebook",
+      "Your Continuous Planning Guide for Modern Finance Teams",
+      "Learn how you can move beyond static planning and adapt to changing conditions",
+      "Get Started with Planful",
+      "Privacy Preference Center",
+      "Manage Consent Preferences",
+      "Cookie List",
+      "Performance Cookies",
+      "Oops, sorry",
+      "We're forecasting this page for later....",
+      "Companies of Every Size, in Every Industry, Trust Planful’s Modern FP&A Platform",
+      "Let Everyone Do Their Best Work",
+      "Experience the Difference with Planful’s Cloud FP&A Platform",
+      "Reach Your Goals Faster With Our Proven Experience",
+      "You’re in Good Company.",
+      "The FinancialPerformance Platform.",
+      "World Class Support, Every Step of the Way",
+      "Discover The Planful Difference",
+      "Our Customers Are Never Alone",
+      "Stevie Awards Winner in 2022",
+      "You’re in Good Company",
+      "Your One-Stop Shop for Financial Performance Management Software"
+    ],
+    "techSignals": [
+      "Next.js",
+      "Webpack",
+      "Segment",
+      "Google Tag Manager",
+      "Sentry"
+    ],
+    "featureCandidates": [
+      "Empower Your Team to Drive Financial Success",
+      "planful ai",
+      "AI that Works the Way Finance Works",
+      "Meet Planful AI",
+      "Where Every Team Plans With Confidence",
+      "Planful for Finance",
+      "Resources",
+      "Ebook",
+      "Get Started with Planful",
+      "Privacy Preference Center",
+      "Manage Consent Preferences",
+      "Cookie List",
+      "Performance Cookies",
+      "Oops, sorry",
+      "We're forecasting this page for later....",
+      "Let Everyone Do Their Best Work",
+      "You’re in Good Company.",
+      "The FinancialPerformance Platform.",
+      "World Class Support, Every Step of the Way",
+      "Discover The Planful Difference",
+      "Our Customers Are Never Alone",
+      "Stevie Awards Winner in 2022",
+      "You’re in Good Company",
+      "Solution HubExplore solutions by industry, function, and more."
+    ],
+    "patternCandidates": [
+      "Tabs",
+      "Authentication",
+      "Map view",
+      "Dashboard"
+    ],
+    "platformsDetected": [
+      "web",
+      "ios",
+      "api"
+    ],
+    "summary": "Captured 34 screenshots across 7 public URLs. Nav signals: Platform, Planful AIElevate financial performance with AI-driven insights., AnalystYour financial partner delivering instant, explainable insights., PlannerNEWBuild forecasts from your data, with clear explanations., Help AssistantGet answers, learn skills, and do more in Planful—instantly., SignalsDetect anomalies, surface errors, and flag potential risks. Tech signals: Next.js, Webpack, Segment, Google Tag Manager, Sentry. UI patterns: Tabs, Authentication, Map view, Dashboard."
+  }
+}

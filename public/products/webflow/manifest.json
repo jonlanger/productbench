@@ -1,278 +1,1228 @@
 {
   "slug": "webflow",
-  "capturedAt": "2026-07-26T22:22:24.711Z",
+  "capturedAt": "2026-07-27T22:37:01.481Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Designer",
       "caption": "Webflow public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://webflow.com/"
+      "sourceUrl": "https://webflow.com/",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow: The agentic web platform for modern businesses",
+      "width": 1440,
+      "height": 900,
+      "phash": "5832969635359a05",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Webflow homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://webflow.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Webflow homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://webflow.com/"
+      "sourceUrl": "https://webflow.com/",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow: The agentic web platform for modern businesses",
+      "width": 1440,
+      "height": 900,
+      "phash": "59a48c9ca8ac8403",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Webflow homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://webflow.com/"
+      "sourceUrl": "https://webflow.com/",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow: The agentic web platform for modern businesses",
+      "width": 1440,
+      "height": 900,
+      "phash": "9ca8a8cc43731519",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Webflow homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://webflow.com/",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow: The agentic web platform for modern businesses",
+      "width": 1440,
+      "height": 900,
+      "phash": "756380969601010b",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Webflow homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://webflow.com/",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow: The agentic web platform for modern businesses",
+      "width": 1440,
+      "height": 900,
+      "phash": "616b6b5b5bd2736e",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Webflow homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://webflow.com/",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow: The agentic web platform for modern businesses",
+      "width": 1440,
+      "height": 900,
+      "phash": "bcaba9b4c4e56165",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Webflow homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://webflow.com/"
+      "sourceUrl": "https://webflow.com/",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow: The agentic web platform for modern businesses",
+      "width": 390,
+      "height": 844,
+      "phash": "e0321f1331711f33",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on Webflow (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://webflow.com/login"
+      "sourceUrl": "https://webflow.com/login",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Access to this page has been denied",
+      "width": 1440,
+      "height": 900,
+      "phash": "0010284c4d0c1000",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Webflow",
       "kind": "product",
-      "sourceUrl": "https://webflow.com/feature/collaboration"
+      "sourceUrl": "https://webflow.com/feature/optimize",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Optimize | Website Optimization & Personalization",
+      "width": 1440,
+      "height": 900,
+      "phash": "5825656425204347",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Webflow",
       "kind": "product",
-      "sourceUrl": "https://webflow.com/feature/collaboration"
+      "sourceUrl": "https://webflow.com/feature/optimize",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Optimize | Website Optimization & Personalization",
+      "width": 1440,
+      "height": 900,
+      "phash": "70cf4f1e0d65252d",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Webflow",
       "kind": "product",
-      "sourceUrl": "https://webflow.com/feature/collaboration"
+      "sourceUrl": "https://webflow.com/feature/optimize",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Optimize | Website Optimization & Personalization",
+      "width": 1440,
+      "height": 900,
+      "phash": "704e4e0e1b589313",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from Webflow",
       "kind": "product",
-      "sourceUrl": "https://webflow.com/feature/collaboration"
+      "sourceUrl": "https://webflow.com/feature/optimize",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Optimize | Website Optimization & Personalization",
+      "width": 1440,
+      "height": 900,
+      "phash": "f80f230f49264905",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from Webflow",
       "kind": "product",
-      "sourceUrl": "https://webflow.com/feature/collaboration"
+      "sourceUrl": "https://webflow.com/feature/optimize",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Optimize | Website Optimization & Personalization",
+      "width": 1440,
+      "height": 900,
+      "phash": "780e160f2b2b2b2b",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from Webflow",
+      "kind": "product",
+      "sourceUrl": "https://webflow.com/feature/optimize",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Optimize | Website Optimization & Personalization",
+      "width": 1440,
+      "height": 900,
+      "phash": "744b43185b639111",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Webflow",
+      "kind": "product",
+      "sourceUrl": "https://webflow.com/feature/optimize",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Optimize | Website Optimization & Personalization",
+      "width": 1440,
+      "height": 900,
+      "phash": "70864e5a083c1c61",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from Webflow",
+      "kind": "product",
+      "sourceUrl": "https://webflow.com/feature/optimize",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Optimize | Website Optimization & Personalization",
+      "width": 1440,
+      "height": 900,
+      "phash": "5865656565656764",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from Webflow",
+      "kind": "product",
+      "sourceUrl": "https://webflow.com/feature/optimize",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Optimize | Website Optimization & Personalization",
+      "width": 1440,
+      "height": 900,
+      "phash": "780067757165e560",
+      "unique": true
+    },
+    {
+      "file": "nav-10.jpg",
+      "title": "In-product nav (10)",
+      "caption": "Same-origin product / pricing / docs links from Webflow",
+      "kind": "product",
+      "sourceUrl": "https://webflow.com/feature/optimize",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Optimize | Website Optimization & Personalization",
+      "width": 1440,
+      "height": 900,
+      "phash": "78494b1e1d714909",
+      "unique": true
+    },
+    {
+      "file": "nav-11.jpg",
+      "title": "In-product nav (11)",
+      "caption": "Same-origin product / pricing / docs links from Webflow",
+      "kind": "product",
+      "sourceUrl": "https://webflow.com/feature/optimize",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Optimize | Website Optimization & Personalization",
+      "width": 1440,
+      "height": 900,
+      "phash": "789a4b071f589918",
+      "unique": true
+    },
+    {
+      "file": "nav-12.jpg",
+      "title": "In-product nav (12)",
+      "caption": "Same-origin product / pricing / docs links from Webflow",
+      "kind": "product",
+      "sourceUrl": "https://webflow.com/feature/optimize",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Optimize | Website Optimization & Personalization",
+      "width": 1440,
+      "height": 900,
+      "phash": "585535730525e10b",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "Editor (1)",
       "caption": "Webflow public surface · university.webflow.com",
       "kind": "product",
-      "sourceUrl": "https://university.webflow.com/"
+      "sourceUrl": "https://university.webflow.com/",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Learn how to build websites on Webflow | Webflow University",
+      "width": 1440,
+      "height": 900,
+      "phash": "7874724264669411",
+      "unique": true
     },
     {
-      "file": "surface-1-mid.jpg",
-      "title": "Editor (2)",
+      "file": "surface-1-band-2.jpg",
+      "title": "Editor (3)",
       "caption": "Webflow public surface · university.webflow.com",
       "kind": "product",
-      "sourceUrl": "https://university.webflow.com/"
+      "sourceUrl": "https://university.webflow.com/",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Learn how to build websites on Webflow | Webflow University",
+      "width": 1440,
+      "height": 900,
+      "phash": "644966666c4c9310",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-3.jpg",
+      "title": "Editor (4)",
+      "caption": "Webflow public surface · university.webflow.com",
+      "kind": "product",
+      "sourceUrl": "https://university.webflow.com/",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Learn how to build websites on Webflow | Webflow University",
+      "width": 1440,
+      "height": 900,
+      "phash": "1b48464a747c9c12",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-4.jpg",
+      "title": "Editor (5)",
+      "caption": "Webflow public surface · university.webflow.com",
+      "kind": "product",
+      "sourceUrl": "https://university.webflow.com/",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Learn how to build websites on Webflow | Webflow University",
+      "width": 1440,
+      "height": 900,
+      "phash": "7c0a51486a52a525",
+      "unique": true
+    },
+    {
+      "file": "surface-1-lower.jpg",
+      "title": "Editor (6)",
+      "caption": "Webflow public surface · university.webflow.com",
+      "kind": "product",
+      "sourceUrl": "https://university.webflow.com/",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Learn how to build websites on Webflow | Webflow University",
+      "width": 1440,
+      "height": 900,
+      "phash": "5454541454509212",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
       "title": "CMS (1)",
       "caption": "Webflow public surface · developers.webflow.com",
       "kind": "product",
-      "sourceUrl": "https://developers.webflow.com/data/docs/data-clients"
+      "sourceUrl": "https://developers.webflow.com/data/docs/data-clients",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Working with the Data API | Webflow Developer Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "e49899b39595a0b3",
+      "unique": true
     },
     {
-      "file": "surface-2-mid.jpg",
-      "title": "CMS (2)",
+      "file": "surface-2-band-2.jpg",
+      "title": "CMS (3)",
       "caption": "Webflow public surface · developers.webflow.com",
       "kind": "product",
-      "sourceUrl": "https://developers.webflow.com/data/docs/data-clients"
+      "sourceUrl": "https://developers.webflow.com/data/docs/data-clients",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Working with the Data API | Webflow Developer Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "f0a099b1b595a5a2",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-3.jpg",
+      "title": "CMS (4)",
+      "caption": "Webflow public surface · developers.webflow.com",
+      "kind": "product",
+      "sourceUrl": "https://developers.webflow.com/data/docs/data-clients",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Working with the Data API | Webflow Developer Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "f898beb39b93c9c0",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-4.jpg",
+      "title": "CMS (5)",
+      "caption": "Webflow public surface · developers.webflow.com",
+      "kind": "product",
+      "sourceUrl": "https://developers.webflow.com/data/docs/data-clients",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Working with the Data API | Webflow Developer Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "f0b093d9c09981c4",
+      "unique": true
     },
     {
       "file": "surface-3.jpg",
       "title": "Project settings (1)",
       "caption": "Webflow public surface · developers.webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://developers.webflow.com/designer/docs/designer-extensions"
+      "sourceUrl": "https://developers.webflow.com/designer/docs/designer-extensions",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Designer API & Extensions | Webflow Developer Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "e1c0853139393939",
+      "unique": true
     },
     {
-      "file": "surface-3-mid.jpg",
-      "title": "Project settings (2)",
+      "file": "surface-3-band-2.jpg",
+      "title": "Project settings (3)",
       "caption": "Webflow public surface · developers.webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://developers.webflow.com/designer/docs/designer-extensions"
+      "sourceUrl": "https://developers.webflow.com/designer/docs/designer-extensions",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Designer API & Extensions | Webflow Developer Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "391999b69b9b9b29",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-3.jpg",
+      "title": "Project settings (4)",
+      "caption": "Webflow public surface · developers.webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://developers.webflow.com/designer/docs/designer-extensions",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Designer API & Extensions | Webflow Developer Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "f1b0a9b993b79a1a",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-4.jpg",
+      "title": "Project settings (5)",
+      "caption": "Webflow public surface · developers.webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://developers.webflow.com/designer/docs/designer-extensions",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Designer API & Extensions | Webflow Developer Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "38989b9191943408",
+      "unique": true
+    },
+    {
+      "file": "surface-3-lower.jpg",
+      "title": "Project settings (6)",
+      "caption": "Webflow public surface · developers.webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://developers.webflow.com/designer/docs/designer-extensions",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Designer API & Extensions | Webflow Developer Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "f8d09e9cf0b1c104",
+      "unique": true
     },
     {
       "file": "surface-4.jpg",
-      "title": "Hosting",
+      "title": "Hosting (1)",
       "caption": "Webflow public surface · university.webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://university.webflow.com/lesson/intro-to-site-settings"
+      "sourceUrl": "https://university.webflow.com/lesson/intro-to-site-settings",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Not Found",
+      "width": 1440,
+      "height": 900,
+      "phash": "5040542155559494",
+      "unique": true
     },
     {
       "file": "surface-5.jpg",
       "title": "Ecommerce (1)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/pricing"
+      "sourceUrl": "https://webflow.com/pricing",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Plans & pricing | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "d86072487663c173",
+      "unique": true
     },
     {
-      "file": "surface-5-mid.jpg",
-      "title": "Ecommerce (2)",
+      "file": "surface-5-band-2.jpg",
+      "title": "Ecommerce (3)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/pricing"
+      "sourceUrl": "https://webflow.com/pricing",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Plans & pricing | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "7c33490131334646",
+      "unique": true
+    },
+    {
+      "file": "surface-5-band-3.jpg",
+      "title": "Ecommerce (4)",
+      "caption": "Webflow public surface · webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://webflow.com/pricing",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Plans & pricing | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "5c864d4d45659515",
+      "unique": true
+    },
+    {
+      "file": "surface-5-band-4.jpg",
+      "title": "Ecommerce (5)",
+      "caption": "Webflow public surface · webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://webflow.com/pricing",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Plans & pricing | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "7d550d99595d114c",
+      "unique": true
     },
     {
       "file": "surface-6.jpg",
       "title": "Supporting surface 6 (1)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/product"
+      "sourceUrl": "https://webflow.com/product",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404",
+      "width": 1440,
+      "height": 900,
+      "phash": "000100c080008080",
+      "unique": true
     },
     {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
+      "file": "surface-6-band-2.jpg",
+      "title": "Supporting surface 6 (3)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/product"
+      "sourceUrl": "https://webflow.com/product",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404",
+      "width": 1440,
+      "height": 900,
+      "phash": "8080082929292880",
+      "unique": true
     },
     {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
+      "file": "surface-6-band-3.jpg",
+      "title": "Supporting surface 6 (4)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/products"
-    },
-    {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
-      "caption": "Webflow public surface · webflow.com",
-      "kind": "docs",
-      "sourceUrl": "https://webflow.com/products"
+      "sourceUrl": "https://webflow.com/product",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404",
+      "width": 1440,
+      "height": 900,
+      "phash": "0029292929288000",
+      "unique": true
     },
     {
       "file": "surface-8.jpg",
       "title": "Supporting surface 8 (1)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/features"
+      "sourceUrl": "https://webflow.com/features",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Web design, CMS, & hosting features | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "0ea1a2008010d959",
+      "unique": true
     },
     {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
+      "file": "surface-8-band-2.jpg",
+      "title": "Supporting surface 8 (3)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/features"
+      "sourceUrl": "https://webflow.com/features",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Web design, CMS, & hosting features | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "9e99d3d39b1bdb73",
+      "unique": true
+    },
+    {
+      "file": "surface-8-band-4.jpg",
+      "title": "Supporting surface 8 (5)",
+      "caption": "Webflow public surface · webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://webflow.com/features",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Web design, CMS, & hosting features | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "92d1dbdf9b13dd6c",
+      "unique": true
+    },
+    {
+      "file": "surface-8-lower.jpg",
+      "title": "Supporting surface 8 (6)",
+      "caption": "Webflow public surface · webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://webflow.com/features",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Web design, CMS, & hosting features | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "26142a2020219493",
+      "unique": true
     },
     {
       "file": "surface-9.jpg",
       "title": "Supporting surface 9 (1)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/platform"
+      "sourceUrl": "https://webflow.com/platform",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build, manage, and optimize your website in one platform | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "f08e069b186b6473",
+      "unique": true
     },
     {
-      "file": "surface-9-mid.jpg",
-      "title": "Supporting surface 9 (2)",
+      "file": "surface-9-band-2.jpg",
+      "title": "Supporting surface 9 (3)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/platform"
+      "sourceUrl": "https://webflow.com/platform",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build, manage, and optimize your website in one platform | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "5c73335353d36360",
+      "unique": true
+    },
+    {
+      "file": "surface-9-band-3.jpg",
+      "title": "Supporting surface 9 (4)",
+      "caption": "Webflow public surface · webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://webflow.com/platform",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build, manage, and optimize your website in one platform | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "5c6c617373737366",
+      "unique": true
+    },
+    {
+      "file": "surface-9-band-4.jpg",
+      "title": "Supporting surface 9 (5)",
+      "caption": "Webflow public surface · webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://webflow.com/platform",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build, manage, and optimize your website in one platform | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "5c77156274337373",
+      "unique": true
     },
     {
       "file": "surface-10.jpg",
       "title": "Supporting surface 10 (1)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/solutions"
+      "sourceUrl": "https://webflow.com/solutions",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Error 404 | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "7c000f0f0f0c6c68",
+      "unique": true
     },
     {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
+      "file": "surface-10-band-2.jpg",
+      "title": "Supporting surface 10 (3)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/solutions"
+      "sourceUrl": "https://webflow.com/solutions",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Error 404 | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "5c86a9a9a5a3e96c",
+      "unique": true
     },
     {
       "file": "surface-11.jpg",
       "title": "Supporting surface 11 (1)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/customers"
+      "sourceUrl": "https://webflow.com/customers",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer stories | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "70ce0f1b5864d009",
+      "unique": true
     },
     {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
+      "file": "surface-11-band-2.jpg",
+      "title": "Supporting surface 11 (3)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/customers"
+      "sourceUrl": "https://webflow.com/customers",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer stories | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "546d69696949da6d",
+      "unique": true
     },
     {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12 (1)",
+      "file": "surface-11-band-3.jpg",
+      "title": "Supporting surface 11 (4)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/docs"
+      "sourceUrl": "https://webflow.com/customers",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer stories | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "d8496c654969737b",
+      "unique": true
     },
     {
-      "file": "surface-12-mid.jpg",
-      "title": "Supporting surface 12 (2)",
+      "file": "surface-11-band-4.jpg",
+      "title": "Supporting surface 11 (5)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/docs"
-    },
-    {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13 (1)",
-      "caption": "Webflow public surface · webflow.com",
-      "kind": "docs",
-      "sourceUrl": "https://webflow.com/help"
-    },
-    {
-      "file": "surface-13-mid.jpg",
-      "title": "Supporting surface 13 (2)",
-      "caption": "Webflow public surface · webflow.com",
-      "kind": "docs",
-      "sourceUrl": "https://webflow.com/help"
+      "sourceUrl": "https://webflow.com/customers",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer stories | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "305b0c6c6d494972",
+      "unique": true
     },
     {
       "file": "surface-14.jpg",
       "title": "Supporting surface 14 (1)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/blog"
+      "sourceUrl": "https://webflow.com/blog",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Blog | Web Design, Development, Web Strategies",
+      "width": 1440,
+      "height": 900,
+      "phash": "78507062525a1b5b",
+      "unique": true
     },
     {
-      "file": "surface-14-mid.jpg",
-      "title": "Supporting surface 14 (2)",
+      "file": "surface-14-band-2.jpg",
+      "title": "Supporting surface 14 (3)",
       "caption": "Webflow public surface · webflow.com",
       "kind": "docs",
-      "sourceUrl": "https://webflow.com/blog"
+      "sourceUrl": "https://webflow.com/blog",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Blog | Web Design, Development, Web Strategies",
+      "width": 1440,
+      "height": 900,
+      "phash": "585b5b735374f173",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-3.jpg",
+      "title": "Supporting surface 14 (4)",
+      "caption": "Webflow public surface · webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://webflow.com/blog",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Blog | Web Design, Development, Web Strategies",
+      "width": 1440,
+      "height": 900,
+      "phash": "d5737371d365d11d",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-4.jpg",
+      "title": "Supporting surface 14 (5)",
+      "caption": "Webflow public surface · webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://webflow.com/blog",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Webflow Blog | Web Design, Development, Web Strategies",
+      "width": 1440,
+      "height": 900,
+      "phash": "d04d4d510545806b",
+      "unique": true
+    },
+    {
+      "file": "surface-15.jpg",
+      "title": "Supporting surface 15 (1)",
+      "caption": "Webflow public surface · webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://webflow.com/company/about",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About: our mission, vision, and principles | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "f4c7471a51690911",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-2.jpg",
+      "title": "Supporting surface 15 (3)",
+      "caption": "Webflow public surface · webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://webflow.com/company/about",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About: our mission, vision, and principles | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "616179712505e02c",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-3.jpg",
+      "title": "Supporting surface 15 (4)",
+      "caption": "Webflow public surface · webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://webflow.com/company/about",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About: our mission, vision, and principles | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "f84e763177676768",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-4.jpg",
+      "title": "Supporting surface 15 (5)",
+      "caption": "Webflow public surface · webflow.com",
+      "kind": "docs",
+      "sourceUrl": "https://webflow.com/company/about",
+      "capturedAt": "2026-07-27T22:35:04.594Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About: our mission, vision, and principles | Webflow",
+      "width": 1440,
+      "height": 900,
+      "phash": "54066969052a6969",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-26T22:22:24.711Z",
-    "screenshotCount": 38,
-    "pageCount": 17,
+    "capturedAt": "2026-07-27T22:37:01.481Z",
+    "screenshotCount": 64,
+    "pageCount": 15,
     "pages": [
       {
         "url": "https://webflow.com/",
@@ -352,8 +1302,9 @@
           "complementary",
           "banner:Primary",
           "navigation",
-          "listbox:persona-toggle-1785104481727",
+          "listbox:persona-toggle-1785191705085",
           "nav:w-dropdown-toggle-3",
+          "listbox:persona-toggle-1785191705086",
           "main",
           "aside",
           "header",
@@ -363,24 +1314,17 @@
       },
       {
         "url": "https://webflow.com/login",
-        "title": "Login - Webflow",
-        "description": "Log in to Webflow",
+        "title": "Access to this page has been denied",
+        "description": "px-captcha",
         "headings": [],
         "navLabels": [],
-        "ctas": [
-          "Continue with GitHub",
-          "Continue with SSO",
-          "Continue",
-          "Sign up"
-        ],
-        "landmarks": [
-          "main"
-        ]
+        "ctas": [],
+        "landmarks": []
       },
       {
-        "url": "https://webflow.com/feature/collaboration",
-        "title": "Collaboration in Webflow",
-        "description": "Webflow unites modern GTM teams in an AI-native platform designed for speed and control.",
+        "url": "https://webflow.com/feature/optimize",
+        "title": "Webflow Optimize | Website Optimization & Personalization",
+        "description": "Webflow Optimize brings A/B testing and personalization to your website, on any CMS. Leverage AI-driven optimization to maximize conversions.",
         "headings": [
           "Platform",
           "Build",
@@ -401,7 +1345,7 @@
           "Discover",
           "Get help",
           "Site Settings",
-          "The web moves fast. Your team should, too."
+          "Learn what performs. Deliver it at scale."
         ],
         "navLabels": [
           "Platform→",
@@ -441,26 +1385,20 @@
           "Log in",
           "Contact Sales",
           "Start for free",
-          "Get started — it's free",
-          "Explore designing as a team",
-          "Explore editing in Webflow",
-          "Explore Webflow Analyze",
-          "Explore page branching",
-          "Explore the editing in Webflow",
-          "Explore Page Building",
-          "Explore commenting",
-          "Explore the AI Assistance"
+          "Watch demo",
+          "Facebook"
         ],
         "landmarks": [
           "banner:Primary",
           "navigation",
-          "listbox:persona-toggle-1785104509260",
+          "listbox:persona-toggle-1785191747647",
           "nav:w-dropdown-toggle-3",
-          "main",
           "header",
           "nav:w-dropdown-toggle-6",
+          "main",
           "footer",
-          "nav:Directory"
+          "nav:Directory",
+          "dialog"
         ]
       },
       {
@@ -470,7 +1408,7 @@
         "headings": [
           "Learn how to build pro websites — visually.",
           "Featured learning",
-          "Get started with the Webflow MCP",
+          "Get started with Webflow MCP",
           "AEO from Webflow",
           "AI guardrails for teams",
           "Getting started with Webflow",
@@ -509,7 +1447,7 @@
           "Try Webflow — it's free",
           "Try Webflow — it's free→",
           "Search Webflow University",
-          "Get started with the Webflow MCP",
+          "Get started with Webflow MCP",
           "Getting started with Webflow",
           "Startups",
           "Webinars & ebooks",
@@ -533,6 +1471,7 @@
           "Developer resources"
         ],
         "navLabels": [
+          "MCP Server",
           "Data API.fa-secondary{opacity:.4}Data APIIntegrate with Webflow",
           "v2v2",
           "Search/",
@@ -555,8 +1494,7 @@
           "Localize components",
           "Localize CMS content",
           "Tutorial",
-          "Working with Custom Code",
-          "Custom code in preview mode"
+          "Working with Custom Code"
         ],
         "ctas": [
           "Search/",
@@ -573,7 +1511,8 @@
           "nav:Site navigation",
           "header",
           "footer",
-          "nav:Up next"
+          "nav:Up next",
+          "dialog:rmiz-modal-img-0a02bc582f98"
         ]
       },
       {
@@ -631,8 +1570,8 @@
           "header",
           "footer",
           "nav:Up next",
-          "dialog:rmiz-modal-img-7b9a61882db8",
-          "dialog:rmiz-modal-img-40fdd7f687b8"
+          "dialog:rmiz-modal-img-dfa3a9383d19",
+          "dialog:rmiz-modal-img-97b874492038"
         ]
       },
       {
@@ -754,8 +1693,7 @@
           "complementary",
           "banner:Primary",
           "navigation",
-          "listbox:persona-toggle-1785104521173",
-          "listbox:persona-toggle-1785104521174",
+          "listbox:persona-toggle-1785191767213",
           "nav:w-dropdown-toggle-3",
           "main",
           "header",
@@ -766,22 +1704,6 @@
       },
       {
         "url": "https://webflow.com/product",
-        "title": "404",
-        "headings": [
-          "This is not the page you were looking for. . . ."
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Pricing",
-          "Ebooks",
-          "Contact Support"
-        ],
-        "landmarks": [
-          "footer"
-        ]
-      },
-      {
-        "url": "https://webflow.com/products",
         "title": "404",
         "headings": [
           "This is not the page you were looking for. . . ."
@@ -947,7 +1869,7 @@
         "landmarks": [
           "banner:Primary",
           "navigation",
-          "listbox:persona-toggle-1785104530609",
+          "listbox:persona-toggle-1785191783449",
           "nav:w-dropdown-toggle-3",
           "main",
           "header",
@@ -1025,7 +1947,7 @@
         "landmarks": [
           "banner:Primary",
           "navigation",
-          "listbox:persona-toggle-1785104533133",
+          "listbox:persona-toggle-1785191788158",
           "nav:w-dropdown-toggle-3",
           "main",
           "footer",
@@ -1106,7 +2028,7 @@
         "landmarks": [
           "banner:Primary",
           "navigation",
-          "listbox:persona-toggle-1785104535525",
+          "listbox:persona-toggle-1785191791522",
           "nav:w-dropdown-toggle-3",
           "main",
           "header",
@@ -1116,38 +2038,6 @@
           "navigation:List",
           "footer",
           "nav:Directory"
-        ]
-      },
-      {
-        "url": "https://webflow.com/docs",
-        "title": "404",
-        "headings": [
-          "This is not the page you were looking for. . . ."
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Pricing",
-          "Ebooks",
-          "Contact Support"
-        ],
-        "landmarks": [
-          "footer"
-        ]
-      },
-      {
-        "url": "https://webflow.com/help",
-        "title": "404",
-        "headings": [
-          "This is not the page you were looking for. . . ."
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Pricing",
-          "Ebooks",
-          "Contact Support"
-        ],
-        "landmarks": [
-          "footer"
         ]
       },
       {
@@ -1223,11 +2113,90 @@
         "landmarks": [
           "banner:Primary",
           "navigation",
-          "listbox:persona-toggle-1785104542459",
+          "listbox:persona-toggle-1785191803258",
           "nav:w-dropdown-toggle-3",
           "main",
           "header",
           "navigation:List",
+          "footer",
+          "nav:Directory"
+        ]
+      },
+      {
+        "url": "https://webflow.com/company/about",
+        "title": "About: our mission, vision, and principles | Webflow",
+        "description": "We’re bringing development superpowers to everyone.",
+        "headings": [
+          "Platform",
+          "Build",
+          "Manage",
+          "Optimize",
+          "Extend",
+          "Platform Overview",
+          "Webflow AI",
+          "Solutions",
+          "Marketing",
+          "Engineering",
+          "Service Providers",
+          "Enterprise",
+          "AEO",
+          "Resources",
+          "Get started",
+          "Learn",
+          "Discover",
+          "Get help",
+          "Site Settings",
+          "Weʼre building for the teams shaping what's next."
+        ],
+        "navLabels": [
+          "Platform→",
+          "←Back",
+          "Design",
+          "Edit content",
+          "Interactions",
+          "Collaboration",
+          "Page building",
+          "CMS",
+          "Hosting",
+          "Localize",
+          "Security",
+          "Shared Libraries",
+          "Analyze",
+          "Optimize",
+          "SEO",
+          "AEO new",
+          "Apps",
+          "Figma to Webflow",
+          "Webflow Cloud",
+          "DevLink",
+          "MCP new",
+          "Learn more about Platform",
+          "Learn more about Ai",
+          "Marketer"
+        ],
+        "ctas": [
+          "Learn more about Platform",
+          "Learn more about Ai",
+          "Learn more about Enterprise",
+          "Learn more about AEO",
+          "Webinars & ebooks",
+          "Join the Community",
+          "Pricing",
+          "Get started",
+          "Log in",
+          "Contact Sales",
+          "Start for free",
+          "Webflow CEO Linda Tong on Optimizing for AI Search Future",
+          "Craig Mestel joins Webflow as first Chief Financial Officer",
+          "Facebook"
+        ],
+        "landmarks": [
+          "banner:Primary",
+          "navigation",
+          "listbox:persona-toggle-1785191807800",
+          "nav:w-dropdown-toggle-3",
+          "main",
+          "header",
           "footer",
           "nav:Directory"
         ]
@@ -1286,10 +2255,10 @@
       "Create fully custom web experiences that integrate with your clients’ tech stack",
       "Create scroll-stopping interactions and animations",
       "Add high-margin services without adding tools",
-      "Continue with GitHub",
-      "Continue with SSO",
-      "Continue",
-      "Sign up"
+      "Watch demo",
+      "Facebook",
+      "Search⌘E",
+      "Try Webflow — it's free"
     ],
     "headings": [
       "Platform",
@@ -1312,10 +2281,10 @@
       "Get help",
       "Site Settings",
       "Make your website a growth engine",
-      "The web moves fast. Your team should, too.",
+      "Learn what performs. Deliver it at scale.",
       "Learn how to build pro websites — visually.",
       "Featured learning",
-      "Get started with the Webflow MCP",
+      "Get started with Webflow MCP",
       "AEO from Webflow",
       "AI guardrails for teams",
       "Getting started with Webflow",
@@ -1327,12 +2296,9 @@
       "Google Tag Manager",
       "Cloudflare",
       "Next.js",
-      "Webpack",
-      "Stripe",
       "Segment",
-      "Vite",
-      "Contentful",
-      "Datadog"
+      "Datadog",
+      "Contentful"
     ],
     "featureCandidates": [
       "Platform",
@@ -1354,10 +2320,10 @@
       "Get help",
       "Site Settings",
       "Make your website a growth engine",
-      "The web moves fast. Your team should, too.",
+      "Learn what performs. Deliver it at scale.",
       "Learn how to build pro websites — visually.",
       "Featured learning",
-      "Get started with the Webflow MCP",
+      "Get started with Webflow MCP",
       "AEO from Webflow"
     ],
     "patternCandidates": [
@@ -1367,16 +2333,17 @@
       "Tabs",
       "Authentication",
       "Dashboard",
-      "Filters",
       "Checkout",
       "Map view",
-      "Messaging"
+      "Filters",
+      "Messaging",
+      "Calendar"
     ],
     "platformsDetected": [
       "web",
       "api",
       "cli"
     ],
-    "summary": "Captured 38 screenshots across 17 public URLs. Nav signals: Platform→, ←Back, Design, Edit content, Interactions, Collaboration. Tech signals: Google Tag Manager, Cloudflare, Next.js, Webpack, Stripe, Segment. UI patterns: Modal dialogs, Search, Pricing display, Tabs, Authentication, Dashboard."
+    "summary": "Captured 64 screenshots across 15 public URLs. Nav signals: Platform→, ←Back, Design, Edit content, Interactions, Collaboration. Tech signals: Google Tag Manager, Cloudflare, Next.js, Segment, Datadog, Contentful. UI patterns: Modal dialogs, Search, Pricing display, Tabs, Authentication, Dashboard."
   }
 }

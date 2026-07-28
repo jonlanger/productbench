@@ -1,10 +1,180 @@
 {
   "slug": "autocad",
-  "capturedAt": "2026-07-27T14:55:28.083Z",
-  "shots": [],
+  "capturedAt": "2026-07-27T22:53:08.326Z",
+  "shots": [
+    {
+      "file": "fallback-appstore-393149734-1.jpg",
+      "title": "AutoCAD screenshot 1",
+      "caption": "Apple App Store public screenshot (id 393149734)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id393149734",
+      "capturedAt": "2026-07-27T22:53:05.646Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "ce2b452f2b2b5559",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-393149734-2.jpg",
+      "title": "AutoCAD screenshot 2",
+      "caption": "Apple App Store public screenshot (id 393149734)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id393149734",
+      "capturedAt": "2026-07-27T22:53:05.646Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "8e0f4d37331b6c6e",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-393149734-3.jpg",
+      "title": "AutoCAD screenshot 3",
+      "caption": "Apple App Store public screenshot (id 393149734)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id393149734",
+      "capturedAt": "2026-07-27T22:53:05.646Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "8e2f714d5d4d4d55",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-393149734-4.jpg",
+      "title": "AutoCAD screenshot 4",
+      "caption": "Apple App Store public screenshot (id 393149734)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id393149734",
+      "capturedAt": "2026-07-27T22:53:05.646Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "de0f3355555d5555",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-393149734-7.jpg",
+      "title": "AutoCAD screenshot 7",
+      "caption": "Apple App Store public screenshot (id 393149734)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id393149734",
+      "capturedAt": "2026-07-27T22:53:05.646Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "960f71730737575d",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-393149734-8.jpg",
+      "title": "AutoCAD screenshot 8",
+      "caption": "Apple App Store public screenshot (id 393149734)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id393149734",
+      "capturedAt": "2026-07-27T22:53:05.646Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "8e332155692b6bcb",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-393149734-9.jpg",
+      "title": "AutoCAD screenshot 9",
+      "caption": "Apple App Store public screenshot (id 393149734)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id393149734",
+      "capturedAt": "2026-07-27T22:53:05.646Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "86455d4f6b6b6bc3",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-393149734-10.jpg",
+      "title": "AutoCAD screenshot 10",
+      "caption": "Apple App Store public screenshot (id 393149734)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id393149734",
+      "capturedAt": "2026-07-27T22:53:05.646Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "0f554f7773535958",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-393149734-11.jpg",
+      "title": "AutoCAD screenshot 11",
+      "caption": "Apple App Store public screenshot (id 393149734)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id393149734",
+      "capturedAt": "2026-07-27T22:53:05.646Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "174dccf0f0f0f0d4",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-393149734-12.jpg",
+      "title": "AutoCAD screenshot 12",
+      "caption": "Apple App Store public screenshot (id 393149734)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id393149734",
+      "capturedAt": "2026-07-27T22:53:05.646Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "96514c4c6c6c6cc4",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-393149734-14.jpg",
+      "title": "AutoCAD screenshot 14",
+      "caption": "Apple App Store public screenshot (id 393149734)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id393149734",
+      "capturedAt": "2026-07-27T22:53:05.646Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "c94d0c0d06909484",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-393149734-15.jpg",
+      "title": "AutoCAD screenshot 15",
+      "caption": "Apple App Store public screenshot (id 393149734)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id393149734",
+      "capturedAt": "2026-07-27T22:53:05.646Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "0f616c4c4c4c4ccc",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-393149734-16.jpg",
+      "title": "AutoCAD screenshot 16",
+      "caption": "Apple App Store public screenshot (id 393149734)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id393149734",
+      "capturedAt": "2026-07-27T22:53:05.646Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "8e4d4c4c4d5d1d85",
+      "unique": true
+    }
+  ],
   "insights": {
-    "capturedAt": "2026-07-27T14:55:28.083Z",
-    "screenshotCount": 0,
+    "capturedAt": "2026-07-27T22:53:08.326Z",
+    "screenshotCount": 13,
     "pageCount": 0,
     "pages": [],
     "navLabels": [],
@@ -16,9 +186,9 @@
     "platformsDetected": [
       "web"
     ],
-    "summary": "Captured 0 screenshots across 0 public URLs."
+    "summary": "Captured 13 screenshots across 0 public URLs."
   },
   "fallback": {
-    "blockedNavigations": 8
+    "blockedNavigations": 0
   }
 }

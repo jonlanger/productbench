@@ -1,0 +1,64 @@
+{
+  "slug": "wiz",
+  "capturedAt": "2026-07-27T23:00:04.022Z",
+  "shots": [
+    {
+      "file": "fallback-docs-1.jpg",
+      "title": "Scan code with AI interface screenshot",
+      "caption": "Fallback from public docs: https://www.wiz.io/product",
+      "kind": "supporting",
+      "sourceUrl": "https://www.wiz.io/product",
+      "capturedAt": "2026-07-27T22:59:56.832Z",
+      "playbookStep": "web-fallback",
+      "width": 2208,
+      "height": 1244,
+      "phash": "5959474dc5d8cccc",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-2.png",
+      "title": "Orchestrate Workflows",
+      "caption": "Fallback from public docs: https://www.wiz.io/product",
+      "kind": "supporting",
+      "sourceUrl": "https://www.wiz.io/product",
+      "capturedAt": "2026-07-27T22:59:56.832Z",
+      "playbookStep": "web-fallback",
+      "width": 71,
+      "height": 46,
+      "phash": "a0d4a6a5a4cac682",
+      "unique": true
+    },
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.wiz.io",
+      "capturedAt": "2026-07-27T22:59:56.832Z",
+      "playbookStep": "web-fallback",
+      "width": 1600,
+      "height": 901,
+      "phash": "f0e4d8706ad8e4f0",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T23:00:04.022Z",
+    "screenshotCount": 3,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 3 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

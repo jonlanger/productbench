@@ -7,7 +7,7 @@ import type {
   SortOption,
   UxDensity,
 } from "@/data/types";
-import { matchesProductSearch, scoreProductSearch } from "@/lib/product-search";
+import { scoreProductSearch } from "@/lib/product-search";
 
 export const CATEGORIES: ProductCategory[] = [
   "enterprise",
@@ -110,10 +110,6 @@ export function getDefaultFilters(items: Product[]): FilterState {
   };
 }
 
-function matchesQuery(product: Product, query: string): boolean {
-  return matchesProductSearch(product, query);
-}
-
 function includesAll<T>(selected: T[], available: T[]): boolean {
   if (selected.length === 0) return true;
   return selected.every((item) => available.includes(item));
@@ -168,8 +164,14 @@ export function filterProducts(
   filters: FilterState,
 ): Product[] {
   const query = filters.query.trim();
+  const scores = query ? new Map<string, number>() : null;
+
   const filtered = items.filter((product) => {
-    if (!matchesQuery(product, filters.query)) return false;
+    if (scores) {
+      const score = scoreProductSearch(product, query);
+      if (score < 4) return false;
+      scores.set(product.id, score);
+    }
 
     if (
       filters.categories.length > 0 &&
@@ -207,10 +209,9 @@ export function filterProducts(
     return true;
   });
 
-  if (query) {
+  if (scores) {
     return [...filtered].sort((a, b) => {
-      const scoreDelta =
-        scoreProductSearch(b, query) - scoreProductSearch(a, query);
+      const scoreDelta = (scores.get(b.id) ?? 0) - (scores.get(a.id) ?? 0);
       if (scoreDelta !== 0) return scoreDelta;
       return a.name.localeCompare(b.name);
     });

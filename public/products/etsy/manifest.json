@@ -1,521 +1,337 @@
 {
   "slug": "etsy",
-  "capturedAt": "2026-07-27T14:40:56.665Z",
+  "capturedAt": "2026-07-27T23:06:33.687Z",
   "shots": [
     {
-      "file": "homepage.jpg",
-      "title": "Home",
-      "caption": "Etsy public homepage (top of page)",
-      "kind": "homepage",
-      "sourceUrl": "https://www.etsy.com/"
-    },
-    {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth",
-      "caption": "Etsy homepage scrolled sections",
+      "file": "fallback-appstore-477128284-1.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 1",
+      "caption": "Apple App Store public screenshot (id 477128284)",
       "kind": "product",
-      "sourceUrl": "https://www.etsy.com/"
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "2306c8a2b6a6b692",
+      "unique": true
     },
     {
-      "file": "homepage-mobile.jpg",
-      "title": "Homepage mobile",
-      "caption": "Etsy homepage at mobile viewport",
+      "file": "fallback-appstore-477128284-2.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 2",
+      "caption": "Apple App Store public screenshot (id 477128284)",
       "kind": "product",
-      "sourceUrl": "https://www.etsy.com/"
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "231317378e8c2927",
+      "unique": true
     },
     {
-      "file": "surface-1.jpg",
-      "title": "Dashboard",
-      "caption": "Etsy public surface · etsy.com",
+      "file": "fallback-appstore-477128284-3.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 3",
+      "caption": "Apple App Store public screenshot (id 477128284)",
       "kind": "product",
-      "sourceUrl": "https://www.etsy.com/pricing"
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "33330f2ea68a9aa2",
+      "unique": true
     },
     {
-      "file": "surface-2.jpg",
-      "title": "Settings",
-      "caption": "Etsy public surface · etsy.com",
+      "file": "fallback-appstore-477128284-4.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 4",
+      "caption": "Apple App Store public screenshot (id 477128284)",
       "kind": "product",
-      "sourceUrl": "https://www.etsy.com/product"
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "cad49cb6b28eacfc",
+      "unique": true
     },
     {
-      "file": "surface-3.jpg",
-      "title": "Search",
-      "caption": "Etsy public surface · etsy.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.etsy.com/products"
+      "file": "fallback-appstore-477128284-5.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 5",
+      "caption": "Apple App Store public screenshot (id 477128284)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "69ecd2bab2a0b29a",
+      "unique": true
     },
     {
-      "file": "surface-4.jpg",
-      "title": "Profile",
-      "caption": "Etsy public surface · etsy.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.etsy.com/features"
+      "file": "fallback-appstore-477128284-6.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 6",
+      "caption": "Apple App Store public screenshot (id 477128284)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "960fc4b0d29cb2b2",
+      "unique": true
     },
     {
-      "file": "surface-5.jpg",
-      "title": "Supporting surface 5",
-      "caption": "Etsy public surface · etsy.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.etsy.com/platform"
+      "file": "fallback-appstore-477128284-7.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 7",
+      "caption": "Apple App Store public screenshot (id 477128284)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "273796272113939b",
+      "unique": true
     },
     {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6",
-      "caption": "Etsy public surface · etsy.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.etsy.com/solutions"
+      "file": "fallback-appstore-477128284-8.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 8",
+      "caption": "Apple App Store public screenshot (id 477128284)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "1733ccf68bcec4c4",
+      "unique": true
     },
     {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7",
-      "caption": "Etsy public surface · etsy.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.etsy.com/customers"
+      "file": "fallback-appstore-477128284-9.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 9",
+      "caption": "Apple App Store public screenshot (id 477128284)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "4d06d438799eba0d",
+      "unique": true
     },
     {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8",
-      "caption": "Etsy public surface · etsy.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.etsy.com/docs"
+      "file": "fallback-appstore-477128284-10.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 10",
+      "caption": "Apple App Store public screenshot (id 477128284)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "69e8cae296aaba8e",
+      "unique": true
     },
     {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9",
-      "caption": "Etsy public surface · etsy.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.etsy.com/help"
+      "file": "fallback-appstore-477128284-11.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 11",
+      "caption": "Apple App Store public screenshot (id 477128284)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "71b2eccca2a3b2b3",
+      "unique": true
     },
     {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10",
-      "caption": "Etsy public surface · etsy.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.etsy.com/blog"
+      "file": "fallback-appstore-477128284-12.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 12",
+      "caption": "Apple App Store public screenshot (id 477128284)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "038eb6ca4bb32333",
+      "unique": true
     },
     {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
-      "caption": "Etsy public surface · etsy.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.etsy.com/about"
+      "file": "fallback-appstore-477128284-13.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 13",
+      "caption": "Apple App Store public screenshot (id 477128284)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "0c96eed282a2a2a2",
+      "unique": true
     },
     {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
-      "caption": "Etsy public surface · etsy.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.etsy.com/about"
+      "file": "fallback-appstore-477128284-14.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 14",
+      "caption": "Apple App Store public screenshot (id 477128284)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "13968272323632e2",
+      "unique": true
     },
     {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
-      "caption": "Etsy public surface · etsy.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.etsy.com/signin"
+      "file": "fallback-appstore-477128284-15.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 15",
+      "caption": "Apple App Store public screenshot (id 477128284)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "232b467771595351",
+      "unique": true
     },
     {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13",
-      "caption": "Etsy public surface · etsy.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.etsy.com/signin"
+      "file": "fallback-appstore-477128284-16.jpg",
+      "title": "Etsy: Shop Home, Style & More screenshot 16",
+      "caption": "Apple App Store public screenshot (id 477128284)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id477128284",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "038e334b294f4d69",
+      "unique": true
     },
     {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14",
-      "caption": "Etsy public surface · etsy.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.etsy.com/sign-in"
+      "file": "fallback-appstore-1534619962-17.jpg",
+      "title": "Etsy Seller: Manage Your Shop screenshot 17",
+      "caption": "Apple App Store public screenshot (id 1534619962)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1534619962",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "61f0c97fff66666f",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1534619962-18.jpg",
+      "title": "Etsy Seller: Manage Your Shop screenshot 18",
+      "caption": "Apple App Store public screenshot (id 1534619962)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1534619962",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "c0d01e6470081320",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1534619962-19.jpg",
+      "title": "Etsy Seller: Manage Your Shop screenshot 19",
+      "caption": "Apple App Store public screenshot (id 1534619962)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1534619962",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "69e8c6aab26a6b66",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1534619962-20.jpg",
+      "title": "Etsy Seller: Manage Your Shop screenshot 20",
+      "caption": "Apple App Store public screenshot (id 1534619962)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1534619962",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "e9c1b2a8b2aea2a2",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1534619962-21.jpg",
+      "title": "Etsy Seller: Manage Your Shop screenshot 21",
+      "caption": "Apple App Store public screenshot (id 1534619962)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1534619962",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "f0f0c6baaaaae8d6",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1534619962-22.jpg",
+      "title": "Etsy Seller: Manage Your Shop screenshot 22",
+      "caption": "Apple App Store public screenshot (id 1534619962)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1534619962",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "e968929ab2ba5bf9",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1534619962-23.jpg",
+      "title": "Etsy Seller: Manage Your Shop screenshot 23",
+      "caption": "Apple App Store public screenshot (id 1534619962)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1534619962",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "d8f09eaaaa65692b",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1534619962-24.jpg",
+      "title": "Etsy Seller: Manage Your Shop screenshot 24",
+      "caption": "Apple App Store public screenshot (id 1534619962)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1534619962",
+      "capturedAt": "2026-07-27T23:06:31.872Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "e8e09aaaaaeafaa6",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T14:40:56.665Z",
-    "screenshotCount": 18,
-    "pageCount": 14,
-    "pages": [
-      {
-        "url": "https://www.etsy.com/",
-        "title": "etsy.com",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.etsy.com/pricing",
-        "title": "Etsy - Your place to buy and sell all things handmade, vintage, and supplies",
-        "description": "Sorry, the page you were looking for was not found.",
-        "headings": [
-          "Uh oh!",
-          "Sorry, the page you were looking for was not found."
-        ],
-        "navLabels": [
-          "Go back to Etsy.com"
-        ],
-        "ctas": [
-          "Search"
-        ],
-        "landmarks": [
-          "main",
-          "header"
-        ]
-      },
-      {
-        "url": "https://www.etsy.com/product",
-        "title": "Etsy - Your place to buy and sell all things handmade, vintage, and supplies",
-        "description": "Sorry, the page you were looking for was not found.",
-        "headings": [
-          "Uh oh!",
-          "Sorry, the page you were looking for was not found."
-        ],
-        "navLabels": [
-          "Go back to Etsy.com"
-        ],
-        "ctas": [
-          "Search"
-        ],
-        "landmarks": [
-          "main",
-          "header"
-        ]
-      },
-      {
-        "url": "https://www.etsy.com/products",
-        "title": "Etsy - Your place to buy and sell all things handmade, vintage, and supplies",
-        "description": "Sorry, the page you were looking for was not found.",
-        "headings": [
-          "Uh oh!",
-          "Sorry, the page you were looking for was not found."
-        ],
-        "navLabels": [
-          "Go back to Etsy.com"
-        ],
-        "ctas": [
-          "Search"
-        ],
-        "landmarks": [
-          "main",
-          "header"
-        ]
-      },
-      {
-        "url": "https://www.etsy.com/features",
-        "title": "Etsy - Your place to buy and sell all things handmade, vintage, and supplies",
-        "description": "Sorry, the page you were looking for was not found.",
-        "headings": [
-          "Uh oh!",
-          "Sorry, the page you were looking for was not found."
-        ],
-        "navLabels": [
-          "Go back to Etsy.com"
-        ],
-        "ctas": [
-          "Search"
-        ],
-        "landmarks": [
-          "main",
-          "header"
-        ]
-      },
-      {
-        "url": "https://www.etsy.com/platform",
-        "title": "Etsy - Your place to buy and sell all things handmade, vintage, and supplies",
-        "description": "Sorry, the page you were looking for was not found.",
-        "headings": [
-          "Uh oh!",
-          "Sorry, the page you were looking for was not found."
-        ],
-        "navLabels": [
-          "Go back to Etsy.com"
-        ],
-        "ctas": [
-          "Search"
-        ],
-        "landmarks": [
-          "main",
-          "header"
-        ]
-      },
-      {
-        "url": "https://www.etsy.com/solutions",
-        "title": "Etsy - Your place to buy and sell all things handmade, vintage, and supplies",
-        "description": "Sorry, the page you were looking for was not found.",
-        "headings": [
-          "Uh oh!",
-          "Sorry, the page you were looking for was not found."
-        ],
-        "navLabels": [
-          "Go back to Etsy.com"
-        ],
-        "ctas": [
-          "Search"
-        ],
-        "landmarks": [
-          "main",
-          "header"
-        ]
-      },
-      {
-        "url": "https://www.etsy.com/customers",
-        "title": "Etsy - Your place to buy and sell all things handmade, vintage, and supplies",
-        "description": "Sorry, the page you were looking for was not found.",
-        "headings": [
-          "Uh oh!",
-          "Sorry, the page you were looking for was not found."
-        ],
-        "navLabels": [
-          "Go back to Etsy.com"
-        ],
-        "ctas": [
-          "Search"
-        ],
-        "landmarks": [
-          "main",
-          "header"
-        ]
-      },
-      {
-        "url": "https://www.etsy.com/docs",
-        "title": "Etsy - Your place to buy and sell all things handmade, vintage, and supplies",
-        "description": "Sorry, the page you were looking for was not found.",
-        "headings": [
-          "Uh oh!",
-          "Sorry, the page you were looking for was not found."
-        ],
-        "navLabels": [
-          "Go back to Etsy.com"
-        ],
-        "ctas": [
-          "Search"
-        ],
-        "landmarks": [
-          "main",
-          "header"
-        ]
-      },
-      {
-        "url": "https://www.etsy.com/help",
-        "title": "etsy.com",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.etsy.com/blog",
-        "title": "etsy.com",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.etsy.com/about",
-        "title": "About Etsy",
-        "description": "Find the perfect handmade gift, vintage & on-trend clothes, unique jewelry, and more… lots more.",
-        "headings": [
-          "Keep Commerce Human",
-          "45 million items",
-          "1.9 million active sellers",
-          "31.7 million active buyers",
-          "Our guiding principles",
-          "How Etsy Works",
-          "Sell extraordinarily",
-          "Buy extraordinary",
-          "Shop securely",
-          "Where can I find news about Etsy?",
-          "Is Etsy hiring?",
-          "I'm ready to shop. Where do I begin?",
-          "How do I become an Etsy Seller?",
-          "We're on a mission to keep commerce human.",
-          "Shop",
-          "Sell",
-          "About",
-          "Help",
-          "Update your settings",
-          "Privacy Settings"
-        ],
-        "navLabels": [
-          "Etsy",
-          "Categories",
-          "Accessories",
-          "Art & Collectibles",
-          "Bags & Purses",
-          "Bath & Beauty",
-          "Books, Movies & Music",
-          "Clothing",
-          "Craft Supplies & Tools",
-          "Electronics & Accessories",
-          "Gifts",
-          "Home & Living",
-          "Jewelry",
-          "Kids & Baby",
-          "Paper & Party Supplies",
-          "Pet Supplies",
-          "Shoes",
-          "Toys & Games",
-          "Weddings",
-          "Browse",
-          "Clear search",
-          "Skip to Content",
-          "Sign in"
-        ],
-        "ctas": [
-          "Books, Movies & Music",
-          "Clear search",
-          "Sign in",
-          "millions of buyers",
-          "Start shopping",
-          "search away",
-          "Learn more."
-        ],
-        "landmarks": [
-          "banner",
-          "nav",
-          "search",
-          "dialog",
-          "nav:Main",
-          "main",
-          "nav:company",
-          "footer",
-          "nav:Footer",
-          "dialog:Regions Etsy does business in",
-          "dialog:wt-locale-picker-overlay-title",
-          "dialog:gdpr-full-settings-overlay-title"
-        ]
-      },
-      {
-        "url": "https://www.etsy.com/signin",
-        "title": "etsy.com",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.etsy.com/sign-in",
-        "title": "Etsy - Your place to buy and sell all things handmade, vintage, and supplies",
-        "description": "Sorry, the page you were looking for was not found.",
-        "headings": [
-          "Uh oh!",
-          "Sorry, the page you were looking for was not found."
-        ],
-        "navLabels": [
-          "Go back to Etsy.com"
-        ],
-        "ctas": [
-          "Search"
-        ],
-        "landmarks": [
-          "main",
-          "header"
-        ]
-      }
-    ],
-    "navLabels": [
-      "Go back to Etsy.com",
-      "Etsy",
-      "Categories",
-      "Accessories",
-      "Art & Collectibles",
-      "Bags & Purses",
-      "Bath & Beauty",
-      "Books, Movies & Music",
-      "Clothing",
-      "Craft Supplies & Tools",
-      "Electronics & Accessories",
-      "Gifts",
-      "Home & Living",
-      "Jewelry",
-      "Kids & Baby",
-      "Paper & Party Supplies",
-      "Pet Supplies",
-      "Shoes",
-      "Toys & Games",
-      "Weddings",
-      "Browse",
-      "Clear search",
-      "Skip to Content",
-      "Sign in"
-    ],
-    "ctas": [
-      "Search",
-      "Books, Movies & Music",
-      "Clear search",
-      "Sign in",
-      "millions of buyers",
-      "Start shopping",
-      "search away",
-      "Learn more."
-    ],
-    "headings": [
-      "Uh oh!",
-      "Sorry, the page you were looking for was not found.",
-      "Keep Commerce Human",
-      "45 million items",
-      "1.9 million active sellers",
-      "31.7 million active buyers",
-      "Our guiding principles",
-      "How Etsy Works",
-      "Sell extraordinarily",
-      "Buy extraordinary",
-      "Shop securely",
-      "Where can I find news about Etsy?",
-      "Is Etsy hiring?",
-      "I'm ready to shop. Where do I begin?",
-      "How do I become an Etsy Seller?",
-      "We're on a mission to keep commerce human.",
-      "Shop",
-      "Sell",
-      "About",
-      "Help",
-      "Update your settings",
-      "Privacy Settings"
-    ],
-    "techSignals": [
-      "Google Tag Manager",
-      "Next.js"
-    ],
-    "featureCandidates": [
-      "Uh oh!",
-      "Keep Commerce Human",
-      "45 million items",
-      "1.9 million active sellers",
-      "31.7 million active buyers",
-      "Our guiding principles",
-      "How Etsy Works",
-      "Sell extraordinarily",
-      "Buy extraordinary",
-      "Shop securely",
-      "Where can I find news about Etsy?",
-      "Is Etsy hiring?",
-      "I'm ready to shop. Where do I begin?",
-      "How do I become an Etsy Seller?",
-      "We're on a mission to keep commerce human.",
-      "Shop",
-      "Sell",
-      "About",
-      "Help",
-      "Update your settings",
-      "Privacy Settings",
-      "Search",
-      "Books, Movies & Music",
-      "Clear search"
-    ],
-    "patternCandidates": [
-      "Search",
-      "Pricing display",
-      "Map view",
-      "Card layout",
-      "Authentication"
-    ],
+    "capturedAt": "2026-07-27T23:06:33.687Z",
+    "screenshotCount": 24,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
     "platformsDetected": [
-      "web",
-      "api",
-      "ios",
-      "android"
+      "web"
     ],
-    "summary": "Captured 18 screenshots across 14 public URLs. Nav signals: Go back to Etsy.com, Etsy, Categories, Accessories, Art & Collectibles, Bags & Purses. Tech signals: Google Tag Manager, Next.js. UI patterns: Search, Pricing display, Map view, Card layout, Authentication."
+    "summary": "Captured 24 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
   }
 }

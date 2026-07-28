@@ -1,264 +1,602 @@
 {
   "slug": "adyen",
-  "capturedAt": "2026-07-27T14:13:50.010Z",
+  "capturedAt": "2026-07-27T22:26:17.745Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "Adyen public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://www.adyen.com/"
+      "sourceUrl": "https://www.adyen.com/",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Adyen: Fintech platform for enterprises - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "0b2d29291191919d",
+      "unique": true
     },
     {
       "file": "homepage-top.jpg",
       "title": "Homepage depth (1)",
       "caption": "Adyen homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.adyen.com/"
+      "sourceUrl": "https://www.adyen.com/",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Adyen: Fintech platform for enterprises - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "090f67633131298d",
+      "unique": true
     },
     {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Adyen homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.adyen.com/"
+      "sourceUrl": "https://www.adyen.com/",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Adyen: Fintech platform for enterprises - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "050500231c1c0000",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Adyen homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.adyen.com/"
+      "sourceUrl": "https://www.adyen.com/",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Adyen: Fintech platform for enterprises - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "1c0c606a65656c60",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Adyen homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.adyen.com/",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Adyen: Fintech platform for enterprises - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "7c6500004175454d",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Adyen homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.adyen.com/",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Adyen: Fintech platform for enterprises - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "23f0808810244446",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Adyen homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.adyen.com/",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Adyen: Fintech platform for enterprises - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "3b584448c0848006",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Adyen homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://www.adyen.com/"
+      "sourceUrl": "https://www.adyen.com/",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Adyen: Fintech platform for enterprises - Adyen",
+      "width": 390,
+      "height": 844,
+      "phash": "aa030f8ef0294752",
+      "unique": true
     },
     {
       "file": "search-composer.jpg",
       "title": "Search / composer",
       "caption": "Focused search or primary input on Adyen",
       "kind": "component",
-      "sourceUrl": "https://www.adyen.com/"
+      "sourceUrl": "https://www.adyen.com/",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "search-composer",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Adyen: Fintech platform for enterprises - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "9c3cccda33158c9c",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on Adyen (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://authn-live.adyen.com/authn/ui/login?request=eyJBdXRoblJlcXVlc3QiOnsiYWN0aXZpdHlHcm91cCI6IkJPX0NBIiwiY3JlZHNSZWFzb24iOlsiTG9nZ2luZyBpbiB0byBhcHBsaWNhdGlvbiBjYSJdLCJmb3JjZU5ld1Nlc3Npb24iOiJmYWxzZSIsImZvcmdvdFBhc3N3b3JkVXJsIjoiaHR0cHM6XC9cL2NhLWxpdmUuYWR5ZW4uY29tXC9jYVwvbG9iYnlcL3Bhc3N3b3JkLXJlc2V0XC9mb3Jnb3QtcGFzc3dvcmQiLCJyZXF1ZXN0VGltZSI6IjIwMjYtMDctMjdUMTY6MTM6MDMrMDI6MDAiLCJyZXF1ZXN0ZWRDcmVkZW50aWFscyI6W3siUmVxdWVzdGVkQ3JlZGVudGlhbCI6eyJhY2NlcHRlZEFjdGl2aXR5IjpbeyJBY2NlcHRlZEFjdGl2aXR5Ijp7ImFjdGl2aXR5R3JvdXAiOiJCT19DQSIsImFjdGl2aXR5VHlwZSI6IklNUExJQ0lUIiwibWlsbGlzZWNvbmRzQWdvIjo5MDAwMDB9fV0sInR5cGUiOiJQQVNTV09SRCJ9fSx7IlJlcXVlc3RlZENyZWRlbnRpYWwiOnsiYWNjZXB0ZWRBY3Rpdml0eSI6W3siQWNjZXB0ZWRBY3Rpdml0eSI6eyJhY3Rpdml0eUdyb3VwIjoiQk9fQ0EiLCJhY3Rpdml0eVR5cGUiOiJHUkFDRV9DT09LSUUiLCJtaWxsaXNlY29uZHNBZ28iOjB9fV0sInR5cGUiOiJUV09fRkFDVE9SIn19XSwicmVxdWVzdGluZ0FwcCI6ImNhIiwicmV0dXJuVXJsIjoiaHR0cHM6XC9cL2NhLWxpdmUuYWR5ZW4uY29tXC9jYVwvY2FcL292ZXJ2aWV3XC9kZWZhdWx0LnNodG1sIiwic2lnbmF0dXJlIjoiVjAwNFNKQjQ4NFFvdDdtNVM3ZWlJZ2lQOUJ5M2tPQTNOS3BJSWZkTjFIWVJlajdNPSJ9fQ%3D%3D"
+      "sourceUrl": "https://authn-live.adyen.com/authn/ui/login?request=eyJBdXRoblJlcXVlc3QiOnsiYWN0aXZpdHlHcm91cCI6IkJPX0NBIiwiY3JlZHNSZWFzb24iOlsiTG9nZ2luZyBpbiB0byBhcHBsaWNhdGlvbiBjYSJdLCJmb3JjZU5ld1Nlc3Npb24iOiJmYWxzZSIsImZvcmdvdFBhc3N3b3JkVXJsIjoiaHR0cHM6XC9cL2NhLWxpdmUuYWR5ZW4uY29tXC9jYVwvbG9iYnlcL3Bhc3N3b3JkLXJlc2V0XC9mb3Jnb3QtcGFzc3dvcmQiLCJyZXF1ZXN0VGltZSI6IjIwMjYtMDctMjhUMDA6MjQ6NTQrMDI6MDAiLCJyZXF1ZXN0ZWRDcmVkZW50aWFscyI6W3siUmVxdWVzdGVkQ3JlZGVudGlhbCI6eyJhY2NlcHRlZEFjdGl2aXR5IjpbeyJBY2NlcHRlZEFjdGl2aXR5Ijp7ImFjdGl2aXR5R3JvdXAiOiJCT19DQSIsImFjdGl2aXR5VHlwZSI6IklNUExJQ0lUIiwibWlsbGlzZWNvbmRzQWdvIjo5MDAwMDB9fV0sInR5cGUiOiJQQVNTV09SRCJ9fSx7IlJlcXVlc3RlZENyZWRlbnRpYWwiOnsiYWNjZXB0ZWRBY3Rpdml0eSI6W3siQWNjZXB0ZWRBY3Rpdml0eSI6eyJhY3Rpdml0eUdyb3VwIjoiQk9fQ0EiLCJhY3Rpdml0eVR5cGUiOiJHUkFDRV9DT09LSUUiLCJtaWxsaXNlY29uZHNBZ28iOjB9fV0sInR5cGUiOiJUV09fRkFDVE9SIn19XSwicmVxdWVzdGluZ0FwcCI6ImNhIiwicmV0dXJuVXJsIjoiaHR0cHM6XC9cL2NhLWxpdmUuYWR5ZW4uY29tXC9jYVwvY2FcL292ZXJ2aWV3XC9kZWZhdWx0LnNodG1sIiwic2lnbmF0dXJlIjoiVjAwNFMxYlpYbmZSNTRndnJcL3lPb1ZZRkErU3hwS2IzUmFHZjhJZkh1TENZMG91VT0ifX0%3D",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log In - Authn",
+      "width": 1440,
+      "height": 900,
+      "phash": "4645255573330526",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav",
       "caption": "Same-origin product / pricing / docs links from Adyen",
       "kind": "product",
-      "sourceUrl": "https://www.adyen.com/pricing"
+      "sourceUrl": "https://www.adyen.com/pricing",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing for supported payment methods - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "3c49797959a11198",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "Dashboard (1)",
       "caption": "Adyen public surface · adyen.com",
       "kind": "product",
-      "sourceUrl": "https://www.adyen.com/pricing"
+      "sourceUrl": "https://www.adyen.com/help",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "38040e0c060e0c00",
+      "unique": true
     },
     {
-      "file": "surface-1-mid.jpg",
-      "title": "Dashboard (2)",
+      "file": "surface-1-band-2.jpg",
+      "title": "Dashboard (3)",
       "caption": "Adyen public surface · adyen.com",
       "kind": "product",
-      "sourceUrl": "https://www.adyen.com/pricing"
-    },
-    {
-      "file": "surface-2.jpg",
-      "title": "Settings (1)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "product",
-      "sourceUrl": "https://www.adyen.com/product"
-    },
-    {
-      "file": "surface-2-mid.jpg",
-      "title": "Settings (2)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "product",
-      "sourceUrl": "https://www.adyen.com/product"
-    },
-    {
-      "file": "surface-3.jpg",
-      "title": "Search (1)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/products"
-    },
-    {
-      "file": "surface-3-mid.jpg",
-      "title": "Search (2)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/products"
-    },
-    {
-      "file": "surface-4.jpg",
-      "title": "Profile (1)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/features"
-    },
-    {
-      "file": "surface-4-mid.jpg",
-      "title": "Profile (2)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/features"
-    },
-    {
-      "file": "surface-5.jpg",
-      "title": "Supporting surface 5 (1)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/platform"
-    },
-    {
-      "file": "surface-5-mid.jpg",
-      "title": "Supporting surface 5 (2)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/platform"
+      "sourceUrl": "https://www.adyen.com/help",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "0c000458484440c4",
+      "unique": true
     },
     {
       "file": "surface-6.jpg",
-      "title": "Supporting surface 6 (1)",
-      "caption": "Adyen public surface · adyen.com",
+      "title": "Search / composer (1)",
+      "caption": "Adyen public surface · docs.adyen.com",
       "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/solutions"
+      "sourceUrl": "https://docs.adyen.com/",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Home | Adyen Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "c9265959c28d8045",
+      "unique": true
     },
     {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
-      "caption": "Adyen public surface · adyen.com",
+      "file": "surface-6-band-2.jpg",
+      "title": "Search / composer (3)",
+      "caption": "Adyen public surface · docs.adyen.com",
       "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/solutions"
+      "sourceUrl": "https://docs.adyen.com/",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Home | Adyen Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "805545153d35314d",
+      "unique": true
     },
     {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
-      "caption": "Adyen public surface · adyen.com",
+      "file": "surface-6-band-3.jpg",
+      "title": "Search / composer (4)",
+      "caption": "Adyen public surface · docs.adyen.com",
       "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/customers"
+      "sourceUrl": "https://docs.adyen.com/",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Home | Adyen Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "494560295565770f",
+      "unique": true
     },
     {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
-      "caption": "Adyen public surface · adyen.com",
+      "file": "surface-6-band-4.jpg",
+      "title": "Search / composer (5)",
+      "caption": "Adyen public surface · docs.adyen.com",
       "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/customers"
+      "sourceUrl": "https://docs.adyen.com/",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Home | Adyen Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "c94967460ba2a288",
+      "unique": true
     },
     {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
+      "file": "surface-9-band-2.jpg",
+      "title": "Supporting surface 9 (3)",
       "caption": "Adyen public surface · adyen.com",
       "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/docs"
+      "sourceUrl": "https://www.adyen.com/pricing",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing for supported payment methods - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "1113843727d37353",
+      "unique": true
     },
     {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
+      "file": "surface-9-band-3.jpg",
+      "title": "Supporting surface 9 (4)",
       "caption": "Adyen public surface · adyen.com",
       "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/docs"
+      "sourceUrl": "https://www.adyen.com/pricing",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing for supported payment methods - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "515311599a9e5359",
+      "unique": true
     },
     {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9 (1)",
+      "file": "surface-9-band-4.jpg",
+      "title": "Supporting surface 9 (5)",
       "caption": "Adyen public surface · adyen.com",
       "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/help"
-    },
-    {
-      "file": "surface-9-mid.jpg",
-      "title": "Supporting surface 9 (2)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/help"
-    },
-    {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/blog"
-    },
-    {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/blog"
-    },
-    {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/about"
-    },
-    {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/about"
-    },
-    {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12 (1)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/login"
-    },
-    {
-      "file": "surface-12-mid.jpg",
-      "title": "Supporting surface 12 (2)",
-      "caption": "Adyen public surface · adyen.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/login"
+      "sourceUrl": "https://www.adyen.com/pricing",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing for supported payment methods - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "5751591953575371",
+      "unique": true
     },
     {
       "file": "surface-13.jpg",
       "title": "Supporting surface 13 (1)",
       "caption": "Adyen public surface · adyen.com",
       "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/signin"
+      "sourceUrl": "https://www.adyen.com/customers",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customers | Global brands working with us - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "3c43c52577472505",
+      "unique": true
     },
     {
-      "file": "surface-13-mid.jpg",
-      "title": "Supporting surface 13 (2)",
+      "file": "surface-13-band-2.jpg",
+      "title": "Supporting surface 13 (3)",
       "caption": "Adyen public surface · adyen.com",
       "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/signin"
+      "sourceUrl": "https://www.adyen.com/customers",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customers | Global brands working with us - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "2525824c5c586c70",
+      "unique": true
     },
     {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14 (1)",
+      "file": "surface-13-band-3.jpg",
+      "title": "Supporting surface 13 (4)",
       "caption": "Adyen public surface · adyen.com",
       "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/sign-in"
+      "sourceUrl": "https://www.adyen.com/customers",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customers | Global brands working with us - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "6c745013494c6c6c",
+      "unique": true
     },
     {
-      "file": "surface-14-mid.jpg",
-      "title": "Supporting surface 14 (2)",
+      "file": "surface-13-band-4.jpg",
+      "title": "Supporting surface 13 (5)",
       "caption": "Adyen public surface · adyen.com",
       "kind": "docs",
-      "sourceUrl": "https://www.adyen.com/sign-in"
+      "sourceUrl": "https://www.adyen.com/customers",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customers | Global brands working with us - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d60072707074703",
+      "unique": true
+    },
+    {
+      "file": "surface-15.jpg",
+      "title": "Supporting surface 15 (1)",
+      "caption": "Adyen public surface · adyen.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.adyen.com/about",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Platform built to help businesses grow faster - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "78161669694d7169",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-2.jpg",
+      "title": "Supporting surface 15 (3)",
+      "caption": "Adyen public surface · adyen.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.adyen.com/about",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Platform built to help businesses grow faster - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "716969552b2b480e",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-3.jpg",
+      "title": "Supporting surface 15 (4)",
+      "caption": "Adyen public surface · adyen.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.adyen.com/about",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Platform built to help businesses grow faster - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "480e0e0b234b4f6d",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-4.jpg",
+      "title": "Supporting surface 15 (5)",
+      "caption": "Adyen public surface · adyen.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.adyen.com/about",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Platform built to help businesses grow faster - Adyen",
+      "width": 1440,
+      "height": 900,
+      "phash": "4f4f7a4624c8343c",
+      "unique": true
+    },
+    {
+      "file": "surface-16.jpg",
+      "title": "Supporting surface 16 (1)",
+      "caption": "Adyen public surface · adyen.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.adyen.com/login",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "",
+      "width": 1440,
+      "height": 900,
+      "phash": "e0c0000000000000",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-1.jpg",
+      "title": "hero image",
+      "caption": "Fallback from public docs: https://docs.adyen.com",
+      "kind": "technical",
+      "sourceUrl": "https://docs.adyen.com",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 628,
+      "phash": "060626263f7b792c",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-2.jpg",
+      "title": "Docs UI 2",
+      "caption": "Fallback from public docs: https://docs.adyen.com",
+      "kind": "technical",
+      "sourceUrl": "https://docs.adyen.com",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 628,
+      "phash": "3632363732373f0f",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-3.jpg",
+      "title": "Docs UI 3",
+      "caption": "Fallback from public docs: https://docs.adyen.com",
+      "kind": "technical",
+      "sourceUrl": "https://docs.adyen.com",
+      "capturedAt": "2026-07-27T22:24:35.855Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 628,
+      "phash": "383b2929290f0d1b",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T14:13:50.010Z",
-    "screenshotCount": 36,
-    "pageCount": 16,
+    "capturedAt": "2026-07-27T22:26:17.745Z",
+    "screenshotCount": 32,
+    "pageCount": 8,
     "pages": [
       {
         "url": "https://www.adyen.com/",
@@ -327,7 +665,7 @@
         ]
       },
       {
-        "url": "https://authn-live.adyen.com/authn/ui/login?request=eyJBdXRoblJlcXVlc3QiOnsiYWN0aXZpdHlHcm91cCI6IkJPX0NBIiwiY3JlZHNSZWFzb24iOlsiTG9nZ2luZyBpbiB0byBhcHBsaWNhdGlvbiBjYSJdLCJmb3JjZU5ld1Nlc3Npb24iOiJmYWxzZSIsImZvcmdvdFBhc3N3b3JkVXJsIjoiaHR0cHM6XC9cL2NhLWxpdmUuYWR5ZW4uY29tXC9jYVwvbG9iYnlcL3Bhc3N3b3JkLXJlc2V0XC9mb3Jnb3QtcGFzc3dvcmQiLCJyZXF1ZXN0VGltZSI6IjIwMjYtMDctMjdUMTY6MTM6MDMrMDI6MDAiLCJyZXF1ZXN0ZWRDcmVkZW50aWFscyI6W3siUmVxdWVzdGVkQ3JlZGVudGlhbCI6eyJhY2NlcHRlZEFjdGl2aXR5IjpbeyJBY2NlcHRlZEFjdGl2aXR5Ijp7ImFjdGl2aXR5R3JvdXAiOiJCT19DQSIsImFjdGl2aXR5VHlwZSI6IklNUExJQ0lUIiwibWlsbGlzZWNvbmRzQWdvIjo5MDAwMDB9fV0sInR5cGUiOiJQQVNTV09SRCJ9fSx7IlJlcXVlc3RlZENyZWRlbnRpYWwiOnsiYWNjZXB0ZWRBY3Rpdml0eSI6W3siQWNjZXB0ZWRBY3Rpdml0eSI6eyJhY3Rpdml0eUdyb3VwIjoiQk9fQ0EiLCJhY3Rpdml0eVR5cGUiOiJHUkFDRV9DT09LSUUiLCJtaWxsaXNlY29uZHNBZ28iOjB9fV0sInR5cGUiOiJUV09fRkFDVE9SIn19XSwicmVxdWVzdGluZ0FwcCI6ImNhIiwicmV0dXJuVXJsIjoiaHR0cHM6XC9cL2NhLWxpdmUuYWR5ZW4uY29tXC9jYVwvY2FcL292ZXJ2aWV3XC9kZWZhdWx0LnNodG1sIiwic2lnbmF0dXJlIjoiVjAwNFNKQjQ4NFFvdDdtNVM3ZWlJZ2lQOUJ5M2tPQTNOS3BJSWZkTjFIWVJlajdNPSJ9fQ%3D%3D",
+        "url": "https://authn-live.adyen.com/authn/ui/login?request=eyJBdXRoblJlcXVlc3QiOnsiYWN0aXZpdHlHcm91cCI6IkJPX0NBIiwiY3JlZHNSZWFzb24iOlsiTG9nZ2luZyBpbiB0byBhcHBsaWNhdGlvbiBjYSJdLCJmb3JjZU5ld1Nlc3Npb24iOiJmYWxzZSIsImZvcmdvdFBhc3N3b3JkVXJsIjoiaHR0cHM6XC9cL2NhLWxpdmUuYWR5ZW4uY29tXC9jYVwvbG9iYnlcL3Bhc3N3b3JkLXJlc2V0XC9mb3Jnb3QtcGFzc3dvcmQiLCJyZXF1ZXN0VGltZSI6IjIwMjYtMDctMjhUMDA6MjQ6NTQrMDI6MDAiLCJyZXF1ZXN0ZWRDcmVkZW50aWFscyI6W3siUmVxdWVzdGVkQ3JlZGVudGlhbCI6eyJhY2NlcHRlZEFjdGl2aXR5IjpbeyJBY2NlcHRlZEFjdGl2aXR5Ijp7ImFjdGl2aXR5R3JvdXAiOiJCT19DQSIsImFjdGl2aXR5VHlwZSI6IklNUExJQ0lUIiwibWlsbGlzZWNvbmRzQWdvIjo5MDAwMDB9fV0sInR5cGUiOiJQQVNTV09SRCJ9fSx7IlJlcXVlc3RlZENyZWRlbnRpYWwiOnsiYWNjZXB0ZWRBY3Rpdml0eSI6W3siQWNjZXB0ZWRBY3Rpdml0eSI6eyJhY3Rpdml0eUdyb3VwIjoiQk9fQ0EiLCJhY3Rpdml0eVR5cGUiOiJHUkFDRV9DT09LSUUiLCJtaWxsaXNlY29uZHNBZ28iOjB9fV0sInR5cGUiOiJUV09fRkFDVE9SIn19XSwicmVxdWVzdGluZ0FwcCI6ImNhIiwicmV0dXJuVXJsIjoiaHR0cHM6XC9cL2NhLWxpdmUuYWR5ZW4uY29tXC9jYVwvY2FcL292ZXJ2aWV3XC9kZWZhdWx0LnNodG1sIiwic2lnbmF0dXJlIjoiVjAwNFMxYlpYbmZSNTRndnJcL3lPb1ZZRkErU3hwS2IzUmFHZjhJZkh1TENZMG91VT0ifX0%3D",
         "title": "Log In - Authn",
         "headings": [
           "Log in"
@@ -401,364 +739,6 @@
         ]
       },
       {
-        "url": "https://www.adyen.com/product",
-        "title": "Adyen",
-        "headings": [
-          "404, page not found",
-          "Cookie Preference Center",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Adyen Logo",
-          "Products",
-          "Businesses we serve",
-          "About",
-          "Resources",
-          "Pricing",
-          "Contact usContact us",
-          "Press & media",
-          "Careers",
-          "Investor Relations",
-          "Partner with us",
-          "Contact",
-          "Payments",
-          "Risk management",
-          "Authentication",
-          "Issuing",
-          "Documentation",
-          "Academy",
-          "Knowledge Hub",
-          "Newsletter",
-          "Infrastructure",
-          "Licenses",
-          "Legal",
-          "Terms & Conditions"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact usContact us",
-          "Contact",
-          "Subscribe to our newsletterSubscribe to our newsletter",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer",
-          "dialog:Cookie Preference Center"
-        ]
-      },
-      {
-        "url": "https://www.adyen.com/products",
-        "title": "Adyen",
-        "headings": [
-          "404, page not found",
-          "Cookie Preference Center",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Adyen Logo",
-          "Products",
-          "Businesses we serve",
-          "About",
-          "Resources",
-          "Pricing",
-          "Contact usContact us",
-          "Press & media",
-          "Careers",
-          "Investor Relations",
-          "Partner with us",
-          "Contact",
-          "Payments",
-          "Risk management",
-          "Authentication",
-          "Issuing",
-          "Documentation",
-          "Academy",
-          "Knowledge Hub",
-          "Newsletter",
-          "Infrastructure",
-          "Licenses",
-          "Legal",
-          "Terms & Conditions"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact usContact us",
-          "Contact",
-          "Subscribe to our newsletterSubscribe to our newsletter",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer",
-          "dialog:Cookie Preference Center"
-        ]
-      },
-      {
-        "url": "https://www.adyen.com/features",
-        "title": "Adyen",
-        "headings": [
-          "404, page not found",
-          "Cookie Preference Center",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Adyen Logo",
-          "Products",
-          "Businesses we serve",
-          "About",
-          "Resources",
-          "Pricing",
-          "Contact usContact us",
-          "Press & media",
-          "Careers",
-          "Investor Relations",
-          "Partner with us",
-          "Contact",
-          "Payments",
-          "Risk management",
-          "Authentication",
-          "Issuing",
-          "Documentation",
-          "Academy",
-          "Knowledge Hub",
-          "Newsletter",
-          "Infrastructure",
-          "Licenses",
-          "Legal",
-          "Terms & Conditions"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact usContact us",
-          "Contact",
-          "Subscribe to our newsletterSubscribe to our newsletter",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer",
-          "dialog:Cookie Preference Center"
-        ]
-      },
-      {
-        "url": "https://www.adyen.com/platform",
-        "title": "Adyen",
-        "headings": [
-          "404, page not found",
-          "Cookie Preference Center",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Adyen Logo",
-          "Products",
-          "Businesses we serve",
-          "About",
-          "Resources",
-          "Pricing",
-          "Contact usContact us",
-          "Press & media",
-          "Careers",
-          "Investor Relations",
-          "Partner with us",
-          "Contact",
-          "Payments",
-          "Risk management",
-          "Authentication",
-          "Issuing",
-          "Documentation",
-          "Academy",
-          "Knowledge Hub",
-          "Newsletter",
-          "Infrastructure",
-          "Licenses",
-          "Legal",
-          "Terms & Conditions"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact usContact us",
-          "Contact",
-          "Subscribe to our newsletterSubscribe to our newsletter",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer",
-          "dialog:Cookie Preference Center"
-        ]
-      },
-      {
-        "url": "https://www.adyen.com/solutions",
-        "title": "Adyen",
-        "headings": [
-          "404, page not found",
-          "Cookie Preference Center",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Adyen Logo",
-          "Products",
-          "Businesses we serve",
-          "About",
-          "Resources",
-          "Pricing",
-          "Contact usContact us",
-          "Press & media",
-          "Careers",
-          "Investor Relations",
-          "Partner with us",
-          "Contact",
-          "Payments",
-          "Risk management",
-          "Authentication",
-          "Issuing",
-          "Documentation",
-          "Academy",
-          "Knowledge Hub",
-          "Newsletter",
-          "Infrastructure",
-          "Licenses",
-          "Legal",
-          "Terms & Conditions"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact usContact us",
-          "Contact",
-          "Subscribe to our newsletterSubscribe to our newsletter",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer",
-          "dialog:Cookie Preference Center"
-        ]
-      },
-      {
-        "url": "https://www.adyen.com/customers",
-        "title": "Customers | Global brands working with us - Adyen",
-        "description": "Read how Adyen helps some of the world's leading brands accelerate their growth and learn how Adyen helps specific industries.",
-        "headings": [
-          "Our customers",
-          "Define the way your customers shop",
-          "Everything you need to receive online payments",
-          "Optimize your POS payments setup",
-          "Simplify your platform payments",
-          "Case Studies",
-          "Ready to take the next step?",
-          "Cookie Preference Center",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Adyen Logo",
-          "Products",
-          "Businesses we serve",
-          "About",
-          "Resources",
-          "Pricing",
-          "Contact usContact us",
-          "Press & media",
-          "Careers",
-          "Investor Relations",
-          "Partner with us",
-          "Contact",
-          "Payments",
-          "Risk management",
-          "Authentication",
-          "Issuing",
-          "Documentation",
-          "Academy",
-          "Knowledge Hub",
-          "Newsletter",
-          "Infrastructure",
-          "Licenses",
-          "Legal",
-          "Terms & Conditions"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact usContact us",
-          "Learn more about platform payments",
-          "Contact",
-          "Subscribe to our newsletterSubscribe to our newsletter",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer",
-          "dialog:Cookie Preference Center"
-        ]
-      },
-      {
-        "url": "https://www.adyen.com/docs",
-        "title": "Adyen",
-        "headings": [
-          "404, page not found",
-          "Cookie Preference Center",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Adyen Logo",
-          "Products",
-          "Businesses we serve",
-          "About",
-          "Resources",
-          "Pricing",
-          "Contact usContact us",
-          "Press & media",
-          "Careers",
-          "Investor Relations",
-          "Partner with us",
-          "Contact",
-          "Payments",
-          "Risk management",
-          "Authentication",
-          "Issuing",
-          "Documentation",
-          "Academy",
-          "Knowledge Hub",
-          "Newsletter",
-          "Infrastructure",
-          "Licenses",
-          "Legal",
-          "Terms & Conditions"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact usContact us",
-          "Contact",
-          "Subscribe to our newsletterSubscribe to our newsletter",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer",
-          "dialog:Cookie Preference Center"
-        ]
-      },
-      {
         "url": "https://www.adyen.com/help",
         "title": "Adyen",
         "headings": [
@@ -809,10 +789,90 @@
         ]
       },
       {
-        "url": "https://www.adyen.com/blog",
-        "title": "Adyen",
+        "url": "https://docs.adyen.com/",
+        "title": "Home | Adyen Docs",
+        "description": "Adyen developer portal helps you learn about online and point-of-sale payments and provides technical documentation on integrating with our services and APIs.",
         "headings": [
-          "404, page not found",
+          "Welcome to Adyen docs",
+          "Discover our developer resources",
+          "Join our Dev Community",
+          "Cookie Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Go to Adyen Docs homepage",
+          "API Explorer",
+          "Support",
+          "Sign up",
+          "Payments",
+          "Get startedStart accepting payments with Adyen.",
+          "Online paymentsAccept ecommerce payments on your website or in your mobile app.",
+          "OmnichannelGet insights and build customer journeys across sales channels.",
+          "PluginsConnect your existing commerce system to our payments platform.",
+          "Adyen for Platforms",
+          "Get startedDiscover which Adyen for Platforms offering is the best for you.",
+          "PlatformsEnable your users to accept online and in-person payments.",
+          "MarketplacesAllow sellers to accept online payments on your marketplace.",
+          "Business accountsOffer business accounts to your users.",
+          "CapitalEnable fast business financing for your users.",
+          "Embedded issuingCreate physical and virtual cards for your users.",
+          "Classic platformsAdyen for Platforms integrations before Aug 1, 2022.",
+          "Enterprise financial products",
+          "Enterprise issuingCreate physical and virtual cards to manage your expenses.",
+          "PayoutsMake payouts to third parties in multiple locations and currencies.",
+          "Business operations",
+          "AccountManage your Adyen account configuration in your dashboard.",
+          "ReportingGet financial or operational reports for your business.",
+          "Risk managementDetect payment fraud, reduce risk, and handle disputes."
+        ],
+        "ctas": [
+          "API Explorer",
+          "Sign up",
+          "Get startedStart accepting payments with Adyen.",
+          "Get startedDiscover which Adyen for Platforms offering is the best for you.",
+          "Embedded issuingCreate physical and virtual cards for your users.",
+          "Enterprise issuingCreate physical and virtual cards to manage your expenses.",
+          "Get started with Adyen",
+          "Create tokens",
+          "Add payment methods",
+          "Add information to a payment",
+          "Manual Key Entry",
+          "Log in and log out",
+          "Create a flow",
+          "Get started manuals",
+          "Step 3 - Start a transaction",
+          "Get started",
+          "Data formats per country/region",
+          "Reference for additional capabilities",
+          "Industry codes list",
+          "Brand-specific industry codes list"
+        ],
+        "landmarks": [
+          "dialog",
+          "header",
+          "nav:Top navigation, search, external links",
+          "nav:Secondary Nav",
+          "nav:Bottom navigation, menu items",
+          "nav",
+          "main",
+          "footer",
+          "aside",
+          "dialog:Cookie Preference Center"
+        ]
+      },
+      {
+        "url": "https://www.adyen.com/customers",
+        "title": "Customers | Global brands working with us - Adyen",
+        "description": "Read how Adyen helps some of the world's leading brands accelerate their growth and learn how Adyen helps specific industries.",
+        "headings": [
+          "Our customers",
+          "Define the way your customers shop",
+          "Everything you need to receive online payments",
+          "Optimize your POS payments setup",
+          "Simplify your platform payments",
+          "Case Studies",
+          "Ready to take the next step?",
           "Cookie Preference Center",
           "Manage Consent Preferences",
           "Cookie List"
@@ -846,6 +906,7 @@
         "ctas": [
           "Pricing",
           "Contact usContact us",
+          "Learn more about platform payments",
           "Contact",
           "Subscribe to our newsletterSubscribe to our newsletter",
           "Filter Icon"
@@ -918,153 +979,11 @@
       },
       {
         "url": "https://www.adyen.com/login",
-        "title": "Adyen",
-        "headings": [
-          "404, page not found",
-          "Cookie Preference Center",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Adyen Logo",
-          "Products",
-          "Businesses we serve",
-          "About",
-          "Resources",
-          "Pricing",
-          "Contact usContact us",
-          "Press & media",
-          "Careers",
-          "Investor Relations",
-          "Partner with us",
-          "Contact",
-          "Payments",
-          "Risk management",
-          "Authentication",
-          "Issuing",
-          "Documentation",
-          "Academy",
-          "Knowledge Hub",
-          "Newsletter",
-          "Infrastructure",
-          "Licenses",
-          "Legal",
-          "Terms & Conditions"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact usContact us",
-          "Contact",
-          "Subscribe to our newsletterSubscribe to our newsletter",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer",
-          "dialog:Cookie Preference Center"
-        ]
-      },
-      {
-        "url": "https://www.adyen.com/signin",
-        "title": "Adyen",
-        "headings": [
-          "404, page not found",
-          "Cookie Preference Center",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Adyen Logo",
-          "Products",
-          "Businesses we serve",
-          "About",
-          "Resources",
-          "Pricing",
-          "Contact usContact us",
-          "Press & media",
-          "Careers",
-          "Investor Relations",
-          "Partner with us",
-          "Contact",
-          "Payments",
-          "Risk management",
-          "Authentication",
-          "Issuing",
-          "Documentation",
-          "Academy",
-          "Knowledge Hub",
-          "Newsletter",
-          "Infrastructure",
-          "Licenses",
-          "Legal",
-          "Terms & Conditions"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact usContact us",
-          "Contact",
-          "Subscribe to our newsletterSubscribe to our newsletter",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer",
-          "dialog:Cookie Preference Center"
-        ]
-      },
-      {
-        "url": "https://www.adyen.com/sign-in",
-        "title": "Adyen",
-        "headings": [
-          "404, page not found",
-          "Cookie Preference Center",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Adyen Logo",
-          "Products",
-          "Businesses we serve",
-          "About",
-          "Resources",
-          "Pricing",
-          "Contact usContact us",
-          "Press & media",
-          "Careers",
-          "Investor Relations",
-          "Partner with us",
-          "Contact",
-          "Payments",
-          "Risk management",
-          "Authentication",
-          "Issuing",
-          "Documentation",
-          "Academy",
-          "Knowledge Hub",
-          "Newsletter",
-          "Infrastructure",
-          "Licenses",
-          "Legal",
-          "Terms & Conditions"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact usContact us",
-          "Contact",
-          "Subscribe to our newsletterSubscribe to our newsletter",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer",
-          "dialog:Cookie Preference Center"
-        ]
+        "title": "",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
       }
     ],
     "navLabels": [
@@ -1091,7 +1010,13 @@
       "Infrastructure",
       "Licenses",
       "Legal",
-      "Terms & Conditions"
+      "Terms & Conditions",
+      "Go to Adyen Docs homepage",
+      "API Explorer",
+      "Support",
+      "Sign up",
+      "Get startedStart accepting payments with Adyen.",
+      "Online paymentsAccept ecommerce payments on your website or in your mobile app."
     ],
     "ctas": [
       "Pricing",
@@ -1104,8 +1029,20 @@
       "Learn more",
       "Bancontact",
       "Is custom pricing available?",
-      "Learn more about platform payments",
-      "Learn more here."
+      "API Explorer",
+      "Sign up",
+      "Get startedStart accepting payments with Adyen.",
+      "Get startedDiscover which Adyen for Platforms offering is the best for you.",
+      "Embedded issuingCreate physical and virtual cards for your users.",
+      "Enterprise issuingCreate physical and virtual cards to manage your expenses.",
+      "Get started with Adyen",
+      "Create tokens",
+      "Add payment methods",
+      "Add information to a payment",
+      "Manual Key Entry",
+      "Log in and log out",
+      "Create a flow",
+      "Get started manuals"
     ],
     "headings": [
       "Fintech you can bank on",
@@ -1135,13 +1072,14 @@
       "Is custom pricing available?",
       "Any questions?",
       "404, page not found",
-      "Our customers",
-      "Define the way your customers shop",
-      "Everything you need to receive online payments"
+      "Welcome to Adyen docs",
+      "Discover our developer resources",
+      "Join our Dev Community"
     ],
     "techSignals": [
       "Google Tag Manager",
-      "Next.js"
+      "Next.js",
+      "Cloudflare"
     ],
     "featureCandidates": [
       "Fintech you can bank on",
@@ -1167,20 +1105,25 @@
       "Is custom pricing available?",
       "Any questions?",
       "404, page not found",
-      "Our customers"
+      "Welcome to Adyen docs"
     ],
     "patternCandidates": [
       "Pricing display",
       "Tabs",
       "Checkout",
       "Authentication",
-      "Card layout"
+      "Card layout",
+      "Search",
+      "Messaging"
     ],
     "platformsDetected": [
       "web",
       "api",
       "cli"
     ],
-    "summary": "Captured 36 screenshots across 16 public URLs. Nav signals: Adyen Logo, Products, Businesses we serve, About, Resources, Pricing. Tech signals: Google Tag Manager, Next.js. UI patterns: Pricing display, Tabs, Checkout, Authentication, Card layout."
+    "summary": "Captured 32 screenshots across 8 public URLs. Nav signals: Adyen Logo, Products, Businesses we serve, About, Resources, Pricing. Tech signals: Google Tag Manager, Next.js, Cloudflare. UI patterns: Pricing display, Tabs, Checkout, Authentication, Card layout, Search."
+  },
+  "fallback": {
+    "blockedNavigations": 0
   }
 }

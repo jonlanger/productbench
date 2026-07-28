@@ -1,289 +1,114 @@
 {
   "slug": "box",
-  "capturedAt": "2026-07-27T13:45:31.866Z",
+  "capturedAt": "2026-07-27T23:03:46.265Z",
   "shots": [
     {
-      "file": "homepage.jpg",
-      "title": "Home",
-      "caption": "Box public homepage (top of page)",
-      "kind": "homepage",
-      "sourceUrl": "https://www.box.com/"
-    },
-    {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Box homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.box.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
-      "title": "Homepage depth (2)",
-      "caption": "Box homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.box.com/"
-    },
-    {
-      "file": "homepage-lower.jpg",
-      "title": "Homepage depth (3)",
-      "caption": "Box homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.box.com/"
-    },
-    {
-      "file": "homepage-mobile.jpg",
-      "title": "Homepage mobile",
-      "caption": "Box homepage at mobile viewport",
-      "kind": "product",
-      "sourceUrl": "https://www.box.com/"
-    },
-    {
-      "file": "search-composer.jpg",
-      "title": "Search / composer",
-      "caption": "Focused search or primary input on Box",
-      "kind": "component",
-      "sourceUrl": "https://www.box.com/"
-    },
-    {
-      "file": "sign-in.jpg",
-      "title": "Sign in",
-      "caption": "Sign in / log in UI on Box (pattern only — no credentials)",
-      "kind": "component",
-      "sourceUrl": "https://account.box.com/login"
-    },
-    {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
-      "caption": "Box public surface · box.com",
+      "file": "fallback-docs-1.png",
+      "title": "Product : Box Admin Tools",
+      "caption": "Fallback from public docs: https://support.box.com/hc/en-us",
       "kind": "docs",
-      "sourceUrl": "https://www.box.com/login"
+      "sourceUrl": "https://support.box.com/hc/en-us",
+      "capturedAt": "2026-07-27T23:03:42.989Z",
+      "playbookStep": "web-fallback",
+      "width": 20,
+      "height": 20,
+      "phash": "e4d8e4e4d8d8e4d8",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-2.png",
+      "title": "Product : Box Canvas",
+      "caption": "Fallback from public docs: https://support.box.com/hc/en-us",
+      "kind": "docs",
+      "sourceUrl": "https://support.box.com/hc/en-us",
+      "capturedAt": "2026-07-27T23:03:42.989Z",
+      "playbookStep": "web-fallback",
+      "width": 60,
+      "height": 60,
+      "phash": "b2cdcc68e4ec6db2",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-3.jpg",
+      "title": "start",
+      "caption": "Fallback from public docs: https://developer.box.com/guides/",
+      "kind": "technical",
+      "sourceUrl": "https://developer.box.com/guides/",
+      "capturedAt": "2026-07-27T23:03:42.989Z",
+      "playbookStep": "web-fallback",
+      "width": 1127,
+      "height": 632,
+      "phash": "6169e8cccccc6961",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-4.jpg",
+      "title": "guides",
+      "caption": "Fallback from public docs: https://developer.box.com/guides/",
+      "kind": "technical",
+      "sourceUrl": "https://developer.box.com/guides/",
+      "capturedAt": "2026-07-27T23:03:42.989Z",
+      "playbookStep": "web-fallback",
+      "width": 1127,
+      "height": 632,
+      "phash": "607c64f0b0307860",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-5.jpg",
+      "title": "ai_dev_zone",
+      "caption": "Fallback from public docs: https://developer.box.com/guides/",
+      "kind": "technical",
+      "sourceUrl": "https://developer.box.com/guides/",
+      "capturedAt": "2026-07-27T23:03:42.989Z",
+      "playbookStep": "web-fallback",
+      "width": 1137,
+      "height": 634,
+      "phash": "32331b0f0f133329",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-6.jpg",
+      "title": "api",
+      "caption": "Fallback from public docs: https://developer.box.com/guides/",
+      "kind": "technical",
+      "sourceUrl": "https://developer.box.com/guides/",
+      "capturedAt": "2026-07-27T23:03:42.989Z",
+      "playbookStep": "web-fallback",
+      "width": 1127,
+      "height": 632,
+      "phash": "f0cccc96c6e6cccc",
+      "unique": true
     },
     {
       "file": "fallback-og-1.jpg",
       "title": "Marketing preview",
       "caption": "Open Graph image (fallback when live UI capture was thin)",
       "kind": "marketing",
-      "sourceUrl": "https://www.box.com"
+      "sourceUrl": "https://www.box.com",
+      "capturedAt": "2026-07-27T23:03:42.989Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 630,
+      "phash": "0000486169710000",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T13:45:31.866Z",
-    "screenshotCount": 9,
-    "pageCount": 3,
-    "pages": [
-      {
-        "url": "https://www.box.com/",
-        "title": "Box | AI-Powered Content Management, Workflow & Collaboration",
-        "description": "Intelligent Content Management makes it easy to automate workflows, collaborate internally and externally, and protect your sensitive data, all on one platform.",
-        "headings": [
-          "Content + AI",
-          "Intelligent content management, secure collaboration, and agentic workflow",
-          "One secure, intelligent platform with 1,500+ app integrations",
-          "Named a Leader by independent analyst firms",
-          "Learn more about Content + AI"
-        ],
-        "navLabels": [
-          "Products",
-          "Solutions",
-          "Developer",
-          "Resources",
-          "News",
-          "Pricing",
-          "Contact",
-          "OverviewIntelligent Content Management",
-          "Security & ComplianceEnd-to-end data protection",
-          "CollaborationSecurely work together on files",
-          "Workflow AutomationAI driven business processes",
-          "No-code AppsIntelligent Apps for any workflow",
-          "HubsAI-powered content portals",
-          "Box AIUnlock the value of your content",
-          "Box AI AgentsIntelligent agents to transform work",
-          "Box ExtractExtract structured data at scale",
-          "E-signatureSend, track, and manage e-signatures",
-          "IntegrationsThousands of connected apps",
-          "Content PlatformBuild with content APIs",
-          "See all products & features",
-          "Learn more",
-          "Industries",
-          "Financial Services",
-          "State & Local Government"
-        ],
-        "ctas": [
-          "Learn more",
-          "Pricing",
-          "Contact",
-          "Go to Platform add-on pricing",
-          "Sign up for freeBuild your first Box integration",
-          "View developer docsExplore guides, tutorials, and more",
-          "CommunityJoin the discussion with Box devs",
-          "App Downloads",
-          "Demos & Use Cases",
-          "Log in",
-          "Get started",
-          "White arrow right Get started",
-          "Contact us",
-          "Explore collaboration",
-          "Explore tools",
-          "Facebook",
-          "Demos",
-          "Downloads"
-        ],
-        "landmarks": [
-          "aside",
-          "banner:Site-Header",
-          "navigation:Main Menu",
-          "navigation:User Menu",
-          "main",
-          "contentinfo:Footer Navigation",
-          "nav:Box Social Links",
-          "nav",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://account.box.com/login",
-        "title": "Box | Login",
-        "headings": [
-          "Sign In to Your Account"
-        ],
-        "navLabels": [
-          "©2026 Box",
-          "Privacy Policy",
-          "Terms",
-          "Help"
-        ],
-        "ctas": [
-          "Sign Up",
-          "Sign in with Google",
-          "Learn more",
-          "Learn more about how to."
-        ],
-        "landmarks": [
-          "navigation"
-        ]
-      },
-      {
-        "url": "https://www.box.com/login",
-        "title": "Box | Login",
-        "headings": [
-          "Sign In to Your Account"
-        ],
-        "navLabels": [
-          "©2026 Box",
-          "Privacy Policy",
-          "Terms",
-          "Help"
-        ],
-        "ctas": [
-          "Sign Up",
-          "Sign in with Google",
-          "Learn more",
-          "Learn more about how to."
-        ],
-        "landmarks": [
-          "navigation"
-        ]
-      }
-    ],
-    "navLabels": [
-      "Products",
-      "Solutions",
-      "Developer",
-      "Resources",
-      "News",
-      "Pricing",
-      "Contact",
-      "OverviewIntelligent Content Management",
-      "Security & ComplianceEnd-to-end data protection",
-      "CollaborationSecurely work together on files",
-      "Workflow AutomationAI driven business processes",
-      "No-code AppsIntelligent Apps for any workflow",
-      "HubsAI-powered content portals",
-      "Box AIUnlock the value of your content",
-      "Box AI AgentsIntelligent agents to transform work",
-      "Box ExtractExtract structured data at scale",
-      "E-signatureSend, track, and manage e-signatures",
-      "IntegrationsThousands of connected apps",
-      "Content PlatformBuild with content APIs",
-      "See all products & features",
-      "Learn more",
-      "Industries",
-      "Financial Services",
-      "State & Local Government",
-      "©2026 Box",
-      "Privacy Policy",
-      "Terms",
-      "Help"
-    ],
-    "ctas": [
-      "Learn more",
-      "Pricing",
-      "Contact",
-      "Go to Platform add-on pricing",
-      "Sign up for freeBuild your first Box integration",
-      "View developer docsExplore guides, tutorials, and more",
-      "CommunityJoin the discussion with Box devs",
-      "App Downloads",
-      "Demos & Use Cases",
-      "Log in",
-      "Get started",
-      "White arrow right Get started",
-      "Contact us",
-      "Explore collaboration",
-      "Explore tools",
-      "Facebook",
-      "Demos",
-      "Downloads",
-      "Sign Up",
-      "Sign in with Google",
-      "Learn more about how to."
-    ],
-    "headings": [
-      "Content + AI",
-      "Intelligent content management, secure collaboration, and agentic workflow",
-      "One secure, intelligent platform with 1,500+ app integrations",
-      "Named a Leader by independent analyst firms",
-      "Learn more about Content + AI",
-      "Sign In to Your Account"
-    ],
-    "techSignals": [
-      "Google Tag Manager",
-      "Next.js"
-    ],
-    "featureCandidates": [
-      "Content + AI",
-      "Named a Leader by independent analyst firms",
-      "Learn more about Content + AI",
-      "Sign In to Your Account",
-      "Learn more",
-      "Pricing",
-      "Contact",
-      "Go to Platform add-on pricing",
-      "View developer docsExplore guides, tutorials, and more",
-      "CommunityJoin the discussion with Box devs",
-      "App Downloads",
-      "Demos & Use Cases",
-      "Get started",
-      "White arrow right Get started",
-      "Contact us",
-      "Explore collaboration",
-      "Explore tools",
-      "Facebook",
-      "Demos",
-      "Downloads",
-      "Learn more about how to."
-    ],
-    "patternCandidates": [
-      "Pricing display",
-      "Map view",
-      "Authentication"
-    ],
+    "capturedAt": "2026-07-27T23:03:46.265Z",
+    "screenshotCount": 7,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
     "platformsDetected": [
-      "web",
-      "api",
-      "cli"
+      "web"
     ],
-    "summary": "Captured 9 screenshots across 3 public URLs. Nav signals: Products, Solutions, Developer, Resources, News, Pricing. Tech signals: Google Tag Manager, Next.js. UI patterns: Pricing display, Map view, Authentication."
+    "summary": "Captured 7 screenshots across 0 public URLs."
   },
   "fallback": {
     "blockedNavigations": 0

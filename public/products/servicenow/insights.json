@@ -1,53 +1,16 @@
 {
-  "capturedAt": "2026-07-27T00:20:57.159Z",
-  "screenshotCount": 19,
-  "pageCount": 3,
-  "pages": [
-    {
-      "url": "https://www.servicenow.com/docs/",
-      "title": "ServiceNow • Docs | ServiceNow",
-      "headings": [],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": [
-        "header"
-      ]
-    },
-    {
-      "url": "https://developer.servicenow.com/dev.do#!/reference",
-      "title": "Reference | ServiceNow Developers",
-      "description": "ServiceNow provides JavaScript APIs for use within scripts running on the ServiceNow platform to deliver common functionality. This reference lists available classes and methods along with parameters, descriptions, and examples to make extending the ServiceNow platform easier.",
-      "headings": [],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": [
-        "header"
-      ]
-    },
-    {
-      "url": "https://www.servicenow.com/docs/r/yokohama/api-reference/rest-api-explorer/c_RESTAPI.html",
-      "title": "Reader • Docs | ServiceNow",
-      "headings": [],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": [
-        "header"
-      ]
-    }
-  ],
+  "capturedAt": "2026-07-27T23:01:25.437Z",
+  "screenshotCount": 7,
+  "pageCount": 0,
+  "pages": [],
   "navLabels": [],
   "ctas": [],
   "headings": [],
-  "techSignals": [
-    "Google Tag Manager"
-  ],
+  "techSignals": [],
   "featureCandidates": [],
-  "patternCandidates": [
-    "Tabs"
-  ],
+  "patternCandidates": [],
   "platformsDetected": [
-    "web",
-    "api"
+    "web"
   ],
-  "summary": "Captured 19 screenshots across 3 public URLs. Tech signals: Google Tag Manager. UI patterns: Tabs."
+  "summary": "Captured 7 screenshots across 0 public URLs."
 }

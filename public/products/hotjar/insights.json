@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-07-27T14:16:28.820Z",
-  "screenshotCount": 38,
-  "pageCount": 16,
+  "capturedAt": "2026-07-27T22:28:29.418Z",
+  "screenshotCount": 44,
+  "pageCount": 10,
   "pages": [
     {
       "url": "https://www.hotjar.com/",
@@ -51,13 +51,12 @@
       ]
     },
     {
-      "url": "https://www.hotjar.com/product/surveys/",
-      "title": "Hear Directly From Users With On-Site And External Surveys",
-      "description": "Validate your plans with user feedback, learn why customers really churn, and collect an ever-growing pool of new ideas with Surveys. Get started for free.",
+      "url": "https://www.hotjar.com/about-us/",
+      "title": "About us | Hotjar",
+      "description": "On a mission to make the web a better place.",
       "headings": [
-        "Hotjar Surveys are now part of Contentsquare",
-        "Over 402 million survey responses collected via Hotjar and Contentsquare",
-        "Start using Surveys in Contentsquare",
+        "On a mission to make the web a better place",
+        "Trusted by 1,306,323 websites in 180+ countries",
         "Looking for more wisdom?",
         "Products",
         "Company",
@@ -82,10 +81,146 @@
         "Contact Sales",
         "Sign in",
         "Get started",
-        "Book a demo",
-        "Get started free",
         "Subscribe",
         "Filter Icon"
+      ],
+      "landmarks": [
+        "nav",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.hotjar.com/help/",
+      "title": "Understand how users behave on your site, what they need, and how they feel, fast.",
+      "description": "See how visitors are really using your website, collect user feedback and turn more visitors into customers.",
+      "headings": [
+        "Something went wrong...",
+        "Oops! Page not found.",
+        "Looking for more wisdom?",
+        "Products",
+        "Company",
+        "Compliance"
+      ],
+      "navLabels": [
+        "Hotjar Logo",
+        "Products",
+        "Pricing",
+        "Resources",
+        "Contact Sales",
+        "Sign in",
+        "Get started",
+        "Toggle navigation menu"
+      ],
+      "ctas": [
+        "Learn more",
+        "Pricing",
+        "Contact Sales",
+        "Sign in",
+        "Get started",
+        "Explore the blog",
+        "Subscribe"
+      ],
+      "landmarks": [
+        "nav",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://help.hotjar.com/hc/en-us",
+      "title": "Hotjar Documentation",
+      "headings": [
+        "How can we help?",
+        "FEATURED ARTICLEHow to Share and Export Data",
+        "Topics",
+        "Installing Hotjar & Configuring Site Settings",
+        "Plans, Payments, and Invoices",
+        "Account Management & Team Members",
+        "Observe Tools",
+        "Ask Tools",
+        "Engage Tools",
+        "Compliance, Data Privacy, Legal & Security",
+        "About Hotjar, Use Cases, and Best Practice Checklists",
+        "Integrations & APIs",
+        "Product",
+        "Why Hotjar",
+        "Learn",
+        "Company",
+        "Compliance",
+        "Manage Consent Preferences for Hotjar.com",
+        "Cookie List"
+      ],
+      "navLabels": [
+        "Pricing",
+        "System Status",
+        "Back to Hotjar.com",
+        "Try it for free"
+      ],
+      "ctas": [
+        "Pricing",
+        "Try it for free",
+        "4 quick tips to get started with Hotjar Get started with Hotjar",
+        "Watch Demo",
+        "For researchers",
+        "Filter Icon"
+      ],
+      "landmarks": [
+        "header",
+        "nav",
+        "main",
+        "search",
+        "footer",
+        "dialog:Manage Consent Preferences for Hotjar.com"
+      ]
+    },
+    {
+      "url": "https://www.hotjar.com/product/",
+      "title": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+      "description": "The next best thing to sitting beside someone as they browse your site. See where they click, ask what they think, and learn why they drop off. Get started for free.",
+      "headings": [
+        "The slow, manual days of collating data and feedback are over.",
+        "Trusted by 1,306,323 websites in 180+ countries",
+        "How Hotjar works",
+        "Heatmaps",
+        "Recordings",
+        "Feedback",
+        "Surveys",
+        "Interviews",
+        "User Tests",
+        "Learn how we keep end-user privacy at the heart of everything we do.",
+        "GDPR commitment",
+        "CCPA commitment",
+        "PCI compliance",
+        "Our approach to privacy",
+        "Get started with Hotjar",
+        "Hey product managers",
+        "Hi product designers",
+        "Hello researchers",
+        "We play well with others",
+        "Discovering pain points"
+      ],
+      "navLabels": [
+        "Hotjar Logo",
+        "Products",
+        "Pricing",
+        "Resources",
+        "Contact Sales",
+        "Sign in",
+        "Get started",
+        "English",
+        "Toggle navigation menu"
+      ],
+      "ctas": [
+        "Learn more",
+        "Pricing",
+        "Contact Sales",
+        "Sign in",
+        "Get started",
+        "Start free with Google",
+        "Get started free",
+        "Explore integrations",
+        "Explore all guides"
       ],
       "landmarks": [
         "nav",
@@ -157,64 +292,7 @@
         "main",
         "aside",
         "footer",
-        "dialog:Privacy",
         "dialog:Privacy Preference Center"
-      ]
-    },
-    {
-      "url": "https://www.hotjar.com/product/",
-      "title": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
-      "description": "The next best thing to sitting beside someone as they browse your site. See where they click, ask what they think, and learn why they drop off. Get started for free.",
-      "headings": [
-        "The slow, manual days of collating data and feedback are over.",
-        "Trusted by 1,306,323 websites in 180+ countries",
-        "How Hotjar works",
-        "Heatmaps",
-        "Recordings",
-        "Feedback",
-        "Surveys",
-        "Interviews",
-        "User Tests",
-        "Get started with Hotjar",
-        "We play well with others",
-        "Discovering pain points",
-        "Getting buy-in",
-        "Boosting conversions",
-        "Reducing assumptions",
-        "Hotjar Guides",
-        "The complete guide to heatmaps",
-        "The beginner’s guide to behavior analytics",
-        "What are product experience insights? (and why every product team needs them)",
-        "Looking for more wisdom?"
-      ],
-      "navLabels": [
-        "Hotjar Logo",
-        "Products",
-        "Pricing",
-        "Resources",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "English",
-        "Toggle navigation menu"
-      ],
-      "ctas": [
-        "Learn more",
-        "Pricing",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Start free with Google",
-        "Get started free",
-        "Explore integrations",
-        "Explore all guides",
-        "Subscribe",
-        "Filter Icon"
-      ],
-      "landmarks": [
-        "nav",
-        "main",
-        "footer"
       ]
     },
     {
@@ -224,7 +302,14 @@
       "headings": [
         "Find out what people actually do on your website",
         "5,750 product managers discover insights in Hotjar every week",
+        "Crush your product goals with Hotjar",
+        "Reduce assumptions and validate ideas",
+        "Spot opportunities to hit business goals",
+        "Get buy-in for your next big idea",
         "Contentsquare is designed for any team that cares about digital journeys",
+        "Make the right changes with reliable insights from actual users",
+        "Without Hotjar",
+        "With Hotjar",
         "Increase conversion",
         "Spot and fix bugs",
         "Validate ideas",
@@ -257,117 +342,6 @@
         "Sign up with Google",
         "Subscribe",
         "Filter Icon"
-      ],
-      "landmarks": [
-        "nav",
-        "main",
-        "footer"
-      ]
-    },
-    {
-      "url": "https://www.hotjar.com/features/",
-      "title": "Understand how users behave on your site, what they need, and how they feel, fast.",
-      "description": "See how visitors are really using your website, collect user feedback and turn more visitors into customers.",
-      "headings": [
-        "Something went wrong...",
-        "Oops! Page not found.",
-        "Looking for more wisdom?",
-        "Products",
-        "Company",
-        "Compliance"
-      ],
-      "navLabels": [
-        "Hotjar Logo",
-        "Products",
-        "Pricing",
-        "Resources",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Toggle navigation menu"
-      ],
-      "ctas": [
-        "Learn more",
-        "Pricing",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Explore the blog",
-        "Subscribe"
-      ],
-      "landmarks": [
-        "nav",
-        "main",
-        "footer"
-      ]
-    },
-    {
-      "url": "https://www.hotjar.com/platform/",
-      "title": "Understand how users behave on your site, what they need, and how they feel, fast.",
-      "description": "See how visitors are really using your website, collect user feedback and turn more visitors into customers.",
-      "headings": [
-        "Something went wrong...",
-        "Oops! Page not found.",
-        "Looking for more wisdom?",
-        "Products",
-        "Company",
-        "Compliance"
-      ],
-      "navLabels": [
-        "Hotjar Logo",
-        "Products",
-        "Pricing",
-        "Resources",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Toggle navigation menu"
-      ],
-      "ctas": [
-        "Learn more",
-        "Pricing",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Explore the blog",
-        "Subscribe"
-      ],
-      "landmarks": [
-        "nav",
-        "main",
-        "footer"
-      ]
-    },
-    {
-      "url": "https://www.hotjar.com/solutions/",
-      "title": "Understand how users behave on your site, what they need, and how they feel, fast.",
-      "description": "See how visitors are really using your website, collect user feedback and turn more visitors into customers.",
-      "headings": [
-        "Something went wrong...",
-        "Oops! Page not found.",
-        "Looking for more wisdom?",
-        "Products",
-        "Company",
-        "Compliance"
-      ],
-      "navLabels": [
-        "Hotjar Logo",
-        "Products",
-        "Pricing",
-        "Resources",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Toggle navigation menu"
-      ],
-      "ctas": [
-        "Learn more",
-        "Pricing",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Explore the blog",
-        "Subscribe"
       ],
       "landmarks": [
         "nav",
@@ -426,80 +400,6 @@
       ]
     },
     {
-      "url": "https://www.hotjar.com/docs/",
-      "title": "Understand how users behave on your site, what they need, and how they feel, fast.",
-      "description": "See how visitors are really using your website, collect user feedback and turn more visitors into customers.",
-      "headings": [
-        "Something went wrong...",
-        "Oops! Page not found.",
-        "Looking for more wisdom?",
-        "Products",
-        "Company",
-        "Compliance"
-      ],
-      "navLabels": [
-        "Hotjar Logo",
-        "Products",
-        "Pricing",
-        "Resources",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Toggle navigation menu"
-      ],
-      "ctas": [
-        "Learn more",
-        "Pricing",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Explore the blog",
-        "Subscribe"
-      ],
-      "landmarks": [
-        "nav",
-        "main",
-        "footer"
-      ]
-    },
-    {
-      "url": "https://www.hotjar.com/help/",
-      "title": "Understand how users behave on your site, what they need, and how they feel, fast.",
-      "description": "See how visitors are really using your website, collect user feedback and turn more visitors into customers.",
-      "headings": [
-        "Something went wrong...",
-        "Oops! Page not found.",
-        "Looking for more wisdom?",
-        "Products",
-        "Company",
-        "Compliance"
-      ],
-      "navLabels": [
-        "Hotjar Logo",
-        "Products",
-        "Pricing",
-        "Resources",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Toggle navigation menu"
-      ],
-      "ctas": [
-        "Learn more",
-        "Pricing",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Explore the blog",
-        "Subscribe"
-      ],
-      "landmarks": [
-        "nav",
-        "main",
-        "footer"
-      ]
-    },
-    {
       "url": "https://www.hotjar.com/blog/",
       "title": "Blog | Hotjar",
       "description": "Content for UX, product,  and digital empathy experts.",
@@ -545,43 +445,6 @@
       ]
     },
     {
-      "url": "https://www.hotjar.com/about/",
-      "title": "Understand how users behave on your site, what they need, and how they feel, fast.",
-      "description": "See how visitors are really using your website, collect user feedback and turn more visitors into customers.",
-      "headings": [
-        "Something went wrong...",
-        "Oops! Page not found.",
-        "Looking for more wisdom?",
-        "Products",
-        "Company",
-        "Compliance"
-      ],
-      "navLabels": [
-        "Hotjar Logo",
-        "Products",
-        "Pricing",
-        "Resources",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Toggle navigation menu"
-      ],
-      "ctas": [
-        "Learn more",
-        "Pricing",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Explore the blog",
-        "Subscribe"
-      ],
-      "landmarks": [
-        "nav",
-        "main",
-        "footer"
-      ]
-    },
-    {
       "url": "https://insights.hotjar.com/login",
       "title": "Sign in - Hotjar",
       "description": "See how users are really using your website, collect feedback and turn more users into customers.",
@@ -601,80 +464,6 @@
         "main",
         "aside"
       ]
-    },
-    {
-      "url": "https://www.hotjar.com/signin/",
-      "title": "Understand how users behave on your site, what they need, and how they feel, fast.",
-      "description": "See how visitors are really using your website, collect user feedback and turn more visitors into customers.",
-      "headings": [
-        "Something went wrong...",
-        "Oops! Page not found.",
-        "Looking for more wisdom?",
-        "Products",
-        "Company",
-        "Compliance"
-      ],
-      "navLabels": [
-        "Hotjar Logo",
-        "Products",
-        "Pricing",
-        "Resources",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Toggle navigation menu"
-      ],
-      "ctas": [
-        "Learn more",
-        "Pricing",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Explore the blog",
-        "Subscribe"
-      ],
-      "landmarks": [
-        "nav",
-        "main",
-        "footer"
-      ]
-    },
-    {
-      "url": "https://www.hotjar.com/sign-in/",
-      "title": "Understand how users behave on your site, what they need, and how they feel, fast.",
-      "description": "See how visitors are really using your website, collect user feedback and turn more visitors into customers.",
-      "headings": [
-        "Something went wrong...",
-        "Oops! Page not found.",
-        "Looking for more wisdom?",
-        "Products",
-        "Company",
-        "Compliance"
-      ],
-      "navLabels": [
-        "Hotjar Logo",
-        "Products",
-        "Pricing",
-        "Resources",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Toggle navigation menu"
-      ],
-      "ctas": [
-        "Learn more",
-        "Pricing",
-        "Contact Sales",
-        "Sign in",
-        "Get started",
-        "Explore the blog",
-        "Subscribe"
-      ],
-      "landmarks": [
-        "nav",
-        "main",
-        "footer"
-      ]
     }
   ],
   "navLabels": [
@@ -687,6 +476,9 @@
     "Get started",
     "English",
     "Toggle navigation menu",
+    "System Status",
+    "Back to Hotjar.com",
+    "Try it for free",
     "Content Square - back to home page",
     "Skip to content",
     "SenseDiscover the AI technology powering Contentsquare",
@@ -704,10 +496,7 @@
     "Errors and frustration",
     "User feedback",
     "Smart Capture",
-    "Data Connect",
-    "Mobile Apps",
-    "Integrations & APIs",
-    "Try interactive demo"
+    "Data Connect"
   ],
   "ctas": [
     "Learn more",
@@ -719,21 +508,21 @@
     "Get started free",
     "Subscribe",
     "Filter Icon",
+    "Explore the blog",
+    "Try it for free",
+    "4 quick tips to get started with Hotjar Get started with Hotjar",
+    "Watch Demo",
+    "For researchers",
+    "Start free with Google",
+    "Explore integrations",
+    "Explore all guides",
     "LLM intelligenceLearn more about our analytics for ChatGPT apps and LLM traffic",
     "Try interactive demo",
     "Small Teams & Startups",
     "eBooks & Reports",
     "Book a demoBook a demo",
     "Start for freeStart for free",
-    "Learn more about our unified platform here.",
-    "Filters and segmentation",
-    "Start free with Google",
-    "Explore integrations",
-    "Explore all guides",
-    "Sign up with Google",
-    "Explore the blog",
-    "User research",
-    "Sign up"
+    "Learn more about our unified platform here."
   ],
   "headings": [
     "Hotjar has evolved into something more powerful",
@@ -749,23 +538,23 @@
     "Compliance",
     "Manage Consent Preferences for Hotjar.com",
     "Cookie List",
-    "Hotjar Surveys are now part of Contentsquare",
-    "Over 402 million survey responses collected via Hotjar and Contentsquare",
-    "Start using Surveys in Contentsquare",
-    "Plans that grow with you",
-    "Free",
-    "Growth",
-    "Pro",
-    "Enterprise",
-    "Included in every plan",
-    "Session replays",
-    "Surveys",
-    "Heatmaps",
-    "Mix and match to fit your needs",
-    "Experience AnalyticsExperience Analytics",
-    "Voice of CustomerVoice of Customer",
-    "The slow, manual days of collating data and feedback are over.",
-    "Trusted by 1,306,323 websites in 180+ countries"
+    "On a mission to make the web a better place",
+    "Trusted by 1,306,323 websites in 180+ countries",
+    "Something went wrong...",
+    "Oops! Page not found.",
+    "How can we help?",
+    "FEATURED ARTICLEHow to Share and Export Data",
+    "Topics",
+    "Installing Hotjar & Configuring Site Settings",
+    "Plans, Payments, and Invoices",
+    "Account Management & Team Members",
+    "Observe Tools",
+    "Ask Tools",
+    "Engage Tools",
+    "Compliance, Data Privacy, Legal & Security",
+    "About Hotjar, Use Cases, and Best Practice Checklists",
+    "Integrations & APIs",
+    "Product"
   ],
   "techSignals": [
     "Next.js",
@@ -773,9 +562,13 @@
     "Segment",
     "Google Tag Manager",
     "Google Maps",
+    "Vue",
+    "Sentry",
+    "Cloudflare",
+    "Contentful",
+    "Zendesk",
     "Vite",
     "Shopify",
-    "Sentry",
     "Datadog"
   ],
   "featureCandidates": [
@@ -788,21 +581,21 @@
     "Compliance",
     "Manage Consent Preferences for Hotjar.com",
     "Cookie List",
-    "Hotjar Surveys are now part of Contentsquare",
-    "Start using Surveys in Contentsquare",
-    "Plans that grow with you",
-    "Free",
-    "Growth",
-    "Enterprise",
-    "Included in every plan",
-    "Session replays",
-    "Surveys",
-    "Heatmaps",
-    "Mix and match to fit your needs",
-    "Experience AnalyticsExperience Analytics",
-    "Voice of CustomerVoice of Customer",
+    "On a mission to make the web a better place",
     "Trusted by 1,306,323 websites in 180+ countries",
-    "Learn more"
+    "Something went wrong...",
+    "Oops! Page not found.",
+    "How can we help?",
+    "FEATURED ARTICLEHow to Share and Export Data",
+    "Topics",
+    "Installing Hotjar & Configuring Site Settings",
+    "Plans, Payments, and Invoices",
+    "Account Management & Team Members",
+    "Observe Tools",
+    "Ask Tools",
+    "Engage Tools",
+    "Compliance, Data Privacy, Legal & Security",
+    "Integrations & APIs"
   ],
   "patternCandidates": [
     "Pricing display",
@@ -812,15 +605,15 @@
     "Messaging",
     "Authentication",
     "Checkout",
+    "Search",
+    "Dashboard",
     "Filters",
     "Carousels",
-    "Search",
-    "Modal dialogs",
-    "Dashboard"
+    "Modal dialogs"
   ],
   "platformsDetected": [
     "web",
     "api"
   ],
-  "summary": "Captured 38 screenshots across 16 public URLs. Nav signals: Hotjar Logo, Products, Pricing, Resources, Contact Sales, Sign in. Tech signals: Next.js, Webpack, Segment, Google Tag Manager, Google Maps, Vite. UI patterns: Pricing display, Map view, Tabs, Card layout, Messaging, Authentication."
+  "summary": "Captured 44 screenshots across 10 public URLs. Nav signals: Hotjar Logo, Products, Pricing, Resources, Contact Sales, Sign in. Tech signals: Next.js, Webpack, Segment, Google Tag Manager, Google Maps, Vue. UI patterns: Pricing display, Map view, Tabs, Card layout, Messaging, Authentication."
 }

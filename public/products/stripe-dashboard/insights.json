@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-07-26T22:30:43.313Z",
-  "screenshotCount": 31,
-  "pageCount": 17,
+  "capturedAt": "2026-07-27T22:13:49.944Z",
+  "screenshotCount": 51,
+  "pageCount": 20,
   "pages": [
     {
       "url": "https://stripe.com/",
@@ -80,9 +80,9 @@
       ]
     },
     {
-      "url": "https://stripe.com/customers/ramp",
-      "title": "Behind the scenes: How Ramp Built a Global Corporate Card Program | Stripe",
-      "description": "With Stripe Issuing, Ramp gained the complete issuing infrastructure it needed to embed card functionality into its platform.",
+      "url": "https://stripe.com/customers/urbn",
+      "title": "URBN Consolidates $5 billion in Online and In-Store Revenue onto Stripe | Stripe",
+      "description": "Stripe’s adaptable platform allowed each brand in URBN’s diverse portfolio, including Urban Outfitters, Anthropologie, and Free People, to maintain its unique identity while benefiting from a centralized payment infrastructure.",
       "headings": [
         "Stripe logo",
         "Payments",
@@ -90,18 +90,18 @@
         "Money Management",
         "Platforms and marketplaces",
         "More",
-        "Behind the scenes: How Ramp built a global corporate card program with Stripe",
+        "URBN consolidates $5 billion in online and in-store revenue onto Stripe",
         "Products used",
-        "50,000+ businesses",
-        "2 million",
-        "$10 billion",
-        "27.5 million hours",
+        "99.999%",
+        "5+",
+        "700+",
         "Ready to get started?",
-        "Building a scalable issuing stack with Stripe",
-        "Expanding Ramp’s card program across the UK and EEA",
-        "Read more customer stories",
-        "Ray studios solves local regulation payment issue with Stripe",
-        "Re-Leased uses Stripe to help digitise $15bn of rent collection"
+        "Challenge",
+        "Solution",
+        "Results",
+        "Tailored solutions accommodate multibrand complexity",
+        "Stripe reliability supports peak promotional periods",
+        "Future-proofing retail operations through a commitment to innovation"
       ],
       "navLabels": [
         "Stripe logo",
@@ -651,74 +651,6 @@
       ]
     },
     {
-      "url": "https://stripe.com/products",
-      "title": "Page not found",
-      "headings": [
-        "Stripe logo",
-        "Payments",
-        "Revenue",
-        "Money Management",
-        "Platforms and marketplaces",
-        "More",
-        "Page not found",
-        "Pricing",
-        "Jobs",
-        "Documentation",
-        "API Reference",
-        "System status",
-        "Support",
-        "Products & pricing",
-        "Solutions",
-        "Integrations & custom solutions",
-        "Developers",
-        "Resources",
-        "Company"
-      ],
-      "navLabels": [
-        "Stripe logo",
-        "Products",
-        "Solutions",
-        "Developers",
-        "Resources",
-        "Pricing",
-        "Sign in",
-        "Contact sales",
-        "Back",
-        "Payments Online payments",
-        "Managed Payments Merchant of record solution",
-        "Payment links No-code payments",
-        "Checkout Prebuilt payment UIs",
-        "Elements Flexible UI components",
-        "Payment methods Access to 100+",
-        "Terminal In-person payments",
-        "Radar Fraud prevention",
-        "Authorization Boost Acceptance optimizations",
-        "Link Accelerated checkout",
-        "Billing Recurring revenue",
-        "Metronome Usage-based billing",
-        "Subscriptions Subscription management",
-        "Invoicing One-time or recurring",
-        "Tax Sales tax & VAT automation"
-      ],
-      "ctas": [
-        "Pricing",
-        "Sign in",
-        "Contact sales",
-        "Atlas Startup incorporation",
-        "Startups",
-        "Start now",
-        "Pricing See rates for all Stripe products, including payments and billing.",
-        "Jobs Explore open roles at Stripe.",
-        "Support Find support articles or contact our team."
-      ],
-      "landmarks": [
-        "header",
-        "nav",
-        "aside",
-        "footer"
-      ]
-    },
-    {
       "url": "https://stripe.com/payments",
       "title": "Stripe Payments | Global Payment Processing Platform",
       "description": "Capture more revenue with a unified payments solution that eliminates the need for one-off merchant account, payment gateway, and processor integrations.",
@@ -792,6 +724,202 @@
         "header",
         "nav",
         "aside",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://stripe.com/customers",
+      "title": "Our customers | Stripe",
+      "description": "Learn about Stripe customers and why millions of global businesses have chosen Stripe as their payments platform.",
+      "headings": [
+        "Stripe logo",
+        "Payments",
+        "Revenue",
+        "Money Management",
+        "Platforms and marketplaces",
+        "More",
+        "The payments platform behind millions of businesses",
+        "We help customers achieve measurable results",
+        "$70M",
+        "6 months faster",
+        "10%",
+        "12 new countries",
+        "Customers by size",
+        "Companies of all sizes around the world use Stripe",
+        "Weeks to minutes",
+        "2-5x faster",
+        "Products used",
+        "5 million+",
+        "50,000+"
+      ],
+      "navLabels": [
+        "Stripe logo",
+        "Products",
+        "Solutions",
+        "Developers",
+        "Resources",
+        "Pricing",
+        "Sign in",
+        "Contact sales",
+        "Back",
+        "Payments Online payments",
+        "Managed Payments Merchant of record solution",
+        "Payment links No-code payments",
+        "Checkout Prebuilt payment UIs",
+        "Elements Flexible UI components",
+        "Payment methods Access to 100+",
+        "Terminal In-person payments",
+        "Radar Fraud prevention",
+        "Authorization Boost Acceptance optimizations",
+        "Link Accelerated checkout",
+        "Billing Recurring revenue",
+        "Metronome Usage-based billing",
+        "Subscriptions Subscription management",
+        "Invoicing One-time or recurring",
+        "Tax Sales tax & VAT automation"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "Contact sales",
+        "Atlas Startup incorporation",
+        "Startups",
+        "Start now",
+        "Startup",
+        "KeyMe logo Read story KeyMe disrupts the locksmith industry with Stripe",
+        "Pricing details"
+      ],
+      "landmarks": [
+        "header",
+        "nav",
+        "aside",
+        "nav:Breadcrumb",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://docs.stripe.com/",
+      "title": "Stripe Documentation",
+      "description": "Explore our guides and examples to integrate Stripe.",
+      "headings": [
+        "Documentation",
+        "Payments",
+        "Revenue",
+        "Developers",
+        "Try it out",
+        "Browse by product"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Create account",
+        "Sign in",
+        "Search/",
+        "Get started",
+        "Get started with Stripe",
+        "Explore all products",
+        "create an account",
+        "Offer usage-based pricing",
+        "Integration quickstarts",
+        "Start a payment",
+        "Start a checkout session",
+        "Create a customer",
+        "Learn more about Payment Intents",
+        "AtlasStartup incorporation",
+        "Contact Support",
+        "Contact Sales"
+      ],
+      "landmarks": [
+        "footer"
+      ]
+    },
+    {
+      "url": "https://support.stripe.com/",
+      "title": "Stripe: Help & Support",
+      "description": "**Popular articles**",
+      "headings": [
+        "How can we help?"
+      ],
+      "navLabels": [
+        "Docs",
+        "APIs & SDKs",
+        "Create account",
+        "Sign in"
+      ],
+      "ctas": [
+        "Create account",
+        "Sign in",
+        "Getting started",
+        "Contact support24×7 help from our support staff"
+      ],
+      "landmarks": [
+        "header",
+        "navigation",
+        "main"
+      ]
+    },
+    {
+      "url": "https://stripe.com/blog",
+      "title": "Stripe Blog: Online Payment Solutions Blog",
+      "description": "Follow the Stripe blog to learn about new product features, the latest in technology, payment solutions, and business initiatives.",
+      "headings": [
+        "Stripe logo",
+        "Payments",
+        "Revenue",
+        "Money Management",
+        "Platforms and marketplaces",
+        "More",
+        "Industry",
+        "Analyzing the evidence that helps businesses win “product not received” disputes",
+        "Four travel and hospitality trends from HITEC 2026",
+        "What Link data tells us about AI spending",
+        "Product",
+        "Recent highlights",
+        "Rethinking risk in the age of AI",
+        "The future of agentic commerce is here",
+        "Introducing next-day settlement, a faster way to access your earnings",
+        "PayTo available in Australia"
+      ],
+      "navLabels": [
+        "Stripe logo",
+        "Products",
+        "Solutions",
+        "Developers",
+        "Resources",
+        "Pricing",
+        "Sign in",
+        "Contact sales",
+        "Back",
+        "Payments Online payments",
+        "Managed Payments Merchant of record solution",
+        "Payment links No-code payments",
+        "Checkout Prebuilt payment UIs",
+        "Elements Flexible UI components",
+        "Payment methods Access to 100+",
+        "Terminal In-person payments",
+        "Radar Fraud prevention",
+        "Authorization Boost Acceptance optimizations",
+        "Link Accelerated checkout",
+        "Billing Recurring revenue",
+        "Metronome Usage-based billing",
+        "Subscriptions Subscription management",
+        "Invoicing One-time or recurring",
+        "Tax Sales tax & VAT automation"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "Contact sales",
+        "Atlas Startup incorporation",
+        "Startups",
+        "Start now",
+        "Industry",
+        "Learn more"
+      ],
+      "landmarks": [
+        "header",
+        "nav",
+        "aside",
+        "nav:Breadcrumb",
         "footer"
       ]
     }
@@ -881,10 +1009,10 @@
     "Money Management",
     "Platforms and marketplaces",
     "More",
-    "Behind the scenes: How Ramp built a global corporate card program with Stripe",
+    "URBN consolidates $5 billion in online and in-store revenue onto Stripe",
     "Products used",
-    "50,000+ businesses",
-    "2 million"
+    "99.999%",
+    "5+"
   ],
   "techSignals": [
     "Next.js",
@@ -912,12 +1040,12 @@
     "Platforms and marketplaces",
     "More",
     "Products used",
-    "50,000+ businesses",
-    "2 million",
+    "99.999%",
     "Pricing",
     "Start now",
     "Contact sales",
-    "Get started"
+    "Get started",
+    "Stripe for startups"
   ],
   "patternCandidates": [
     "Pricing display",
@@ -928,7 +1056,8 @@
     "Dashboard",
     "Map view",
     "Search",
-    "Filters"
+    "Filters",
+    "Messaging"
   ],
   "platformsDetected": [
     "web",
@@ -936,5 +1065,5 @@
     "api",
     "cli"
   ],
-  "summary": "Captured 31 screenshots across 17 public URLs. Nav signals: Products, Solutions, Developers, Resources, Pricing, Sign in. Tech signals: Next.js, Webpack, Stripe, React, Vite. UI patterns: Pricing display, Tabs, Card layout, Checkout, Authentication, Dashboard."
+  "summary": "Captured 51 screenshots across 20 public URLs. Nav signals: Products, Solutions, Developers, Resources, Pricing, Sign in. Tech signals: Next.js, Webpack, Stripe, React, Vite. UI patterns: Pricing display, Tabs, Card layout, Checkout, Authentication, Dashboard."
 }

@@ -1,0 +1,93 @@
+{
+  "capturedAt": "2026-07-27T22:42:43.453Z",
+  "screenshotCount": 25,
+  "pageCount": 2,
+  "pages": [
+    {
+      "url": "https://help.salesforce.com/s/articleView?id=cc.b2c_commerce.htm&type=5",
+      "title": "Salesforce Help | Article",
+      "headings": [
+        "Cookie Consent Manager",
+        "General Information",
+        "Required Cookies",
+        "Functional Cookies",
+        "Advertising Cookies",
+        "Cookie List"
+      ],
+      "navLabels": [
+        "Privacy Statement",
+        "Cookies Details"
+      ],
+      "ctas": [
+        "Filter Button"
+      ],
+      "landmarks": [
+        "dialog:auraErrorTitle",
+        "dialog:Cookie Consent Manager",
+        "navigation:Cookie Categories"
+      ]
+    },
+    {
+      "url": "https://developer.salesforce.com/developer-centers/commerce-cloud",
+      "title": "Commerce Cloud | Salesforce Developer Center",
+      "description": "Develop personalized ecommerce experiences with our fast, flexible solutions.",
+      "headings": [
+        "Cookie Consent Manager",
+        "General Information",
+        "Required Cookies",
+        "Functional Cookies",
+        "Advertising Cookies",
+        "Cookie List"
+      ],
+      "navLabels": [
+        "Privacy Statement",
+        "Cookies Details"
+      ],
+      "ctas": [
+        "Filter Button"
+      ],
+      "landmarks": [
+        "main",
+        "dialog:Cookie Consent Manager",
+        "navigation:Cookie Categories"
+      ]
+    }
+  ],
+  "navLabels": [
+    "Privacy Statement",
+    "Cookies Details"
+  ],
+  "ctas": [
+    "Filter Button"
+  ],
+  "headings": [
+    "Cookie Consent Manager",
+    "General Information",
+    "Required Cookies",
+    "Functional Cookies",
+    "Advertising Cookies",
+    "Cookie List"
+  ],
+  "techSignals": [
+    "Segment",
+    "Google Tag Manager"
+  ],
+  "featureCandidates": [
+    "Cookie Consent Manager",
+    "General Information",
+    "Required Cookies",
+    "Functional Cookies",
+    "Advertising Cookies",
+    "Cookie List",
+    "Filter Button"
+  ],
+  "patternCandidates": [
+    "Tabs",
+    "Authentication"
+  ],
+  "platformsDetected": [
+    "web",
+    "api"
+  ],
+  "summary": "Captured 25 screenshots across 2 public URLs. Nav signals: Privacy Statement, Cookies Details. Tech signals: Segment, Google Tag Manager. UI patterns: Tabs, Authentication."
+}

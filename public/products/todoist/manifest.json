@@ -1,0 +1,77 @@
+{
+  "slug": "todoist",
+  "capturedAt": "2026-07-27T23:01:04.494Z",
+  "shots": [
+    {
+      "file": "fallback-docs-1.jpg",
+      "title": "Docs UI 1",
+      "caption": "Fallback from public docs: https://www.todoist.com/help",
+      "kind": "docs",
+      "sourceUrl": "https://www.todoist.com/help",
+      "capturedAt": "2026-07-27T23:01:02.953Z",
+      "playbookStep": "web-fallback",
+      "width": 340,
+      "height": 193,
+      "phash": "2c0d0d684d2b333b",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-2.jpg",
+      "title": "Docs UI 2",
+      "caption": "Fallback from public docs: https://www.todoist.com/help",
+      "kind": "docs",
+      "sourceUrl": "https://www.todoist.com/help",
+      "capturedAt": "2026-07-27T23:01:02.953Z",
+      "playbookStep": "web-fallback",
+      "width": 340,
+      "height": 193,
+      "phash": "b160f4d4c4c0c4c4",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-3.jpg",
+      "title": "Docs UI 3",
+      "caption": "Fallback from public docs: https://www.todoist.com/help",
+      "kind": "docs",
+      "sourceUrl": "https://www.todoist.com/help",
+      "capturedAt": "2026-07-27T23:01:02.953Z",
+      "playbookStep": "web-fallback",
+      "width": 340,
+      "height": 193,
+      "phash": "512d8bc95ae9bd72",
+      "unique": true
+    },
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://todoist.com",
+      "capturedAt": "2026-07-27T23:01:02.953Z",
+      "playbookStep": "web-fallback",
+      "width": 1600,
+      "height": 838,
+      "phash": "723272c80407039a",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T23:01:04.494Z",
+    "screenshotCount": 4,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 4 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

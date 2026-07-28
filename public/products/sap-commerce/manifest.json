@@ -1,0 +1,38 @@
+{
+  "slug": "sap-commerce",
+  "capturedAt": "2026-07-27T23:00:40.199Z",
+  "shots": [
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.sap.com/products/crm/commerce-cloud.html",
+      "capturedAt": "2026-07-27T23:00:34.566Z",
+      "playbookStep": "web-fallback",
+      "width": 300,
+      "height": 300,
+      "phash": "0056a929d69c6804",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T23:00:40.199Z",
+    "screenshotCount": 1,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 1 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

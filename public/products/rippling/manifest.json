@@ -1,292 +1,1133 @@
 {
   "slug": "rippling",
-  "capturedAt": "2026-07-27T13:38:14.727Z",
+  "capturedAt": "2026-07-27T21:52:51.747Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "Rippling public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://www.rippling.com/"
+      "sourceUrl": "https://www.rippling.com/",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+      "width": 1440,
+      "height": 900,
+      "phash": "271a9e9e9e7afe4d",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Rippling homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.rippling.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Rippling homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.rippling.com/"
+      "sourceUrl": "https://www.rippling.com/",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+      "width": 1440,
+      "height": 900,
+      "phash": "f8ce2325990ddbd2",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Rippling homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.rippling.com/"
+      "sourceUrl": "https://www.rippling.com/",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+      "width": 1440,
+      "height": 900,
+      "phash": "d8d349d9d9696982",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Rippling homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+      "width": 1440,
+      "height": 900,
+      "phash": "c826090d19652564",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Rippling homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+      "width": 1440,
+      "height": 900,
+      "phash": "2465752179556942",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Rippling homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+      "width": 1440,
+      "height": 900,
+      "phash": "c8d8778f9e9696b7",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Rippling homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://www.rippling.com/"
+      "sourceUrl": "https://www.rippling.com/",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+      "width": 390,
+      "height": 844,
+      "phash": "0fb2b3a69ea6cdea",
+      "unique": true
     },
     {
       "file": "card-1.jpg",
       "title": "UI cards (1)",
       "caption": "Card / tile crops from Rippling",
       "kind": "component",
-      "sourceUrl": "https://www.rippling.com/"
+      "sourceUrl": "https://www.rippling.com/",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 7358,
+      "pageTitle": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+      "width": 456,
+      "height": 276,
+      "phash": "887474c459097070",
+      "unique": true
     },
     {
       "file": "card-2.jpg",
       "title": "UI cards (2)",
       "caption": "Card / tile crops from Rippling",
       "kind": "component",
-      "sourceUrl": "https://www.rippling.com/"
+      "sourceUrl": "https://www.rippling.com/",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 7358,
+      "pageTitle": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+      "width": 456,
+      "height": 276,
+      "phash": "9163625253036878",
+      "unique": true
     },
     {
-      "file": "card-3.jpg",
-      "title": "UI cards (3)",
+      "file": "card-4.jpg",
+      "title": "UI cards (4)",
       "caption": "Card / tile crops from Rippling",
       "kind": "component",
-      "sourceUrl": "https://www.rippling.com/"
+      "sourceUrl": "https://www.rippling.com/",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 7358,
+      "pageTitle": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+      "width": 360,
+      "height": 487,
+      "phash": "29d169655b3b3060",
+      "unique": true
+    },
+    {
+      "file": "card-5.jpg",
+      "title": "UI cards (5)",
+      "caption": "Card / tile crops from Rippling",
+      "kind": "component",
+      "sourceUrl": "https://www.rippling.com/",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 7358,
+      "pageTitle": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+      "width": 360,
+      "height": 487,
+      "phash": "6c6ca7e37e3f7b60",
+      "unique": true
+    },
+    {
+      "file": "card-6.jpg",
+      "title": "UI cards (6)",
+      "caption": "Card / tile crops from Rippling",
+      "kind": "component",
+      "sourceUrl": "https://www.rippling.com/",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 7358,
+      "pageTitle": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+      "width": 360,
+      "height": 487,
+      "phash": "3f56561e60665634",
+      "unique": true
     },
     {
       "file": "account-menu.jpg",
       "title": "Account / nav menu",
       "caption": "Expanded account or primary navigation menu on Rippling",
       "kind": "component",
-      "sourceUrl": "https://www.rippling.com/"
+      "sourceUrl": "https://www.rippling.com/",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "account-menu",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+      "width": 1440,
+      "height": 900,
+      "phash": "271e9c9d9858fece",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Rippling",
       "kind": "product",
-      "sourceUrl": "https://www.rippling.com/request-demo?product=hr"
+      "sourceUrl": "https://www.rippling.com/customers/forterra-autonomous-vehicles",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Forterra drives impact with Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "74698d8d8d8db774",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Rippling",
       "kind": "product",
-      "sourceUrl": "https://www.rippling.com/request-demo?product=hr"
+      "sourceUrl": "https://www.rippling.com/customers/forterra-autonomous-vehicles",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Forterra drives impact with Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "33b2796979696996",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Rippling",
       "kind": "product",
-      "sourceUrl": "https://www.rippling.com/request-demo?product=hr"
+      "sourceUrl": "https://www.rippling.com/customers/forterra-autonomous-vehicles",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Forterra drives impact with Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "139cdada9a9a8410",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from Rippling",
       "kind": "product",
-      "sourceUrl": "https://www.rippling.com/request-demo?product=hr"
+      "sourceUrl": "https://www.rippling.com/customers/forterra-autonomous-vehicles",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Forterra drives impact with Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "93cc7e76d84c92d2",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from Rippling",
       "kind": "product",
-      "sourceUrl": "https://www.rippling.com/request-demo?product=hr"
+      "sourceUrl": "https://www.rippling.com/customers/forterra-autonomous-vehicles",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Forterra drives impact with Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "03b15351312193d2",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from Rippling",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/customers/forterra-autonomous-vehicles",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Forterra drives impact with Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "53cc3c5949355d51",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Rippling",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/customers/forterra-autonomous-vehicles",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Forterra drives impact with Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "234b3131a5239989",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from Rippling",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/customers/forterra-autonomous-vehicles",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Forterra drives impact with Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "43467d39496591d2",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from Rippling",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/customers/forterra-autonomous-vehicles",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Forterra drives impact with Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "03c46cc815537672",
+      "unique": true
+    },
+    {
+      "file": "nav-10.jpg",
+      "title": "In-product nav (10)",
+      "caption": "Same-origin product / pricing / docs links from Rippling",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/customers/forterra-autonomous-vehicles",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Forterra drives impact with Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "235c6e6dda5b2c55",
+      "unique": true
+    },
+    {
+      "file": "nav-12.jpg",
+      "title": "In-product nav (12)",
+      "caption": "Same-origin product / pricing / docs links from Rippling",
+      "kind": "product",
+      "sourceUrl": "https://www.rippling.com/customers/forterra-autonomous-vehicles",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Forterra drives impact with Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "43d44e291b79793d",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "Dashboard (1)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "product",
-      "sourceUrl": "https://www.rippling.com/pricing"
+      "sourceUrl": "https://www.rippling.com/help",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Oops! The page you're looking for doesn't exist.",
+      "width": 1440,
+      "height": 900,
+      "phash": "07cb2c8c8c56910a",
+      "unique": true
     },
     {
-      "file": "surface-1-mid.jpg",
-      "title": "Dashboard (2)",
+      "file": "surface-1-band-2.jpg",
+      "title": "Dashboard (3)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "product",
-      "sourceUrl": "https://www.rippling.com/pricing"
+      "sourceUrl": "https://www.rippling.com/help",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Oops! The page you're looking for doesn't exist.",
+      "width": 1440,
+      "height": 900,
+      "phash": "e8125a5848c24208",
+      "unique": true
     },
     {
-      "file": "surface-2.jpg",
-      "title": "Settings (1)",
+      "file": "surface-1-band-3.jpg",
+      "title": "Dashboard (4)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "product",
-      "sourceUrl": "https://www.rippling.com/product"
+      "sourceUrl": "https://www.rippling.com/help",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Oops! The page you're looking for doesn't exist.",
+      "width": 1440,
+      "height": 900,
+      "phash": "c8060859d8d1cc8c",
+      "unique": true
     },
     {
-      "file": "surface-2-mid.jpg",
-      "title": "Settings (2)",
+      "file": "surface-1-lower.jpg",
+      "title": "Dashboard (5)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "product",
-      "sourceUrl": "https://www.rippling.com/product"
+      "sourceUrl": "https://www.rippling.com/help",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Oops! The page you're looking for doesn't exist.",
+      "width": 1440,
+      "height": 900,
+      "phash": "e08c8c9398a6a630",
+      "unique": true
     },
     {
       "file": "surface-3.jpg",
       "title": "Search (1)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/products"
-    },
-    {
-      "file": "surface-3-mid.jpg",
-      "title": "Search (2)",
-      "caption": "Rippling public surface · rippling.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/products"
+      "sourceUrl": "https://www.rippling.com/support",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "",
+      "width": 1440,
+      "height": 900,
+      "phash": "2961616961696986",
+      "unique": true
     },
     {
       "file": "surface-4.jpg",
       "title": "Profile (1)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/features"
+      "sourceUrl": "https://www.rippling.com/partners/technology-partners",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build Integrations That Power the Modern Workforce | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "cc7b7373d35b933c",
+      "unique": true
     },
     {
-      "file": "surface-4-mid.jpg",
-      "title": "Profile (2)",
+      "file": "surface-4-band-2.jpg",
+      "title": "Profile (3)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/features"
+      "sourceUrl": "https://www.rippling.com/partners/technology-partners",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build Integrations That Power the Modern Workforce | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "cc0c3c404b4b3430",
+      "unique": true
+    },
+    {
+      "file": "surface-4-band-3.jpg",
+      "title": "Profile (4)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/partners/technology-partners",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build Integrations That Power the Modern Workforce | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "78724e6745654565",
+      "unique": true
+    },
+    {
+      "file": "surface-4-band-4.jpg",
+      "title": "Profile (5)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/partners/technology-partners",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build Integrations That Power the Modern Workforce | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d45754d8e074c10",
+      "unique": true
     },
     {
       "file": "surface-5.jpg",
-      "title": "Supporting surface 5 (1)",
+      "title": "Homepage mobile (1)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/platform"
-    },
-    {
-      "file": "surface-5-mid.jpg",
-      "title": "Supporting surface 5 (2)",
-      "caption": "Rippling public surface · rippling.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/platform"
+      "sourceUrl": "https://www.rippling.com/api",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "",
+      "width": 1440,
+      "height": 900,
+      "phash": "8000000000000000",
+      "unique": true
     },
     {
       "file": "surface-6.jpg",
-      "title": "Supporting surface 6 (1)",
-      "caption": "Rippling public surface · rippling.com",
+      "title": "Account / nav menu (1)",
+      "caption": "Rippling public surface · docs.rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/solutions"
+      "sourceUrl": "https://rippling.my.salesforce.com/?ec=302&startURL=%2F0I4Ud0000000JfN",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Login | Salesforce",
+      "width": 1440,
+      "height": 900,
+      "phash": "2727a4e42464c424",
+      "unique": true
     },
     {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
+      "file": "surface-9-band-2.jpg",
+      "title": "Supporting surface 9 (3)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/solutions"
+      "sourceUrl": "https://www.rippling.com/pricing",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The platform for companies that want to grow faster",
+      "width": 1440,
+      "height": 900,
+      "phash": "989749cb30746424",
+      "unique": true
     },
     {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
+      "file": "surface-9-band-3.jpg",
+      "title": "Supporting surface 9 (4)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/customers"
+      "sourceUrl": "https://www.rippling.com/pricing",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The platform for companies that want to grow faster",
+      "width": 1440,
+      "height": 900,
+      "phash": "68676466c02f2f68",
+      "unique": true
     },
     {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
+      "file": "surface-9-band-4.jpg",
+      "title": "Supporting surface 9 (5)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/customers"
-    },
-    {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
-      "caption": "Rippling public surface · rippling.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/docs"
-    },
-    {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
-      "caption": "Rippling public surface · rippling.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/docs"
-    },
-    {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9 (1)",
-      "caption": "Rippling public surface · rippling.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/help"
-    },
-    {
-      "file": "surface-9-mid.jpg",
-      "title": "Supporting surface 9 (2)",
-      "caption": "Rippling public surface · rippling.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/help"
+      "sourceUrl": "https://www.rippling.com/pricing",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The platform for companies that want to grow faster",
+      "width": 1440,
+      "height": 900,
+      "phash": "8865725a6aaa6ad2",
+      "unique": true
     },
     {
       "file": "surface-10.jpg",
       "title": "Supporting surface 10 (1)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/blog"
+      "sourceUrl": "https://www.rippling.com/products",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Explore Rippling’s Product Ecosystem | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "07307164640d534a",
+      "unique": true
     },
     {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
+      "file": "surface-10-band-2.jpg",
+      "title": "Supporting surface 10 (3)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/blog"
+      "sourceUrl": "https://www.rippling.com/products",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Explore Rippling’s Product Ecosystem | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "581a276565035b4b",
+      "unique": true
+    },
+    {
+      "file": "surface-10-band-3.jpg",
+      "title": "Supporting surface 10 (4)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/products",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Explore Rippling’s Product Ecosystem | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "5a4b6b534b4b7370",
+      "unique": true
+    },
+    {
+      "file": "surface-10-band-4.jpg",
+      "title": "Supporting surface 10 (5)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/products",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Explore Rippling’s Product Ecosystem | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "787071749a656565",
+      "unique": true
     },
     {
       "file": "surface-11.jpg",
       "title": "Supporting surface 11 (1)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/company/about"
+      "sourceUrl": "https://www.rippling.com/platform",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Best Workforce Management Software | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "33888c8e893a8441",
+      "unique": true
     },
     {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
+      "file": "surface-11-band-2.jpg",
+      "title": "Supporting surface 11 (3)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/company/about"
+      "sourceUrl": "https://www.rippling.com/platform",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Best Workforce Management Software | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "e8c3332733314910",
+      "unique": true
     },
     {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
+      "file": "surface-11-band-3.jpg",
+      "title": "Supporting surface 11 (4)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://app.rippling.com/sign-in/id?next=%2Flogin&disablePartnerAccount=undefined"
+      "sourceUrl": "https://www.rippling.com/platform",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Best Workforce Management Software | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "c8610e0f32252523",
+      "unique": true
+    },
+    {
+      "file": "surface-11-band-4.jpg",
+      "title": "Supporting surface 11 (5)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/platform",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Best Workforce Management Software | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "6123253520b08e8e",
+      "unique": true
     },
     {
       "file": "surface-13.jpg",
       "title": "Supporting surface 13 (1)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/signin"
+      "sourceUrl": "https://www.rippling.com/customers",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling Customers - See What Customers Are Saying About Us | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "0730e2c88ff9f068",
+      "unique": true
     },
     {
-      "file": "surface-13-mid.jpg",
-      "title": "Supporting surface 13 (2)",
+      "file": "surface-13-band-2.jpg",
+      "title": "Supporting surface 13 (3)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://www.rippling.com/signin"
+      "sourceUrl": "https://www.rippling.com/customers",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling Customers - See What Customers Are Saying About Us | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "f0684ccc738c6060",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-3.jpg",
+      "title": "Supporting surface 13 (4)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/customers",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling Customers - See What Customers Are Saying About Us | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "6862c9cdc9890547",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-4.jpg",
+      "title": "Supporting surface 13 (5)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/customers",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling Customers - See What Customers Are Saying About Us | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "e5070f0d49056d69",
+      "unique": true
     },
     {
       "file": "surface-14.jpg",
-      "title": "Supporting surface 14",
+      "title": "Supporting surface 14 (1)",
       "caption": "Rippling public surface · rippling.com",
       "kind": "docs",
-      "sourceUrl": "https://app.rippling.com/sign-in/id"
+      "sourceUrl": "https://www.rippling.com/blog",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling Blog - News & Best Practices for HR, IT & Finance | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "237b735b4d4f4f4d",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-2.jpg",
+      "title": "Supporting surface 14 (3)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/blog",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling Blog - News & Best Practices for HR, IT & Finance | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d5e8659a9a955c8",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-3.jpg",
+      "title": "Supporting surface 14 (4)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/blog",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling Blog - News & Best Practices for HR, IT & Finance | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "2b80cdc9c94d4d4c",
+      "unique": true
+    },
+    {
+      "file": "surface-14-lower.jpg",
+      "title": "Supporting surface 14 (6)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/blog",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Rippling Blog - News & Best Practices for HR, IT & Finance | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "d38c8e979ea6b637",
+      "unique": true
+    },
+    {
+      "file": "surface-15.jpg",
+      "title": "Supporting surface 15 (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/company/about",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us | Rippling | We free smart people to work on hard problems",
+      "width": 1440,
+      "height": 900,
+      "phash": "230a8cccab120c0e",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-2.jpg",
+      "title": "Supporting surface 15 (3)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/company/about",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us | Rippling | We free smart people to work on hard problems",
+      "width": 1440,
+      "height": 900,
+      "phash": "e80c0f2d515b6b4d",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-3.jpg",
+      "title": "Supporting surface 15 (4)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/company/about",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us | Rippling | We free smart people to work on hard problems",
+      "width": 1440,
+      "height": 900,
+      "phash": "694d517b4b6d7773",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-4.jpg",
+      "title": "Supporting surface 15 (5)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.rippling.com/company/about",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us | Rippling | We free smart people to work on hard problems",
+      "width": 1440,
+      "height": 900,
+      "phash": "77734b34808224a4",
+      "unique": true
+    },
+    {
+      "file": "surface-16.jpg",
+      "title": "Supporting surface 16 (1)",
+      "caption": "Rippling public surface · rippling.com",
+      "kind": "docs",
+      "sourceUrl": "https://app.rippling.com/sign-in/id?next=%2Flogin&disablePartnerAccount=undefined",
+      "capturedAt": "2026-07-27T21:50:06.079Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Sign in | Rippling",
+      "width": 1440,
+      "height": 900,
+      "phash": "86965c8e30160000",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T13:38:14.727Z",
-    "screenshotCount": 40,
-    "pageCount": 15,
+    "capturedAt": "2026-07-27T21:52:51.747Z",
+    "screenshotCount": 59,
+    "pageCount": 14,
     "pages": [
       {
         "url": "https://www.rippling.com/",
@@ -336,24 +1177,159 @@
         ]
       },
       {
-        "url": "https://www.rippling.com/request-demo?product=hr",
-        "title": "Request Demo - See Rippling in Action | Rippling",
-        "description": "Schedule a 30-minute demo of Rippling, the leading platform for companies that want to grow faster.",
+        "url": "https://www.rippling.com/customers/forterra-autonomous-vehicles",
+        "title": "How Forterra drives impact with Rippling",
+        "description": "Forterra unified HR, IT, and spend on Rippling, freeing the People team from manual work and enabling smarter, faster business decisions.",
         "headings": [
-          "See Rippling in action"
+          "The Problem",
+          "The Solution",
+          "Meet Forterra",
+          "How Rippling empowers HR to do more with less",
+          "How Rippling enables Engineering to focus on the mission",
+          "How Rippling lets Forterra drive key business initiatives",
+          "What’s next for Forterra",
+          "Reports",
+          "Workflow Studio",
+          "Compensation Bands",
+          "Surveys",
+          "Recruiting",
+          "Performance Management",
+          "Learning Management",
+          "Request a demo to see Rippling in action"
         ],
         "navLabels": [
           "Back to main menu",
-          "EN"
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
         ],
         "ctas": [
+          "Pricing",
+          "Contact",
           "Learn more"
         ],
         "landmarks": [
           "header",
+          "nav",
+          "main",
+          "aside",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/help",
+        "title": "Oops! The page you're looking for doesn't exist.",
+        "description": "It looks like that link is broken. Browse our latest articles, check out our services, or contact our support team to get back on track.",
+        "headings": [
+          "404",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Learn more"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
           "main",
           "footer"
         ]
+      },
+      {
+        "url": "https://www.rippling.com/support",
+        "title": "",
+        "headings": [
+          "Thanks for the info!"
+        ],
+        "navLabels": [
+          "This content isn’t available in this region yet. Back to US Home",
+          "Back to US Home",
+          "Back to main menu",
+          "EN"
+        ],
+        "ctas": [],
+        "landmarks": [
+          "header",
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/partners/technology-partners",
+        "title": "Build Integrations That Power the Modern Workforce | Rippling",
+        "description": "Join the ecosystem of technology partners creating smarter, faster, and more connected workflows with the unified HR, IT, and finance data in Rippling.",
+        "headings": [
+          "Build integrations that power the modern workforce",
+          "Technology partner program benefits",
+          "Build with Rippling",
+          "How to become a Rippling technology partner",
+          "Request a demo to see Rippling in action"
+        ],
+        "navLabels": [
+          "Back to main menu",
+          "Products",
+          "Platform",
+          "Solutions",
+          "Global",
+          "Resources",
+          "Pricing",
+          "Login",
+          "EN",
+          "See Rippling"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Learn more"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.rippling.com/api",
+        "title": "",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://rippling.my.salesforce.com/?ec=302&startURL=%2F0I4Ud0000000JfN",
+        "title": "Login | Salesforce",
+        "description": "Salesforce Customer Secure Login Page. Login to your Salesforce Customer Account.",
+        "headings": [
+          "Salesforce login"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Continue",
+          "Log In with a Different Username",
+          "Log In with a Different Account",
+          "Log in with Rippling"
+        ],
+        "landmarks": []
       },
       {
         "url": "https://www.rippling.com/pricing",
@@ -387,38 +1363,6 @@
           "Pricing",
           "Learn more",
           "Contact"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.rippling.com/product",
-        "title": "Oops! The page you're looking for doesn't exist.",
-        "description": "It looks like that link is broken. Browse our latest articles, check out our services, or contact our support team to get back on track.",
-        "headings": [
-          "404",
-          "Request a demo to see Rippling in action"
-        ],
-        "navLabels": [
-          "Back to main menu",
-          "Products",
-          "Platform",
-          "Solutions",
-          "Global",
-          "Resources",
-          "Pricing",
-          "Login",
-          "EN",
-          "See Rippling"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact",
-          "Learn more"
         ],
         "landmarks": [
           "header",
@@ -469,38 +1413,6 @@
         ]
       },
       {
-        "url": "https://www.rippling.com/features",
-        "title": "Oops! The page you're looking for doesn't exist.",
-        "description": "It looks like that link is broken. Browse our latest articles, check out our services, or contact our support team to get back on track.",
-        "headings": [
-          "404",
-          "Request a demo to see Rippling in action"
-        ],
-        "navLabels": [
-          "Back to main menu",
-          "Products",
-          "Platform",
-          "Solutions",
-          "Global",
-          "Resources",
-          "Pricing",
-          "Login",
-          "EN",
-          "See Rippling"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact",
-          "Learn more"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer"
-        ]
-      },
-      {
         "url": "https://www.rippling.com/platform",
         "title": "Best Workforce Management Software | Rippling",
         "description": "Manage your employees HR, IT, and more with Rippling — the first end-to-end software solution for workforce management and automation.",
@@ -532,38 +1444,6 @@
           "Learn more about security",
           "Request demo",
           "Contact"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.rippling.com/solutions",
-        "title": "Oops! The page you're looking for doesn't exist.",
-        "description": "It looks like that link is broken. Browse our latest articles, check out our services, or contact our support team to get back on track.",
-        "headings": [
-          "404",
-          "Request a demo to see Rippling in action"
-        ],
-        "navLabels": [
-          "Back to main menu",
-          "Products",
-          "Platform",
-          "Solutions",
-          "Global",
-          "Resources",
-          "Pricing",
-          "Login",
-          "EN",
-          "See Rippling"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact",
-          "Learn more"
         ],
         "landmarks": [
           "header",
@@ -613,70 +1493,6 @@
           "main",
           "search",
           "aside",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.rippling.com/docs",
-        "title": "Oops! The page you're looking for doesn't exist.",
-        "description": "It looks like that link is broken. Browse our latest articles, check out our services, or contact our support team to get back on track.",
-        "headings": [
-          "404",
-          "Request a demo to see Rippling in action"
-        ],
-        "navLabels": [
-          "Back to main menu",
-          "Products",
-          "Platform",
-          "Solutions",
-          "Global",
-          "Resources",
-          "Pricing",
-          "Login",
-          "EN",
-          "See Rippling"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact",
-          "Learn more"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.rippling.com/help",
-        "title": "Oops! The page you're looking for doesn't exist.",
-        "description": "It looks like that link is broken. Browse our latest articles, check out our services, or contact our support team to get back on track.",
-        "headings": [
-          "404",
-          "Request a demo to see Rippling in action"
-        ],
-        "navLabels": [
-          "Back to main menu",
-          "Products",
-          "Platform",
-          "Solutions",
-          "Global",
-          "Resources",
-          "Pricing",
-          "Login",
-          "EN",
-          "See Rippling"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact",
-          "Learn more"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
           "footer"
         ]
       },
@@ -795,38 +1611,6 @@
         "landmarks": [
           "main"
         ]
-      },
-      {
-        "url": "https://www.rippling.com/signin",
-        "title": "Oops! The page you're looking for doesn't exist.",
-        "description": "It looks like that link is broken. Browse our latest articles, check out our services, or contact our support team to get back on track.",
-        "headings": [
-          "404",
-          "Request a demo to see Rippling in action"
-        ],
-        "navLabels": [
-          "Back to main menu",
-          "Products",
-          "Platform",
-          "Solutions",
-          "Global",
-          "Resources",
-          "Pricing",
-          "Login",
-          "EN",
-          "See Rippling"
-        ],
-        "ctas": [
-          "Pricing",
-          "Contact",
-          "Learn more"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "footer"
-        ]
       }
     ],
     "navLabels": [
@@ -841,6 +1625,8 @@
       "EN",
       "See a demo",
       "See Rippling",
+      "This content isn’t available in this region yet. Back to US Home",
+      "Back to US Home",
       "HR",
       "View HR articles",
       "Aug 19, 2024The 11 Best PEO Companies for HR Software in 2026 (Compared)",
@@ -867,6 +1653,10 @@
       "Explore prompts",
       "Request live demo",
       "Contact",
+      "Continue",
+      "Log In with a Different Username",
+      "Log In with a Different Account",
+      "Log in with Rippling",
       "Get started",
       "Explore App Studio",
       "Learn more about security",
@@ -877,11 +1667,7 @@
       "Startups",
       "View Startups articles",
       "Aug 14, 2025AI startups are building the future. And they run on Rippling.",
-      "Subscribe",
-      "ProductExplore new launches, feature updates, and innovations from Rippling.",
-      "Filter By Hub",
-      "Explore the Rippling platform",
-      "Explore open roles"
+      "Subscribe"
     ],
     "headings": [
       "AI that knows your company, and acts like it",
@@ -895,25 +1681,25 @@
       "What’s new at Rippling",
       "Get a demo—live or on demand",
       "Request a demo to see Rippling in action",
-      "See Rippling in action",
-      "The platform for companies that want to grow faster",
-      "The workplace platform",
-      "Rippling HCM",
-      "Rippling IT",
-      "Rippling Spend",
-      "Time is money. Switch and save both.",
-      "Companies that run on Rippling perform better",
-      "FAQs",
-      "Read Forrester's report on Rippling's Total Economic Impact",
+      "The Problem",
+      "The Solution",
+      "Meet Forterra",
+      "How Rippling empowers HR to do more with less",
+      "How Rippling enables Engineering to focus on the mission",
+      "How Rippling lets Forterra drive key business initiatives",
+      "What’s next for Forterra",
+      "Reports",
+      "Workflow Studio",
+      "Compensation Bands",
+      "Surveys",
+      "Recruiting",
+      "Performance Management",
+      "Learning Management",
       "404",
-      "Explore Rippling’s product ecosystem",
-      "Explore by suite",
-      "Platform",
-      "HCM",
-      "Payroll",
-      "IT",
-      "Finance",
-      "Global"
+      "Thanks for the info!",
+      "Build integrations that power the modern workforce",
+      "Technology partner program benefits",
+      "Build with Rippling"
     ],
     "techSignals": [
       "Next.js",
@@ -931,22 +1717,22 @@
       "What’s new at Rippling",
       "Get a demo—live or on demand",
       "Request a demo to see Rippling in action",
-      "See Rippling in action",
-      "The workplace platform",
-      "Rippling HCM",
-      "Rippling IT",
-      "Rippling Spend",
-      "Time is money. Switch and save both.",
-      "Companies that run on Rippling perform better",
-      "FAQs",
-      "Explore Rippling’s product ecosystem",
-      "Explore by suite",
-      "Platform",
-      "Payroll",
-      "Finance",
-      "Global",
-      "I'd prefer a 1:1 product demo",
-      "Pricing"
+      "The Problem",
+      "The Solution",
+      "Meet Forterra",
+      "How Rippling empowers HR to do more with less",
+      "What’s next for Forterra",
+      "Reports",
+      "Workflow Studio",
+      "Compensation Bands",
+      "Surveys",
+      "Recruiting",
+      "Performance Management",
+      "Learning Management",
+      "Thanks for the info!",
+      "Technology partner program benefits",
+      "Build with Rippling",
+      "I'd prefer a 1:1 product demo"
     ],
     "patternCandidates": [
       "Filters",
@@ -965,6 +1751,6 @@
       "ios",
       "desktop"
     ],
-    "summary": "Captured 40 screenshots across 15 public URLs. Nav signals: Back to main menu, Products, Platform, Solutions, Global, Resources. Tech signals: Next.js, Webpack, Segment, Google Tag Manager, Cloudflare. UI patterns: Filters, Pricing display, Card layout, Dashboard, Authentication, Tabs."
+    "summary": "Captured 59 screenshots across 14 public URLs. Nav signals: Back to main menu, Products, Platform, Solutions, Global, Resources. Tech signals: Next.js, Webpack, Segment, Google Tag Manager, Cloudflare. UI patterns: Filters, Pricing display, Card layout, Dashboard, Authentication, Tabs."
   }
 }

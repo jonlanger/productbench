@@ -1,0 +1,64 @@
+{
+  "slug": "onestream",
+  "capturedAt": "2026-07-27T22:46:46.147Z",
+  "shots": [
+    {
+      "file": "fallback-docs-1.jpg",
+      "title": "People meeting and looking at notes",
+      "caption": "Fallback from public docs: https://www.onestream.com/support",
+      "kind": "docs",
+      "sourceUrl": "https://www.onestream.com/support",
+      "capturedAt": "2026-07-27T22:46:43.198Z",
+      "playbookStep": "web-fallback",
+      "width": 2944,
+      "height": 768,
+      "phash": "274b5b7373616161",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-2.png",
+      "title": "Docs UI 2",
+      "caption": "Fallback from public docs: https://www.onestream.com/support",
+      "kind": "docs",
+      "sourceUrl": "https://www.onestream.com/support",
+      "capturedAt": "2026-07-27T22:46:43.198Z",
+      "playbookStep": "web-fallback",
+      "width": 80,
+      "height": 80,
+      "phash": "0000000000000000",
+      "unique": true
+    },
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.onestream.com",
+      "capturedAt": "2026-07-27T22:46:43.198Z",
+      "playbookStep": "web-fallback",
+      "width": 1815,
+      "height": 1183,
+      "phash": "b33332b2b6b421b1",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T22:46:46.147Z",
+    "screenshotCount": 3,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 3 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

@@ -1,201 +1,583 @@
 {
   "slug": "youtube",
-  "capturedAt": "2026-07-27T14:37:22.252Z",
+  "capturedAt": "2026-07-27T22:41:21.822Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "YouTube public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://www.youtube.com/"
-    },
-    {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth",
-      "caption": "YouTube homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.youtube.com/"
+      "sourceUrl": "https://www.youtube.com/",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "YouTube",
+      "width": 1440,
+      "height": 900,
+      "phash": "c687d1c080c0c0c0",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "YouTube homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://www.youtube.com/"
-    },
-    {
-      "file": "search-composer.jpg",
-      "title": "Search / composer",
-      "caption": "Focused search or primary input on YouTube",
-      "kind": "component",
-      "sourceUrl": "https://www.youtube.com/"
+      "sourceUrl": "https://www.youtube.com/",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "YouTube",
+      "width": 390,
+      "height": 844,
+      "phash": "310f640000000000",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on YouTube (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&dsh=S1862782780%3A1785162998137641&ec=65620&hl=en&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxsJMLkOOnEH2aPPF00511NTaDsSVifBrHJKD39l6biiUeax2sAK7BUNbj3fdGmWnQi-_h2Y"
+      "sourceUrl": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&dsh=S1361274152%3A1785191979649670&ec=65620&hl=en&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxuBMmc4m1-bTquO4fqz6y0o4p5WJeXBKnok9EIS6hjmmXnkAHmLAvmBq70pWH2l5I5ckv9ucw",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "YouTube",
+      "width": 1440,
+      "height": 900,
+      "phash": "00906064c1f90600",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from YouTube",
       "kind": "product",
-      "sourceUrl": "https://www.youtube.com/howyoutubeworks/our-policies/"
+      "sourceUrl": "https://www.youtube.com/howyoutubeworks/our-policies/",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "YouTube Policies Crafted for Openness - How YouTube Works",
+      "width": 1440,
+      "height": 900,
+      "phash": "b9198acc53f6e40d",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from YouTube",
       "kind": "product",
-      "sourceUrl": "https://www.youtube.com/howyoutubeworks/our-policies/"
+      "sourceUrl": "https://www.youtube.com/howyoutubeworks/our-policies/",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "YouTube Policies Crafted for Openness - How YouTube Works",
+      "width": 1440,
+      "height": 900,
+      "phash": "f4ce9f87c94e8a31",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from YouTube",
       "kind": "product",
-      "sourceUrl": "https://www.youtube.com/howyoutubeworks/our-policies/"
+      "sourceUrl": "https://www.youtube.com/howyoutubeworks/our-policies/",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "YouTube Policies Crafted for Openness - How YouTube Works",
+      "width": 1440,
+      "height": 900,
+      "phash": "8c6078387860b16d",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from YouTube",
       "kind": "product",
-      "sourceUrl": "https://www.youtube.com/howyoutubeworks/our-policies/"
+      "sourceUrl": "https://www.youtube.com/howyoutubeworks/our-policies/",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "YouTube Policies Crafted for Openness - How YouTube Works",
+      "width": 1440,
+      "height": 900,
+      "phash": "8c30381878e2d866",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
-      "title": "Dashboard",
+      "title": "Dashboard (1)",
       "caption": "YouTube public surface · youtube.com",
       "kind": "product",
-      "sourceUrl": "https://www.youtube.com/pricing"
+      "sourceUrl": "https://support.google.com/youtube/?hl=en#topic=9257498",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "YouTube Help",
+      "width": 1440,
+      "height": 900,
+      "phash": "c04d696932333733",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-2.jpg",
+      "title": "Dashboard (3)",
+      "caption": "YouTube public surface · youtube.com",
+      "kind": "product",
+      "sourceUrl": "https://support.google.com/youtube/?hl=en#topic=9257498",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "YouTube Help",
+      "width": 1440,
+      "height": 900,
+      "phash": "17333133330d4d09",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-3.jpg",
+      "title": "Dashboard (4)",
+      "caption": "YouTube public surface · youtube.com",
+      "kind": "product",
+      "sourceUrl": "https://support.google.com/youtube/?hl=en#topic=9257498",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "YouTube Help",
+      "width": 1440,
+      "height": 900,
+      "phash": "33334d4d0d163631",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
-      "title": "Settings",
+      "title": "Settings (1)",
       "caption": "YouTube public surface · youtube.com",
       "kind": "product",
-      "sourceUrl": "https://www.youtube.com/product/?pbp=ggECICU%3D"
-    },
-    {
-      "file": "surface-3.jpg",
-      "title": "Search",
-      "caption": "YouTube public surface · youtube.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.youtube.com/products"
+      "sourceUrl": "https://www.youtube.com/docs",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 Not Found",
+      "width": 1440,
+      "height": 900,
+      "phash": "0010084c4c102010",
+      "unique": true
     },
     {
       "file": "surface-4.jpg",
-      "title": "Profile",
+      "title": "Profile (1)",
       "caption": "YouTube public surface · youtube.com",
       "kind": "docs",
-      "sourceUrl": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fstudio.youtube.com%252Fchannel%252FUC%253Fd%253Dsd%2526sds%253Dchannel%2526sdst%253Dfeatures%26feature%3Dredirect_login&dsh=S455843971%3A1785163016615611&hl=en&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxtE_GjUfIMf6Ai-AGNgXrbIoTBH0P4KQ96o-879VXm2lBfU-bZ6DD-ezZV3D60Eq3NqePkQjQ"
+      "sourceUrl": "https://developers.google.com/youtube",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "YouTube  |  Google for Developers",
+      "width": 1440,
+      "height": 900,
+      "phash": "815a31539b1dc767",
+      "unique": true
+    },
+    {
+      "file": "surface-4-band-2.jpg",
+      "title": "Profile (3)",
+      "caption": "YouTube public surface · youtube.com",
+      "kind": "docs",
+      "sourceUrl": "https://developers.google.com/youtube",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "YouTube  |  Google for Developers",
+      "width": 1440,
+      "height": 900,
+      "phash": "c1e6680d4ddb90a8",
+      "unique": true
+    },
+    {
+      "file": "surface-4-lower.jpg",
+      "title": "Profile (4)",
+      "caption": "YouTube public surface · youtube.com",
+      "kind": "docs",
+      "sourceUrl": "https://developers.google.com/youtube",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "YouTube  |  Google for Developers",
+      "width": 1440,
+      "height": 900,
+      "phash": "dbdbb0a89493d38c",
+      "unique": true
     },
     {
       "file": "surface-5.jpg",
-      "title": "Supporting surface 5",
+      "title": "Homepage depth (1)",
       "caption": "YouTube public surface · youtube.com",
       "kind": "docs",
-      "sourceUrl": "https://www.youtube.com/platform"
-    },
-    {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6 (1)",
-      "caption": "YouTube public surface · youtube.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.youtube.com/solutions"
-    },
-    {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
-      "caption": "YouTube public surface · youtube.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.youtube.com/solutions"
-    },
-    {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7",
-      "caption": "YouTube public surface · youtube.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.youtube.com/customers"
-    },
-    {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8",
-      "caption": "YouTube public surface · youtube.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.youtube.com/docs"
-    },
-    {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9 (1)",
-      "caption": "YouTube public surface · youtube.com",
-      "kind": "docs",
-      "sourceUrl": "https://support.google.com/youtube/?hl=en#topic=9257498"
-    },
-    {
-      "file": "surface-9-mid.jpg",
-      "title": "Supporting surface 9 (2)",
-      "caption": "YouTube public surface · youtube.com",
-      "kind": "docs",
-      "sourceUrl": "https://support.google.com/youtube/?hl=en#topic=9257498"
-    },
-    {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
-      "caption": "YouTube public surface · youtube.com",
-      "kind": "docs",
-      "sourceUrl": "https://blog.youtube/"
-    },
-    {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
-      "caption": "YouTube public surface · youtube.com",
-      "kind": "docs",
-      "sourceUrl": "https://blog.youtube/"
+      "sourceUrl": "https://www.youtube.com/api",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "api - YouTube",
+      "width": 1440,
+      "height": 900,
+      "phash": "b23494c4a6c4c0c0",
+      "unique": true
     },
     {
       "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
+      "title": "Supporting surface 8 (1)",
       "caption": "YouTube public surface · youtube.com",
       "kind": "docs",
-      "sourceUrl": "https://about.youtube/"
+      "sourceUrl": "https://www.youtube.com/platform",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "louis bondi - YouTube",
+      "width": 1440,
+      "height": 900,
+      "phash": "ba30b21c3cc0ccc0",
+      "unique": true
     },
     {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
+      "file": "surface-11-lower.jpg",
+      "title": "Supporting surface 8 (3)",
       "caption": "YouTube public surface · youtube.com",
       "kind": "docs",
-      "sourceUrl": "https://about.youtube/"
+      "sourceUrl": "https://www.youtube.com/platform",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "louis bondi - YouTube",
+      "width": 1440,
+      "height": 900,
+      "phash": "c23e3cc08cc0c0c0",
+      "unique": true
     },
     {
       "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
+      "title": "Supporting surface 12 (1)",
       "caption": "YouTube public surface · youtube.com",
       "kind": "docs",
-      "sourceUrl": "https://www.youtube.com/login"
+      "sourceUrl": "https://www.youtube.com/solutions",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Solutions Catalog - YouTube",
+      "width": 1440,
+      "height": 900,
+      "phash": "3d199b9a9487ac83",
+      "unique": true
     },
     {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13",
+      "file": "surface-12-band-2.jpg",
+      "title": "Supporting surface 12 (3)",
       "caption": "YouTube public surface · youtube.com",
       "kind": "docs",
-      "sourceUrl": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F%26feature%3Dshortcut&dsh=S1361274152%3A1785163038470284&hl=en&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxvdN77vornA7WMVraFlm_irzKZJRVkcMHOECDrcjlphie9jbd2FoLJdOHJkIVnGco_SWpsaeQ"
+      "sourceUrl": "https://www.youtube.com/solutions",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Solutions Catalog - YouTube",
+      "width": 1440,
+      "height": 900,
+      "phash": "b08383a12323b819",
+      "unique": true
     },
     {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14",
+      "file": "surface-12-band-3.jpg",
+      "title": "Supporting surface 12 (4)",
       "caption": "YouTube public surface · youtube.com",
       "kind": "docs",
-      "sourceUrl": "https://www.youtube.com/sign-in"
+      "sourceUrl": "https://www.youtube.com/solutions",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Solutions Catalog - YouTube",
+      "width": 1440,
+      "height": 900,
+      "phash": "b21919981e0eb486",
+      "unique": true
+    },
+    {
+      "file": "surface-12-band-4.jpg",
+      "title": "Supporting surface 12 (5)",
+      "caption": "YouTube public surface · youtube.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.youtube.com/solutions",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Solutions Catalog - YouTube",
+      "width": 1440,
+      "height": 900,
+      "phash": "b2b91e0ebc96a6ac",
+      "unique": true
+    },
+    {
+      "file": "surface-14-top.jpg",
+      "title": "Supporting surface 14 (2)",
+      "caption": "YouTube public surface · youtube.com",
+      "kind": "docs",
+      "sourceUrl": "https://blog.youtube/",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Official YouTube Blog for Latest YouTube News & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "f49c9e97d154d6f0",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-2.jpg",
+      "title": "Supporting surface 14 (3)",
+      "caption": "YouTube public surface · youtube.com",
+      "kind": "docs",
+      "sourceUrl": "https://blog.youtube/",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Official YouTube Blog for Latest YouTube News & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "d471a04052272313",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-3.jpg",
+      "title": "Supporting surface 14 (4)",
+      "caption": "YouTube public surface · youtube.com",
+      "kind": "docs",
+      "sourceUrl": "https://blog.youtube/",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Official YouTube Blog for Latest YouTube News & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "23131703dcc40b80",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-4.jpg",
+      "title": "Supporting surface 14 (5)",
+      "caption": "YouTube public surface · youtube.com",
+      "kind": "docs",
+      "sourceUrl": "https://blog.youtube/",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Official YouTube Blog for Latest YouTube News & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "258c7567273737c3",
+      "unique": true
+    },
+    {
+      "file": "surface-14-lower.jpg",
+      "title": "Supporting surface 14 (6)",
+      "caption": "YouTube public surface · youtube.com",
+      "kind": "docs",
+      "sourceUrl": "https://blog.youtube/",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Official YouTube Blog for Latest YouTube News & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "00a4a282898a8a7a",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-2.jpg",
+      "title": "Supporting surface 15 (3)",
+      "caption": "YouTube public surface · youtube.com",
+      "kind": "docs",
+      "sourceUrl": "https://about.youtube/",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About YouTube - YouTube",
+      "width": 1440,
+      "height": 900,
+      "phash": "640d2c333e072600",
+      "unique": true
+    },
+    {
+      "file": "surface-15-lower.jpg",
+      "title": "Supporting surface 15 (4)",
+      "caption": "YouTube public surface · youtube.com",
+      "kind": "docs",
+      "sourceUrl": "https://about.youtube/",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About YouTube - YouTube",
+      "width": 1440,
+      "height": 900,
+      "phash": "2620c6c5a3b626d8",
+      "unique": true
+    },
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.youtube.com",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 1200,
+      "phash": "0011007765000100",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-544007664-1.jpg",
+      "title": "YouTube screenshot 1",
+      "caption": "Apple App Store public screenshot (id 544007664)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id544007664",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "0c2b71716555555d",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-544007664-2.jpg",
+      "title": "YouTube screenshot 2",
+      "caption": "Apple App Store public screenshot (id 544007664)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id544007664",
+      "capturedAt": "2026-07-27T22:39:23.227Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "271b635319597d75",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T14:37:22.252Z",
-    "screenshotCount": 27,
-    "pageCount": 15,
+    "capturedAt": "2026-07-27T22:41:21.822Z",
+    "screenshotCount": 31,
+    "pageCount": 11,
     "pages": [
       {
         "url": "https://www.youtube.com/",
@@ -247,7 +629,7 @@
         ]
       },
       {
-        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&dsh=S1862782780%3A1785162998137641&ec=65620&hl=en&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxsJMLkOOnEH2aPPF00511NTaDsSVifBrHJKD39l6biiUeax2sAK7BUNbj3fdGmWnQi-_h2Y",
+        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&dsh=S1361274152%3A1785191979649670&ec=65620&hl=en&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxuBMmc4m1-bTquO4fqz6y0o4p5WJeXBKnok9EIS6hjmmXnkAHmLAvmBq70pWH2l5I5ckv9ucw",
         "title": "YouTube",
         "description": "Share your videos with friends, family, and the world.",
         "headings": [
@@ -325,7 +707,76 @@
         ]
       },
       {
-        "url": "https://www.youtube.com/pricing",
+        "url": "https://support.google.com/youtube/?hl=en#topic=9257498",
+        "title": "YouTube Help",
+        "description": "Official YouTube Help Center where you can find tips and tutorials on using YouTube and other answers to frequently asked questions.",
+        "headings": [
+          "How can we help you?",
+          "Browse help topics",
+          "Fix a problem",
+          "Watch videos",
+          "Manage your account & settings",
+          "Supervised experiences on YouTube",
+          "YouTube Premium",
+          "Create & grow your channel",
+          "Monetize your content",
+          "Policy, safety, & copyright",
+          "Need more help?",
+          "Try these next steps:",
+          "Learn and share in the YouTube community",
+          "Learn more about YouTube"
+        ],
+        "navLabels": [
+          "YouTube Help",
+          "Sign in",
+          "Next",
+          "Help Center",
+          "Community",
+          "Creator Tips",
+          "YouTube",
+          "Troubleshoot problems playing videos",
+          "Troubleshoot account issues",
+          "Fix upload problems",
+          "Get help with the YouTube Partner Program",
+          "Learn about recent updates on YouTube",
+          "Get help with YouTube",
+          "Find videos to watch",
+          "Change video settings",
+          "Watch videos on different devices",
+          "Comment, subscribe, & connect with creators",
+          "Save or share videos & playlists",
+          "Purchase & manage movies, TV shows & products on YouTube",
+          "Sign up and manage your account",
+          "Manage account settings",
+          "Manage privacy settings",
+          "Manage ad settings",
+          "Manage accessibility settings"
+        ],
+        "ctas": [
+          "Sign in",
+          "Comment, subscribe, & connect with creators",
+          "Sign up and manage your account",
+          "Join YouTube Premium",
+          "Create & grow your channel",
+          "Create Shorts",
+          "Edit videos with YouTube Create",
+          "Get started with Player for Education",
+          "Join the discussion"
+        ],
+        "landmarks": [
+          "none",
+          "banner",
+          "dialog",
+          "navigation:Support page navigation bar",
+          "nav:Top navigation",
+          "search",
+          "main",
+          "nav",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://www.youtube.com/docs",
         "title": "404 Not Found",
         "headings": [],
         "navLabels": [],
@@ -333,11 +784,81 @@
         "landmarks": []
       },
       {
-        "url": "https://www.youtube.com/product/?pbp=ggECICU%3D",
-        "title": "YouTube",
+        "url": "https://developers.google.com/youtube",
+        "title": "YouTube  |  Google for Developers",
+        "description": "Add YouTube functionality to your sites and apps.",
+        "headings": [
+          "YouTube",
+          "Let users watch, find, and manage YouTube content",
+          "Play YouTube Videos",
+          "Add YouTube Data",
+          "Add more YouTube features",
+          "Analytics & Reporting",
+          "Subscribe Buttons",
+          "Live streaming",
+          "Tools",
+          "Issue Tracker",
+          "Product Info",
+          "Page info"
+        ],
+        "navLabels": [
+          "Home",
+          "Guides",
+          "Samples",
+          "Terms",
+          "More",
+          "YouTube",
+          "Products",
+          "Blog",
+          "GitHub",
+          "Issue Tracker",
+          "Stack Overflow",
+          "YouTube Researcher Program",
+          "Google APIs Explorer",
+          "YouTube Player Demo",
+          "Configure a Subscribe Button",
+          "File a bug",
+          "Request a feature",
+          "See open issues",
+          "Terms of Service",
+          "Developer Policies",
+          "Required Minimum Functionality",
+          "Branding Guidelines",
+          "Android",
+          "Chrome"
+        ],
+        "ctas": [
+          "Sign in",
+          "Add YouTube Data",
+          "Subscribe Buttons",
+          "Add a button",
+          "YouTube Researcher Program",
+          "Google APIs Explorer",
+          "YouTube Player Demo",
+          "Configure a Subscribe Button"
+        ],
+        "landmarks": [
+          "banner",
+          "nav:Lower tabs",
+          "nav:Side menu",
+          "main",
+          "navigation:On this page",
+          "navigation",
+          "header",
+          "nav:Promotions",
+          "nav:Footer links",
+          "nav:Other Google Developers websites",
+          "nav:Utility links"
+        ]
+      },
+      {
+        "url": "https://www.youtube.com/api",
+        "title": "api - YouTube",
+        "description": "Share your videos with friends, family, and the world",
         "headings": [
           "Explore",
-          "More from YouTube"
+          "More from YouTube",
+          "api"
         ],
         "navLabels": [
           "Home",
@@ -368,7 +889,8 @@
         "ctas": [
           "Search",
           "Sign in",
-          "Contact us"
+          "Contact us",
+          "Subscribe"
         ],
         "landmarks": [
           "banner",
@@ -378,14 +900,6 @@
           "dialog",
           "dialog:ytp-id-8"
         ]
-      },
-      {
-        "url": "https://www.youtube.com/products",
-        "title": "404 Not Found",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
       },
       {
         "url": "https://www.youtube.com/platform",
@@ -511,91 +1025,6 @@
         ]
       },
       {
-        "url": "https://www.youtube.com/customers",
-        "title": "404 Not Found",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.youtube.com/docs",
-        "title": "404 Not Found",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://support.google.com/youtube/?hl=en#topic=9257498",
-        "title": "YouTube Help",
-        "description": "Official YouTube Help Center where you can find tips and tutorials on using YouTube and other answers to frequently asked questions.",
-        "headings": [
-          "How can we help you?",
-          "Browse help topics",
-          "Fix a problem",
-          "Watch videos",
-          "Manage your account & settings",
-          "Supervised experiences on YouTube",
-          "YouTube Premium",
-          "Create & grow your channel",
-          "Monetize your content",
-          "Policy, safety, & copyright",
-          "Need more help?",
-          "Try these next steps:",
-          "Learn and share in the YouTube community",
-          "Learn more about YouTube"
-        ],
-        "navLabels": [
-          "YouTube Help",
-          "Sign in",
-          "Next",
-          "Help Center",
-          "Community",
-          "Creator Tips",
-          "YouTube",
-          "Troubleshoot problems playing videos",
-          "Troubleshoot account issues",
-          "Fix upload problems",
-          "Get help with the YouTube Partner Program",
-          "Learn about recent updates on YouTube",
-          "Get help with YouTube",
-          "Find videos to watch",
-          "Change video settings",
-          "Watch videos on different devices",
-          "Comment, subscribe, & connect with creators",
-          "Save or share videos & playlists",
-          "Purchase & manage movies, TV shows & products on YouTube",
-          "Sign up and manage your account",
-          "Manage account settings",
-          "Manage privacy settings",
-          "Manage ad settings",
-          "Manage accessibility settings"
-        ],
-        "ctas": [
-          "Sign in",
-          "Comment, subscribe, & connect with creators",
-          "Sign up and manage your account",
-          "Join YouTube Premium",
-          "Create & grow your channel",
-          "Create Shorts",
-          "Edit videos with YouTube Create",
-          "Get started with Player for Education",
-          "Join the discussion"
-        ],
-        "landmarks": [
-          "none",
-          "banner",
-          "dialog",
-          "navigation:Support page navigation bar",
-          "nav:Top navigation",
-          "search",
-          "main",
-          "nav",
-          "contentinfo"
-        ]
-      },
-      {
         "url": "https://blog.youtube/",
         "title": "Official YouTube Blog for Latest YouTube News & Insights",
         "description": "Explore our official blog for the latest news about YouTube, creator and artist profiles, culture and trends analyses, and behind-the-scenes insights.",
@@ -701,22 +1130,6 @@
           "main",
           "footer"
         ]
-      },
-      {
-        "url": "https://www.youtube.com/login",
-        "title": "404 Not Found",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.youtube.com/sign-in",
-        "title": "404 Not Found",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
       }
     ],
     "navLabels": [
@@ -758,8 +1171,6 @@
       "Learn more about using Guest mode",
       "Create account",
       "Creator Research",
-      "Subscribe",
-      "Bright, moving patterns create a unique display on your home | Solutions.com",
       "Comment, subscribe, & connect with creators",
       "Sign up and manage your account",
       "Join YouTube Premium",
@@ -768,9 +1179,16 @@
       "Edit videos with YouTube Create",
       "Get started with Player for Education",
       "Join the discussion",
-      "Submit Search",
-      "Search with AI",
-      "Creators Research"
+      "Add YouTube Data",
+      "Subscribe Buttons",
+      "Add a button",
+      "YouTube Researcher Program",
+      "Google APIs Explorer",
+      "YouTube Player Demo",
+      "Configure a Subscribe Button",
+      "Subscribe",
+      "Bright, moving patterns create a unique display on your home | Solutions.com",
+      "Submit Search"
     ],
     "headings": [
       "Explore",
@@ -788,21 +1206,21 @@
       "For Business",
       "For Creators",
       "Our Commitments",
-      "louis bondi",
-      "Playlists",
-      "Favorites",
-      "parker",
-      "cody in woods",
-      "Solutions Catalog",
-      "Videos",
-      "No touching the waste bin| Solutions.com",
-      "Innovative twist on the lazy Susan! | Solutions.com",
-      "Finally, the fondue pot gets a sleek and stylish update. | Solutions.com",
-      "Bright, moving patterns create a unique display on your home | Solutions.com",
-      "When guests arrive, treat them to holiday carols and lights! Solutions.com",
-      "Vionic Technology| Solutions.com",
-      "Popular videos",
-      "Kinetic Garden Wind Spinners | Solutions.com"
+      "How can we help you?",
+      "Browse help topics",
+      "Fix a problem",
+      "Watch videos",
+      "Manage your account & settings",
+      "Supervised experiences on YouTube",
+      "YouTube Premium",
+      "Create & grow your channel",
+      "Monetize your content",
+      "Policy, safety, & copyright",
+      "Need more help?",
+      "Try these next steps:",
+      "Learn and share in the YouTube community",
+      "Learn more about YouTube",
+      "YouTube"
     ],
     "techSignals": [
       "Next.js",
@@ -824,28 +1242,35 @@
       "For Business",
       "For Creators",
       "Our Commitments",
-      "louis bondi",
-      "Playlists",
-      "Favorites",
-      "parker",
-      "cody in woods",
-      "Solutions Catalog",
-      "Videos",
-      "No touching the waste bin| Solutions.com",
-      "Vionic Technology| Solutions.com",
-      "Popular videos"
+      "How can we help you?",
+      "Browse help topics",
+      "Fix a problem",
+      "Watch videos",
+      "Manage your account & settings",
+      "Supervised experiences on YouTube",
+      "YouTube Premium",
+      "Create & grow your channel",
+      "Monetize your content",
+      "Policy, safety, & copyright"
     ],
     "patternCandidates": [
       "Search",
       "Authentication",
+      "Modal dialogs",
+      "Tabs",
       "Carousels",
       "Card layout"
     ],
     "platformsDetected": [
       "web",
       "desktop",
-      "api"
+      "api",
+      "ios",
+      "android"
     ],
-    "summary": "Captured 27 screenshots across 15 public URLs. Nav signals: Home, Shorts, Subscriptions, You, History, Sign in. Tech signals: Next.js, Segment, Google Tag Manager. UI patterns: Search, Authentication, Carousels, Card layout."
+    "summary": "Captured 31 screenshots across 11 public URLs. Nav signals: Home, Shorts, Subscriptions, You, History, Sign in. Tech signals: Next.js, Segment, Google Tag Manager. UI patterns: Search, Authentication, Modal dialogs, Tabs, Carousels, Card layout."
+  },
+  "fallback": {
+    "blockedNavigations": 0
   }
 }

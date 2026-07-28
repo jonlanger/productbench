@@ -1,285 +1,1133 @@
 {
   "slug": "splunk",
-  "capturedAt": "2026-07-27T14:09:04.981Z",
+  "capturedAt": "2026-07-27T22:18:57.324Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "Splunk public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://www.splunk.com/"
+      "sourceUrl": "https://www.splunk.com/",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk | Unified Security & Observability for Digital Resilience",
+      "width": 1440,
+      "height": 900,
+      "phash": "f2f2718ccc9c884a",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Splunk homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.splunk.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Splunk homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.splunk.com/"
+      "sourceUrl": "https://www.splunk.com/",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk | Unified Security & Observability for Digital Resilience",
+      "width": 1440,
+      "height": 900,
+      "phash": "0064e4ccf3c73f7f",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Splunk homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.splunk.com/"
+      "sourceUrl": "https://www.splunk.com/",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk | Unified Security & Observability for Digital Resilience",
+      "width": 1440,
+      "height": 900,
+      "phash": "6361ad9595b55f1f",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Splunk homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.splunk.com/",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk | Unified Security & Observability for Digital Resilience",
+      "width": 1440,
+      "height": 900,
+      "phash": "79f898d8db2b6844",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Splunk homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.splunk.com/",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk | Unified Security & Observability for Digital Resilience",
+      "width": 1440,
+      "height": 900,
+      "phash": "6454b0412696334b",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Splunk homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.splunk.com/",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk | Unified Security & Observability for Digital Resilience",
+      "width": 1440,
+      "height": 900,
+      "phash": "0317079223231f08",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Splunk homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://www.splunk.com/"
-    },
-    {
-      "file": "search-composer.jpg",
-      "title": "Search / composer",
-      "caption": "Focused search or primary input on Splunk",
-      "kind": "component",
-      "sourceUrl": "https://www.splunk.com/"
-    },
-    {
-      "file": "sign-in.jpg",
-      "title": "Sign in",
-      "caption": "Sign in / log in UI on Splunk (pattern only — no credentials)",
-      "kind": "component",
-      "sourceUrl": "https://www.splunk.com/"
+      "sourceUrl": "https://www.splunk.com/",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk | Unified Security & Observability for Digital Resilience",
+      "width": 390,
+      "height": 844,
+      "phash": "ceeca0c2cae8b1d2",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Splunk",
       "kind": "product",
-      "sourceUrl": "https://www.splunk.com/en_us/products/federated-search.html"
+      "sourceUrl": "https://www.splunk.com/en_us/solutions/all-use-cases.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Use Cases | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "93bcd36365636129",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Splunk",
       "kind": "product",
-      "sourceUrl": "https://www.splunk.com/en_us/products/federated-search.html"
+      "sourceUrl": "https://www.splunk.com/en_us/solutions/all-use-cases.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Use Cases | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "93bc516767638318",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Splunk",
       "kind": "product",
-      "sourceUrl": "https://www.splunk.com/en_us/products/federated-search.html"
+      "sourceUrl": "https://www.splunk.com/en_us/solutions/all-use-cases.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Use Cases | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "a57c8ccc8cacdc3c",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from Splunk",
       "kind": "product",
-      "sourceUrl": "https://www.splunk.com/en_us/products/federated-search.html"
+      "sourceUrl": "https://www.splunk.com/en_us/solutions/all-use-cases.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Use Cases | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "87fca15923236323",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from Splunk",
       "kind": "product",
-      "sourceUrl": "https://www.splunk.com/en_us/products/federated-search.html"
+      "sourceUrl": "https://www.splunk.com/en_us/solutions/all-use-cases.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Use Cases | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "f4d1212767675835",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from Splunk",
+      "kind": "product",
+      "sourceUrl": "https://www.splunk.com/en_us/solutions/all-use-cases.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Use Cases | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "d48fcccc98e8a49c",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Splunk",
+      "kind": "product",
+      "sourceUrl": "https://www.splunk.com/en_us/solutions/all-use-cases.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Use Cases | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "c1237c6821172b2b",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from Splunk",
+      "kind": "product",
+      "sourceUrl": "https://www.splunk.com/en_us/solutions/all-use-cases.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Use Cases | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "dc63252523c83776",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from Splunk",
+      "kind": "product",
+      "sourceUrl": "https://www.splunk.com/en_us/solutions/all-use-cases.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Use Cases | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "dc25232121486726",
+      "unique": true
+    },
+    {
+      "file": "nav-11.jpg",
+      "title": "In-product nav (11)",
+      "caption": "Same-origin product / pricing / docs links from Splunk",
+      "kind": "product",
+      "sourceUrl": "https://www.splunk.com/en_us/solutions/all-use-cases.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Use Cases | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "c474647070515676",
+      "unique": true
+    },
+    {
+      "file": "nav-12.jpg",
+      "title": "In-product nav (12)",
+      "caption": "Same-origin product / pricing / docs links from Splunk",
+      "kind": "product",
+      "sourceUrl": "https://www.splunk.com/en_us/solutions/all-use-cases.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Use Cases | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "5c8ba17f00393984",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "Dashboard (1)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "product",
-      "sourceUrl": "https://www.splunk.com/en_us/products/pricing.html"
+      "sourceUrl": "https://www.splunk.com/help",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 Page | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "ec7351d0d8f0d000",
+      "unique": true
     },
     {
-      "file": "surface-1-mid.jpg",
-      "title": "Dashboard (2)",
+      "file": "surface-1-band-2.jpg",
+      "title": "Dashboard (3)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "product",
-      "sourceUrl": "https://www.splunk.com/en_us/products/pricing.html"
+      "sourceUrl": "https://www.splunk.com/help",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 Page | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "d000190b03170612",
+      "unique": true
     },
     {
-      "file": "surface-2.jpg",
-      "title": "Settings (1)",
+      "file": "surface-1-band-3.jpg",
+      "title": "Dashboard (4)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "product",
-      "sourceUrl": "https://www.splunk.com/en_us/products.html"
-    },
-    {
-      "file": "surface-2-mid.jpg",
-      "title": "Settings (2)",
-      "caption": "Splunk public surface · splunk.com",
-      "kind": "product",
-      "sourceUrl": "https://www.splunk.com/en_us/products.html"
+      "sourceUrl": "https://www.splunk.com/help",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 Page | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "0b03170696232384",
+      "unique": true
     },
     {
       "file": "surface-3.jpg",
       "title": "Search (1)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/en_us/products.html"
+      "sourceUrl": "https://www.splunk.com/en_us/customer-success/support-programs.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Support Programs | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "d487cd8c9c6c1c18",
+      "unique": true
     },
     {
-      "file": "surface-3-mid.jpg",
-      "title": "Search (2)",
+      "file": "surface-3-band-2.jpg",
+      "title": "Search (3)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/en_us/products.html"
+      "sourceUrl": "https://www.splunk.com/en_us/customer-success/support-programs.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Support Programs | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "56185e5b534b4b42",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-3.jpg",
+      "title": "Search (4)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/customer-success/support-programs.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Support Programs | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "6b4b187b682a524a",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-4.jpg",
+      "title": "Search (5)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/customer-success/support-programs.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Support Programs | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "564a4ada4a48c8a8",
+      "unique": true
     },
     {
       "file": "surface-4.jpg",
       "title": "Profile (1)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/en_us/products/splunk-enterprise-features.html"
+      "sourceUrl": "https://dev.splunk.com/",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Developer Program",
+      "width": 1440,
+      "height": 900,
+      "phash": "693b0f0e0c4c6b49",
+      "unique": true
     },
     {
-      "file": "surface-4-mid.jpg",
+      "file": "surface-4-top.jpg",
       "title": "Profile (2)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/en_us/products/splunk-enterprise-features.html"
+      "sourceUrl": "https://dev.splunk.com/",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Developer Program",
+      "width": 1440,
+      "height": 900,
+      "phash": "e984054dcc4c6f0d",
+      "unique": true
     },
     {
-      "file": "surface-5.jpg",
-      "title": "Supporting surface 5 (1)",
+      "file": "surface-4-band-2.jpg",
+      "title": "Profile (3)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/platform"
+      "sourceUrl": "https://dev.splunk.com/",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Developer Program",
+      "width": 1440,
+      "height": 900,
+      "phash": "e94e0c303605586b",
+      "unique": true
     },
     {
-      "file": "surface-5-mid.jpg",
-      "title": "Supporting surface 5 (2)",
+      "file": "surface-4-band-3.jpg",
+      "title": "Profile (4)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/platform"
+      "sourceUrl": "https://dev.splunk.com/",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Developer Program",
+      "width": 1440,
+      "height": 900,
+      "phash": "e93636496a2bb5c4",
+      "unique": true
     },
     {
       "file": "surface-6.jpg",
-      "title": "Supporting surface 6 (1)",
-      "caption": "Splunk public surface · splunk.com",
+      "title": "Search / composer (1)",
+      "caption": "Splunk public surface · docs.splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/en_us/solutions.html"
+      "sourceUrl": "https://docs.splunk.com/Documentation",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Documentation - Splunk Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "9861615a5b1a4b4b",
+      "unique": true
     },
     {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
-      "caption": "Splunk public surface · splunk.com",
+      "file": "surface-6-band-2.jpg",
+      "title": "Search / composer (3)",
+      "caption": "Splunk public surface · docs.splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/en_us/solutions.html"
+      "sourceUrl": "https://docs.splunk.com/Documentation",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Documentation - Splunk Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "ca4b4c4a5a502333",
+      "unique": true
+    },
+    {
+      "file": "surface-6-band-3.jpg",
+      "title": "Search / composer (4)",
+      "caption": "Splunk public surface · docs.splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.splunk.com/Documentation",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Documentation - Splunk Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "da58222337695141",
+      "unique": true
     },
     {
       "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
+      "title": "Sign in (1)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/en_us/customers.html"
+      "sourceUrl": "https://www.splunk.com/en_us/products.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Products | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "d430232727476c7d",
+      "unique": true
     },
     {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
+      "file": "surface-7-band-2.jpg",
+      "title": "Sign in (3)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/en_us/customers.html"
+      "sourceUrl": "https://www.splunk.com/en_us/products.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Products | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "700e9e968786160c",
+      "unique": true
+    },
+    {
+      "file": "surface-7-band-3.jpg",
+      "title": "Sign in (4)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/products.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Products | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "545c00494d5a4a6c",
+      "unique": true
+    },
+    {
+      "file": "surface-7-band-4.jpg",
+      "title": "Sign in (5)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/products.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Products | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "6c6c4c4d3d5a4b6b",
+      "unique": true
+    },
+    {
+      "file": "surface-7-lower.jpg",
+      "title": "Sign in (6)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/products.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Products | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "1f1b03170716d122",
+      "unique": true
     },
     {
       "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
+      "title": "Supporting surface 12 (1)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/docs"
+      "sourceUrl": "https://www.splunk.com/en_us/products/splunk-enterprise-features.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Enterprise Product Features | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "dccf879f60034343",
+      "unique": true
     },
     {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
+      "file": "surface-8-band-2.jpg",
+      "title": "Supporting surface 12 (3)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/docs"
+      "sourceUrl": "https://www.splunk.com/en_us/products/splunk-enterprise-features.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Enterprise Product Features | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "4343434b4b4b4a0b",
+      "unique": true
+    },
+    {
+      "file": "surface-8-band-3.jpg",
+      "title": "Supporting surface 12 (4)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/products/splunk-enterprise-features.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Enterprise Product Features | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "4a4b13090d0b4f4f",
+      "unique": true
+    },
+    {
+      "file": "surface-8-lower.jpg",
+      "title": "Supporting surface 12 (6)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/products/splunk-enterprise-features.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Enterprise Product Features | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "4f0b4c0c6f4b094b",
+      "unique": true
     },
     {
       "file": "surface-9.jpg",
       "title": "Supporting surface 9 (1)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/help"
+      "sourceUrl": "https://www.splunk.com/en_us/products/pricing.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "939c40663c1c9819",
+      "unique": true
     },
     {
-      "file": "surface-9-mid.jpg",
-      "title": "Supporting surface 9 (2)",
+      "file": "surface-9-band-2.jpg",
+      "title": "Supporting surface 9 (3)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/help"
+      "sourceUrl": "https://www.splunk.com/en_us/products/pricing.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "186c6c1437153363",
+      "unique": true
     },
     {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
+      "file": "surface-9-band-3.jpg",
+      "title": "Supporting surface 9 (4)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/en_us/blog"
+      "sourceUrl": "https://www.splunk.com/en_us/products/pricing.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "03633d6333341358",
+      "unique": true
     },
     {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
+      "file": "surface-9-band-4.jpg",
+      "title": "Supporting surface 9 (5)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/en_us/blog"
+      "sourceUrl": "https://www.splunk.com/en_us/products/pricing.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "1a18805979124aa8",
+      "unique": true
     },
     {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
+      "file": "surface-9-lower.jpg",
+      "title": "Supporting surface 9 (6)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/about"
-    },
-    {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
-      "caption": "Splunk public surface · splunk.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/about"
+      "sourceUrl": "https://www.splunk.com/en_us/products/pricing.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "3f12032306d22322",
+      "unique": true
     },
     {
       "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
+      "title": "Supporting surface 12 (1)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/login"
+      "sourceUrl": "https://www.splunk.com/en_us/solutions.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Solutions | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "7ccbc13c524b123f",
+      "unique": true
+    },
+    {
+      "file": "surface-12-band-2.jpg",
+      "title": "Supporting surface 12 (3)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/solutions.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Solutions | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "123f37373f8a1727",
+      "unique": true
     },
     {
       "file": "surface-13.jpg",
       "title": "Supporting surface 13 (1)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/signin"
+      "sourceUrl": "https://www.splunk.com/en_us/customers.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customers | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "dcaab0f86c6f0f1d",
+      "unique": true
     },
     {
-      "file": "surface-13-mid.jpg",
-      "title": "Supporting surface 13 (2)",
+      "file": "surface-13-band-2.jpg",
+      "title": "Supporting surface 13 (3)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/signin"
+      "sourceUrl": "https://www.splunk.com/en_us/customers.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customers | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "0f1d4d1b65474355",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-3.jpg",
+      "title": "Supporting surface 13 (4)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/customers.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customers | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "0715151919031b05",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-4.jpg",
+      "title": "Supporting surface 13 (5)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/customers.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customers | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "1101959511170570",
+      "unique": true
+    },
+    {
+      "file": "surface-13-lower.jpg",
+      "title": "Supporting surface 13 (6)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/customers.html",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customers | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "4b4a5b1b23170716",
+      "unique": true
     },
     {
       "file": "surface-14.jpg",
       "title": "Supporting surface 14 (1)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/sign-in"
+      "sourceUrl": "https://www.splunk.com/en_us/blog",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Blogs | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "efdd802765652561",
+      "unique": true
     },
     {
-      "file": "surface-14-mid.jpg",
-      "title": "Supporting surface 14 (2)",
+      "file": "surface-14-band-2.jpg",
+      "title": "Supporting surface 14 (3)",
       "caption": "Splunk public surface · splunk.com",
       "kind": "docs",
-      "sourceUrl": "https://www.splunk.com/sign-in"
+      "sourceUrl": "https://www.splunk.com/en_us/blog",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Blogs | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "ef2101307f35354b",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-3.jpg",
+      "title": "Supporting surface 14 (4)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/blog",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Blogs | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "ef5b731d474f4b4b",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-4.jpg",
+      "title": "Supporting surface 14 (5)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/blog",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Blogs | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "ef0b4033333b4b0b",
+      "unique": true
+    },
+    {
+      "file": "surface-14-lower.jpg",
+      "title": "Supporting surface 14 (6)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/en_us/blog",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Splunk Blogs | Splunk",
+      "width": 1440,
+      "height": 900,
+      "phash": "cf5b4d0f0b4b6b0c",
+      "unique": true
+    },
+    {
+      "file": "surface-16.jpg",
+      "title": "Supporting surface 16 (1)",
+      "caption": "Splunk public surface · splunk.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.splunk.com/login",
+      "capturedAt": "2026-07-27T22:15:55.383Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Please sign in",
+      "width": 1440,
+      "height": 900,
+      "phash": "c000400000000000",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T14:09:04.981Z",
-    "screenshotCount": 39,
-    "pageCount": 15,
+    "capturedAt": "2026-07-27T22:18:57.324Z",
+    "screenshotCount": 59,
+    "pageCount": 13,
     "pages": [
       {
         "url": "https://www.splunk.com/",
@@ -365,30 +1213,30 @@
         ]
       },
       {
-        "url": "https://www.splunk.com/en_us/products/federated-search.html",
-        "title": "Federated Search | Splunk",
-        "description": "Unify analytics across Splunk and data lakes. Simplify pipelines and optimize costs with a hybrid data strategy: query in-place, bypass full ingestion.  ",
+        "url": "https://www.splunk.com/en_us/solutions/all-use-cases.html",
+        "title": "Splunk Use Cases | Splunk",
+        "description": "What can Splunk help me solve? Explore how your organization can become more resilient in a changing world.",
         "headings": [
-          "federated search",
-          "Unified analytics for your hybrid data",
-          "Take an interactive tour",
-          "Features",
-          "Query distributed data in place",
-          "Analyze your data wherever it lives",
-          "Intelligent, scalable data preparation and routing",
-          "Unified analytics using SPL2 query language",
-          "Automated schema resilience",
-          "Six Cloud Strategy Pitfalls and How to Avoid Them",
-          "Accelerate Your AI Journey with Splunk Cloud Platform and Cisco Data Fabric",
-          "A Roadmap to Digital Resilience for the Enterprise",
-          "Unlock AI Agility & Cloud Value with Splunk on Azure",
-          "Federated Search FAQs",
-          "Related products and solutions",
-          "Splunk Platform",
-          "Data Optimization",
-          "Data Management",
-          "Consent Manager",
-          "Your Privacy"
+          "Splunk use cases",
+          "Novuna Increases Uptime to Deepen Trust With Millions of Customers",
+          "Data optimization",
+          "Security monitoring",
+          "Incident mangement",
+          "Asset discovery & management",
+          "Compliance",
+          "Visualization & reporting",
+          "Troubleshoot mission-critical apps and infrastructure",
+          "Optimize data management",
+          "Optimize cloud monitoring",
+          "Optimize hybrid application performance",
+          "Threat hunting",
+          "Anomaly detection",
+          "Risk-based alerting",
+          "Leverage cybersecurity frameworks",
+          "Threat intelligence enrichment",
+          "Reduce alert noise",
+          "Debug problems in microservices",
+          "Automate threat analysis"
         ],
         "navLabels": [
           "Search",
@@ -431,12 +1279,10 @@
           "Log In",
           "Sign Up",
           "Trials & Downloads",
-          "Federated Search",
-          "Get the E-Book",
-          "Get started now",
           "Free Trials & Downloads",
           "OpenTelemetry: An Introduction",
-          "Facebook"
+          "Facebook",
+          "Filter Button"
         ],
         "landmarks": [
           "navigation:Main Navigation",
@@ -447,30 +1293,18 @@
         ]
       },
       {
-        "url": "https://www.splunk.com/en_us/products/pricing.html",
-        "title": "Pricing | Splunk",
-        "description": "Discover how Splunk’s predictable and flexible pricing options can help you make the most of your data.\n",
+        "url": "https://www.splunk.com/help",
+        "title": "404 Page | Splunk",
+        "description": "Splunk indexes and makes searchable data from any app, server or network device in real time including logs, config files, messages, alerts, scripts and metrics.",
         "headings": [
-          "Pricing",
-          "Contact a Splunk Pricing Expert",
-          "Choose a plan based on your business drivers",
-          "Workload Pricing",
-          "Ingest Pricing",
-          "Entity Pricing",
-          "Understand your costs by Splunk product",
-          "Security",
-          "Observability",
-          "Platform",
-          "Get your questions answered",
-          "Resources",
-          "Splunk Pricing Options",
-          "Gain More Value With Workload Pricing",
+          "Spot 404s faster than you can say observability.",
           "Consent Manager",
           "Your Privacy",
           "Strictly Necessary Cookies",
           "Performance Cookies",
           "Targeting Cookies",
-          "Functional Cookies"
+          "Functional Cookies",
+          "Cookie List"
         ],
         "navLabels": [
           "Search",
@@ -513,17 +1347,200 @@
           "Log In",
           "Sign Up",
           "Trials & Downloads",
-          "Security Pricing",
-          "Observability Pricing",
-          "Platform Pricing",
-          "Pricing Models",
-          "Continue",
-          "Understand Workload Pricing"
+          "Free Trials & Downloads",
+          "OpenTelemetry: An Introduction",
+          "Facebook",
+          "Filter Button"
+        ],
+        "landmarks": [
+          "navigation:Main Navigation",
+          "dialog:splunk-new-modal",
+          "dialog:Consent Manager",
+          "navigation:Cookie Categories"
+        ]
+      },
+      {
+        "url": "https://www.splunk.com/en_us/customer-success/support-programs.html",
+        "title": "Support Programs | Splunk",
+        "description": "Find answers and get help with questions and issues related to Splunk products. From self-service to premium support, there are a range of solutions.",
+        "headings": [
+          "Customer Success",
+          "Splunk Support",
+          "Self-service support resources",
+          "Splunk Lantern",
+          "Splunk Community",
+          "Splunk Docs",
+          "Splunk Knowledge Base",
+          "Frequently asked questions",
+          "For immediate support",
+          "Support programs specific to your needs",
+          "Splunk Platform, Security and Observability - ITOps",
+          "Splunk Observability - DevOps",
+          "Splunk US Public Sector",
+          "Splunk On-Call (formerly VictorOps)",
+          "Splunk Intelligence Management (TruSTAR)",
+          "Splunk® Security for SAP® solutions",
+          "Splunk Attack Analyzer",
+          "Splunk Asset and Risk Intelligence (ARI)",
+          "Splunk AppDynamics",
+          "AI growth increases demands for hybrid cloud security"
+        ],
+        "navLabels": [
+          "Search",
+          "Back",
+          "Cloud Platform Leverage a flexible data platform offered as a service",
+          "Enterprise Unify security and observability with a data platform",
+          "Platform overview",
+          "Artificial Intelligence Activate agentic operations",
+          "Federated Search Unify search across different sources",
+          "Data Management Optimize pipelines and control costs",
+          "AI Toolkit Build, test, and deploy custom AI",
+          "Splunk MCP Server Connect AI to Splunk data securely",
+          "Data Optimization Manage data, storage, and costs",
+          "IT Modernization Maximize IT impact with AIOps",
+          "IT Service Health Analyze service health from one view",
+          "View all use cases",
+          "See Splunk Cloud Platform in action Explore the product tour",
+          "Enterprise Security Unify TDIR with the AI-powered SecOps platform",
+          "Security overview",
+          "SIEM Detect and stop threats",
+          "SOAR Accelerate and automate response",
+          "UEBA Detect user and entity anomalies",
+          "Detection Studio Develop and monitor detections",
+          "Artificial Intelligence Scale with AI and AgenticOps",
+          "View all capabilities",
+          "Advanced Threat Detection Uncover insider threats and attacks"
+        ],
+        "ctas": [
+          "Search",
+          "Federated Search Unify search across different sources",
+          "See Splunk Cloud Platform in action Explore the product tour",
+          "Power the agentic SOC Learn more",
+          "Build a leading observability practice with Splunk AI Learn more",
+          "Download now",
+          "Read the e-book",
+          "Get Started with Splunk",
+          "Contact Sales",
+          "Pricing",
+          "Contact Us",
+          "Log In",
+          "Sign Up",
+          "Trials & Downloads",
+          "Power Industry Insights",
+          "Log in to the Support Portal",
+          "Log in to the portal",
+          "Explore FAQ videos",
+          "Contact Customer Support",
+          "Download the data sheet"
         ],
         "landmarks": [
           "navigation:Main Navigation",
           "dialog",
           "dialog:splunk-new-modal",
+          "dialog:Consent Manager",
+          "navigation:Cookie Categories"
+        ]
+      },
+      {
+        "url": "https://dev.splunk.com/",
+        "title": "Splunk Developer Program",
+        "headings": [
+          "dev",
+          "Welcome to splunk>dev",
+          "Splunk Developer Program",
+          "What platform are you developing for?",
+          "Announcements"
+        ],
+        "navLabels": [
+          "Contact",
+          "Community Slack(Opens new window)",
+          "Privacy policy",
+          "Terms of use"
+        ],
+        "ctas": [
+          "Log In",
+          "Join",
+          "Join the Splunk Developer Program",
+          "Learn More(Opens new window)",
+          "Contact"
+        ],
+        "landmarks": [
+          "nav"
+        ]
+      },
+      {
+        "url": "https://docs.splunk.com/Documentation",
+        "title": "Documentation - Splunk Documentation",
+        "headings": [
+          "Documentation",
+          "Platform",
+          "Security",
+          "IT",
+          "Observability",
+          "Apps and add-ons",
+          "Developer tools",
+          "Best practices",
+          "Community",
+          "Legacy",
+          "Search Tutorial",
+          "Visit Splunk Answers",
+          "Consent Manager",
+          "Your Privacy",
+          "Strictly Necessary Cookies",
+          "Performance Cookies",
+          "Targeting Cookies",
+          "Functional Cookies",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "logo",
+          "Support",
+          "Support Portal",
+          "Splunk Answers",
+          "Support Programs",
+          "System Status",
+          "Contact Us",
+          "Product Security Updates",
+          "Click User Account",
+          "Login",
+          "Sign Up",
+          "Products",
+          "Product Overview",
+          "Learn more",
+          "Pricing",
+          "Free Trials & Downloads",
+          "Platform",
+          "Splunk Cloud Platform",
+          "Splunk Enterprise",
+          "Security",
+          "Splunk Enterprise Security",
+          "Splunk SOAR",
+          "Observability",
+          "Splunk Infrastructure Monitoring"
+        ],
+        "ctas": [
+          "Contact Us",
+          "Sign Up",
+          "Learn more",
+          "Pricing",
+          "Free Trials & Downloads",
+          "OpenTelemetry",
+          "Get Started With Splunk",
+          "Click Search Help",
+          "Search in docs",
+          "Splunk® Supported Add-ons",
+          "Splunk® OpenTelemetry Collector for Kubernetes",
+          "Splunk® Add-on for OpenTelemetry Collector",
+          "Splunk® Add-on Builder",
+          "Splunk Add-on for AppDynamics",
+          "Splunk® Common Information Model Add-on",
+          "Splunk® Add-on for Splunk UBA"
+        ],
+        "landmarks": [
+          "nav",
+          "search",
+          "dialog:cookie-banner-container",
+          "footer",
           "dialog:Consent Manager",
           "navigation:Cookie Categories"
         ]
@@ -691,18 +1708,30 @@
         ]
       },
       {
-        "url": "https://www.splunk.com/platform",
-        "title": "404 Page | Splunk",
-        "description": "Splunk indexes and makes searchable data from any app, server or network device in real time including logs, config files, messages, alerts, scripts and metrics.",
+        "url": "https://www.splunk.com/en_us/products/pricing.html",
+        "title": "Pricing | Splunk",
+        "description": "Discover how Splunk’s predictable and flexible pricing options can help you make the most of your data.\n",
         "headings": [
-          "Spot 404s faster than you can say observability.",
+          "Pricing",
+          "Contact a Splunk Pricing Expert",
+          "Choose a plan based on your business drivers",
+          "Workload Pricing",
+          "Ingest Pricing",
+          "Entity Pricing",
+          "Understand your costs by Splunk product",
+          "Security",
+          "Observability",
+          "Platform",
+          "Get your questions answered",
+          "Resources",
+          "Splunk Pricing Options",
+          "Gain More Value With Workload Pricing",
           "Consent Manager",
           "Your Privacy",
           "Strictly Necessary Cookies",
           "Performance Cookies",
           "Targeting Cookies",
-          "Functional Cookies",
-          "Cookie List"
+          "Functional Cookies"
         ],
         "navLabels": [
           "Search",
@@ -745,13 +1774,16 @@
           "Log In",
           "Sign Up",
           "Trials & Downloads",
-          "Free Trials & Downloads",
-          "OpenTelemetry: An Introduction",
-          "Facebook",
-          "Filter Button"
+          "Security Pricing",
+          "Observability Pricing",
+          "Platform Pricing",
+          "Pricing Models",
+          "Continue",
+          "Understand Workload Pricing"
         ],
         "landmarks": [
           "navigation:Main Navigation",
+          "dialog",
           "dialog:splunk-new-modal",
           "dialog:Consent Manager",
           "navigation:Cookie Categories"
@@ -900,140 +1932,6 @@
         ]
       },
       {
-        "url": "https://www.splunk.com/docs",
-        "title": "404 Page | Splunk",
-        "description": "Splunk indexes and makes searchable data from any app, server or network device in real time including logs, config files, messages, alerts, scripts and metrics.",
-        "headings": [
-          "Spot 404s faster than you can say observability.",
-          "Consent Manager",
-          "Your Privacy",
-          "Strictly Necessary Cookies",
-          "Performance Cookies",
-          "Targeting Cookies",
-          "Functional Cookies",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Search",
-          "Back",
-          "Cloud Platform Leverage a flexible data platform offered as a service",
-          "Enterprise Unify security and observability with a data platform",
-          "Platform overview",
-          "Artificial Intelligence Activate agentic operations",
-          "Federated Search Unify search across different sources",
-          "Data Management Optimize pipelines and control costs",
-          "AI Toolkit Build, test, and deploy custom AI",
-          "Splunk MCP Server Connect AI to Splunk data securely",
-          "Data Optimization Manage data, storage, and costs",
-          "IT Modernization Maximize IT impact with AIOps",
-          "IT Service Health Analyze service health from one view",
-          "View all use cases",
-          "See Splunk Cloud Platform in action Explore the product tour",
-          "Enterprise Security Unify TDIR with the AI-powered SecOps platform",
-          "Security overview",
-          "SIEM Detect and stop threats",
-          "SOAR Accelerate and automate response",
-          "UEBA Detect user and entity anomalies",
-          "Detection Studio Develop and monitor detections",
-          "Artificial Intelligence Scale with AI and AgenticOps",
-          "View all capabilities",
-          "Advanced Threat Detection Uncover insider threats and attacks"
-        ],
-        "ctas": [
-          "Search",
-          "Federated Search Unify search across different sources",
-          "See Splunk Cloud Platform in action Explore the product tour",
-          "Power the agentic SOC Learn more",
-          "Build a leading observability practice with Splunk AI Learn more",
-          "Download now",
-          "Read the e-book",
-          "Get Started with Splunk",
-          "Contact Sales",
-          "Pricing",
-          "Contact Us",
-          "Log In",
-          "Sign Up",
-          "Trials & Downloads",
-          "Free Trials & Downloads",
-          "OpenTelemetry: An Introduction",
-          "Facebook",
-          "Filter Button"
-        ],
-        "landmarks": [
-          "navigation:Main Navigation",
-          "dialog:splunk-new-modal",
-          "dialog:Consent Manager",
-          "navigation:Cookie Categories"
-        ]
-      },
-      {
-        "url": "https://www.splunk.com/help",
-        "title": "404 Page | Splunk",
-        "description": "Splunk indexes and makes searchable data from any app, server or network device in real time including logs, config files, messages, alerts, scripts and metrics.",
-        "headings": [
-          "Spot 404s faster than you can say observability.",
-          "Consent Manager",
-          "Your Privacy",
-          "Strictly Necessary Cookies",
-          "Performance Cookies",
-          "Targeting Cookies",
-          "Functional Cookies",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Search",
-          "Back",
-          "Cloud Platform Leverage a flexible data platform offered as a service",
-          "Enterprise Unify security and observability with a data platform",
-          "Platform overview",
-          "Artificial Intelligence Activate agentic operations",
-          "Federated Search Unify search across different sources",
-          "Data Management Optimize pipelines and control costs",
-          "AI Toolkit Build, test, and deploy custom AI",
-          "Splunk MCP Server Connect AI to Splunk data securely",
-          "Data Optimization Manage data, storage, and costs",
-          "IT Modernization Maximize IT impact with AIOps",
-          "IT Service Health Analyze service health from one view",
-          "View all use cases",
-          "See Splunk Cloud Platform in action Explore the product tour",
-          "Enterprise Security Unify TDIR with the AI-powered SecOps platform",
-          "Security overview",
-          "SIEM Detect and stop threats",
-          "SOAR Accelerate and automate response",
-          "UEBA Detect user and entity anomalies",
-          "Detection Studio Develop and monitor detections",
-          "Artificial Intelligence Scale with AI and AgenticOps",
-          "View all capabilities",
-          "Advanced Threat Detection Uncover insider threats and attacks"
-        ],
-        "ctas": [
-          "Search",
-          "Federated Search Unify search across different sources",
-          "See Splunk Cloud Platform in action Explore the product tour",
-          "Power the agentic SOC Learn more",
-          "Build a leading observability practice with Splunk AI Learn more",
-          "Download now",
-          "Read the e-book",
-          "Get Started with Splunk",
-          "Contact Sales",
-          "Pricing",
-          "Contact Us",
-          "Log In",
-          "Sign Up",
-          "Trials & Downloads",
-          "Free Trials & Downloads",
-          "OpenTelemetry: An Introduction",
-          "Facebook",
-          "Filter Button"
-        ],
-        "landmarks": [
-          "navigation:Main Navigation",
-          "dialog:splunk-new-modal",
-          "dialog:Consent Manager",
-          "navigation:Cookie Categories"
-        ]
-      },
-      {
         "url": "https://www.splunk.com/en_us/blog",
         "title": "Splunk Blogs | Splunk",
         "description": "Get the latest updates and insights on security, observability, and more from the experts at Splunk.",
@@ -1115,73 +2013,6 @@
         ]
       },
       {
-        "url": "https://www.splunk.com/about",
-        "title": "404 Page | Splunk",
-        "description": "Splunk indexes and makes searchable data from any app, server or network device in real time including logs, config files, messages, alerts, scripts and metrics.",
-        "headings": [
-          "Spot 404s faster than you can say observability.",
-          "Consent Manager",
-          "Your Privacy",
-          "Strictly Necessary Cookies",
-          "Performance Cookies",
-          "Targeting Cookies",
-          "Functional Cookies",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Search",
-          "Back",
-          "Cloud Platform Leverage a flexible data platform offered as a service",
-          "Enterprise Unify security and observability with a data platform",
-          "Platform overview",
-          "Artificial Intelligence Activate agentic operations",
-          "Federated Search Unify search across different sources",
-          "Data Management Optimize pipelines and control costs",
-          "AI Toolkit Build, test, and deploy custom AI",
-          "Splunk MCP Server Connect AI to Splunk data securely",
-          "Data Optimization Manage data, storage, and costs",
-          "IT Modernization Maximize IT impact with AIOps",
-          "IT Service Health Analyze service health from one view",
-          "View all use cases",
-          "See Splunk Cloud Platform in action Explore the product tour",
-          "Enterprise Security Unify TDIR with the AI-powered SecOps platform",
-          "Security overview",
-          "SIEM Detect and stop threats",
-          "SOAR Accelerate and automate response",
-          "UEBA Detect user and entity anomalies",
-          "Detection Studio Develop and monitor detections",
-          "Artificial Intelligence Scale with AI and AgenticOps",
-          "View all capabilities",
-          "Advanced Threat Detection Uncover insider threats and attacks"
-        ],
-        "ctas": [
-          "Search",
-          "Federated Search Unify search across different sources",
-          "See Splunk Cloud Platform in action Explore the product tour",
-          "Power the agentic SOC Learn more",
-          "Build a leading observability practice with Splunk AI Learn more",
-          "Download now",
-          "Read the e-book",
-          "Get Started with Splunk",
-          "Contact Sales",
-          "Pricing",
-          "Contact Us",
-          "Log In",
-          "Sign Up",
-          "Trials & Downloads",
-          "Free Trials & Downloads",
-          "OpenTelemetry: An Introduction",
-          "Facebook",
-          "Filter Button"
-        ],
-        "landmarks": [
-          "navigation:Main Navigation",
-          "dialog:splunk-new-modal",
-          "dialog:Consent Manager",
-          "navigation:Cookie Categories"
-        ]
-      },
-      {
         "url": "https://www.splunk.com/login",
         "title": "Please sign in",
         "headings": [
@@ -1190,140 +2021,6 @@
         "navLabels": [],
         "ctas": [],
         "landmarks": []
-      },
-      {
-        "url": "https://www.splunk.com/signin",
-        "title": "404 Page | Splunk",
-        "description": "Splunk indexes and makes searchable data from any app, server or network device in real time including logs, config files, messages, alerts, scripts and metrics.",
-        "headings": [
-          "Spot 404s faster than you can say observability.",
-          "Consent Manager",
-          "Your Privacy",
-          "Strictly Necessary Cookies",
-          "Performance Cookies",
-          "Targeting Cookies",
-          "Functional Cookies",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Search",
-          "Back",
-          "Cloud Platform Leverage a flexible data platform offered as a service",
-          "Enterprise Unify security and observability with a data platform",
-          "Platform overview",
-          "Artificial Intelligence Activate agentic operations",
-          "Federated Search Unify search across different sources",
-          "Data Management Optimize pipelines and control costs",
-          "AI Toolkit Build, test, and deploy custom AI",
-          "Splunk MCP Server Connect AI to Splunk data securely",
-          "Data Optimization Manage data, storage, and costs",
-          "IT Modernization Maximize IT impact with AIOps",
-          "IT Service Health Analyze service health from one view",
-          "View all use cases",
-          "See Splunk Cloud Platform in action Explore the product tour",
-          "Enterprise Security Unify TDIR with the AI-powered SecOps platform",
-          "Security overview",
-          "SIEM Detect and stop threats",
-          "SOAR Accelerate and automate response",
-          "UEBA Detect user and entity anomalies",
-          "Detection Studio Develop and monitor detections",
-          "Artificial Intelligence Scale with AI and AgenticOps",
-          "View all capabilities",
-          "Advanced Threat Detection Uncover insider threats and attacks"
-        ],
-        "ctas": [
-          "Search",
-          "Federated Search Unify search across different sources",
-          "See Splunk Cloud Platform in action Explore the product tour",
-          "Power the agentic SOC Learn more",
-          "Build a leading observability practice with Splunk AI Learn more",
-          "Download now",
-          "Read the e-book",
-          "Get Started with Splunk",
-          "Contact Sales",
-          "Pricing",
-          "Contact Us",
-          "Log In",
-          "Sign Up",
-          "Trials & Downloads",
-          "Free Trials & Downloads",
-          "OpenTelemetry: An Introduction",
-          "Facebook",
-          "Filter Button"
-        ],
-        "landmarks": [
-          "navigation:Main Navigation",
-          "dialog:splunk-new-modal",
-          "dialog:Consent Manager",
-          "navigation:Cookie Categories"
-        ]
-      },
-      {
-        "url": "https://www.splunk.com/sign-in",
-        "title": "404 Page | Splunk",
-        "description": "Splunk indexes and makes searchable data from any app, server or network device in real time including logs, config files, messages, alerts, scripts and metrics.",
-        "headings": [
-          "Spot 404s faster than you can say observability.",
-          "Consent Manager",
-          "Your Privacy",
-          "Strictly Necessary Cookies",
-          "Performance Cookies",
-          "Targeting Cookies",
-          "Functional Cookies",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Search",
-          "Back",
-          "Cloud Platform Leverage a flexible data platform offered as a service",
-          "Enterprise Unify security and observability with a data platform",
-          "Platform overview",
-          "Artificial Intelligence Activate agentic operations",
-          "Federated Search Unify search across different sources",
-          "Data Management Optimize pipelines and control costs",
-          "AI Toolkit Build, test, and deploy custom AI",
-          "Splunk MCP Server Connect AI to Splunk data securely",
-          "Data Optimization Manage data, storage, and costs",
-          "IT Modernization Maximize IT impact with AIOps",
-          "IT Service Health Analyze service health from one view",
-          "View all use cases",
-          "See Splunk Cloud Platform in action Explore the product tour",
-          "Enterprise Security Unify TDIR with the AI-powered SecOps platform",
-          "Security overview",
-          "SIEM Detect and stop threats",
-          "SOAR Accelerate and automate response",
-          "UEBA Detect user and entity anomalies",
-          "Detection Studio Develop and monitor detections",
-          "Artificial Intelligence Scale with AI and AgenticOps",
-          "View all capabilities",
-          "Advanced Threat Detection Uncover insider threats and attacks"
-        ],
-        "ctas": [
-          "Search",
-          "Federated Search Unify search across different sources",
-          "See Splunk Cloud Platform in action Explore the product tour",
-          "Power the agentic SOC Learn more",
-          "Build a leading observability practice with Splunk AI Learn more",
-          "Download now",
-          "Read the e-book",
-          "Get Started with Splunk",
-          "Contact Sales",
-          "Pricing",
-          "Contact Us",
-          "Log In",
-          "Sign Up",
-          "Trials & Downloads",
-          "Free Trials & Downloads",
-          "OpenTelemetry: An Introduction",
-          "Facebook",
-          "Filter Button"
-        ],
-        "landmarks": [
-          "navigation:Main Navigation",
-          "dialog:splunk-new-modal",
-          "dialog:Consent Manager",
-          "navigation:Cookie Categories"
-        ]
       }
     ],
     "navLabels": [
@@ -1351,12 +2048,12 @@
       "Artificial Intelligence Scale with AI and AgenticOps",
       "View all capabilities",
       "Advanced Threat Detection Uncover insider threats and attacks",
-      "Cloud Platform",
-      "Enterprise",
-      "Data Optimization",
-      "IT Modernization",
-      "IT Service Health",
-      "Explore the product tour"
+      "Contact",
+      "Community Slack(Opens new window)",
+      "Privacy policy",
+      "Terms of use",
+      "logo",
+      "Support"
     ],
     "ctas": [
       "Search",
@@ -1379,10 +2076,10 @@
       "Explore Splunk Observability",
       "Explore threat detection methods",
       "Explore alert noise reduction",
-      "Federated Search",
-      "Get the E-Book",
-      "Get started now",
-      "Free Trials & Downloads"
+      "Free Trials & Downloads",
+      "OpenTelemetry: An Introduction",
+      "Facebook",
+      "Filter Button"
     ],
     "headings": [
       "Get hands-on with Splunk at .conf26",
@@ -1405,22 +2102,23 @@
       "Leader in security and observability",
       "Trending industry research",
       "The State of Observability",
-      "federated search",
-      "Unified analytics for your hybrid data",
-      "Take an interactive tour",
-      "Features",
-      "Query distributed data in place",
-      "Analyze your data wherever it lives",
-      "Intelligent, scalable data preparation and routing",
-      "Unified analytics using SPL2 query language",
-      "Automated schema resilience",
-      "Six Cloud Strategy Pitfalls and How to Avoid Them"
+      "Splunk use cases",
+      "Novuna Increases Uptime to Deepen Trust With Millions of Customers",
+      "Data optimization",
+      "Security monitoring",
+      "Incident mangement",
+      "Asset discovery & management",
+      "Compliance",
+      "Visualization & reporting",
+      "Troubleshoot mission-critical apps and infrastructure",
+      "Optimize data management"
     ],
     "techSignals": [
       "Segment",
       "Google Tag Manager",
       "React",
-      "Next.js"
+      "Next.js",
+      "Webpack"
     ],
     "featureCandidates": [
       "Get hands-on with Splunk at .conf26",
@@ -1437,14 +2135,14 @@
       "Leader in security and observability",
       "Trending industry research",
       "The State of Observability",
-      "federated search",
-      "Unified analytics for your hybrid data",
-      "Take an interactive tour",
-      "Features",
-      "Query distributed data in place",
-      "Analyze your data wherever it lives",
-      "Unified analytics using SPL2 query language",
-      "Automated schema resilience",
+      "Splunk use cases",
+      "Data optimization",
+      "Security monitoring",
+      "Incident mangement",
+      "Asset discovery & management",
+      "Compliance",
+      "Visualization & reporting",
+      "Optimize data management",
       "Search",
       "Federated Search Unify search across different sources"
     ],
@@ -1455,18 +2153,19 @@
       "Tabs",
       "Card layout",
       "Authentication",
-      "Filters",
       "Map view",
+      "Messaging",
       "Dashboard",
       "Checkout",
-      "Messaging"
+      "Filters"
     ],
     "platformsDetected": [
       "web",
       "api",
       "ios",
+      "cli",
       "android"
     ],
-    "summary": "Captured 39 screenshots across 15 public URLs. Nav signals: Search, Back, Cloud Platform Leverage a flexible data platform offered as a service, Enterprise Unify security and observability with a data platform, Platform overview, Artificial Intelligence Activate agentic operations. Tech signals: Segment, Google Tag Manager, React, Next.js. UI patterns: Search, Pricing display, Carousels, Tabs, Card layout, Authentication."
+    "summary": "Captured 59 screenshots across 13 public URLs. Nav signals: Search, Back, Cloud Platform Leverage a flexible data platform offered as a service, Enterprise Unify security and observability with a data platform, Platform overview, Artificial Intelligence Activate agentic operations. Tech signals: Segment, Google Tag Manager, React, Next.js, Webpack. UI patterns: Search, Pricing display, Carousels, Tabs, Card layout, Authentication."
   }
 }

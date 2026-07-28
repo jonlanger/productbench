@@ -1,0 +1,411 @@
+{
+  "capturedAt": "2026-07-27T19:11:51.992Z",
+  "screenshotCount": 31,
+  "pageCount": 8,
+  "pages": [
+    {
+      "url": "https://airbyte.com/",
+      "title": "The Context Layer for AI Agents | Airbyte",
+      "description": "Airbyte turns every source into a queryable Context Store, giving AI agents the live context they need to reason across systems.",
+      "headings": [
+        "The context layerfor AI agents.",
+        "Build with Airbyte"
+      ],
+      "navLabels": [
+        "Connectors",
+        "Docs",
+        "Pricing",
+        "Sign in",
+        "Talk to us",
+        "Try it free",
+        "21.7K STARS",
+        "COPY",
+        "Talk to sales"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "Try it free"
+      ],
+      "landmarks": [
+        "banner",
+        "navigation",
+        "main",
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://airbyte.com/signin",
+      "title": "Sign-in to Airbyte",
+      "description": "Sign-in into your existing Airbyte account.",
+      "headings": [
+        "Sign in to your Airbyte account"
+      ],
+      "navLabels": [],
+      "ctas": [
+        "Sign in to Airbyte agents",
+        "Sign in to Airbyte ELT"
+      ],
+      "landmarks": [
+        "main",
+        "banner",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://airbyte.com/blog-categories/ai-agents",
+      "title": "AI Agents: Insights, Use Cases & Best Practices | Airbyte",
+      "description": "Explore AI Agents—guides, trends, and use cases to help you apply contextual AI for smarter decisions and better outcomes.",
+      "headings": [
+        "AI Agents",
+        "Build with Airbyte"
+      ],
+      "navLabels": [
+        "Connectors",
+        "Docs",
+        "Pricing",
+        "Sign in",
+        "Talk to us",
+        "Try it free"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "Try it free",
+        "AI AGENTSSovereignty Starts Below the Model",
+        "AI AGENTSEnable Semantic Search for Gong and Linear"
+      ],
+      "landmarks": [
+        "dialog:Cookie Consent Banner",
+        "dialog:01b25be1-12e1-42c5-a33a-4d3b27ea4fe0__label",
+        "banner",
+        "navigation",
+        "main",
+        "navigation:List",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://airbyte.com/community/help",
+      "title": "Get Help from the Airbyte Team | Airbyte - Open-source Data Integration",
+      "description": "Let us know if you have any questions about getting started or working with Airbyte and any of its data integration pipelines.",
+      "headings": [
+        "Chat with our team",
+        "Get help from our team and community!",
+        "Docs",
+        "GitHub",
+        "Slack",
+        "Stay in the know",
+        "Build with Airbyte"
+      ],
+      "navLabels": [
+        "Connectors",
+        "Docs",
+        "Pricing",
+        "Sign in",
+        "Talk to us",
+        "Try it free"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "Try it free",
+        "SlackJoin our chat and ask questions!"
+      ],
+      "landmarks": [
+        "dialog:Cookie Consent Banner",
+        "dialog:fa0a0f2c-cd61-4a32-9c11-949c12840a57__label",
+        "banner",
+        "navigation",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://airbyte.com/https:/docs.airbyte.com",
+      "title": "",
+      "description": "Airbyte turns every source into a queryable Context Store, giving AI agents the live context they need to reason across systems.",
+      "headings": [
+        "Page not found",
+        "Build with Airbyte"
+      ],
+      "navLabels": [
+        "Connectors",
+        "Docs",
+        "Pricing",
+        "Sign in",
+        "Talk to us",
+        "Try it free"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "Try it free",
+        "Contact Us"
+      ],
+      "landmarks": [
+        "dialog:Cookie Consent Banner",
+        "dialog:ccf70f64-71e8-4f52-81b9-47da020dcedb__label",
+        "banner",
+        "navigation",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://docs.airbyte.com/",
+      "title": "Airbyte Docs",
+      "description": "Airbyte is an open source data replication platform and context layer for AI agents. Equip your agents to query, search, and act on your data in real-time, or replicate data from hundreds of sources into warehouses, lakes, and databases.",
+      "headings": [
+        "Airbyte documentation",
+        "Agents",
+        "Get started",
+        "Core concepts",
+        "Interfaces",
+        "Agent connectors",
+        "Reference",
+        "Account and administration",
+        "Data Replication",
+        "Popular sources",
+        "Popular destinations",
+        "Platform",
+        "Connectors",
+        "Release notes",
+        "Developers",
+        "Community"
+      ],
+      "navLabels": [
+        "Docs",
+        "Agents",
+        "Data Replication",
+        "Platform",
+        "Connectors",
+        "Developers",
+        "Release notes",
+        "Community",
+        "Status",
+        "Ask AI",
+        "Search⌘K"
+      ],
+      "ctas": [
+        "Try Airbyte Agents",
+        "Search⌘K"
+      ],
+      "landmarks": [
+        "dialog:Cookie Consent Banner",
+        "dialog:acf1a809-c95d-4d7b-8075-b9cde3fa42de__label",
+        "banner",
+        "nav:Main"
+      ]
+    },
+    {
+      "url": "https://airbyte.com/pricing",
+      "title": "Airbyte Pricing",
+      "description": "Flexible, predictable pricing whether you're building agents or moving data.",
+      "headings": [
+        "Pricing plans that scale with you",
+        "You shouldn't pay more just because your data volume spikes",
+        "Why we price this way",
+        "Compare our plans",
+        "Builders love Airbyte",
+        "FAQs",
+        "Build with Airbyte"
+      ],
+      "navLabels": [
+        "Connectors",
+        "Docs",
+        "Pricing",
+        "Sign in",
+        "Talk to us",
+        "Try it free",
+        "Airbyte Agents",
+        "Data Replication",
+        "START for FREE",
+        "Get started",
+        "TrY IT NOW",
+        "Talk to sales"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "Try it free",
+        "START for FREE",
+        "Get started",
+        "TrY IT NOW",
+        "SearchAcross your business through the Context Store."
+      ],
+      "landmarks": [
+        "dialog:Cookie Consent Banner",
+        "dialog:c4dc4383-bf19-4cf4-8e5c-41508fef179c__label",
+        "banner",
+        "navigation",
+        "main",
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://airbyte.com/blog",
+      "title": "Read Airbyte Blog Articles",
+      "description": "Read articles on Agents, Data Integration & Context Infrastructure.",
+      "headings": [
+        "Airbyte Agents: A New Era for Airbyte",
+        "Top Stories",
+        "Join 100,000+ AI and Data Builders",
+        "Build with Airbyte"
+      ],
+      "navLabels": [
+        "Connectors",
+        "Docs",
+        "Pricing",
+        "Sign in",
+        "Talk to us",
+        "Try it free",
+        "39"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "Try it free",
+        "AI AGENTSAirbyte Joins the Agentic AI Foundation",
+        "AI AGENTSSovereignty Starts Below the Model",
+        "AI AGENTSEnable Semantic Search for Gong and Linear"
+      ],
+      "landmarks": [
+        "dialog:Cookie Consent Banner",
+        "dialog:a682e67d-0951-487b-b622-d18adc364c43__label",
+        "banner",
+        "navigation",
+        "main",
+        "navigation:List",
+        "footer"
+      ]
+    }
+  ],
+  "navLabels": [
+    "Connectors",
+    "Docs",
+    "Pricing",
+    "Sign in",
+    "Talk to us",
+    "Try it free",
+    "21.7K STARS",
+    "COPY",
+    "Talk to sales",
+    "Agents",
+    "Data Replication",
+    "Platform",
+    "Developers",
+    "Release notes",
+    "Community",
+    "Status",
+    "Ask AI",
+    "Search⌘K",
+    "Airbyte Agents",
+    "START for FREE",
+    "Get started",
+    "TrY IT NOW",
+    "39"
+  ],
+  "ctas": [
+    "Pricing",
+    "Sign in",
+    "Try it free",
+    "Sign in to Airbyte agents",
+    "Sign in to Airbyte ELT",
+    "AI AGENTSSovereignty Starts Below the Model",
+    "AI AGENTSEnable Semantic Search for Gong and Linear",
+    "SlackJoin our chat and ask questions!",
+    "Contact Us",
+    "Try Airbyte Agents",
+    "Search⌘K",
+    "START for FREE",
+    "Get started",
+    "TrY IT NOW",
+    "SearchAcross your business through the Context Store.",
+    "AI AGENTSAirbyte Joins the Agentic AI Foundation"
+  ],
+  "headings": [
+    "The context layerfor AI agents.",
+    "Build with Airbyte",
+    "Sign in to your Airbyte account",
+    "AI Agents",
+    "Chat with our team",
+    "Get help from our team and community!",
+    "Docs",
+    "GitHub",
+    "Slack",
+    "Stay in the know",
+    "Page not found",
+    "Airbyte documentation",
+    "Agents",
+    "Get started",
+    "Core concepts",
+    "Interfaces",
+    "Agent connectors",
+    "Reference",
+    "Account and administration",
+    "Data Replication",
+    "Popular sources",
+    "Popular destinations",
+    "Platform",
+    "Connectors",
+    "Release notes",
+    "Developers",
+    "Community",
+    "Pricing plans that scale with you",
+    "You shouldn't pay more just because your data volume spikes",
+    "Why we price this way"
+  ],
+  "techSignals": [
+    "Stripe",
+    "Zendesk",
+    "Google Tag Manager",
+    "Next.js",
+    "Segment"
+  ],
+  "featureCandidates": [
+    "The context layerfor AI agents.",
+    "Build with Airbyte",
+    "Sign in to your Airbyte account",
+    "AI Agents",
+    "Chat with our team",
+    "Get help from our team and community!",
+    "Docs",
+    "GitHub",
+    "Slack",
+    "Stay in the know",
+    "Page not found",
+    "Airbyte documentation",
+    "Agents",
+    "Get started",
+    "Core concepts",
+    "Interfaces",
+    "Agent connectors",
+    "Reference",
+    "Account and administration",
+    "Data Replication",
+    "Popular sources",
+    "Popular destinations",
+    "Platform",
+    "Connectors"
+  ],
+  "patternCandidates": [
+    "Pricing display",
+    "Authentication",
+    "Search",
+    "Map view",
+    "Tabs",
+    "Dashboard",
+    "Menus",
+    "Card layout",
+    "Messaging"
+  ],
+  "platformsDetected": [
+    "web",
+    "api",
+    "cli"
+  ],
+  "summary": "Captured 31 screenshots across 8 public URLs. Nav signals: Connectors, Docs, Pricing, Sign in, Talk to us, Try it free. Tech signals: Stripe, Zendesk, Google Tag Manager, Next.js, Segment. UI patterns: Pricing display, Authentication, Search, Map view, Tabs, Dashboard."
+}

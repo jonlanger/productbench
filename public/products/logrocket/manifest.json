@@ -1,0 +1,90 @@
+{
+  "slug": "logrocket",
+  "capturedAt": "2026-07-27T22:56:51.024Z",
+  "shots": [
+    {
+      "file": "fallback-docs-1.jpg",
+      "title": "LogRocket",
+      "caption": "Fallback from public docs: https://docs.logrocket.com",
+      "kind": "technical",
+      "sourceUrl": "https://docs.logrocket.com",
+      "capturedAt": "2026-07-27T22:56:46.517Z",
+      "playbookStep": "web-fallback",
+      "width": 368,
+      "height": 77,
+      "phash": "d0cbcb92cd9193d8",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-2.jpg",
+      "title": "LogRocket",
+      "caption": "Fallback from public docs: https://docs.logrocket.com",
+      "kind": "technical",
+      "sourceUrl": "https://docs.logrocket.com",
+      "capturedAt": "2026-07-27T22:56:46.517Z",
+      "playbookStep": "web-fallback",
+      "width": 368,
+      "height": 80,
+      "phash": "0000000000000000",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-3.jpg",
+      "title": "Docs UI 3",
+      "caption": "Fallback from public docs: https://docs.logrocket.com",
+      "kind": "technical",
+      "sourceUrl": "https://docs.logrocket.com",
+      "capturedAt": "2026-07-27T22:56:46.517Z",
+      "playbookStep": "web-fallback",
+      "width": 10320,
+      "height": 6189,
+      "phash": "722e2e2f43333353",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-4.jpg",
+      "title": "Docs UI 4",
+      "caption": "Fallback from public docs: https://docs.logrocket.com",
+      "kind": "technical",
+      "sourceUrl": "https://docs.logrocket.com",
+      "capturedAt": "2026-07-27T22:56:46.517Z",
+      "playbookStep": "web-fallback",
+      "width": 2428,
+      "height": 1985,
+      "phash": "733c337333333b1c",
+      "unique": true
+    },
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://logrocket.com",
+      "capturedAt": "2026-07-27T22:56:46.517Z",
+      "playbookStep": "web-fallback",
+      "width": 2400,
+      "height": 1261,
+      "phash": "dfdbfed9f9f9bafa",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T22:56:51.024Z",
+    "screenshotCount": 5,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 5 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

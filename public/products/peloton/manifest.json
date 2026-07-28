@@ -1,0 +1,38 @@
+{
+  "slug": "peloton",
+  "capturedAt": "2026-07-27T23:01:02.560Z",
+  "shots": [
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.onepeloton.com",
+      "capturedAt": "2026-07-27T23:01:01.661Z",
+      "playbookStep": "web-fallback",
+      "width": 2400,
+      "height": 1260,
+      "phash": "0048006969006800",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T23:01:02.560Z",
+    "screenshotCount": 1,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 1 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

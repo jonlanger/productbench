@@ -1,0 +1,103 @@
+{
+  "slug": "honeycomb",
+  "capturedAt": "2026-07-27T22:56:16.411Z",
+  "shots": [
+    {
+      "file": "fallback-docs-1.jpg",
+      "title": "Docs UI 1",
+      "caption": "Fallback from public docs: https://www.honeycomb.io/docs",
+      "kind": "docs",
+      "sourceUrl": "https://www.honeycomb.io/docs",
+      "capturedAt": "2026-07-27T22:56:10.924Z",
+      "playbookStep": "web-fallback",
+      "width": 463,
+      "height": 260,
+      "phash": "360e0e8f9bcf864e",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-2.png",
+      "title": "your-data",
+      "caption": "Fallback from public docs: https://www.honeycomb.io/docs",
+      "kind": "docs",
+      "sourceUrl": "https://www.honeycomb.io/docs",
+      "capturedAt": "2026-07-27T22:56:10.924Z",
+      "playbookStep": "web-fallback",
+      "width": 147,
+      "height": 121,
+      "phash": "000e0ed4d4d4d4d0",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-3.png",
+      "title": "your-data",
+      "caption": "Fallback from public docs: https://www.honeycomb.io/docs",
+      "kind": "docs",
+      "sourceUrl": "https://www.honeycomb.io/docs",
+      "capturedAt": "2026-07-27T22:56:10.924Z",
+      "playbookStep": "web-fallback",
+      "width": 147,
+      "height": 136,
+      "phash": "82968278d4d0a414",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-4.png",
+      "title": "your-data",
+      "caption": "Fallback from public docs: https://www.honeycomb.io/docs",
+      "kind": "docs",
+      "sourceUrl": "https://www.honeycomb.io/docs",
+      "capturedAt": "2026-07-27T22:56:10.924Z",
+      "playbookStep": "web-fallback",
+      "width": 147,
+      "height": 121,
+      "phash": "002b2bcccccccce8",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-5.png",
+      "title": "Bluesky",
+      "caption": "Fallback from public docs: https://www.honeycomb.io/support",
+      "kind": "docs",
+      "sourceUrl": "https://www.honeycomb.io/support",
+      "capturedAt": "2026-07-27T22:56:10.924Z",
+      "playbookStep": "web-fallback",
+      "width": 600,
+      "height": 530,
+      "phash": "0000000000000000",
+      "unique": true
+    },
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.honeycomb.io",
+      "capturedAt": "2026-07-27T22:56:10.924Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 627,
+      "phash": "4160617171611021",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T22:56:16.411Z",
+    "screenshotCount": 6,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 6 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

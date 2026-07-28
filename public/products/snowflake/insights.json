@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-07-26T22:47:40.642Z",
-  "screenshotCount": 33,
-  "pageCount": 16,
+  "capturedAt": "2026-07-27T21:55:42.254Z",
+  "screenshotCount": 46,
+  "pageCount": 10,
   "pages": [
     {
       "url": "https://www.snowflake.com/en/",
@@ -27,24 +27,11 @@
         "Cookie List"
       ],
       "navLabels": [
-        "Pricing",
-        "English",
-        "日本語",
-        "한국어",
-        "中文（简体）",
-        "Português",
-        "Deutsch",
-        "Français",
-        "Español",
-        "Italiano",
-        "Sign in",
-        "CONTACT SALES",
-        "start for free"
+        "start for free",
+        "More information",
+        "Cookies Details"
       ],
       "ctas": [
-        "Pricing",
-        "Sign in",
-        "CONTACT SALES",
         "start for free",
         "View Pricing",
         "Explore the solution",
@@ -58,6 +45,7 @@
         "Watch a demo",
         "unsubscribe links",
         "Subscribe Now",
+        "Pricing",
         "Contact",
         "Live Demos",
         "Filter Button"
@@ -71,21 +59,13 @@
       ]
     },
     {
-      "url": "https://www.snowflake.com/en/product/features/postgres/",
-      "title": "Snowflake Postgres | Production-Ready from Day One",
-      "description": "Run Postgres on an enterprise-grade foundation with seamless data mirroring to analytics, world-class performance and advanced security. One platform for apps, AI and insights.",
+      "url": "https://www.snowflake.com/en/customers/",
+      "title": "Snowflake Customers: Join the World's Leading Brands",
+      "description": "Thousands of customers - rely on Snowflake to simplify their data foundation, power AI strategy and scale with apps.",
       "headings": [
-        "SNOWFLAKE POSTGRES",
-        "Unify Postgres and analytics",
-        "Innovate faster on a proven foundation",
-        "Build freely without pipelines",
-        "Get one platform for all your data",
-        "Scale your mission-critical apps and AI",
-        "Mirror your data without middleware",
-        "Power Your Apps and AI on One Trusted Platform",
-        "feature overview",
-        "RESOURCES",
-        "Frequently Asked Questions",
+        "Join the World’s Leading Brands",
+        "Stories in the Spotlight",
+        "RelatedResources",
         "Where Data Does More",
         "Privacy Preference Center",
         "Your Privacy",
@@ -115,11 +95,6 @@
         "Sign in",
         "CONTACT SALES",
         "start for free",
-        "Notebooks",
-        "watch the demo",
-        "GUIDEGetting Started with Snowflake PostgresExplore the guide",
-        "DemoPostgres & AI: A RAGS to riches storyWatch the video",
-        "How does pricing work?",
         "Watch a demo",
         "unsubscribe links",
         "Subscribe Now",
@@ -135,7 +110,7 @@
     },
     {
       "url": "https://docs.snowflake.com/en/user-guide-getting-started",
-      "title": "Get Started - Snowflake Documentation",
+      "title": "",
       "headings": [
         "Get started",
         "Get started with Snowflake for users",
@@ -165,7 +140,7 @@
         "Reference",
         "Release notes",
         "Tutorials",
-        "StatusAll Systems Operational",
+        "Status",
         "Overview",
         "Get started for users",
         "Concepts for administrators",
@@ -346,86 +321,6 @@
       ]
     },
     {
-      "url": "https://docs.snowflake.com/en/user-guide/security",
-      "title": "404 File Not Found - Snowflake Documentation",
-      "headings": [
-        "We couldn't find that",
-        "Privacy Preference Center",
-        "Your Privacy",
-        "Strictly Necessary Cookies",
-        "Performance Cookies",
-        "Functional Cookies",
-        "Targeting Cookies",
-        "Cookie List"
-      ],
-      "navLabels": [
-        "DOCUMENTATION",
-        "EN",
-        "English",
-        "Français",
-        "Deutsch",
-        "日本語",
-        "한국어",
-        "Português",
-        "Get started",
-        "Guides",
-        "Developer",
-        "Reference",
-        "Release notes",
-        "Tutorials",
-        "StatusAll Systems Operational"
-      ],
-      "ctas": [
-        "Get started",
-        "Filter Button"
-      ],
-      "landmarks": [
-        "nav",
-        "search",
-        "dialog:Privacy Preference Center"
-      ]
-    },
-    {
-      "url": "https://docs.snowflake.com/en/user-guide/admin",
-      "title": "404 File Not Found - Snowflake Documentation",
-      "headings": [
-        "We couldn't find that",
-        "Privacy Preference Center",
-        "Your Privacy",
-        "Strictly Necessary Cookies",
-        "Performance Cookies",
-        "Functional Cookies",
-        "Targeting Cookies",
-        "Cookie List"
-      ],
-      "navLabels": [
-        "DOCUMENTATION",
-        "EN",
-        "English",
-        "Français",
-        "Deutsch",
-        "日本語",
-        "한국어",
-        "Português",
-        "Get started",
-        "Guides",
-        "Developer",
-        "Reference",
-        "Release notes",
-        "Tutorials",
-        "StatusAll Systems Operational"
-      ],
-      "ctas": [
-        "Get started",
-        "Filter Button"
-      ],
-      "landmarks": [
-        "nav",
-        "search",
-        "dialog:Privacy Preference Center"
-      ]
-    },
-    {
       "url": "https://www.snowflake.com/en/pricing-options/",
       "title": "Snowflake Pricing | Choose the Right Edition for Your Data Needs",
       "description": "Discover Snowflake pricing editions tailored to your security and compliance needs. Discover how you only pay for the storage and compute resources you use.",
@@ -554,46 +449,89 @@
       ]
     },
     {
-      "url": "https://www.snowflake.com/products/",
-      "title": "",
-      "headings": [],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.snowflake.com/features/",
-      "title": "",
-      "headings": [],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.snowflake.com/platform/",
-      "title": "",
-      "headings": [],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.snowflake.com/solutions/",
-      "title": "",
-      "headings": [],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.snowflake.com/en/customers/",
-      "title": "Snowflake Customers: Join the World's Leading Brands",
-      "description": "Thousands of customers - rely on Snowflake to simplify their data foundation, power AI strategy and scale with apps.",
+      "url": "https://www.snowflake.com/en/blog/",
+      "title": "Inside the AI Data Cloud | Snowflake Blog",
+      "description": "From technical articles about AI and application strategies to real-world success stories, the Snowflake Blog explores what's possible in the data cloud.",
       "headings": [
-        "Join the World’s Leading Brands",
-        "Stories in the Spotlight",
-        "RelatedResources",
+        "Inside the AI Data Cloud",
+        "Technological Revolution: Preparing for the Era of Agentic AI",
+        "Announcing Anthropic Claude Opus 5 on Snowflake Cortex AI",
+        "Delivering ROI for the Agentic Enterprise: 3 Considerations for Executives",
+        "Featured",
+        "Featured AI & ML",
+        "Snowflake CoCo: Built to Scale Enterprise AI with Trust",
+        "LATEST STORIES",
+        "A Blueprint for Closing the Loop Between Snowflake Context and Meta Campaigns",
+        "Your Agents Are in Production. Now What?",
+        "The New Partner Playbook: Building in the Age of Snowflake Cortex AI",
+        "Activate the Context Layer of Business Activity: Your Documents",
+        "Snowflake and ICF: Unlocking Data Value for the Public Sector",
+        "Open Interoperability: Delivering Customer Choice",
+        "Inside the Data Collaboration That Helped Team USA Win Olympic Gold",
         "Where Data Does More",
+        "Privacy Preference Center"
+      ],
+      "navLabels": [
+        "Pricing",
+        "English",
+        "日本語",
+        "한국어",
+        "中文（简体）",
+        "Português",
+        "Deutsch",
+        "Français",
+        "Español",
+        "Italiano",
+        "Sign in",
+        "CONTACT SALES",
+        "start for free",
+        "ENGINEERING BLOG",
+        "AI/ML",
+        "At Snowflake",
+        "Industry Solutions",
+        "Partner & Customer Value",
+        "Product & Technology",
+        "Strategy & Insights"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "CONTACT SALES",
+        "start for free",
+        "Industry Solutions",
+        "Filter",
+        "Apply filters",
+        "Watch a demo",
+        "unsubscribe links",
+        "Subscribe Now",
+        "Contact",
+        "Live Demos",
+        "Filter Button"
+      ],
+      "landmarks": [
+        "nav",
+        "dialog:Privacy Preference Center",
+        "navigation:Cookie Categories"
+      ]
+    },
+    {
+      "url": "https://www.snowflake.com/en/company/overview/about-snowflake/",
+      "title": "About Snowflake",
+      "description": "Discover the origins of the Snowflake Data Cloud, where thousands of organizations have seamless access to explore, share, & unlock the true value of data.",
+      "headings": [
+        "How It All Started",
+        "12,062",
+        "6.3B",
+        "3,400",
+        "Meet our leadership",
+        "Leadership Team",
+        "Board of Directors",
+        "Our Values",
+        "Our Offices",
+        "Snowflake spans the globe",
+        "AWARDS &RECOGNITION",
+        "Learn moreabout snowflake",
+        "Policies",
         "Privacy Preference Center",
         "Your Privacy",
         "Strictly Necessary Cookies",
@@ -622,7 +560,7 @@
         "Sign in",
         "CONTACT SALES",
         "start for free",
-        "Watch a demo",
+        "Learn More",
         "unsubscribe links",
         "Subscribe Now",
         "Contact",
@@ -634,17 +572,12 @@
         "dialog:Privacy Preference Center",
         "navigation:Cookie Categories"
       ]
-    },
-    {
-      "url": "https://www.snowflake.com/docs/",
-      "title": "",
-      "headings": [],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
     }
   ],
   "navLabels": [
+    "start for free",
+    "More information",
+    "Cookies Details",
     "Pricing",
     "English",
     "日本語",
@@ -657,7 +590,6 @@
     "Italiano",
     "Sign in",
     "CONTACT SALES",
-    "start for free",
     "DOCUMENTATION",
     "EN",
     "Get started",
@@ -666,20 +598,15 @@
     "Reference",
     "Release notes",
     "Tutorials",
-    "StatusAll Systems Operational",
+    "Status",
     "Overview",
     "Get started for users",
     "Concepts for administrators",
     "Sample data",
     "Contacting support",
-    "SQL data types reference",
-    "SQL command reference",
-    "Function and stored procedure reference"
+    "StatusAll Systems Operational"
   ],
   "ctas": [
-    "Pricing",
-    "Sign in",
-    "CONTACT SALES",
     "start for free",
     "View Pricing",
     "Explore the solution",
@@ -693,14 +620,17 @@
     "Watch a demo",
     "unsubscribe links",
     "Subscribe Now",
+    "Pricing",
     "Contact",
     "Live Demos",
     "Filter Button",
-    "Notebooks",
-    "watch the demo",
-    "GUIDEGetting Started with Snowflake PostgresExplore the guide",
-    "DemoPostgres & AI: A RAGS to riches storyWatch the video",
-    "How does pricing work?"
+    "Sign in",
+    "CONTACT SALES",
+    "Get started",
+    "Get started for users",
+    "Contacting support",
+    "Sign into SnowflakeLearn how to use various interfaces to sign into Snowflake.",
+    "Join the conversation"
   ],
   "headings": [
     "Code Work",
@@ -720,19 +650,19 @@
     "Functional Cookies",
     "Targeting Cookies",
     "Cookie List",
-    "SNOWFLAKE POSTGRES",
-    "Unify Postgres and analytics",
-    "Innovate faster on a proven foundation",
-    "Build freely without pipelines",
-    "Get one platform for all your data",
-    "Scale your mission-critical apps and AI",
-    "Mirror your data without middleware",
-    "Power Your Apps and AI on One Trusted Platform",
-    "feature overview",
-    "RESOURCES",
-    "Frequently Asked Questions",
+    "Join the World’s Leading Brands",
+    "Stories in the Spotlight",
+    "RelatedResources",
     "Get started",
-    "Get started with Snowflake for users"
+    "Get started with Snowflake for users",
+    "Start learning Snowflake with interactive lessons",
+    "Learn key concepts for Snowflake administrators",
+    "Sample data sets",
+    "We couldn't find that",
+    "General reference¶",
+    "Snowsight: The Snowflake web interface¶",
+    "Snowflake Pricing",
+    "$2.00"
   ],
   "techSignals": [
     "React",
@@ -759,26 +689,27 @@
     "Functional Cookies",
     "Targeting Cookies",
     "Cookie List",
-    "SNOWFLAKE POSTGRES",
-    "Unify Postgres and analytics",
-    "Innovate faster on a proven foundation",
-    "Build freely without pipelines",
-    "Get one platform for all your data",
-    "Scale your mission-critical apps and AI",
-    "Mirror your data without middleware"
+    "Join the World’s Leading Brands",
+    "Stories in the Spotlight",
+    "RelatedResources",
+    "Get started",
+    "Get started with Snowflake for users",
+    "Learn key concepts for Snowflake administrators",
+    "Sample data sets"
   ],
   "patternCandidates": [
     "Pricing display",
     "Map view",
     "Tabs",
     "Authentication",
+    "Messaging",
     "Dashboard",
-    "Messaging"
+    "Filters"
   ],
   "platformsDetected": [
     "web",
     "api",
     "cli"
   ],
-  "summary": "Captured 33 screenshots across 16 public URLs. Nav signals: Pricing, English, 日本語, 한국어, 中文（简体）, Português. Tech signals: React, Google Tag Manager, Cloudflare, Next.js, Webpack. UI patterns: Pricing display, Map view, Tabs, Authentication, Dashboard, Messaging."
+  "summary": "Captured 46 screenshots across 10 public URLs. Nav signals: start for free, More information, Cookies Details, Pricing, English, 日本語. Tech signals: React, Google Tag Manager, Cloudflare, Next.js, Webpack. UI patterns: Pricing display, Map view, Tabs, Authentication, Messaging, Dashboard."
 }

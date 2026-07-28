@@ -1,464 +1,220 @@
 {
   "slug": "salesforce",
-  "capturedAt": "2026-07-27T00:26:36.293Z",
+  "capturedAt": "2026-07-27T22:47:40.547Z",
   "shots": [
-    {
-      "file": "surface-1.jpg",
-      "title": "Object list view (1)",
-      "caption": "Salesforce public surface · help.salesforce.com",
-      "kind": "product",
-      "sourceUrl": "https://help.salesforce.com/s/articleView?id=sf.basics_welcome.htm&type=5"
-    },
-    {
-      "file": "surface-1-mid.jpg",
-      "title": "Object list view (2)",
-      "caption": "Salesforce public surface · help.salesforce.com",
-      "kind": "product",
-      "sourceUrl": "https://help.salesforce.com/s/articleView?id=sf.basics_welcome.htm&type=5"
-    },
-    {
-      "file": "surface-2.jpg",
-      "title": "Record detail (1)",
-      "caption": "Salesforce public surface · trailhead.salesforce.com",
-      "kind": "product",
-      "sourceUrl": "https://trailhead.salesforce.com/content/learn/modules/lex_migration_introduction"
-    },
-    {
-      "file": "surface-2-mid.jpg",
-      "title": "Record detail (2)",
-      "caption": "Salesforce public surface · trailhead.salesforce.com",
-      "kind": "product",
-      "sourceUrl": "https://trailhead.salesforce.com/content/learn/modules/lex_migration_introduction"
-    },
-    {
-      "file": "surface-3.jpg",
-      "title": "Opportunity pipeline (1)",
-      "caption": "Salesforce public surface · developer.salesforce.com",
-      "kind": "docs",
-      "sourceUrl": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm"
-    },
-    {
-      "file": "surface-3-mid.jpg",
-      "title": "Opportunity pipeline (2)",
-      "caption": "Salesforce public surface · developer.salesforce.com",
-      "kind": "docs",
-      "sourceUrl": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm"
-    },
-    {
-      "file": "surface-4.jpg",
-      "title": "Setup / Object Manager (1)",
-      "caption": "Salesforce public surface · developer.salesforce.com",
-      "kind": "docs",
-      "sourceUrl": "https://developer.salesforce.com/docs/platform/lwc/guide"
-    },
-    {
-      "file": "surface-4-mid.jpg",
-      "title": "Setup / Object Manager (2)",
-      "caption": "Salesforce public surface · developer.salesforce.com",
-      "kind": "docs",
-      "sourceUrl": "https://developer.salesforce.com/docs/platform/lwc/guide"
-    },
-    {
-      "file": "surface-5.jpg",
-      "title": "Flow Builder (1)",
-      "caption": "Salesforce public surface · developer.salesforce.com",
-      "kind": "docs",
-      "sourceUrl": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dev_guide.htm"
-    },
-    {
-      "file": "surface-5-mid.jpg",
-      "title": "Flow Builder (2)",
-      "caption": "Salesforce public surface · developer.salesforce.com",
-      "kind": "docs",
-      "sourceUrl": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dev_guide.htm"
-    },
-    {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6 (1)",
-      "caption": "Salesforce public surface · help.salesforce.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.salesforce.com/s/articleView?id=sf.admin_setup.htm&type=5"
-    },
-    {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
-      "caption": "Salesforce public surface · help.salesforce.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.salesforce.com/s/articleView?id=sf.admin_setup.htm&type=5"
-    },
-    {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
-      "caption": "Salesforce public surface · help.salesforce.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.salesforce.com/s/articleView?id=xcloud.security_overview.htm&type=5"
-    },
-    {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
-      "caption": "Salesforce public surface · help.salesforce.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.salesforce.com/s/articleView?id=xcloud.security_overview.htm&type=5"
-    },
-    {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
-      "caption": "Salesforce public surface · help.salesforce.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.salesforce.com/s/articleView?id=sf.users_profiles.htm&type=5"
-    },
-    {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
-      "caption": "Salesforce public surface · help.salesforce.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.salesforce.com/s/articleView?id=sf.users_profiles.htm&type=5"
-    },
     {
       "file": "fallback-og-1.jpg",
       "title": "Marketing preview",
       "caption": "Open Graph image (fallback when live UI capture was thin)",
       "kind": "marketing",
-      "sourceUrl": "https://www.salesforce.com"
-    },
-    {
-      "file": "fallback-wayback-1.jpg",
-      "title": "Archived Marketing preview",
-      "caption": "Wayback Machine snapshot 20260725154900 · https://www.salesforce.com",
-      "kind": "marketing",
-      "sourceUrl": "http://web.archive.org/web/20260725154900/https://www.salesforce.com/"
-    },
-    {
-      "file": "fallback-wayback-2.jpg",
-      "title": "An infographic describing the architecture of Salesforce products. The base in the Salesfo",
-      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260725154900/https://www.salesforce.com/",
-      "kind": "docs",
-      "sourceUrl": "http://web.archive.org/web/20260725154900/https://www.salesforce.com/"
+      "sourceUrl": "https://www.salesforce.com",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 1024,
+      "height": 537,
+      "phash": "061c8e96968c0a02",
+      "unique": true
     },
     {
       "file": "fallback-yt-tCIiWdnH738-poster.jpg",
       "title": "YouTube poster (tCIiWdnH738)",
       "caption": "YouTube poster · https://www.youtube.com/watch?v=tCIiWdnH738",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738"
+      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 1280,
+      "height": 720,
+      "phash": "2f2c4e8fffbdbffd",
+      "unique": true
     },
     {
       "file": "fallback-yt-tCIiWdnH738-frame-0.jpg",
       "title": "YouTube frame still (tCIiWdnH738)",
       "caption": "YouTube frame-0 · https://www.youtube.com/watch?v=tCIiWdnH738",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738"
+      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 480,
+      "height": 360,
+      "phash": "432d2c8fbdbdfde9",
+      "unique": true
     },
     {
       "file": "fallback-yt-tCIiWdnH738-frame-1.jpg",
       "title": "YouTube frame still (tCIiWdnH738)",
       "caption": "YouTube frame-1 · https://www.youtube.com/watch?v=tCIiWdnH738",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738"
+      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "1c90c8cac89e9677",
+      "unique": true
     },
     {
       "file": "fallback-yt-tCIiWdnH738-frame-2.jpg",
       "title": "YouTube frame still (tCIiWdnH738)",
       "caption": "YouTube frame-2 · https://www.youtube.com/watch?v=tCIiWdnH738",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738"
-    },
-    {
-      "file": "fallback-yt-tCIiWdnH738-frame-3.jpg",
-      "title": "YouTube frame still (tCIiWdnH738)",
-      "caption": "YouTube frame-3 · https://www.youtube.com/watch?v=tCIiWdnH738",
-      "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738"
+      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "6767a7a7a7e7c69e",
+      "unique": true
     },
     {
       "file": "fallback-appstore-404249815-1.jpg",
       "title": "Salesforce screenshot 1",
       "caption": "Apple App Store public screenshot (id 404249815)",
       "kind": "product",
-      "sourceUrl": "https://apps.apple.com/app/id404249815"
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "5c8e0c238f0cc676",
+      "unique": true
     },
     {
       "file": "fallback-appstore-404249815-2.jpg",
       "title": "Salesforce screenshot 2",
       "caption": "Apple App Store public screenshot (id 404249815)",
       "kind": "product",
-      "sourceUrl": "https://apps.apple.com/app/id404249815"
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "170ec6b063cc3ae3",
+      "unique": true
     },
     {
       "file": "fallback-appstore-404249815-3.jpg",
       "title": "Salesforce screenshot 3",
       "caption": "Apple App Store public screenshot (id 404249815)",
       "kind": "product",
-      "sourceUrl": "https://apps.apple.com/app/id404249815"
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "171bbbb99d8cde5c",
+      "unique": true
     },
     {
       "file": "fallback-appstore-404249815-4.jpg",
       "title": "Salesforce screenshot 4",
       "caption": "Apple App Store public screenshot (id 404249815)",
       "kind": "product",
-      "sourceUrl": "https://apps.apple.com/app/id404249815"
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "0f072e6a7ed4b5a5",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-5.jpg",
+      "title": "Salesforce screenshot 5",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "273be3cb5d5c5225",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-6.jpg",
+      "title": "Salesforce screenshot 6",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "0b0745e5a35b4b06",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-7.jpg",
+      "title": "Salesforce screenshot 7",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "4d4f5896b03863df",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-8.jpg",
+      "title": "Salesforce screenshot 8",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "4c86f816e236056d",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-9.jpg",
+      "title": "Salesforce screenshot 9",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "164bb9a062602846",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-10.jpg",
+      "title": "Salesforce screenshot 10",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:47:36.200Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "4c5f466563643930",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T00:26:36.293Z",
-    "screenshotCount": 28,
-    "pageCount": 5,
-    "pages": [
-      {
-        "url": "https://help.salesforce.com/s/articleView?id=sf.basics_welcome.htm&type=5",
-        "title": "Salesforce Help | Article",
-        "headings": [
-          "Cookie Consent Manager",
-          "General Information",
-          "Required Cookies",
-          "Functional Cookies",
-          "Advertising Cookies",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Privacy Statement",
-          "Cookies Details"
-        ],
-        "ctas": [
-          "Filter Button"
-        ],
-        "landmarks": [
-          "dialog:auraErrorTitle",
-          "dialog:Cookie Consent Manager",
-          "navigation:Cookie Categories"
-        ]
-      },
-      {
-        "url": "https://trailhead.salesforce.com/content/learn/modules/lex_migration_introduction",
-        "title": "404 | Salesforce Trailhead",
-        "headings": [
-          "Grow your Salesforce expertise",
-          "Other learning tools",
-          "Connect with the Trailblazer Community",
-          "Build your Salesforce career",
-          "Earn resume-worthy credentials",
-          "Discover resources",
-          "All support",
-          "Trailblazer resources",
-          "Cookie Consent Manager",
-          "General Information",
-          "Required Cookies",
-          "Functional Cookies",
-          "Advertising Cookies",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Trailhead",
-          "Home",
-          "Learn",
-          "Badges Gain new skills and hands-on experience through bite-sized units",
-          "Trails Follow guided learning paths",
-          "Trailhead Journeys Curated trails that build product expertise",
-          "Superbadges Get hands-on applying your skills to solve real-world challenges",
-          "Trailmixes Create and follow custom learning playlists",
-          "Become an Agentblazer Learn in-demand AI skills to build the future",
-          "Trailblazer Quests Learn new skills and win fun prizes",
-          "Trailhead Mobile App Skill up anytime, anywhere",
-          "Instructor-led Training Learn directly from experts",
-          "Academic Programs Explore resources for students and educators",
-          "Community",
-          "Feed Ask and answer questions to build your skills",
-          "Groups Meet and collaborate with Trailblazers to grow your network",
-          "Topics Discover featured and trending topics",
-          "Group Meetings Join local community group meetings",
-          "360 Blog Learn about new Salesforce innovations",
-          "Career Growth",
-          "Certifications",
-          "Certifications by Role Find certifications specific to your role.",
-          "Help",
-          "My Cases Review and receive updates about submitted cases"
-        ],
-        "ctas": [
-          "Trailmixes Create and follow custom learning playlists",
-          "Academic Programs Explore resources for students and educators",
-          "Group Meetings Join local community group meetings",
-          "Sign Up",
-          "Filter Button"
-        ],
-        "landmarks": [
-          "nav:Main navigation",
-          "main",
-          "dialog:Cookie Consent Manager",
-          "navigation:Cookie Categories"
-        ]
-      },
-      {
-        "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
-        "title": "Introduction to REST API | REST API Developer Guide | Salesforce Developers",
-        "description": "REST API provides you with programmatic access to your data in Salesforce. The\n  flexibility and scalability of REST API make it an excellent choice for integrating Salesforce\n  into your applications and for performing complex operations on a large scale.",
-        "headings": [
-          "Cookie Consent Manager",
-          "General Information",
-          "Required Cookies",
-          "Functional Cookies",
-          "Advertising Cookies",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Privacy Statement",
-          "Cookies Details"
-        ],
-        "ctas": [
-          "Filter Button"
-        ],
-        "landmarks": [
-          "main",
-          "dialog:Cookie Consent Manager",
-          "navigation:Cookie Categories"
-        ]
-      },
-      {
-        "url": "https://developer.salesforce.com/docs/platform/lwc/guide",
-        "title": "Get Started | Lightning Web Components Developer Guide | Salesforce Developers",
-        "description": "Use the Lightning Web Components (LWC) framework to build custom user interfaces, web and mobile apps, and digital experiences on the Salesforce Platf",
-        "headings": [
-          "Get Started with Lightning Web Components",
-          "Cookie Consent Manager",
-          "General Information",
-          "Required Cookies",
-          "Functional Cookies",
-          "Advertising Cookies",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Privacy Statement",
-          "Cookies Details"
-        ],
-        "ctas": [
-          "Get Started Coding: Create Your First Component",
-          "Explore Trailhead and Sample Code",
-          "Filter Button"
-        ],
-        "landmarks": [
-          "main",
-          "dialog:Cookie Consent Manager",
-          "navigation:Cookie Categories"
-        ]
-      },
-      {
-        "url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dev_guide.htm",
-        "title": "Apex Developer Guide | Salesforce Developers",
-        "description": "Apex is a strongly typed, object-oriented programming language that allows developers\n        to execute flow and transaction control statements on the Salesforce Platform server, in\n        conjunction with calls to the API. This guide introduces you to the Apex development process\n        and provides valuable information on learning, writing, deploying and testing\n        Apex.",
-        "headings": [
-          "Cookie Consent Manager",
-          "General Information",
-          "Required Cookies",
-          "Functional Cookies",
-          "Advertising Cookies",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Privacy Statement",
-          "Cookies Details"
-        ],
-        "ctas": [
-          "Filter Button"
-        ],
-        "landmarks": [
-          "main",
-          "dialog:Cookie Consent Manager",
-          "navigation:Cookie Categories"
-        ]
-      }
-    ],
-    "navLabels": [
-      "Privacy Statement",
-      "Cookies Details",
-      "Trailhead",
-      "Home",
-      "Learn",
-      "Badges Gain new skills and hands-on experience through bite-sized units",
-      "Trails Follow guided learning paths",
-      "Trailhead Journeys Curated trails that build product expertise",
-      "Superbadges Get hands-on applying your skills to solve real-world challenges",
-      "Trailmixes Create and follow custom learning playlists",
-      "Become an Agentblazer Learn in-demand AI skills to build the future",
-      "Trailblazer Quests Learn new skills and win fun prizes",
-      "Trailhead Mobile App Skill up anytime, anywhere",
-      "Instructor-led Training Learn directly from experts",
-      "Academic Programs Explore resources for students and educators",
-      "Community",
-      "Feed Ask and answer questions to build your skills",
-      "Groups Meet and collaborate with Trailblazers to grow your network",
-      "Topics Discover featured and trending topics",
-      "Group Meetings Join local community group meetings",
-      "360 Blog Learn about new Salesforce innovations",
-      "Career Growth",
-      "Certifications",
-      "Certifications by Role Find certifications specific to your role.",
-      "Help",
-      "My Cases Review and receive updates about submitted cases"
-    ],
-    "ctas": [
-      "Filter Button",
-      "Trailmixes Create and follow custom learning playlists",
-      "Academic Programs Explore resources for students and educators",
-      "Group Meetings Join local community group meetings",
-      "Sign Up",
-      "Get Started Coding: Create Your First Component",
-      "Explore Trailhead and Sample Code"
-    ],
-    "headings": [
-      "Cookie Consent Manager",
-      "General Information",
-      "Required Cookies",
-      "Functional Cookies",
-      "Advertising Cookies",
-      "Cookie List",
-      "Grow your Salesforce expertise",
-      "Other learning tools",
-      "Connect with the Trailblazer Community",
-      "Build your Salesforce career",
-      "Earn resume-worthy credentials",
-      "Discover resources",
-      "All support",
-      "Trailblazer resources",
-      "Get Started with Lightning Web Components"
-    ],
-    "techSignals": [
-      "Segment",
-      "Google Tag Manager"
-    ],
-    "featureCandidates": [
-      "Cookie Consent Manager",
-      "General Information",
-      "Required Cookies",
-      "Functional Cookies",
-      "Advertising Cookies",
-      "Cookie List",
-      "Grow your Salesforce expertise",
-      "Other learning tools",
-      "Connect with the Trailblazer Community",
-      "Build your Salesforce career",
-      "Earn resume-worthy credentials",
-      "Discover resources",
-      "All support",
-      "Trailblazer resources",
-      "Get Started with Lightning Web Components",
-      "Filter Button",
-      "Trailmixes Create and follow custom learning playlists",
-      "Academic Programs Explore resources for students and educators",
-      "Group Meetings Join local community group meetings",
-      "Get Started Coding: Create Your First Component",
-      "Explore Trailhead and Sample Code"
-    ],
-    "patternCandidates": [
-      "Tabs",
-      "Authentication",
-      "Dashboard"
-    ],
+    "capturedAt": "2026-07-27T22:47:40.547Z",
+    "screenshotCount": 15,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
     "platformsDetected": [
-      "web",
-      "api"
+      "web"
     ],
-    "summary": "Captured 28 screenshots across 5 public URLs. Nav signals: Privacy Statement, Cookies Details, Trailhead, Home, Learn, Badges Gain new skills and hands-on experience through bite-sized units. Tech signals: Segment, Google Tag Manager. UI patterns: Tabs, Authentication, Dashboard."
+    "summary": "Captured 15 screenshots across 0 public URLs."
   },
   "fallback": {
-    "blockedNavigations": 8
+    "blockedNavigations": 0
   }
 }

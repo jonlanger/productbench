@@ -1,0 +1,980 @@
+{
+  "slug": "paypal",
+  "capturedAt": "2026-07-27T19:32:30.217Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "PayPal public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.paypal.com/us/home",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pay, Send and Save Money with PayPal | PayPal US",
+      "width": 1440,
+      "height": 900,
+      "phash": "9ccd330fcc699494",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-2.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "PayPal homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.paypal.com/us/home",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pay, Send and Save Money with PayPal | PayPal US",
+      "width": 1440,
+      "height": 900,
+      "phash": "c639393929335b5b",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-3.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "PayPal homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.paypal.com/us/home",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pay, Send and Save Money with PayPal | PayPal US",
+      "width": 1440,
+      "height": 900,
+      "phash": "a92de1bd9d992927",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "PayPal homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.paypal.com/us/home",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pay, Send and Save Money with PayPal | PayPal US",
+      "width": 1440,
+      "height": 900,
+      "phash": "252927272d252102",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "PayPal homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.paypal.com/us/home",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pay, Send and Save Money with PayPal | PayPal US",
+      "width": 1440,
+      "height": 900,
+      "phash": "65051636609f8dcc",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "PayPal homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.paypal.com/us/home",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pay, Send and Save Money with PayPal | PayPal US",
+      "width": 1440,
+      "height": 900,
+      "phash": "d0c0d0d0c0c0ccc0",
+      "unique": true
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "PayPal homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.paypal.com/us/home",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pay, Send and Save Money with PayPal | PayPal US",
+      "width": 390,
+      "height": 844,
+      "phash": "9b9e2317868d273e",
+      "unique": true
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on PayPal (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://www.paypal.com/signin",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "paypal.com",
+      "width": 1440,
+      "height": 900,
+      "phash": "0c0c5c0c00000000",
+      "unique": true
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard (1)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "product",
+      "sourceUrl": "https://www.paypal.com/us/cshelp/personal",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal Help Center - Personal | PayPal US",
+      "width": 1440,
+      "height": 900,
+      "phash": "302b0f063b3b3439",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-2.jpg",
+      "title": "Dashboard (3)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "product",
+      "sourceUrl": "https://www.paypal.com/us/cshelp/personal",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal Help Center - Personal | PayPal US",
+      "width": 1440,
+      "height": 900,
+      "phash": "303032313133232f",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-3.jpg",
+      "title": "Dashboard (4)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "product",
+      "sourceUrl": "https://www.paypal.com/us/cshelp/personal",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal Help Center - Personal | PayPal US",
+      "width": 1440,
+      "height": 900,
+      "phash": "332f0b2b2b003b3b",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-4.jpg",
+      "title": "Dashboard (5)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "product",
+      "sourceUrl": "https://www.paypal.com/us/cshelp/personal",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal Help Center - Personal | PayPal US",
+      "width": 1440,
+      "height": 900,
+      "phash": "2b2b5a043b3b603d",
+      "unique": true
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings (1)",
+      "caption": "PayPal public surface · developer.paypal.com",
+      "kind": "product",
+      "sourceUrl": "https://developer.paypal.com/home/",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal Developer | APIs, SDKs & Integration Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "c4821ad3d3c50695",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-2.jpg",
+      "title": "Settings (3)",
+      "caption": "PayPal public surface · developer.paypal.com",
+      "kind": "product",
+      "sourceUrl": "https://developer.paypal.com/home/",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal Developer | APIs, SDKs & Integration Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "869555942217496b",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-3.jpg",
+      "title": "Settings (4)",
+      "caption": "PayPal public surface · developer.paypal.com",
+      "kind": "product",
+      "sourceUrl": "https://developer.paypal.com/home/",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal Developer | APIs, SDKs & Integration Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "4b4bd01a067949da",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-4.jpg",
+      "title": "Settings (5)",
+      "caption": "PayPal public surface · developer.paypal.com",
+      "kind": "product",
+      "sourceUrl": "https://developer.paypal.com/home/",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal Developer | APIs, SDKs & Integration Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "5bca4bca4861445b",
+      "unique": true
+    },
+    {
+      "file": "surface-2-lower.jpg",
+      "title": "Settings (6)",
+      "caption": "PayPal public surface · developer.paypal.com",
+      "kind": "product",
+      "sourceUrl": "https://developer.paypal.com/home/",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal Developer | APIs, SDKs & Integration Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "49346d4ab4555723",
+      "unique": true
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "Search (1)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.paypal.com/webapps/mpp/page-not-found",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Page Not Found | PayPal US",
+      "width": 1440,
+      "height": 900,
+      "phash": "f0eece1a6a4a4879",
+      "unique": true
+    },
+    {
+      "file": "surface-3-lower.jpg",
+      "title": "Search (3)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.paypal.com/webapps/mpp/page-not-found",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Page Not Found | PayPal US",
+      "width": 1440,
+      "height": 900,
+      "phash": "e60e4a6a4a68791b",
+      "unique": true
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5 (1)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.paypal.com/products",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 Not Found",
+      "width": 1440,
+      "height": 900,
+      "phash": "c040000000000000",
+      "unique": true
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6 (1)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=p%2Fmer%2Fdirectory_intro-outside",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Directory of Features - PayPal",
+      "width": 1440,
+      "height": 900,
+      "phash": "3797e4babaf8b8ba",
+      "unique": true
+    },
+    {
+      "file": "surface-6-band-2.jpg",
+      "title": "Supporting surface 6 (3)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=p%2Fmer%2Fdirectory_intro-outside",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Directory of Features - PayPal",
+      "width": 1440,
+      "height": 900,
+      "phash": "b8babab8faf8baba",
+      "unique": true
+    },
+    {
+      "file": "surface-6-band-4.jpg",
+      "title": "Supporting surface 6 (5)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=p%2Fmer%2Fdirectory_intro-outside",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Directory of Features - PayPal",
+      "width": 1440,
+      "height": 900,
+      "phash": "b868683af8f8b88c",
+      "unique": true
+    },
+    {
+      "file": "surface-13.jpg",
+      "title": "Supporting surface 13 (1)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "docs",
+      "sourceUrl": "https://about.pypl.com/about-us/default.aspx",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal, Inc. - About Us",
+      "width": 1440,
+      "height": 900,
+      "phash": "c9711747292f0d59",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-2.jpg",
+      "title": "Supporting surface 13 (3)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "docs",
+      "sourceUrl": "https://about.pypl.com/about-us/default.aspx",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal, Inc. - About Us",
+      "width": 1440,
+      "height": 900,
+      "phash": "494d152d2f232329",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-3.jpg",
+      "title": "Supporting surface 13 (4)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "docs",
+      "sourceUrl": "https://about.pypl.com/about-us/default.aspx",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal, Inc. - About Us",
+      "width": 1440,
+      "height": 900,
+      "phash": "692b6b433036cdb1",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-4.jpg",
+      "title": "Supporting surface 13 (5)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "docs",
+      "sourceUrl": "https://about.pypl.com/about-us/default.aspx",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal, Inc. - About Us",
+      "width": 1440,
+      "height": 900,
+      "phash": "c9b6e7cca849cab0",
+      "unique": true
+    },
+    {
+      "file": "surface-13-lower.jpg",
+      "title": "Supporting surface 13 (6)",
+      "caption": "PayPal public surface · paypal.com",
+      "kind": "docs",
+      "sourceUrl": "https://about.pypl.com/about-us/default.aspx",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "PayPal, Inc. - About Us",
+      "width": 1440,
+      "height": 900,
+      "phash": "e9cc494a32402939",
+      "unique": true
+    },
+    {
+      "file": "fallback-wayback-1.jpg",
+      "title": "Archived UI 1",
+      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20251112103307/http://www.paypal.com/",
+      "kind": "docs",
+      "sourceUrl": "http://web.archive.org/web/20251112103307/http://www.paypal.com/",
+      "capturedAt": "2026-07-27T19:30:33.030Z",
+      "playbookStep": "web-fallback",
+      "width": 180,
+      "height": 127,
+      "phash": "959c8aaa9c8ce6e6",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T19:32:30.217Z",
+    "screenshotCount": 29,
+    "pageCount": 8,
+    "pages": [
+      {
+        "url": "https://www.paypal.com/us/home",
+        "title": "Pay, Send and Save Money with PayPal | PayPal US",
+        "description": "From paying friends to saving money or getting cash back when you shop, explore what the new PayPal app has to offer.",
+        "headings": [
+          "Pay, send, and save smarter",
+          "Shop in stores and online",
+          "Get rewards from the brands you love",
+          "01234567%back",
+          "+012345%back",
+          "Pay now or pay over time.",
+          "It’s your choice.",
+          "Pay in 4",
+          "interest-free",
+          "payments",
+          "Pay Monthly in 3,",
+          "6, 12, or 24",
+          "Pay Monthly",
+          "in store5",
+          "Pay with the PayPal Cashback Mastercard®",
+          "Special financing with the PayPal Credit Card",
+          "Safety and privacy are our priority",
+          "Send money to just about anyone, anywhere8",
+          "Send",
+          "Receive"
+        ],
+        "navLabels": [
+          "Personal",
+          "Business"
+        ],
+        "ctas": [
+          "Learn More",
+          "Start a Pool",
+          "Start Saving",
+          "Explore Crypto",
+          "Manage your cookies and learn more."
+        ],
+        "landmarks": [
+          "main",
+          "nav:Personal and Business page"
+        ]
+      },
+      {
+        "url": "https://www.paypal.com/signin",
+        "title": "paypal.com",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://www.paypal.com/us/cshelp/personal",
+        "title": "PayPal Help Center - Personal | PayPal US",
+        "description": "Find answers to your PayPal questions. Browse common questions, watch videos, or ask the Community.",
+        "headings": [
+          "How can we help?",
+          "Need more help?",
+          "Recommended Articles",
+          "More ways to get help",
+          "Browse All Topics",
+          "Resolution Center",
+          "Tax center",
+          "Message Center",
+          "Technical Help",
+          "Business Help",
+          "Get the PayPal App"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Manage your cookies and learn more."
+        ],
+        "landmarks": [
+          "search",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://developer.paypal.com/home/",
+        "title": "PayPal Developer | APIs, SDKs & Integration Docs",
+        "description": "Learn how to create and integrate scalable PayPal checkout solutions for web and mobile applications.",
+        "headings": [
+          "Power your agentic development with our agent toolkit and MCP server",
+          "No Code",
+          "Mobile SDKs",
+          "APIs",
+          "JavaScript SDK",
+          "Launching Next-Gen Pay with PayPal Products",
+          "Accept payment methods in one platform with PayPal Complete Payments",
+          "Payment methods & tools",
+          "Payment capabilities",
+          "Add-on services",
+          "Engage with our Developer Community",
+          "Sign up to our Developer newsletter for the latest updates"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Search",
+          "Demo portal",
+          "Sign Up",
+          "Learn more",
+          "Log in to get your API keys",
+          "Get started",
+          "Contact",
+          "Manage your cookies and learn more."
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://www.paypal.com/webapps/mpp/page-not-found",
+        "title": "Page Not Found | PayPal US",
+        "description": "The page you’re looking for can’t be found.",
+        "headings": [
+          "PayPal for You",
+          "Shop and Buy",
+          "Send and Receive",
+          "Manage Your Money",
+          "PayPal for Business",
+          "Accept Payments",
+          "Financial Services",
+          "Business Operations",
+          "Resources",
+          "PayPal for Enterprise",
+          "Grow Your Business",
+          "Optimize & Protect Your Business",
+          "404 error",
+          "This page couldn’t be found.",
+          "Want to explore more?"
+        ],
+        "navLabels": [
+          "Menu",
+          "PayPal",
+          "Personal",
+          "PayPal for You",
+          "Shop and Buy",
+          "Buy Now, Pay Later",
+          "Deals and Cash Back",
+          "Pay with Rewards",
+          "Pay with QR Codes",
+          "Checkout with Crypto",
+          "PayPal Credit and Cards",
+          "Send and Receive",
+          "Send Money",
+          "Request Money",
+          "Start Selling",
+          "Donate and Raise Funds",
+          "Manage Your Money",
+          "Set up Direct Deposit",
+          "Deposit Checks",
+          "Add Cash",
+          "Savings and Goals",
+          "Buy and Sell Crypto",
+          "Pay Bills",
+          "Get the App"
+        ],
+        "ctas": [
+          "Shop and Buy",
+          "Buy Now, Pay Later",
+          "Start Selling",
+          "Add Cash",
+          "Buy and Sell Crypto",
+          "Get Started",
+          "Solutions by Industry",
+          "Contact Sales",
+          "Sign Up for Free",
+          "Log In",
+          "Sign Up",
+          "Explore PayPal home",
+          "Explore our resources",
+          "Contact",
+          "Manage your cookies and learn more."
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.paypal.com/products",
+        "title": "404 Not Found",
+        "headings": [
+          "Not Found"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": []
+      },
+      {
+        "url": "https://www.paypal.com/cgi-bin/webscr?cmd=p%2Fmer%2Fdirectory_intro-outside",
+        "title": "Directory of Features - PayPal",
+        "headings": [
+          "Directory of Features"
+        ],
+        "navLabels": [
+          "Home",
+          "Get to Know PayPal",
+          "Why PayPal",
+          "How To Use PayPal",
+          "How to Setup an Account",
+          "How Much It Costs",
+          "Account Types",
+          "Pay Online",
+          "PayPal Extras MasterCard",
+          "Shop Via Mobile",
+          "Send Money",
+          "Send Money Online",
+          "Internationally",
+          "To Your Teen",
+          "Via Your Mobile",
+          "Get Paid",
+          "Request Money",
+          "Sell on eBay",
+          "Sell with Classifieds",
+          "Sell on Your Website",
+          "Fundraise",
+          "Products & Services",
+          "Personal",
+          "Business"
+        ],
+        "ctas": [
+          "Sign Up",
+          "Log In",
+          "Learn More",
+          "Get Started"
+        ],
+        "landmarks": [
+          "search",
+          "navigation",
+          "contentinfo"
+        ]
+      },
+      {
+        "url": "https://about.pypl.com/about-us/default.aspx",
+        "title": "PayPal, Inc. - About Us",
+        "headings": [
+          "Site Search",
+          "Who we are",
+          "How we work",
+          "Our impact",
+          "Latest news",
+          "Stay connected"
+        ],
+        "navLabels": [
+          "Who we are",
+          "Mission & values",
+          "History & facts",
+          "Executive leadership",
+          "Board of Directors",
+          "How we work",
+          "Trust & privacy",
+          "Responsible business practices",
+          "Employees & culture",
+          "Issues & advocacy",
+          "Reporting & other resources",
+          "Our impact",
+          "Customers",
+          "Communities",
+          "Enabling generosity",
+          "Strengthening communities",
+          "Environmental sustainability",
+          "Investors",
+          "Newsroom",
+          "Work With Us"
+        ],
+        "ctas": [
+          "Explore PayPal",
+          "PayPal Joins the European Payments Council (opens in new window)",
+          "Read more about PayPal Joins the European Payments Council(opens in new window)",
+          "Facebook",
+          "Manage your cookies and learn more."
+        ],
+        "landmarks": [
+          "nav:Skip to main content",
+          "nav:Web Menu",
+          "search",
+          "contentinfo",
+          "nav"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Personal",
+      "Business",
+      "Menu",
+      "PayPal",
+      "PayPal for You",
+      "Shop and Buy",
+      "Buy Now, Pay Later",
+      "Deals and Cash Back",
+      "Pay with Rewards",
+      "Pay with QR Codes",
+      "Checkout with Crypto",
+      "PayPal Credit and Cards",
+      "Send and Receive",
+      "Send Money",
+      "Request Money",
+      "Start Selling",
+      "Donate and Raise Funds",
+      "Manage Your Money",
+      "Set up Direct Deposit",
+      "Deposit Checks",
+      "Add Cash",
+      "Savings and Goals",
+      "Buy and Sell Crypto",
+      "Pay Bills",
+      "Get the App",
+      "Home",
+      "Get to Know PayPal",
+      "Why PayPal",
+      "How To Use PayPal",
+      "How to Setup an Account"
+    ],
+    "ctas": [
+      "Learn More",
+      "Start a Pool",
+      "Start Saving",
+      "Explore Crypto",
+      "Manage your cookies and learn more.",
+      "Search",
+      "Demo portal",
+      "Sign Up",
+      "Log in to get your API keys",
+      "Get started",
+      "Contact",
+      "Shop and Buy",
+      "Buy Now, Pay Later",
+      "Start Selling",
+      "Add Cash",
+      "Buy and Sell Crypto",
+      "Solutions by Industry",
+      "Contact Sales",
+      "Sign Up for Free",
+      "Log In",
+      "Explore PayPal home",
+      "Explore our resources",
+      "Explore PayPal",
+      "PayPal Joins the European Payments Council (opens in new window)"
+    ],
+    "headings": [
+      "Pay, send, and save smarter",
+      "Shop in stores and online",
+      "Get rewards from the brands you love",
+      "01234567%back",
+      "+012345%back",
+      "Pay now or pay over time.",
+      "It’s your choice.",
+      "Pay in 4",
+      "interest-free",
+      "payments",
+      "Pay Monthly in 3,",
+      "6, 12, or 24",
+      "Pay Monthly",
+      "in store5",
+      "Pay with the PayPal Cashback Mastercard®",
+      "Special financing with the PayPal Credit Card",
+      "Safety and privacy are our priority",
+      "Send money to just about anyone, anywhere8",
+      "Send",
+      "Receive",
+      "How can we help?",
+      "Need more help?",
+      "Recommended Articles",
+      "More ways to get help",
+      "Browse All Topics",
+      "Resolution Center",
+      "Tax center",
+      "Message Center",
+      "Technical Help",
+      "Business Help"
+    ],
+    "techSignals": [
+      "Google Tag Manager",
+      "Datadog",
+      "Next.js",
+      "Webpack",
+      "Segment",
+      "React"
+    ],
+    "featureCandidates": [
+      "Pay, send, and save smarter",
+      "Shop in stores and online",
+      "Get rewards from the brands you love",
+      "01234567%back",
+      "+012345%back",
+      "Pay now or pay over time.",
+      "It’s your choice.",
+      "Pay in 4",
+      "interest-free",
+      "payments",
+      "Pay Monthly in 3,",
+      "6, 12, or 24",
+      "Pay Monthly",
+      "in store5",
+      "Pay with the PayPal Cashback Mastercard®",
+      "Special financing with the PayPal Credit Card",
+      "Safety and privacy are our priority",
+      "Send money to just about anyone, anywhere8",
+      "Send",
+      "Receive",
+      "How can we help?",
+      "Need more help?",
+      "Recommended Articles",
+      "More ways to get help"
+    ],
+    "patternCandidates": [
+      "Map view",
+      "Card layout",
+      "Checkout",
+      "Authentication",
+      "Messaging",
+      "Search",
+      "Menus"
+    ],
+    "platformsDetected": [
+      "web",
+      "api",
+      "ios",
+      "android"
+    ],
+    "summary": "Captured 29 screenshots across 8 public URLs. Nav signals: Personal, Business, Menu, PayPal, PayPal for You, Shop and Buy. Tech signals: Google Tag Manager, Datadog, Next.js, Webpack, Segment, React. UI patterns: Map view, Card layout, Checkout, Authentication, Messaging, Search."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

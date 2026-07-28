@@ -12,6 +12,7 @@ import type {
   ProductScreenshotKind,
 } from "@/data/types";
 import { GUEST_PREVIEW_COUNT } from "@/lib/gallery";
+import { groupScreenshotsByCategory } from "@/lib/screen-categories";
 import { cn } from "@/lib/utils";
 
 const RENDER_WINDOW = 3;
@@ -354,78 +355,7 @@ export function ScreenshotCarousel({
   );
 }
 
-type PaginatedGallerySectionProps = {
-  slug: string;
-  kinds: ProductScreenshotKind[];
-  initialItems: ProductScreenshot[];
-  total: number;
-  title: string;
-  description: string;
-  accent?: string;
-};
-
-function PaginatedGallerySection({
-  slug,
-  kinds,
-  initialItems,
-  total,
-  title,
-  description,
-  accent,
-}: PaginatedGallerySectionProps) {
-  const [items, setItems] = useState(initialItems);
-  const [loadingMore, setLoadingMore] = useState(false);
-  const hasMore = items.length < total;
-
-  const loadMore = useCallback(async () => {
-    if (loadingMore || !hasMore) return;
-    setLoadingMore(true);
-    try {
-      const params = new URLSearchParams({
-        offset: String(items.length),
-        limit: String(SCREENSHOT_PAGE_SIZE),
-        kinds: kinds.join(","),
-      });
-      const response = await fetch(
-        `/api/products/${slug}/screenshots?${params.toString()}`,
-      );
-      if (!response.ok) return;
-      const data = (await response.json()) as {
-        items: ProductScreenshot[];
-        hasMore: boolean;
-      };
-      setItems((current) => {
-        const seen = new Set(current.map((shot) => shot.src));
-        const merged = [...current];
-        for (const shot of data.items) {
-          if (seen.has(shot.src)) continue;
-          seen.add(shot.src);
-          merged.push(shot);
-        }
-        return merged;
-      });
-    } finally {
-      setLoadingMore(false);
-    }
-  }, [hasMore, items.length, kinds, loadingMore, slug]);
-
-  if (items.length === 0) return null;
-
-  return (
-    <ScreenshotCarousel
-      title={title}
-      description={description}
-      screenshots={items}
-      accent={accent}
-      kinds={kinds}
-      hasMore={hasMore}
-      loadingMore={loadingMore}
-      onLoadMore={loadMore}
-    />
-  );
-}
-
-export function ProductVisualGalleries({
+export function ProductSurfacesPreview({
   slug,
   screenshots,
   accent,
@@ -440,16 +370,17 @@ export function ProductVisualGalleries({
 }) {
   if (!screenshots.length) return null;
 
+  const total = screenshotTotal ?? screenshots.length;
+
   if (!signedIn) {
     const preview = screenshots.slice(0, GUEST_PREVIEW_COUNT);
-    const total = screenshotTotal ?? screenshots.length;
     const signInHref = `/sign-in?next=${encodeURIComponent(`/products/${slug}`)}`;
 
     return (
-      <div className="mb-10 space-y-10">
+      <div className="mb-10">
         <ScreenshotCarousel
-          title="Product screens"
-          description="A preview of captured surfaces. Sign in to unlock the full gallery."
+          title="Product surfaces"
+          description="A preview of captured screens. Open Screens for the full categorized gallery — or sign in to unlock everything."
           screenshots={preview}
           accent={accent}
           signInHref={signInHref}
@@ -459,59 +390,140 @@ export function ProductVisualGalleries({
     );
   }
 
-  const homepage = screenshots.filter((s) => s.kind === "homepage");
-  const product = screenshots.filter((s) =>
-    ["product", "docs", "technical", "supporting"].includes(s.kind ?? ""),
-  );
-  const components = screenshots.filter((s) => s.kind === "component");
-  const marketing = screenshots.filter((s) => s.kind === "marketing");
+  const initial = screenshots.slice(0, SCREENSHOT_PAGE_SIZE);
 
   return (
-    <div className="mb-10 space-y-10">
-      {homepage.length > 0 ? (
-        <PaginatedGallerySection
-          slug={slug}
-          kinds={["homepage"]}
-          initialItems={homepage.slice(0, SCREENSHOT_PAGE_SIZE)}
-          total={homepage.length}
-          title="Homepage"
-          description="Public marketing homepage — kept separate from in-product surfaces."
-          accent={accent}
-        />
-      ) : null}
-      {product.length > 0 ? (
-        <PaginatedGallerySection
-          slug={slug}
-          kinds={["product", "docs", "technical", "supporting"]}
-          initialItems={product.slice(0, SCREENSHOT_PAGE_SIZE)}
-          total={product.length}
-          title="Product surfaces"
-          description="Full screens: search, detail, dashboards, and other primary flows."
-          accent={accent}
-        />
-      ) : null}
-      {components.length > 0 ? (
-        <PaginatedGallerySection
-          slug={slug}
-          kinds={["component"]}
-          initialItems={components.slice(0, SCREENSHOT_PAGE_SIZE)}
-          total={components.length}
-          title="UI details"
-          description="Cards, modals, menus, empty states, and other component-level patterns."
-          accent={accent}
-        />
-      ) : null}
-      {marketing.length > 0 ? (
-        <PaginatedGallerySection
-          slug={slug}
-          kinds={["marketing"]}
-          initialItems={marketing.slice(0, SCREENSHOT_PAGE_SIZE)}
-          total={marketing.length}
-          title="Marketing visuals"
-          description="Hero and campaign imagery from the product site."
-          accent={accent}
-        />
-      ) : null}
+    <div className="mb-10">
+      <PaginatedSurfacesSection
+        slug={slug}
+        initialItems={initial}
+        total={screenshots.length}
+        accent={accent}
+      />
     </div>
   );
+}
+
+function PaginatedSurfacesSection({
+  slug,
+  initialItems,
+  total,
+  accent,
+}: {
+  slug: string;
+  initialItems: ProductScreenshot[];
+  total: number;
+  accent?: string;
+}) {
+  const [items, setItems] = useState(initialItems);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const hasMore = items.length < total;
+
+  const loadMore = useCallback(async () => {
+    if (loadingMore || !hasMore) return;
+    setLoadingMore(true);
+    try {
+      const params = new URLSearchParams({
+        offset: String(items.length),
+        limit: String(SCREENSHOT_PAGE_SIZE),
+      });
+      const response = await fetch(
+        `/api/products/${slug}/screenshots?${params.toString()}`,
+      );
+      if (!response.ok) return;
+      const data = (await response.json()) as {
+        items: ProductScreenshot[];
+      };
+      setItems((current) => {
+        const seen = new Set(current.map((shot) => shot.src));
+        const merged = [...current];
+        for (const shot of data.items) {
+          if (seen.has(shot.src)) continue;
+          seen.add(shot.src);
+          merged.push(shot);
+        }
+        return merged;
+      });
+    } finally {
+      setLoadingMore(false);
+    }
+  }, [hasMore, items.length, loadingMore, slug]);
+
+  return (
+    <ScreenshotCarousel
+      title="Product surfaces"
+      description="Captured screens from this product. Open the Screens tab for a categorized breakdown."
+      screenshots={items}
+      accent={accent}
+      hasMore={hasMore}
+      loadingMore={loadingMore}
+      onLoadMore={loadMore}
+    />
+  );
+}
+
+export function ProductScreensCatalog({
+  screenshots,
+  accent,
+  signedIn = false,
+  slug,
+  screenshotTotal,
+}: {
+  screenshots: ProductScreenshot[];
+  accent?: string;
+  signedIn?: boolean;
+  slug: string;
+  screenshotTotal?: number;
+}) {
+  const groups = useMemo(
+    () => groupScreenshotsByCategory(screenshots),
+    [screenshots],
+  );
+
+  if (!screenshots.length) return null;
+
+  const total = screenshotTotal ?? screenshots.length;
+  const signInHref =
+    !signedIn && total > screenshots.length
+      ? `/sign-in?next=${encodeURIComponent(`/products/${slug}`)}`
+      : undefined;
+  const remaining = Math.max(0, total - screenshots.length);
+
+  return (
+    <div className="space-y-10">
+      <div className="space-y-1">
+        <p className="text-sm text-muted-foreground">
+          {groups.length} {groups.length === 1 ? "category" : "categories"} with
+          captures
+          {!signedIn && remaining > 0
+            ? ` · ${remaining} more locked behind sign-in`
+            : null}
+          .
+        </p>
+      </div>
+
+      {groups.map(({ category, screenshots: shots }, index) => (
+        <ScreenshotCarousel
+          key={category.id}
+          title={category.title}
+          description={category.description}
+          screenshots={shots}
+          accent={accent}
+          signInHref={
+            signInHref && index === groups.length - 1 ? signInHref : undefined
+          }
+          totalAvailable={
+            signInHref && index === groups.length - 1 ? total : undefined
+          }
+        />
+      ))}
+    </div>
+  );
+}
+
+/** @deprecated Prefer ProductSurfacesPreview / ProductScreensCatalog */
+export function ProductVisualGalleries(
+  props: Parameters<typeof ProductSurfacesPreview>[0],
+) {
+  return <ProductSurfacesPreview {...props} />;
 }

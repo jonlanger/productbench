@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-07-27T13:18:42.366Z",
-  "screenshotCount": 43,
-  "pageCount": 16,
+  "capturedAt": "2026-07-27T22:33:08.458Z",
+  "screenshotCount": 51,
+  "pageCount": 12,
   "pages": [
     {
       "url": "https://1password.com/",
@@ -18,16 +18,25 @@
       ],
       "navLabels": [
         "Secure credentials for humans, machines, and AI agents. Switch to 1Password.",
+        "Sign in",
+        "Business",
+        "Personal",
+        "Developers",
+        "Partners",
+        "Resources",
+        "Pricing",
         "Talk to sales",
+        "Get started free",
         "View plans"
       ],
       "ctas": [
+        "Sign in",
+        "Pricing",
+        "Get started free",
         "Explore 1Password® Unified Access",
         "Try Enterprise Password Manager",
         "Request SaaS Manger demo",
-        "Downloads",
-        "Demos",
-        "Pricing"
+        "Demos"
       ],
       "landmarks": [
         "navigation",
@@ -38,47 +47,32 @@
     },
     {
       "url": "https://my.1password.com/signin?l=en",
-      "title": "Login | 1Password — Password Manager for Teams, Businesses, and Families",
+      "title": "1Password — Password Manager for Teams, Businesses, and Families",
       "headings": [
         "We couldn’t connect to 1Password"
       ],
       "navLabels": [],
       "ctas": [
-        "Create a new account",
         "Contact 1Password Support."
       ],
-      "landmarks": [
-        "main:Sign In",
-        "footer"
-      ]
+      "landmarks": []
     },
     {
-      "url": "https://1password.com/product/saas-manager",
-      "title": "SaaS Management for IT Teams | 1Password",
-      "description": "Discover every app your business uses, manage access and spend, and eliminate shadow IT. 1Password SaaS Manager gives IT full visibility and control.",
+      "url": "https://1password.com/features/autofill",
+      "title": "Autofill: Automatically Fill Passwords | 1Password",
+      "description": "Discover the power of auto password fill. Quickly and securely autofill passwords, payment details, and addresses every time you browse.",
       "headings": [
-        "SaaS management",
-        "1Password named a Leader for SaaS Management Platforms",
-        "AI and SaaS sprawl creates gaps in visibility, access, and runaway spend",
-        "Control AI token consumption",
-        "Uncover shadow AI and IT",
-        "Manage the SaaS lifecycle",
-        "Eliminate unnecessary spend",
-        "1Password SaaS Manager",
-        "Unified AI and SaaS governance",
-        "Manage",
-        "Track and control AI consumption and spend",
-        "Discover",
-        "Continuously discover and inventory all AI and SaaS applications",
-        "Control",
-        "Powerful AI and SaaS workflow automation",
-        "Optimize",
-        "Eliminate unnecessary AI and SaaS spend",
-        "Integrate",
-        "Govern accounts beyond SSO",
-        "See the power of 1Password SaaS Manager"
+        "Password autofill",
+        "What’s password autofill?",
+        "Getting started with password autofill",
+        "How to use 1Password’s autofill",
+        "Quick Access to your credentials",
+        "How password autofill keeps you safe online",
+        "Speed up your logins safely and efficiently",
+        "Secure your digital life with 1Password"
       ],
       "navLabels": [
+        "Secure credentials for humans, machines, and AI agents. Switch to 1Password.",
         "Sign in",
         "Business",
         "Personal",
@@ -88,23 +82,15 @@
         "Pricing",
         "Talk to sales",
         "Get started free",
-        "Request a demo",
-        "Sign in to SaaS Manager",
-        "SaaS Manager"
+        "Try 1Password free",
+        "Features",
+        "Password autofill"
       ],
       "ctas": [
         "Sign in",
         "Pricing",
         "Get started free",
-        "Request a demo",
-        "Sign in to SaaS Manager",
-        "Learn more",
-        "Explore AI spend management",
-        "Explore SaaS discovery",
-        "Explore SaaS workflow automation",
-        "Explore SaaS spend management",
-        "Explore account governance",
-        "Get started",
+        "Try 1Password free",
         "Demos"
       ],
       "landmarks": [
@@ -113,6 +99,122 @@
         "header",
         "footer",
         "nav:Breadcrumb"
+      ]
+    },
+    {
+      "url": "https://support.1password.com/",
+      "title": "1Password Support",
+      "description": "Learn how to set up and use 1Password, troubleshoot problems, and contact support.",
+      "headings": [
+        "Welcome to 1Password Support",
+        "We’re here to help!",
+        "Featured articles"
+      ],
+      "navLabels": [
+        "Menu",
+        "Home",
+        "Tour",
+        "Families",
+        "Business",
+        "Developers",
+        "Pricing",
+        "Security",
+        "Download",
+        "Support",
+        "Blog",
+        "Sign in",
+        "Try 1Password FREE",
+        "Secret Key",
+        "lost account password",
+        "browser extension not working"
+      ],
+      "ctas": [
+        "Pricing",
+        "Download",
+        "Sign in",
+        "Try 1Password FREE",
+        "Get started Set up 1Password for yourself or your family.Get started",
+        "Team members: Get started Set up 1Password at your workplace.Join your team",
+        "Try out exploratory features in 1Password",
+        "Contact Support"
+      ],
+      "landmarks": [
+        "nav",
+        "header",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://www.1password.dev/",
+      "title": "1Password Developer Documentation - 1Password Developer",
+      "headings": [
+        "Documentation Index",
+        "About",
+        "Quickstart",
+        "Developer workflows",
+        "Administrator workflows",
+        "Resources",
+        "Secure developer workflows with 1Password",
+        "Secure agentic workflows",
+        "Secure AI access",
+        "1Password Environments Beta",
+        "1Password MCP Server Beta",
+        "Agentic Autofill Early Access",
+        "1Password for VS Code",
+        "Authenticate with SSH & Git",
+        "Secure SSH & Git workflows",
+        "1Password for SSH & Git",
+        "Sign Git commits with SSH",
+        "Develop locally",
+        "Secure local development",
+        "1Password CLI"
+      ],
+      "navLabels": [
+        "1Password MCP Server",
+        "1Password Developer home page",
+        "Search...⌘K",
+        "Ask Assistant",
+        "Community",
+        "GitHub",
+        "Search...",
+        "Navigation1Password Developer Documentation",
+        "Get Started",
+        "Security for AI",
+        "Environments",
+        "SSH & Git",
+        "CLI",
+        "SDKs",
+        "More Tools",
+        "Overview",
+        "Developer quickstart",
+        "Administrator quickstart",
+        "Partner quickstart",
+        "Secure local development",
+        "Secure your deployments",
+        "Secure SSH & Git workflows",
+        "Secure AI access",
+        "Build integrations"
+      ],
+      "ctas": [
+        "Search...⌘K",
+        "Search...",
+        "Get Started",
+        "Developer quickstart",
+        "Administrator quickstart",
+        "Partner quickstart",
+        "Admin quickstart",
+        "Explore more projects",
+        "facebook",
+        "How do I get started with 1Password?",
+        "Contact support"
+      ],
+      "landmarks": [
+        "header",
+        "nav:Main",
+        "nav:Pages",
+        "main",
+        "footer"
       ]
     },
     {
@@ -286,8 +388,6 @@
         "Download 1Password",
         "Learn about addresses",
         "Explore 1Password CLI",
-        "Subscribe to The Vault",
-        "Unsubscribe any time",
         "Demos"
       ],
       "landmarks": [
@@ -300,52 +400,6 @@
     },
     {
       "url": "https://1password.com/platform",
-      "title": "404 - Page Not Found | 1Password",
-      "description": "Page not found",
-      "headings": [
-        "404: Page Not Found",
-        "Well this is awkward."
-      ],
-      "navLabels": [
-        "Product",
-        "1Password PersonalPersonalFor you and your family.",
-        "1Password BusinessBusinessFor growing businesses.",
-        "1Password EnterpriseEnterpriseFor security at scale.",
-        "1Password Developer ToolsDeveloperKeep secrets out of code.",
-        "View 1Password features",
-        "Unified AccessDiscover, secure, and audit access",
-        "Enterprise Password ManagerProtect credentials and logins",
-        "SaaS ManagerDiscover and govern SaaS spend",
-        "Device TrustSecure every device's access",
-        "View plans",
-        "Talk to sales",
-        "Download 1Password",
-        "Resources",
-        "SecuritySecurityHow 1Password is different.",
-        "Resource LibraryResource libraryHelpful guides and research.",
-        "1Password blogBlogNews, tips, and inspiration.",
-        "WebinarsWebinarsWatch live or on demand.",
-        "Support",
-        "Pricing",
-        "Sign in"
-      ],
-      "ctas": [
-        "Download 1Password",
-        "Resource LibraryResource libraryHelpful guides and research.",
-        "Pricing",
-        "Sign in",
-        "Contact us",
-        "Contact support"
-      ],
-      "landmarks": [
-        "navigation",
-        "main",
-        "header",
-        "footer"
-      ]
-    },
-    {
-      "url": "https://1password.com/solutions",
       "title": "404 - Page Not Found | 1Password",
       "description": "Page not found",
       "headings": [
@@ -441,98 +495,6 @@
         "header",
         "footer",
         "nav:Breadcrumb"
-      ]
-    },
-    {
-      "url": "https://1password.com/docs",
-      "title": "404 - Page Not Found | 1Password",
-      "description": "Page not found",
-      "headings": [
-        "404: Page Not Found",
-        "Well this is awkward."
-      ],
-      "navLabels": [
-        "Product",
-        "1Password PersonalPersonalFor you and your family.",
-        "1Password BusinessBusinessFor growing businesses.",
-        "1Password EnterpriseEnterpriseFor security at scale.",
-        "1Password Developer ToolsDeveloperKeep secrets out of code.",
-        "View 1Password features",
-        "Unified AccessDiscover, secure, and audit access",
-        "Enterprise Password ManagerProtect credentials and logins",
-        "SaaS ManagerDiscover and govern SaaS spend",
-        "Device TrustSecure every device's access",
-        "View plans",
-        "Talk to sales",
-        "Download 1Password",
-        "Resources",
-        "SecuritySecurityHow 1Password is different.",
-        "Resource LibraryResource libraryHelpful guides and research.",
-        "1Password blogBlogNews, tips, and inspiration.",
-        "WebinarsWebinarsWatch live or on demand.",
-        "Support",
-        "Pricing",
-        "Sign in"
-      ],
-      "ctas": [
-        "Download 1Password",
-        "Resource LibraryResource libraryHelpful guides and research.",
-        "Pricing",
-        "Sign in",
-        "Contact us",
-        "Contact support"
-      ],
-      "landmarks": [
-        "navigation",
-        "main",
-        "header",
-        "footer"
-      ]
-    },
-    {
-      "url": "https://1password.com/help",
-      "title": "404 - Page Not Found | 1Password",
-      "description": "Page not found",
-      "headings": [
-        "404: Page Not Found",
-        "Well this is awkward."
-      ],
-      "navLabels": [
-        "Product",
-        "1Password PersonalPersonalFor you and your family.",
-        "1Password BusinessBusinessFor growing businesses.",
-        "1Password EnterpriseEnterpriseFor security at scale.",
-        "1Password Developer ToolsDeveloperKeep secrets out of code.",
-        "View 1Password features",
-        "Unified AccessDiscover, secure, and audit access",
-        "Enterprise Password ManagerProtect credentials and logins",
-        "SaaS ManagerDiscover and govern SaaS spend",
-        "Device TrustSecure every device's access",
-        "View plans",
-        "Talk to sales",
-        "Download 1Password",
-        "Resources",
-        "SecuritySecurityHow 1Password is different.",
-        "Resource LibraryResource libraryHelpful guides and research.",
-        "1Password blogBlogNews, tips, and inspiration.",
-        "WebinarsWebinarsWatch live or on demand.",
-        "Support",
-        "Pricing",
-        "Sign in"
-      ],
-      "ctas": [
-        "Download 1Password",
-        "Resource LibraryResource libraryHelpful guides and research.",
-        "Pricing",
-        "Sign in",
-        "Contact us",
-        "Contact support"
-      ],
-      "landmarks": [
-        "navigation",
-        "main",
-        "header",
-        "footer"
       ]
     },
     {
@@ -640,150 +602,10 @@
         "footer",
         "nav:Breadcrumb"
       ]
-    },
-    {
-      "url": "https://1password.com/login",
-      "title": "404 - Page Not Found | 1Password",
-      "description": "Page not found",
-      "headings": [
-        "404: Page Not Found",
-        "Well this is awkward."
-      ],
-      "navLabels": [
-        "Product",
-        "1Password PersonalPersonalFor you and your family.",
-        "1Password BusinessBusinessFor growing businesses.",
-        "1Password EnterpriseEnterpriseFor security at scale.",
-        "1Password Developer ToolsDeveloperKeep secrets out of code.",
-        "View 1Password features",
-        "Unified AccessDiscover, secure, and audit access",
-        "Enterprise Password ManagerProtect credentials and logins",
-        "SaaS ManagerDiscover and govern SaaS spend",
-        "Device TrustSecure every device's access",
-        "View plans",
-        "Talk to sales",
-        "Download 1Password",
-        "Resources",
-        "SecuritySecurityHow 1Password is different.",
-        "Resource LibraryResource libraryHelpful guides and research.",
-        "1Password blogBlogNews, tips, and inspiration.",
-        "WebinarsWebinarsWatch live or on demand.",
-        "Support",
-        "Pricing",
-        "Sign in"
-      ],
-      "ctas": [
-        "Download 1Password",
-        "Resource LibraryResource libraryHelpful guides and research.",
-        "Pricing",
-        "Sign in",
-        "Contact us",
-        "Contact support"
-      ],
-      "landmarks": [
-        "navigation",
-        "main",
-        "header",
-        "footer"
-      ]
-    },
-    {
-      "url": "https://1password.com/signin",
-      "title": "404 - Page Not Found | 1Password",
-      "description": "Page not found",
-      "headings": [
-        "404: Page Not Found",
-        "Well this is awkward."
-      ],
-      "navLabels": [
-        "Product",
-        "1Password PersonalPersonalFor you and your family.",
-        "1Password BusinessBusinessFor growing businesses.",
-        "1Password EnterpriseEnterpriseFor security at scale.",
-        "1Password Developer ToolsDeveloperKeep secrets out of code.",
-        "View 1Password features",
-        "Unified AccessDiscover, secure, and audit access",
-        "Enterprise Password ManagerProtect credentials and logins",
-        "SaaS ManagerDiscover and govern SaaS spend",
-        "Device TrustSecure every device's access",
-        "View plans",
-        "Talk to sales",
-        "Download 1Password",
-        "Resources",
-        "SecuritySecurityHow 1Password is different.",
-        "Resource LibraryResource libraryHelpful guides and research.",
-        "1Password blogBlogNews, tips, and inspiration.",
-        "WebinarsWebinarsWatch live or on demand.",
-        "Support",
-        "Pricing",
-        "Sign in"
-      ],
-      "ctas": [
-        "Download 1Password",
-        "Resource LibraryResource libraryHelpful guides and research.",
-        "Pricing",
-        "Sign in",
-        "Contact us",
-        "Contact support"
-      ],
-      "landmarks": [
-        "navigation",
-        "main",
-        "header",
-        "footer"
-      ]
-    },
-    {
-      "url": "https://1password.com/sign-in",
-      "title": "404 - Page Not Found | 1Password",
-      "description": "Page not found",
-      "headings": [
-        "404: Page Not Found",
-        "Well this is awkward."
-      ],
-      "navLabels": [
-        "Product",
-        "1Password PersonalPersonalFor you and your family.",
-        "1Password BusinessBusinessFor growing businesses.",
-        "1Password EnterpriseEnterpriseFor security at scale.",
-        "1Password Developer ToolsDeveloperKeep secrets out of code.",
-        "View 1Password features",
-        "Unified AccessDiscover, secure, and audit access",
-        "Enterprise Password ManagerProtect credentials and logins",
-        "SaaS ManagerDiscover and govern SaaS spend",
-        "Device TrustSecure every device's access",
-        "View plans",
-        "Talk to sales",
-        "Download 1Password",
-        "Resources",
-        "SecuritySecurityHow 1Password is different.",
-        "Resource LibraryResource libraryHelpful guides and research.",
-        "1Password blogBlogNews, tips, and inspiration.",
-        "WebinarsWebinarsWatch live or on demand.",
-        "Support",
-        "Pricing",
-        "Sign in"
-      ],
-      "ctas": [
-        "Download 1Password",
-        "Resource LibraryResource libraryHelpful guides and research.",
-        "Pricing",
-        "Sign in",
-        "Contact us",
-        "Contact support"
-      ],
-      "landmarks": [
-        "navigation",
-        "main",
-        "header",
-        "footer"
-      ]
     }
   ],
   "navLabels": [
     "Secure credentials for humans, machines, and AI agents. Switch to 1Password.",
-    "Talk to sales",
-    "View plans",
     "Sign in",
     "Business",
     "Personal",
@@ -791,52 +613,54 @@
     "Partners",
     "Resources",
     "Pricing",
+    "Talk to sales",
     "Get started free",
-    "Request a demo",
-    "Sign in to SaaS Manager",
-    "SaaS Manager",
-    "Enterprise",
-    "Business and Personal",
-    "Pricing - Password Manager",
-    "Try free for 14 days",
-    "Compare plans",
-    "Personal Password Manager",
-    "Download 1Password",
-    "Learn about password generator",
-    "Learn about password vaults",
-    "Learn about password sharing",
+    "View plans",
+    "Try 1Password free",
     "Features",
-    "Product",
-    "1Password PersonalPersonalFor you and your family.",
-    "1Password BusinessBusinessFor growing businesses.",
-    "1Password EnterpriseEnterpriseFor security at scale.",
-    "1Password Developer ToolsDeveloperKeep secrets out of code."
+    "Password autofill",
+    "Menu",
+    "Home",
+    "Tour",
+    "Families",
+    "Security",
+    "Download",
+    "Support",
+    "Blog",
+    "Secret Key",
+    "lost account password",
+    "browser extension not working",
+    "1Password MCP Server",
+    "1Password Developer home page",
+    "Search...⌘K",
+    "Ask Assistant",
+    "Community"
   ],
   "ctas": [
+    "Sign in",
+    "Pricing",
+    "Get started free",
     "Explore 1Password® Unified Access",
     "Try Enterprise Password Manager",
     "Request SaaS Manger demo",
-    "Downloads",
     "Demos",
-    "Pricing",
-    "Create a new account",
     "Contact 1Password Support.",
-    "Sign in",
-    "Get started free",
-    "Request a demo",
-    "Sign in to SaaS Manager",
-    "Learn more",
-    "Explore AI spend management",
-    "Explore SaaS discovery",
-    "Explore SaaS workflow automation",
-    "Explore SaaS spend management",
-    "Explore account governance",
-    "Get started",
-    "Try FREE for 14 days",
-    "Buy with AWS",
-    "MSPs try FREE for 14 days",
-    "Teams Starter Pack",
-    "contact us"
+    "Try 1Password free",
+    "Download",
+    "Get started Set up 1Password for yourself or your family.Get started",
+    "Team members: Get started Set up 1Password at your workplace.Join your team",
+    "Try out exploratory features in 1Password",
+    "Contact Support",
+    "Search...⌘K",
+    "Search...",
+    "Get Started",
+    "Developer quickstart",
+    "Administrator quickstart",
+    "Partner quickstart",
+    "Admin quickstart",
+    "Explore more projects",
+    "facebook",
+    "How do I get started with 1Password?"
   ],
   "headings": [
     "Secure access for every human and AI agent",
@@ -847,71 +671,72 @@
     "1Password named a Leader for SaaS Management Platforms",
     "Bring modern access under control",
     "We couldn’t connect to 1Password",
-    "SaaS management",
-    "AI and SaaS sprawl creates gaps in visibility, access, and runaway spend",
-    "Control AI token consumption",
-    "Uncover shadow AI and IT",
-    "Manage the SaaS lifecycle",
-    "Eliminate unnecessary spend",
-    "1Password SaaS Manager",
-    "Unified AI and SaaS governance",
-    "Manage",
-    "Track and control AI consumption and spend",
-    "Discover",
-    "Continuously discover and inventory all AI and SaaS applications",
-    "Control",
-    "Powerful AI and SaaS workflow automation",
-    "Optimize",
-    "Eliminate unnecessary AI and SaaS spend",
-    "Integrate",
-    "Govern accounts beyond SSO",
-    "See the power of 1Password SaaS Manager",
-    "Pricing and plans",
-    "Individual",
-    "Families"
+    "Password autofill",
+    "What’s password autofill?",
+    "Getting started with password autofill",
+    "How to use 1Password’s autofill",
+    "Quick Access to your credentials",
+    "How password autofill keeps you safe online",
+    "Speed up your logins safely and efficiently",
+    "Secure your digital life with 1Password",
+    "Welcome to 1Password Support",
+    "We’re here to help!",
+    "Featured articles",
+    "Documentation Index",
+    "About",
+    "Quickstart",
+    "Developer workflows",
+    "Administrator workflows",
+    "Resources",
+    "Secure developer workflows with 1Password",
+    "Secure agentic workflows",
+    "Secure AI access",
+    "1Password Environments Beta",
+    "1Password MCP Server Beta"
   ],
   "techSignals": [
     "Next.js",
     "Webpack",
     "React",
+    "Cloudflare",
     "Vite",
-    "Intercom",
-    "Cloudflare"
+    "Intercom"
   ],
   "featureCandidates": [
     "Secure access for every human and AI agent",
     "Discover, secure, audit",
     "Bring modern access under control",
     "We couldn’t connect to 1Password",
-    "SaaS management",
-    "Control AI token consumption",
-    "Uncover shadow AI and IT",
-    "Manage the SaaS lifecycle",
-    "Eliminate unnecessary spend",
-    "1Password SaaS Manager",
-    "Unified AI and SaaS governance",
-    "Manage",
-    "Track and control AI consumption and spend",
-    "Discover",
-    "Control",
-    "Powerful AI and SaaS workflow automation",
-    "Optimize",
-    "Eliminate unnecessary AI and SaaS spend",
-    "Integrate",
-    "Govern accounts beyond SSO",
-    "See the power of 1Password SaaS Manager",
-    "Pricing and plans",
-    "Individual",
-    "Families"
+    "Password autofill",
+    "What’s password autofill?",
+    "Getting started with password autofill",
+    "How to use 1Password’s autofill",
+    "Quick Access to your credentials",
+    "How password autofill keeps you safe online",
+    "Speed up your logins safely and efficiently",
+    "Secure your digital life with 1Password",
+    "Welcome to 1Password Support",
+    "We’re here to help!",
+    "Featured articles",
+    "Documentation Index",
+    "About",
+    "Quickstart",
+    "Developer workflows",
+    "Administrator workflows",
+    "Resources",
+    "Secure developer workflows with 1Password",
+    "Secure agentic workflows",
+    "Secure AI access"
   ],
   "patternCandidates": [
+    "Pricing display",
     "Map view",
     "Tabs",
-    "Pricing display",
     "Authentication",
-    "Dashboard",
+    "Menus",
     "Card layout",
-    "Search"
+    "Search",
+    "Dashboard"
   ],
   "platformsDetected": [
     "web",
@@ -921,5 +746,5 @@
     "cli",
     "desktop"
   ],
-  "summary": "Captured 43 screenshots across 16 public URLs. Nav signals: Secure credentials for humans, machines, and AI agents. Switch to 1Password., Talk to sales, View plans, Sign in, Business, Personal. Tech signals: Next.js, Webpack, React, Vite, Intercom, Cloudflare. UI patterns: Map view, Tabs, Pricing display, Authentication, Dashboard, Card layout."
+  "summary": "Captured 51 screenshots across 12 public URLs. Nav signals: Secure credentials for humans, machines, and AI agents. Switch to 1Password., Sign in, Business, Personal, Developers, Partners. Tech signals: Next.js, Webpack, React, Cloudflare, Vite, Intercom. UI patterns: Pricing display, Map view, Tabs, Authentication, Menus, Card layout."
 }

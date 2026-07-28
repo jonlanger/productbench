@@ -1,257 +1,608 @@
 {
   "slug": "metabase",
-  "capturedAt": "2026-07-27T13:32:45.577Z",
+  "capturedAt": "2026-07-27T21:43:32.365Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "Metabase public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://www.metabase.com/"
+      "sourceUrl": "https://www.metabase.com/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Open source AI analytics for data teams | Metabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "8c968e0e1cb2594d",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Metabase homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.metabase.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Metabase homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.metabase.com/"
+      "sourceUrl": "https://www.metabase.com/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Open source AI analytics for data teams | Metabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "5c1d62212d0c334d",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Metabase homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.metabase.com/"
+      "sourceUrl": "https://www.metabase.com/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Open source AI analytics for data teams | Metabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "8c236161160e714d",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Metabase homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.metabase.com/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Open source AI analytics for data teams | Metabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "0c49694b4b0a000e",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Metabase homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.metabase.com/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Open source AI analytics for data teams | Metabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "8c0e160d5138304c",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Metabase homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.metabase.com/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Open source AI analytics for data teams | Metabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "8c1e281a1aaba3cd",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Metabase homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://www.metabase.com/"
+      "sourceUrl": "https://www.metabase.com/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Open source AI analytics for data teams | Metabase",
+      "width": 390,
+      "height": 844,
+      "phash": "63130796310c8c53",
+      "unique": true
     },
     {
       "file": "card-1.jpg",
       "title": "UI cards (1)",
       "caption": "Card / tile crops from Metabase",
       "kind": "component",
-      "sourceUrl": "https://www.metabase.com/"
+      "sourceUrl": "https://www.metabase.com/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 356,
+      "pageTitle": "Open source AI analytics for data teams | Metabase",
+      "width": 258,
+      "height": 243,
+      "phash": "7250aea38f4d3380",
+      "unique": true
     },
     {
       "file": "card-2.jpg",
       "title": "UI cards (2)",
       "caption": "Card / tile crops from Metabase",
       "kind": "component",
-      "sourceUrl": "https://www.metabase.com/"
+      "sourceUrl": "https://www.metabase.com/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 356,
+      "pageTitle": "Open source AI analytics for data teams | Metabase",
+      "width": 224,
+      "height": 186,
+      "phash": "000f2b230d4d5300",
+      "unique": true
     },
     {
       "file": "card-3.jpg",
       "title": "UI cards (3)",
       "caption": "Card / tile crops from Metabase",
       "kind": "component",
-      "sourceUrl": "https://www.metabase.com/"
+      "sourceUrl": "https://www.metabase.com/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 356,
+      "pageTitle": "Open source AI analytics for data teams | Metabase",
+      "width": 529,
+      "height": 243,
+      "phash": "7876846b4b350583",
+      "unique": true
     },
     {
       "file": "card-4.jpg",
       "title": "UI cards (4)",
       "caption": "Card / tile crops from Metabase",
       "kind": "component",
-      "sourceUrl": "https://www.metabase.com/"
+      "sourceUrl": "https://www.metabase.com/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 356,
+      "pageTitle": "Open source AI analytics for data teams | Metabase",
+      "width": 495,
+      "height": 186,
+      "phash": "f688404b1b344489",
+      "unique": true
+    },
+    {
+      "file": "card-5.jpg",
+      "title": "UI cards (5)",
+      "caption": "Card / tile crops from Metabase",
+      "kind": "component",
+      "sourceUrl": "https://www.metabase.com/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 356,
+      "pageTitle": "Open source AI analytics for data teams | Metabase",
+      "width": 798,
+      "height": 381,
+      "phash": "6064b5b1352d2121",
+      "unique": true
     },
     {
       "file": "search-composer.jpg",
       "title": "Search / composer",
       "caption": "Focused search or primary input on Metabase",
       "kind": "component",
-      "sourceUrl": "https://www.metabase.com/"
+      "sourceUrl": "https://www.metabase.com/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "search-composer",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 1722,
+      "pageTitle": "Open source AI analytics for data teams | Metabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "940e096969494b4d",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on Metabase (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://www.metabase.com/cloud/login/"
+      "sourceUrl": "https://www.metabase.com/cloud/login/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log in to Metabase Cloud",
+      "width": 1440,
+      "height": 900,
+      "phash": "8c000c868cc9730d",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Metabase",
       "kind": "product",
-      "sourceUrl": "https://www.metabase.com/product/data-studio/"
+      "sourceUrl": "https://www.metabase.com/features/drill-through",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drill-throughs",
+      "width": 1440,
+      "height": 900,
+      "phash": "8428869e1c61314d",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Metabase",
       "kind": "product",
-      "sourceUrl": "https://www.metabase.com/product/data-studio/"
+      "sourceUrl": "https://www.metabase.com/features/drill-through",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drill-throughs",
+      "width": 1440,
+      "height": 900,
+      "phash": "84208e8e0e4c134d",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Metabase",
       "kind": "product",
-      "sourceUrl": "https://www.metabase.com/product/data-studio/"
+      "sourceUrl": "https://www.metabase.com/features/drill-through",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drill-throughs",
+      "width": 1440,
+      "height": 900,
+      "phash": "944c0f525a5a524d",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from Metabase",
       "kind": "product",
-      "sourceUrl": "https://www.metabase.com/product/data-studio/"
+      "sourceUrl": "https://www.metabase.com/features/drill-through",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drill-throughs",
+      "width": 1440,
+      "height": 900,
+      "phash": "8c1c0f0f9f19610c",
+      "unique": true
     },
     {
-      "file": "nav-5.jpg",
-      "title": "In-product nav (5)",
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
       "caption": "Same-origin product / pricing / docs links from Metabase",
       "kind": "product",
-      "sourceUrl": "https://www.metabase.com/product/data-studio/"
+      "sourceUrl": "https://www.metabase.com/features/drill-through",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drill-throughs",
+      "width": 1440,
+      "height": 900,
+      "phash": "848863652565704d",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Metabase",
+      "kind": "product",
+      "sourceUrl": "https://www.metabase.com/features/drill-through",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drill-throughs",
+      "width": 1440,
+      "height": 900,
+      "phash": "9ca4757876c6504d",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from Metabase",
+      "kind": "product",
+      "sourceUrl": "https://www.metabase.com/features/drill-through",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drill-throughs",
+      "width": 1440,
+      "height": 900,
+      "phash": "948c8e0e2b0f334d",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from Metabase",
+      "kind": "product",
+      "sourceUrl": "https://www.metabase.com/features/drill-through",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drill-throughs",
+      "width": 1440,
+      "height": 900,
+      "phash": "94a8417a6c65d14c",
+      "unique": true
+    },
+    {
+      "file": "nav-10.jpg",
+      "title": "In-product nav (10)",
+      "caption": "Same-origin product / pricing / docs links from Metabase",
+      "kind": "product",
+      "sourceUrl": "https://www.metabase.com/features/drill-through",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drill-throughs",
+      "width": 1440,
+      "height": 900,
+      "phash": "9c204e0e8e0c584d",
+      "unique": true
+    },
+    {
+      "file": "nav-12.jpg",
+      "title": "In-product nav (12)",
+      "caption": "Same-origin product / pricing / docs links from Metabase",
+      "kind": "product",
+      "sourceUrl": "https://www.metabase.com/features/drill-through",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Drill-throughs",
+      "width": 1440,
+      "height": 900,
+      "phash": "9488547672d6544d",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "Dashboard (1)",
       "caption": "Metabase public surface · metabase.com",
       "kind": "product",
-      "sourceUrl": "https://www.metabase.com/pricing/"
+      "sourceUrl": "https://www.metabase.com/help/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Help is here",
+      "width": 1440,
+      "height": 900,
+      "phash": "840c46666639314d",
+      "unique": true
     },
     {
-      "file": "surface-1-mid.jpg",
-      "title": "Dashboard (2)",
+      "file": "surface-1-lower.jpg",
+      "title": "Dashboard (3)",
       "caption": "Metabase public surface · metabase.com",
       "kind": "product",
-      "sourceUrl": "https://www.metabase.com/pricing/"
+      "sourceUrl": "https://www.metabase.com/help/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Help is here",
+      "width": 1440,
+      "height": 900,
+      "phash": "0c31a9abadc5054d",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
       "title": "Settings (1)",
       "caption": "Metabase public surface · metabase.com",
       "kind": "product",
-      "sourceUrl": "https://www.metabase.com/product/"
+      "sourceUrl": "https://www.metabase.com/docs/latest/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Metabase documentation | Metabase Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "940999a58686994d",
+      "unique": true
     },
     {
-      "file": "surface-2-mid.jpg",
-      "title": "Settings (2)",
+      "file": "surface-2-band-2.jpg",
+      "title": "Settings (3)",
       "caption": "Metabase public surface · metabase.com",
       "kind": "product",
-      "sourceUrl": "https://www.metabase.com/product/"
+      "sourceUrl": "https://www.metabase.com/docs/latest/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Metabase documentation | Metabase Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "0c0d97b0969eb10d",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-4.jpg",
+      "title": "Settings (5)",
+      "caption": "Metabase public surface · metabase.com",
+      "kind": "product",
+      "sourceUrl": "https://www.metabase.com/docs/latest/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Metabase documentation | Metabase Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "9c999998b09cb18d",
+      "unique": true
     },
     {
       "file": "surface-3.jpg",
-      "title": "Search",
+      "title": "Search (1)",
       "caption": "Metabase public surface · metabase.com",
       "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/products/"
+      "sourceUrl": "https://www.metabase.com/support/",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Page not found",
+      "width": 1440,
+      "height": 900,
+      "phash": "8c000c0c01aba1cd",
+      "unique": true
     },
     {
-      "file": "surface-4.jpg",
-      "title": "Profile (1)",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/features/"
+      "file": "fallback-docs-2.png",
+      "title": "Stats Dashboard",
+      "caption": "Fallback from public docs: https://www.metabase.com/product",
+      "kind": "supporting",
+      "sourceUrl": "https://www.metabase.com/product",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "web-fallback",
+      "width": 887,
+      "height": 647,
+      "phash": "c062cb496169689d",
+      "unique": true
     },
     {
-      "file": "surface-4-mid.jpg",
-      "title": "Profile (2)",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/features/"
-    },
-    {
-      "file": "surface-5.jpg",
-      "title": "Supporting surface 5",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/platform/"
-    },
-    {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/solutions/"
-    },
-    {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/customers/"
-    },
-    {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/docs/latest/"
-    },
-    {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/docs/latest/"
-    },
-    {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/help/"
-    },
-    {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/blog/"
-    },
-    {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/blog/"
-    },
-    {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/about/"
-    },
-    {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/login/"
-    },
-    {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/signin/"
-    },
-    {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14",
-      "caption": "Metabase public surface · metabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.metabase.com/sign-in/"
+      "file": "fallback-docs-3.jpg",
+      "title": "Interface of data to join and filter",
+      "caption": "Fallback from public docs: https://www.metabase.com/product",
+      "kind": "supporting",
+      "sourceUrl": "https://www.metabase.com/product",
+      "capturedAt": "2026-07-27T21:42:13.171Z",
+      "playbookStep": "web-fallback",
+      "width": 1079,
+      "height": 776,
+      "phash": "616153736f6f6800",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T13:32:45.577Z",
-    "screenshotCount": 35,
-    "pageCount": 17,
+    "capturedAt": "2026-07-27T21:43:32.365Z",
+    "screenshotCount": 32,
+    "pageCount": 6,
     "pages": [
       {
         "url": "https://www.metabase.com/",
@@ -373,14 +724,25 @@
         ]
       },
       {
-        "url": "https://www.metabase.com/product/data-studio/",
-        "title": "Data Studio | Curate your semantic layer for analytics people and AI can trust",
-        "description": "Build the trustworthy foundation for self-service analytic in Data Studio. Transform data, centralize logic, and keep everyone working from the same definitions.",
+        "url": "https://www.metabase.com/features/drill-through",
+        "title": "Drill-throughs",
+        "description": "Click on charts, models, and questions to interact with the drill-through menu to filter, see individual records, auto-generate reports, and more. ",
         "headings": [
-          "Data Studio",
-          "Data Studio is a workbench for buildingself-service analytics people can trust.",
-          "Curate your semantic layer inside Metabase",
-          "Bring more order to your analytics"
+          "Pull threads in your data without even asking a question",
+          "Analysis on (almost) autopilot",
+          "Zoom in",
+          "View these records",
+          "Breakout",
+          "Filters",
+          "Custom-click behavior",
+          "Cross-filter",
+          "X-ray",
+          "More info on drill-throughs and interactivity",
+          "Interactive dashboards",
+          "Drill-through on charts",
+          "A tour of Metabase",
+          "How to use drill-throughs on dashboardsand charts",
+          "Try Metabase 14 days free"
         ],
         "navLabels": [
           "Book your seat",
@@ -423,275 +785,19 @@
         ],
         "landmarks": [
           "header",
-          "footer",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://www.metabase.com/pricing/",
-        "title": "Metabase Pricing",
-        "description": "From Open Source (Free) to Enterprise, from Metabase Cloud to self-hosted, there is a Metabase for everyone.",
-        "headings": [
-          "Business intelligenceEmbedded analytics pricing",
-          "Deployment",
-          "Plans",
-          "Open Source",
-          "Starter",
-          "Pro",
-          "Enterprise",
-          "Users",
-          "Everything else is optional",
-          "Usage-based pricing",
-          "AI",
-          "Transforms",
-          "Advanced transforms",
-          "Storage",
-          "FAQ",
-          "What's the difference between Pro and Enterprise?",
-          "How are users calculated?",
-          "Can I adjust the number of users I'm paying for?",
-          "First-class compliance",
-          "Embedding"
-        ],
-        "navLabels": [
-          "Book your seat",
-          "Business Intelligence Self-service analytics for your team",
-          "Embedded Analytics Fast, flexible customer-facing analytics",
-          "Data sources",
-          "Security",
-          "Cloud",
-          "Features",
-          "Metabase AI",
-          "Data Studio New",
-          "Dashboards and reporting",
-          "Query builder",
-          "Data segregation",
-          "Usage analytics",
-          "Embedded analytics SDK",
-          "White-label analytics",
-          "Drill-through",
-          "SQL editor",
-          "Permissions",
-          "CSV upload",
-          "What's new",
-          "Roadmap",
-          "Documentation The Metabase manual",
-          "Learn Guides and tutorials",
-          "Querying and Dashboards Everyone exploring and analyzing data"
-        ],
-        "ctas": [
-          "Book your seat",
-          "Adding a database",
-          "Events Join a live event or watch on demand",
-          "Business Intelligence pricing Self-service analytics for your team",
-          "Embedded Analytics pricing Fast, flexible customer-facing analytics",
-          "Log in",
-          "Get started",
-          "Watch 5-minute demo",
-          "Start free trial",
-          "Embedded analytics pricing",
-          "Watch Demo",
-          "Starter and Open Source"
-        ],
-        "landmarks": [
-          "header",
-          "main",
-          "footer",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://www.metabase.com/product/",
-        "title": "Metabase",
-        "headings": [
-          "Built for data.Made for everyone.",
-          "Data exploration for the whole team",
-          "Querying beyond the SQL barrier",
-          "Share your discoveries",
-          "Explore data with ease",
-          "A familiar, intuitive interface",
-          "Bring your data to life",
-          "Visual query builder",
-          "Advanced users welcome",
-          "Share your insights",
-          "Interactive dashboards and visualizations",
-          "Embedding",
-          "Automated reports",
-          "Advanced embedding",
-          "Scale data access",
-          "Open up data access, safely",
-          "Monitor access and exports",
-          "SOC 2 Type II Compliant",
-          "Manage hundreds or thousands of users",
-          "Light on its feet and easy on your servers"
-        ],
-        "navLabels": [
-          "Book your seat",
-          "Business Intelligence Self-service analytics for your team",
-          "Embedded Analytics Fast, flexible customer-facing analytics",
-          "Data sources",
-          "Security",
-          "Cloud",
-          "Features",
-          "Metabase AI",
-          "Data Studio New",
-          "Dashboards and reporting",
-          "Query builder",
-          "Data segregation",
-          "Usage analytics",
-          "Embedded analytics SDK",
-          "White-label analytics",
-          "Drill-through",
-          "SQL editor",
-          "Permissions",
-          "CSV upload",
-          "What's new",
-          "Roadmap",
-          "Documentation The Metabase manual",
-          "Learn Guides and tutorials",
-          "Querying and Dashboards Everyone exploring and analyzing data"
-        ],
-        "ctas": [
-          "Book your seat",
-          "Adding a database",
-          "Events Join a live event or watch on demand",
-          "Business Intelligence pricing Self-service analytics for your team",
-          "Embedded Analytics pricing Fast, flexible customer-facing analytics",
-          "Log in",
-          "Get started",
-          "Watch 5-minute demo",
-          "Learn more",
-          "Watch Demo",
-          "Starter and Open Source"
-        ],
-        "landmarks": [
-          "header",
-          "footer",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://www.metabase.com/products/",
-        "title": "Page not found",
-        "description": "Metabase is the easy, open-source way for everyone to ask questions and learn from data.",
-        "headings": [
-          "We're a little lost..."
-        ],
-        "navLabels": [
-          "Book your seat",
-          "Business Intelligence Self-service analytics for your team",
-          "Embedded Analytics Fast, flexible customer-facing analytics",
-          "Data sources",
-          "Security",
-          "Cloud",
-          "Features",
-          "Metabase AI",
-          "Data Studio New",
-          "Dashboards and reporting",
-          "Query builder",
-          "Data segregation",
-          "Usage analytics",
-          "Embedded analytics SDK",
-          "White-label analytics",
-          "Drill-through",
-          "SQL editor",
-          "Permissions",
-          "CSV upload",
-          "What's new",
-          "Roadmap",
-          "Documentation The Metabase manual",
-          "Learn Guides and tutorials",
-          "Querying and Dashboards Everyone exploring and analyzing data"
-        ],
-        "ctas": [
-          "Book your seat",
-          "Adding a database",
-          "Events Join a live event or watch on demand",
-          "Business Intelligence pricing Self-service analytics for your team",
-          "Embedded Analytics pricing Fast, flexible customer-facing analytics",
-          "Log in",
-          "Get started",
-          "Watch 5-minute demo",
-          "Watch Demo",
-          "Starter and Open Source"
-        ],
-        "landmarks": [
-          "header",
-          "footer",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://www.metabase.com/features/",
-        "title": "Metabase Features | Data Analytics Platform",
-        "description": "Built for data, made for everyone. Explore dashboards, query without SQL, set granular permissions, and embed analytics — all in one tool.",
-        "headings": [
-          "Built for data, made for everyone",
-          "Analytics dashboard",
-          "Query builder",
-          "Data segregation",
-          "Models",
-          "Usage analytics",
-          "Metabase AI",
-          "Embedded analytics SDK",
-          "White-label analytics",
-          "Drill-through",
-          "SQL editor",
-          "Permissions",
-          "CSV upload"
-        ],
-        "navLabels": [
-          "Book your seat",
-          "Business Intelligence Self-service analytics for your team",
-          "Embedded Analytics Fast, flexible customer-facing analytics",
-          "Data sources",
-          "Security",
-          "Cloud",
-          "Features",
-          "Metabase AI",
-          "Data Studio New",
-          "Dashboards and reporting",
-          "Query builder",
-          "Data segregation",
-          "Usage analytics",
-          "Embedded analytics SDK",
-          "White-label analytics",
-          "Drill-through",
-          "SQL editor",
-          "Permissions",
-          "CSV upload",
-          "What's new",
-          "Roadmap",
-          "Documentation The Metabase manual",
-          "Learn Guides and tutorials",
-          "Querying and Dashboards Everyone exploring and analyzing data"
-        ],
-        "ctas": [
-          "Book your seat",
-          "Adding a database",
-          "Events Join a live event or watch on demand",
-          "Business Intelligence pricing Self-service analytics for your team",
-          "Embedded Analytics pricing Fast, flexible customer-facing analytics",
-          "Log in",
-          "Get started",
-          "Watch 5-minute demo",
-          "Models Create and customize metadata-rich, annotated models",
-          "Watch Demo",
-          "Starter and Open Source"
-        ],
-        "landmarks": [
-          "header",
+          "dialog:Modal Window",
+          "dialog:Caption Settings Dialog",
           "footer",
           "nav",
           "dialog"
         ]
       },
       {
-        "url": "https://www.metabase.com/platform/",
-        "title": "Page not found",
-        "description": "Metabase is the easy, open-source way for everyone to ask questions and learn from data.",
+        "url": "https://www.metabase.com/help/",
+        "title": "Help is here",
+        "description": "Metabase resources for getting unstuck: documentation, tutorials, discussion forum, and more.",
         "headings": [
-          "We're a little lost..."
+          "Help is here"
         ],
         "navLabels": [
           "Book your seat",
@@ -728,108 +834,7 @@
           "Log in",
           "Get started",
           "Watch 5-minute demo",
-          "Watch Demo",
-          "Starter and Open Source"
-        ],
-        "landmarks": [
-          "header",
-          "footer",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://www.metabase.com/solutions/",
-        "title": "Page not found",
-        "description": "Metabase is the easy, open-source way for everyone to ask questions and learn from data.",
-        "headings": [
-          "We're a little lost..."
-        ],
-        "navLabels": [
-          "Book your seat",
-          "Business Intelligence Self-service analytics for your team",
-          "Embedded Analytics Fast, flexible customer-facing analytics",
-          "Data sources",
-          "Security",
-          "Cloud",
-          "Features",
-          "Metabase AI",
-          "Data Studio New",
-          "Dashboards and reporting",
-          "Query builder",
-          "Data segregation",
-          "Usage analytics",
-          "Embedded analytics SDK",
-          "White-label analytics",
-          "Drill-through",
-          "SQL editor",
-          "Permissions",
-          "CSV upload",
-          "What's new",
-          "Roadmap",
-          "Documentation The Metabase manual",
-          "Learn Guides and tutorials",
-          "Querying and Dashboards Everyone exploring and analyzing data"
-        ],
-        "ctas": [
-          "Book your seat",
-          "Adding a database",
-          "Events Join a live event or watch on demand",
-          "Business Intelligence pricing Self-service analytics for your team",
-          "Embedded Analytics pricing Fast, flexible customer-facing analytics",
-          "Log in",
-          "Get started",
-          "Watch 5-minute demo",
-          "Watch Demo",
-          "Starter and Open Source"
-        ],
-        "landmarks": [
-          "header",
-          "footer",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://www.metabase.com/customers/",
-        "title": "Page not found",
-        "description": "Metabase is the easy, open-source way for everyone to ask questions and learn from data.",
-        "headings": [
-          "We're a little lost..."
-        ],
-        "navLabels": [
-          "Book your seat",
-          "Business Intelligence Self-service analytics for your team",
-          "Embedded Analytics Fast, flexible customer-facing analytics",
-          "Data sources",
-          "Security",
-          "Cloud",
-          "Features",
-          "Metabase AI",
-          "Data Studio New",
-          "Dashboards and reporting",
-          "Query builder",
-          "Data segregation",
-          "Usage analytics",
-          "Embedded analytics SDK",
-          "White-label analytics",
-          "Drill-through",
-          "SQL editor",
-          "Permissions",
-          "CSV upload",
-          "What's new",
-          "Roadmap",
-          "Documentation The Metabase manual",
-          "Learn Guides and tutorials",
-          "Querying and Dashboards Everyone exploring and analyzing data"
-        ],
-        "ctas": [
-          "Book your seat",
-          "Adding a database",
-          "Events Join a live event or watch on demand",
-          "Business Intelligence pricing Self-service analytics for your team",
-          "Embedded Analytics pricing Fast, flexible customer-facing analytics",
-          "Log in",
-          "Get started",
-          "Watch 5-minute demo",
+          "Explore paid plans",
           "Watch Demo",
           "Starter and Open Source"
         ],
@@ -920,263 +925,7 @@
         ]
       },
       {
-        "url": "https://www.metabase.com/help/",
-        "title": "Help is here",
-        "description": "Metabase resources for getting unstuck: documentation, tutorials, discussion forum, and more.",
-        "headings": [
-          "Help is here"
-        ],
-        "navLabels": [
-          "Book your seat",
-          "Business Intelligence Self-service analytics for your team",
-          "Embedded Analytics Fast, flexible customer-facing analytics",
-          "Data sources",
-          "Security",
-          "Cloud",
-          "Features",
-          "Metabase AI",
-          "Data Studio New",
-          "Dashboards and reporting",
-          "Query builder",
-          "Data segregation",
-          "Usage analytics",
-          "Embedded analytics SDK",
-          "White-label analytics",
-          "Drill-through",
-          "SQL editor",
-          "Permissions",
-          "CSV upload",
-          "What's new",
-          "Roadmap",
-          "Documentation The Metabase manual",
-          "Learn Guides and tutorials",
-          "Querying and Dashboards Everyone exploring and analyzing data"
-        ],
-        "ctas": [
-          "Book your seat",
-          "Adding a database",
-          "Events Join a live event or watch on demand",
-          "Business Intelligence pricing Self-service analytics for your team",
-          "Embedded Analytics pricing Fast, flexible customer-facing analytics",
-          "Log in",
-          "Get started",
-          "Watch 5-minute demo",
-          "Explore paid plans",
-          "Watch Demo",
-          "Starter and Open Source"
-        ],
-        "landmarks": [
-          "header",
-          "footer",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://www.metabase.com/blog/",
-        "title": "Metabase Blog: news, analytics and BI, data explorations, and more",
-        "description": "News, analytics and BI, data explorations, and more from the Metabase team.",
-        "headings": [
-          "Blog"
-        ],
-        "navLabels": [
-          "Book your seat",
-          "Business Intelligence Self-service analytics for your team",
-          "Embedded Analytics Fast, flexible customer-facing analytics",
-          "Data sources",
-          "Security",
-          "Cloud",
-          "Features",
-          "Metabase AI",
-          "Data Studio New",
-          "Dashboards and reporting",
-          "Query builder",
-          "Data segregation",
-          "Usage analytics",
-          "Embedded analytics SDK",
-          "White-label analytics",
-          "Drill-through",
-          "SQL editor",
-          "Permissions",
-          "CSV upload",
-          "What's new",
-          "Roadmap",
-          "Documentation The Metabase manual",
-          "Learn Guides and tutorials",
-          "Querying and Dashboards Everyone exploring and analyzing data"
-        ],
-        "ctas": [
-          "Book your seat",
-          "Adding a database",
-          "Events Join a live event or watch on demand",
-          "Business Intelligence pricing Self-service analytics for your team",
-          "Embedded Analytics pricing Fast, flexible customer-facing analytics",
-          "Log in",
-          "Get started",
-          "Watch 5-minute demo",
-          "Watch Demo",
-          "Starter and Open Source"
-        ],
-        "landmarks": [
-          "header",
-          "footer",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://www.metabase.com/about/",
-        "title": "Page not found",
-        "description": "Metabase is the easy, open-source way for everyone to ask questions and learn from data.",
-        "headings": [
-          "We're a little lost..."
-        ],
-        "navLabels": [
-          "Book your seat",
-          "Business Intelligence Self-service analytics for your team",
-          "Embedded Analytics Fast, flexible customer-facing analytics",
-          "Data sources",
-          "Security",
-          "Cloud",
-          "Features",
-          "Metabase AI",
-          "Data Studio New",
-          "Dashboards and reporting",
-          "Query builder",
-          "Data segregation",
-          "Usage analytics",
-          "Embedded analytics SDK",
-          "White-label analytics",
-          "Drill-through",
-          "SQL editor",
-          "Permissions",
-          "CSV upload",
-          "What's new",
-          "Roadmap",
-          "Documentation The Metabase manual",
-          "Learn Guides and tutorials",
-          "Querying and Dashboards Everyone exploring and analyzing data"
-        ],
-        "ctas": [
-          "Book your seat",
-          "Adding a database",
-          "Events Join a live event or watch on demand",
-          "Business Intelligence pricing Self-service analytics for your team",
-          "Embedded Analytics pricing Fast, flexible customer-facing analytics",
-          "Log in",
-          "Get started",
-          "Watch 5-minute demo",
-          "Watch Demo",
-          "Starter and Open Source"
-        ],
-        "landmarks": [
-          "header",
-          "footer",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://www.metabase.com/login/",
-        "title": "Page not found",
-        "description": "Metabase is the easy, open-source way for everyone to ask questions and learn from data.",
-        "headings": [
-          "We're a little lost..."
-        ],
-        "navLabels": [
-          "Book your seat",
-          "Business Intelligence Self-service analytics for your team",
-          "Embedded Analytics Fast, flexible customer-facing analytics",
-          "Data sources",
-          "Security",
-          "Cloud",
-          "Features",
-          "Metabase AI",
-          "Data Studio New",
-          "Dashboards and reporting",
-          "Query builder",
-          "Data segregation",
-          "Usage analytics",
-          "Embedded analytics SDK",
-          "White-label analytics",
-          "Drill-through",
-          "SQL editor",
-          "Permissions",
-          "CSV upload",
-          "What's new",
-          "Roadmap",
-          "Documentation The Metabase manual",
-          "Learn Guides and tutorials",
-          "Querying and Dashboards Everyone exploring and analyzing data"
-        ],
-        "ctas": [
-          "Book your seat",
-          "Adding a database",
-          "Events Join a live event or watch on demand",
-          "Business Intelligence pricing Self-service analytics for your team",
-          "Embedded Analytics pricing Fast, flexible customer-facing analytics",
-          "Log in",
-          "Get started",
-          "Watch 5-minute demo",
-          "Watch Demo",
-          "Starter and Open Source"
-        ],
-        "landmarks": [
-          "header",
-          "footer",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://www.metabase.com/signin/",
-        "title": "Page not found",
-        "description": "Metabase is the easy, open-source way for everyone to ask questions and learn from data.",
-        "headings": [
-          "We're a little lost..."
-        ],
-        "navLabels": [
-          "Book your seat",
-          "Business Intelligence Self-service analytics for your team",
-          "Embedded Analytics Fast, flexible customer-facing analytics",
-          "Data sources",
-          "Security",
-          "Cloud",
-          "Features",
-          "Metabase AI",
-          "Data Studio New",
-          "Dashboards and reporting",
-          "Query builder",
-          "Data segregation",
-          "Usage analytics",
-          "Embedded analytics SDK",
-          "White-label analytics",
-          "Drill-through",
-          "SQL editor",
-          "Permissions",
-          "CSV upload",
-          "What's new",
-          "Roadmap",
-          "Documentation The Metabase manual",
-          "Learn Guides and tutorials",
-          "Querying and Dashboards Everyone exploring and analyzing data"
-        ],
-        "ctas": [
-          "Book your seat",
-          "Adding a database",
-          "Events Join a live event or watch on demand",
-          "Business Intelligence pricing Self-service analytics for your team",
-          "Embedded Analytics pricing Fast, flexible customer-facing analytics",
-          "Log in",
-          "Get started",
-          "Watch 5-minute demo",
-          "Watch Demo",
-          "Starter and Open Source"
-        ],
-        "landmarks": [
-          "header",
-          "footer",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://www.metabase.com/sign-in/",
+        "url": "https://www.metabase.com/support/",
         "title": "Page not found",
         "description": "Metabase is the easy, open-source way for everyone to ask questions and learn from data.",
         "headings": [
@@ -1272,12 +1021,12 @@
       "Log in to Store",
       "Start a free trial.",
       "Contact us",
-      "Start free trial",
-      "Embedded analytics pricing",
-      "Learn more",
-      "Models Create and customize metadata-rich, annotated models",
+      "Explore paid plans",
       "Getting started",
-      "Filtering"
+      "Filtering",
+      "Joining data",
+      "Field filters",
+      "Filter widgets"
     ],
     "headings": [
       "Open source AI analytics for data teams",
@@ -1294,22 +1043,22 @@
       "Analytics that people straight up love",
       "Ready to get started?",
       "Find your account",
-      "Data Studio",
-      "Data Studio is a workbench for buildingself-service analytics people can trust.",
-      "Curate your semantic layer inside Metabase",
-      "Bring more order to your analytics",
-      "Business intelligenceEmbedded analytics pricing",
-      "Deployment",
-      "Plans",
-      "Open Source",
-      "Starter",
-      "Pro",
-      "Enterprise",
-      "Users",
-      "Everything else is optional",
-      "Usage-based pricing",
-      "AI",
-      "Transforms"
+      "Pull threads in your data without even asking a question",
+      "Analysis on (almost) autopilot",
+      "Zoom in",
+      "View these records",
+      "Breakout",
+      "Filters",
+      "Custom-click behavior",
+      "Cross-filter",
+      "X-ray",
+      "More info on drill-throughs and interactivity",
+      "Interactive dashboards",
+      "Drill-through on charts",
+      "A tour of Metabase",
+      "How to use drill-throughs on dashboardsand charts",
+      "Try Metabase 14 days free",
+      "Help is here"
     ],
     "techSignals": [
       "React",
@@ -1317,8 +1066,7 @@
       "Google Tag Manager",
       "Sentry",
       "Cloudflare",
-      "Next.js",
-      "Zendesk"
+      "Next.js"
     ],
     "featureCandidates": [
       "Open source AI analytics for data teams",
@@ -1333,18 +1081,18 @@
       "Analytics that people straight up love",
       "Ready to get started?",
       "Find your account",
-      "Data Studio",
-      "Curate your semantic layer inside Metabase",
-      "Bring more order to your analytics",
-      "Business intelligenceEmbedded analytics pricing",
-      "Deployment",
-      "Plans",
-      "Open Source",
-      "Starter",
-      "Enterprise",
-      "Users",
-      "Everything else is optional",
-      "Usage-based pricing"
+      "Analysis on (almost) autopilot",
+      "Zoom in",
+      "View these records",
+      "Breakout",
+      "Filters",
+      "Custom-click behavior",
+      "Cross-filter",
+      "X-ray",
+      "More info on drill-throughs and interactivity",
+      "Interactive dashboards",
+      "Drill-through on charts",
+      "A tour of Metabase"
     ],
     "patternCandidates": [
       "Filters",
@@ -1353,7 +1101,8 @@
       "Tabs",
       "Dashboard",
       "Authentication",
-      "Messaging",
+      "Menus",
+      "Card layout",
       "Checkout"
     ],
     "platformsDetected": [
@@ -1361,6 +1110,9 @@
       "api",
       "cli"
     ],
-    "summary": "Captured 35 screenshots across 17 public URLs. Nav signals: Book your seat, Business Intelligence Self-service analytics for your team, Embedded Analytics Fast, flexible customer-facing analytics, Data sources, Security, Cloud. Tech signals: React, Vite, Google Tag Manager, Sentry, Cloudflare, Next.js. UI patterns: Filters, Pricing display, Map view, Tabs, Dashboard, Authentication."
+    "summary": "Captured 32 screenshots across 6 public URLs. Nav signals: Book your seat, Business Intelligence Self-service analytics for your team, Embedded Analytics Fast, flexible customer-facing analytics, Data sources, Security, Cloud. Tech signals: React, Vite, Google Tag Manager, Sentry, Cloudflare, Next.js. UI patterns: Filters, Pricing display, Map view, Tabs, Dashboard, Authentication."
+  },
+  "fallback": {
+    "blockedNavigations": 0
   }
 }

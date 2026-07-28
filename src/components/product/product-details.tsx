@@ -15,7 +15,10 @@ import {
   Workflow,
 } from "lucide-react";
 
-import { ProductVisualGalleries } from "@/components/product/screenshot-carousel";
+import {
+  ProductScreensCatalog,
+  ProductSurfacesPreview,
+} from "@/components/product/screenshot-carousel";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -155,7 +158,7 @@ export function ProductDetails({
       </section>
 
       {product.screenshots && product.screenshots.length > 0 ? (
-        <ProductVisualGalleries
+        <ProductSurfacesPreview
           slug={product.slug}
           screenshots={product.screenshots}
           accent={product.accent}
@@ -254,7 +257,7 @@ export function ProductDetails({
 
         <TabsContent value="screens" className="space-y-4">
           {product.screenshots && product.screenshots.length > 0 ? (
-            <ProductVisualGalleries
+            <ProductScreensCatalog
               slug={product.slug}
               screenshots={product.screenshots}
               accent={product.accent}

@@ -1,10 +1,76 @@
 {
   "slug": "adobe-xd",
-  "capturedAt": "2026-07-27T13:30:37.070Z",
-  "shots": [],
+  "capturedAt": "2026-07-27T22:51:23.242Z",
+  "shots": [
+    {
+      "file": "fallback-wayback-1.jpg",
+      "title": "Archived Marketing preview",
+      "caption": "Wayback Machine snapshot 20221206193922 · https://www.adobe.com/products/xd.html",
+      "kind": "marketing",
+      "sourceUrl": "http://web.archive.org/web/20221206193922/https://www.adobe.com/products/xd.html",
+      "capturedAt": "2026-07-27T22:50:16.478Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 800,
+      "phash": "7f3d3d3cb3965c9a",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1146597773-1.jpg",
+      "title": "Adobe XD screenshot 1",
+      "caption": "Apple App Store public screenshot (id 1146597773)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1146597773",
+      "capturedAt": "2026-07-27T22:50:16.478Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "034d236969797969",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1146597773-4.jpg",
+      "title": "Adobe XD screenshot 4",
+      "caption": "Apple App Store public screenshot (id 1146597773)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1146597773",
+      "capturedAt": "2026-07-27T22:50:16.478Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "23d4232b2b697979",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1146597773-5.jpg",
+      "title": "Adobe XD screenshot 5",
+      "caption": "Apple App Store public screenshot (id 1146597773)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1146597773",
+      "capturedAt": "2026-07-27T22:50:16.478Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "1796555555555555",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1146597773-8.jpg",
+      "title": "Adobe XD screenshot 8",
+      "caption": "Apple App Store public screenshot (id 1146597773)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1146597773",
+      "capturedAt": "2026-07-27T22:50:16.478Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "2bd0336d7171714d",
+      "unique": true
+    }
+  ],
   "insights": {
-    "capturedAt": "2026-07-27T13:30:37.070Z",
-    "screenshotCount": 0,
+    "capturedAt": "2026-07-27T22:51:23.242Z",
+    "screenshotCount": 5,
     "pageCount": 0,
     "pages": [],
     "navLabels": [],
@@ -16,6 +82,9 @@
     "platformsDetected": [
       "web"
     ],
-    "summary": "Captured 0 screenshots across 0 public URLs."
+    "summary": "Captured 5 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
   }
 }

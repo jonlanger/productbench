@@ -33,7 +33,9 @@ import {
 import { cn } from "@/lib/utils";
 
 const SUGGESTION_LIMIT = 5;
-const DEBOUNCE_MS = 200;
+const SUGGESTION_DEBOUNCE_MS = 200;
+/** Keep keystrokes local; commit catalog filtering after typing settles. */
+const QUERY_COMMIT_MS = 150;
 
 const KIND_ICON: Record<SuggestionKind, typeof Search> = {
   product: Boxes,
@@ -67,6 +69,8 @@ export function SearchBar({
   const { products, filters, setFilters } = useCatalog();
   const listboxId = useId();
   const rootRef = useRef<HTMLDivElement>(null);
+  const commitTimerRef = useRef<number | null>(null);
+  const [draft, setDraft] = useState(value);
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [suggestions, setSuggestions] = useState<SearchSuggestion[]>([]);
@@ -74,8 +78,41 @@ export function SearchBar({
 
   const index = useMemo(() => buildSearchIndex(products), [products]);
 
+  // Stay in sync when parent clears/resets query (filters, suggestions, etc.).
+  // Skip while a local commit is pending so a slower parent update can't
+  // clobber characters the user has already typed.
   useEffect(() => {
-    const query = value.trim();
+    if (commitTimerRef.current !== null) return;
+    setDraft(value);
+  }, [value]);
+
+  useEffect(() => {
+    return () => {
+      if (commitTimerRef.current !== null) {
+        window.clearTimeout(commitTimerRef.current);
+      }
+    };
+  }, []);
+
+  function commitQuery(next: string, immediate = false) {
+    if (commitTimerRef.current !== null) {
+      window.clearTimeout(commitTimerRef.current);
+      commitTimerRef.current = null;
+    }
+
+    if (immediate || next === value) {
+      if (next !== value) onChange(next);
+      return;
+    }
+
+    commitTimerRef.current = window.setTimeout(() => {
+      commitTimerRef.current = null;
+      onChange(next);
+    }, QUERY_COMMIT_MS);
+  }
+
+  useEffect(() => {
+    const query = draft.trim();
     if (!query) {
       setSuggestions([]);
       setLoading(false);
@@ -88,10 +125,10 @@ export function SearchBar({
     const timer = window.setTimeout(() => {
       setSuggestions(getSearchSuggestions(index, query, SUGGESTION_LIMIT));
       setLoading(false);
-    }, DEBOUNCE_MS);
+    }, SUGGESTION_DEBOUNCE_MS);
 
     return () => window.clearTimeout(timer);
-  }, [value, index]);
+  }, [draft, index]);
 
   useEffect(() => {
     function handlePointerDown(event: MouseEvent) {
@@ -115,7 +152,8 @@ export function SearchBar({
     setActiveIndex(-1);
 
     if (suggestion.productSlug) {
-      onChange("");
+      setDraft("");
+      commitQuery("", true);
       router.push(`/products/${suggestion.productSlug}`);
       return;
     }
@@ -126,6 +164,11 @@ export function SearchBar({
       const nextValues = current.includes(suggestion.filterValue)
         ? current
         : [...current, suggestion.filterValue];
+      setDraft("");
+      if (commitTimerRef.current !== null) {
+        window.clearTimeout(commitTimerRef.current);
+        commitTimerRef.current = null;
+      }
       setFilters({
         ...filters,
         query: "",
@@ -135,18 +178,21 @@ export function SearchBar({
       return;
     }
 
-    onChange(suggestion.query ?? suggestion.label);
+    const next = suggestion.query ?? suggestion.label;
+    setDraft(next);
+    commitQuery(next, true);
     openCatalog();
   }
 
   function handleKeyDown(event: KeyboardEvent<HTMLInputElement>) {
     if (!open && (event.key === "ArrowDown" || event.key === "ArrowUp")) {
-      if (value.trim()) setOpen(true);
+      if (draft.trim()) setOpen(true);
       return;
     }
 
-    if (event.key === "Enter" && activeIndex < 0 && value.trim()) {
+    if (event.key === "Enter" && activeIndex < 0 && draft.trim()) {
       event.preventDefault();
+      commitQuery(draft, true);
       setOpen(false);
       openCatalog();
       return;
@@ -185,19 +231,25 @@ export function SearchBar({
     }
   }
 
-  const showMenu = open && value.trim().length > 0;
+  const showMenu = open && draft.trim().length > 0;
 
   return (
     <div ref={rootRef} className={cn("relative w-full", !compact && "max-w-xl")}>
       <Search className="pointer-events-none absolute top-1/2 left-3 z-10 size-4 -translate-y-1/2 text-muted-foreground" />
       <Input
-        value={value}
+        value={draft}
         onChange={(event) => {
-          onChange(event.target.value);
+          const next = event.target.value;
+          setDraft(next);
           setOpen(true);
+          commitQuery(next);
         }}
         onFocus={() => {
-          if (value.trim()) setOpen(true);
+          if (draft.trim()) setOpen(true);
+        }}
+        onBlur={() => {
+          // Flush pending text so catalog matches what the user typed.
+          commitQuery(draft, true);
         }}
         onKeyDown={handleKeyDown}
         placeholder={
@@ -215,14 +267,15 @@ export function SearchBar({
         }
         role="combobox"
       />
-      {value ? (
+      {draft ? (
         <Button
           type="button"
           variant="ghost"
           size="icon-sm"
           className="absolute top-1/2 right-1.5 z-10 -translate-y-1/2"
           onClick={() => {
-            onChange("");
+            setDraft("");
+            commitQuery("", true);
             setOpen(false);
             setSuggestions([]);
           }}
@@ -246,7 +299,7 @@ export function SearchBar({
             </div>
           ) : suggestions.length === 0 ? (
             <div className="px-3 py-3 text-sm text-muted-foreground">
-              No suggestions for “{value.trim()}”
+              No suggestions for “{draft.trim()}”
             </div>
           ) : (
             <ul className="py-1">

@@ -1,0 +1,38 @@
+{
+  "slug": "gainsight",
+  "capturedAt": "2026-07-27T22:59:09.961Z",
+  "shots": [
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.gainsight.com",
+      "capturedAt": "2026-07-27T22:59:03.805Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 675,
+      "phash": "00431769691f5f1f",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T22:59:09.961Z",
+    "screenshotCount": 1,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 1 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

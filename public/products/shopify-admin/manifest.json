@@ -1,243 +1,1247 @@
 {
   "slug": "shopify-admin",
-  "capturedAt": "2026-07-26T22:23:40.659Z",
+  "capturedAt": "2026-07-27T22:46:10.326Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "Shopify public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://www.shopify.com/"
+      "sourceUrl": "https://www.shopify.com/",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "923884848c8ccca4",
+      "unique": true
     },
     {
       "file": "homepage-top.jpg",
       "title": "Homepage depth (1)",
       "caption": "Shopify homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.shopify.com/"
+      "sourceUrl": "https://www.shopify.com/",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "a291b3a4a6a626a4",
+      "unique": true
     },
     {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Shopify homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.shopify.com/"
+      "sourceUrl": "https://www.shopify.com/",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "32a4e886c6dadc23",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Shopify homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.shopify.com/"
+      "sourceUrl": "https://www.shopify.com/",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "9adc828c8c8c822a",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Shopify homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.shopify.com/",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "928c8fe4f4f4ccc4",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Shopify homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.shopify.com/",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "caccf49696969eb6",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Shopify homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.shopify.com/",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "ba8c9489490652ca",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Shopify homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://www.shopify.com/"
+      "sourceUrl": "https://www.shopify.com/",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "width": 390,
+      "height": 844,
+      "phash": "cca19fcc989980d8",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on Shopify (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://www.shopify.com/"
+      "sourceUrl": "https://www.shopify.com/",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "52a4d644c3a8f1a4",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Shopify",
       "kind": "product",
-      "sourceUrl": "https://www.shopify.com/blog/what-is-shopify"
+      "sourceUrl": "https://www.shopify.com/blog/topics/guides",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "- Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "4c772545c11a5b5b",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Shopify",
       "kind": "product",
-      "sourceUrl": "https://www.shopify.com/blog/what-is-shopify"
+      "sourceUrl": "https://www.shopify.com/blog/topics/guides",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "- Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "512171794912b284",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Shopify",
       "kind": "product",
-      "sourceUrl": "https://www.shopify.com/blog/what-is-shopify"
+      "sourceUrl": "https://www.shopify.com/blog/topics/guides",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "- Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "927132eaeaaaaaca",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from Shopify",
       "kind": "product",
-      "sourceUrl": "https://www.shopify.com/blog/what-is-shopify"
+      "sourceUrl": "https://www.shopify.com/blog/topics/guides",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "- Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "d4f0706871713044",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from Shopify",
       "kind": "product",
-      "sourceUrl": "https://www.shopify.com/blog/what-is-shopify"
+      "sourceUrl": "https://www.shopify.com/blog/topics/guides",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "- Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "4c855c5e0f0e3165",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from Shopify",
+      "kind": "product",
+      "sourceUrl": "https://www.shopify.com/blog/topics/guides",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "- Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "4433554575756505",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Shopify",
+      "kind": "product",
+      "sourceUrl": "https://www.shopify.com/blog/topics/guides",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "- Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "74855c5e656d694b",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
-      "title": "Orders",
+      "title": "Orders (1)",
       "caption": "Shopify public surface · help.shopify.com",
       "kind": "product",
-      "sourceUrl": "https://help.shopify.com/en/manual/intro-to-shopify"
+      "sourceUrl": "https://help.shopify.com/en/manual/intro-to-shopify",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify Help Center | Intro to Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "a0303e0e960e1e96",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
-      "title": "Products",
+      "title": "Products (1)",
       "caption": "Shopify public surface · help.shopify.com",
       "kind": "product",
-      "sourceUrl": "https://help.shopify.com/en/manual/products"
-    },
-    {
-      "file": "surface-3.jpg",
-      "title": "Customers",
-      "caption": "Shopify public surface · help.shopify.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.shopify.com/en/manual/fulfillment"
+      "sourceUrl": "https://help.shopify.com/en/manual/products",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify Help Center | Products",
+      "width": 1440,
+      "height": 900,
+      "phash": "b0361e1e3e1636ba",
+      "unique": true
     },
     {
       "file": "surface-4.jpg",
       "title": "Online Store editor (1)",
       "caption": "Shopify public surface · shopify.dev",
       "kind": "docs",
-      "sourceUrl": "https://shopify.dev/docs/api/admin-graphql/latest"
+      "sourceUrl": "https://shopify.dev/docs/api/admin-graphql/latest",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "GraphQL Admin API reference",
+      "width": 1440,
+      "height": 900,
+      "phash": "9999b2c1b3b1b0e0",
+      "unique": true
     },
     {
-      "file": "surface-4-mid.jpg",
-      "title": "Online Store editor (2)",
+      "file": "surface-4-band-2.jpg",
+      "title": "Online Store editor (3)",
       "caption": "Shopify public surface · shopify.dev",
       "kind": "docs",
-      "sourceUrl": "https://shopify.dev/docs/api/admin-graphql/latest"
+      "sourceUrl": "https://shopify.dev/docs/api/admin-graphql/latest",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "GraphQL Admin API reference",
+      "width": 1440,
+      "height": 900,
+      "phash": "91b1ecc0b393b1dc",
+      "unique": true
+    },
+    {
+      "file": "surface-4-band-3.jpg",
+      "title": "Online Store editor (4)",
+      "caption": "Shopify public surface · shopify.dev",
+      "kind": "docs",
+      "sourceUrl": "https://shopify.dev/docs/api/admin-graphql/latest",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "GraphQL Admin API reference",
+      "width": 1440,
+      "height": 900,
+      "phash": "9193b1939193ccb3",
+      "unique": true
+    },
+    {
+      "file": "surface-4-band-4.jpg",
+      "title": "Online Store editor (5)",
+      "caption": "Shopify public surface · shopify.dev",
+      "kind": "docs",
+      "sourceUrl": "https://shopify.dev/docs/api/admin-graphql/latest",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "GraphQL Admin API reference",
+      "width": 1440,
+      "height": 900,
+      "phash": "d9f191d3d1d3d1d1",
+      "unique": true
+    },
+    {
+      "file": "surface-4-lower.jpg",
+      "title": "Online Store editor (6)",
+      "caption": "Shopify public surface · shopify.dev",
+      "kind": "docs",
+      "sourceUrl": "https://shopify.dev/docs/api/admin-graphql/latest",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "GraphQL Admin API reference",
+      "width": 1440,
+      "height": 900,
+      "phash": "91b3b39cc7c489c1",
+      "unique": true
     },
     {
       "file": "surface-5.jpg",
       "title": "Settings (1)",
       "caption": "Shopify public surface · shopify.dev",
       "kind": "docs",
-      "sourceUrl": "https://shopify.dev/docs/apps/build"
+      "sourceUrl": "https://shopify.dev/docs/apps/build",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build",
+      "width": 1440,
+      "height": 900,
+      "phash": "89999bb3b3aabbc5",
+      "unique": true
     },
     {
-      "file": "surface-5-mid.jpg",
-      "title": "Settings (2)",
+      "file": "surface-5-band-2.jpg",
+      "title": "Settings (3)",
       "caption": "Shopify public surface · shopify.dev",
       "kind": "docs",
-      "sourceUrl": "https://shopify.dev/docs/apps/build"
+      "sourceUrl": "https://shopify.dev/docs/apps/build",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build",
+      "width": 1440,
+      "height": 900,
+      "phash": "b1b5cec6bba5abc1",
+      "unique": true
+    },
+    {
+      "file": "surface-5-band-3.jpg",
+      "title": "Settings (4)",
+      "caption": "Shopify public surface · shopify.dev",
+      "kind": "docs",
+      "sourceUrl": "https://shopify.dev/docs/apps/build",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build",
+      "width": 1440,
+      "height": 900,
+      "phash": "9bb9a1c1ebc5bab9",
+      "unique": true
+    },
+    {
+      "file": "surface-5-band-4.jpg",
+      "title": "Settings (5)",
+      "caption": "Shopify public surface · shopify.dev",
+      "kind": "docs",
+      "sourceUrl": "https://shopify.dev/docs/apps/build",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build",
+      "width": 1440,
+      "height": 900,
+      "phash": "ebbbadcde3c5cdc5",
+      "unique": true
+    },
+    {
+      "file": "surface-5-lower.jpg",
+      "title": "Settings (6)",
+      "caption": "Shopify public surface · shopify.dev",
+      "kind": "docs",
+      "sourceUrl": "https://shopify.dev/docs/apps/build",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build",
+      "width": 1440,
+      "height": 900,
+      "phash": "bba9c9c9d2c489c1",
+      "unique": true
     },
     {
       "file": "surface-6.jpg",
       "title": "Supporting surface 6 (1)",
       "caption": "Shopify public surface · shopify.dev",
       "kind": "docs",
-      "sourceUrl": "https://shopify.dev/docs/api/ajax"
+      "sourceUrl": "https://shopify.dev/docs/api/ajax",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About the Shopify Ajax API",
+      "width": 1440,
+      "height": 900,
+      "phash": "999d96e6b89cdc98",
+      "unique": true
     },
     {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
+      "file": "surface-6-band-2.jpg",
+      "title": "Supporting surface 6 (3)",
       "caption": "Shopify public surface · shopify.dev",
       "kind": "docs",
-      "sourceUrl": "https://shopify.dev/docs/api/ajax"
+      "sourceUrl": "https://shopify.dev/docs/api/ajax",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About the Shopify Ajax API",
+      "width": 1440,
+      "height": 900,
+      "phash": "c9999a8796b69eda",
+      "unique": true
+    },
+    {
+      "file": "surface-6-band-3.jpg",
+      "title": "Supporting surface 6 (4)",
+      "caption": "Shopify public surface · shopify.dev",
+      "kind": "docs",
+      "sourceUrl": "https://shopify.dev/docs/api/ajax",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About the Shopify Ajax API",
+      "width": 1440,
+      "height": 900,
+      "phash": "9bd99e9e9eecbcce",
+      "unique": true
+    },
+    {
+      "file": "surface-6-band-4.jpg",
+      "title": "Supporting surface 6 (5)",
+      "caption": "Shopify public surface · shopify.dev",
+      "kind": "docs",
+      "sourceUrl": "https://shopify.dev/docs/api/ajax",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About the Shopify Ajax API",
+      "width": 1440,
+      "height": 900,
+      "phash": "999de1fccec889c1",
+      "unique": true
     },
     {
       "file": "surface-7.jpg",
-      "title": "Supporting surface 7",
+      "title": "Supporting surface 7 (1)",
       "caption": "Shopify public surface · help.shopify.com",
       "kind": "docs",
-      "sourceUrl": "https://help.shopify.com/en/manual/your-account/users"
+      "sourceUrl": "https://help.shopify.com/en/manual/your-account/users",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify Help Center | Managing users",
+      "width": 1440,
+      "height": 900,
+      "phash": "903236363a3c3c9a",
+      "unique": true
     },
     {
       "file": "surface-8.jpg",
-      "title": "Supporting surface 8",
+      "title": "Supporting surface 8 (1)",
       "caption": "Shopify public surface · help.shopify.com",
       "kind": "docs",
-      "sourceUrl": "https://help.shopify.com/en/manual/checkout-settings"
+      "sourceUrl": "https://help.shopify.com/en/manual/checkout-settings",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify Help Center | Shopify Checkout",
+      "width": 1440,
+      "height": 900,
+      "phash": "a0361616069e0e8e",
+      "unique": true
     },
     {
       "file": "surface-9.jpg",
       "title": "Supporting surface 9 (1)",
       "caption": "Shopify public surface · shopify.dev",
       "kind": "docs",
-      "sourceUrl": "https://shopify.dev/docs/apps/launch/billing"
+      "sourceUrl": "https://shopify.dev/docs/apps/launch/billing",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About billing for your app",
+      "width": 1440,
+      "height": 900,
+      "phash": "999997d89e96d6b0",
+      "unique": true
     },
     {
-      "file": "surface-9-mid.jpg",
-      "title": "Supporting surface 9 (2)",
+      "file": "surface-9-band-2.jpg",
+      "title": "Supporting surface 9 (3)",
       "caption": "Shopify public surface · shopify.dev",
       "kind": "docs",
-      "sourceUrl": "https://shopify.dev/docs/apps/launch/billing"
+      "sourceUrl": "https://shopify.dev/docs/apps/launch/billing",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About billing for your app",
+      "width": 1440,
+      "height": 900,
+      "phash": "d2f1b79e96b6ded6",
+      "unique": true
     },
     {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
-      "caption": "Shopify public surface · shopify.com",
+      "file": "surface-9-band-3.jpg",
+      "title": "Supporting surface 9 (4)",
+      "caption": "Shopify public surface · shopify.dev",
       "kind": "docs",
-      "sourceUrl": "https://www.shopify.com/pricing"
+      "sourceUrl": "https://shopify.dev/docs/apps/launch/billing",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About billing for your app",
+      "width": 1440,
+      "height": 900,
+      "phash": "96d5d7c6d096c6b0",
+      "unique": true
     },
     {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
-      "caption": "Shopify public surface · shopify.com",
+      "file": "surface-9-band-4.jpg",
+      "title": "Supporting surface 9 (5)",
+      "caption": "Shopify public surface · shopify.dev",
       "kind": "docs",
-      "sourceUrl": "https://www.shopify.com/pricing"
+      "sourceUrl": "https://shopify.dev/docs/apps/launch/billing",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About billing for your app",
+      "width": 1440,
+      "height": 900,
+      "phash": "d6d5b5ccb496c6c6",
+      "unique": true
     },
     {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
-      "caption": "Shopify public surface · shopify.com",
+      "file": "surface-9-lower.jpg",
+      "title": "Supporting surface 9 (6)",
+      "caption": "Shopify public surface · shopify.dev",
       "kind": "docs",
-      "sourceUrl": "https://www.shopify.com/?utm_source=podcast&utm_medium=audio&utm_campaign=us-all-na-awareness-2q23-en&utm_term=product&utm_content=product"
+      "sourceUrl": "https://shopify.dev/docs/apps/launch/billing",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About billing for your app",
+      "width": 1440,
+      "height": 900,
+      "phash": "cec7cf96c4ccc9c1",
+      "unique": true
     },
     {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
+      "file": "surface-10-band-2.jpg",
+      "title": "Supporting surface 10 (3)",
       "caption": "Shopify public surface · shopify.com",
       "kind": "docs",
-      "sourceUrl": "https://www.shopify.com/?utm_source=podcast&utm_medium=audio&utm_campaign=us-all-na-awareness-2q23-en&utm_term=product&utm_content=product"
+      "sourceUrl": "https://www.shopify.com/pricing",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify Pricing: Find the Right Plan for Your Business - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "b230aaaa8eacc2b2",
+      "unique": true
+    },
+    {
+      "file": "surface-10-band-3.jpg",
+      "title": "Supporting surface 10 (4)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/pricing",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify Pricing: Find the Right Plan for Your Business - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "8282ba9a8e8e96b4",
+      "unique": true
+    },
+    {
+      "file": "surface-10-band-4.jpg",
+      "title": "Supporting surface 10 (5)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/pricing",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify Pricing: Find the Right Plan for Your Business - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "92b4279999999927",
+      "unique": true
+    },
+    {
+      "file": "surface-10-lower.jpg",
+      "title": "Supporting surface 10 (6)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/pricing",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify Pricing: Find the Right Plan for Your Business - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "92cc935252caceae",
+      "unique": true
     },
     {
       "file": "surface-12.jpg",
       "title": "Supporting surface 12 (1)",
       "caption": "Shopify public surface · shopify.com",
       "kind": "docs",
-      "sourceUrl": "https://www.shopify.com/products"
+      "sourceUrl": "https://www.shopify.com/products",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Browse all of Shopify’s products & features - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "455272760c425115",
+      "unique": true
     },
     {
-      "file": "surface-12-mid.jpg",
-      "title": "Supporting surface 12 (2)",
+      "file": "surface-12-band-2.jpg",
+      "title": "Supporting surface 12 (3)",
       "caption": "Shopify public surface · shopify.com",
       "kind": "docs",
-      "sourceUrl": "https://www.shopify.com/products"
+      "sourceUrl": "https://www.shopify.com/products",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Browse all of Shopify’s products & features - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "459d155565155565",
+      "unique": true
+    },
+    {
+      "file": "surface-12-band-3.jpg",
+      "title": "Supporting surface 12 (4)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/products",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Browse all of Shopify’s products & features - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "4545695595952111",
+      "unique": true
+    },
+    {
+      "file": "surface-12-band-4.jpg",
+      "title": "Supporting surface 12 (5)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/products",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Browse all of Shopify’s products & features - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d09951525251800",
+      "unique": true
+    },
+    {
+      "file": "surface-12-lower.jpg",
+      "title": "Supporting surface 12 (6)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/products",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Browse all of Shopify’s products & features - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d0e100a52caceae",
+      "unique": true
     },
     {
       "file": "surface-13.jpg",
       "title": "Supporting surface 13 (1)",
       "caption": "Shopify public surface · shopify.com",
       "kind": "docs",
-      "sourceUrl": "https://www.shopify.com/pos/features"
+      "sourceUrl": "https://www.shopify.com/pos/features",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Point of Sale Features - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d13c3757563a3c4",
+      "unique": true
     },
     {
-      "file": "surface-13-mid.jpg",
-      "title": "Supporting surface 13 (2)",
+      "file": "surface-13-band-2.jpg",
+      "title": "Supporting surface 13 (3)",
       "caption": "Shopify public surface · shopify.com",
       "kind": "docs",
-      "sourceUrl": "https://www.shopify.com/pos/features"
+      "sourceUrl": "https://www.shopify.com/pos/features",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Point of Sale Features - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d63401417935392",
+      "unique": true
+    },
+    {
+      "file": "surface-13-band-3.jpg",
+      "title": "Supporting surface 13 (4)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/pos/features",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Point of Sale Features - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "65139b53931b1193",
+      "unique": true
+    },
+    {
+      "file": "surface-13-lower.jpg",
+      "title": "Supporting surface 13 (6)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/pos/features",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Point of Sale Features - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d4e248dad353149",
+      "unique": true
     },
     {
       "file": "surface-14.jpg",
-      "title": "Supporting surface 14",
+      "title": "Supporting surface 14 (1)",
       "caption": "Shopify public surface · shopify.com",
       "kind": "docs",
-      "sourceUrl": "https://www.shopify.com/platform"
+      "sourceUrl": "https://www.shopify.com/platform",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404: Page not found",
+      "width": 1440,
+      "height": 900,
+      "phash": "3a3892d8f8f8f8fc",
+      "unique": true
+    },
+    {
+      "file": "surface-16.jpg",
+      "title": "Supporting surface 16 (1)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/blog/retail-customer-service",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Retail Customer Service: What It Means & How to Improve (2026) - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "5c314d4c0f0f6343",
+      "unique": true
+    },
+    {
+      "file": "surface-16-band-2.jpg",
+      "title": "Supporting surface 16 (3)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/blog/retail-customer-service",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Retail Customer Service: What It Means & How to Improve (2026) - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "61634b0b035f5959",
+      "unique": true
+    },
+    {
+      "file": "surface-16-band-3.jpg",
+      "title": "Supporting surface 16 (4)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/blog/retail-customer-service",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Retail Customer Service: What It Means & How to Improve (2026) - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "5959594d5e1c1e86",
+      "unique": true
+    },
+    {
+      "file": "surface-16-band-4.jpg",
+      "title": "Supporting surface 16 (5)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/blog/retail-customer-service",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-16",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Retail Customer Service: What It Means & How to Improve (2026) - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "1d1e56574d190d96",
+      "unique": true
+    },
+    {
+      "file": "surface-18.jpg",
+      "title": "Supporting surface 18 (1)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://help.shopify.com/en/",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-18",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Shopify Help Center",
+      "width": 1440,
+      "height": 900,
+      "phash": "b00d8c2323274a4a",
+      "unique": true
+    },
+    {
+      "file": "surface-19-band-2.jpg",
+      "title": "Supporting surface 19 (3)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/blog",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-19",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Ecommerce Marketing Blog - Ecommerce News, Online Store Tips and More - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "65050dc249895667",
+      "unique": true
+    },
+    {
+      "file": "surface-19-band-3.jpg",
+      "title": "Supporting surface 19 (4)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/blog",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-19",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Ecommerce Marketing Blog - Ecommerce News, Online Store Tips and More - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d476565454e4f6d",
+      "unique": true
+    },
+    {
+      "file": "surface-19-band-4.jpg",
+      "title": "Supporting surface 19 (5)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/blog",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-19",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Ecommerce Marketing Blog - Ecommerce News, Online Store Tips and More - Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d6f6d4d4f4f0f20",
+      "unique": true
+    },
+    {
+      "file": "surface-20.jpg",
+      "title": "Supporting surface 20 (1)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/about",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-20",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "1aa5a28fa6969e8e",
+      "unique": true
+    },
+    {
+      "file": "surface-20-band-2.jpg",
+      "title": "Supporting surface 20 (3)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/about",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-20",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "8a8e8ea6cf8eaaaa",
+      "unique": true
+    },
+    {
+      "file": "surface-20-band-3.jpg",
+      "title": "Supporting surface 20 (4)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/about",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-20",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "aaaaaa968132cccc",
+      "unique": true
+    },
+    {
+      "file": "surface-20-band-4.jpg",
+      "title": "Supporting surface 20 (5)",
+      "caption": "Shopify public surface · shopify.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopify.com/about",
+      "capturedAt": "2026-07-27T22:43:32.688Z",
+      "playbookStep": "surface-20",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Shopify",
+      "width": 1440,
+      "height": 900,
+      "phash": "ceccece4988c6317",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-26T22:23:40.659Z",
-    "screenshotCount": 33,
-    "pageCount": 15,
+    "capturedAt": "2026-07-27T22:46:10.326Z",
+    "screenshotCount": 65,
+    "pageCount": 18,
     "pages": [
       {
         "url": "https://www.shopify.com/",
@@ -307,30 +1311,15 @@
         ]
       },
       {
-        "url": "https://www.shopify.com/blog/what-is-shopify",
-        "title": "What Is Shopify and How Does It Work? (2026) - Shopify",
-        "description": "Discover how Shopify helps you sell online and in person. Explore features and pricing plans. Start your business journey with a free trial today.",
+        "url": "https://www.shopify.com/blog/topics/guides",
+        "title": "- Shopify",
         "headings": [
-          "What Is Shopify and How Does It Work? (2026)",
-          "What is Shopify?",
-          "How Shopify works",
-          "Build an online store",
-          "Find products",
-          "Turn browsers into buyers",
-          "Automate shipping",
-          "Sell everywhere",
-          "Market your brand",
-          "Integrate 8,000+ apps",
-          "Manage your finances",
-          "Keep growing",
-          "Plans and pricing",
-          "First sale to full scale",
-          "Start selling today",
-          "What is Shopify FAQ",
-          "Is Shopify good for beginners?",
-          "Is Shopify free?",
-          "What does Shopify cost?",
-          "What is Shopify Plus?"
+          "Guides",
+          "Shopify",
+          "Ecosystem",
+          "Resources",
+          "Support",
+          "Choose a region & language"
         ],
         "navLabels": [
           "Get started fastYou could be selling by tomorrow.",
@@ -363,22 +1352,15 @@
           "Pricing",
           "Log in",
           "Start for free",
-          "Start on Shopify",
-          "Search",
           "Starting Up",
-          "Plans and pricing",
-          "industry themes",
-          "Facebook, Instagram",
-          "Learn more",
-          "See all plans and pricing",
-          "See plans and pricing",
-          "How To Start a Dropshipping Business: 9 Essential Steps (2025)",
-          "How To Start an Online Boutique in 10 Steps (2025)",
-          "starting at $5 per month",
-          "Share on Facebook",
-          "How To Start an Ecommerce Business: Guide for 2025",
-          "What Is Print on Demand & How To Start a Business (2025)",
-          "How To Create a Website in 9 Steps (2025)"
+          "Search",
+          "How To Create and Use Podcast Transcripts: Tools + Tips",
+          "How To Create a To-Don’t List To Improve Your Productivity",
+          "How Securing Downloadable Content Works: Best Practices",
+          "Sticker Sizes: Standard Shapes, Uses, and Pricing",
+          "How to Start an Online Bookstore (2026)",
+          "Product Photography Pricing Factors: How Much Photos Cost",
+          "Content Research Guide: How To Do Content Research"
         ],
         "landmarks": [
           "header",
@@ -386,9 +1368,6 @@
           "nav:Secondary",
           "search:Search",
           "main",
-          "nav",
-          "nav:On this page",
-          "aside",
           "footer",
           "dialog:Region Navigation"
         ]
@@ -434,28 +1413,6 @@
           "Adding and updating products",
           "Searching for products and filtering your product list",
           "Adding product disclosures to your products"
-        ],
-        "landmarks": [
-          "main"
-        ]
-      },
-      {
-        "url": "https://help.shopify.com/en/manual/fulfillment",
-        "title": "Shopify Help Center | Order management and fulfillment",
-        "description": "Set up shipping, manage incoming orders, and get packages to your customers through various fulfillment methods.",
-        "headings": [
-          "Order management and fulfillment",
-          "Configuring shipping settings",
-          "Processing customer orders",
-          "Fulfilling orders",
-          "In this section"
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Start for free",
-          "Log in",
-          "buy and print shipping labels",
-          "Getting started shipping with Shopify"
         ],
         "landmarks": [
           "main"
@@ -991,6 +1948,260 @@
           "header",
           "main"
         ]
+      },
+      {
+        "url": "https://www.shopify.com/blog/retail-customer-service",
+        "title": "Retail Customer Service: What It Means & How to Improve (2026) - Shopify",
+        "description": "Learn what good retail customer service means and how to deliver it across In-Store and online channels. Use these 6 traits to improve loyalty.",
+        "headings": [
+          "Retail Customer Service: What It Means & How to Improve (2026)",
+          "Key takeaways",
+          "What is retail customer service?",
+          "Why you should prioritize customer service",
+          "What does good customer service look like?",
+          "Timely responses",
+          "Knowledgeable staff",
+          "Friendly attitudes",
+          "Professional demeanors",
+          "Patience",
+          "Helpful problem-solving",
+          "Know your customers better with Shopify",
+          "Retail customer service best practices",
+          "Retail storefront best practices",
+          "Ecommerce best practices",
+          "Omnichannel best practices",
+          "Retail customer service FAQ",
+          "What skills are required for customer service retail?",
+          "What are the responsibilities of retail customer service?",
+          "Shopify"
+        ],
+        "navLabels": [
+          "Get started fastYou could be selling by tomorrow.",
+          "Switch to ShopifyGet more customers. Make more sales.",
+          "Trusted by enterprise brandsNo matter your size, complexity, or ambition.",
+          "World's best checkoutProven to convert better.",
+          "SidekickYour commerce-obsessed AI assistant.",
+          "Website Builder",
+          "Themes",
+          "Domains",
+          "Customer Accounts",
+          "Sidekick",
+          "Online",
+          "AI Chats",
+          "Point of Sale",
+          "Shop App",
+          "Social & Marketplaces",
+          "Global",
+          "B2B",
+          "Across Markets",
+          "Advertising & Campaigns",
+          "Email & Customer Chat",
+          "Discounts",
+          "Analytics",
+          "Orders & Inventory",
+          "Shipping"
+        ],
+        "ctas": [
+          "Get started fastYou could be selling by tomorrow.",
+          "Pricing",
+          "Log in",
+          "Start for free",
+          "Starting Up",
+          "Search",
+          "Shep Hyken’s customer service research",
+          "Facebook",
+          "Subscribe",
+          "Explore Shopify POS",
+          "Impulse Buying: Why We Do It & 9 Ways to Encourage It"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "nav:Secondary",
+          "search:Search",
+          "main",
+          "nav",
+          "footer",
+          "dialog:Region Navigation"
+        ]
+      },
+      {
+        "url": "https://help.shopify.com/en/",
+        "title": "Shopify Help Center",
+        "description": "The Shopify Help Center will support you as you learn about and use Shopify. We have documentation and videos to answer your questions.",
+        "headings": [
+          "How can we help?",
+          "Browse by topic",
+          "Intro to Shopify",
+          "Migrate to Shopify",
+          "Shopify admin",
+          "Apps",
+          "Your account",
+          "Domains",
+          "Online store",
+          "Products",
+          "Payments",
+          "Shopify checkout",
+          "Orders and shipping",
+          "Point of sale (POS)",
+          "Marketing and promotions",
+          "Sales channels",
+          "Reports and analytics",
+          "Customers",
+          "Taxes and duties",
+          "Finances"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Start for free",
+          "Log in",
+          "Shopify Editions | Spring ’26EverywhereExplore 150+ updatesExplore↗",
+          "Pricing plans",
+          "Getting set up to start selling",
+          "Checklist for starting a store",
+          "Adding a domain to Shopify",
+          "Getting started with Shopify POS",
+          "Facebook & Instagram",
+          "Getting started with Shopify B2B",
+          "Catalogs and pricing in B2B"
+        ],
+        "landmarks": [
+          "main"
+        ]
+      },
+      {
+        "url": "https://www.shopify.com/blog",
+        "title": "Ecommerce Marketing Blog - Ecommerce News, Online Store Tips and More - Shopify",
+        "description": "A blog about ecommerce marketing, running an online business and updates to Shopify's ecommerce community.",
+        "headings": [
+          "Shopify",
+          "Ecosystem",
+          "Resources",
+          "Support",
+          "Choose a region & language"
+        ],
+        "navLabels": [
+          "Get started fastYou could be selling by tomorrow.",
+          "Switch to ShopifyGet more customers. Make more sales.",
+          "Trusted by enterprise brandsNo matter your size, complexity, or ambition.",
+          "World's best checkoutProven to convert better.",
+          "SidekickYour commerce-obsessed AI assistant.",
+          "Website Builder",
+          "Themes",
+          "Domains",
+          "Customer Accounts",
+          "Sidekick",
+          "Online",
+          "AI Chats",
+          "Point of Sale",
+          "Shop App",
+          "Social & Marketplaces",
+          "Global",
+          "B2B",
+          "Across Markets",
+          "Advertising & Campaigns",
+          "Email & Customer Chat",
+          "Discounts",
+          "Analytics",
+          "Orders & Inventory",
+          "Shipping"
+        ],
+        "ctas": [
+          "Get started fastYou could be selling by tomorrow.",
+          "Pricing",
+          "Log in",
+          "Start for free",
+          "Starting Up",
+          "Search",
+          "Average Customer Lifetime Value by Industry in 2026",
+          "The Industry Leading Ecommerce SEO Guide (2025)",
+          "Conversion Rate Optimization (CRO): Get Started (2026)",
+          "How To Start a T-Shirt Business: 2026 Guide",
+          "How To Start a Clothing Brand in 14 Steps (2026)",
+          "How To Start a Jewelry Business: 9-Step Guide (2026)",
+          "How to Sell Food Online: Complete Startup Guide (2026)",
+          "Subscribe",
+          "How to Start a Pickleball Business: A Founder's Guide",
+          "How To Start a Dropshipping Business: 9 Essential Steps (2026)",
+          "How To Calculate Wholesale Product Pricing (2026)"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "nav:Secondary",
+          "search:Search",
+          "main",
+          "footer",
+          "dialog:Region Navigation"
+        ]
+      },
+      {
+        "url": "https://www.shopify.com/about",
+        "title": "About Shopify",
+        "description": "Learn about Shopify and how it works. Explore its pricing plans and essential features for building and managing your business.",
+        "headings": [
+          "What is Shopify?",
+          "Start selling in no time",
+          "Create your store",
+          "Add a product",
+          "Start selling",
+          "Start free today, then get 3 for $1/month",
+          "Basic",
+          "Grow",
+          "Advanced",
+          "Plus",
+          "Why Shopify?",
+          "An all-in-one solution",
+          "Sell anywhere, anytime",
+          "Millions trust Shopify to power their business",
+          "Summer Solace",
+          "Huron",
+          "Monos",
+          "$1 trillion+",
+          "675+ million",
+          "10%"
+        ],
+        "navLabels": [
+          "Get started fastYou could be selling by tomorrow.",
+          "Switch to ShopifyGet more customers. Make more sales.",
+          "Trusted by enterprise brandsNo matter your size, complexity, or ambition.",
+          "World's best checkoutProven to convert better.",
+          "SidekickYour commerce-obsessed AI assistant.",
+          "Website Builder",
+          "Themes",
+          "Domains",
+          "Customer Accounts",
+          "Sidekick",
+          "Online",
+          "AI Chats",
+          "Point of Sale",
+          "Shop App",
+          "Social & Marketplaces",
+          "Global",
+          "B2B",
+          "Across Markets",
+          "Advertising & Campaigns",
+          "Email & Customer Chat",
+          "Discounts",
+          "Analytics",
+          "Orders & Inventory",
+          "Shipping"
+        ],
+        "ctas": [
+          "Get started fastYou could be selling by tomorrow.",
+          "Pricing",
+          "Log in",
+          "Start for free",
+          "Start free trial",
+          "Contact Support"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "main",
+          "footer",
+          "dialog:Region Navigation"
+        ]
       }
     ],
     "navLabels": [
@@ -1031,25 +2242,25 @@
       "Start for free",
       "Log in",
       "stevemadden.com",
-      "Start on Shopify",
-      "Search",
       "Starting Up",
-      "Plans and pricing",
-      "industry themes",
-      "Facebook, Instagram",
-      "Learn more",
-      "See all plans and pricing",
-      "See plans and pricing",
-      "How To Start a Dropshipping Business: 9 Essential Steps (2025)",
-      "How To Start an Online Boutique in 10 Steps (2025)",
-      "starting at $5 per month",
-      "Share on Facebook",
-      "How To Start an Ecommerce Business: Guide for 2025",
-      "What Is Print on Demand & How To Start a Business (2025)",
-      "How To Create a Website in 9 Steps (2025)",
+      "Search",
+      "How To Create and Use Podcast Transcripts: Tools + Tips",
+      "How To Create a To-Don’t List To Improve Your Productivity",
+      "How Securing Downloadable Content Works: Best Practices",
+      "Sticker Sizes: Standard Shapes, Uses, and Pricing",
+      "How to Start an Online Bookstore (2026)",
+      "Product Photography Pricing Factors: How Much Photos Cost",
+      "Content Research Guide: How To Do Content Research",
       "get started with your store migration today",
       "Pricing plans",
-      "Getting set up to start selling"
+      "Getting set up to start selling",
+      "Adding and updating products",
+      "Searching for products and filtering your product list",
+      "Adding product disclosures to your products",
+      "getting started with authentication",
+      "GraphiQL Explorer",
+      "Online storeAdd dynamic functionality to merchants' storefront themes.",
+      "Point of SaleAdd custom functionality to Shopify POS on iOS and Android."
     ],
     "headings": [
       "Be the nextAI all-star",
@@ -1072,21 +2283,22 @@
       "Ecosystem",
       "Resources",
       "Support",
-      "What Is Shopify and How Does It Work? (2026)",
-      "What is Shopify?",
-      "How Shopify works",
-      "Build an online store",
-      "Find products",
-      "Turn browsers into buyers",
-      "Automate shipping",
-      "Sell everywhere",
-      "Market your brand",
-      "Integrate 8,000+ apps"
+      "Guides",
+      "Choose a region & language",
+      "Intro to Shopify",
+      "In this section",
+      "Products",
+      "Features of the Products section",
+      "Product details",
+      "Product management",
+      "Connections to other Shopify admin sections",
+      "Sourcing products for your Shopify store"
     ],
     "techSignals": [
       "Next.js",
       "Google Tag Manager",
       "Shopify",
+      "Tailwind CSS",
       "React",
       "GraphQL",
       "Vite"
@@ -1112,10 +2324,10 @@
       "Ecosystem",
       "Resources",
       "Support",
-      "What Is Shopify and How Does It Work? (2026)",
-      "What is Shopify?",
-      "How Shopify works",
-      "Build an online store"
+      "Guides",
+      "Choose a region & language",
+      "Intro to Shopify",
+      "In this section"
     ],
     "patternCandidates": [
       "Search",
@@ -1138,6 +2350,6 @@
       "desktop",
       "android"
     ],
-    "summary": "Captured 33 screenshots across 15 public URLs. Nav signals: Get started fastYou could be selling by tomorrow., Switch to ShopifyGet more customers. Make more sales., Trusted by enterprise brandsNo matter your size, complexity, or ambition., World's best checkoutProven to convert better., SidekickYour commerce-obsessed AI assistant., Website Builder. Tech signals: Next.js, Google Tag Manager, Shopify, React, GraphQL, Vite. UI patterns: Search, Pricing display, Map view, Tabs, Checkout, Authentication."
+    "summary": "Captured 65 screenshots across 18 public URLs. Nav signals: Get started fastYou could be selling by tomorrow., Switch to ShopifyGet more customers. Make more sales., Trusted by enterprise brandsNo matter your size, complexity, or ambition., World's best checkoutProven to convert better., SidekickYour commerce-obsessed AI assistant., Website Builder. Tech signals: Next.js, Google Tag Manager, Shopify, Tailwind CSS, React, GraphQL. UI patterns: Search, Pricing display, Map view, Tabs, Checkout, Authentication."
   }
 }

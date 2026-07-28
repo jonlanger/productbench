@@ -1,57 +1,16 @@
 {
-  "capturedAt": "2026-07-27T13:30:20.845Z",
-  "screenshotCount": 1,
-  "pageCount": 1,
-  "pages": [
-    {
-      "url": "https://dash.cloudflare.com/login",
-      "title": "Cloudflare Dashboard | Manage Your Account",
-      "description": "Log in to the Cloudflare dashboard. Make your websites, apps, and networks fast and secure. Build modern apps on our developer platform.",
-      "headings": [
-        "Sign in to Cloudflare"
-      ],
-      "navLabels": [
-        "English",
-        "Sign up"
-      ],
-      "ctas": [
-        "Sign up",
-        "Continue with SSO",
-        "Sign in"
-      ],
-      "landmarks": [
-        "header",
-        "main",
-        "footer"
-      ]
-    }
-  ],
-  "navLabels": [
-    "English",
-    "Sign up"
-  ],
-  "ctas": [
-    "Sign up",
-    "Continue with SSO",
-    "Sign in"
-  ],
-  "headings": [
-    "Sign in to Cloudflare"
-  ],
-  "techSignals": [
-    "Cloudflare"
-  ],
-  "featureCandidates": [
-    "Sign in to Cloudflare",
-    "Continue with SSO"
-  ],
-  "patternCandidates": [
-    "Dashboard",
-    "Authentication"
-  ],
+  "capturedAt": "2026-07-27T23:03:02.739Z",
+  "screenshotCount": 13,
+  "pageCount": 0,
+  "pages": [],
+  "navLabels": [],
+  "ctas": [],
+  "headings": [],
+  "techSignals": [],
+  "featureCandidates": [],
+  "patternCandidates": [],
   "platformsDetected": [
-    "web",
-    "api"
+    "web"
   ],
-  "summary": "Captured 1 screenshots across 1 public URLs. Nav signals: English, Sign up. Tech signals: Cloudflare. UI patterns: Dashboard, Authentication."
+  "summary": "Captured 13 screenshots across 0 public URLs."
 }

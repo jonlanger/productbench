@@ -1,0 +1,132 @@
+<svg width="708" height="577" viewBox="0 0 708 577" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_402_19005)">
+<g filter="url(#filter0_d_402_19005)">
+<rect x="47" y="429" width="621.394" height="60.6239" rx="21.6514" fill="white"/>
+</g>
+<rect x="45.1667" y="-0.0703125" width="648.205" height="493.422" rx="20.7757" fill="#F2F5F6"/>
+<rect x="45.6861" y="31.617" width="647.166" height="45.7064" fill="white" stroke="#E6EBED" stroke-width="1.03879"/>
+<path d="M45.1667 20.7054C45.1667 9.23129 54.4684 -0.0703125 65.9425 -0.0703125H672.596C684.07 -0.0703125 693.371 9.23129 693.371 20.7054V31.0932H45.1667V20.7054Z" fill="#004D2A"/>
+<rect x="236.719" y="41.896" width="62.5351" height="22.0222" fill="#F7F7F7"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="10.3879" font-weight="500" letter-spacing="0px"><tspan x="247.052" y="56.6959">Sales</tspan></text>
+<path d="M280.973 52.125L284.609 55.7607L288.245 52.125" stroke="black" stroke-width="1.03879"/>
+<rect x="236.719" y="41.896" width="62.5351" height="22.0222" stroke="#CCD6DB" stroke-width="0.831029"/>
+<rect x="454.87" y="41.896" width="82.272" height="22.0222" fill="#F7F7F7"/>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage Text" font-size="8.31029" letter-spacing="0px"><tspan x="464.843" y="55.8723">As of today</tspan></text>
+<g clip-path="url(#clip1_402_19005)">
+<path d="M525.817 51.3408V57.3333H517.09V51.3408H525.817ZM527.164 50.0547H515.743V58.6195H527.164V50.0547Z" fill="black"/>
+<path d="M527.17 48.5938H515.743V50.6431H527.17V48.5938Z" fill="black"/>
+<path d="M519.916 47.4688H517.103V50.0646H519.916V47.4688Z" fill="white"/>
+<path d="M519.261 47.1953H517.772V49.444H519.261V47.1953Z" fill="black"/>
+<path d="M525.805 47.4688H522.992V50.0647H525.805V47.4688Z" fill="white"/>
+<path d="M525.143 47.1953H523.654V49.4441H525.143V47.1953Z" fill="black"/>
+<path d="M520.063 52.25H518.574V53.9693H520.063V52.25Z" fill="black"/>
+<path d="M522.198 52.2539H520.709V53.9732H522.198V52.2539Z" fill="black"/>
+<path d="M522.199 54.7188H520.71V56.438H522.199V54.7188Z" fill="black"/>
+<path d="M524.339 52.2539H522.85V53.9732H524.339V52.2539Z" fill="black"/>
+<path d="M520.063 54.7188H518.574V56.438H520.063V54.7188Z" fill="black"/>
+<path d="M524.338 54.7188H522.849V56.438H524.338V54.7188Z" fill="black"/>
+</g>
+<rect x="454.87" y="41.896" width="82.272" height="22.0222" stroke="#CCD6DB" stroke-width="0.831029"/>
+<rect x="548.361" y="41.896" width="88.5047" height="22.0222" fill="#F7F7F7"/>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage Text" font-size="8.31029" letter-spacing="0px"><tspan x="558.333" y="55.8723">All locations</tspan></text>
+<path d="M617.544 53.4297L620.842 56.2563C621.037 56.423 621.324 56.423 621.518 56.2563L624.816 53.4297" stroke="black" stroke-width="1.24654" stroke-linecap="round"/>
+<rect x="548.361" y="41.896" width="88.5047" height="22.0222" stroke="#CCD6DB" stroke-width="0.831029"/>
+<rect x="648.084" y="41.896" width="29.2938" height="22.0222" fill="#F7F7F7"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M663.315 49.4024C663.023 49.4023 663.054 49.4024 662.731 49.4024C662.406 49.4024 662.439 49.4023 662.147 49.4023V52.3239H659.225C659.225 52.6161 659.225 52.5855 659.225 52.9083C659.225 53.2332 659.225 53.2004 659.225 53.4926L662.147 53.4926V56.4142C662.439 56.4141 662.408 56.4142 662.731 56.4142C663.056 56.4142 663.023 56.4141 663.315 56.4141L663.315 53.4926L666.237 53.4926C666.237 53.2004 666.237 53.231 666.237 52.9083C666.237 52.5833 666.237 52.6161 666.237 52.3239L663.315 52.3239V49.4024Z" fill="black" fill-opacity="0.9"/>
+<rect x="648.084" y="41.896" width="29.2938" height="22.0222" stroke="#CCD6DB" stroke-width="0.831029"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="18.6981" font-weight="bold" letter-spacing="0px"><tspan x="80.4875" y="60.1433">CFO Dashboard</tspan></text>
+<ellipse cx="69.5808" cy="52.3857" rx="3.63576" ry="3.63574" fill="#00D639"/>
+<rect x="60.7498" y="88.2305" width="617.041" height="93.4905" rx="3.11636" fill="white"/>
+<path d="M222.281 88.2305L222.281 181.721M349.014 88.2305V181.721M506.506 88.2305V181.721" stroke="#E6EBED" stroke-width="1.03879"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="12.4654" letter-spacing="0px"><tspan x="81.5205" y="118.207">Cash on Hand</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="18.6981" font-weight="bold" letter-spacing="0px"><tspan x="81.5205" y="147.873">$16,795K</tspan></text>
+<rect width="17.6594" height="18.6981" transform="translate(182.283 131.715)" fill="white"/>
+<line x1="191.076" y1="137.526" x2="191.076" y2="147.716" stroke="#00D639" stroke-width="3.04364" stroke-linecap="round"/>
+<path d="M196.826 139.516L191.639 134.51C191.345 134.226 190.88 134.226 190.586 134.51L185.399 139.516" stroke="#00D639" stroke-width="3.04719" stroke-linecap="round"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="12.4654" letter-spacing="0px"><tspan x="253.963" y="118.207">Revenue</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="18.6981" font-weight="bold" letter-spacing="0px"><tspan x="253.963" y="146.971">$711,220</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="12.4654" letter-spacing="0px"><tspan x="380.699" y="118.207">Cost of Sales</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="18.6981" font-weight="bold" letter-spacing="0px"><tspan x="380.699" y="147.873">$4,650</tspan></text>
+<rect width="17.6594" height="18.6981" transform="translate(478.283 150.566) rotate(-180)" fill="white"/>
+<line x1="469.49" y1="144.756" x2="469.49" y2="134.565" stroke="#00D639" stroke-width="3.04364" stroke-linecap="round"/>
+<path d="M463.74 142.766L468.926 147.771C469.22 148.055 469.686 148.055 469.98 147.771L475.166 142.766" stroke="#00D639" stroke-width="3.04719" stroke-linecap="round"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="12.4654" letter-spacing="0px"><tspan x="532.762" y="118.207">Net Income</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="18.6981" font-weight="bold" letter-spacing="0px"><tspan x="532.762" y="146.971">$660,770</tspan></text>
+<rect width="17.6594" height="18.6981" transform="translate(650.146 149.512) rotate(-180)" fill="white"/>
+<path d="M635.603 138.952L640.777 133.777C641.075 133.479 641.557 133.479 641.855 133.777L647.029 138.952" stroke="#00D639" stroke-width="3.04719" stroke-linecap="round"/>
+<line x1="641.316" y1="136.285" x2="641.316" y2="146.95" stroke="#00D639" stroke-width="3.04719" stroke-linecap="round"/>
+<rect x="441.983" y="197.301" width="235.805" height="270.084" rx="3.11636" fill="white"/>
+<rect x="462.761" y="304.293" width="36.3574" height="194.254" transform="rotate(-90 462.761 304.293)" fill="#F7F7F7"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="14.543" font-weight="bold" letter-spacing="0px"><tspan x="462.761" y="227.011">Cash Flow Detail by Entity</tspan></text>
+<line x1="462.761" y1="251.836" x2="657.015" y2="251.836" stroke="#CCD6DB" stroke-width="1.03879"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="10.3879" letter-spacing="0px"><tspan x="619.41" y="282.11">Maine</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" letter-spacing="0px"><tspan x="600.546" y="295.888">03/04/2020</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="10.3879" letter-spacing="0px"><tspan x="560.892" y="282.11">Texas</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" letter-spacing="0px"><tspan x="540.297" y="295.888">03/04/2020</tspan></text>
+<text fill="black" fill-opacity="0.9" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" font-weight="bold" letter-spacing="0px"><tspan x="462.761" y="329.126">Operations</tspan></text>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" letter-spacing="0px"><tspan x="462.761" y="349.907">Net income</tspan></text>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" letter-spacing="0px"><tspan x="542.376" y="349.907">331,687.23</tspan></text>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" letter-spacing="0px"><tspan x="603.454" y="349.907">98,476.89</tspan></text>
+<text fill="black" fill-opacity="0.9" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" font-weight="bold" letter-spacing="0px"><tspan x="462.761" y="445.474">Changes in Cash from Operating Activities</tspan></text>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" letter-spacing="0px"><tspan x="462.761" y="466.247">Accounts </tspan></text>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" letter-spacing="0px"><tspan x="537.585" y="466.247">(386,000.00)</tspan></text>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" letter-spacing="0px"><tspan x="598.662" y="466.247">(97,607.00)</tspan></text>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" letter-spacing="0px"><tspan x="462.761" y="372.759">Items not </tspan><tspan x="462.761" y="382.759">requiring cash</tspan></text>
+<text fill="black" fill-opacity="0.9" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" font-weight="500" letter-spacing="0px"><tspan x="462.761" y="407.04">Total Operations </tspan><tspan x="462.761" y="417.04">for Cash Flow</tspan></text>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" letter-spacing="0px"><tspan x="569.355" y="377.954">0.00</tspan></text>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" letter-spacing="0px"><tspan x="625.452" y="377.954">0.00</tspan></text>
+<text fill="black" fill-opacity="0.9" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" font-weight="500" letter-spacing="0px"><tspan x="542.108" y="410.157">331,687.23</tspan></text>
+<text fill="black" fill-opacity="0.9" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="8.31029" font-weight="500" letter-spacing="0px"><tspan x="603.186" y="410.157">98,476.89</tspan></text>
+<line x1="462.761" y1="392.07" x2="655.976" y2="392.07" stroke="#E2E2E2" stroke-width="1.03879"/>
+<line x1="462.761" y1="359.871" x2="655.976" y2="359.871" stroke="#E2E2E2" stroke-width="1.03879"/>
+<g filter="url(#filter1_d_402_19005)">
+<rect x="38.9355" y="422.723" width="408.244" height="46.7452" rx="20.7757" fill="white"/>
+</g>
+<rect x="14.5196" y="147.957" width="432.136" height="320.984" rx="15.0624" fill="white" stroke="#E6EBED" stroke-width="1.03879"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="14.543" font-weight="bold" letter-spacing="0px"><tspan x="45.1641" y="182.335">Net Income by Location</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="12.4654" letter-spacing="0px"><tspan x="66.5217" y="255.332">Texas</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="12.4654" letter-spacing="0px"><tspan x="64.4441" y="303.117">Maine</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="12.4654" letter-spacing="0px"><tspan x="44.0027" y="351.933">California</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Sage UI" font-size="12.4654" letter-spacing="0px"><tspan x="58.7213" y="399.719">Florida</tspan></text>
+<rect x="165.659" y="223.27" width="67.5213" height="203.601" fill="#F7F7F7"/>
+<rect x="291.359" y="223.27" width="67.5213" height="203.601" fill="#F7F7F7"/>
+<rect x="413.938" y="231.586" width="37.3962" height="304.365" transform="rotate(90 413.938 231.586)" fill="#CBD95D"/>
+<rect x="193.711" y="280.395" width="36.3574" height="84.1419" transform="rotate(90 193.711 280.395)" fill="#5DB2B1"/>
+<rect x="269.543" y="328.191" width="36.3574" height="159.974" transform="rotate(90 269.543 328.191)" fill="#FFB500"/>
+<rect x="307.981" y="375.977" width="36.3574" height="198.409" transform="rotate(90 307.981 375.977)" fill="#ED7D43"/>
+<line x1="109.051" y1="223.27" x2="109.051" y2="426.871" stroke="#D1DADE" stroke-width="1.03879"/>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage Text" font-size="12.4654" letter-spacing="0px"><tspan x="107.489" y="447.933">0</tspan></text>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage Text" font-size="12.4654" letter-spacing="0px"><tspan x="170.854" y="447.933">80k</tspan></text>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage Text" font-size="12.4654" letter-spacing="0px"><tspan x="239.415" y="447.933">160k</tspan></text>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage Text" font-size="12.4654" letter-spacing="0px"><tspan x="309.011" y="447.933">240k</tspan></text>
+<text fill="black" fill-opacity="0.65" xml:space="preserve" style="white-space: pre" font-family="Sage Text" font-size="12.4654" letter-spacing="0px"><tspan x="379.653" y="447.933">300k</tspan></text>
+</g>
+<defs>
+<filter id="filter0_d_402_19005" x="3.69725" y="411.679" width="708" height="147.23" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="25.9817"/>
+<feGaussianBlur stdDeviation="21.6514"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_402_19005"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_402_19005" result="shape"/>
+</filter>
+<filter id="filter1_d_402_19005" x="14.0047" y="410.257" width="458.106" height="96.6078" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="12.4654"/>
+<feGaussianBlur stdDeviation="12.4654"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_402_19005"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_402_19005" result="shape"/>
+</filter>
+<clipPath id="clip0_402_19005">
+<rect width="708" height="577" fill="white"/>
+</clipPath>
+<clipPath id="clip1_402_19005">
+<rect width="11.4266" height="11.4266" fill="white" transform="translate(515.743 47.1953)"/>
+</clipPath>
+</defs>
+</svg>

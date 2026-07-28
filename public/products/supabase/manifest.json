@@ -1,236 +1,734 @@
 {
   "slug": "supabase",
-  "capturedAt": "2026-07-27T13:29:43.282Z",
+  "capturedAt": "2026-07-27T21:40:03.938Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "Supabase public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://supabase.com/"
+      "sourceUrl": "https://supabase.com/",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase | The Postgres Development Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "49363662674b4964",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Supabase homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://supabase.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Supabase homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://supabase.com/"
+      "sourceUrl": "https://supabase.com/",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase | The Postgres Development Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "69625731216d3869",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Supabase homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://supabase.com/"
+      "sourceUrl": "https://supabase.com/",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase | The Postgres Development Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "6966610c18514923",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Supabase homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://supabase.com/",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase | The Postgres Development Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "4997074f4b186746",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Supabase homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://supabase.com/",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase | The Postgres Development Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "6966262645803919",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Supabase homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://supabase.com/",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase | The Postgres Development Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "69494d4948084040",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Supabase homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://supabase.com/"
+      "sourceUrl": "https://supabase.com/",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase | The Postgres Development Platform",
+      "width": 390,
+      "height": 844,
+      "phash": "3347561f2f3d3b3b",
+      "unique": true
     },
     {
       "file": "card-1.jpg",
       "title": "UI cards (1)",
       "caption": "Card / tile crops from Supabase",
       "kind": "component",
-      "sourceUrl": "https://supabase.com/"
-    },
-    {
-      "file": "card-2.jpg",
-      "title": "UI cards (2)",
-      "caption": "Card / tile crops from Supabase",
-      "kind": "component",
-      "sourceUrl": "https://supabase.com/"
+      "sourceUrl": "https://supabase.com/",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 4946,
+      "pageTitle": "Supabase | The Postgres Development Platform",
+      "width": 288,
+      "height": 193,
+      "phash": "00100e0000000000",
+      "unique": true
     },
     {
       "file": "card-3.jpg",
       "title": "UI cards (3)",
       "caption": "Card / tile crops from Supabase",
       "kind": "component",
-      "sourceUrl": "https://supabase.com/"
+      "sourceUrl": "https://supabase.com/",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 4946,
+      "pageTitle": "Supabase | The Postgres Development Platform",
+      "width": 288,
+      "height": 216,
+      "phash": "c05879034f66260c",
+      "unique": true
     },
     {
       "file": "card-4.jpg",
       "title": "UI cards (4)",
       "caption": "Card / tile crops from Supabase",
       "kind": "component",
-      "sourceUrl": "https://supabase.com/"
+      "sourceUrl": "https://supabase.com/",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 4946,
+      "pageTitle": "Supabase | The Postgres Development Platform",
+      "width": 288,
+      "height": 238,
+      "phash": "d05c4c2c66172f2b",
+      "unique": true
+    },
+    {
+      "file": "card-5.jpg",
+      "title": "UI cards (5)",
+      "caption": "Card / tile crops from Supabase",
+      "kind": "component",
+      "sourceUrl": "https://supabase.com/",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 4946,
+      "pageTitle": "Supabase | The Postgres Development Platform",
+      "width": 288,
+      "height": 350,
+      "phash": "4c4f0767334e0c29",
+      "unique": true
+    },
+    {
+      "file": "card-6.jpg",
+      "title": "UI cards (6)",
+      "caption": "Card / tile crops from Supabase",
+      "kind": "component",
+      "sourceUrl": "https://supabase.com/",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 4946,
+      "pageTitle": "Supabase | The Postgres Development Platform",
+      "width": 288,
+      "height": 126,
+      "phash": "9050587a40266680",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on Supabase (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://supabase.com/dashboard/sign-in?returnTo=%2Forg"
+      "sourceUrl": "https://supabase.com/dashboard/sign-in?returnTo=%2Forg",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "80586363a76c6968",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Supabase",
       "kind": "product",
-      "sourceUrl": "https://supabase.com/docs/guides/getting-started/quickstarts/reactjs"
+      "sourceUrl": "https://supabase.com/customers/mobbin",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Mobbin | Supabase Customer Stories",
+      "width": 1440,
+      "height": 900,
+      "phash": "49961b77079d5b57",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Supabase",
       "kind": "product",
-      "sourceUrl": "https://supabase.com/docs/guides/getting-started/quickstarts/reactjs"
+      "sourceUrl": "https://supabase.com/customers/mobbin",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Mobbin | Supabase Customer Stories",
+      "width": 1440,
+      "height": 900,
+      "phash": "cc33338465551516",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Supabase",
       "kind": "product",
-      "sourceUrl": "https://supabase.com/docs/guides/getting-started/quickstarts/reactjs"
+      "sourceUrl": "https://supabase.com/customers/mobbin",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Mobbin | Supabase Customer Stories",
+      "width": 1440,
+      "height": 900,
+      "phash": "393b1b3d651b3575",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from Supabase",
       "kind": "product",
-      "sourceUrl": "https://supabase.com/docs/guides/getting-started/quickstarts/reactjs"
+      "sourceUrl": "https://supabase.com/customers/mobbin",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Mobbin | Supabase Customer Stories",
+      "width": 1440,
+      "height": 900,
+      "phash": "b8b59d958eae9e9e",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from Supabase",
       "kind": "product",
-      "sourceUrl": "https://supabase.com/docs/guides/getting-started/quickstarts/reactjs"
+      "sourceUrl": "https://supabase.com/customers/mobbin",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Mobbin | Supabase Customer Stories",
+      "width": 1440,
+      "height": 900,
+      "phash": "d89d9d8d9d9d9e9e",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from Supabase",
+      "kind": "product",
+      "sourceUrl": "https://supabase.com/customers/mobbin",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Mobbin | Supabase Customer Stories",
+      "width": 1440,
+      "height": 900,
+      "phash": "989587a4b68eb0be",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Supabase",
+      "kind": "product",
+      "sourceUrl": "https://supabase.com/customers/mobbin",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Mobbin | Supabase Customer Stories",
+      "width": 1440,
+      "height": 900,
+      "phash": "698c8e366b4b4a4b",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from Supabase",
+      "kind": "product",
+      "sourceUrl": "https://supabase.com/customers/mobbin",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Mobbin | Supabase Customer Stories",
+      "width": 1440,
+      "height": 900,
+      "phash": "690e961e23232f27",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from Supabase",
+      "kind": "product",
+      "sourceUrl": "https://supabase.com/customers/mobbin",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Mobbin | Supabase Customer Stories",
+      "width": 1440,
+      "height": 900,
+      "phash": "6916162b272f2723",
+      "unique": true
+    },
+    {
+      "file": "nav-10.jpg",
+      "title": "In-product nav (10)",
+      "caption": "Same-origin product / pricing / docs links from Supabase",
+      "kind": "product",
+      "sourceUrl": "https://supabase.com/customers/mobbin",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Mobbin | Supabase Customer Stories",
+      "width": 1440,
+      "height": 900,
+      "phash": "690c8e1e270fb327",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "Dashboard (1)",
       "caption": "Supabase public surface · supabase.com",
       "kind": "product",
-      "sourceUrl": "https://supabase.com/pricing"
+      "sourceUrl": "https://supabase.com/help",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase | The Postgres Development Platform.",
+      "width": 1440,
+      "height": 900,
+      "phash": "4000220e0f1a0000",
+      "unique": true
     },
     {
-      "file": "surface-1-mid.jpg",
-      "title": "Dashboard (2)",
+      "file": "surface-2-band-2.jpg",
+      "title": "Settings (3)",
       "caption": "Supabase public surface · supabase.com",
       "kind": "product",
-      "sourceUrl": "https://supabase.com/pricing"
+      "sourceUrl": "https://supabase.com/docs",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "d585594b8b4b4b0b",
+      "unique": true
     },
     {
-      "file": "surface-2.jpg",
-      "title": "Settings",
+      "file": "surface-2-band-3.jpg",
+      "title": "Settings (4)",
       "caption": "Supabase public surface · supabase.com",
       "kind": "product",
-      "sourceUrl": "https://supabase.com/product"
+      "sourceUrl": "https://supabase.com/docs",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "cb8b755751555551",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-4.jpg",
+      "title": "Settings (5)",
+      "caption": "Supabase public surface · supabase.com",
+      "kind": "product",
+      "sourceUrl": "https://supabase.com/docs",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "7853d14b4b4b4b4b",
+      "unique": true
+    },
+    {
+      "file": "surface-2-lower.jpg",
+      "title": "Settings (6)",
+      "caption": "Supabase public surface · supabase.com",
+      "kind": "product",
+      "sourceUrl": "https://supabase.com/docs",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "d84b498c76566069",
+      "unique": true
     },
     {
       "file": "surface-3.jpg",
-      "title": "Search",
+      "title": "Search (1)",
       "caption": "Supabase public surface · supabase.com",
       "kind": "docs",
-      "sourceUrl": "https://supabase.com/products"
+      "sourceUrl": "https://supabase.com/support",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Help & Support | Supabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "69cc0ca16b6a2746",
+      "unique": true
     },
     {
-      "file": "surface-5.jpg",
-      "title": "Supporting surface 5",
+      "file": "surface-3-band-2.jpg",
+      "title": "Search (3)",
       "caption": "Supabase public surface · supabase.com",
       "kind": "docs",
-      "sourceUrl": "https://supabase.com/platform"
+      "sourceUrl": "https://supabase.com/support",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Help & Support | Supabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "21262b6343494d49",
+      "unique": true
     },
     {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6",
+      "file": "surface-9-band-2.jpg",
+      "title": "Supporting surface 9 (3)",
       "caption": "Supabase public surface · supabase.com",
       "kind": "docs",
-      "sourceUrl": "https://supabase.com/solutions"
+      "sourceUrl": "https://supabase.com/pricing",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing & Fees | Supabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "5957549838584c0c",
+      "unique": true
     },
     {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
+      "file": "surface-9-band-3.jpg",
+      "title": "Supporting surface 9 (4)",
       "caption": "Supabase public surface · supabase.com",
       "kind": "docs",
-      "sourceUrl": "https://supabase.com/customers"
+      "sourceUrl": "https://supabase.com/pricing",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing & Fees | Supabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "49cc4c4e4d686061",
+      "unique": true
     },
     {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
+      "file": "surface-9-band-4.jpg",
+      "title": "Supporting surface 9 (5)",
       "caption": "Supabase public surface · supabase.com",
       "kind": "docs",
-      "sourceUrl": "https://supabase.com/customers"
+      "sourceUrl": "https://supabase.com/pricing",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing & Fees | Supabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "4961616c8c0c0c91",
+      "unique": true
     },
     {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
+      "file": "surface-13-band-2.jpg",
+      "title": "Supporting surface 13 (3)",
       "caption": "Supabase public surface · supabase.com",
       "kind": "docs",
-      "sourceUrl": "https://supabase.com/docs"
+      "sourceUrl": "https://supabase.com/customers",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer Stories | Supabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "4b4a5b4b526bd24b",
+      "unique": true
     },
     {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
+      "file": "surface-13-band-3.jpg",
+      "title": "Supporting surface 13 (4)",
       "caption": "Supabase public surface · supabase.com",
       "kind": "docs",
-      "sourceUrl": "https://supabase.com/docs"
+      "sourceUrl": "https://supabase.com/customers",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Customer Stories | Supabase",
+      "width": 1440,
+      "height": 900,
+      "phash": "595a6c4b4b5a4b9a",
+      "unique": true
     },
     {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9",
+      "file": "surface-14-band-2.jpg",
+      "title": "Supporting surface 14 (3)",
       "caption": "Supabase public surface · supabase.com",
       "kind": "docs",
-      "sourceUrl": "https://supabase.com/help"
+      "sourceUrl": "https://supabase.com/blog",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase Blog: the Postgres development platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "6977357775733765",
+      "unique": true
     },
     {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
+      "file": "surface-14-band-3.jpg",
+      "title": "Supporting surface 14 (4)",
       "caption": "Supabase public surface · supabase.com",
       "kind": "docs",
-      "sourceUrl": "https://supabase.com/blog"
+      "sourceUrl": "https://supabase.com/blog",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase Blog: the Postgres development platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "7963753775757131",
+      "unique": true
     },
     {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
+      "file": "surface-14-lower.jpg",
+      "title": "Supporting surface 14 (6)",
       "caption": "Supabase public surface · supabase.com",
       "kind": "docs",
-      "sourceUrl": "https://supabase.com/blog"
-    },
-    {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11",
-      "caption": "Supabase public surface · supabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://supabase.com/about"
-    },
-    {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
-      "caption": "Supabase public surface · supabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://supabase.com/login"
-    },
-    {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13",
-      "caption": "Supabase public surface · supabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://supabase.com/signin"
-    },
-    {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14",
-      "caption": "Supabase public surface · supabase.com",
-      "kind": "docs",
-      "sourceUrl": "https://supabase.com/dashboard/sign-in"
+      "sourceUrl": "https://supabase.com/blog",
+      "capturedAt": "2026-07-27T21:38:05.568Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Supabase Blog: the Postgres development platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "7933316161317777",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T13:29:43.282Z",
-    "screenshotCount": 32,
-    "pageCount": 15,
+    "capturedAt": "2026-07-27T21:40:03.938Z",
+    "screenshotCount": 38,
+    "pageCount": 9,
     "pages": [
       {
         "url": "https://supabase.com/",
@@ -261,7 +759,7 @@
           "Pricing",
           "Docs",
           "Blog",
-          "107K",
+          "107.1K",
           "Sign in",
           "Start your project",
           "Open main menu",
@@ -308,200 +806,15 @@
         ]
       },
       {
-        "url": "https://supabase.com/docs/guides/getting-started/quickstarts/reactjs",
-        "title": "Use Supabase with React | Supabase Docs",
-        "description": "Learn how to create a Supabase project, add some sample data to your database, and query the data from a React app.",
-        "headings": [
-          "Use Supabase with React",
-          "1. Create a Supabase project#",
-          "2. Set up your database#",
-          "3. Create a React app#",
-          "4. Install Agent Skills (optional)#",
-          "5. Install the Supabase client library#",
-          "6. Declare Supabase environment variables#",
-          "Get API details#",
-          "7. Query data from the app#",
-          "8. Start the app#",
-          "Next steps#",
-          "Is this helpful?",
-          "AI Tools",
-          "On this page"
-        ],
-        "navLabels": [
-          "DOCS",
-          "Start",
-          "Products",
-          "Build",
-          "Manage",
-          "Reference",
-          "Resources",
-          "Search docs...⌘K",
-          "Sign up",
-          "Start with Supabase",
-          "Build with AI tools",
-          "API Keys",
-          "Local Development",
-          "Architecture",
-          "Migrating to new API keys",
-          "Next.js",
-          "React",
-          "Astro",
-          "Nuxt",
-          "Vue",
-          "Hono",
-          "Expo React Native",
-          "Flutter",
-          "iOS SwiftUI"
-        ],
-        "ctas": [
-          "Start",
-          "Search docs...⌘K",
-          "Sign up",
-          "Start with Supabase",
-          "TanStack Start",
-          "log in",
-          "1. Create a Supabase project",
-          "3. Create a React app",
-          "8. Start the app",
-          "Contact support"
-        ],
-        "landmarks": [
-          "nav:top bar",
-          "nav:Main",
-          "nav:main-nav-title",
-          "main",
-          "nav:breadcrumb",
-          "header",
-          "footer",
-          "contentinfo:footer"
-        ]
-      },
-      {
-        "url": "https://supabase.com/pricing",
-        "title": "Pricing & Fees | Supabase",
-        "description": "Explore Supabase fees and pricing information. Find our competitive pricing Plans, with no hidden pricing. We have a generous Free Plan for those getting started, and Pay As You Go for those scaling up.",
-        "headings": [
-          "Predictable pricing, designed to scale",
-          "Free",
-          "Pro",
-          "Team",
-          "Enterprise",
-          "How compute pricing works",
-          "1. Choose your plan",
-          "2. Configure compute for your projects",
-          "Scale compute up to 64 cores and 256 GB RAM",
-          "Advanced disk configurations",
-          "Fine-tune your project",
-          "Cost Control",
-          "Custom Domain",
-          "Point in Time Recovery",
-          "Frequently asked questions",
-          "Can I cap my usage so my bill doesn't run over?",
-          "I'm worried I could end up with a huge bill at the end of the month.",
-          "When will I be billed?"
-        ],
-        "navLabels": [
-          "Product",
-          "Developers",
-          "Solutions",
-          "Pricing",
-          "Docs",
-          "Blog",
-          "107K",
-          "Sign in",
-          "Start your project",
-          "Open main menu"
-        ],
-        "ctas": [
-          "Pricing",
-          "Sign in",
-          "Start your project",
-          "Start for Free",
-          "Get Started",
-          "See how pricing scales",
-          "Contact Us",
-          "Add Project",
-          "Learn about Compute add-ons",
-          "Compute Add-ons",
-          "Expand Pricing breakdown",
-          "Are you going to change your pricing in the future?",
-          "Request a demo",
-          "Subscribe",
-          "Startups"
-        ],
-        "landmarks": [
-          "nav",
-          "nav:Main",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://supabase.com/product",
-        "title": "Supabase | The Postgres Development Platform.",
+        "url": "https://supabase.com/customers/mobbin",
+        "title": "Mobbin | Supabase Customer Stories",
         "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
         "headings": [
-          "404",
-          "Looking for something? 🔍"
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://supabase.com/products",
-        "title": "Supabase | The Postgres Development Platform.",
-        "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
-        "headings": [
-          "404",
-          "Looking for something? 🔍"
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://supabase.com/platform",
-        "title": "Supabase | The Postgres Development Platform.",
-        "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
-        "headings": [
-          "404",
-          "Looking for something? 🔍"
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://supabase.com/solutions",
-        "title": "Supabase | The Postgres Development Platform.",
-        "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
-        "headings": [
-          "404",
-          "Looking for something? 🔍"
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://supabase.com/customers",
-        "title": "Customer Stories | Supabase",
-        "description": "See how Supabase empowers companies of all sizes to accelerate their growth and streamline their work.",
-        "headings": [
-          "Customer stories",
+          "From Idea to 30,000 users in one Product Hunt launch#",
+          "Scaling issues put Mobbin growth at risk#",
+          "Migrating to Supabase#",
+          "Supabase saves Mobbin time and money#",
+          "Build in a weekend, scale to millions",
           "Footer"
         ],
         "navLabels": [
@@ -511,7 +824,7 @@
           "Pricing",
           "Docs",
           "Blog",
-          "107K",
+          "107.1K",
           "Sign in",
           "Start your project",
           "Open main menu"
@@ -520,26 +833,33 @@
           "Pricing",
           "Sign in",
           "Start your project",
-          "Reset filters",
-          "How Supabase helps power millions of apps on LovableLearn more",
-          "How delight.ai lets every team build production apps on SupabaseLearn more",
-          "Chatbase goes upmarket on SupabaseLearn more",
-          "Cofounder builds autonomous companies on SupabaseLearn more",
-          "Hyper builds AI marketing agents on SupabaseLearn more",
-          "Koodos scales its social discovery app Shelf on SupabaseLearn more",
-          "Rally builds a pan-European fleet payments platform on SupabaseLearn more",
-          "Udio hits the right notes with SupabaseLearn more",
-          "Euka used Supabase to unlock faster growthLearn more",
-          "Bree's Migration to Supabase from FaunaLearn more",
-          "Deriv's Journey with SupabaseLearn more",
-          "Resend's Journey with Supabase: Scaling Email Infrastructure with EaseLearn more",
-          "E2B: Accelerating AI-Driven Development with SupabaseLearn more"
+          "Contact sales",
+          "Sign up",
+          "Request a demo",
+          "Subscribe",
+          "Startups",
+          "Contact Us"
         ],
         "landmarks": [
           "nav",
           "nav:Main",
           "main",
           "footer"
+        ]
+      },
+      {
+        "url": "https://supabase.com/help",
+        "title": "Supabase | The Postgres Development Platform.",
+        "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+        "headings": [
+          "404",
+          "Looking for something? 🔍"
+        ],
+        "navLabels": [],
+        "ctas": [],
+        "landmarks": [
+          "main",
+          "nav"
         ]
       },
       {
@@ -585,18 +905,151 @@
         ]
       },
       {
-        "url": "https://supabase.com/help",
-        "title": "Supabase | The Postgres Development Platform.",
-        "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+        "url": "https://supabase.com/support",
+        "title": "Help & Support | Supabase",
+        "description": "Find help and support for Supabase. Our Support team provide answers on all types of issues, including account information, billing, and refunds.",
         "headings": [
-          "404",
-          "Looking for something? 🔍"
+          "Support",
+          "Community support",
+          "Issues",
+          "Feature requests",
+          "Can’t find what you’re looking for?",
+          "Footer"
         ],
-        "navLabels": [],
-        "ctas": [],
+        "navLabels": [
+          "Product",
+          "Developers",
+          "Solutions",
+          "Pricing",
+          "Docs",
+          "Blog",
+          "107.1K",
+          "Sign in",
+          "Start your project",
+          "Open main menu"
+        ],
+        "ctas": [
+          "Pricing",
+          "Sign in",
+          "Start your project",
+          "How do I restart my database?K",
+          "Join us on Discord",
+          "Contact enterprise sales",
+          "Subscribe",
+          "Startups",
+          "Contact Us"
+        ],
         "landmarks": [
+          "nav",
+          "nav:Main",
           "main",
-          "nav"
+          "footer"
+        ]
+      },
+      {
+        "url": "https://supabase.com/pricing",
+        "title": "Pricing & Fees | Supabase",
+        "description": "Explore Supabase fees and pricing information. Find our competitive pricing Plans, with no hidden pricing. We have a generous Free Plan for those getting started, and Pay As You Go for those scaling up.",
+        "headings": [
+          "Predictable pricing, designed to scale",
+          "Free",
+          "Pro",
+          "Team",
+          "Enterprise",
+          "How compute pricing works",
+          "1. Choose your plan",
+          "2. Configure compute for your projects",
+          "Scale compute up to 64 cores and 256 GB RAM",
+          "Advanced disk configurations",
+          "Fine-tune your project",
+          "Cost Control",
+          "Custom Domain",
+          "Point in Time Recovery",
+          "Frequently asked questions",
+          "Can I cap my usage so my bill doesn't run over?",
+          "I'm worried I could end up with a huge bill at the end of the month.",
+          "When will I be billed?"
+        ],
+        "navLabels": [
+          "Product",
+          "Developers",
+          "Solutions",
+          "Pricing",
+          "Docs",
+          "Blog",
+          "107.1K",
+          "Sign in",
+          "Start your project",
+          "Open main menu"
+        ],
+        "ctas": [
+          "Pricing",
+          "Sign in",
+          "Start your project",
+          "Start for Free",
+          "Get Started",
+          "See how pricing scales",
+          "Contact Us",
+          "Add Project",
+          "Learn about Compute add-ons",
+          "Compute Add-ons",
+          "Expand Pricing breakdown",
+          "Are you going to change your pricing in the future?",
+          "Request a demo",
+          "Subscribe",
+          "Startups"
+        ],
+        "landmarks": [
+          "nav",
+          "nav:Main",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://supabase.com/customers",
+        "title": "Customer Stories | Supabase",
+        "description": "See how Supabase empowers companies of all sizes to accelerate their growth and streamline their work.",
+        "headings": [
+          "Customer stories",
+          "Footer"
+        ],
+        "navLabels": [
+          "Product",
+          "Developers",
+          "Solutions",
+          "Pricing",
+          "Docs",
+          "Blog",
+          "107.1K",
+          "Sign in",
+          "Start your project",
+          "Open main menu"
+        ],
+        "ctas": [
+          "Pricing",
+          "Sign in",
+          "Start your project",
+          "Reset filters",
+          "How Supabase helps power millions of apps on LovableLearn more",
+          "How delight.ai lets every team build production apps on SupabaseLearn more",
+          "Chatbase goes upmarket on SupabaseLearn more",
+          "Cofounder builds autonomous companies on SupabaseLearn more",
+          "Hyper builds AI marketing agents on SupabaseLearn more",
+          "Koodos scales its social discovery app Shelf on SupabaseLearn more",
+          "Rally builds a pan-European fleet payments platform on SupabaseLearn more",
+          "Udio hits the right notes with SupabaseLearn more",
+          "Euka used Supabase to unlock faster growthLearn more",
+          "Bree's Migration to Supabase from FaunaLearn more",
+          "Deriv's Journey with SupabaseLearn more",
+          "Resend's Journey with Supabase: Scaling Email Infrastructure with EaseLearn more",
+          "E2B: Accelerating AI-Driven Development with SupabaseLearn more"
+        ],
+        "landmarks": [
+          "nav",
+          "nav:Main",
+          "main",
+          "footer"
         ]
       },
       {
@@ -632,7 +1085,7 @@
           "Pricing",
           "Docs",
           "Blog",
-          "107K",
+          "107.1K",
           "Sign in",
           "Start your project",
           "Open main menu"
@@ -658,51 +1111,6 @@
           "main",
           "footer"
         ]
-      },
-      {
-        "url": "https://supabase.com/about",
-        "title": "Supabase | The Postgres Development Platform.",
-        "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
-        "headings": [
-          "404",
-          "Looking for something? 🔍"
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://supabase.com/login",
-        "title": "Supabase | The Postgres Development Platform.",
-        "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
-        "headings": [
-          "404",
-          "Looking for something? 🔍"
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "nav"
-        ]
-      },
-      {
-        "url": "https://supabase.com/signin",
-        "title": "Supabase | The Postgres Development Platform.",
-        "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
-        "headings": [
-          "404",
-          "Looking for something? 🔍"
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "nav"
-        ]
       }
     ],
     "navLabels": [
@@ -712,7 +1120,7 @@
       "Pricing",
       "Docs",
       "Blog",
-      "107K",
+      "107.1K",
       "Sign in",
       "Start your project",
       "Open main menu",
@@ -725,17 +1133,7 @@
       "Reference",
       "Resources",
       "Search docs...⌘K",
-      "Sign up",
-      "Start with Supabase",
-      "Build with AI tools",
-      "API Keys",
-      "Local Development",
-      "Architecture",
-      "Migrating to new API keys",
-      "Next.js",
-      "React",
-      "Astro",
-      "Nuxt"
+      "Sign up"
     ],
     "ctas": [
       "Pricing",
@@ -749,19 +1147,19 @@
       "Continue with GitHub",
       "Continue with SSO",
       "Sign up",
+      "Contact sales",
       "Start",
       "Search docs...⌘K",
-      "Start with Supabase",
       "TanStack Start",
-      "log in",
-      "1. Create a Supabase project",
-      "3. Create a React app",
-      "8. Start the app",
+      "Explore more resources about /guides/resourcesExplore more resources",
+      "Platform guidesLearn more about the tools and services powering Supabase.",
+      "IntegrationsExplore a variety of integrations from Supabase partners.",
       "Contact support",
+      "How do I restart my database?K",
+      "Contact enterprise sales",
       "Start for Free",
       "Get Started",
-      "See how pricing scales",
-      "Add Project"
+      "See how pricing scales"
     ],
     "headings": [
       "Build in a weekendScale to millions",
@@ -782,18 +1180,18 @@
       "Footer",
       "Welcome back",
       "Sign in to your account",
-      "1. Create a Supabase project#",
-      "2. Set up your database#",
-      "3. Create a React app#",
-      "4. Install Agent Skills (optional)#",
-      "5. Install the Supabase client library#",
-      "6. Declare Supabase environment variables#",
-      "Get API details#",
-      "7. Query data from the app#",
-      "8. Start the app#",
-      "Next steps#",
-      "Is this helpful?",
-      "AI Tools"
+      "From Idea to 30,000 users in one Product Hunt launch#",
+      "Scaling issues put Mobbin growth at risk#",
+      "Migrating to Supabase#",
+      "Supabase saves Mobbin time and money#",
+      "404",
+      "Looking for something? 🔍",
+      "Supabase Documentation",
+      "Connect a framework",
+      "Build your backend",
+      "Extend your database",
+      "Use a client library",
+      "Migrate to Supabase"
     ],
     "techSignals": [
       "React",
@@ -803,9 +1201,6 @@
       "Stripe",
       "Cloudflare",
       "Vue",
-      "Angular",
-      "Svelte",
-      "Vite",
       "GraphQL"
     ],
     "featureCandidates": [
@@ -825,14 +1220,14 @@
       "Footer",
       "Welcome back",
       "Sign in to your account",
-      "1. Create a Supabase project#",
-      "2. Set up your database#",
-      "3. Create a React app#",
-      "4. Install Agent Skills (optional)#",
-      "5. Install the Supabase client library#",
-      "6. Declare Supabase environment variables#",
-      "Get API details#",
-      "7. Query data from the app#"
+      "Scaling issues put Mobbin growth at risk#",
+      "Migrating to Supabase#",
+      "Supabase saves Mobbin time and money#",
+      "Looking for something? 🔍",
+      "Supabase Documentation",
+      "Connect a framework",
+      "Build your backend",
+      "Extend your database"
     ],
     "patternCandidates": [
       "Search",
@@ -840,9 +1235,6 @@
       "Tabs",
       "Dashboard",
       "Authentication",
-      "Modal dialogs",
-      "Map view",
-      "Menus",
       "Card layout"
     ],
     "platformsDetected": [
@@ -853,6 +1245,6 @@
       "android",
       "cli"
     ],
-    "summary": "Captured 32 screenshots across 15 public URLs. Nav signals: Product, Developers, Solutions, Pricing, Docs, Blog. Tech signals: React, Next.js, Webpack, Tailwind CSS, Stripe, Cloudflare. UI patterns: Search, Pricing display, Tabs, Dashboard, Authentication, Modal dialogs."
+    "summary": "Captured 38 screenshots across 9 public URLs. Nav signals: Product, Developers, Solutions, Pricing, Docs, Blog. Tech signals: React, Next.js, Webpack, Tailwind CSS, Stripe, Cloudflare. UI patterns: Search, Pricing display, Tabs, Dashboard, Authentication, Card layout."
   }
 }

@@ -1,292 +1,734 @@
 {
   "slug": "greenhouse",
-  "capturedAt": "2026-07-27T13:22:37.029Z",
+  "capturedAt": "2026-07-27T21:36:43.243Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "Greenhouse public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://www.greenhouse.com/"
+      "sourceUrl": "https://www.greenhouse.com/",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | Applicant tracking software & hiring platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "29c3d3cccf4c8ca6",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Greenhouse homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.greenhouse.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Greenhouse homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.greenhouse.com/"
+      "sourceUrl": "https://www.greenhouse.com/",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | Applicant tracking software & hiring platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "a94848b20d4d0d4b",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Greenhouse homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.greenhouse.com/"
+      "sourceUrl": "https://www.greenhouse.com/",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | Applicant tracking software & hiring platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "f9596b5b41013565",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Greenhouse homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.greenhouse.com/",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | Applicant tracking software & hiring platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "a9616501694d4d0d",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Greenhouse homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.greenhouse.com/",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | Applicant tracking software & hiring platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "e9312b6b6d695901",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Greenhouse homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.greenhouse.com/",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | Applicant tracking software & hiring platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "69a6c69697969686",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Greenhouse homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://www.greenhouse.com/"
+      "sourceUrl": "https://www.greenhouse.com/",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | Applicant tracking software & hiring platform",
+      "width": 390,
+      "height": 844,
+      "phash": "41091329971250fc",
+      "unique": true
     },
     {
       "file": "account-menu.jpg",
       "title": "Account / nav menu",
       "caption": "Expanded account or primary navigation menu on Greenhouse",
       "kind": "component",
-      "sourceUrl": "https://www.greenhouse.com/"
+      "sourceUrl": "https://www.greenhouse.com/",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "account-menu",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | Applicant tracking software & hiring platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "42a4848080c08040",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on Greenhouse (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://app.greenhouse.io/users/sign_in"
+      "sourceUrl": "https://app.greenhouse.io/users/sign_in",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Sign In | Greenhouse Recruiting",
+      "width": 1440,
+      "height": 900,
+      "phash": "0000000000000000",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Greenhouse",
       "kind": "product",
-      "sourceUrl": "https://www.greenhouse.com/blog"
+      "sourceUrl": "https://www.greenhouse.com/customer-stories/the-nfl-dominates-high-volume-hiring-cuts-time-to-fill-by-24-percent-with-greenhouse-ai-powered-features",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The NFL dominates high-volume hiring, cuts time-to-fill by 24% with Greenhouse AI-powered features",
+      "width": 1440,
+      "height": 900,
+      "phash": "81616160206161a6",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Greenhouse",
       "kind": "product",
-      "sourceUrl": "https://www.greenhouse.com/blog"
+      "sourceUrl": "https://www.greenhouse.com/customer-stories/the-nfl-dominates-high-volume-hiring-cuts-time-to-fill-by-24-percent-with-greenhouse-ai-powered-features",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The NFL dominates high-volume hiring, cuts time-to-fill by 24% with Greenhouse AI-powered features",
+      "width": 1440,
+      "height": 900,
+      "phash": "69392a9e0f0b5865",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Greenhouse",
       "kind": "product",
-      "sourceUrl": "https://www.greenhouse.com/blog"
+      "sourceUrl": "https://www.greenhouse.com/customer-stories/the-nfl-dominates-high-volume-hiring-cuts-time-to-fill-by-24-percent-with-greenhouse-ai-powered-features",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The NFL dominates high-volume hiring, cuts time-to-fill by 24% with Greenhouse AI-powered features",
+      "width": 1440,
+      "height": 900,
+      "phash": "a1066333312921a1",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from Greenhouse",
       "kind": "product",
-      "sourceUrl": "https://www.greenhouse.com/blog"
+      "sourceUrl": "https://www.greenhouse.com/customer-stories/the-nfl-dominates-high-volume-hiring-cuts-time-to-fill-by-24-percent-with-greenhouse-ai-powered-features",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The NFL dominates high-volume hiring, cuts time-to-fill by 24% with Greenhouse AI-powered features",
+      "width": 1440,
+      "height": 900,
+      "phash": "9966596d7b3f3c2d",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from Greenhouse",
       "kind": "product",
-      "sourceUrl": "https://www.greenhouse.com/blog"
+      "sourceUrl": "https://www.greenhouse.com/customer-stories/the-nfl-dominates-high-volume-hiring-cuts-time-to-fill-by-24-percent-with-greenhouse-ai-powered-features",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The NFL dominates high-volume hiring, cuts time-to-fill by 24% with Greenhouse AI-powered features",
+      "width": 1440,
+      "height": 900,
+      "phash": "9982533333230186",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from Greenhouse",
+      "kind": "product",
+      "sourceUrl": "https://www.greenhouse.com/customer-stories/the-nfl-dominates-high-volume-hiring-cuts-time-to-fill-by-24-percent-with-greenhouse-ai-powered-features",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The NFL dominates high-volume hiring, cuts time-to-fill by 24% with Greenhouse AI-powered features",
+      "width": 1440,
+      "height": 900,
+      "phash": "21246467676527a7",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Greenhouse",
+      "kind": "product",
+      "sourceUrl": "https://www.greenhouse.com/customer-stories/the-nfl-dominates-high-volume-hiring-cuts-time-to-fill-by-24-percent-with-greenhouse-ai-powered-features",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The NFL dominates high-volume hiring, cuts time-to-fill by 24% with Greenhouse AI-powered features",
+      "width": 1440,
+      "height": 900,
+      "phash": "a1616163672626a6",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from Greenhouse",
+      "kind": "product",
+      "sourceUrl": "https://www.greenhouse.com/customer-stories/the-nfl-dominates-high-volume-hiring-cuts-time-to-fill-by-24-percent-with-greenhouse-ai-powered-features",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The NFL dominates high-volume hiring, cuts time-to-fill by 24% with Greenhouse AI-powered features",
+      "width": 1440,
+      "height": 900,
+      "phash": "99662f3d59191d1d",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from Greenhouse",
+      "kind": "product",
+      "sourceUrl": "https://www.greenhouse.com/customer-stories/the-nfl-dominates-high-volume-hiring-cuts-time-to-fill-by-24-percent-with-greenhouse-ai-powered-features",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The NFL dominates high-volume hiring, cuts time-to-fill by 24% with Greenhouse AI-powered features",
+      "width": 1440,
+      "height": 900,
+      "phash": "39216164252666a7",
+      "unique": true
+    },
+    {
+      "file": "nav-10.jpg",
+      "title": "In-product nav (10)",
+      "caption": "Same-origin product / pricing / docs links from Greenhouse",
+      "kind": "product",
+      "sourceUrl": "https://www.greenhouse.com/customer-stories/the-nfl-dominates-high-volume-hiring-cuts-time-to-fill-by-24-percent-with-greenhouse-ai-powered-features",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The NFL dominates high-volume hiring, cuts time-to-fill by 24% with Greenhouse AI-powered features",
+      "width": 1440,
+      "height": 900,
+      "phash": "8166606420236263",
+      "unique": true
+    },
+    {
+      "file": "nav-12.jpg",
+      "title": "In-product nav (11)",
+      "caption": "Same-origin product / pricing / docs links from Greenhouse",
+      "kind": "product",
+      "sourceUrl": "https://www.greenhouse.com/customer-stories/the-nfl-dominates-high-volume-hiring-cuts-time-to-fill-by-24-percent-with-greenhouse-ai-powered-features",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The NFL dominates high-volume hiring, cuts time-to-fill by 24% with Greenhouse AI-powered features",
+      "width": 1440,
+      "height": 900,
+      "phash": "99464d5d7b6b1c9c",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "Dashboard (1)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "product",
-      "sourceUrl": "https://www.greenhouse.com/pricing"
+      "sourceUrl": "https://www.greenhouse.com/support",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Not Found",
+      "width": 1440,
+      "height": 900,
+      "phash": "79252663646c61a5",
+      "unique": true
     },
     {
-      "file": "surface-1-mid.jpg",
+      "file": "surface-1-top.jpg",
       "title": "Dashboard (2)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "product",
-      "sourceUrl": "https://www.greenhouse.com/pricing"
+      "sourceUrl": "https://www.greenhouse.com/support",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Not Found",
+      "width": 1440,
+      "height": 900,
+      "phash": "692563676c652226",
+      "unique": true
     },
     {
-      "file": "surface-2.jpg",
-      "title": "Settings (1)",
+      "file": "surface-1-band-2.jpg",
+      "title": "Dashboard (3)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "product",
-      "sourceUrl": "https://www.greenhouse.com/product"
+      "sourceUrl": "https://www.greenhouse.com/support",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Not Found",
+      "width": 1440,
+      "height": 900,
+      "phash": "a92527daa6a65696",
+      "unique": true
     },
     {
-      "file": "surface-2-mid.jpg",
-      "title": "Settings (2)",
+      "file": "surface-1-lower.jpg",
+      "title": "Dashboard (4)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "product",
-      "sourceUrl": "https://www.greenhouse.com/product"
+      "sourceUrl": "https://www.greenhouse.com/support",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Not Found",
+      "width": 1440,
+      "height": 900,
+      "phash": "b986519493978686",
+      "unique": true
     },
     {
-      "file": "surface-3.jpg",
-      "title": "Search (1)",
+      "file": "surface-4-band-2.jpg",
+      "title": "Profile (3)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/products"
+      "sourceUrl": "https://www.greenhouse.com/developers",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Not Found",
+      "width": 1440,
+      "height": 900,
+      "phash": "212704c6a6469410",
+      "unique": true
     },
     {
-      "file": "surface-3-mid.jpg",
-      "title": "Search (2)",
+      "file": "surface-4-band-3.jpg",
+      "title": "Profile (4)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/products"
-    },
-    {
-      "file": "surface-4.jpg",
-      "title": "Profile (1)",
-      "caption": "Greenhouse public surface · greenhouse.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/platform"
-    },
-    {
-      "file": "surface-4-mid.jpg",
-      "title": "Profile (2)",
-      "caption": "Greenhouse public surface · greenhouse.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/platform"
+      "sourceUrl": "https://www.greenhouse.com/developers",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Not Found",
+      "width": 1440,
+      "height": 900,
+      "phash": "24a6519492908486",
+      "unique": true
     },
     {
       "file": "surface-5.jpg",
-      "title": "Supporting surface 5 (1)",
+      "title": "Homepage mobile (1)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/platform"
+      "sourceUrl": "https://www.greenhouse.com/api",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | APIs",
+      "width": 1440,
+      "height": 900,
+      "phash": "a5272321246664a4",
+      "unique": true
     },
     {
-      "file": "surface-5-mid.jpg",
-      "title": "Supporting surface 5 (2)",
+      "file": "surface-5-top.jpg",
+      "title": "Homepage mobile (2)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/platform"
+      "sourceUrl": "https://www.greenhouse.com/api",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | APIs",
+      "width": 1440,
+      "height": 900,
+      "phash": "79252723212666e5",
+      "unique": true
     },
     {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6 (1)",
+      "file": "surface-5-band-2.jpg",
+      "title": "Homepage mobile (3)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/solutions"
+      "sourceUrl": "https://www.greenhouse.com/api",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | APIs",
+      "width": 1440,
+      "height": 900,
+      "phash": "6925a41c3939290d",
+      "unique": true
     },
     {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
+      "file": "surface-5-band-3.jpg",
+      "title": "Homepage mobile (4)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/solutions"
+      "sourceUrl": "https://www.greenhouse.com/api",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | APIs",
+      "width": 1440,
+      "height": 900,
+      "phash": "292d101887c786b6",
+      "unique": true
     },
     {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
-      "caption": "Greenhouse public surface · greenhouse.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/customers"
-    },
-    {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
-      "caption": "Greenhouse public surface · greenhouse.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/customers"
-    },
-    {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
-      "caption": "Greenhouse public surface · greenhouse.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/docs"
-    },
-    {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
-      "caption": "Greenhouse public surface · greenhouse.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/docs"
-    },
-    {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9 (1)",
-      "caption": "Greenhouse public surface · greenhouse.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/support"
-    },
-    {
-      "file": "surface-9-mid.jpg",
-      "title": "Supporting surface 9 (2)",
-      "caption": "Greenhouse public surface · greenhouse.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/support"
-    },
-    {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
-      "caption": "Greenhouse public surface · greenhouse.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/blog"
-    },
-    {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
-      "caption": "Greenhouse public surface · greenhouse.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/blog"
-    },
-    {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
-      "caption": "Greenhouse public surface · greenhouse.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/about"
-    },
-    {
-      "file": "surface-11-mid.jpg",
+      "file": "surface-11-top.jpg",
       "title": "Supporting surface 11 (2)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/about"
+      "sourceUrl": "https://www.greenhouse.com/platform",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | The only hiring platform you’ll ever need",
+      "width": 1440,
+      "height": 900,
+      "phash": "a9006161216c6c46",
+      "unique": true
     },
     {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12 (1)",
+      "file": "surface-11-band-2.jpg",
+      "title": "Supporting surface 11 (3)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/login"
+      "sourceUrl": "https://www.greenhouse.com/platform",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | The only hiring platform you’ll ever need",
+      "width": 1440,
+      "height": 900,
+      "phash": "6900047377ee5626",
+      "unique": true
     },
     {
-      "file": "surface-12-mid.jpg",
-      "title": "Supporting surface 12 (2)",
+      "file": "surface-11-band-3.jpg",
+      "title": "Supporting surface 11 (4)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/login"
+      "sourceUrl": "https://www.greenhouse.com/platform",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | The only hiring platform you’ll ever need",
+      "width": 1440,
+      "height": 900,
+      "phash": "692dce8c0c4e160e",
+      "unique": true
     },
     {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13 (1)",
+      "file": "surface-11-band-4.jpg",
+      "title": "Supporting surface 11 (5)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/signin"
+      "sourceUrl": "https://www.greenhouse.com/platform",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse | The only hiring platform you’ll ever need",
+      "width": 1440,
+      "height": 900,
+      "phash": "29012e4949490100",
+      "unique": true
     },
     {
-      "file": "surface-13-mid.jpg",
-      "title": "Supporting surface 13 (2)",
-      "caption": "Greenhouse public surface · greenhouse.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/signin"
-    },
-    {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14 (1)",
-      "caption": "Greenhouse public surface · greenhouse.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/sign-in"
-    },
-    {
-      "file": "surface-14-mid.jpg",
+      "file": "surface-14-top.jpg",
       "title": "Supporting surface 14 (2)",
       "caption": "Greenhouse public surface · greenhouse.com",
       "kind": "docs",
-      "sourceUrl": "https://www.greenhouse.com/sign-in"
+      "sourceUrl": "https://www.greenhouse.com/blog",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse recruiting blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "29190a73333323a1",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-2.jpg",
+      "title": "Supporting surface 14 (3)",
+      "caption": "Greenhouse public surface · greenhouse.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.greenhouse.com/blog",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse recruiting blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6905866169417373",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-3.jpg",
+      "title": "Supporting surface 14 (4)",
+      "caption": "Greenhouse public surface · greenhouse.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.greenhouse.com/blog",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse recruiting blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6963735371333953",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-4.jpg",
+      "title": "Supporting surface 14 (5)",
+      "caption": "Greenhouse public surface · greenhouse.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.greenhouse.com/blog",
+      "capturedAt": "2026-07-27T21:33:51.332Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Greenhouse recruiting blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "695159015333015b",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T13:22:37.029Z",
-    "screenshotCount": 40,
-    "pageCount": 15,
+    "capturedAt": "2026-07-27T21:36:43.243Z",
+    "screenshotCount": 38,
+    "pageCount": 8,
     "pages": [
       {
         "url": "https://www.greenhouse.com/",
@@ -372,84 +814,18 @@
         "landmarks": []
       },
       {
-        "url": "https://www.greenhouse.com/blog",
-        "title": "Greenhouse recruiting blog",
-        "description": "Get the latest news, practitioner stories, hiring best practice in action and more on the Greenhouse blog.",
+        "url": "https://www.greenhouse.com/customer-stories/the-nfl-dominates-high-volume-hiring-cuts-time-to-fill-by-24-percent-with-greenhouse-ai-powered-features",
+        "title": "The NFL dominates high-volume hiring, cuts time-to-fill by 24% with Greenhouse AI-powered features",
+        "description": "The NFL implements Greenhouse AI-powered features to drive efficiency, enhance collaboration and consistently hire the best candidates, easily handling the blitz of thousands of monthly applicants.",
         "headings": [
-          "Find out what’s next in hiring",
-          "All articles",
-          "How AI workforce management can support better hiring decisions",
-          "How to reduce hiring bias with structured hiring",
-          "11 best recruitment automation software (2026)",
-          "The problem with measuring quality of hire",
-          "How AI and automation work to improve your recruitment process",
-          "The 10 best high-volume hiring software platforms in 2026",
-          "Set your cookie preference",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Close mobile sub-navigation",
-          "Greenhouse Home Link",
-          "PlatformOpen menu for",
-          "Only in Greenhouse",
-          "AI recruiting",
-          "Talent sourcing",
-          "Candidate experience",
-          "Scalable workflows",
-          "Interviewing & decision-making",
-          "Talent matching",
-          "Onboarding",
-          "Reporting & insights",
-          "Integrations",
-          "Early-stage business",
-          "Scaling company",
-          "Modern enterprise",
-          "Job seekers",
-          "Latest product features",
-          "Why GreenhouseOpen menu for",
-          "How we compare",
-          "Return on your hiring investment",
-          "Your partner in success",
-          "Learn more",
-          "ResourcesOpen menu for"
-        ],
-        "ctas": [
-          "Learn more",
-          "Talent Makers book",
-          "Request a demo",
-          "Sign in",
-          "Toggle search form",
-          "Pricing",
-          "Contact",
-          "Subscribe",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "nav:main menu and search",
-          "main",
-          "navigation:List",
-          "footer",
-          "nav:footer menu",
-          "dialog:Set your cookie preference"
-        ]
-      },
-      {
-        "url": "https://www.greenhouse.com/pricing",
-        "title": "Greenhouse Plans & Pricing | Core, Plus & Pro",
-        "description": "Greenhouse hiring software designs our packaging tiers and pricing to be accessible for companies of all sizes looking for recruiting software to propel strategic growth.",
-        "headings": [
-          "Greenhouse pricing plans",
-          "Core",
-          "Plus",
-          "Pro",
-          "Get a personalized demo",
           "Thank you",
-          "FAQ",
-          "How does Greenhouse pricing work?",
-          "What’s included in Core vs. Plus vs. Pro?",
-          "How much does Greenhouse cost?",
-          "Can I upgrade plans later?",
+          "Download this resource",
+          "Key results",
+          "About the NFL",
+          "‍The challenge",
+          "The solution",
+          "The results",
+          "Ready to become great at hiring?",
           "Set your cookie preference",
           "Manage Consent Preferences",
           "Cookie List"
@@ -486,12 +862,12 @@
           "Request a demo",
           "Sign in",
           "Toggle search form",
-          "Get a demo",
-          "sort and filter candidates",
-          "How does Greenhouse pricing work?",
+          "Subscribe",
+          "Download",
+          "Talent Filtering",
+          "Request a demo today",
           "Pricing",
           "Contact",
-          "Subscribe",
           "Filter Icon"
         ],
         "landmarks": [
@@ -503,7 +879,7 @@
         ]
       },
       {
-        "url": "https://www.greenhouse.com/product",
+        "url": "https://www.greenhouse.com/support",
         "title": "Not Found",
         "headings": [
           "Oops, we couldn’t find what you’re looking for.",
@@ -557,10 +933,67 @@
         ]
       },
       {
-        "url": "https://www.greenhouse.com/products",
+        "url": "https://www.greenhouse.com/developers",
         "title": "Not Found",
         "headings": [
           "Oops, we couldn’t find what you’re looking for.",
+          "Set your cookie preference",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Close mobile sub-navigation",
+          "Greenhouse Home Link",
+          "PlatformOpen menu for",
+          "Only in Greenhouse",
+          "AI recruiting",
+          "Talent sourcing",
+          "Candidate experience",
+          "Scalable workflows",
+          "Interviewing & decision-making",
+          "Talent matching",
+          "Onboarding",
+          "Reporting & insights",
+          "Integrations",
+          "Early-stage business",
+          "Scaling company",
+          "Modern enterprise",
+          "Job seekers",
+          "Latest product features",
+          "Why GreenhouseOpen menu for",
+          "How we compare",
+          "Return on your hiring investment",
+          "Your partner in success",
+          "Learn more",
+          "ResourcesOpen menu for"
+        ],
+        "ctas": [
+          "Learn more",
+          "Talent Makers book",
+          "Request a demo",
+          "Sign in",
+          "Toggle search form",
+          "Pricing",
+          "Contact",
+          "Subscribe",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav:main menu and search",
+          "main",
+          "footer",
+          "nav:footer menu",
+          "dialog:Set your cookie preference"
+        ]
+      },
+      {
+        "url": "https://www.greenhouse.com/api",
+        "title": "Greenhouse | APIs",
+        "description": "Greenhouse open APIs allow customers and partners to adapt Greenhouse to best fit their needs.",
+        "headings": [
+          "Our APIs",
+          "Access and update Greenhouse data",
+          "Ready to become great at hiring?",
           "Set your cookie preference",
           "Manage Consent Preferences",
           "Cookie List"
@@ -686,10 +1119,18 @@
         ]
       },
       {
-        "url": "https://www.greenhouse.com/solutions",
-        "title": "Not Found",
+        "url": "https://www.greenhouse.com/blog",
+        "title": "Greenhouse recruiting blog",
+        "description": "Get the latest news, practitioner stories, hiring best practice in action and more on the Greenhouse blog.",
         "headings": [
-          "Oops, we couldn’t find what you’re looking for.",
+          "Find out what’s next in hiring",
+          "All articles",
+          "Structured hiring explained: The 6-step process for success",
+          "How AI workforce management can support better hiring decisions",
+          "How to reduce hiring bias with structured hiring",
+          "11 best recruitment automation software (2026)",
+          "The problem with measuring quality of hire",
+          "How AI and automation work to improve your recruitment process",
           "Set your cookie preference",
           "Manage Consent Preferences",
           "Cookie List"
@@ -734,384 +1175,7 @@
         "landmarks": [
           "nav:main menu and search",
           "main",
-          "footer",
-          "nav:footer menu",
-          "dialog:Set your cookie preference"
-        ]
-      },
-      {
-        "url": "https://www.greenhouse.com/customers",
-        "title": "Not Found",
-        "headings": [
-          "Oops, we couldn’t find what you’re looking for.",
-          "Set your cookie preference",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Close mobile sub-navigation",
-          "Greenhouse Home Link",
-          "PlatformOpen menu for",
-          "Only in Greenhouse",
-          "AI recruiting",
-          "Talent sourcing",
-          "Candidate experience",
-          "Scalable workflows",
-          "Interviewing & decision-making",
-          "Talent matching",
-          "Onboarding",
-          "Reporting & insights",
-          "Integrations",
-          "Early-stage business",
-          "Scaling company",
-          "Modern enterprise",
-          "Job seekers",
-          "Latest product features",
-          "Why GreenhouseOpen menu for",
-          "How we compare",
-          "Return on your hiring investment",
-          "Your partner in success",
-          "Learn more",
-          "ResourcesOpen menu for"
-        ],
-        "ctas": [
-          "Learn more",
-          "Talent Makers book",
-          "Request a demo",
-          "Sign in",
-          "Toggle search form",
-          "Pricing",
-          "Contact",
-          "Subscribe",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "nav:main menu and search",
-          "main",
-          "footer",
-          "nav:footer menu",
-          "dialog:Set your cookie preference"
-        ]
-      },
-      {
-        "url": "https://www.greenhouse.com/docs",
-        "title": "Not Found",
-        "headings": [
-          "Oops, we couldn’t find what you’re looking for.",
-          "Set your cookie preference",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Close mobile sub-navigation",
-          "Greenhouse Home Link",
-          "PlatformOpen menu for",
-          "Only in Greenhouse",
-          "AI recruiting",
-          "Talent sourcing",
-          "Candidate experience",
-          "Scalable workflows",
-          "Interviewing & decision-making",
-          "Talent matching",
-          "Onboarding",
-          "Reporting & insights",
-          "Integrations",
-          "Early-stage business",
-          "Scaling company",
-          "Modern enterprise",
-          "Job seekers",
-          "Latest product features",
-          "Why GreenhouseOpen menu for",
-          "How we compare",
-          "Return on your hiring investment",
-          "Your partner in success",
-          "Learn more",
-          "ResourcesOpen menu for"
-        ],
-        "ctas": [
-          "Learn more",
-          "Talent Makers book",
-          "Request a demo",
-          "Sign in",
-          "Toggle search form",
-          "Pricing",
-          "Contact",
-          "Subscribe",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "nav:main menu and search",
-          "main",
-          "footer",
-          "nav:footer menu",
-          "dialog:Set your cookie preference"
-        ]
-      },
-      {
-        "url": "https://www.greenhouse.com/support",
-        "title": "Not Found",
-        "headings": [
-          "Oops, we couldn’t find what you’re looking for.",
-          "Set your cookie preference",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Close mobile sub-navigation",
-          "Greenhouse Home Link",
-          "PlatformOpen menu for",
-          "Only in Greenhouse",
-          "AI recruiting",
-          "Talent sourcing",
-          "Candidate experience",
-          "Scalable workflows",
-          "Interviewing & decision-making",
-          "Talent matching",
-          "Onboarding",
-          "Reporting & insights",
-          "Integrations",
-          "Early-stage business",
-          "Scaling company",
-          "Modern enterprise",
-          "Job seekers",
-          "Latest product features",
-          "Why GreenhouseOpen menu for",
-          "How we compare",
-          "Return on your hiring investment",
-          "Your partner in success",
-          "Learn more",
-          "ResourcesOpen menu for"
-        ],
-        "ctas": [
-          "Learn more",
-          "Talent Makers book",
-          "Request a demo",
-          "Sign in",
-          "Toggle search form",
-          "Pricing",
-          "Contact",
-          "Subscribe",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "nav:main menu and search",
-          "main",
-          "footer",
-          "nav:footer menu",
-          "dialog:Set your cookie preference"
-        ]
-      },
-      {
-        "url": "https://www.greenhouse.com/about",
-        "title": "Not Found",
-        "headings": [
-          "Oops, we couldn’t find what you’re looking for.",
-          "Set your cookie preference",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Close mobile sub-navigation",
-          "Greenhouse Home Link",
-          "PlatformOpen menu for",
-          "Only in Greenhouse",
-          "AI recruiting",
-          "Talent sourcing",
-          "Candidate experience",
-          "Scalable workflows",
-          "Interviewing & decision-making",
-          "Talent matching",
-          "Onboarding",
-          "Reporting & insights",
-          "Integrations",
-          "Early-stage business",
-          "Scaling company",
-          "Modern enterprise",
-          "Job seekers",
-          "Latest product features",
-          "Why GreenhouseOpen menu for",
-          "How we compare",
-          "Return on your hiring investment",
-          "Your partner in success",
-          "Learn more",
-          "ResourcesOpen menu for"
-        ],
-        "ctas": [
-          "Learn more",
-          "Talent Makers book",
-          "Request a demo",
-          "Sign in",
-          "Toggle search form",
-          "Pricing",
-          "Contact",
-          "Subscribe",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "nav:main menu and search",
-          "main",
-          "footer",
-          "nav:footer menu",
-          "dialog:Set your cookie preference"
-        ]
-      },
-      {
-        "url": "https://www.greenhouse.com/login",
-        "title": "Not Found",
-        "headings": [
-          "Oops, we couldn’t find what you’re looking for.",
-          "Set your cookie preference",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Close mobile sub-navigation",
-          "Greenhouse Home Link",
-          "PlatformOpen menu for",
-          "Only in Greenhouse",
-          "AI recruiting",
-          "Talent sourcing",
-          "Candidate experience",
-          "Scalable workflows",
-          "Interviewing & decision-making",
-          "Talent matching",
-          "Onboarding",
-          "Reporting & insights",
-          "Integrations",
-          "Early-stage business",
-          "Scaling company",
-          "Modern enterprise",
-          "Job seekers",
-          "Latest product features",
-          "Why GreenhouseOpen menu for",
-          "How we compare",
-          "Return on your hiring investment",
-          "Your partner in success",
-          "Learn more",
-          "ResourcesOpen menu for"
-        ],
-        "ctas": [
-          "Learn more",
-          "Talent Makers book",
-          "Request a demo",
-          "Sign in",
-          "Toggle search form",
-          "Pricing",
-          "Contact",
-          "Subscribe",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "nav:main menu and search",
-          "main",
-          "footer",
-          "nav:footer menu",
-          "dialog:Set your cookie preference"
-        ]
-      },
-      {
-        "url": "https://www.greenhouse.com/signin",
-        "title": "Not Found",
-        "headings": [
-          "Oops, we couldn’t find what you’re looking for.",
-          "Set your cookie preference",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Close mobile sub-navigation",
-          "Greenhouse Home Link",
-          "PlatformOpen menu for",
-          "Only in Greenhouse",
-          "AI recruiting",
-          "Talent sourcing",
-          "Candidate experience",
-          "Scalable workflows",
-          "Interviewing & decision-making",
-          "Talent matching",
-          "Onboarding",
-          "Reporting & insights",
-          "Integrations",
-          "Early-stage business",
-          "Scaling company",
-          "Modern enterprise",
-          "Job seekers",
-          "Latest product features",
-          "Why GreenhouseOpen menu for",
-          "How we compare",
-          "Return on your hiring investment",
-          "Your partner in success",
-          "Learn more",
-          "ResourcesOpen menu for"
-        ],
-        "ctas": [
-          "Learn more",
-          "Talent Makers book",
-          "Request a demo",
-          "Sign in",
-          "Toggle search form",
-          "Pricing",
-          "Contact",
-          "Subscribe",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "nav:main menu and search",
-          "main",
-          "footer",
-          "nav:footer menu",
-          "dialog:Set your cookie preference"
-        ]
-      },
-      {
-        "url": "https://www.greenhouse.com/sign-in",
-        "title": "Not Found",
-        "headings": [
-          "Oops, we couldn’t find what you’re looking for.",
-          "Set your cookie preference",
-          "Manage Consent Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Close mobile sub-navigation",
-          "Greenhouse Home Link",
-          "PlatformOpen menu for",
-          "Only in Greenhouse",
-          "AI recruiting",
-          "Talent sourcing",
-          "Candidate experience",
-          "Scalable workflows",
-          "Interviewing & decision-making",
-          "Talent matching",
-          "Onboarding",
-          "Reporting & insights",
-          "Integrations",
-          "Early-stage business",
-          "Scaling company",
-          "Modern enterprise",
-          "Job seekers",
-          "Latest product features",
-          "Why GreenhouseOpen menu for",
-          "How we compare",
-          "Return on your hiring investment",
-          "Your partner in success",
-          "Learn more",
-          "ResourcesOpen menu for"
-        ],
-        "ctas": [
-          "Learn more",
-          "Talent Makers book",
-          "Request a demo",
-          "Sign in",
-          "Toggle search form",
-          "Pricing",
-          "Contact",
-          "Subscribe",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "nav:main menu and search",
-          "main",
+          "navigation:List",
           "footer",
           "nav:footer menu",
           "dialog:Set your cookie preference"
@@ -1160,9 +1224,9 @@
       "Sign in with Google",
       "noun_Next_3025204 Created with Sketch.",
       "Continue to SSO",
-      "Get a demo",
-      "sort and filter candidates",
-      "How does Greenhouse pricing work?",
+      "Download",
+      "Talent Filtering",
+      "Request a demo today",
       "Explore solutions",
       "Explore talent sourcing",
       "Explore candidate experience",
@@ -1184,23 +1248,23 @@
       "Manage Consent Preferences",
       "Cookie List",
       "Better hiring, all-together.",
-      "Find out what’s next in hiring",
-      "All articles",
-      "How AI workforce management can support better hiring decisions",
-      "How to reduce hiring bias with structured hiring",
-      "11 best recruitment automation software (2026)",
-      "The problem with measuring quality of hire",
-      "How AI and automation work to improve your recruitment process",
-      "The 10 best high-volume hiring software platforms in 2026",
-      "Greenhouse pricing plans",
-      "Core",
-      "Plus",
-      "Pro",
-      "Get a personalized demo",
       "Thank you",
-      "FAQ",
-      "How does Greenhouse pricing work?",
-      "What’s included in Core vs. Plus vs. Pro?"
+      "Download this resource",
+      "Key results",
+      "About the NFL",
+      "‍The challenge",
+      "The solution",
+      "The results",
+      "Ready to become great at hiring?",
+      "Oops, we couldn’t find what you’re looking for.",
+      "Our APIs",
+      "Access and update Greenhouse data",
+      "Make the best hires faster – every time",
+      "The only hiring platform you’ll ever need",
+      "AI recruiting",
+      "Talent sourcing",
+      "Candidate experience",
+      "Scalable workflows"
     ],
     "techSignals": [
       "Next.js",
@@ -1222,18 +1286,18 @@
       "Manage Consent Preferences",
       "Cookie List",
       "Better hiring, all-together.",
-      "Find out what’s next in hiring",
-      "All articles",
-      "11 best recruitment automation software (2026)",
-      "The problem with measuring quality of hire",
-      "Greenhouse pricing plans",
-      "Core",
-      "Plus",
-      "Get a personalized demo",
       "Thank you",
-      "How does Greenhouse pricing work?",
-      "What’s included in Core vs. Plus vs. Pro?",
-      "Learn more"
+      "Download this resource",
+      "Key results",
+      "About the NFL",
+      "‍The challenge",
+      "The solution",
+      "The results",
+      "Ready to become great at hiring?",
+      "Oops, we couldn’t find what you’re looking for.",
+      "Our APIs",
+      "Access and update Greenhouse data",
+      "Make the best hires faster – every time"
     ],
     "patternCandidates": [
       "Search",
@@ -1242,6 +1306,7 @@
       "Menus",
       "Authentication",
       "Filters",
+      "Messaging",
       "Card layout",
       "Dashboard",
       "Checkout"
@@ -1250,6 +1315,6 @@
       "web",
       "api"
     ],
-    "summary": "Captured 40 screenshots across 15 public URLs. Nav signals: Close mobile sub-navigation, Greenhouse Home Link, PlatformOpen menu for, Only in Greenhouse, AI recruiting, Talent sourcing. Tech signals: Next.js, Segment, Google Tag Manager, Webpack, Datadog. UI patterns: Search, Pricing display, Tabs, Menus, Authentication, Filters."
+    "summary": "Captured 38 screenshots across 8 public URLs. Nav signals: Close mobile sub-navigation, Greenhouse Home Link, PlatformOpen menu for, Only in Greenhouse, AI recruiting, Talent sourcing. Tech signals: Next.js, Segment, Google Tag Manager, Webpack, Datadog. UI patterns: Search, Pricing display, Tabs, Menus, Authentication, Filters."
   }
 }

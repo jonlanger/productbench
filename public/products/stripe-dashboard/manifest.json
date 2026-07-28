@@ -1,229 +1,981 @@
 {
   "slug": "stripe-dashboard",
-  "capturedAt": "2026-07-26T22:30:43.313Z",
+  "capturedAt": "2026-07-27T22:13:49.944Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home overview",
       "caption": "Stripe public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://stripe.com/"
+      "sourceUrl": "https://stripe.com/",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "width": 1440,
+      "height": 900,
+      "phash": "c563233168648a5c",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Stripe homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://stripe.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Stripe homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://stripe.com/"
+      "sourceUrl": "https://stripe.com/",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "width": 1440,
+      "height": 900,
+      "phash": "5a585c33666a1a22",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Stripe homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://stripe.com/"
+      "sourceUrl": "https://stripe.com/",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "width": 1440,
+      "height": 900,
+      "phash": "1a2461715b6d4dcc",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Stripe homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://stripe.com/",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "width": 1440,
+      "height": 900,
+      "phash": "cdcd4fb341a42d2e",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Stripe homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://stripe.com/",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "width": 1440,
+      "height": 900,
+      "phash": "ad2d307d7d3d7d57",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Stripe homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://stripe.com/",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "width": 1440,
+      "height": 900,
+      "phash": "bba9a7b4f0b09144",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Stripe homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://stripe.com/"
+      "sourceUrl": "https://stripe.com/",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "width": 390,
+      "height": 844,
+      "phash": "13046310cc4e5759",
+      "unique": true
     },
     {
       "file": "search-composer.jpg",
       "title": "Search / composer",
       "caption": "Focused search or primary input on Stripe",
       "kind": "component",
-      "sourceUrl": "https://stripe.com/"
+      "sourceUrl": "https://stripe.com/",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "search-composer",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 13789,
+      "pageTitle": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "width": 1440,
+      "height": 900,
+      "phash": "bb8beaabababac44",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on Stripe (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://dashboard.stripe.com/login"
+      "sourceUrl": "https://dashboard.stripe.com/login",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe Login | Sign in to the Stripe Dashboard",
+      "width": 1440,
+      "height": 900,
+      "phash": "8303131b09090908",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Stripe",
       "kind": "product",
-      "sourceUrl": "https://stripe.com/customers/ramp"
+      "sourceUrl": "https://stripe.com/customers/urbn",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "URBN Consolidates $5 billion in Online and In-Store Revenue onto Stripe | Stripe",
+      "width": 1440,
+      "height": 900,
+      "phash": "4936386767e7fdf0",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Stripe",
       "kind": "product",
-      "sourceUrl": "https://stripe.com/customers/ramp"
+      "sourceUrl": "https://stripe.com/customers/urbn",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "URBN Consolidates $5 billion in Online and In-Store Revenue onto Stripe | Stripe",
+      "width": 1440,
+      "height": 900,
+      "phash": "790b1b6b2d3c4b1b",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Stripe",
       "kind": "product",
-      "sourceUrl": "https://stripe.com/customers/ramp"
+      "sourceUrl": "https://stripe.com/customers/urbn",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "URBN Consolidates $5 billion in Online and In-Store Revenue onto Stripe | Stripe",
+      "width": 1440,
+      "height": 900,
+      "phash": "793b193b1b3b4707",
+      "unique": true
     },
     {
-      "file": "nav-4.jpg",
-      "title": "In-product nav (4)",
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
       "caption": "Same-origin product / pricing / docs links from Stripe",
       "kind": "product",
-      "sourceUrl": "https://stripe.com/customers/ramp"
+      "sourceUrl": "https://stripe.com/customers/urbn",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "URBN Consolidates $5 billion in Online and In-Store Revenue onto Stripe | Stripe",
+      "width": 1440,
+      "height": 900,
+      "phash": "790f393b0b000b1f",
+      "unique": true
     },
     {
-      "file": "nav-5.jpg",
-      "title": "In-product nav (5)",
+      "file": "nav-10.jpg",
+      "title": "In-product nav (10)",
       "caption": "Same-origin product / pricing / docs links from Stripe",
       "kind": "product",
-      "sourceUrl": "https://stripe.com/customers/ramp"
+      "sourceUrl": "https://stripe.com/customers/urbn",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "URBN Consolidates $5 billion in Online and In-Store Revenue onto Stripe | Stripe",
+      "width": 1440,
+      "height": 900,
+      "phash": "790b197b2b435953",
+      "unique": true
+    },
+    {
+      "file": "nav-11.jpg",
+      "title": "In-product nav (11)",
+      "caption": "Same-origin product / pricing / docs links from Stripe",
+      "kind": "product",
+      "sourceUrl": "https://stripe.com/customers/urbn",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "URBN Consolidates $5 billion in Online and In-Store Revenue onto Stripe | Stripe",
+      "width": 1440,
+      "height": 900,
+      "phash": "791b3b2b1b035359",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
-      "title": "Payments list",
+      "title": "Payments list (1)",
       "caption": "Stripe public surface · docs.stripe.com",
       "kind": "product",
-      "sourceUrl": "https://docs.stripe.com/get-started/account/dashboard"
+      "sourceUrl": "https://docs.stripe.com/get-started/account/dashboard",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Page not found | Stripe Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "80323e362e000044",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
-      "title": "Payment detail",
+      "title": "Payment detail (1)",
       "caption": "Stripe public surface · docs.stripe.com",
       "kind": "product",
-      "sourceUrl": "https://docs.stripe.com/dashboard/basics"
+      "sourceUrl": "https://docs.stripe.com/dashboard/basics",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Web Dashboard | Stripe Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "c8bd9db799bdbd9d",
+      "unique": true
     },
     {
       "file": "surface-3.jpg",
-      "title": "Customers",
+      "title": "Customers (1)",
       "caption": "Stripe public surface · docs.stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.stripe.com/payments"
+      "sourceUrl": "https://docs.stripe.com/payments",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Payments | Stripe Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "bcb8b393f3bc86b6",
+      "unique": true
     },
     {
       "file": "surface-4.jpg",
-      "title": "Developers / Webhooks",
+      "title": "Developers / Webhooks (1)",
       "caption": "Stripe public surface · docs.stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.stripe.com/api"
+      "sourceUrl": "https://docs.stripe.com/api",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe API Reference",
+      "width": 1440,
+      "height": 900,
+      "phash": "e1b29391b391b9b1",
+      "unique": true
     },
     {
       "file": "surface-5.jpg",
-      "title": "Billing products",
+      "title": "Billing products (1)",
       "caption": "Stripe public surface · docs.stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.stripe.com/webhooks"
+      "sourceUrl": "https://docs.stripe.com/webhooks",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Receive Stripe events in your webhook endpoint | Stripe Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "d8959d9d87b59d9d",
+      "unique": true
     },
     {
       "file": "surface-6.jpg",
-      "title": "Supporting surface 6",
+      "title": "Supporting surface 6 (1)",
       "caption": "Stripe public surface · docs.stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.stripe.com/checkout/quickstart"
+      "sourceUrl": "https://docs.stripe.com/checkout/quickstart",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Build a Stripe-hosted checkout page | Stripe Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "b8494c4d414d4149",
+      "unique": true
     },
     {
       "file": "surface-7.jpg",
-      "title": "Supporting surface 7",
+      "title": "Supporting surface 7 (1)",
       "caption": "Stripe public surface · docs.stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.stripe.com/security"
+      "sourceUrl": "https://docs.stripe.com/security",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Security at Stripe | Stripe Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "ccb99d9dbd8d9d9c",
+      "unique": true
     },
     {
       "file": "surface-8.jpg",
-      "title": "Supporting surface 8",
+      "title": "Supporting surface 8 (1)",
       "caption": "Stripe public surface · docs.stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.stripe.com/radar"
+      "sourceUrl": "https://docs.stripe.com/radar",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-8",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Radar | Stripe Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "d8acadb1b19aad8d",
+      "unique": true
     },
     {
       "file": "surface-9.jpg",
-      "title": "Supporting surface 9",
+      "title": "Supporting surface 9 (1)",
       "caption": "Stripe public surface · docs.stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://docs.stripe.com/connect"
+      "sourceUrl": "https://docs.stripe.com/connect",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Platforms and marketplaces with Stripe Connect | Stripe Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "bc8ebebc90bda598",
+      "unique": true
     },
     {
       "file": "surface-10.jpg",
       "title": "Supporting surface 10 (1)",
       "caption": "Stripe public surface · stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://stripe.dev/blog/topic/engineering"
+      "sourceUrl": "https://stripe.dev/blog/topic/engineering",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe | Dev Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "d8c39d9e83978487",
+      "unique": true
     },
     {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
+      "file": "surface-10-band-2.jpg",
+      "title": "Supporting surface 10 (3)",
       "caption": "Stripe public surface · stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://stripe.dev/blog/topic/engineering"
+      "sourceUrl": "https://stripe.dev/blog/topic/engineering",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe | Dev Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "96079b9c8d8d21c1",
+      "unique": true
     },
     {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
+      "file": "surface-10-band-3.jpg",
+      "title": "Supporting surface 10 (4)",
       "caption": "Stripe public surface · stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://stripe.com/pricing"
+      "sourceUrl": "https://stripe.dev/blog/topic/engineering",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe | Dev Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "9ac9c9b1c1722825",
+      "unique": true
     },
     {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
+      "file": "surface-10-band-4.jpg",
+      "title": "Supporting surface 10 (5)",
       "caption": "Stripe public surface · stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://stripe.com/pricing"
+      "sourceUrl": "https://stripe.dev/blog/topic/engineering",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe | Dev Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "ac2d155141372825",
+      "unique": true
+    },
+    {
+      "file": "surface-10-lower.jpg",
+      "title": "Supporting surface 10 (6)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.dev/blog/topic/engineering",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe | Dev Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "a82c575747372f26",
+      "unique": true
+    },
+    {
+      "file": "surface-11-band-2.jpg",
+      "title": "Supporting surface 11 (3)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/pricing",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing & Fees",
+      "width": 1440,
+      "height": 900,
+      "phash": "fdf44a5357535382",
+      "unique": true
+    },
+    {
+      "file": "surface-11-band-3.jpg",
+      "title": "Supporting surface 11 (4)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/pricing",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing & Fees",
+      "width": 1440,
+      "height": 900,
+      "phash": "5303702c2d56594c",
+      "unique": true
+    },
+    {
+      "file": "surface-11-band-4.jpg",
+      "title": "Supporting surface 11 (5)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/pricing",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing & Fees",
+      "width": 1440,
+      "height": 900,
+      "phash": "79495e5b52627252",
+      "unique": true
+    },
+    {
+      "file": "surface-11-lower.jpg",
+      "title": "Supporting surface 11 (6)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/pricing",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing & Fees",
+      "width": 1440,
+      "height": 900,
+      "phash": "29869b872c2c6c52",
+      "unique": true
     },
     {
       "file": "surface-12.jpg",
       "title": "Supporting surface 12 (1)",
       "caption": "Stripe public surface · stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://stripe.com/product"
+      "sourceUrl": "https://stripe.com/product",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Page not found",
+      "width": 1440,
+      "height": 900,
+      "phash": "592639d452525aa0",
+      "unique": true
     },
     {
-      "file": "surface-12-mid.jpg",
-      "title": "Supporting surface 12 (2)",
+      "file": "surface-12-band-2.jpg",
+      "title": "Supporting surface 12 (3)",
       "caption": "Stripe public surface · stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://stripe.com/product"
+      "sourceUrl": "https://stripe.com/product",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Page not found",
+      "width": 1440,
+      "height": 900,
+      "phash": "52cb24d8da0a830b",
+      "unique": true
     },
     {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13 (1)",
+      "file": "surface-12-band-3.jpg",
+      "title": "Supporting surface 12 (4)",
       "caption": "Stripe public surface · stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://stripe.com/products"
-    },
-    {
-      "file": "surface-13-mid.jpg",
-      "title": "Supporting surface 13 (2)",
-      "caption": "Stripe public surface · stripe.com",
-      "kind": "docs",
-      "sourceUrl": "https://stripe.com/products"
+      "sourceUrl": "https://stripe.com/product",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Page not found",
+      "width": 1440,
+      "height": 900,
+      "phash": "0b0b1b0713070c0c",
+      "unique": true
     },
     {
       "file": "surface-14.jpg",
       "title": "Supporting surface 14 (1)",
       "caption": "Stripe public surface · stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://stripe.com/payments"
+      "sourceUrl": "https://stripe.com/payments",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe Payments | Global Payment Processing Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "496e3c3d39620c33",
+      "unique": true
     },
     {
-      "file": "surface-14-mid.jpg",
-      "title": "Supporting surface 14 (2)",
+      "file": "surface-14-band-2.jpg",
+      "title": "Supporting surface 14 (3)",
       "caption": "Stripe public surface · stripe.com",
       "kind": "docs",
-      "sourceUrl": "https://stripe.com/payments"
+      "sourceUrl": "https://stripe.com/payments",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe Payments | Global Payment Processing Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "0c197ff8c3131386",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-3.jpg",
+      "title": "Supporting surface 14 (4)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/payments",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe Payments | Global Payment Processing Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "1380595544001a1a",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-4.jpg",
+      "title": "Supporting surface 14 (5)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/payments",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe Payments | Global Payment Processing Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "0d1b6b1838622226",
+      "unique": true
+    },
+    {
+      "file": "surface-17.jpg",
+      "title": "Supporting surface 17 (1)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/customers",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-17",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Our customers | Stripe",
+      "width": 1440,
+      "height": 900,
+      "phash": "5923242424246467",
+      "unique": true
+    },
+    {
+      "file": "surface-17-band-2.jpg",
+      "title": "Supporting surface 17 (3)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/customers",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-17",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Our customers | Stripe",
+      "width": 1440,
+      "height": 900,
+      "phash": "6465a4441f5b0202",
+      "unique": true
+    },
+    {
+      "file": "surface-17-band-3.jpg",
+      "title": "Supporting surface 17 (4)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/customers",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-17",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Our customers | Stripe",
+      "width": 1440,
+      "height": 900,
+      "phash": "00333315802c6c60",
+      "unique": true
+    },
+    {
+      "file": "surface-17-band-4.jpg",
+      "title": "Supporting surface 17 (5)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/customers",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-17",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Our customers | Stripe",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d600d1b1303131a",
+      "unique": true
+    },
+    {
+      "file": "surface-18.jpg",
+      "title": "Supporting surface 18 (1)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.stripe.com/",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-18",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "9c323171724b4b4b",
+      "unique": true
+    },
+    {
+      "file": "surface-19.jpg",
+      "title": "Supporting surface 19 (1)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://support.stripe.com/",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-19",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe: Help & Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "6323333a323b3c38",
+      "unique": true
+    },
+    {
+      "file": "surface-19-band-3.jpg",
+      "title": "Supporting surface 19 (4)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://support.stripe.com/",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-19",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe: Help & Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "3b3b333b33431330",
+      "unique": true
+    },
+    {
+      "file": "surface-20.jpg",
+      "title": "Supporting surface 20 (1)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/blog",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-20",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe Blog: Online Payment Solutions Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "59c6313632d6fbfb",
+      "unique": true
+    },
+    {
+      "file": "surface-20-band-2.jpg",
+      "title": "Supporting surface 20 (3)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/blog",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-20",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe Blog: Online Payment Solutions Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "d9fbe0522b232363",
+      "unique": true
+    },
+    {
+      "file": "surface-20-band-3.jpg",
+      "title": "Supporting surface 20 (4)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/blog",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-20",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe Blog: Online Payment Solutions Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "2323272323233b31",
+      "unique": true
+    },
+    {
+      "file": "surface-20-band-4.jpg",
+      "title": "Supporting surface 20 (5)",
+      "caption": "Stripe public surface · stripe.com",
+      "kind": "docs",
+      "sourceUrl": "https://stripe.com/blog",
+      "capturedAt": "2026-07-27T22:11:29.687Z",
+      "playbookStep": "surface-20",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Stripe Blog: Online Payment Solutions Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "0b3973030305071b",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-26T22:30:43.313Z",
-    "screenshotCount": 31,
-    "pageCount": 17,
+    "capturedAt": "2026-07-27T22:13:49.944Z",
+    "screenshotCount": 51,
+    "pageCount": 20,
     "pages": [
       {
         "url": "https://stripe.com/",
@@ -302,9 +1054,9 @@
         ]
       },
       {
-        "url": "https://stripe.com/customers/ramp",
-        "title": "Behind the scenes: How Ramp Built a Global Corporate Card Program | Stripe",
-        "description": "With Stripe Issuing, Ramp gained the complete issuing infrastructure it needed to embed card functionality into its platform.",
+        "url": "https://stripe.com/customers/urbn",
+        "title": "URBN Consolidates $5 billion in Online and In-Store Revenue onto Stripe | Stripe",
+        "description": "Stripe’s adaptable platform allowed each brand in URBN’s diverse portfolio, including Urban Outfitters, Anthropologie, and Free People, to maintain its unique identity while benefiting from a centralized payment infrastructure.",
         "headings": [
           "Stripe logo",
           "Payments",
@@ -312,18 +1064,18 @@
           "Money Management",
           "Platforms and marketplaces",
           "More",
-          "Behind the scenes: How Ramp built a global corporate card program with Stripe",
+          "URBN consolidates $5 billion in online and in-store revenue onto Stripe",
           "Products used",
-          "50,000+ businesses",
-          "2 million",
-          "$10 billion",
-          "27.5 million hours",
+          "99.999%",
+          "5+",
+          "700+",
           "Ready to get started?",
-          "Building a scalable issuing stack with Stripe",
-          "Expanding Ramp’s card program across the UK and EEA",
-          "Read more customer stories",
-          "Ray studios solves local regulation payment issue with Stripe",
-          "Re-Leased uses Stripe to help digitise $15bn of rent collection"
+          "Challenge",
+          "Solution",
+          "Results",
+          "Tailored solutions accommodate multibrand complexity",
+          "Stripe reliability supports peak promotional periods",
+          "Future-proofing retail operations through a commitment to innovation"
         ],
         "navLabels": [
           "Stripe logo",
@@ -873,74 +1625,6 @@
         ]
       },
       {
-        "url": "https://stripe.com/products",
-        "title": "Page not found",
-        "headings": [
-          "Stripe logo",
-          "Payments",
-          "Revenue",
-          "Money Management",
-          "Platforms and marketplaces",
-          "More",
-          "Page not found",
-          "Pricing",
-          "Jobs",
-          "Documentation",
-          "API Reference",
-          "System status",
-          "Support",
-          "Products & pricing",
-          "Solutions",
-          "Integrations & custom solutions",
-          "Developers",
-          "Resources",
-          "Company"
-        ],
-        "navLabels": [
-          "Stripe logo",
-          "Products",
-          "Solutions",
-          "Developers",
-          "Resources",
-          "Pricing",
-          "Sign in",
-          "Contact sales",
-          "Back",
-          "Payments Online payments",
-          "Managed Payments Merchant of record solution",
-          "Payment links No-code payments",
-          "Checkout Prebuilt payment UIs",
-          "Elements Flexible UI components",
-          "Payment methods Access to 100+",
-          "Terminal In-person payments",
-          "Radar Fraud prevention",
-          "Authorization Boost Acceptance optimizations",
-          "Link Accelerated checkout",
-          "Billing Recurring revenue",
-          "Metronome Usage-based billing",
-          "Subscriptions Subscription management",
-          "Invoicing One-time or recurring",
-          "Tax Sales tax & VAT automation"
-        ],
-        "ctas": [
-          "Pricing",
-          "Sign in",
-          "Contact sales",
-          "Atlas Startup incorporation",
-          "Startups",
-          "Start now",
-          "Pricing See rates for all Stripe products, including payments and billing.",
-          "Jobs Explore open roles at Stripe.",
-          "Support Find support articles or contact our team."
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "aside",
-          "footer"
-        ]
-      },
-      {
         "url": "https://stripe.com/payments",
         "title": "Stripe Payments | Global Payment Processing Platform",
         "description": "Capture more revenue with a unified payments solution that eliminates the need for one-off merchant account, payment gateway, and processor integrations.",
@@ -1014,6 +1698,202 @@
           "header",
           "nav",
           "aside",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://stripe.com/customers",
+        "title": "Our customers | Stripe",
+        "description": "Learn about Stripe customers and why millions of global businesses have chosen Stripe as their payments platform.",
+        "headings": [
+          "Stripe logo",
+          "Payments",
+          "Revenue",
+          "Money Management",
+          "Platforms and marketplaces",
+          "More",
+          "The payments platform behind millions of businesses",
+          "We help customers achieve measurable results",
+          "$70M",
+          "6 months faster",
+          "10%",
+          "12 new countries",
+          "Customers by size",
+          "Companies of all sizes around the world use Stripe",
+          "Weeks to minutes",
+          "2-5x faster",
+          "Products used",
+          "5 million+",
+          "50,000+"
+        ],
+        "navLabels": [
+          "Stripe logo",
+          "Products",
+          "Solutions",
+          "Developers",
+          "Resources",
+          "Pricing",
+          "Sign in",
+          "Contact sales",
+          "Back",
+          "Payments Online payments",
+          "Managed Payments Merchant of record solution",
+          "Payment links No-code payments",
+          "Checkout Prebuilt payment UIs",
+          "Elements Flexible UI components",
+          "Payment methods Access to 100+",
+          "Terminal In-person payments",
+          "Radar Fraud prevention",
+          "Authorization Boost Acceptance optimizations",
+          "Link Accelerated checkout",
+          "Billing Recurring revenue",
+          "Metronome Usage-based billing",
+          "Subscriptions Subscription management",
+          "Invoicing One-time or recurring",
+          "Tax Sales tax & VAT automation"
+        ],
+        "ctas": [
+          "Pricing",
+          "Sign in",
+          "Contact sales",
+          "Atlas Startup incorporation",
+          "Startups",
+          "Start now",
+          "Startup",
+          "KeyMe logo Read story KeyMe disrupts the locksmith industry with Stripe",
+          "Pricing details"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "aside",
+          "nav:Breadcrumb",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://docs.stripe.com/",
+        "title": "Stripe Documentation",
+        "description": "Explore our guides and examples to integrate Stripe.",
+        "headings": [
+          "Documentation",
+          "Payments",
+          "Revenue",
+          "Developers",
+          "Try it out",
+          "Browse by product"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Create account",
+          "Sign in",
+          "Search/",
+          "Get started",
+          "Get started with Stripe",
+          "Explore all products",
+          "create an account",
+          "Offer usage-based pricing",
+          "Integration quickstarts",
+          "Start a payment",
+          "Start a checkout session",
+          "Create a customer",
+          "Learn more about Payment Intents",
+          "AtlasStartup incorporation",
+          "Contact Support",
+          "Contact Sales"
+        ],
+        "landmarks": [
+          "footer"
+        ]
+      },
+      {
+        "url": "https://support.stripe.com/",
+        "title": "Stripe: Help & Support",
+        "description": "**Popular articles**",
+        "headings": [
+          "How can we help?"
+        ],
+        "navLabels": [
+          "Docs",
+          "APIs & SDKs",
+          "Create account",
+          "Sign in"
+        ],
+        "ctas": [
+          "Create account",
+          "Sign in",
+          "Getting started",
+          "Contact support24×7 help from our support staff"
+        ],
+        "landmarks": [
+          "header",
+          "navigation",
+          "main"
+        ]
+      },
+      {
+        "url": "https://stripe.com/blog",
+        "title": "Stripe Blog: Online Payment Solutions Blog",
+        "description": "Follow the Stripe blog to learn about new product features, the latest in technology, payment solutions, and business initiatives.",
+        "headings": [
+          "Stripe logo",
+          "Payments",
+          "Revenue",
+          "Money Management",
+          "Platforms and marketplaces",
+          "More",
+          "Industry",
+          "Analyzing the evidence that helps businesses win “product not received” disputes",
+          "Four travel and hospitality trends from HITEC 2026",
+          "What Link data tells us about AI spending",
+          "Product",
+          "Recent highlights",
+          "Rethinking risk in the age of AI",
+          "The future of agentic commerce is here",
+          "Introducing next-day settlement, a faster way to access your earnings",
+          "PayTo available in Australia"
+        ],
+        "navLabels": [
+          "Stripe logo",
+          "Products",
+          "Solutions",
+          "Developers",
+          "Resources",
+          "Pricing",
+          "Sign in",
+          "Contact sales",
+          "Back",
+          "Payments Online payments",
+          "Managed Payments Merchant of record solution",
+          "Payment links No-code payments",
+          "Checkout Prebuilt payment UIs",
+          "Elements Flexible UI components",
+          "Payment methods Access to 100+",
+          "Terminal In-person payments",
+          "Radar Fraud prevention",
+          "Authorization Boost Acceptance optimizations",
+          "Link Accelerated checkout",
+          "Billing Recurring revenue",
+          "Metronome Usage-based billing",
+          "Subscriptions Subscription management",
+          "Invoicing One-time or recurring",
+          "Tax Sales tax & VAT automation"
+        ],
+        "ctas": [
+          "Pricing",
+          "Sign in",
+          "Contact sales",
+          "Atlas Startup incorporation",
+          "Startups",
+          "Start now",
+          "Industry",
+          "Learn more"
+        ],
+        "landmarks": [
+          "header",
+          "nav",
+          "aside",
+          "nav:Breadcrumb",
           "footer"
         ]
       }
@@ -1103,10 +1983,10 @@
       "Money Management",
       "Platforms and marketplaces",
       "More",
-      "Behind the scenes: How Ramp built a global corporate card program with Stripe",
+      "URBN consolidates $5 billion in online and in-store revenue onto Stripe",
       "Products used",
-      "50,000+ businesses",
-      "2 million"
+      "99.999%",
+      "5+"
     ],
     "techSignals": [
       "Next.js",
@@ -1134,12 +2014,12 @@
       "Platforms and marketplaces",
       "More",
       "Products used",
-      "50,000+ businesses",
-      "2 million",
+      "99.999%",
       "Pricing",
       "Start now",
       "Contact sales",
-      "Get started"
+      "Get started",
+      "Stripe for startups"
     ],
     "patternCandidates": [
       "Pricing display",
@@ -1150,7 +2030,8 @@
       "Dashboard",
       "Map view",
       "Search",
-      "Filters"
+      "Filters",
+      "Messaging"
     ],
     "platformsDetected": [
       "web",
@@ -1158,6 +2039,6 @@
       "api",
       "cli"
     ],
-    "summary": "Captured 31 screenshots across 17 public URLs. Nav signals: Products, Solutions, Developers, Resources, Pricing, Sign in. Tech signals: Next.js, Webpack, Stripe, React, Vite. UI patterns: Pricing display, Tabs, Card layout, Checkout, Authentication, Dashboard."
+    "summary": "Captured 51 screenshots across 20 public URLs. Nav signals: Products, Solutions, Developers, Resources, Pricing, Sign in. Tech signals: Next.js, Webpack, Stripe, React, Vite. UI patterns: Pricing display, Tabs, Card layout, Checkout, Authentication, Dashboard."
   }
 }

@@ -19,7 +19,7 @@
 import { config } from "dotenv";
 import { eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/postgres-js";
-import { existsSync, mkdirSync, writeFileSync } from "fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import postgres from "postgres";
 import { chromium, type Locator, type Page } from "playwright";
@@ -1036,24 +1036,92 @@ async function captureProduct(
     }
   }
 
+  // Soft-merge local manifest so a thin re-capture never drops prior shot records
+  const manifestPath = join(dir, "manifest.json");
+  let priorShots: CaptureShot[] = [];
+  if (existsSync(manifestPath)) {
+    try {
+      const priorManifest = JSON.parse(
+        readFileSync(manifestPath, "utf8"),
+      ) as { shots?: CaptureShot[]; screenshots?: CaptureShot[] };
+      priorShots = priorManifest.shots ?? priorManifest.screenshots ?? [];
+    } catch {
+      /* ignore corrupt prior manifest */
+    }
+  }
+
+  const byFile = new Map<string, CaptureShot>();
+  for (const shot of priorShots) {
+    if (shot?.file) byFile.set(shot.file, shot);
+  }
+  for (const shot of captured) {
+    byFile.set(shot.file, shot);
+  }
+  const mergedShots = [...byFile.values()];
+
   const insights = aggregateInsights({
     pages: [...bag.pages.values()],
-    screenshotCount: captured.length,
+    screenshotCount: mergedShots.length,
     techSignals: [...bag.tech],
     patternCandidates: [...bag.patterns],
     platformsDetected: [...bag.platforms],
   });
 
+  // Prefer richer prior insights when this run was thin / blocked
+  let mergedInsights = insights;
+  const insightsPath = join(dir, "insights.json");
+  if (existsSync(insightsPath)) {
+    try {
+      const priorInsights = JSON.parse(
+        readFileSync(insightsPath, "utf8"),
+      ) as typeof insights;
+      if (
+        (priorInsights.pageCount ?? 0) > insights.pageCount ||
+        (priorInsights.pages?.length ?? 0) > (insights.pages?.length ?? 0)
+      ) {
+        mergedInsights = {
+          ...priorInsights,
+          screenshotCount: mergedShots.length,
+          capturedAt: insights.capturedAt,
+          featureCandidates: mergeUnique(
+            priorInsights.featureCandidates ?? [],
+            insights.featureCandidates ?? [],
+            24,
+          ),
+          patternCandidates: mergeUnique(
+            priorInsights.patternCandidates ?? [],
+            insights.patternCandidates ?? [],
+            16,
+          ),
+          techSignals: mergeUnique(
+            priorInsights.techSignals ?? [],
+            insights.techSignals ?? [],
+            16,
+          ),
+          platformsDetected: mergeUnique(
+            priorInsights.platformsDetected ?? [],
+            insights.platformsDetected ?? [],
+            6,
+          ) as typeof insights.platformsDetected,
+          summary: `Captured ${mergedShots.length} screenshots across ${Math.max(priorInsights.pageCount ?? 0, insights.pageCount)} public URLs.`,
+        };
+      }
+    } catch {
+      /* ignore */
+    }
+  }
+
   writeFileSync(
-    join(dir, "manifest.json"),
+    manifestPath,
     JSON.stringify(
       {
         slug: product.slug,
-        capturedAt: insights.capturedAt,
-        shots: captured,
-        insights,
+        capturedAt: mergedInsights.capturedAt,
+        shots: mergedShots,
+        insights: mergedInsights,
         fallback:
-          blockedNavigations > 0 || captured.some((s) => s.file.startsWith("fallback-"))
+          blockedNavigations > 0 ||
+          mergedShots.some((s) => s.file.startsWith("fallback-"))
             ? { blockedNavigations }
             : undefined,
       },
@@ -1061,10 +1129,10 @@ async function captureProduct(
       2,
     ),
   );
-  writeFileSync(join(dir, "insights.json"), JSON.stringify(insights, null, 2));
+  writeFileSync(insightsPath, JSON.stringify(mergedInsights, null, 2));
 
-  await syncDb(product, captured, insights);
-  return captured;
+  await syncDb(product, mergedShots, mergedInsights);
+  return mergedShots;
 }
 
 async function main() {

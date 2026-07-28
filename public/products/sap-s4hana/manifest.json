@@ -1,439 +1,103 @@
 {
   "slug": "sap-s4hana",
-  "capturedAt": "2026-07-27T00:20:05.146Z",
+  "capturedAt": "2026-07-27T22:51:38.664Z",
   "shots": [
-    {
-      "file": "surface-1.jpg",
-      "title": "Manage Purchase Orders",
-      "caption": "SAP S/4HANA public surface · help.sap.com",
-      "kind": "product",
-      "sourceUrl": "https://help.sap.com/docs/SAP_S4HANA_CLOUD?locale=en-US&state=PRODUCTION&version=2608.500"
-    },
-    {
-      "file": "surface-2.jpg",
-      "title": "Material master (1)",
-      "caption": "SAP S/4HANA public surface · api.sap.com",
-      "kind": "product",
-      "sourceUrl": "https://api.sap.com/"
-    },
-    {
-      "file": "surface-2-mid.jpg",
-      "title": "Material master (2)",
-      "caption": "SAP S/4HANA public surface · api.sap.com",
-      "kind": "product",
-      "sourceUrl": "https://api.sap.com/"
-    },
-    {
-      "file": "surface-3.jpg",
-      "title": "Journal entry (1)",
-      "caption": "SAP S/4HANA public surface · help.sap.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE"
-    },
-    {
-      "file": "surface-3-mid.jpg",
-      "title": "Journal entry (2)",
-      "caption": "SAP S/4HANA public surface · help.sap.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE"
-    },
-    {
-      "file": "surface-4.jpg",
-      "title": "Analytics overview (1)",
-      "caption": "SAP S/4HANA public surface · help.sap.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.sap.com/docs/SAP_FIORI"
-    },
-    {
-      "file": "surface-4-mid.jpg",
-      "title": "Analytics overview (2)",
-      "caption": "SAP S/4HANA public surface · help.sap.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.sap.com/docs/SAP_FIORI"
-    },
-    {
-      "file": "surface-5.jpg",
-      "title": "My Inbox approvals (1)",
-      "caption": "SAP S/4HANA public surface · learning.sap.com",
-      "kind": "docs",
-      "sourceUrl": "https://learning.sap.com/"
-    },
-    {
-      "file": "surface-5-mid.jpg",
-      "title": "My Inbox approvals (2)",
-      "caption": "SAP S/4HANA public surface · learning.sap.com",
-      "kind": "docs",
-      "sourceUrl": "https://learning.sap.com/"
-    },
     {
       "file": "fallback-og-1.jpg",
       "title": "Marketing preview",
       "caption": "Open Graph image (fallback when live UI capture was thin)",
       "kind": "marketing",
-      "sourceUrl": "https://www.sap.com/products/erp/s4hana.html"
+      "sourceUrl": "https://www.sap.com/products/erp/s4hana.html",
+      "capturedAt": "2026-07-27T22:51:30.382Z",
+      "playbookStep": "web-fallback",
+      "width": 300,
+      "height": 300,
+      "phash": "0056a929d69c6804",
+      "unique": true
     },
     {
       "file": "fallback-yt-U92jH395wnQ-poster.jpg",
       "title": "YouTube poster (U92jH395wnQ)",
       "caption": "YouTube poster · https://www.youtube.com/watch?v=U92jH395wnQ",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=U92jH395wnQ"
+      "sourceUrl": "https://www.youtube.com/watch?v=U92jH395wnQ",
+      "capturedAt": "2026-07-27T22:51:30.382Z",
+      "playbookStep": "web-fallback",
+      "width": 1280,
+      "height": 720,
+      "phash": "116f6ff292929268",
+      "unique": true
     },
     {
       "file": "fallback-yt-U92jH395wnQ-frame-0.jpg",
       "title": "YouTube frame still (U92jH395wnQ)",
       "caption": "YouTube frame-0 · https://www.youtube.com/watch?v=U92jH395wnQ",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=U92jH395wnQ"
+      "sourceUrl": "https://www.youtube.com/watch?v=U92jH395wnQ",
+      "capturedAt": "2026-07-27T22:51:30.382Z",
+      "playbookStep": "web-fallback",
+      "width": 480,
+      "height": 360,
+      "phash": "00116f4e9292e802",
+      "unique": true
     },
     {
       "file": "fallback-yt-U92jH395wnQ-frame-1.jpg",
       "title": "YouTube frame still (U92jH395wnQ)",
       "caption": "YouTube frame-1 · https://www.youtube.com/watch?v=U92jH395wnQ",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=U92jH395wnQ"
+      "sourceUrl": "https://www.youtube.com/watch?v=U92jH395wnQ",
+      "capturedAt": "2026-07-27T22:51:30.382Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "26b2a6a692a6a634",
+      "unique": true
     },
     {
       "file": "fallback-yt-U92jH395wnQ-frame-2.jpg",
       "title": "YouTube frame still (U92jH395wnQ)",
       "caption": "YouTube frame-2 · https://www.youtube.com/watch?v=U92jH395wnQ",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=U92jH395wnQ"
+      "sourceUrl": "https://www.youtube.com/watch?v=U92jH395wnQ",
+      "capturedAt": "2026-07-27T22:51:30.382Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "81196f669a9af061",
+      "unique": true
     },
     {
       "file": "fallback-yt-U92jH395wnQ-frame-3.jpg",
       "title": "YouTube frame still (U92jH395wnQ)",
       "caption": "YouTube frame-3 · https://www.youtube.com/watch?v=U92jH395wnQ",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=U92jH395wnQ"
+      "sourceUrl": "https://www.youtube.com/watch?v=U92jH395wnQ",
+      "capturedAt": "2026-07-27T22:51:30.382Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "5a9e9ada9a99d99e",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T00:20:05.146Z",
-    "screenshotCount": 15,
-    "pageCount": 5,
-    "pages": [
-      {
-        "url": "https://help.sap.com/docs/SAP_S4HANA_CLOUD?locale=en-US&state=PRODUCTION&version=2608.500",
-        "title": "SAP Help Portal | SAP Online Help | SAP Help Portal",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "header",
-          "main",
-          "contentinfo",
-          "dialog:consent banner"
-        ]
-      },
-      {
-        "url": "https://api.sap.com/",
-        "title": "SAP Business Accelerator Hub",
-        "description": "SAP Business Accelerator Hub - Explore, discover and consume APIs, pre-packaged Integrations, Business Services and sample apps",
-        "headings": [
-          "Explore",
-          "Resources",
-          "Help",
-          "Site Information"
-        ],
-        "navLabels": [
-          "Integrations",
-          "Data Products",
-          "SAP Build",
-          "Analytics",
-          "Explore",
-          "Products",
-          "Artificial Intelligence",
-          "Categories",
-          "Domains",
-          "Industries",
-          "Partners",
-          "MoreCommunity Process Blueprints",
-          "Community",
-          "Process Blueprints"
-        ],
-        "ctas": [
-          "EventsExplore all events in the SAP Business Accelerator Hub.496 Event Objects",
-          "CDS ViewsExplore CDS view content from SAP.19122 CDS Views",
-          "Integrations Explore integrations between different products. 5108 Integrations",
-          "LEARN MORE",
-          "SAP Road Map Explorer"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "dialog:dialog-title",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE",
-        "title": "SAP S/4HANA | SAP Help Portal | SAP Help Portal",
-        "description": "SAP S/4HANA is an enterprise resource planning solution based on SAP HANA database allowing an on-premise operating. This means that you, the customer, take care of the installation, upgrade and operation of the software on your company’s infrastructure.",
-        "headings": [
-          "SAP S/4HANA",
-          "Discover",
-          "Feature Scope Description",
-          "Getting Started",
-          "Product Assistance",
-          "SAP Best Practices",
-          "Compatibility Packs",
-          "What's New",
-          "Implement",
-          "Guides",
-          "Conversion & Upgrade Assets",
-          "Data Migration",
-          "Integrate",
-          "Products with Integration Capability",
-          "Need to Know",
-          "Discover SAP S/4HANA",
-          "Additional Information",
-          "SAP S/4HANA Product Family",
-          "Training and Education"
-        ],
-        "navLabels": [
-          "Search Scope",
-          "More"
-        ],
-        "ctas": [
-          "Provide feedback on our search",
-          "Search Scope",
-          "Download PDF",
-          "Getting Started Guide",
-          "PLM system integration, add-on for 3DEXPERIENCE",
-          "PLM system integration, add-on for Autodesk Vault",
-          "PLM system integration, add-on for Windchill",
-          "SAP Cash Application, add-on for contract accounting",
-          "SAP Digital Payments Add-On",
-          "SAP Omnichannel Promotion Pricing",
-          "SAP S/4HANA for Product Sourcing, Contract Price Renegotiation add-on"
-        ],
-        "landmarks": [
-          "header",
-          "main",
-          "nav:Filters",
-          "aside",
-          "contentinfo",
-          "dialog:consent banner"
-        ]
-      },
-      {
-        "url": "https://help.sap.com/docs/SAP_FIORI",
-        "title": "SAP Fiori for SAP Business Suite | SAP Help Portal | SAP Help Portal",
-        "description": "SAP Fiori for SAP Business Suite",
-        "headings": [
-          "SAP Fiori for SAP Business Suite",
-          "Discover",
-          "Implementation Information for SAP Fiori for SAP Business Suite",
-          "General SAP Fiori Implementation Information",
-          "SAP Fiori App Reference Library",
-          "SAP Fiori Products for SAP ERP",
-          "SAP Fiori for SAP CRM",
-          "SAP Fiori for SAP GRC",
-          "SAP Fiori for SAP SRM",
-          "SAP Fiori for SAP SCM",
-          "More SAP Fiori Products for SAP Business Suite",
-          "Additional Information"
-        ],
-        "navLabels": [
-          "Search Scope",
-          "More"
-        ],
-        "ctas": [
-          "Provide feedback on our search",
-          "Search Scope"
-        ],
-        "landmarks": [
-          "header",
-          "main",
-          "nav:Filters",
-          "aside",
-          "contentinfo",
-          "dialog:consent banner"
-        ]
-      },
-      {
-        "url": "https://learning.sap.com/",
-        "title": "Learn SAP skills | SAP Learning",
-        "description": "SAP Learning offers self-paced and premium learning resources for anyone who wants to build in-demand SAP skills and prepare for an SAP Certification.",
-        "headings": [
-          "Upskill faster with AI-powered assistance",
-          "SAP Certification",
-          "Master SAP with guided learning",
-          "Lead the way with SAP",
-          "Empower your potential with SAP",
-          "What would you like to learn today?",
-          "Latest resources",
-          "Developing a Universe using SAP BusinessObjects Information Design Tool",
-          "Positioning SAP Solutions for Business Network Solutions",
-          "Positioning SAP Solutions for Business Network Solutions for Partners",
-          "Commerce and S/4HANA End to End Integration",
-          "Discovering Procurement Solutions",
-          "Explore SAP SuccessFactors Solutions",
-          "Build skills in the topics that matter now",
-          "Artificial Intelligence",
-          "Technology platform",
-          "SAP Business Data Cloud",
-          "Autonomous Enterprise",
-          "Most popular certifications",
-          "SAP Certified - Positioning the Autonomous Enterprise"
-        ],
-        "navLabels": [
-          "Learning journeys",
-          "Self-paced courses",
-          "Live sessions",
-          "Hands-on practice",
-          "Videos",
-          "Instructor-led training"
-        ],
-        "ctas": [
-          "Log in",
-          "Learn more",
-          "Explore the benefits",
-          "Explore now",
-          "Explore resources",
-          "Join SAP Community",
-          "Join now",
-          "Explore topics"
-        ],
-        "landmarks": [
-          "main",
-          "nav",
-          "header",
-          "footer",
-          "nav:Find the right learning assets for your growth",
-          "contentinfo:Footer"
-        ]
-      }
-    ],
-    "navLabels": [
-      "Integrations",
-      "Data Products",
-      "SAP Build",
-      "Analytics",
-      "Explore",
-      "Products",
-      "Artificial Intelligence",
-      "Categories",
-      "Domains",
-      "Industries",
-      "Partners",
-      "MoreCommunity Process Blueprints",
-      "Community",
-      "Process Blueprints",
-      "Search Scope",
-      "More",
-      "Learning journeys",
-      "Self-paced courses",
-      "Live sessions",
-      "Hands-on practice",
-      "Videos",
-      "Instructor-led training"
-    ],
-    "ctas": [
-      "EventsExplore all events in the SAP Business Accelerator Hub.496 Event Objects",
-      "CDS ViewsExplore CDS view content from SAP.19122 CDS Views",
-      "Integrations Explore integrations between different products. 5108 Integrations",
-      "LEARN MORE",
-      "SAP Road Map Explorer",
-      "Provide feedback on our search",
-      "Search Scope",
-      "Download PDF",
-      "Getting Started Guide",
-      "PLM system integration, add-on for 3DEXPERIENCE",
-      "PLM system integration, add-on for Autodesk Vault",
-      "PLM system integration, add-on for Windchill",
-      "SAP Cash Application, add-on for contract accounting",
-      "SAP Digital Payments Add-On",
-      "SAP Omnichannel Promotion Pricing",
-      "SAP S/4HANA for Product Sourcing, Contract Price Renegotiation add-on",
-      "Log in",
-      "Explore the benefits",
-      "Explore now",
-      "Explore resources",
-      "Join SAP Community",
-      "Join now",
-      "Explore topics"
-    ],
-    "headings": [
-      "Explore",
-      "Resources",
-      "Help",
-      "Site Information",
-      "SAP S/4HANA",
-      "Discover",
-      "Feature Scope Description",
-      "Getting Started",
-      "Product Assistance",
-      "SAP Best Practices",
-      "Compatibility Packs",
-      "What's New",
-      "Implement",
-      "Guides",
-      "Conversion & Upgrade Assets",
-      "Data Migration",
-      "Integrate",
-      "Products with Integration Capability",
-      "Need to Know",
-      "Discover SAP S/4HANA",
-      "Additional Information",
-      "SAP S/4HANA Product Family",
-      "Training and Education",
-      "SAP Fiori for SAP Business Suite",
-      "Implementation Information for SAP Fiori for SAP Business Suite",
-      "General SAP Fiori Implementation Information",
-      "SAP Fiori App Reference Library",
-      "SAP Fiori Products for SAP ERP",
-      "SAP Fiori for SAP CRM",
-      "SAP Fiori for SAP GRC"
-    ],
-    "techSignals": [
-      "Next.js",
-      "Webpack"
-    ],
-    "featureCandidates": [
-      "Explore",
-      "Resources",
-      "Help",
-      "Site Information",
-      "SAP S/4HANA",
-      "Discover",
-      "Feature Scope Description",
-      "Getting Started",
-      "Product Assistance",
-      "SAP Best Practices",
-      "Compatibility Packs",
-      "What's New",
-      "Implement",
-      "Guides",
-      "Conversion & Upgrade Assets",
-      "Data Migration",
-      "Integrate",
-      "Products with Integration Capability",
-      "Need to Know",
-      "Discover SAP S/4HANA",
-      "Additional Information",
-      "SAP S/4HANA Product Family",
-      "Training and Education",
-      "SAP Fiori for SAP Business Suite"
-    ],
-    "patternCandidates": [
-      "Map view",
-      "Tabs",
-      "Dashboard",
-      "Search",
-      "Pricing display",
-      "Filters",
-      "Messaging",
-      "Authentication"
-    ],
+    "capturedAt": "2026-07-27T22:51:38.664Z",
+    "screenshotCount": 6,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
     "platformsDetected": [
-      "web",
-      "api"
+      "web"
     ],
-    "summary": "Captured 15 screenshots across 5 public URLs. Nav signals: Integrations, Data Products, SAP Build, Analytics, Explore, Products. Tech signals: Next.js, Webpack. UI patterns: Map view, Tabs, Dashboard, Search, Pricing display, Filters."
+    "summary": "Captured 6 screenshots across 0 public URLs."
   },
   "fallback": {
-    "blockedNavigations": 8
+    "blockedNavigations": 0
   }
 }

@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-07-26T22:26:46.249Z",
-  "screenshotCount": 34,
-  "pageCount": 16,
+  "capturedAt": "2026-07-27T22:21:08.386Z",
+  "screenshotCount": 57,
+  "pageCount": 18,
   "pages": [
     {
       "url": "https://linear.app/",
@@ -86,12 +86,17 @@
       "landmarks": []
     },
     {
-      "url": "https://linear.app/changelog/2026-07-23-agent-assisted-editing",
-      "title": "Text attribution and agent-assisted editing – Changelog",
-      "description": "Linear changelog - New updates and improvements to Linear.",
+      "url": "https://linear.app/customers/opendoor",
+      "title": "How Opendoor is rebuilding its product culture with Linear",
+      "description": "Kaz Nejatian, the new CEO of Opendoor, was in the middle of a very public turnaround. Investors were watching, and there was a long list of things to fix. And yet, one of his first moves was to change the project management software his team was using to build Opendoor’s product.",
       "headings": [
-        "Text attribution and agent-assisted editing",
-        "Refreshed issue sidebar⁠",
+        "How Opendoor is rebuilding its product culture with Linear",
+        "Lessons from Shopify⁠",
+        "Opendoor had Jira, but no one used it the same way⁠",
+        "A manifesto for building products⁠",
+        "Making work legible at Opendoor⁠",
+        "Tools shape how you work⁠",
+        "Opendoor chose to start fresh⁠",
         "Product",
         "Features",
         "Company",
@@ -109,7 +114,9 @@
         "Docs",
         "Open app",
         "Log in",
-        "Sign up"
+        "Sign up",
+        "PreviousDandelion",
+        "NextPleo"
       ],
       "ctas": [
         "Pricing",
@@ -124,6 +131,7 @@
         "header",
         "nav:Main",
         "main",
+        "nav",
         "footer"
       ]
     },
@@ -386,7 +394,6 @@
         "Log in",
         "Explorer",
         "Run in Explorer",
-        "ProjectSearchResult",
         "Filter Icon"
       ],
       "landmarks": [
@@ -507,92 +514,6 @@
         "header",
         "footer",
         "aside"
-      ]
-    },
-    {
-      "url": "https://linear.app/docs/permissions",
-      "title": "",
-      "headings": [
-        "Not found"
-      ],
-      "navLabels": [
-        "Docs",
-        "Sign up",
-        "Open app",
-        "Getting started",
-        "Account",
-        "AI",
-        "Your sidebar",
-        "Teams",
-        "Issues",
-        "Issue properties",
-        "Projects",
-        "Initiatives",
-        "Cycles",
-        "Views",
-        "Find and filter",
-        "Linear Asks",
-        "Integrations",
-        "Analytics",
-        "Administration",
-        "Developers",
-        "Learn",
-        "Contact support"
-      ],
-      "ctas": [
-        "Sign up",
-        "Getting started",
-        "Find and filter",
-        "Contact support"
-      ],
-      "landmarks": [
-        "main",
-        "nav",
-        "header",
-        "footer"
-      ]
-    },
-    {
-      "url": "https://linear.app/docs/imports",
-      "title": "",
-      "headings": [
-        "Not found"
-      ],
-      "navLabels": [
-        "Docs",
-        "Sign up",
-        "Open app",
-        "Getting started",
-        "Account",
-        "AI",
-        "Your sidebar",
-        "Teams",
-        "Issues",
-        "Issue properties",
-        "Projects",
-        "Initiatives",
-        "Cycles",
-        "Views",
-        "Find and filter",
-        "Linear Asks",
-        "Integrations",
-        "Analytics",
-        "Administration",
-        "Developers",
-        "Learn",
-        "Contact support"
-      ],
-      "ctas": [
-        "Sign up",
-        "Getting started",
-        "Find and filter",
-        "Contact support"
-      ],
-      "landmarks": [
-        "main",
-        "nav",
-        "header",
-        "footer"
       ]
     },
     {
@@ -761,21 +682,262 @@
       ]
     },
     {
-      "url": "https://linear.app/product",
-      "title": "Linear",
+      "url": "https://linear.app/features",
+      "title": "Features – Linear",
+      "description": "Linear is the system for modern product development. Streamline work across the entire development cycle, from roadmap to release.",
       "headings": [
-        "Log in to Linear"
+        "Planning",
+        "Building",
+        "Artificial intelligence",
+        "Insights",
+        "Mobile",
+        "Customer Requests",
+        "Linear Asks",
+        "Security",
+        "Plan the present. Build the future.",
+        "Product",
+        "Features",
+        "Company",
+        "Resources",
+        "Connect",
+        "Legal"
       ],
-      "navLabels": [],
+      "navLabels": [
+        "Product",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Now",
+        "Contact",
+        "Docs",
+        "Open app",
+        "Log in",
+        "Sign up"
+      ],
       "ctas": [
-        "Continue with Google",
-        "Continue with email",
-        "Continue with SAML SSO",
-        "Log in with passkey",
+        "Pricing",
+        "Contact",
+        "Log in",
         "Sign up",
-        "learn more"
+        "Contact sales",
+        "Get started",
+        "Download",
+        "Startups",
+        "Contact us"
       ],
-      "landmarks": []
+      "landmarks": [
+        "header",
+        "nav:Main",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://linear.app/customers",
+      "title": "Linear Customers",
+      "description": "Meet the startups and enterprises that choose Linear to build products better.",
+      "headings": [
+        "Customers",
+        "Built for the future. Available today.",
+        "Product",
+        "Features",
+        "Company",
+        "Resources",
+        "Connect",
+        "Legal"
+      ],
+      "navLabels": [
+        "Product",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Now",
+        "Contact",
+        "Docs",
+        "Open app",
+        "Log in",
+        "Sign up"
+      ],
+      "ctas": [
+        "Pricing",
+        "Contact",
+        "Log in",
+        "Sign up",
+        "Learn more →",
+        "Get started",
+        "Contact sales",
+        "Download",
+        "Startups",
+        "Contact us"
+      ],
+      "landmarks": [
+        "header",
+        "nav:Main",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://linear.app/docs",
+      "title": "Linear Docs",
+      "description": "This guide is intended to give you an overview of Linear's features, discover their flexibility, and provide tips for how to use Linear to improve the speed, value, and joy of your work.",
+      "headings": [
+        "Linear Docs",
+        "Popular",
+        "Start Guide",
+        "Import Issues",
+        "Projects",
+        "GitHub Automations",
+        "Linear basics",
+        "Workflows",
+        "Select Issues",
+        "Issue Relations",
+        "Display Options",
+        "Triage",
+        "Parent and Sub-Issues",
+        "Notifications",
+        "Teams"
+      ],
+      "navLabels": [
+        "Docs",
+        "Sign up",
+        "Open app",
+        "Getting started",
+        "Account",
+        "AI",
+        "Your sidebar",
+        "Teams",
+        "Issues",
+        "Issue properties",
+        "Projects",
+        "Initiatives",
+        "Cycles",
+        "Views",
+        "Find and filter",
+        "Linear Asks",
+        "Integrations",
+        "Analytics",
+        "Administration",
+        "Developers",
+        "Learn",
+        "Contact support"
+      ],
+      "ctas": [
+        "Sign up",
+        "Getting started",
+        "Find and filter",
+        "Contact support",
+        "WorkflowsCreate new statuses and design custom issue workflows"
+      ],
+      "landmarks": [
+        "main",
+        "nav",
+        "header",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://linear.app/now",
+      "title": "Now – Updates from the Linear team",
+      "description": "Linear product updates, thoughts on crafting beautiful products, and reflections on building a startup.",
+      "headings": [
+        "Now",
+        "Introducing Loops",
+        "Boom Supersonic builds as fast as it flies",
+        "Teaching an agent to auto-fix bugs",
+        "Now Linear writes the code, too",
+        "Reviewing code in the agent era",
+        "Code review should be fast",
+        "Changelog",
+        "Code Intelligence for Linear Agent",
+        "Cars24’s push to being AI-native with Linear",
+        "How we hire at Linear",
+        "The coding agent behind 60% of Ramp’s merged PRs",
+        "Output isn’t design",
+        "How we use Linear Agent at Linear",
+        "Press",
+        "AI Agents and the Future of Software Teams with Linear + Sequoia Capital",
+        "How Karri Saarinen Redefined Product Design",
+        "How to Design for Human-agent Interaction",
+        "Post mortem on Linear security incident on March 24th, 2026"
+      ],
+      "navLabels": [
+        "Product",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Now",
+        "Contact",
+        "Docs",
+        "Open app",
+        "Log in",
+        "Sign up"
+      ],
+      "ctas": [
+        "Pricing",
+        "Contact",
+        "Log in",
+        "Sign up",
+        "Search…",
+        "Get started",
+        "Contact sales",
+        "Download",
+        "Startups",
+        "Contact us"
+      ],
+      "landmarks": [
+        "header",
+        "nav:Main",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://linear.app/about",
+      "title": "About – Linear",
+      "description": "We’re bringing magic back to software.",
+      "headings": [
+        "Building tools for the next era of product development",
+        "A new species of product tool",
+        "Meet the team behind Linear",
+        "Backed by the best",
+        "Built for the future. Available today.",
+        "Product",
+        "Features",
+        "Company",
+        "Resources",
+        "Connect",
+        "Legal"
+      ],
+      "navLabels": [
+        "Product",
+        "Resources",
+        "Customers",
+        "Pricing",
+        "Now",
+        "Contact",
+        "Docs",
+        "Open app",
+        "Log in",
+        "Sign up"
+      ],
+      "ctas": [
+        "Pricing",
+        "Contact",
+        "Log in",
+        "Sign up",
+        "Get started",
+        "Contact sales",
+        "Download",
+        "Startups",
+        "Contact us"
+      ],
+      "landmarks": [
+        "header",
+        "nav:Main",
+        "main",
+        "footer"
+      ]
     }
   ],
   "navLabels": [
@@ -803,12 +965,12 @@
     "Agent tasks",
     "UI Refresh",
     "Agents Insights",
+    "PreviousDandelion",
+    "NextPleo",
     "Getting started",
     "Account",
     "AI",
-    "Your sidebar",
-    "Teams",
-    "Issues"
+    "Your sidebar"
   ],
   "ctas": [
     "Pricing",
@@ -852,8 +1014,13 @@
     "Connect",
     "Legal",
     "Log in to Linear",
-    "Text attribution and agent-assisted editing",
-    "Refreshed issue sidebar⁠",
+    "How Opendoor is rebuilding its product culture with Linear",
+    "Lessons from Shopify⁠",
+    "Opendoor had Jira, but no one used it the same way⁠",
+    "A manifesto for building products⁠",
+    "Making work legible at Opendoor⁠",
+    "Tools shape how you work⁠",
+    "Opendoor chose to start fresh⁠",
     "Not found",
     "Create issues",
     "Overview⁠",
@@ -861,22 +1028,19 @@
     "Create an issue via email⁠",
     "Create recurring issues⁠",
     "Create a recurring issue⁠",
-    "Convert an existing issue into a recurring issue⁠",
-    "Create recurring issues in team settings⁠",
-    "Create recurring issues from templates⁠",
-    "Cadence of recurring issues⁠",
-    "Create a new issue URL⁠",
-    "Apply pre-set properties⁠"
+    "Convert an existing issue into a recurring issue⁠"
   ],
   "techSignals": [
     "React",
     "Next.js",
     "GraphQL",
+    "Shopify",
     "Intercom",
     "Zendesk",
     "Vite",
     "Segment",
-    "Google Tag Manager"
+    "Google Tag Manager",
+    "Stripe"
   ],
   "featureCandidates": [
     "Faster app launch",
@@ -894,15 +1058,15 @@
     "Connect",
     "Legal",
     "Log in to Linear",
-    "Text attribution and agent-assisted editing",
-    "Refreshed issue sidebar⁠",
+    "Lessons from Shopify⁠",
+    "A manifesto for building products⁠",
+    "Making work legible at Opendoor⁠",
+    "Tools shape how you work⁠",
+    "Opendoor chose to start fresh⁠",
     "Not found",
     "Create issues",
     "Overview⁠",
-    "Create an issue⁠",
-    "Create an issue via email⁠",
-    "Create recurring issues⁠",
-    "Create a recurring issue⁠"
+    "Create an issue⁠"
   ],
   "patternCandidates": [
     "Search",
@@ -914,7 +1078,8 @@
     "Messaging",
     "Authentication",
     "Filters",
-    "Modal dialogs"
+    "Modal dialogs",
+    "Checkout"
   ],
   "platformsDetected": [
     "web",
@@ -924,5 +1089,5 @@
     "desktop",
     "android"
   ],
-  "summary": "Captured 34 screenshots across 16 public URLs. Nav signals: Product, Resources, Customers, Pricing, Now, Contact. Tech signals: React, Next.js, GraphQL, Intercom, Zendesk, Vite. UI patterns: Search, Pricing display, Map view, Tabs, Menus, Dashboard."
+  "summary": "Captured 57 screenshots across 18 public URLs. Nav signals: Product, Resources, Customers, Pricing, Now, Contact. Tech signals: React, Next.js, GraphQL, Shopify, Intercom, Zendesk. UI patterns: Search, Pricing display, Map view, Tabs, Menus, Dashboard."
 }

@@ -1,18 +1,89 @@
 {
   "slug": "ansys",
-  "capturedAt": "2026-07-27T14:54:46.991Z",
+  "capturedAt": "2026-07-27T23:07:05.501Z",
   "shots": [
     {
       "file": "fallback-og-1.jpg",
       "title": "Marketing preview",
       "caption": "Open Graph image (fallback when live UI capture was thin)",
       "kind": "marketing",
-      "sourceUrl": "https://www.ansys.com"
+      "sourceUrl": "https://www.ansys.com",
+      "capturedAt": "2026-07-27T23:06:51.588Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 630,
+      "phash": "22222270f0707032",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1530937807-1.jpg",
+      "title": "Ansys screenshot 1",
+      "caption": "Apple App Store public screenshot (id 1530937807)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1530937807",
+      "capturedAt": "2026-07-27T23:06:51.588Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "2169173717171760",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1530937807-2.jpg",
+      "title": "Ansys screenshot 2",
+      "caption": "Apple App Store public screenshot (id 1530937807)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1530937807",
+      "capturedAt": "2026-07-27T23:06:51.588Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "8d4d17372b332348",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1530937807-3.jpg",
+      "title": "Ansys screenshot 3",
+      "caption": "Apple App Store public screenshot (id 1530937807)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1530937807",
+      "capturedAt": "2026-07-27T23:06:51.588Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "0d694d9696963668",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1530937807-4.jpg",
+      "title": "Ansys screenshot 4",
+      "caption": "Apple App Store public screenshot (id 1530937807)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1530937807",
+      "capturedAt": "2026-07-27T23:06:51.588Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "33690f0f9e966900",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1530937807-5.jpg",
+      "title": "Ansys screenshot 5",
+      "caption": "Apple App Store public screenshot (id 1530937807)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1530937807",
+      "capturedAt": "2026-07-27T23:06:51.588Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "0d49690d8d606900",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T14:54:46.991Z",
-    "screenshotCount": 1,
+    "capturedAt": "2026-07-27T23:07:05.501Z",
+    "screenshotCount": 6,
     "pageCount": 0,
     "pages": [],
     "navLabels": [],
@@ -24,7 +95,7 @@
     "platformsDetected": [
       "web"
     ],
-    "summary": "Captured 1 screenshots across 0 public URLs."
+    "summary": "Captured 6 screenshots across 0 public URLs."
   },
   "fallback": {
     "blockedNavigations": 0

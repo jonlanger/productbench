@@ -1,0 +1,77 @@
+{
+  "slug": "anaplan",
+  "capturedAt": "2026-07-27T23:25:04.676Z",
+  "shots": [
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.anaplan.com",
+      "capturedAt": "2026-07-27T23:18:30.077Z",
+      "playbookStep": "web-fallback",
+      "width": 1600,
+      "height": 900,
+      "phash": "0810303220686814",
+      "unique": true
+    },
+    {
+      "file": "fallback-wayback-2.jpg",
+      "title": "Anaplan Supply Chain Analyst interface displaying inventory planning dashboards, workflow ",
+      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260720191810/https://www.anaplan.com/",
+      "kind": "docs",
+      "sourceUrl": "http://web.archive.org/web/20260720191810/https://www.anaplan.com/",
+      "capturedAt": "2026-07-27T23:18:30.077Z",
+      "playbookStep": "web-fallback",
+      "width": 4309,
+      "height": 2266,
+      "phash": "71390d196d6d698f",
+      "unique": true
+    },
+    {
+      "file": "fallback-wayback-3.jpg",
+      "title": "A man and woman at a desk review a computer screen. Next to them, an AI assistant interfac",
+      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260720191810/https://www.anaplan.com/",
+      "kind": "docs",
+      "sourceUrl": "http://web.archive.org/web/20260720191810/https://www.anaplan.com/",
+      "capturedAt": "2026-07-27T23:18:30.077Z",
+      "playbookStep": "web-fallback",
+      "width": 1280,
+      "height": 720,
+      "phash": "9afafef6b676b64f",
+      "unique": true
+    },
+    {
+      "file": "fallback-wayback-4.jpg",
+      "title": "Anaplan CoModeler interface. Text: Your AI-powered assistant for building and optimizing A",
+      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260720191810/https://www.anaplan.com/",
+      "kind": "docs",
+      "sourceUrl": "http://web.archive.org/web/20260720191810/https://www.anaplan.com/",
+      "capturedAt": "2026-07-27T23:18:30.077Z",
+      "playbookStep": "web-fallback",
+      "width": 1280,
+      "height": 720,
+      "phash": "fadcccda96aa98ff",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T23:25:04.676Z",
+    "screenshotCount": 4,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 4 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

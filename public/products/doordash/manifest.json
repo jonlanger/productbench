@@ -1,422 +1,77 @@
 {
   "slug": "doordash",
-  "capturedAt": "2026-07-27T00:21:47.461Z",
+  "capturedAt": "2026-07-27T22:51:57.642Z",
   "shots": [
-    {
-      "file": "homepage.jpg",
-      "title": "Home",
-      "caption": "DoorDash public homepage (top of page)",
-      "kind": "homepage",
-      "sourceUrl": "https://www.doordash.com/"
-    },
-    {
-      "file": "surface-1.jpg",
-      "title": "Store menu (1)",
-      "caption": "DoorDash public surface · help.doordash.com",
-      "kind": "product",
-      "sourceUrl": "https://help.doordash.com/en-us"
-    },
-    {
-      "file": "surface-1-mid.jpg",
-      "title": "Store menu (2)",
-      "caption": "DoorDash public surface · help.doordash.com",
-      "kind": "product",
-      "sourceUrl": "https://help.doordash.com/en-us"
-    },
-    {
-      "file": "surface-2.jpg",
-      "title": "Cart (1)",
-      "caption": "DoorDash public surface · developer.doordash.com",
-      "kind": "product",
-      "sourceUrl": "https://developer.doordash.com/en-US/"
-    },
-    {
-      "file": "surface-2-mid.jpg",
-      "title": "Cart (2)",
-      "caption": "DoorDash public surface · developer.doordash.com",
-      "kind": "product",
-      "sourceUrl": "https://developer.doordash.com/en-US/"
-    },
-    {
-      "file": "surface-3.jpg",
-      "title": "Checkout (1)",
-      "caption": "DoorDash public surface · help.doordash.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.doordash.com/en-us/consumers"
-    },
-    {
-      "file": "surface-3-mid.jpg",
-      "title": "Checkout (2)",
-      "caption": "DoorDash public surface · help.doordash.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.doordash.com/en-us/consumers"
-    },
     {
       "file": "fallback-docs-1.jpg",
       "title": "Docs UI 1",
       "caption": "Fallback from public docs: https://help.doordash.com/",
       "kind": "docs",
-      "sourceUrl": "https://help.doordash.com/"
+      "sourceUrl": "https://help.doordash.com/",
+      "capturedAt": "2026-07-27T22:51:47.919Z",
+      "playbookStep": "web-fallback",
+      "width": 600,
+      "height": 538,
+      "phash": "d9d9b163979d9e9f",
+      "unique": true
     },
     {
       "file": "fallback-docs-2.jpg",
       "title": "Docs UI 2",
       "caption": "Fallback from public docs: https://help.doordash.com/",
       "kind": "docs",
-      "sourceUrl": "https://help.doordash.com/"
+      "sourceUrl": "https://help.doordash.com/",
+      "capturedAt": "2026-07-27T22:51:47.919Z",
+      "playbookStep": "web-fallback",
+      "width": 600,
+      "height": 536,
+      "phash": "f1e2b02a5b1f3694",
+      "unique": true
     },
     {
       "file": "fallback-docs-3.jpg",
       "title": "Docs UI 3",
       "caption": "Fallback from public docs: https://help.doordash.com/",
       "kind": "docs",
-      "sourceUrl": "https://help.doordash.com/"
+      "sourceUrl": "https://help.doordash.com/",
+      "capturedAt": "2026-07-27T22:51:47.919Z",
+      "playbookStep": "web-fallback",
+      "width": 600,
+      "height": 550,
+      "phash": "5c64f47068656766",
+      "unique": true
     },
     {
       "file": "fallback-docs-4.jpg",
       "title": "Docs UI 4",
       "caption": "Fallback from public docs: https://help.doordash.com/",
       "kind": "docs",
-      "sourceUrl": "https://help.doordash.com/"
-    },
-    {
-      "file": "fallback-docs-5.jpg",
-      "title": "Docs UI 5",
-      "caption": "Fallback from public docs: https://help.doordash.com/consumers/s/",
-      "kind": "supporting",
-      "sourceUrl": "https://help.doordash.com/consumers/s/"
-    },
-    {
-      "file": "fallback-docs-6.jpg",
-      "title": "Docs UI 6",
-      "caption": "Fallback from public docs: https://help.doordash.com/consumers/s/",
-      "kind": "supporting",
-      "sourceUrl": "https://help.doordash.com/consumers/s/"
-    },
-    {
-      "file": "fallback-docs-7.jpg",
-      "title": "Docs UI 7",
-      "caption": "Fallback from public docs: https://help.doordash.com/consumers/s/",
-      "kind": "supporting",
-      "sourceUrl": "https://help.doordash.com/consumers/s/"
+      "sourceUrl": "https://help.doordash.com/",
+      "capturedAt": "2026-07-27T22:51:47.919Z",
+      "playbookStep": "web-fallback",
+      "width": 600,
+      "height": 600,
+      "phash": "727985e6684d06ac",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T00:21:47.461Z",
-    "screenshotCount": 14,
-    "pageCount": 4,
-    "pages": [
-      {
-        "url": "https://www.doordash.com/",
-        "title": "DoorDash: Food, Grocery and Retail - Fast Same Day Delivery",
-        "description": "Get food, grocery, and retail essentials delivered fast. Shop same-day delivery from local stores and restaurants near you.",
-        "headings": [
-          "$0 DELIVERY FEE ON FIRST ORDER",
-          "Become a Dasher",
-          "As a delivery driver, make money and work on your schedule. Sign up in minutes.",
-          "Become a Merchant",
-          "Get the best DoorDash experience",
-          "Experience the best your neighborhood has to offer, all in one app.",
-          "Everything you crave, delivered.",
-          "DashPass is delivery for less",
-          "Get grocery and convenience store essentials",
-          "Convenience stores at your doorstep",
-          "Beauty essentials from top brands",
-          "Flowers for any occasion",
-          "Restock the minibar",
-          "What your pets need, and want",
-          "Sign up to dash and get paid",
-          "Grow your business with DoorDash",
-          "Get more from your neighborhood",
-          "Popular Categories",
-          "Get to Know Us",
-          "Let Us Help You"
-        ],
-        "navLabels": [],
-        "ctas": [
-          "Sign In",
-          "Sign Up",
-          "Sign in for saved address",
-          "Start earning",
-          "Sign up for DoorDash"
-        ],
-        "landmarks": [
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://help.doordash.com/en-us",
-        "title": "DoorDash Help Center",
-        "description": "Get help with your DoorDash orders, account, or payments. Support for Customers, Dashers, Merchants, and Businesses via automated tools or live agents.",
-        "headings": [
-          "Welcome to DoorDash Support Center",
-          "I'm a Customer",
-          "I'm a Dasher",
-          "I'm a Merchant",
-          "I'm a Corporate Customer",
-          "Get to Know Us",
-          "Let Us Help You",
-          "Doing Business",
-          "Sites"
-        ],
-        "navLabels": [
-          "EN-US",
-          "English (US)",
-          "Español (US)",
-          "English (CA)",
-          "Français (CA)",
-          "English (AU)",
-          "English (NZ)",
-          "Accessibility",
-          "Alcohol Orders",
-          "Customer Support",
-          "DashPass",
-          "General",
-          "Get Started with DoorDash",
-          "Manage Your Account",
-          "Payments",
-          "Promotions",
-          "Troubleshooting",
-          "Your DoorDash Order",
-          "Accept and Complete Deliveries",
-          "Access Special Order Types",
-          "Account Updates",
-          "Become a Dasher",
-          "Dasher App",
-          "DoorDash Crimson"
-        ],
-        "ctas": [
-          "Get Started with DoorDash",
-          "Start Dashing"
-        ],
-        "landmarks": [
-          "header",
-          "nav:Main navigation",
-          "dialog:Mobile navigation",
-          "search",
-          "navigation:Mobile navigation",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://developer.doordash.com/en-US/",
-        "title": "DoorDash Developer Services",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [
-          "Get Started",
-          "Learn More",
-          "Get started using the APIs",
-          "Get started using Node.js",
-          "Get started using Postman",
-          "Join our Discord Community"
-        ],
-        "landmarks": [
-          "footer"
-        ]
-      },
-      {
-        "url": "https://help.doordash.com/en-us/consumers",
-        "title": "Customer Support | DoorDash Help Center",
-        "description": "Get help with DoorDash orders, account, payments, refunds, DashPass, and promotions. Find answers to common questions or contact our customer support team.",
-        "headings": [
-          "DoorDash Customer Support",
-          "Overview",
-          "Featured Categories",
-          "Get Started with DoorDash",
-          "Manage Your Account",
-          "DashPass",
-          "Promotions",
-          "Troubleshooting",
-          "Alcohol Orders",
-          "Popular Articles",
-          "Can't find what you are looking for?",
-          "Have a delivery issue?",
-          "I'm a Merchant",
-          "I'm a Dasher",
-          "I'm a Corporate Customer",
-          "Get to Know Us",
-          "Let Us Help You",
-          "Doing Business",
-          "Sites"
-        ],
-        "navLabels": [
-          "for Customers",
-          "Categories",
-          "I'm looking for other Support",
-          "EN-US",
-          "English (US)",
-          "Español (US)",
-          "English (CA)",
-          "Français (CA)",
-          "English (AU)",
-          "English (NZ)",
-          "Accessibility",
-          "Alcohol Orders",
-          "Customer Support",
-          "DashPass",
-          "General",
-          "Get Started with DoorDash",
-          "Manage Your Account",
-          "Payments",
-          "Promotions",
-          "Troubleshooting",
-          "Your DoorDash Order",
-          "Accept and Complete Deliveries",
-          "Access Special Order Types",
-          "Account Updates"
-        ],
-        "ctas": [
-          "Get Started with DoorDash",
-          "Start Dashing",
-          "Get Started with DoorDashView all"
-        ],
-        "landmarks": [
-          "header",
-          "nav:Main navigation",
-          "dialog:Mobile navigation",
-          "search",
-          "navigation:Mobile navigation",
-          "main",
-          "nav:Breadcrumb",
-          "aside",
-          "nav:Customer Support",
-          "footer"
-        ]
-      }
-    ],
-    "navLabels": [
-      "EN-US",
-      "English (US)",
-      "Español (US)",
-      "English (CA)",
-      "Français (CA)",
-      "English (AU)",
-      "English (NZ)",
-      "Accessibility",
-      "Alcohol Orders",
-      "Customer Support",
-      "DashPass",
-      "General",
-      "Get Started with DoorDash",
-      "Manage Your Account",
-      "Payments",
-      "Promotions",
-      "Troubleshooting",
-      "Your DoorDash Order",
-      "Accept and Complete Deliveries",
-      "Access Special Order Types",
-      "Account Updates",
-      "Become a Dasher",
-      "Dasher App",
-      "DoorDash Crimson",
-      "for Customers",
-      "Categories",
-      "I'm looking for other Support"
-    ],
-    "ctas": [
-      "Sign In",
-      "Sign Up",
-      "Sign in for saved address",
-      "Start earning",
-      "Sign up for DoorDash",
-      "Get Started with DoorDash",
-      "Start Dashing",
-      "Get Started",
-      "Learn More",
-      "Get started using the APIs",
-      "Get started using Node.js",
-      "Get started using Postman",
-      "Join our Discord Community",
-      "Get Started with DoorDashView all"
-    ],
-    "headings": [
-      "$0 DELIVERY FEE ON FIRST ORDER",
-      "Become a Dasher",
-      "As a delivery driver, make money and work on your schedule. Sign up in minutes.",
-      "Become a Merchant",
-      "Get the best DoorDash experience",
-      "Experience the best your neighborhood has to offer, all in one app.",
-      "Everything you crave, delivered.",
-      "DashPass is delivery for less",
-      "Get grocery and convenience store essentials",
-      "Convenience stores at your doorstep",
-      "Beauty essentials from top brands",
-      "Flowers for any occasion",
-      "Restock the minibar",
-      "What your pets need, and want",
-      "Sign up to dash and get paid",
-      "Grow your business with DoorDash",
-      "Get more from your neighborhood",
-      "Popular Categories",
-      "Get to Know Us",
-      "Let Us Help You",
-      "Welcome to DoorDash Support Center",
-      "I'm a Customer",
-      "I'm a Dasher",
-      "I'm a Merchant",
-      "I'm a Corporate Customer",
-      "Doing Business",
-      "Sites",
-      "DoorDash Customer Support",
-      "Overview",
-      "Featured Categories"
-    ],
-    "techSignals": [
-      "Next.js",
-      "Webpack",
-      "Stripe",
-      "Segment",
-      "Google Tag Manager",
-      "Cloudflare",
-      "Google Maps"
-    ],
-    "featureCandidates": [
-      "$0 DELIVERY FEE ON FIRST ORDER",
-      "Become a Dasher",
-      "Become a Merchant",
-      "Get the best DoorDash experience",
-      "Everything you crave, delivered.",
-      "DashPass is delivery for less",
-      "Get grocery and convenience store essentials",
-      "Convenience stores at your doorstep",
-      "Beauty essentials from top brands",
-      "Flowers for any occasion",
-      "Restock the minibar",
-      "What your pets need, and want",
-      "Sign up to dash and get paid",
-      "Grow your business with DoorDash",
-      "Get more from your neighborhood",
-      "Popular Categories",
-      "Get to Know Us",
-      "Let Us Help You",
-      "Welcome to DoorDash Support Center",
-      "I'm a Customer",
-      "I'm a Dasher",
-      "I'm a Merchant",
-      "I'm a Corporate Customer",
-      "Doing Business"
-    ],
-    "patternCandidates": [
-      "Map view",
-      "Tabs",
-      "Card layout",
-      "Checkout",
-      "Authentication",
-      "Menus",
-      "Pricing display"
-    ],
+    "capturedAt": "2026-07-27T22:51:57.642Z",
+    "screenshotCount": 4,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
     "platformsDetected": [
-      "web",
-      "api",
-      "ios",
-      "android"
+      "web"
     ],
-    "summary": "Captured 14 screenshots across 4 public URLs. Nav signals: EN-US, English (US), Español (US), English (CA), Français (CA), English (AU). Tech signals: Next.js, Webpack, Stripe, Segment, Google Tag Manager, Cloudflare. UI patterns: Map view, Tabs, Card layout, Checkout, Authentication, Menus."
+    "summary": "Captured 4 screenshots across 0 public URLs."
   },
   "fallback": {
-    "blockedNavigations": 7
+    "blockedNavigations": 0
   }
 }

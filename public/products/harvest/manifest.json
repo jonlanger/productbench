@@ -1,278 +1,546 @@
 {
   "slug": "harvest",
-  "capturedAt": "2026-07-27T14:18:36.516Z",
+  "capturedAt": "2026-07-27T22:29:36.083Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "Harvest public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://www.getharvest.com/"
+      "sourceUrl": "https://www.getharvest.com/",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Time Tracking Software With Invoicing | Harvest",
+      "width": 1440,
+      "height": 900,
+      "phash": "5dd42b2b679b3c46",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Harvest homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.getharvest.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Harvest homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.getharvest.com/"
+      "sourceUrl": "https://www.getharvest.com/",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Time Tracking Software With Invoicing | Harvest",
+      "width": 1440,
+      "height": 900,
+      "phash": "3d45152d2cd4d453",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Harvest homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.getharvest.com/"
+      "sourceUrl": "https://www.getharvest.com/",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Time Tracking Software With Invoicing | Harvest",
+      "width": 1440,
+      "height": 900,
+      "phash": "55531200329e0e41",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Harvest homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.getharvest.com/",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Time Tracking Software With Invoicing | Harvest",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d4d5d9e94949c20",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Harvest homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.getharvest.com/",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Time Tracking Software With Invoicing | Harvest",
+      "width": 1440,
+      "height": 900,
+      "phash": "9d61700f0b6b4b4b",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Harvest homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.getharvest.com/",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Time Tracking Software With Invoicing | Harvest",
+      "width": 1440,
+      "height": 900,
+      "phash": "6460184131332149",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Harvest homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://www.getharvest.com/"
+      "sourceUrl": "https://www.getharvest.com/",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Time Tracking Software With Invoicing | Harvest",
+      "width": 390,
+      "height": 844,
+      "phash": "387d45167965c64f",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on Harvest (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://id.getharvest.com/harvest/sign_in"
+      "sourceUrl": "https://id.getharvest.com/harvest/sign_in",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Sign in - Harvest",
+      "width": 1440,
+      "height": 900,
+      "phash": "0c0c0e0e0e080000",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Harvest",
       "kind": "product",
-      "sourceUrl": "https://www.getharvest.com/customers"
+      "sourceUrl": "https://www.getharvest.com/about",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us - Harvest Time Tracking & Timesheets",
+      "width": 1440,
+      "height": 900,
+      "phash": "55692a8c0f4fcc30",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Harvest",
       "kind": "product",
-      "sourceUrl": "https://www.getharvest.com/customers"
-    },
-    {
-      "file": "nav-3.jpg",
-      "title": "In-product nav (3)",
-      "caption": "Same-origin product / pricing / docs links from Harvest",
-      "kind": "product",
-      "sourceUrl": "https://www.getharvest.com/customers"
+      "sourceUrl": "https://www.getharvest.com/about",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us - Harvest Time Tracking & Timesheets",
+      "width": 1440,
+      "height": 900,
+      "phash": "55694a96170b4c12",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from Harvest",
       "kind": "product",
-      "sourceUrl": "https://www.getharvest.com/customers"
+      "sourceUrl": "https://www.getharvest.com/about",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us - Harvest Time Tracking & Timesheets",
+      "width": 1440,
+      "height": 900,
+      "phash": "495e1c5b5209495c",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from Harvest",
       "kind": "product",
-      "sourceUrl": "https://www.getharvest.com/customers"
+      "sourceUrl": "https://www.getharvest.com/about",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us - Harvest Time Tracking & Timesheets",
+      "width": 1440,
+      "height": 900,
+      "phash": "590f4bb5b53b5b1e",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from Harvest",
+      "kind": "product",
+      "sourceUrl": "https://www.getharvest.com/about",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us - Harvest Time Tracking & Timesheets",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d69333337377778",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Harvest",
+      "kind": "product",
+      "sourceUrl": "https://www.getharvest.com/about",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us - Harvest Time Tracking & Timesheets",
+      "width": 1440,
+      "height": 900,
+      "phash": "596e0d73334dd46b",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from Harvest",
+      "kind": "product",
+      "sourceUrl": "https://www.getharvest.com/about",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us - Harvest Time Tracking & Timesheets",
+      "width": 1440,
+      "height": 900,
+      "phash": "648ec9696920a353",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from Harvest",
+      "kind": "product",
+      "sourceUrl": "https://www.getharvest.com/about",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us - Harvest Time Tracking & Timesheets",
+      "width": 1440,
+      "height": 900,
+      "phash": "550f0f455556d6a5",
+      "unique": true
+    },
+    {
+      "file": "nav-10.jpg",
+      "title": "In-product nav (10)",
+      "caption": "Same-origin product / pricing / docs links from Harvest",
+      "kind": "product",
+      "sourceUrl": "https://www.getharvest.com/about",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us - Harvest Time Tracking & Timesheets",
+      "width": 1440,
+      "height": 900,
+      "phash": "5980766b36608040",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "Dashboard (1)",
       "caption": "Harvest public surface · getharvest.com",
       "kind": "product",
-      "sourceUrl": "https://www.getharvest.com/pricing"
+      "sourceUrl": "https://help.getharvest.com/",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harvest Help Center",
+      "width": 1440,
+      "height": 900,
+      "phash": "294c4e86928e78cc",
+      "unique": true
     },
     {
-      "file": "surface-1-mid.jpg",
-      "title": "Dashboard (2)",
+      "file": "surface-1-lower.jpg",
+      "title": "Dashboard (3)",
       "caption": "Harvest public surface · getharvest.com",
       "kind": "product",
-      "sourceUrl": "https://www.getharvest.com/pricing"
+      "sourceUrl": "https://help.getharvest.com/",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harvest Help Center",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d4e86120e68ccd4",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
       "title": "Settings (1)",
       "caption": "Harvest public surface · getharvest.com",
       "kind": "product",
-      "sourceUrl": "https://www.getharvest.com/product"
+      "sourceUrl": "https://www.getharvest.com/docs",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d412296960e0e30",
+      "unique": true
     },
     {
-      "file": "surface-2-mid.jpg",
-      "title": "Settings (2)",
+      "file": "surface-2-band-2.jpg",
+      "title": "Settings (3)",
       "caption": "Harvest public surface · getharvest.com",
       "kind": "product",
-      "sourceUrl": "https://www.getharvest.com/product"
-    },
-    {
-      "file": "surface-3.jpg",
-      "title": "Search (1)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/products"
-    },
-    {
-      "file": "surface-3-mid.jpg",
-      "title": "Search (2)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/products"
-    },
-    {
-      "file": "surface-4.jpg",
-      "title": "Profile (1)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/features"
-    },
-    {
-      "file": "surface-4-mid.jpg",
-      "title": "Profile (2)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/features"
+      "sourceUrl": "https://www.getharvest.com/docs",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "",
+      "width": 1440,
+      "height": 900,
+      "phash": "4db049f41c706a18",
+      "unique": true
     },
     {
       "file": "surface-5.jpg",
-      "title": "Supporting surface 5 (1)",
+      "title": "Homepage mobile (1)",
       "caption": "Harvest public surface · getharvest.com",
       "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/add-time-tracking"
+      "sourceUrl": "https://help.getharvest.com/api-v2/",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harvest API V2 Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "3996395a52525ada",
+      "unique": true
     },
     {
-      "file": "surface-5-mid.jpg",
-      "title": "Supporting surface 5 (2)",
+      "file": "surface-5-band-2.jpg",
+      "title": "Homepage mobile (3)",
       "caption": "Harvest public surface · getharvest.com",
       "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/add-time-tracking"
+      "sourceUrl": "https://help.getharvest.com/api-v2/",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harvest API V2 Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "5ada5a52d252d254",
+      "unique": true
     },
     {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6 (1)",
+      "file": "surface-5-lower.jpg",
+      "title": "Homepage mobile (4)",
       "caption": "Harvest public surface · getharvest.com",
       "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/solutions"
+      "sourceUrl": "https://help.getharvest.com/api-v2/",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Harvest API V2 Documentation",
+      "width": 1440,
+      "height": 900,
+      "phash": "52d244404268ccd4",
+      "unique": true
     },
     {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/solutions"
+      "file": "fallback-docs-1.jpg",
+      "title": "Invoicing Screenshot",
+      "caption": "Fallback from public docs: https://www.getharvest.com/features",
+      "kind": "supporting",
+      "sourceUrl": "https://www.getharvest.com/features",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "web-fallback",
+      "width": 787,
+      "height": 485,
+      "phash": "6469794949616161",
+      "unique": true
     },
     {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/customers"
+      "file": "fallback-docs-2.jpg",
+      "title": "Track Your Hours example",
+      "caption": "Fallback from public docs: https://www.getharvest.com/features",
+      "kind": "supporting",
+      "sourceUrl": "https://www.getharvest.com/features",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "web-fallback",
+      "width": 787,
+      "height": 460,
+      "phash": "6039f97971717902",
+      "unique": true
     },
     {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/customers"
+      "file": "fallback-docs-3.jpg",
+      "title": "Harvest Forecast",
+      "caption": "Fallback from public docs: https://www.getharvest.com/features",
+      "kind": "supporting",
+      "sourceUrl": "https://www.getharvest.com/features",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "web-fallback",
+      "width": 468,
+      "height": 408,
+      "phash": "054dc9c989cccd49",
+      "unique": true
     },
     {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/docs"
+      "file": "fallback-docs-4.png",
+      "title": "Track Projects Workflow Icon",
+      "caption": "Fallback from public docs: https://www.getharvest.com/features",
+      "kind": "supporting",
+      "sourceUrl": "https://www.getharvest.com/features",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "web-fallback",
+      "width": 80,
+      "height": 80,
+      "phash": "086224a46c54642c",
+      "unique": true
     },
     {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/docs"
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.getharvest.com",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "web-fallback",
+      "width": 1436,
+      "height": 756,
+      "phash": "bcfd03c4d402fdbc",
+      "unique": true
     },
     {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9",
-      "caption": "Harvest public surface · getharvest.com",
+      "file": "fallback-wayback-2.jpg",
+      "title": "Archived UI 2",
+      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260726230921/https://www.getharvest.com/",
       "kind": "docs",
-      "sourceUrl": "https://help.getharvest.com/"
-    },
-    {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/blog"
-    },
-    {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/blog"
-    },
-    {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/about"
-    },
-    {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/about"
-    },
-    {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12 (1)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/login"
-    },
-    {
-      "file": "surface-12-mid.jpg",
-      "title": "Supporting surface 12 (2)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/login"
-    },
-    {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13 (1)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/signin"
-    },
-    {
-      "file": "surface-13-mid.jpg",
-      "title": "Supporting surface 13 (2)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/signin"
-    },
-    {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14 (1)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/sign-in"
-    },
-    {
-      "file": "surface-14-mid.jpg",
-      "title": "Supporting surface 14 (2)",
-      "caption": "Harvest public surface · getharvest.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.getharvest.com/sign-in"
+      "sourceUrl": "http://web.archive.org/web/20260726230921/https://www.getharvest.com/",
+      "capturedAt": "2026-07-27T22:28:30.035Z",
+      "playbookStep": "web-fallback",
+      "width": 1485,
+      "height": 1425,
+      "phash": "dcdae3dadecccccc",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T14:18:36.516Z",
-    "screenshotCount": 38,
-    "pageCount": 16,
+    "capturedAt": "2026-07-27T22:29:36.083Z",
+    "screenshotCount": 30,
+    "pageCount": 6,
     "pages": [
       {
         "url": "https://www.getharvest.com/",
@@ -365,569 +633,6 @@
         ]
       },
       {
-        "url": "https://www.getharvest.com/customers",
-        "title": "Harvest Customer Stories | How Tracking Time Empowers Teams",
-        "description": "Learn how Harvest empowers teams of all shapes and sizes to achieve their goals through the power of easy time tracking.",
-        "headings": [
-          "See how Harvest helps teams like yours thrive",
-          "70,000+",
-          "4.5 billion",
-          "$64+ billion",
-          "Find stories from teams like yours",
-          "More information about your privacy rights",
-          "Manage Cookie Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Skip to content",
-          "Menu",
-          "Overview",
-          "Time Tracking",
-          "Reporting & Analysis",
-          "Invoicing & Payments",
-          "Advertising & Marketing",
-          "Accounting & Finance",
-          "Architecture",
-          "Consulting & IT",
-          "Construction",
-          "Design Teams",
-          "Law Firms",
-          "Software Development",
-          "Blog",
-          "Webinars",
-          "Guides & Templates",
-          "Help Center",
-          "Developer Documentation",
-          "Pricing",
-          "Sign in",
-          "Try Harvest free",
-          "iPhone",
-          "Android"
-        ],
-        "ctas": [
-          "Pricing",
-          "Sign in",
-          "Try Harvest free",
-          "Join a webinar",
-          "Startup studio Dovetail tracks time with Harvest to build trust with clients.",
-          "Harvest helps web design company Juicyorange justify their pricing.",
-          "Clear Search",
-          "Contact us",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "header",
-          "main",
-          "nav",
-          "footer",
-          "navigation:Navigation Menu",
-          "dialog:More information about your privacy rights"
-        ]
-      },
-      {
-        "url": "https://www.getharvest.com/pricing",
-        "title": "Time Management & Invoicing at Cost Effective Pricing | Harvest",
-        "description": "Unlock the power of Harvest time tracking and invoicing with simple, all-inclusive pricing. Free 30-day trial.",
-        "headings": [
-          "Simple & flexible pricing",
-          "Free",
-          "Teams",
-          "Enterprise",
-          "Enterprise Plus",
-          "Pricing FAQs",
-          "Onboarding a large team? Let us show you around!",
-          "Compare features",
-          "Ready to turnhours into profit?",
-          "More information about your privacy rights",
-          "Manage Cookie Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Features",
-          "Time tracking",
-          "Reporting & Analysis",
-          "Invoicing & Payments",
-          "Harvest Forecast",
-          "Features overview",
-          "Asana",
-          "Slack",
-          "Stripe",
-          "All integrations",
-          "Desktop & Mobile apps",
-          "Solutions",
-          "Advertising & Marketing",
-          "Architecture",
-          "Construction",
-          "Law Firms",
-          "Accounting & Finance",
-          "Consulting & IT",
-          "Design Teams",
-          "Software Development",
-          "Solutions overview",
-          "Customer stories",
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales"
-        ],
-        "ctas": [
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales",
-          "Pricing",
-          "Log in",
-          "Contact sales",
-          "Try Harvest free",
-          "Get started",
-          "Contact our support team",
-          "pricing calculator",
-          "How do I sign up for the free plan?",
-          "Book a consultation",
-          "Contact us",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "banner",
-          "nav:Primary",
-          "main",
-          "footer",
-          "nav:Footer navigation",
-          "dialog:More information about your privacy rights",
-          "dialog"
-        ]
-      },
-      {
-        "url": "https://www.getharvest.com/product",
-        "title": "",
-        "headings": [
-          "This page doesn't exist — or moved.",
-          "Ready to turnhours into profit?",
-          "More information about your privacy rights",
-          "Manage Cookie Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Features",
-          "Time tracking",
-          "Reporting & Analysis",
-          "Invoicing & Payments",
-          "Harvest Forecast",
-          "Features overview",
-          "Asana",
-          "Slack",
-          "Stripe",
-          "All integrations",
-          "Desktop & Mobile apps",
-          "Solutions",
-          "Advertising & Marketing",
-          "Architecture",
-          "Construction",
-          "Law Firms",
-          "Accounting & Finance",
-          "Consulting & IT",
-          "Design Teams",
-          "Software Development",
-          "Solutions overview",
-          "Customer stories",
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales"
-        ],
-        "ctas": [
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales",
-          "Pricing",
-          "Log in",
-          "Contact sales",
-          "Try Harvest free",
-          "Contact us",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "banner",
-          "nav:Primary",
-          "main",
-          "footer",
-          "nav:Footer navigation",
-          "dialog:More information about your privacy rights"
-        ]
-      },
-      {
-        "url": "https://www.getharvest.com/products",
-        "title": "",
-        "headings": [
-          "This page doesn't exist — or moved.",
-          "Ready to turnhours into profit?",
-          "More information about your privacy rights",
-          "Manage Cookie Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Features",
-          "Time tracking",
-          "Reporting & Analysis",
-          "Invoicing & Payments",
-          "Harvest Forecast",
-          "Features overview",
-          "Asana",
-          "Slack",
-          "Stripe",
-          "All integrations",
-          "Desktop & Mobile apps",
-          "Solutions",
-          "Advertising & Marketing",
-          "Architecture",
-          "Construction",
-          "Law Firms",
-          "Accounting & Finance",
-          "Consulting & IT",
-          "Design Teams",
-          "Software Development",
-          "Solutions overview",
-          "Customer stories",
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales"
-        ],
-        "ctas": [
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales",
-          "Pricing",
-          "Log in",
-          "Contact sales",
-          "Try Harvest free",
-          "Contact us",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "banner",
-          "nav:Primary",
-          "main",
-          "footer",
-          "nav:Footer navigation",
-          "dialog:More information about your privacy rights"
-        ]
-      },
-      {
-        "url": "https://www.getharvest.com/features",
-        "title": "Track Your Hours & Projects with Time Tracking Software | Harvest",
-        "description": "Harvest helps you track your hours and projects, as well as invoice clients efficiently with time tracking software solutions for you and your business. ",
-        "headings": [
-          "Everything your team needs to keep track of hours and projects",
-          "Time tracking",
-          "Reports & analysis",
-          "Invoicing & payments",
-          "Time tracking software",
-          "Track time from browser, desktop, and mobile",
-          "Integrated with your workflow",
-          "Custom reminders for consistent time tracking",
-          "Keep data accurate with approvals",
-          "Create a secure login experience",
-          "Track time flexibly",
-          "Keep budgets on target",
-          "Visualize team capacity",
-          "Understand costs",
-          "Analyze time spent",
-          "Create and share custom reports",
-          "Be confident in your time data with activity log",
-          "Streamline your invoicing",
-          "Get paid fast with online payments",
-          "Keep your books up to date"
-        ],
-        "navLabels": [
-          "Skip to content",
-          "Menu",
-          "Overview",
-          "Time Tracking",
-          "Reporting & Analysis",
-          "Invoicing & Payments",
-          "Advertising & Marketing",
-          "Accounting & Finance",
-          "Architecture",
-          "Consulting & IT",
-          "Construction",
-          "Design Teams",
-          "Law Firms",
-          "Software Development",
-          "Blog",
-          "Webinars",
-          "Guides & Templates",
-          "Help Center",
-          "Developer Documentation",
-          "Pricing",
-          "Sign in",
-          "Try Harvest free",
-          "iPhone",
-          "Android"
-        ],
-        "ctas": [
-          "Pricing",
-          "Sign in",
-          "Try Harvest free",
-          "Join a webinar",
-          "Start your free trial",
-          "Contact us",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "header",
-          "main",
-          "footer",
-          "navigation:Navigation Menu",
-          "dialog:More information about your privacy rights",
-          "dialog"
-        ]
-      },
-      {
-        "url": "https://www.getharvest.com/add-time-tracking",
-        "title": "Harvest Widget, Harvest Button, and Harvest API - Harvest",
-        "description": "Need to add time tracking to your app? The Harvest Widget and Harvest Button make it easy to add time tracking to your app with just a few lines of code.",
-        "headings": [
-          "Integrate your app with Harvest",
-          "Easily add time tracking to your application.",
-          "Add time tracking with a small button",
-          "Add time tracking with a full Harvest timer",
-          "Build robust custom integrations",
-          "Add your integration to the directory",
-          "Ready to turnhours into profit?",
-          "More information about your privacy rights",
-          "Manage Cookie Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Features",
-          "Time tracking",
-          "Reporting & Analysis",
-          "Invoicing & Payments",
-          "Harvest Forecast",
-          "Features overview",
-          "Asana",
-          "Slack",
-          "Stripe",
-          "All integrations",
-          "Desktop & Mobile apps",
-          "Solutions",
-          "Advertising & Marketing",
-          "Architecture",
-          "Construction",
-          "Law Firms",
-          "Accounting & Finance",
-          "Consulting & IT",
-          "Design Teams",
-          "Software Development",
-          "Solutions overview",
-          "Customer stories",
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales"
-        ],
-        "ctas": [
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales",
-          "Pricing",
-          "Log in",
-          "Contact sales",
-          "Try Harvest free",
-          "Contact us",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "banner",
-          "nav:Primary",
-          "main",
-          "footer",
-          "nav:Footer navigation",
-          "dialog:More information about your privacy rights"
-        ]
-      },
-      {
-        "url": "https://www.getharvest.com/solutions",
-        "title": "",
-        "headings": [
-          "This page doesn't exist — or moved.",
-          "Ready to turnhours into profit?",
-          "More information about your privacy rights",
-          "Manage Cookie Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Features",
-          "Time tracking",
-          "Reporting & Analysis",
-          "Invoicing & Payments",
-          "Harvest Forecast",
-          "Features overview",
-          "Asana",
-          "Slack",
-          "Stripe",
-          "All integrations",
-          "Desktop & Mobile apps",
-          "Solutions",
-          "Advertising & Marketing",
-          "Architecture",
-          "Construction",
-          "Law Firms",
-          "Accounting & Finance",
-          "Consulting & IT",
-          "Design Teams",
-          "Software Development",
-          "Solutions overview",
-          "Customer stories",
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales"
-        ],
-        "ctas": [
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales",
-          "Pricing",
-          "Log in",
-          "Contact sales",
-          "Try Harvest free",
-          "Contact us",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "banner",
-          "nav:Primary",
-          "main",
-          "footer",
-          "nav:Footer navigation",
-          "dialog:More information about your privacy rights"
-        ]
-      },
-      {
-        "url": "https://www.getharvest.com/docs",
-        "title": "",
-        "headings": [
-          "This page doesn't exist — or moved.",
-          "Ready to turnhours into profit?",
-          "More information about your privacy rights",
-          "Manage Cookie Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Features",
-          "Time tracking",
-          "Reporting & Analysis",
-          "Invoicing & Payments",
-          "Harvest Forecast",
-          "Features overview",
-          "Asana",
-          "Slack",
-          "Stripe",
-          "All integrations",
-          "Desktop & Mobile apps",
-          "Solutions",
-          "Advertising & Marketing",
-          "Architecture",
-          "Construction",
-          "Law Firms",
-          "Accounting & Finance",
-          "Consulting & IT",
-          "Design Teams",
-          "Software Development",
-          "Solutions overview",
-          "Customer stories",
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales"
-        ],
-        "ctas": [
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales",
-          "Pricing",
-          "Log in",
-          "Contact sales",
-          "Try Harvest free",
-          "Contact us",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "banner",
-          "nav:Primary",
-          "main",
-          "footer",
-          "nav:Footer navigation",
-          "dialog:More information about your privacy rights"
-        ]
-      },
-      {
-        "url": "https://help.getharvest.com/",
-        "title": "Harvest Help Center",
-        "description": "Frequently asked questions and support documentation for Harvest",
-        "headings": [
-          "Hello! Welcome to the Harvest Support Center.",
-          "Harvest Help Center",
-          "Forecast Help Center",
-          "Related links"
-        ],
-        "navLabels": [
-          "Support Center",
-          "Contact Us"
-        ],
-        "ctas": [
-          "Contact Us",
-          "Contact support",
-          "Harvest Modern time tracking trusted by 70,000+ businesses. Learn more"
-        ],
-        "landmarks": [
-          "header",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.getharvest.com/blog",
-        "title": "Time Tracking Blog Providing Expert Tips & Resources | Harvest",
-        "description": "Learn how time tracking can help you run your business with expert tips and resources to strengthen your time management skills and increase employee engagement.",
-        "headings": [
-          "The Harvest Blog",
-          "AI in Professional Services Report: Adoption, Trends, and Impact",
-          "Recent Articles",
-          "Ready to turnhours into profit?",
-          "More information about your privacy rights",
-          "Manage Cookie Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Features",
-          "Time tracking",
-          "Reporting & Analysis",
-          "Invoicing & Payments",
-          "Harvest Forecast",
-          "Features overview",
-          "Asana",
-          "Slack",
-          "Stripe",
-          "All integrations",
-          "Desktop & Mobile apps",
-          "Solutions",
-          "Advertising & Marketing",
-          "Architecture",
-          "Construction",
-          "Law Firms",
-          "Accounting & Finance",
-          "Consulting & IT",
-          "Design Teams",
-          "Software Development",
-          "Solutions overview",
-          "Customer stories",
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales"
-        ],
-        "ctas": [
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales",
-          "Pricing",
-          "Log in",
-          "Contact sales",
-          "Try Harvest free",
-          "Contact us",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "banner",
-          "nav:Primary",
-          "main",
-          "footer",
-          "nav:Footer navigation",
-          "dialog:More information about your privacy rights"
-        ]
-      },
-      {
         "url": "https://www.getharvest.com/about",
         "title": "About Us - Harvest Time Tracking & Timesheets",
         "description": "Harvest is a simple time tracking and fast invoicing solution built in 2006. Innovators in over 100 countries use Harvest everyday to work better.",
@@ -991,7 +696,32 @@
         ]
       },
       {
-        "url": "https://www.getharvest.com/login",
+        "url": "https://help.getharvest.com/",
+        "title": "Harvest Help Center",
+        "description": "Frequently asked questions and support documentation for Harvest",
+        "headings": [
+          "Hello! Welcome to the Harvest Support Center.",
+          "Harvest Help Center",
+          "Forecast Help Center",
+          "Related links"
+        ],
+        "navLabels": [
+          "Support Center",
+          "Contact Us"
+        ],
+        "ctas": [
+          "Contact Us",
+          "Contact support",
+          "Harvest Modern time tracking trusted by 70,000+ businesses. Learn more"
+        ],
+        "landmarks": [
+          "header",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.getharvest.com/docs",
         "title": "",
         "headings": [
           "This page doesn't exist — or moved.",
@@ -1046,113 +776,38 @@
         ]
       },
       {
-        "url": "https://www.getharvest.com/signin",
-        "title": "",
+        "url": "https://help.getharvest.com/api-v2/",
+        "title": "Harvest API V2 Documentation",
+        "description": "Support documentation for the Harvest API",
         "headings": [
-          "This page doesn't exist — or moved.",
-          "Ready to turnhours into profit?",
-          "More information about your privacy rights",
-          "Manage Cookie Preferences",
-          "Cookie List"
+          "Welcome to the Harvest API v2 Help Center",
+          "API Introduction",
+          "Authentication",
+          "Clients API",
+          "Company Settings",
+          "Invoices API",
+          "Estimates API",
+          "Expenses API",
+          "Tasks API",
+          "Timesheets API",
+          "Projects API",
+          "Roles API",
+          "Users API",
+          "Reports API"
         ],
         "navLabels": [
-          "Features",
-          "Time tracking",
-          "Reporting & Analysis",
-          "Invoicing & Payments",
-          "Harvest Forecast",
-          "Features overview",
-          "Asana",
-          "Slack",
-          "Stripe",
-          "All integrations",
-          "Desktop & Mobile apps",
-          "Solutions",
-          "Advertising & Marketing",
-          "Architecture",
-          "Construction",
-          "Law Firms",
-          "Accounting & Finance",
-          "Consulting & IT",
-          "Design Teams",
-          "Software Development",
-          "Solutions overview",
-          "Customer stories",
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales"
+          "API V2 Documentation",
+          "Contact Us"
         ],
         "ctas": [
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales",
-          "Pricing",
-          "Log in",
-          "Contact sales",
-          "Try Harvest free",
-          "Contact us",
-          "Filter Icon"
+          "Contact Us",
+          "Client Contacts",
+          "Harvest Modern time tracking trusted by 70,000+ businesses. Learn more"
         ],
         "landmarks": [
-          "banner",
-          "nav:Primary",
+          "header",
           "main",
-          "footer",
-          "nav:Footer navigation",
-          "dialog:More information about your privacy rights"
-        ]
-      },
-      {
-        "url": "https://www.getharvest.com/sign-in",
-        "title": "",
-        "headings": [
-          "This page doesn't exist — or moved.",
-          "Ready to turnhours into profit?",
-          "More information about your privacy rights",
-          "Manage Cookie Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Features",
-          "Time tracking",
-          "Reporting & Analysis",
-          "Invoicing & Payments",
-          "Harvest Forecast",
-          "Features overview",
-          "Asana",
-          "Slack",
-          "Stripe",
-          "All integrations",
-          "Desktop & Mobile apps",
-          "Solutions",
-          "Advertising & Marketing",
-          "Architecture",
-          "Construction",
-          "Law Firms",
-          "Accounting & Finance",
-          "Consulting & IT",
-          "Design Teams",
-          "Software Development",
-          "Solutions overview",
-          "Customer stories",
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales"
-        ],
-        "ctas": [
-          "Join a webinar",
-          "Onboarding a 50+ person team? Contact sales",
-          "Pricing",
-          "Log in",
-          "Contact sales",
-          "Try Harvest free",
-          "Contact us",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "banner",
-          "nav:Primary",
-          "main",
-          "footer",
-          "nav:Footer navigation",
-          "dialog:More information about your privacy rights"
+          "footer"
         ]
       }
     ],
@@ -1202,17 +857,10 @@
       "Sign in",
       "or sign in with SAML SSO",
       "Sign up for free",
-      "Startup studio Dovetail tracks time with Harvest to build trust with clients.",
-      "Harvest helps web design company Juicyorange justify their pricing.",
-      "Clear Search",
-      "Get started",
-      "Contact our support team",
-      "pricing calculator",
-      "How do I sign up for the free plan?",
-      "Book a consultation",
-      "Start your free trial",
+      "Download press kit",
       "Contact support",
-      "Harvest Modern time tracking trusted by 70,000+ businesses. Learn more"
+      "Harvest Modern time tracking trusted by 70,000+ businesses. Learn more",
+      "Client Contacts"
     ],
     "headings": [
       "Turn hours into profit",
@@ -1236,20 +884,18 @@
       "J&O Law",
       "Netalico",
       "Sign in to Harvest",
-      "See how Harvest helps teams like yours thrive",
+      "Everyone’s time is valuable. We help teams spend it wisely.",
+      "Keeping time and helping teams thrive since 2006",
+      "Trusted by early birds and night owls around the world",
       "70,000+",
+      "customers",
       "4.5 billion",
+      "hours tracked",
       "$64+ billion",
-      "Find stories from teams like yours",
-      "More information about your privacy rights",
-      "Manage Cookie Preferences",
-      "Cookie List",
-      "Simple & flexible pricing"
+      "invoiced by customers"
     ],
     "techSignals": [
-      "Google Tag Manager",
-      "Cloudflare",
-      "Stripe"
+      "Google Tag Manager"
     ],
     "featureCandidates": [
       "Turn hours into profit",
@@ -1270,12 +916,12 @@
       "J&O Law",
       "Netalico",
       "Sign in to Harvest",
-      "See how Harvest helps teams like yours thrive",
       "70,000+",
+      "customers",
       "4.5 billion",
+      "hours tracked",
       "$64+ billion",
-      "Find stories from teams like yours",
-      "More information about your privacy rights"
+      "invoiced by customers"
     ],
     "patternCandidates": [
       "Pricing display",
@@ -1284,8 +930,6 @@
       "Card layout",
       "Calendar",
       "Authentication",
-      "Filters",
-      "Search",
       "Messaging"
     ],
     "platformsDetected": [
@@ -1295,6 +939,9 @@
       "desktop",
       "api"
     ],
-    "summary": "Captured 38 screenshots across 16 public URLs. Nav signals: Features, Time tracking, Reporting & Analysis, Invoicing & Payments, Harvest Forecast, Features overview. Tech signals: Google Tag Manager, Cloudflare, Stripe. UI patterns: Pricing display, Tabs, Menus, Card layout, Calendar, Authentication."
+    "summary": "Captured 30 screenshots across 6 public URLs. Nav signals: Features, Time tracking, Reporting & Analysis, Invoicing & Payments, Harvest Forecast, Features overview. Tech signals: Google Tag Manager. UI patterns: Pricing display, Tabs, Menus, Card layout, Calendar, Authentication."
+  },
+  "fallback": {
+    "blockedNavigations": 0
   }
 }

@@ -1,195 +1,116 @@
 {
   "slug": "servicenow",
-  "capturedAt": "2026-07-27T00:20:57.159Z",
+  "capturedAt": "2026-07-27T23:01:25.437Z",
   "shots": [
-    {
-      "file": "surface-1.jpg",
-      "title": "Incident form",
-      "caption": "ServiceNow public surface · servicenow.com",
-      "kind": "product",
-      "sourceUrl": "https://www.servicenow.com/docs/"
-    },
-    {
-      "file": "surface-2.jpg",
-      "title": "Service Portal home (1)",
-      "caption": "ServiceNow public surface · developer.servicenow.com",
-      "kind": "product",
-      "sourceUrl": "https://developer.servicenow.com/dev.do#!/reference"
-    },
-    {
-      "file": "surface-2-mid.jpg",
-      "title": "Service Portal home (2)",
-      "caption": "ServiceNow public surface · developer.servicenow.com",
-      "kind": "product",
-      "sourceUrl": "https://developer.servicenow.com/dev.do#!/reference"
-    },
-    {
-      "file": "surface-3.jpg",
-      "title": "Flow Designer",
-      "caption": "ServiceNow public surface · servicenow.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.servicenow.com/docs/r/yokohama/api-reference/rest-api-explorer/c_RESTAPI.html"
-    },
-    {
-      "file": "surface-4.jpg",
-      "title": "CMDB CI",
-      "caption": "ServiceNow public surface · servicenow.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.servicenow.com/docs/"
-    },
-    {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
-      "caption": "ServiceNow public surface · servicenow.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.servicenow.com/docs/"
-    },
-    {
-      "file": "fallback-wayback-1.jpg",
-      "title": "Archived Marketing preview",
-      "caption": "Wayback Machine snapshot 20260723152706 · https://www.servicenow.com",
-      "kind": "marketing",
-      "sourceUrl": "http://web.archive.org/web/20260723152706/https://www.servicenow.com/"
-    },
-    {
-      "file": "fallback-wayback-2.jpg",
-      "title": "Create and automate workflows",
-      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260723152706/https://www.servicenow.com/",
-      "kind": "docs",
-      "sourceUrl": "http://web.archive.org/web/20260723152706/https://www.servicenow.com/"
-    },
-    {
-      "file": "fallback-wayback-3.jpg",
-      "title": "workflow promo image",
-      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260723152706/https://www.servicenow.com/",
-      "kind": "docs",
-      "sourceUrl": "http://web.archive.org/web/20260723152706/https://www.servicenow.com/"
-    },
     {
       "file": "fallback-yt-yBX-uVTs__I-poster.jpg",
       "title": "YouTube poster (yBX-uVTs__I)",
       "caption": "YouTube poster · https://www.youtube.com/watch?v=yBX-uVTs__I",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=yBX-uVTs__I"
+      "sourceUrl": "https://www.youtube.com/watch?v=yBX-uVTs__I",
+      "capturedAt": "2026-07-27T23:01:23.075Z",
+      "playbookStep": "web-fallback",
+      "width": 1280,
+      "height": 720,
+      "phash": "809864aede9a9ae1",
+      "unique": true
     },
     {
       "file": "fallback-yt-yBX-uVTs__I-frame-0.jpg",
       "title": "YouTube frame still (yBX-uVTs__I)",
       "caption": "YouTube frame-0 · https://www.youtube.com/watch?v=yBX-uVTs__I",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=yBX-uVTs__I"
+      "sourceUrl": "https://www.youtube.com/watch?v=yBX-uVTs__I",
+      "capturedAt": "2026-07-27T23:01:23.075Z",
+      "playbookStep": "web-fallback",
+      "width": 480,
+      "height": 360,
+      "phash": "609a81ae9e9a2548",
+      "unique": true
     },
     {
       "file": "fallback-yt-yBX-uVTs__I-frame-1.jpg",
       "title": "YouTube frame still (yBX-uVTs__I)",
       "caption": "YouTube frame-1 · https://www.youtube.com/watch?v=yBX-uVTs__I",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=yBX-uVTs__I"
-    },
-    {
-      "file": "fallback-yt-yBX-uVTs__I-frame-2.jpg",
-      "title": "YouTube frame still (yBX-uVTs__I)",
-      "caption": "YouTube frame-2 · https://www.youtube.com/watch?v=yBX-uVTs__I",
-      "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=yBX-uVTs__I"
+      "sourceUrl": "https://www.youtube.com/watch?v=yBX-uVTs__I",
+      "capturedAt": "2026-07-27T23:01:23.075Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "4a3538ba381c3c1c",
+      "unique": true
     },
     {
       "file": "fallback-yt-yBX-uVTs__I-frame-3.jpg",
       "title": "YouTube frame still (yBX-uVTs__I)",
       "caption": "YouTube frame-3 · https://www.youtube.com/watch?v=yBX-uVTs__I",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=yBX-uVTs__I"
+      "sourceUrl": "https://www.youtube.com/watch?v=yBX-uVTs__I",
+      "capturedAt": "2026-07-27T23:01:23.075Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "002816e8e8160000",
+      "unique": true
     },
     {
       "file": "fallback-yt-XErEM1jLxeU-poster.jpg",
       "title": "YouTube poster (XErEM1jLxeU)",
       "caption": "YouTube poster · https://www.youtube.com/watch?v=XErEM1jLxeU",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=XErEM1jLxeU"
+      "sourceUrl": "https://www.youtube.com/watch?v=XErEM1jLxeU",
+      "capturedAt": "2026-07-27T23:01:23.075Z",
+      "playbookStep": "web-fallback",
+      "width": 1280,
+      "height": 720,
+      "phash": "49d1cc6caa9cadad",
+      "unique": true
     },
     {
       "file": "fallback-yt-XErEM1jLxeU-frame-0.jpg",
       "title": "YouTube frame still (XErEM1jLxeU)",
       "caption": "YouTube frame-0 · https://www.youtube.com/watch?v=XErEM1jLxeU",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=XErEM1jLxeU"
+      "sourceUrl": "https://www.youtube.com/watch?v=XErEM1jLxeU",
+      "capturedAt": "2026-07-27T23:01:23.075Z",
+      "playbookStep": "web-fallback",
+      "width": 480,
+      "height": 360,
+      "phash": "2098c46cb8bcadac",
+      "unique": true
     },
     {
       "file": "fallback-yt-XErEM1jLxeU-frame-1.jpg",
       "title": "YouTube frame still (XErEM1jLxeU)",
       "caption": "YouTube frame-1 · https://www.youtube.com/watch?v=XErEM1jLxeU",
       "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=XErEM1jLxeU"
-    },
-    {
-      "file": "fallback-yt-XErEM1jLxeU-frame-2.jpg",
-      "title": "YouTube frame still (XErEM1jLxeU)",
-      "caption": "YouTube frame-2 · https://www.youtube.com/watch?v=XErEM1jLxeU",
-      "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=XErEM1jLxeU"
-    },
-    {
-      "file": "fallback-yt-XErEM1jLxeU-frame-3.jpg",
-      "title": "YouTube frame still (XErEM1jLxeU)",
-      "caption": "YouTube frame-3 · https://www.youtube.com/watch?v=XErEM1jLxeU",
-      "kind": "marketing",
-      "sourceUrl": "https://www.youtube.com/watch?v=XErEM1jLxeU"
+      "sourceUrl": "https://www.youtube.com/watch?v=XErEM1jLxeU",
+      "capturedAt": "2026-07-27T23:01:23.075Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "0a7333717393b2b2",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T00:20:57.159Z",
-    "screenshotCount": 19,
-    "pageCount": 3,
-    "pages": [
-      {
-        "url": "https://www.servicenow.com/docs/",
-        "title": "ServiceNow • Docs | ServiceNow",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "header"
-        ]
-      },
-      {
-        "url": "https://developer.servicenow.com/dev.do#!/reference",
-        "title": "Reference | ServiceNow Developers",
-        "description": "ServiceNow provides JavaScript APIs for use within scripts running on the ServiceNow platform to deliver common functionality. This reference lists available classes and methods along with parameters, descriptions, and examples to make extending the ServiceNow platform easier.",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "header"
-        ]
-      },
-      {
-        "url": "https://www.servicenow.com/docs/r/yokohama/api-reference/rest-api-explorer/c_RESTAPI.html",
-        "title": "Reader • Docs | ServiceNow",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "header"
-        ]
-      }
-    ],
+    "capturedAt": "2026-07-27T23:01:25.437Z",
+    "screenshotCount": 7,
+    "pageCount": 0,
+    "pages": [],
     "navLabels": [],
     "ctas": [],
     "headings": [],
-    "techSignals": [
-      "Google Tag Manager"
-    ],
+    "techSignals": [],
     "featureCandidates": [],
-    "patternCandidates": [
-      "Tabs"
-    ],
+    "patternCandidates": [],
     "platformsDetected": [
-      "web",
-      "api"
+      "web"
     ],
-    "summary": "Captured 19 screenshots across 3 public URLs. Tech signals: Google Tag Manager. UI patterns: Tabs."
+    "summary": "Captured 7 screenshots across 0 public URLs."
   },
   "fallback": {
-    "blockedNavigations": 8
+    "blockedNavigations": 0
   }
 }

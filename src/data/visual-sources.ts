@@ -32,7 +32,10 @@ export type LegacyVisualSource = {
   notes?: string;
 };
 
-export const PRODUCT_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
+import { GENERATED_VISUAL_SOURCES } from "./visual-sources-generated";
+
+/** Hand-curated sources — win over generated on key collision */
+const CURATED_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
   notion: {
     homepage: "https://www.notion.com",
     help: [
@@ -705,6 +708,12 @@ export const PRODUCT_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
     notes:
       "Clinical UI is rarely public; open.epic / FHIR docs + public training demos are the available surface.",
   },
+};
+
+/** Generated baselines + curated overrides (curated wins). */
+export const PRODUCT_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
+  ...GENERATED_VISUAL_SOURCES,
+  ...CURATED_VISUAL_SOURCES,
 };
 
 export function flattenVisualSources(group: VisualSourceGroup): string[] {

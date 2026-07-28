@@ -4,6 +4,7 @@ import {
   createContext,
   useCallback,
   useContext,
+  useDeferredValue,
   useMemo,
   useState,
   type ReactNode,
@@ -49,13 +50,16 @@ export function CatalogProvider({
     () => getDefaultFilters(products),
     [products],
   );
-  const [filters, setFilters] = useState<FilterState>(defaultFilters);
+  const [filters, setFiltersState] = useState<FilterState>(defaultFilters);
   const [desktopFiltersOpen, setDesktopFiltersOpen] = useState(true);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
+  // Keep filter UI responsive; defer the expensive product scan/sort.
+  const deferredFilters = useDeferredValue(filters);
+
   const results = useMemo(
-    () => filterProducts(products, filters),
-    [products, filters],
+    () => filterProducts(products, deferredFilters),
+    [products, deferredFilters],
   );
 
   const activeFilterCount = useMemo(
@@ -63,12 +67,16 @@ export function CatalogProvider({
     [filters, facets.pageCountBounds],
   );
 
+  const setFilters = useCallback((next: FilterState) => {
+    setFiltersState(next);
+  }, []);
+
   const setQuery = useCallback((query: string) => {
-    setFilters((prev) => ({ ...prev, query }));
+    setFiltersState((prev) => ({ ...prev, query }));
   }, []);
 
   const resetFilters = useCallback(() => {
-    setFilters(defaultFilters);
+    setFiltersState(defaultFilters);
   }, [defaultFilters]);
 
   const toggleDesktopFilters = useCallback(() => {
@@ -97,6 +105,7 @@ export function CatalogProvider({
       facets,
       defaultFilters,
       filters,
+      setFilters,
       setQuery,
       resetFilters,
       results,

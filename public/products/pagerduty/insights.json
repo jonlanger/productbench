@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-07-27T13:58:53.465Z",
-  "screenshotCount": 35,
-  "pageCount": 16,
+  "capturedAt": "2026-07-27T22:08:41.658Z",
+  "screenshotCount": 50,
+  "pageCount": 13,
   "pages": [
     {
       "url": "https://www.pagerduty.com/",
@@ -99,9 +99,9 @@
       ]
     },
     {
-      "url": "https://www.pagerduty.com/platform/ai-agents/",
-      "title": "AI Agents | PagerDuty",
-      "description": "PagerDuty AI Agents help operations teams do critical work faster, better, and smarter — driving efficiency and productivity across the enterprise.",
+      "url": "https://www.pagerduty.com/solutions/operations-center-modernization/",
+      "title": "Operations Center Modernization | PagerDuty",
+      "description": "Automate incident resolution and streamline mission-critical workflows. Modernize your operations center to reduce costs and build a foundation for scalable growth.",
       "headings": [
         "Products",
         "PagerDuty Operations Cloud",
@@ -160,8 +160,9 @@
         "Request a demo",
         "Demos",
         "Ebooks",
-        "Learn more",
-        "Download Details",
+        "Start Free Trial",
+        "Start a Free Trial",
+        "Learn More",
         "Watch Demo",
         "Facebook",
         "Filter Button"
@@ -169,10 +170,303 @@
       "landmarks": [
         "nav:Main navigation",
         "main",
-        "nav:AI Pages Navigation",
         "nav:Breadcrumb",
-        "nav",
         "footer",
+        "nav",
+        "dialog:Privacy Preference Center"
+      ]
+    },
+    {
+      "url": "https://www.pagerduty.com/integrations/",
+      "title": "Integrations | Integrate With PagerDuty | PagerDuty",
+      "description": "Resolve incidents faster by integrating your favorite DevOps and ITOps tools—including APM, collaboration, error tracking, and monitoring tools—with PagerDuty. We have over 370 native integrations to choose from, or you can build your own with our API.",
+      "headings": [
+        "Products",
+        "PagerDuty Operations Cloud",
+        "Incident Management",
+        "AI at PagerDuty",
+        "Automation",
+        "AI Agents",
+        "Status Pages",
+        "PagerDuty Advance",
+        "Customer Service Ops",
+        "AIOps",
+        "Monthly Product Drops",
+        "Platform",
+        "Developer Platform",
+        "Professional Services",
+        "Security",
+        "Enterprise Class",
+        "Integrations",
+        "Solutions",
+        "Use Cases",
+        "Industries"
+      ],
+      "navLabels": [
+        "Pricing",
+        "Search",
+        "English",
+        "Deutsch",
+        "Français",
+        "日本語",
+        "Contact Us",
+        "Log In",
+        "Start for Free",
+        "Incident Management End-to-end orchestration for rapid issue resolution.",
+        "AI at PagerDuty Revolutionize operations at the speed of AI.",
+        "Automation Accelerate critical work across the enterprise.",
+        "AI Agents Redefine operations with AI Agents that ignite growth.",
+        "Status Pages A single source of truth for system status.",
+        "PagerDuty Advance Generative AI for critical operations work.",
+        "Customer Service Ops Bridge support and engineering teams.",
+        "AIOps Reduce alert noise and accelerate triage.",
+        "Explore our 750+ integrations",
+        "Developer Platform Customize your PagerDuty experience.",
+        "Professional Services Get more value from PagerDuty.",
+        "Security View our trust and compliance practices.",
+        "Enterprise Class Secure, reliable, extensible, and scalable.",
+        "Integrations Work how you want with PagerDuty.",
+        "Request a demo"
+      ],
+      "ctas": [
+        "Pricing",
+        "Search",
+        "Contact Us",
+        "Log In",
+        "Start for Free",
+        "Explore our 750+ integrations",
+        "Request a demo",
+        "Demos",
+        "Ebooks",
+        "Learn more →",
+        "Rundeck - Runbook Automation",
+        "Sentry Partner Built and Supported",
+        "Datadog Add-on",
+        "GoSearch",
+        "IPSentry",
+        "SearchStax",
+        "Watcher | Elasticsearch",
+        "Watch Demo",
+        "Facebook",
+        "Filter Button"
+      ],
+      "landmarks": [
+        "aside",
+        "nav:Main navigation",
+        "main",
+        "footer",
+        "nav",
+        "dialog:Privacy Preference Center"
+      ]
+    },
+    {
+      "url": "https://www.pagerduty.com/support/",
+      "title": "Support | PagerDuty",
+      "headings": [
+        "Products",
+        "PagerDuty Operations Cloud",
+        "Incident Management",
+        "AI at PagerDuty",
+        "Automation",
+        "AI Agents",
+        "Status Pages",
+        "PagerDuty Advance",
+        "Customer Service Ops",
+        "AIOps",
+        "Monthly Product Drops",
+        "Platform",
+        "Developer Platform",
+        "Professional Services",
+        "Security",
+        "Enterprise Class",
+        "Integrations",
+        "Solutions",
+        "Use Cases",
+        "Industries"
+      ],
+      "navLabels": [
+        "Pricing",
+        "Search",
+        "English",
+        "Deutsch",
+        "Français",
+        "日本語",
+        "Contact Us",
+        "Log In",
+        "Start for Free",
+        "Incident Management End-to-end orchestration for rapid issue resolution.",
+        "AI at PagerDuty Revolutionize operations at the speed of AI.",
+        "Automation Accelerate critical work across the enterprise.",
+        "AI Agents Redefine operations with AI Agents that ignite growth.",
+        "Status Pages A single source of truth for system status.",
+        "PagerDuty Advance Generative AI for critical operations work.",
+        "Customer Service Ops Bridge support and engineering teams.",
+        "AIOps Reduce alert noise and accelerate triage.",
+        "Explore our 750+ integrations",
+        "Developer Platform Customize your PagerDuty experience.",
+        "Professional Services Get more value from PagerDuty.",
+        "Security View our trust and compliance practices.",
+        "Enterprise Class Secure, reliable, extensible, and scalable.",
+        "Integrations Work how you want with PagerDuty.",
+        "Request a demo"
+      ],
+      "ctas": [
+        "Pricing",
+        "Search",
+        "Contact Us",
+        "Log In",
+        "Start for Free",
+        "Explore our 750+ integrations",
+        "Request a demo",
+        "Demos",
+        "Ebooks",
+        "Contact Support",
+        "Watch Demo",
+        "Facebook",
+        "Filter Button"
+      ],
+      "landmarks": [
+        "aside",
+        "nav:Main navigation",
+        "main",
+        "footer",
+        "nav",
+        "dialog:Privacy Preference Center"
+      ]
+    },
+    {
+      "url": "https://support.pagerduty.com/",
+      "title": "PagerDuty",
+      "description": "Get help with configuring your account and using PagerDuty. Contact Support: https://www.pagerduty.com/contact-us/#contact-support",
+      "headings": [
+        "PagerDuty Knowledge Base",
+        "Getting Started",
+        "PagerDuty University",
+        "Best Practices",
+        "People",
+        "Services",
+        "Incidents",
+        "Notifications",
+        "Mobile App",
+        "Analytics",
+        "Platform",
+        "APIs",
+        "Billing and Account Settings",
+        "AIOps",
+        "Integrations",
+        "Security",
+        "Support",
+        "Status",
+        "Automation",
+        "Post-Incident Reviews (Jeli)"
+      ],
+      "navLabels": [
+        "Jump to Content",
+        "Home",
+        "Knowledge Base",
+        "Workflow Actions",
+        "Platform Release Notes",
+        "API Docs",
+        "Integrations",
+        "PagerDuty University",
+        "PagerDuty Commons",
+        "Contact Support",
+        "My Support Tickets",
+        "PagerDuty",
+        "Search⌘K"
+      ],
+      "ctas": [
+        "Contact Support",
+        "Search⌘K",
+        "Getting Started Follow our Quick Start Guide to start off on the right foot.",
+        "Email Management: Filters and Rules",
+        "PagerDuty Runbook Automation Self-Hosted /...",
+        "Get Started with Jeli Post-Incident...",
+        "Datadog: Create a Graph Snapshot",
+        "Filter Button"
+      ],
+      "landmarks": [
+        "header",
+        "navigation:Primary navigation",
+        "footer:Status banner",
+        "dialog:Privacy Preference Center"
+      ]
+    },
+    {
+      "url": "https://www.pagerduty.com/platform/",
+      "title": "Platform for Real-Time Operations | PagerDuty",
+      "description": "Our platform for real-time operations enables businesses and teams to quickly escalate major incidents and events to the right people. Learn more.",
+      "headings": [
+        "Products",
+        "PagerDuty Operations Cloud",
+        "Incident Management",
+        "AI at PagerDuty",
+        "Automation",
+        "AI Agents",
+        "Status Pages",
+        "PagerDuty Advance",
+        "Customer Service Ops",
+        "AIOps",
+        "Monthly Product Drops",
+        "Platform",
+        "Developer Platform",
+        "Professional Services",
+        "Security",
+        "Enterprise Class",
+        "Integrations",
+        "Solutions",
+        "Use Cases",
+        "Industries"
+      ],
+      "navLabels": [
+        "Pricing",
+        "Search",
+        "English",
+        "Deutsch",
+        "Français",
+        "日本語",
+        "Contact Us",
+        "Log In",
+        "Start for Free",
+        "Incident Management End-to-end orchestration for rapid issue resolution.",
+        "AI at PagerDuty Revolutionize operations at the speed of AI.",
+        "Automation Accelerate critical work across the enterprise.",
+        "AI Agents Redefine operations with AI Agents that ignite growth.",
+        "Status Pages A single source of truth for system status.",
+        "PagerDuty Advance Generative AI for critical operations work.",
+        "Customer Service Ops Bridge support and engineering teams.",
+        "AIOps Reduce alert noise and accelerate triage.",
+        "Explore our 750+ integrations",
+        "Developer Platform Customize your PagerDuty experience.",
+        "Professional Services Get more value from PagerDuty.",
+        "Security View our trust and compliance practices.",
+        "Enterprise Class Secure, reliable, extensible, and scalable.",
+        "Integrations Work how you want with PagerDuty.",
+        "Request a demo"
+      ],
+      "ctas": [
+        "Pricing",
+        "Search",
+        "Contact Us",
+        "Log In",
+        "Start for Free",
+        "Explore our 750+ integrations",
+        "Request a demo",
+        "Demos",
+        "Ebooks",
+        "Get Started",
+        "Watch Demo",
+        "Runbook Automation Self-Hosted",
+        "Facebook",
+        "Filter Button"
+      ],
+      "landmarks": [
+        "aside",
+        "nav:Main navigation",
+        "main",
+        "footer",
+        "nav",
+        "dialog:The PagerDuty Platform Overview (2 min.)",
         "dialog:Privacy Preference Center"
       ]
     },
@@ -259,16 +553,6 @@
       ]
     },
     {
-      "url": "https://www.pagerduty.com/product",
-      "title": "403 Forbidden",
-      "headings": [
-        "403 Forbidden"
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
       "url": "https://www.pagerduty.com/platform/operations-cloud/",
       "title": "Operations Cloud | PagerDuty",
       "description": "Create efficiency, build resilience, and drive growth. Scale teams with AI and automation to do critical work better, faster, and smarter.",
@@ -344,84 +628,6 @@
         "nav:Breadcrumb",
         "footer",
         "nav",
-        "dialog:Privacy Preference Center"
-      ]
-    },
-    {
-      "url": "https://www.pagerduty.com/platform/",
-      "title": "Platform for Real-Time Operations | PagerDuty",
-      "description": "Our platform for real-time operations enables businesses and teams to quickly escalate major incidents and events to the right people. Learn more.",
-      "headings": [
-        "Products",
-        "PagerDuty Operations Cloud",
-        "Incident Management",
-        "AI at PagerDuty",
-        "Automation",
-        "AI Agents",
-        "Status Pages",
-        "PagerDuty Advance",
-        "Customer Service Ops",
-        "AIOps",
-        "Monthly Product Drops",
-        "Platform",
-        "Developer Platform",
-        "Professional Services",
-        "Security",
-        "Enterprise Class",
-        "Integrations",
-        "Solutions",
-        "Use Cases",
-        "Industries"
-      ],
-      "navLabels": [
-        "Pricing",
-        "Search",
-        "English",
-        "Deutsch",
-        "Français",
-        "日本語",
-        "Contact Us",
-        "Log In",
-        "Start for Free",
-        "Incident Management End-to-end orchestration for rapid issue resolution.",
-        "AI at PagerDuty Revolutionize operations at the speed of AI.",
-        "Automation Accelerate critical work across the enterprise.",
-        "AI Agents Redefine operations with AI Agents that ignite growth.",
-        "Status Pages A single source of truth for system status.",
-        "PagerDuty Advance Generative AI for critical operations work.",
-        "Customer Service Ops Bridge support and engineering teams.",
-        "AIOps Reduce alert noise and accelerate triage.",
-        "Explore our 750+ integrations",
-        "Developer Platform Customize your PagerDuty experience.",
-        "Professional Services Get more value from PagerDuty.",
-        "Security View our trust and compliance practices.",
-        "Enterprise Class Secure, reliable, extensible, and scalable.",
-        "Integrations Work how you want with PagerDuty.",
-        "Request a demo"
-      ],
-      "ctas": [
-        "Pricing",
-        "Search",
-        "Contact Us",
-        "Log In",
-        "Start for Free",
-        "Explore our 750+ integrations",
-        "Request a demo",
-        "Demos",
-        "Ebooks",
-        "Get Started",
-        "Watch Demo",
-        "Runbook Automation Self-Hosted",
-        "Facebook",
-        "Filter Button"
-      ],
-      "landmarks": [
-        "aside",
-        "nav:Main navigation",
-        "main",
-        "footer",
-        "nav",
-        "dialog:The PagerDuty Platform Overview (2 min.)",
         "dialog:Privacy Preference Center"
       ]
     },
@@ -576,99 +782,6 @@
       ]
     },
     {
-      "url": "https://www.pagerduty.com/integrations/",
-      "title": "Integrations | Integrate With PagerDuty | PagerDuty",
-      "description": "Resolve incidents faster by integrating your favorite DevOps and ITOps tools—including APM, collaboration, error tracking, and monitoring tools—with PagerDuty. We have over 370 native integrations to choose from, or you can build your own with our API.",
-      "headings": [
-        "Products",
-        "PagerDuty Operations Cloud",
-        "Incident Management",
-        "AI at PagerDuty",
-        "Automation",
-        "AI Agents",
-        "Status Pages",
-        "PagerDuty Advance",
-        "Customer Service Ops",
-        "AIOps",
-        "Monthly Product Drops",
-        "Platform",
-        "Developer Platform",
-        "Professional Services",
-        "Security",
-        "Enterprise Class",
-        "Integrations",
-        "Solutions",
-        "Use Cases",
-        "Industries"
-      ],
-      "navLabels": [
-        "Pricing",
-        "Search",
-        "English",
-        "Deutsch",
-        "Français",
-        "日本語",
-        "Contact Us",
-        "Log In",
-        "Start for Free",
-        "Incident Management End-to-end orchestration for rapid issue resolution.",
-        "AI at PagerDuty Revolutionize operations at the speed of AI.",
-        "Automation Accelerate critical work across the enterprise.",
-        "AI Agents Redefine operations with AI Agents that ignite growth.",
-        "Status Pages A single source of truth for system status.",
-        "PagerDuty Advance Generative AI for critical operations work.",
-        "Customer Service Ops Bridge support and engineering teams.",
-        "AIOps Reduce alert noise and accelerate triage.",
-        "Explore our 750+ integrations",
-        "Developer Platform Customize your PagerDuty experience.",
-        "Professional Services Get more value from PagerDuty.",
-        "Security View our trust and compliance practices.",
-        "Enterprise Class Secure, reliable, extensible, and scalable.",
-        "Integrations Work how you want with PagerDuty.",
-        "Request a demo"
-      ],
-      "ctas": [
-        "Pricing",
-        "Search",
-        "Contact Us",
-        "Log In",
-        "Start for Free",
-        "Explore our 750+ integrations",
-        "Request a demo",
-        "Demos",
-        "Ebooks",
-        "Learn more →",
-        "Rundeck - Runbook Automation",
-        "Sentry Partner Built and Supported",
-        "Datadog Add-on",
-        "GoSearch",
-        "IPSentry",
-        "SearchStax",
-        "Watcher | Elasticsearch",
-        "Watch Demo",
-        "Facebook",
-        "Filter Button"
-      ],
-      "landmarks": [
-        "aside",
-        "nav:Main navigation",
-        "main",
-        "footer",
-        "nav",
-        "dialog:Privacy Preference Center"
-      ]
-    },
-    {
-      "url": "https://www.pagerduty.com/help",
-      "title": "403 Forbidden",
-      "headings": [
-        "403 Forbidden"
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
       "url": "https://www.pagerduty.com/blog/",
       "title": "Blog - PagerDuty",
       "description": "Welcome to the PagerDuty blog. Check out the latest on incident management, DevOps, IT Operations and more!",
@@ -820,36 +933,6 @@
         "nav",
         "dialog:Privacy Preference Center"
       ]
-    },
-    {
-      "url": "https://www.pagerduty.com/login",
-      "title": "403 Forbidden",
-      "headings": [
-        "403 Forbidden"
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.pagerduty.com/signin",
-      "title": "403 Forbidden",
-      "headings": [
-        "403 Forbidden"
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.pagerduty.com/sign-in",
-      "title": "403 Forbidden",
-      "headings": [
-        "403 Forbidden"
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
     }
   ],
   "navLabels": [
@@ -904,11 +987,11 @@
     "Facebook",
     "Filter Button",
     "Sign up",
-    "Download Details",
-    "Get Started",
-    "Start Trial",
-    "Contextual Search and Tagging",
-    "Dynamically Add Additional Responders"
+    "Start a Free Trial",
+    "Learn more →",
+    "Rundeck - Runbook Automation",
+    "Sentry Partner Built and Supported",
+    "Datadog Add-on"
   ],
   "headings": [
     "Products",
@@ -933,7 +1016,14 @@
     "Industries",
     "Sign in to your account",
     "Monthly Product Drops",
-    "403 Forbidden"
+    "PagerDuty Knowledge Base",
+    "Getting Started",
+    "PagerDuty University",
+    "Best Practices",
+    "People",
+    "Services",
+    "Incidents",
+    "Notifications"
   ],
   "techSignals": [
     "Next.js",
@@ -943,7 +1033,8 @@
     "Datadog",
     "Cloudflare",
     "Sentry",
-    "Zendesk"
+    "Zendesk",
+    "React"
   ],
   "featureCandidates": [
     "Products",
@@ -968,8 +1059,8 @@
     "Industries",
     "Sign in to your account",
     "Monthly Product Drops",
-    "403 Forbidden",
-    "Pricing"
+    "PagerDuty Knowledge Base",
+    "Getting Started"
   ],
   "patternCandidates": [
     "Pricing display",
@@ -977,9 +1068,9 @@
     "Checkout",
     "Authentication",
     "Search",
-    "Dashboard",
+    "Filters",
     "Card layout",
-    "Filters"
+    "Dashboard"
   ],
   "platformsDetected": [
     "web",
@@ -987,5 +1078,5 @@
     "ios",
     "android"
   ],
-  "summary": "Captured 35 screenshots across 16 public URLs. Nav signals: Pricing, Search, English, Deutsch, Français, 日本語. Tech signals: Next.js, Webpack, Segment, Google Tag Manager, Datadog, Cloudflare. UI patterns: Pricing display, Tabs, Checkout, Authentication, Search, Dashboard."
+  "summary": "Captured 50 screenshots across 13 public URLs. Nav signals: Pricing, Search, English, Deutsch, Français, 日本語. Tech signals: Next.js, Webpack, Segment, Google Tag Manager, Datadog, Cloudflare. UI patterns: Pricing display, Tabs, Checkout, Authentication, Search, Filters."
 }

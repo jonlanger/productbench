@@ -1,0 +1,487 @@
+{
+  "slug": "salesforce-commerce-cloud",
+  "capturedAt": "2026-07-27T22:42:43.453Z",
+  "shots": [
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard (1)",
+      "caption": "Salesforce Commerce Cloud public surface · help.salesforce.com",
+      "kind": "product",
+      "sourceUrl": "https://help.salesforce.com/s/articleView?id=cc.b2c_commerce.htm&type=5",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Salesforce Help | Article",
+      "width": 390,
+      "height": 844,
+      "phash": "64d9e4031b179640",
+      "unique": true
+    },
+    {
+      "file": "surface-1-top.jpg",
+      "title": "Dashboard (2)",
+      "caption": "Salesforce Commerce Cloud public surface · help.salesforce.com",
+      "kind": "product",
+      "sourceUrl": "https://help.salesforce.com/s/articleView?id=cc.b2c_commerce.htm&type=5",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Salesforce Help | Article",
+      "width": 390,
+      "height": 844,
+      "phash": "68d5e4051b4f9706",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-2.jpg",
+      "title": "Dashboard (3)",
+      "caption": "Salesforce Commerce Cloud public surface · help.salesforce.com",
+      "kind": "product",
+      "sourceUrl": "https://help.salesforce.com/s/articleView?id=cc.b2c_commerce.htm&type=5",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Salesforce Help | Article",
+      "width": 390,
+      "height": 844,
+      "phash": "1616004278787878",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-3.jpg",
+      "title": "Dashboard (4)",
+      "caption": "Salesforce Commerce Cloud public surface · help.salesforce.com",
+      "kind": "product",
+      "sourceUrl": "https://help.salesforce.com/s/articleView?id=cc.b2c_commerce.htm&type=5",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Salesforce Help | Article",
+      "width": 390,
+      "height": 844,
+      "phash": "607878787870494f",
+      "unique": true
+    },
+    {
+      "file": "surface-1-lower.jpg",
+      "title": "Dashboard (5)",
+      "caption": "Salesforce Commerce Cloud public surface · help.salesforce.com",
+      "kind": "product",
+      "sourceUrl": "https://help.salesforce.com/s/articleView?id=cc.b2c_commerce.htm&type=5",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Salesforce Help | Article",
+      "width": 390,
+      "height": 844,
+      "phash": "6859787078614053",
+      "unique": true
+    },
+    {
+      "file": "surface-2.jpg",
+      "title": "Settings (1)",
+      "caption": "Salesforce Commerce Cloud public surface · developer.salesforce.com",
+      "kind": "product",
+      "sourceUrl": "https://developer.salesforce.com/developer-centers/commerce-cloud",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Commerce Cloud | Salesforce Developer Center",
+      "width": 390,
+      "height": 844,
+      "phash": "615688bf7f63734b",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-2.jpg",
+      "title": "Settings (3)",
+      "caption": "Salesforce Commerce Cloud public surface · developer.salesforce.com",
+      "kind": "product",
+      "sourceUrl": "https://developer.salesforce.com/developer-centers/commerce-cloud",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Commerce Cloud | Salesforce Developer Center",
+      "width": 390,
+      "height": 844,
+      "phash": "594b474f59590c5b",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-3.jpg",
+      "title": "Settings (4)",
+      "caption": "Salesforce Commerce Cloud public surface · developer.salesforce.com",
+      "kind": "product",
+      "sourceUrl": "https://developer.salesforce.com/developer-centers/commerce-cloud",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Commerce Cloud | Salesforce Developer Center",
+      "width": 390,
+      "height": 844,
+      "phash": "585f5b574f4c6c4c",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-4.jpg",
+      "title": "Settings (5)",
+      "caption": "Salesforce Commerce Cloud public surface · developer.salesforce.com",
+      "kind": "product",
+      "sourceUrl": "https://developer.salesforce.com/developer-centers/commerce-cloud",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Commerce Cloud | Salesforce Developer Center",
+      "width": 390,
+      "height": 844,
+      "phash": "7c4c006c4f363f75",
+      "unique": true
+    },
+    {
+      "file": "surface-2-lower.jpg",
+      "title": "Settings (6)",
+      "caption": "Salesforce Commerce Cloud public surface · developer.salesforce.com",
+      "kind": "product",
+      "sourceUrl": "https://developer.salesforce.com/developer-centers/commerce-cloud",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "pageTitle": "Commerce Cloud | Salesforce Developer Center",
+      "width": 390,
+      "height": 844,
+      "phash": "504d5d713088a8a8",
+      "unique": true
+    },
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.salesforce.com/products/commerce-cloud/",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 1024,
+      "height": 576,
+      "phash": "0e4e38329208589a",
+      "unique": true
+    },
+    {
+      "file": "fallback-yt-tCIiWdnH738-poster.jpg",
+      "title": "YouTube poster (tCIiWdnH738)",
+      "caption": "YouTube poster · https://www.youtube.com/watch?v=tCIiWdnH738",
+      "kind": "marketing",
+      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 1280,
+      "height": 720,
+      "phash": "2f2c4e8fffbdbffd",
+      "unique": true
+    },
+    {
+      "file": "fallback-yt-tCIiWdnH738-frame-0.jpg",
+      "title": "YouTube frame still (tCIiWdnH738)",
+      "caption": "YouTube frame-0 · https://www.youtube.com/watch?v=tCIiWdnH738",
+      "kind": "marketing",
+      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 480,
+      "height": 360,
+      "phash": "432d2c8fbdbdfde9",
+      "unique": true
+    },
+    {
+      "file": "fallback-yt-tCIiWdnH738-frame-1.jpg",
+      "title": "YouTube frame still (tCIiWdnH738)",
+      "caption": "YouTube frame-1 · https://www.youtube.com/watch?v=tCIiWdnH738",
+      "kind": "marketing",
+      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "1c90c8cac89e9677",
+      "unique": true
+    },
+    {
+      "file": "fallback-yt-tCIiWdnH738-frame-2.jpg",
+      "title": "YouTube frame still (tCIiWdnH738)",
+      "caption": "YouTube frame-2 · https://www.youtube.com/watch?v=tCIiWdnH738",
+      "kind": "marketing",
+      "sourceUrl": "https://www.youtube.com/watch?v=tCIiWdnH738",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "6767a7a7a7e7c69e",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-1.jpg",
+      "title": "Salesforce screenshot 1",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "5c8e0c238f0cc676",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-2.jpg",
+      "title": "Salesforce screenshot 2",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "170ec6b063cc3ae3",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-3.jpg",
+      "title": "Salesforce screenshot 3",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "171bbbb99d8cde5c",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-4.jpg",
+      "title": "Salesforce screenshot 4",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "0f072e6a7ed4b5a5",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-5.jpg",
+      "title": "Salesforce screenshot 5",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "273be3cb5d5c5225",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-6.jpg",
+      "title": "Salesforce screenshot 6",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "0b0745e5a35b4b06",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-7.jpg",
+      "title": "Salesforce screenshot 7",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "4d4f5896b03863df",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-8.jpg",
+      "title": "Salesforce screenshot 8",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "4c86f816e236056d",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-9.jpg",
+      "title": "Salesforce screenshot 9",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "164bb9a062602846",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-404249815-10.jpg",
+      "title": "Salesforce screenshot 10",
+      "caption": "Apple App Store public screenshot (id 404249815)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id404249815",
+      "capturedAt": "2026-07-27T22:41:52.329Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "4c5f466563643930",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T22:42:43.453Z",
+    "screenshotCount": 25,
+    "pageCount": 2,
+    "pages": [
+      {
+        "url": "https://help.salesforce.com/s/articleView?id=cc.b2c_commerce.htm&type=5",
+        "title": "Salesforce Help | Article",
+        "headings": [
+          "Cookie Consent Manager",
+          "General Information",
+          "Required Cookies",
+          "Functional Cookies",
+          "Advertising Cookies",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Privacy Statement",
+          "Cookies Details"
+        ],
+        "ctas": [
+          "Filter Button"
+        ],
+        "landmarks": [
+          "dialog:auraErrorTitle",
+          "dialog:Cookie Consent Manager",
+          "navigation:Cookie Categories"
+        ]
+      },
+      {
+        "url": "https://developer.salesforce.com/developer-centers/commerce-cloud",
+        "title": "Commerce Cloud | Salesforce Developer Center",
+        "description": "Develop personalized ecommerce experiences with our fast, flexible solutions.",
+        "headings": [
+          "Cookie Consent Manager",
+          "General Information",
+          "Required Cookies",
+          "Functional Cookies",
+          "Advertising Cookies",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Privacy Statement",
+          "Cookies Details"
+        ],
+        "ctas": [
+          "Filter Button"
+        ],
+        "landmarks": [
+          "main",
+          "dialog:Cookie Consent Manager",
+          "navigation:Cookie Categories"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Privacy Statement",
+      "Cookies Details"
+    ],
+    "ctas": [
+      "Filter Button"
+    ],
+    "headings": [
+      "Cookie Consent Manager",
+      "General Information",
+      "Required Cookies",
+      "Functional Cookies",
+      "Advertising Cookies",
+      "Cookie List"
+    ],
+    "techSignals": [
+      "Segment",
+      "Google Tag Manager"
+    ],
+    "featureCandidates": [
+      "Cookie Consent Manager",
+      "General Information",
+      "Required Cookies",
+      "Functional Cookies",
+      "Advertising Cookies",
+      "Cookie List",
+      "Filter Button"
+    ],
+    "patternCandidates": [
+      "Tabs",
+      "Authentication"
+    ],
+    "platformsDetected": [
+      "web",
+      "api"
+    ],
+    "summary": "Captured 25 screenshots across 2 public URLs. Nav signals: Privacy Statement, Cookies Details. Tech signals: Segment, Google Tag Manager. UI patterns: Tabs, Authentication."
+  },
+  "fallback": {
+    "blockedNavigations": 8
+  }
+}

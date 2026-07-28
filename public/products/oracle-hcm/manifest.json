@@ -1,0 +1,51 @@
+{
+  "slug": "oracle-hcm",
+  "capturedAt": "2026-07-27T22:54:36.619Z",
+  "shots": [
+    {
+      "file": "fallback-wayback-1.jpg",
+      "title": "Archived Marketing preview",
+      "caption": "Wayback Machine snapshot 20260714113948 · https://www.oracle.com/human-capital-management/",
+      "kind": "marketing",
+      "sourceUrl": "http://web.archive.org/web/20260714113948/https://www.oracle.com/human-capital-management/",
+      "capturedAt": "2026-07-27T22:54:30.964Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 630,
+      "phash": "12de9e9e9eeeada7",
+      "unique": true
+    },
+    {
+      "file": "fallback-wayback-2.jpg",
+      "title": "Archived Social preview",
+      "caption": "Wayback Machine snapshot 20260714113948 · https://www.oracle.com/human-capital-management/",
+      "kind": "marketing",
+      "sourceUrl": "http://web.archive.org/web/20260714113948/https://www.oracle.com/human-capital-management/",
+      "capturedAt": "2026-07-27T22:54:30.964Z",
+      "playbookStep": "web-fallback",
+      "width": 800,
+      "height": 800,
+      "phash": "001822cccdb1b448",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T22:54:36.619Z",
+    "screenshotCount": 2,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 2 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

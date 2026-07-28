@@ -1,0 +1,64 @@
+{
+  "slug": "elastic-cloud",
+  "capturedAt": "2026-07-27T23:30:13.942Z",
+  "shots": [
+    {
+      "file": "fallback-docs-1.png",
+      "title": "Explore and analyze icon",
+      "caption": "Fallback from public docs: https://www.elastic.co/docs",
+      "kind": "docs",
+      "sourceUrl": "https://www.elastic.co/docs",
+      "capturedAt": "2026-07-27T23:30:06.912Z",
+      "playbookStep": "web-fallback",
+      "width": 32,
+      "height": 32,
+      "phash": "23c819c295639430",
+      "unique": true
+    },
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.elastic.co/cloud",
+      "capturedAt": "2026-07-27T23:30:06.912Z",
+      "playbookStep": "web-fallback",
+      "width": 1601,
+      "height": 838,
+      "phash": "1553238d88261616",
+      "unique": true
+    },
+    {
+      "file": "fallback-wayback-2.jpg",
+      "title": "Archived UI 2",
+      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260706040459/https://www.elastic.co/cloud/",
+      "kind": "docs",
+      "sourceUrl": "http://web.archive.org/web/20260706040459/https://www.elastic.co/cloud/",
+      "capturedAt": "2026-07-27T23:30:06.912Z",
+      "playbookStep": "web-fallback",
+      "width": 1183,
+      "height": 690,
+      "phash": "0033330f0885c100",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T23:30:13.942Z",
+    "screenshotCount": 3,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 3 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

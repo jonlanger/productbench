@@ -1,180 +1,489 @@
 {
   "slug": "epic-hyperspace",
-  "capturedAt": "2026-07-26T23:47:43.940Z",
+  "capturedAt": "2026-07-27T22:03:30.019Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Schedule",
       "caption": "Epic Hyperspace public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://www.epic.com/"
+      "sourceUrl": "https://www.epic.com/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Epic | ...With the patient at the heart",
+      "width": 1440,
+      "height": 900,
+      "phash": "377b7b1b7563070c",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Epic Hyperspace homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.epic.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Epic Hyperspace homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.epic.com/"
+      "sourceUrl": "https://www.epic.com/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Epic | ...With the patient at the heart",
+      "width": 1440,
+      "height": 900,
+      "phash": "6645713737595d44",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Epic Hyperspace homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.epic.com/"
+      "sourceUrl": "https://www.epic.com/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Epic | ...With the patient at the heart",
+      "width": 1440,
+      "height": 900,
+      "phash": "65555d555561492c",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Epic Hyperspace homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.epic.com/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Epic | ...With the patient at the heart",
+      "width": 1440,
+      "height": 900,
+      "phash": "6349279727971564",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Epic Hyperspace homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.epic.com/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Epic | ...With the patient at the heart",
+      "width": 1440,
+      "height": 900,
+      "phash": "67475b10617d380c",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Epic Hyperspace homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://www.epic.com/"
+      "sourceUrl": "https://www.epic.com/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Epic | ...With the patient at the heart",
+      "width": 390,
+      "height": 844,
+      "phash": "6d5c137f59590796",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Epic Hyperspace",
       "kind": "product",
-      "sourceUrl": "https://www.epic.com/epic/post/mychart-helps-health-systems-meet-access-needs-for-disabled-patients/"
-    },
-    {
-      "file": "nav-2.jpg",
-      "title": "In-product nav (2)",
-      "caption": "Same-origin product / pricing / docs links from Epic Hyperspace",
-      "kind": "product",
-      "sourceUrl": "https://www.epic.com/epic/post/mychart-helps-health-systems-meet-access-needs-for-disabled-patients/"
+      "sourceUrl": "https://www.epic.com/epic/post/mychart-helps-health-systems-meet-access-needs-for-disabled-patients/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "MyChart Helps Health Systems Meet Access Needs for Disabled Patients | Epic",
+      "width": 1440,
+      "height": 900,
+      "phash": "e020000000000000",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Epic Hyperspace",
       "kind": "product",
-      "sourceUrl": "https://www.epic.com/epic/post/mychart-helps-health-systems-meet-access-needs-for-disabled-patients/"
+      "sourceUrl": "https://www.epic.com/epic/post/mychart-helps-health-systems-meet-access-needs-for-disabled-patients/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "MyChart Helps Health Systems Meet Access Needs for Disabled Patients | Epic",
+      "width": 1440,
+      "height": 900,
+      "phash": "67913a35373a1844",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
-      "title": "Chart Review",
+      "title": "Chart Review (1)",
       "caption": "Epic Hyperspace public surface · open.epic.com",
       "kind": "product",
-      "sourceUrl": "https://open.epic.com/"
+      "sourceUrl": "https://open.epic.com/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "open.epic",
+      "width": 1440,
+      "height": 900,
+      "phash": "842bd5d5cd4d574d",
+      "unique": true
+    },
+    {
+      "file": "surface-1-lower.jpg",
+      "title": "Chart Review (3)",
+      "caption": "Epic Hyperspace public surface · open.epic.com",
+      "kind": "product",
+      "sourceUrl": "https://open.epic.com/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "open.epic",
+      "width": 1440,
+      "height": 900,
+      "phash": "954d454d554d3361",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
       "title": "Orders (1)",
       "caption": "Epic Hyperspace public surface · fhir.epic.com",
       "kind": "product",
-      "sourceUrl": "https://fhir.epic.com/"
+      "sourceUrl": "https://fhir.epic.com/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Home - Epic on FHIR",
+      "width": 1440,
+      "height": 900,
+      "phash": "f8969ee4ace8aaaa",
+      "unique": true
     },
     {
-      "file": "surface-2-mid.jpg",
-      "title": "Orders (2)",
+      "file": "surface-2-band-2.jpg",
+      "title": "Orders (3)",
       "caption": "Epic Hyperspace public surface · fhir.epic.com",
       "kind": "product",
-      "sourceUrl": "https://fhir.epic.com/"
+      "sourceUrl": "https://fhir.epic.com/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Home - Epic on FHIR",
+      "width": 1440,
+      "height": 900,
+      "phash": "e8aae8d4dad2e6d2",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-3.jpg",
+      "title": "Orders (4)",
+      "caption": "Epic Hyperspace public surface · fhir.epic.com",
+      "kind": "product",
+      "sourceUrl": "https://fhir.epic.com/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Home - Epic on FHIR",
+      "width": 1440,
+      "height": 900,
+      "phash": "d8d2d2d2cad2dada",
+      "unique": true
+    },
+    {
+      "file": "surface-2-lower.jpg",
+      "title": "Orders (6)",
+      "caption": "Epic Hyperspace public surface · fhir.epic.com",
+      "kind": "product",
+      "sourceUrl": "https://fhir.epic.com/",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Home - Epic on FHIR",
+      "width": 1440,
+      "height": 900,
+      "phash": "e8d6c6d6c6c4c28a",
+      "unique": true
     },
     {
       "file": "surface-3.jpg",
-      "title": "Notes",
+      "title": "Notes (1)",
       "caption": "Epic Hyperspace public surface · open.epic.com",
       "kind": "docs",
-      "sourceUrl": "https://open.epic.com/Interface"
+      "sourceUrl": "https://open.epic.com/Interface",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "open.epic :: Explore By Interface Type",
+      "width": 1440,
+      "height": 900,
+      "phash": "b48f171010000060",
+      "unique": true
     },
     {
       "file": "surface-4.jpg",
       "title": "In Basket (1)",
       "caption": "Epic Hyperspace public surface · open.epic.com",
       "kind": "docs",
-      "sourceUrl": "https://fhir.epic.com/Documentation?docId=fhir"
+      "sourceUrl": "https://fhir.epic.com/Documentation?docId=fhir",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Documentation - Epic on FHIR",
+      "width": 1440,
+      "height": 900,
+      "phash": "d8f6eebebcbeb8c4",
+      "unique": true
     },
     {
-      "file": "surface-4-mid.jpg",
-      "title": "In Basket (2)",
+      "file": "surface-4-band-2.jpg",
+      "title": "In Basket (3)",
       "caption": "Epic Hyperspace public surface · open.epic.com",
       "kind": "docs",
-      "sourceUrl": "https://fhir.epic.com/Documentation?docId=fhir"
+      "sourceUrl": "https://fhir.epic.com/Documentation?docId=fhir",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Documentation - Epic on FHIR",
+      "width": 1440,
+      "height": 900,
+      "phash": "d8f6f0f89cdee0a0",
+      "unique": true
+    },
+    {
+      "file": "surface-4-band-3.jpg",
+      "title": "In Basket (4)",
+      "caption": "Epic Hyperspace public surface · open.epic.com",
+      "kind": "docs",
+      "sourceUrl": "https://fhir.epic.com/Documentation?docId=fhir",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Documentation - Epic on FHIR",
+      "width": 1440,
+      "height": 900,
+      "phash": "d8a4b8e0e0e0d8ec",
+      "unique": true
+    },
+    {
+      "file": "surface-4-band-4.jpg",
+      "title": "In Basket (5)",
+      "caption": "Epic Hyperspace public surface · open.epic.com",
+      "kind": "docs",
+      "sourceUrl": "https://fhir.epic.com/Documentation?docId=fhir",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Documentation - Epic on FHIR",
+      "width": 1440,
+      "height": 900,
+      "phash": "d8e6eca4b2b69694",
+      "unique": true
+    },
+    {
+      "file": "surface-4-lower.jpg",
+      "title": "In Basket (6)",
+      "caption": "Epic Hyperspace public surface · open.epic.com",
+      "kind": "docs",
+      "sourceUrl": "https://fhir.epic.com/Documentation?docId=fhir",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Documentation - Epic on FHIR",
+      "width": 1440,
+      "height": 900,
+      "phash": "d8e6fcf8f8e4f89c",
+      "unique": true
     },
     {
       "file": "surface-5.jpg",
-      "title": "MyChart (patient)",
+      "title": "MyChart (patient) (1)",
       "caption": "Epic Hyperspace public surface · open.epic.com",
       "kind": "docs",
-      "sourceUrl": "https://open.epic.com/NotFound?aspxerrorpath=/Tutorial/AppOrchard"
+      "sourceUrl": "https://open.epic.com/NotFound?aspxerrorpath=/Tutorial/AppOrchard",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "epic.com :: Page Not Found",
+      "width": 1440,
+      "height": 900,
+      "phash": "84c80c0800000060",
+      "unique": true
     },
     {
-      "file": "surface-6.jpg",
-      "title": "Homepage mobile",
-      "caption": "Epic Hyperspace public surface · epic.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.epic.com/pricing"
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.epic.com",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 630,
+      "phash": "12c43727371ac402",
+      "unique": true
     },
     {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 6",
-      "caption": "Epic Hyperspace public surface · epic.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.epic.com/product"
+      "file": "fallback-yt-qhGinfvumcM-poster.jpg",
+      "title": "YouTube poster (qhGinfvumcM)",
+      "caption": "YouTube poster · https://www.youtube.com/watch?v=qhGinfvumcM",
+      "kind": "marketing",
+      "sourceUrl": "https://www.youtube.com/watch?v=qhGinfvumcM",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "web-fallback",
+      "width": 1280,
+      "height": 720,
+      "phash": "e3e595f1f1e42664",
+      "unique": true
     },
     {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 7",
-      "caption": "Epic Hyperspace public surface · epic.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.epic.com/products"
+      "file": "fallback-yt-qhGinfvumcM-frame-0.jpg",
+      "title": "YouTube frame still (qhGinfvumcM)",
+      "caption": "YouTube frame-0 · https://www.youtube.com/watch?v=qhGinfvumcM",
+      "kind": "marketing",
+      "sourceUrl": "https://www.youtube.com/watch?v=qhGinfvumcM",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "web-fallback",
+      "width": 480,
+      "height": 360,
+      "phash": "16e3a5f1e1a466c4",
+      "unique": true
     },
     {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 8",
-      "caption": "Epic Hyperspace public surface · epic.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.epic.com/features/"
+      "file": "fallback-yt-qhGinfvumcM-frame-1.jpg",
+      "title": "YouTube frame still (qhGinfvumcM)",
+      "caption": "YouTube frame-1 · https://www.youtube.com/watch?v=qhGinfvumcM",
+      "kind": "marketing",
+      "sourceUrl": "https://www.youtube.com/watch?v=qhGinfvumcM",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "321a1e3e1e0698d8",
+      "unique": true
     },
     {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 9",
-      "caption": "Epic Hyperspace public surface · epic.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.epic.com/platform"
+      "file": "fallback-yt-qhGinfvumcM-frame-2.jpg",
+      "title": "YouTube frame still (qhGinfvumcM)",
+      "caption": "YouTube frame-2 · https://www.youtube.com/watch?v=qhGinfvumcM",
+      "kind": "marketing",
+      "sourceUrl": "https://www.youtube.com/watch?v=qhGinfvumcM",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "2624e0d4ecd4d48a",
+      "unique": true
     },
     {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 10",
-      "caption": "Epic Hyperspace public surface · epic.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.epic.com/solutions/"
-    },
-    {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 11",
-      "caption": "Epic Hyperspace public surface · epic.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.epic.com/customers"
-    },
-    {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 12",
-      "caption": "Epic Hyperspace public surface · epic.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.epic.com/docs/"
-    },
-    {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14",
-      "caption": "Epic Hyperspace public surface · epic.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.epic.com/help"
+      "file": "fallback-yt-qhGinfvumcM-frame-3.jpg",
+      "title": "YouTube frame still (qhGinfvumcM)",
+      "caption": "YouTube frame-3 · https://www.youtube.com/watch?v=qhGinfvumcM",
+      "kind": "marketing",
+      "sourceUrl": "https://www.youtube.com/watch?v=qhGinfvumcM",
+      "capturedAt": "2026-07-27T22:01:47.688Z",
+      "playbookStep": "web-fallback",
+      "width": 120,
+      "height": 90,
+      "phash": "2665f0e0ecf47032",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-26T23:47:43.940Z",
-    "screenshotCount": 24,
-    "pageCount": 16,
+    "capturedAt": "2026-07-27T22:03:30.019Z",
+    "screenshotCount": 27,
+    "pageCount": 7,
     "pages": [
       {
         "url": "https://www.epic.com/",
@@ -188,7 +497,6 @@
           "Three Health Systems Use AI Insights to Cut Chart Review Time and Cognitive Load",
           "Latest from",
           "Suzetrigine Prescribed Often for Chronic Pain, Despite Its Acute-Pain Label",
-          "GLP-1 Treatment Associated with a 39% Lower Risk of Repeat Substance Overdose",
           "Epic In the News",
           "MyChart Helps Health Systems Meet Access Needs for Disabled Patients",
           "Inside Day 5 of Quebec’s digital health record rollout at Jean-Talon Hospital"
@@ -228,13 +536,38 @@
       },
       {
         "url": "https://www.epic.com/epic/post/mychart-helps-health-systems-meet-access-needs-for-disabled-patients/",
-        "title": "Service unavailable",
+        "title": "MyChart Helps Health Systems Meet Access Needs for Disabled Patients | Epic",
         "headings": [
-          "The request is blocked."
+          "Ope!"
         ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
+        "navLabels": [
+          "Open main menu",
+          "Software",
+          "About Us",
+          "Newsroom",
+          "Visit EpicShare",
+          "Visit Epic Research",
+          "Visit Cosmos",
+          "Visit MyChart",
+          "Learn about the technologies available for integration with Epic",
+          "Visit UserWeb",
+          "Visit Showroom",
+          "Visit Epic.com",
+          "Our Story",
+          "Visiting",
+          "Epic Health System Community",
+          "Diversity, Equity & Inclusion",
+          "Sustainability",
+          "Contact Us"
+        ],
+        "ctas": [
+          "Visit Epic Research",
+          "Contact Us"
+        ],
+        "landmarks": [
+          "main",
+          "nav"
+        ]
       },
       {
         "url": "https://open.epic.com/",
@@ -245,7 +578,7 @@
           "8.91 billion",
           "660 billion",
           "284 billion",
-          "2,867",
+          "2,874",
           "Let's Get Started",
           "Step-by-Step Developer Guide",
           "Data Sharing Playbooks",
@@ -507,96 +840,6 @@
           "main",
           "footer"
         ]
-      },
-      {
-        "url": "https://www.epic.com/pricing",
-        "title": "Service unavailable",
-        "headings": [
-          "The request is blocked."
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.epic.com/product",
-        "title": "Service unavailable",
-        "headings": [
-          "The request is blocked."
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.epic.com/products",
-        "title": "Service unavailable",
-        "headings": [
-          "The request is blocked."
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.epic.com/features/",
-        "title": "Service unavailable",
-        "headings": [
-          "The request is blocked."
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.epic.com/platform",
-        "title": "Service unavailable",
-        "headings": [
-          "The request is blocked."
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.epic.com/solutions/",
-        "title": "Service unavailable",
-        "headings": [
-          "The request is blocked."
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.epic.com/customers",
-        "title": "Service unavailable",
-        "headings": [
-          "The request is blocked."
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.epic.com/docs/",
-        "title": "Service unavailable",
-        "headings": [
-          "The request is blocked."
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
-        "url": "https://www.epic.com/help",
-        "title": "Service unavailable",
-        "headings": [
-          "The request is blocked."
-        ],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
       }
     ],
     "navLabels": [
@@ -665,17 +908,16 @@
       "Three Health Systems Use AI Insights to Cut Chart Review Time and Cognitive Load",
       "Latest from",
       "Suzetrigine Prescribed Often for Chronic Pain, Despite Its Acute-Pain Label",
-      "GLP-1 Treatment Associated with a 39% Lower Risk of Repeat Substance Overdose",
       "Epic In the News",
       "MyChart Helps Health Systems Meet Access Needs for Disabled Patients",
       "Inside Day 5 of Quebec’s digital health record rollout at Jean-Talon Hospital",
-      "The request is blocked.",
+      "Ope!",
       "Epic's Home for Data Sharing and Developer Tools",
       "Data Sharing at Scale",
       "8.91 billion",
       "660 billion",
       "284 billion",
-      "2,867",
+      "2,874",
       "Let's Get Started",
       "Step-by-Step Developer Guide",
       "Data Sharing Playbooks",
@@ -687,7 +929,8 @@
       "CMS Interoperability and Prior Authorization Final Rule APIs",
       "Exchange of Radiotherapy Treatment Summaries (XRTS)",
       "Embedded Call Controls",
-      "New Playbooks"
+      "New Playbooks",
+      "Open @ Epic Recap"
     ],
     "techSignals": [
       "Next.js",
@@ -699,12 +942,12 @@
       "Share What You've Done, Learn What You Can Do",
       "Latest from",
       "Epic In the News",
-      "The request is blocked.",
+      "Ope!",
       "Data Sharing at Scale",
       "8.91 billion",
       "660 billion",
       "284 billion",
-      "2,867",
+      "2,874",
       "Let's Get Started",
       "Step-by-Step Developer Guide",
       "Data Sharing Playbooks",
@@ -715,9 +958,9 @@
       "Open@Epic Conference 2026",
       "Embedded Call Controls",
       "New Playbooks",
+      "Open @ Epic Recap",
       "Visit Epic Research",
-      "Contact Us",
-      "Learn more →"
+      "Contact Us"
     ],
     "patternCandidates": [
       "Search",
@@ -728,6 +971,9 @@
       "web",
       "api"
     ],
-    "summary": "Captured 24 screenshots across 16 public URLs. Nav signals: Open main menu, Software, About Us, Newsroom, Visit EpicShare, Visit Epic Research. Tech signals: Next.js, Webpack. UI patterns: Search, Tabs, Authentication."
+    "summary": "Captured 27 screenshots across 7 public URLs. Nav signals: Open main menu, Software, About Us, Newsroom, Visit EpicShare, Visit Epic Research. Tech signals: Next.js, Webpack. UI patterns: Search, Tabs, Authentication."
+  },
+  "fallback": {
+    "blockedNavigations": 0
   }
 }

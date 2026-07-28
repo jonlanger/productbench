@@ -1,0 +1,51 @@
+{
+  "slug": "rockwell-factorytalk",
+  "capturedAt": "2026-07-27T22:55:32.727Z",
+  "shots": [
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.rockwellautomation.com/en-us/products/software/factorytalk.html",
+      "capturedAt": "2026-07-27T22:55:24.624Z",
+      "playbookStep": "web-fallback",
+      "width": 5120,
+      "height": 2881,
+      "phash": "f89b39337e3c3f3f",
+      "unique": true
+    },
+    {
+      "file": "fallback-wayback-2.jpg",
+      "title": "Three operations professionals in safety goggles standing on the manufacturing floor previ",
+      "caption": "Wayback Machine UI asset · http://web.archive.org/web/20260719094427/https://www.rockwellautomation.com/en-us/products/software/factorytalk.html",
+      "kind": "docs",
+      "sourceUrl": "http://web.archive.org/web/20260719094427/https://www.rockwellautomation.com/en-us/products/software/factorytalk.html",
+      "capturedAt": "2026-07-27T22:55:24.624Z",
+      "playbookStep": "web-fallback",
+      "width": 768,
+      "height": 432,
+      "phash": "7078e8ebf3e3d8d9",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T22:55:32.727Z",
+    "screenshotCount": 2,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 2 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

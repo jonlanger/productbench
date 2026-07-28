@@ -1,0 +1,21 @@
+{
+  "slug": "adaptive-insights",
+  "capturedAt": "2026-07-27T22:53:45.538Z",
+  "shots": [],
+  "insights": {
+    "capturedAt": "2026-07-27T22:53:45.538Z",
+    "screenshotCount": 0,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 0 screenshots across 0 public URLs."
+  }
+}

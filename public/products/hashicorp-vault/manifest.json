@@ -1,0 +1,38 @@
+{
+  "slug": "hashicorp-vault",
+  "capturedAt": "2026-07-27T23:00:19.961Z",
+  "shots": [
+    {
+      "file": "fallback-wayback-1.jpg",
+      "title": "Archived Marketing preview",
+      "caption": "Wayback Machine snapshot 20250202002551 · https://www.hashicorp.com/products/vault",
+      "kind": "marketing",
+      "sourceUrl": "http://web.archive.org/web/20250202002551/https://www.hashicorp.com/products/vault",
+      "capturedAt": "2026-07-27T23:00:15.571Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 675,
+      "phash": "400c7242708c4000",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T23:00:19.961Z",
+    "screenshotCount": 1,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 1 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

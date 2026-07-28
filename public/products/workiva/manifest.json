@@ -1,0 +1,155 @@
+{
+  "slug": "workiva",
+  "capturedAt": "2026-07-27T22:53:40.593Z",
+  "shots": [
+    {
+      "file": "fallback-appstore-1583985237-1.jpg",
+      "title": "Workiva screenshot 1",
+      "caption": "Apple App Store public screenshot (id 1583985237)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1583985237",
+      "capturedAt": "2026-07-27T22:53:34.791Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "960f4d74d4dcdcdc",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1583985237-2.jpg",
+      "title": "Workiva screenshot 2",
+      "caption": "Apple App Store public screenshot (id 1583985237)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1583985237",
+      "capturedAt": "2026-07-27T22:53:34.791Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "370f4dd4c4cccd45",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1583985237-3.jpg",
+      "title": "Workiva screenshot 3",
+      "caption": "Apple App Store public screenshot (id 1583985237)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1583985237",
+      "capturedAt": "2026-07-27T22:53:34.791Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "960f4d614d554945",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1583985237-6.jpg",
+      "title": "Workiva screenshot 6",
+      "caption": "Apple App Store public screenshot (id 1583985237)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1583985237",
+      "capturedAt": "2026-07-27T22:53:34.791Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "230f4d755d5d555d",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1583985237-8.jpg",
+      "title": "Workiva screenshot 8",
+      "caption": "Apple App Store public screenshot (id 1583985237)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1583985237",
+      "capturedAt": "2026-07-27T22:53:34.791Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "175594cace8e8e8e",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1583985237-9.jpg",
+      "title": "Workiva screenshot 9",
+      "caption": "Apple App Store public screenshot (id 1583985237)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1583985237",
+      "capturedAt": "2026-07-27T22:53:34.791Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "1745de8e9ad4c4e8",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1583985237-10.jpg",
+      "title": "Workiva screenshot 10",
+      "caption": "Apple App Store public screenshot (id 1583985237)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1583985237",
+      "capturedAt": "2026-07-27T22:53:34.791Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "9645717145455545",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1583985237-11.jpg",
+      "title": "Workiva screenshot 11",
+      "caption": "Apple App Store public screenshot (id 1583985237)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1583985237",
+      "capturedAt": "2026-07-27T22:53:34.791Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "1755ce9696969e8a",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1583985237-13.jpg",
+      "title": "Workiva screenshot 13",
+      "caption": "Apple App Store public screenshot (id 1583985237)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1583985237",
+      "capturedAt": "2026-07-27T22:53:34.791Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "1b41e4b6b29e9c9c",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1583985237-14.jpg",
+      "title": "Workiva screenshot 14",
+      "caption": "Apple App Store public screenshot (id 1583985237)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1583985237",
+      "capturedAt": "2026-07-27T22:53:34.791Z",
+      "playbookStep": "web-fallback",
+      "width": 552,
+      "height": 414,
+      "phash": "3b51d4cce8cce8e8",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T22:53:40.593Z",
+    "screenshotCount": 10,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 10 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

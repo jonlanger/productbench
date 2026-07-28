@@ -1,0 +1,38 @@
+{
+  "slug": "epicor-kinetic",
+  "capturedAt": "2026-07-27T22:54:07.483Z",
+  "shots": [
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.epicor.com/en-us/products/epicor-kinetic/",
+      "capturedAt": "2026-07-27T22:54:04.423Z",
+      "playbookStep": "web-fallback",
+      "width": 1040,
+      "height": 585,
+      "phash": "4e4a5b999a9b9a9e",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T22:54:07.483Z",
+    "screenshotCount": 1,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 1 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

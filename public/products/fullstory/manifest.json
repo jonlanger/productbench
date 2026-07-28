@@ -1,243 +1,810 @@
 {
   "slug": "fullstory",
-  "capturedAt": "2026-07-27T14:30:03.486Z",
+  "capturedAt": "2026-07-27T22:39:22.732Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "FullStory public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://www.fullstory.com/"
+      "sourceUrl": "https://www.fullstory.com/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Intelligent Digital Experience Platform: AI-Powered Behavioral Analytics | Fullstory",
+      "width": 1440,
+      "height": 900,
+      "phash": "4daed8cc8e8e36cc",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "FullStory homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://www.fullstory.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "FullStory homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.fullstory.com/"
+      "sourceUrl": "https://www.fullstory.com/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Intelligent Digital Experience Platform: AI-Powered Behavioral Analytics | Fullstory",
+      "width": 1440,
+      "height": 900,
+      "phash": "4dd09080a4a594a5",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "FullStory homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://www.fullstory.com/"
+      "sourceUrl": "https://www.fullstory.com/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Intelligent Digital Experience Platform: AI-Powered Behavioral Analytics | Fullstory",
+      "width": 1440,
+      "height": 900,
+      "phash": "cdf42f71e8d8d8f0",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "FullStory homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.fullstory.com/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Intelligent Digital Experience Platform: AI-Powered Behavioral Analytics | Fullstory",
+      "width": 1440,
+      "height": 900,
+      "phash": "cc9af8c98c8cee8c",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "FullStory homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.fullstory.com/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Intelligent Digital Experience Platform: AI-Powered Behavioral Analytics | Fullstory",
+      "width": 1440,
+      "height": 900,
+      "phash": "ccce8d8cccae9e9a",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "FullStory homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.fullstory.com/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Intelligent Digital Experience Platform: AI-Powered Behavioral Analytics | Fullstory",
+      "width": 1440,
+      "height": 900,
+      "phash": "4de8b8e268560637",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "FullStory homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://www.fullstory.com/"
+      "sourceUrl": "https://www.fullstory.com/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Intelligent Digital Experience Platform: AI-Powered Behavioral Analytics | Fullstory",
+      "width": 390,
+      "height": 844,
+      "phash": "34c184a4a0a0a32c",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on FullStory (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://app.fullstory.com/login/?dest=%2Fui%2F"
+      "sourceUrl": "https://app.fullstory.com/login/?dest=%2Fui%2F",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Login | Fullstory",
+      "width": 1440,
+      "height": 900,
+      "phash": "0c0c0c160e00008c",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from FullStory",
       "kind": "product",
-      "sourceUrl": "https://www.fullstory.com/platform/mobile-apps/"
+      "sourceUrl": "https://www.fullstory.com/platform/storyai/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "StoryAI | AI-Powered Product Analytics & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "41234322656583c0",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from FullStory",
       "kind": "product",
-      "sourceUrl": "https://www.fullstory.com/platform/mobile-apps/"
+      "sourceUrl": "https://www.fullstory.com/platform/storyai/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "StoryAI | AI-Powered Product Analytics & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "468c4c8e1669e869",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from FullStory",
       "kind": "product",
-      "sourceUrl": "https://www.fullstory.com/platform/mobile-apps/"
+      "sourceUrl": "https://www.fullstory.com/platform/storyai/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "StoryAI | AI-Powered Product Analytics & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d667b3373667071",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from FullStory",
       "kind": "product",
-      "sourceUrl": "https://www.fullstory.com/platform/mobile-apps/"
+      "sourceUrl": "https://www.fullstory.com/platform/storyai/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "StoryAI | AI-Powered Product Analytics & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "45676f3777682524",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from FullStory",
       "kind": "product",
-      "sourceUrl": "https://www.fullstory.com/platform/mobile-apps/"
+      "sourceUrl": "https://www.fullstory.com/platform/storyai/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "StoryAI | AI-Powered Product Analytics & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "45436b2303830b16",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from FullStory",
+      "kind": "product",
+      "sourceUrl": "https://www.fullstory.com/platform/storyai/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "StoryAI | AI-Powered Product Analytics & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "5dbeacf87ef6969e",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from FullStory",
+      "kind": "product",
+      "sourceUrl": "https://www.fullstory.com/platform/storyai/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "StoryAI | AI-Powered Product Analytics & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "65ee8e9a9e8e5738",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from FullStory",
+      "kind": "product",
+      "sourceUrl": "https://www.fullstory.com/platform/storyai/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "StoryAI | AI-Powered Product Analytics & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "55929cdcdcfce46b",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from FullStory",
+      "kind": "product",
+      "sourceUrl": "https://www.fullstory.com/platform/storyai/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "StoryAI | AI-Powered Product Analytics & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "4961294b63874802",
+      "unique": true
+    },
+    {
+      "file": "nav-10.jpg",
+      "title": "In-product nav (10)",
+      "caption": "Same-origin product / pricing / docs links from FullStory",
+      "kind": "product",
+      "sourceUrl": "https://www.fullstory.com/platform/storyai/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "StoryAI | AI-Powered Product Analytics & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d868ed8585a9886",
+      "unique": true
+    },
+    {
+      "file": "nav-11.jpg",
+      "title": "In-product nav (11)",
+      "caption": "Same-origin product / pricing / docs links from FullStory",
+      "kind": "product",
+      "sourceUrl": "https://www.fullstory.com/platform/storyai/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "StoryAI | AI-Powered Product Analytics & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "6d8dc2b22c2c9296",
+      "unique": true
+    },
+    {
+      "file": "nav-12.jpg",
+      "title": "In-product nav (12)",
+      "caption": "Same-origin product / pricing / docs links from FullStory",
+      "kind": "product",
+      "sourceUrl": "https://www.fullstory.com/platform/storyai/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "StoryAI | AI-Powered Product Analytics & Insights",
+      "width": 1440,
+      "height": 900,
+      "phash": "4102808ac89e90d2",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "Dashboard (1)",
       "caption": "FullStory public surface · fullstory.com",
       "kind": "product",
-      "sourceUrl": "https://www.fullstory.com/plans/"
-    },
-    {
-      "file": "surface-1-mid.jpg",
-      "title": "Dashboard (2)",
-      "caption": "FullStory public surface · fullstory.com",
-      "kind": "product",
-      "sourceUrl": "https://www.fullstory.com/plans/"
+      "sourceUrl": "https://www.fullstory.com/help",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The page doesn’t seem to exist.",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d1b63636864a8b8",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
-      "title": "Settings",
+      "title": "Settings (1)",
       "caption": "FullStory public surface · fullstory.com",
       "kind": "product",
-      "sourceUrl": "https://www.fullstory.com/product"
+      "sourceUrl": "https://help.fullstory.com/hc/en-us",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Fullstory Help Center",
+      "width": 1440,
+      "height": 900,
+      "phash": "4c2a686c2b6b692b",
+      "unique": true
     },
     {
-      "file": "surface-3.jpg",
-      "title": "Search",
+      "file": "surface-2-band-2.jpg",
+      "title": "Settings (3)",
       "caption": "FullStory public surface · fullstory.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/products"
+      "kind": "product",
+      "sourceUrl": "https://help.fullstory.com/hc/en-us",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Fullstory Help Center",
+      "width": 1440,
+      "height": 900,
+      "phash": "6b296b6d494d4d4d",
+      "unique": true
     },
     {
-      "file": "surface-4.jpg",
-      "title": "Profile (1)",
+      "file": "surface-2-band-3.jpg",
+      "title": "Settings (4)",
       "caption": "FullStory public surface · fullstory.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/platform/"
+      "kind": "product",
+      "sourceUrl": "https://help.fullstory.com/hc/en-us",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Fullstory Help Center",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d0d6d6a61983626",
+      "unique": true
     },
     {
-      "file": "surface-4-mid.jpg",
-      "title": "Profile (2)",
+      "file": "surface-2-lower.jpg",
+      "title": "Settings (5)",
       "caption": "FullStory public surface · fullstory.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/platform/"
+      "kind": "product",
+      "sourceUrl": "https://help.fullstory.com/hc/en-us",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Fullstory Help Center",
+      "width": 1440,
+      "height": 900,
+      "phash": "90372758676782a3",
+      "unique": true
     },
     {
       "file": "surface-5.jpg",
-      "title": "Supporting surface 5 (1)",
+      "title": "Homepage mobile (1)",
       "caption": "FullStory public surface · fullstory.com",
       "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/platform/"
+      "sourceUrl": "https://www.fullstory.com/api",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "404 Error | Page Not Found | FullStory",
+      "width": 1440,
+      "height": 900,
+      "phash": "c066a40000000000",
+      "unique": true
     },
     {
-      "file": "surface-5-mid.jpg",
-      "title": "Supporting surface 5 (2)",
+      "file": "surface-11-band-2.jpg",
+      "title": "Supporting surface 11 (3)",
       "caption": "FullStory public surface · fullstory.com",
       "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/platform/"
+      "sourceUrl": "https://www.fullstory.com/platform/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Behavioral Data Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d86a4b6b6961776",
+      "unique": true
     },
     {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6 (1)",
+      "file": "surface-11-band-3.jpg",
+      "title": "Supporting surface 11 (4)",
       "caption": "FullStory public surface · fullstory.com",
       "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/solutions/"
+      "sourceUrl": "https://www.fullstory.com/platform/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Behavioral Data Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "55f0718686073933",
+      "unique": true
     },
     {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
+      "file": "surface-11-band-4.jpg",
+      "title": "Supporting surface 11 (5)",
       "caption": "FullStory public surface · fullstory.com",
       "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/solutions/"
-    },
-    {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
-      "caption": "FullStory public surface · fullstory.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/platform/"
-    },
-    {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
-      "caption": "FullStory public surface · fullstory.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/platform/"
-    },
-    {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
-      "caption": "FullStory public surface · fullstory.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.fullstory.com/hc/en-us"
-    },
-    {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
-      "caption": "FullStory public surface · fullstory.com",
-      "kind": "docs",
-      "sourceUrl": "https://help.fullstory.com/hc/en-us"
-    },
-    {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9",
-      "caption": "FullStory public surface · fullstory.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/help"
-    },
-    {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
-      "caption": "FullStory public surface · fullstory.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/blog/"
-    },
-    {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
-      "caption": "FullStory public surface · fullstory.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/blog/"
-    },
-    {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
-      "caption": "FullStory public surface · fullstory.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/about-us/"
-    },
-    {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
-      "caption": "FullStory public surface · fullstory.com",
-      "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/about-us/"
+      "sourceUrl": "https://www.fullstory.com/platform/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Behavioral Data Platform",
+      "width": 1440,
+      "height": 900,
+      "phash": "0d3235337361a7a6",
+      "unique": true
     },
     {
       "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
+      "title": "Supporting surface 12 (1)",
       "caption": "FullStory public surface · fullstory.com",
       "kind": "docs",
-      "sourceUrl": "https://app.fullstory.com/login/"
+      "sourceUrl": "https://www.fullstory.com/solutions/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Solutions Catalog | Explore Tailored Fullstory Solutions by Industry & Team",
+      "width": 1440,
+      "height": 900,
+      "phash": "5da2855810606c6c",
+      "unique": true
     },
     {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13",
+      "file": "surface-12-band-2.jpg",
+      "title": "Supporting surface 12 (3)",
       "caption": "FullStory public surface · fullstory.com",
       "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/signin"
+      "sourceUrl": "https://www.fullstory.com/solutions/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Solutions Catalog | Explore Tailored Fullstory Solutions by Industry & Team",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d6e6c6c6c6c6c5c",
+      "unique": true
+    },
+    {
+      "file": "surface-12-band-3.jpg",
+      "title": "Supporting surface 12 (4)",
+      "caption": "FullStory public surface · fullstory.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.fullstory.com/solutions/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Solutions Catalog | Explore Tailored Fullstory Solutions by Industry & Team",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d5e4c7979693979",
+      "unique": true
+    },
+    {
+      "file": "surface-12-band-4.jpg",
+      "title": "Supporting surface 12 (5)",
+      "caption": "FullStory public surface · fullstory.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.fullstory.com/solutions/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Solutions Catalog | Explore Tailored Fullstory Solutions by Industry & Team",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d3e7c3d91696917",
+      "unique": true
     },
     {
       "file": "surface-14.jpg",
-      "title": "Supporting surface 14",
+      "title": "Supporting surface 14 (1)",
       "caption": "FullStory public surface · fullstory.com",
       "kind": "docs",
-      "sourceUrl": "https://www.fullstory.com/sign-in"
+      "sourceUrl": "https://www.fullstory.com/blog/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "654a69764b0b4b4b",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-2.jpg",
+      "title": "Supporting surface 14 (3)",
+      "caption": "FullStory public surface · fullstory.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.fullstory.com/blog/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "494b4a6f2f6a6b52",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-3.jpg",
+      "title": "Supporting surface 14 (4)",
+      "caption": "FullStory public surface · fullstory.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.fullstory.com/blog/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "69d26b3f7b4b4a5a",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-4.jpg",
+      "title": "Supporting surface 14 (5)",
+      "caption": "FullStory public surface · fullstory.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.fullstory.com/blog/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "4dda8c0ab8b86468",
+      "unique": true
+    },
+    {
+      "file": "surface-14-lower.jpg",
+      "title": "Supporting surface 14 (6)",
+      "caption": "FullStory public surface · fullstory.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.fullstory.com/blog/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "6598b86268490e3c",
+      "unique": true
+    },
+    {
+      "file": "surface-15.jpg",
+      "title": "Supporting surface 15 (1)",
+      "caption": "FullStory public surface · fullstory.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.fullstory.com/about-us/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Fullstory | We’re Building Tech That Makes Digital Better",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d1c5c78786b3b52",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-2.jpg",
+      "title": "Supporting surface 15 (3)",
+      "caption": "FullStory public surface · fullstory.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.fullstory.com/about-us/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Fullstory | We’re Building Tech That Makes Digital Better",
+      "width": 1440,
+      "height": 900,
+      "phash": "493b504a4a91cc84",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-3.jpg",
+      "title": "Supporting surface 15 (4)",
+      "caption": "FullStory public surface · fullstory.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.fullstory.com/about-us/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Fullstory | We’re Building Tech That Makes Digital Better",
+      "width": 1440,
+      "height": 900,
+      "phash": "493b29a5b943cc84",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-4.jpg",
+      "title": "Supporting surface 15 (5)",
+      "caption": "FullStory public surface · fullstory.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.fullstory.com/about-us/",
+      "capturedAt": "2026-07-27T22:37:01.995Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Fullstory | We’re Building Tech That Makes Digital Better",
+      "width": 1440,
+      "height": 900,
+      "phash": "493b9596e481cc84",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T14:30:03.486Z",
-    "screenshotCount": 33,
-    "pageCount": 14,
+    "capturedAt": "2026-07-27T22:39:22.732Z",
+    "screenshotCount": 42,
+    "pageCount": 10,
     "pages": [
       {
         "url": "https://www.fullstory.com/",
@@ -304,7 +871,7 @@
         ],
         "landmarks": [
           "dialog:Cookie Consent Banner",
-          "dialog:15074356-e126-4d51-aaf8-b97254e4fabe__label",
+          "dialog:537a080c-7084-4091-8e04-1c09705a3e5b__label",
           "header",
           "nav",
           "banner",
@@ -325,13 +892,13 @@
         ],
         "landmarks": [
           "dialog:Cookie Consent Banner",
-          "dialog:4d74b7e7-5baf-4522-bba8-2d913a453865__label"
+          "dialog:4f747616-c4fa-4b57-8532-2e6e6e69fd3e__label"
         ]
       },
       {
-        "url": "https://www.fullstory.com/platform/mobile-apps/",
-        "title": "Lightweight Mobile App Analytics | iOS, Android, React Native & Flutter",
-        "description": "Create a five‑star mobile experience for every user with Fullstory's session replay and powerful diagnostic tools.",
+        "url": "https://www.fullstory.com/platform/storyai/",
+        "title": "StoryAI | AI-Powered Product Analytics & Insights",
+        "description": "Built-in artificial intelligence transforms behavioral data into more human digital interactions",
         "headings": [
           "How to navigate this page",
           "Element names",
@@ -341,18 +908,18 @@
           "Lists and position",
           "Primary actions",
           "Navigation tips",
-          "Ship mobile experiences that convert",
-          "Actionable insights for smarter decisions",
-          "High-fidelity session replay",
-          "Debugging made easy",
-          "Connect the full journey",
-          "Give small-screen experiences the spotlight",
-          "Build anywhere. See every interaction.",
-          "See what billions of sessions reveal about mobile experiences",
-          "Additional resources",
-          "Fullstory for mobile FAQs",
-          "What is the performance impact of Fullstory's SDK?",
-          "How does Fullstory handle user privacy and data redaction?"
+          "Drive revenue, not reports",
+          "Expert confidence at AI speed",
+          "From insight to action, instantly",
+          "AI that knows your business",
+          "Don’t just react, resolve",
+          "No session-by-session review",
+          "AI can’t act on what it can’t see",
+          "Built-in intelligence. Real results.",
+          "“No more hours of replays.”",
+          "Frequently asked questions",
+          "What kind of AI does Fullstory use?",
+          "How is Fullstory protecting my behavioral data?"
         ],
         "navLabels": [
           "Platform",
@@ -385,11 +952,16 @@
           "Plans & Pricing",
           "Log in",
           "Get a demo",
-          "Explore frameworks →"
+          "→ EXPLORE AGENTS",
+          "→ EXPLORE ASK STORYAI",
+          "→ EXPLORE OPPORTUNITIES",
+          "→ EXPLORE SUMMARIES",
+          "Take a demo",
+          "Download the one-pager"
         ],
         "landmarks": [
           "dialog:Cookie Consent Banner",
-          "dialog:9b5fa9c7-f77a-4e55-a68e-d7192fcefbb3__label",
+          "dialog:dfcc4c4c-f952-4997-97f9-5d620ef5a357__label",
           "header",
           "nav",
           "banner",
@@ -399,9 +971,9 @@
         ]
       },
       {
-        "url": "https://www.fullstory.com/plans/",
-        "title": "Plans & Packages | Find the Right Fullstory Plan for You",
-        "description": "Compare Fullstory plans to find the right fit & pricing for your business, so you can build a more perfect digital experience for your customers.",
+        "url": "https://www.fullstory.com/help",
+        "title": "The page doesn’t seem to exist.",
+        "description": "Fullstory is your digital experience analytics platform for on-the-fly funnels, pixel-perfect replay, custom events, heat maps, advanced search, Dev Tools, and more.",
         "headings": [
           "How to navigate this page",
           "Element names",
@@ -411,182 +983,111 @@
           "Lists and position",
           "Primary actions",
           "Navigation tips",
-          "Plans for every team and role",
-          "Analytics",
-          "Three plans for businesses big and small",
-          "Plan add-ons",
-          "Find your perfect fit",
+          "The page doesn’t seem to exist.",
+          "Follow us",
+          "PLATFORM",
+          "FEATURES",
+          "SOLUTIONS",
+          "RESOURCES",
+          "COMPANY"
+        ],
+        "navLabels": [
+          "Platform",
+          "Platform Overview Capture, understand, and act on behavioral data.",
+          "Watch a 4-minute product tour An on-demand walkthrough of Fullstory.",
+          "AnalyticsCustomer Behavior",
+          "Product Analytics",
+          "Mobile Analytics",
+          "Guides and Surveys",
+          "Heatmaps",
+          "Session Replay",
+          "AnywhereData Activation",
+          "Real-Time Personalization",
+          "Tech Stack Enrichment",
+          "StoryAIIntelligence",
+          "StoryAI Agents",
+          "Ask StoryAI",
+          "Fullstory MCP",
+          "WorkforceEmployee Experience",
+          "Workflow Intelligence",
+          "Support Acceleration",
+          "Solutions",
+          "Solutions Catalog Explore tailored resources for every industry and team",
+          "Retail & Ecommerce",
+          "Food & Beverage",
+          "Travel & Hospitality"
+        ],
+        "ctas": [
+          "Solutions Catalog Explore tailored resources for every industry and team",
+          "Plans & Pricing",
+          "Log in",
+          "Get a demo"
+        ],
+        "landmarks": [
+          "dialog:Cookie Consent Banner",
+          "dialog:babceb53-ce43-4025-938c-d7717fe5681b__label",
+          "header",
+          "nav",
+          "banner",
+          "nav:Primary",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://help.fullstory.com/hc/en-us",
+        "title": "Fullstory Help Center",
+        "headings": [
+          "New to Fullstory? Start here!",
+          "Popular Topics",
+          "Getting Started",
+          "Product Analytics",
+          "StoryAI",
           "Workforce",
-          "Use Cases",
-          "See the impact of Workforce in seconds!",
           "Anywhere",
-          "Warehouse",
-          "Activation",
-          "Professional services"
+          "Guides and Surveys",
+          "Privacy",
+          "Release Notes",
+          "Integrations",
+          "Fullstory for Mobile Apps",
+          "Developer",
+          "The Fullstory Community",
+          "Got Questions?"
         ],
         "navLabels": [
-          "Platform",
-          "Platform Overview Capture, understand, and act on behavioral data.",
-          "Watch a 4-minute product tour An on-demand walkthrough of Fullstory.",
-          "AnalyticsCustomer Behavior",
-          "Product Analytics",
-          "Mobile Analytics",
-          "Guides and Surveys",
-          "Heatmaps",
-          "Session Replay",
-          "AnywhereData Activation",
-          "Real-Time Personalization",
-          "Tech Stack Enrichment",
-          "StoryAIIntelligence",
-          "StoryAI Agents",
-          "Ask StoryAI",
-          "Fullstory MCP",
-          "WorkforceEmployee Experience",
-          "Workflow Intelligence",
-          "Support Acceleration",
-          "Solutions",
-          "Solutions Catalog Explore tailored resources for every industry and team",
-          "Retail & Ecommerce",
-          "Food & Beverage",
-          "Travel & Hospitality"
+          "Sign in",
+          "Main site",
+          "Learn Fullstory",
+          "Community",
+          "API Resources"
         ],
         "ctas": [
-          "Solutions Catalog Explore tailored resources for every industry and team",
-          "Plans & Pricing",
-          "Log in",
-          "Get a demo",
-          "Request pricing & demo",
-          "Learn more",
-          "Request a demo",
-          "Get started ➜"
+          "Sign in",
+          "Getting Started"
         ],
         "landmarks": [
-          "dialog:Cookie Consent Banner",
-          "dialog:a36def32-a863-4fbb-a238-55a808db4ba5__label",
           "header",
           "nav",
-          "banner",
-          "nav:Primary",
           "main",
+          "search",
           "footer"
         ]
       },
       {
-        "url": "https://www.fullstory.com/product",
-        "title": "The page doesn’t seem to exist.",
-        "description": "Fullstory is your digital experience analytics platform for on-the-fly funnels, pixel-perfect replay, custom events, heat maps, advanced search, Dev Tools, and more.",
+        "url": "https://www.fullstory.com/api",
+        "title": "404 Error | Page Not Found | FullStory",
         "headings": [
-          "How to navigate this page",
-          "Element names",
-          "Interactive elements",
-          "Page structure",
-          "Business data",
-          "Lists and position",
-          "Primary actions",
-          "Navigation tips",
-          "The page doesn’t seem to exist.",
-          "Follow us",
-          "PLATFORM",
-          "FEATURES",
-          "SOLUTIONS",
-          "RESOURCES",
-          "COMPANY"
+          "We can’t find this page."
         ],
         "navLabels": [
-          "Platform",
-          "Platform Overview Capture, understand, and act on behavioral data.",
-          "Watch a 4-minute product tour An on-demand walkthrough of Fullstory.",
-          "AnalyticsCustomer Behavior",
-          "Product Analytics",
-          "Mobile Analytics",
-          "Guides and Surveys",
-          "Heatmaps",
-          "Session Replay",
-          "AnywhereData Activation",
-          "Real-Time Personalization",
-          "Tech Stack Enrichment",
-          "StoryAIIntelligence",
-          "StoryAI Agents",
-          "Ask StoryAI",
-          "Fullstory MCP",
-          "WorkforceEmployee Experience",
-          "Workflow Intelligence",
-          "Support Acceleration",
-          "Solutions",
-          "Solutions Catalog Explore tailored resources for every industry and team",
-          "Retail & Ecommerce",
-          "Food & Beverage",
-          "Travel & Hospitality"
+          "Sign Up Free",
+          "Back to FullStory"
         ],
         "ctas": [
-          "Solutions Catalog Explore tailored resources for every industry and team",
-          "Plans & Pricing",
-          "Log in",
-          "Get a demo"
+          "Sign Up Free"
         ],
         "landmarks": [
-          "dialog:Cookie Consent Banner",
-          "dialog:eac4673a-990e-43a8-939e-bf44ef04742e__label",
-          "header",
-          "nav",
-          "banner",
-          "nav:Primary",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.fullstory.com/products",
-        "title": "The page doesn’t seem to exist.",
-        "description": "Fullstory is your digital experience analytics platform for on-the-fly funnels, pixel-perfect replay, custom events, heat maps, advanced search, Dev Tools, and more.",
-        "headings": [
-          "The page doesn’t seem to exist.",
-          "Follow us",
-          "PLATFORM",
-          "FEATURES",
-          "SOLUTIONS",
-          "RESOURCES",
-          "COMPANY"
-        ],
-        "navLabels": [
-          "Platform",
-          "Platform Overview Capture, understand, and act on behavioral data.",
-          "Watch a 4-minute product tour An on-demand walkthrough of Fullstory.",
-          "AnalyticsCustomer Behavior",
-          "Product Analytics",
-          "Mobile Analytics",
-          "Guides and Surveys",
-          "Heatmaps",
-          "Session Replay",
-          "AnywhereData Activation",
-          "Real-Time Personalization",
-          "Tech Stack Enrichment",
-          "StoryAIIntelligence",
-          "StoryAI Agents",
-          "Ask StoryAI",
-          "Fullstory MCP",
-          "WorkforceEmployee Experience",
-          "Workflow Intelligence",
-          "Support Acceleration",
-          "Solutions",
-          "Solutions Catalog Explore tailored resources for every industry and team",
-          "Retail & Ecommerce",
-          "Food & Beverage",
-          "Travel & Hospitality"
-        ],
-        "ctas": [
-          "Solutions Catalog Explore tailored resources for every industry and team",
-          "Plans & Pricing",
-          "Log in",
-          "Get a demo"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "banner",
-          "nav:Primary",
-          "main",
-          "footer"
+          "nav"
         ]
       },
       {
@@ -656,7 +1157,7 @@
         ],
         "landmarks": [
           "dialog:Cookie Consent Banner",
-          "dialog:79e560d1-2ecb-4b14-86bb-64ecc8399311__label",
+          "dialog:74735198-63de-4172-a7f4-ef5c4809a63c__label",
           "header",
           "nav",
           "banner",
@@ -720,110 +1221,7 @@
         ],
         "landmarks": [
           "dialog:Cookie Consent Banner",
-          "dialog:6dac2acc-597e-44e8-919a-bc9bbda35810__label",
-          "header",
-          "nav",
-          "banner",
-          "nav:Primary",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://help.fullstory.com/hc/en-us",
-        "title": "Fullstory Help Center",
-        "headings": [
-          "New to Fullstory? Start here!",
-          "Popular Topics",
-          "Getting Started",
-          "Product Analytics",
-          "StoryAI",
-          "Workforce",
-          "Anywhere",
-          "Guides and Surveys",
-          "Privacy",
-          "Release Notes",
-          "Integrations",
-          "Fullstory for Mobile Apps",
-          "Developer",
-          "The Fullstory Community",
-          "Got Questions?"
-        ],
-        "navLabels": [
-          "Sign in",
-          "Main site",
-          "Learn Fullstory",
-          "Community",
-          "API Resources"
-        ],
-        "ctas": [
-          "Sign in",
-          "Getting Started"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "main",
-          "search",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.fullstory.com/help",
-        "title": "The page doesn’t seem to exist.",
-        "description": "Fullstory is your digital experience analytics platform for on-the-fly funnels, pixel-perfect replay, custom events, heat maps, advanced search, Dev Tools, and more.",
-        "headings": [
-          "How to navigate this page",
-          "Element names",
-          "Interactive elements",
-          "Page structure",
-          "Business data",
-          "Lists and position",
-          "Primary actions",
-          "Navigation tips",
-          "The page doesn’t seem to exist.",
-          "Follow us",
-          "PLATFORM",
-          "FEATURES",
-          "SOLUTIONS",
-          "RESOURCES",
-          "COMPANY"
-        ],
-        "navLabels": [
-          "Platform",
-          "Platform Overview Capture, understand, and act on behavioral data.",
-          "Watch a 4-minute product tour An on-demand walkthrough of Fullstory.",
-          "AnalyticsCustomer Behavior",
-          "Product Analytics",
-          "Mobile Analytics",
-          "Guides and Surveys",
-          "Heatmaps",
-          "Session Replay",
-          "AnywhereData Activation",
-          "Real-Time Personalization",
-          "Tech Stack Enrichment",
-          "StoryAIIntelligence",
-          "StoryAI Agents",
-          "Ask StoryAI",
-          "Fullstory MCP",
-          "WorkforceEmployee Experience",
-          "Workflow Intelligence",
-          "Support Acceleration",
-          "Solutions",
-          "Solutions Catalog Explore tailored resources for every industry and team",
-          "Retail & Ecommerce",
-          "Food & Beverage",
-          "Travel & Hospitality"
-        ],
-        "ctas": [
-          "Solutions Catalog Explore tailored resources for every industry and team",
-          "Plans & Pricing",
-          "Log in",
-          "Get a demo"
-        ],
-        "landmarks": [
-          "dialog:Cookie Consent Banner",
-          "dialog:6e9d8be0-cfa8-48ec-8d19-f72fbbdc47b0__label",
+          "dialog:ad879cce-53de-40f6-aba4-8ee365e4f0f5__label",
           "header",
           "nav",
           "banner",
@@ -883,11 +1281,12 @@
           "Solutions Catalog Explore tailored resources for every industry and team",
           "Plans & Pricing",
           "Log in",
-          "Get a demo"
+          "Get a demo",
+          "Insider voices: Fixing travel booking and check-in friction"
         ],
         "landmarks": [
           "dialog:Cookie Consent Banner",
-          "dialog:38b9284a-1487-429f-9e52-3f7d11e513b3__label",
+          "dialog:f9816a37-eec8-493d-a7f0-3c415cd5d4b3__label",
           "header",
           "nav",
           "banner",
@@ -956,125 +1355,7 @@
         ],
         "landmarks": [
           "dialog:Cookie Consent Banner",
-          "dialog:ce95d55f-1d03-4e49-8689-bd5dc6964ae2__label",
-          "header",
-          "nav",
-          "banner",
-          "nav:Primary",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.fullstory.com/signin",
-        "title": "The page doesn’t seem to exist.",
-        "description": "Fullstory is your digital experience analytics platform for on-the-fly funnels, pixel-perfect replay, custom events, heat maps, advanced search, Dev Tools, and more.",
-        "headings": [
-          "The page doesn’t seem to exist.",
-          "Follow us",
-          "PLATFORM",
-          "FEATURES",
-          "SOLUTIONS",
-          "RESOURCES",
-          "COMPANY"
-        ],
-        "navLabels": [
-          "Platform",
-          "Platform Overview Capture, understand, and act on behavioral data.",
-          "Watch a 4-minute product tour An on-demand walkthrough of Fullstory.",
-          "AnalyticsCustomer Behavior",
-          "Product Analytics",
-          "Mobile Analytics",
-          "Guides and Surveys",
-          "Heatmaps",
-          "Session Replay",
-          "AnywhereData Activation",
-          "Real-Time Personalization",
-          "Tech Stack Enrichment",
-          "StoryAIIntelligence",
-          "StoryAI Agents",
-          "Ask StoryAI",
-          "Fullstory MCP",
-          "WorkforceEmployee Experience",
-          "Workflow Intelligence",
-          "Support Acceleration",
-          "Solutions",
-          "Solutions Catalog Explore tailored resources for every industry and team",
-          "Retail & Ecommerce",
-          "Food & Beverage",
-          "Travel & Hospitality"
-        ],
-        "ctas": [
-          "Solutions Catalog Explore tailored resources for every industry and team",
-          "Plans & Pricing",
-          "Log in",
-          "Get a demo"
-        ],
-        "landmarks": [
-          "header",
-          "nav",
-          "banner",
-          "nav:Primary",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.fullstory.com/sign-in",
-        "title": "The page doesn’t seem to exist.",
-        "description": "Fullstory is your digital experience analytics platform for on-the-fly funnels, pixel-perfect replay, custom events, heat maps, advanced search, Dev Tools, and more.",
-        "headings": [
-          "How to navigate this page",
-          "Element names",
-          "Interactive elements",
-          "Page structure",
-          "Business data",
-          "Lists and position",
-          "Primary actions",
-          "Navigation tips",
-          "The page doesn’t seem to exist.",
-          "Follow us",
-          "PLATFORM",
-          "FEATURES",
-          "SOLUTIONS",
-          "RESOURCES",
-          "COMPANY"
-        ],
-        "navLabels": [
-          "Platform",
-          "Platform Overview Capture, understand, and act on behavioral data.",
-          "Watch a 4-minute product tour An on-demand walkthrough of Fullstory.",
-          "AnalyticsCustomer Behavior",
-          "Product Analytics",
-          "Mobile Analytics",
-          "Guides and Surveys",
-          "Heatmaps",
-          "Session Replay",
-          "AnywhereData Activation",
-          "Real-Time Personalization",
-          "Tech Stack Enrichment",
-          "StoryAIIntelligence",
-          "StoryAI Agents",
-          "Ask StoryAI",
-          "Fullstory MCP",
-          "WorkforceEmployee Experience",
-          "Workflow Intelligence",
-          "Support Acceleration",
-          "Solutions",
-          "Solutions Catalog Explore tailored resources for every industry and team",
-          "Retail & Ecommerce",
-          "Food & Beverage",
-          "Travel & Hospitality"
-        ],
-        "ctas": [
-          "Solutions Catalog Explore tailored resources for every industry and team",
-          "Plans & Pricing",
-          "Log in",
-          "Get a demo"
-        ],
-        "landmarks": [
-          "dialog:Cookie Consent Banner",
-          "dialog:56713510-6471-45c1-afb5-cb36ec5cc1a7__label",
+          "dialog:f6f7b2b3-35bd-4d98-9a9a-39d0b372b476__label",
           "header",
           "nav",
           "banner",
@@ -1114,7 +1395,7 @@
       "Learn Fullstory",
       "Community",
       "API Resources",
-      "BLOG"
+      "Sign Up Free"
     ],
     "ctas": [
       "Solutions Catalog Explore tailored resources for every industry and team",
@@ -1129,16 +1410,18 @@
       "Log in with Google",
       "Log in to Fullstory",
       "Sign up",
-      "Explore frameworks →",
-      "Request pricing & demo",
-      "Learn more",
-      "Request a demo",
-      "Get started ➜",
+      "→ EXPLORE AGENTS",
+      "→ EXPLORE ASK STORYAI",
+      "→ EXPLORE OPPORTUNITIES",
+      "→ EXPLORE SUMMARIES",
+      "Take a demo",
+      "Download the one-pager",
+      "Sign in",
+      "Getting Started",
+      "Sign Up Free",
       "Learn more about Analytics",
       "Learn more about Workforce",
-      "Learn more about Anywhere",
-      "Sign in",
-      "Getting Started"
+      "Learn more about Anywhere"
     ],
     "headings": [
       "How to navigate this page",
@@ -1161,16 +1444,16 @@
       "StoryAI Opportunities",
       "Workflow Intelligence",
       "Get the full power of AI-driven insights and automations",
-      "Ship mobile experiences that convert",
-      "Actionable insights for smarter decisions",
-      "High-fidelity session replay",
-      "Debugging made easy",
-      "Connect the full journey",
-      "Give small-screen experiences the spotlight",
-      "Build anywhere. See every interaction.",
-      "See what billions of sessions reveal about mobile experiences",
-      "Additional resources",
-      "Fullstory for mobile FAQs"
+      "Drive revenue, not reports",
+      "Expert confidence at AI speed",
+      "From insight to action, instantly",
+      "AI that knows your business",
+      "Don’t just react, resolve",
+      "No session-by-session review",
+      "AI can’t act on what it can’t see",
+      "Built-in intelligence. Real results.",
+      "“No more hours of replays.”",
+      "Frequently asked questions"
     ],
     "techSignals": [
       "Next.js",
@@ -1197,13 +1480,13 @@
       "Fullstory MCP",
       "StoryAI Opportunities",
       "Workflow Intelligence",
-      "Ship mobile experiences that convert",
-      "Actionable insights for smarter decisions",
-      "High-fidelity session replay",
-      "Debugging made easy",
-      "Connect the full journey",
-      "Give small-screen experiences the spotlight",
-      "Build anywhere. See every interaction."
+      "Drive revenue, not reports",
+      "Expert confidence at AI speed",
+      "From insight to action, instantly",
+      "AI that knows your business",
+      "Don’t just react, resolve",
+      "No session-by-session review",
+      "AI can’t act on what it can’t see"
     ],
     "patternCandidates": [
       "Modal dialogs",
@@ -1218,10 +1501,8 @@
     ],
     "platformsDetected": [
       "web",
-      "api",
-      "ios",
-      "android"
+      "api"
     ],
-    "summary": "Captured 33 screenshots across 14 public URLs. Nav signals: Platform, Platform Overview Capture, understand, and act on behavioral data., Watch a 4-minute product tour An on-demand walkthrough of Fullstory., AnalyticsCustomer Behavior, Product Analytics, Mobile Analytics. Tech signals: Next.js, Webpack, Google Tag Manager, React, Intercom. UI patterns: Modal dialogs, Search, Pricing display, Tabs, Card layout, Checkout."
+    "summary": "Captured 42 screenshots across 10 public URLs. Nav signals: Platform, Platform Overview Capture, understand, and act on behavioral data., Watch a 4-minute product tour An on-demand walkthrough of Fullstory., AnalyticsCustomer Behavior, Product Analytics, Mobile Analytics. Tech signals: Next.js, Webpack, Google Tag Manager, React, Intercom. UI patterns: Modal dialogs, Search, Pricing display, Tabs, Card layout, Checkout."
   }
 }

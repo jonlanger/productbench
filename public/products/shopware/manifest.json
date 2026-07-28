@@ -1,0 +1,103 @@
+{
+  "slug": "shopware",
+  "capturedAt": "2026-07-27T23:00:54.642Z",
+  "shots": [
+    {
+      "file": "fallback-docs-1.jpg",
+      "title": "Man sitting on a couch using a laptop while viewing a product demonstration.",
+      "caption": "Fallback from public docs: https://www.shopware.com/support",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopware.com/support",
+      "capturedAt": "2026-07-27T23:00:40.559Z",
+      "playbookStep": "web-fallback",
+      "width": 64,
+      "height": 64,
+      "phash": "b2d2d3f7dcffac9d",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-2.jpg",
+      "title": "Overview of several Shopware storefront designs displayed on a computer screen.",
+      "caption": "Fallback from public docs: https://www.shopware.com/support",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopware.com/support",
+      "capturedAt": "2026-07-27T23:00:40.559Z",
+      "playbookStep": "web-fallback",
+      "width": 64,
+      "height": 64,
+      "phash": "16323f2d24349eb6",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-3.jpg",
+      "title": "People walking into a building through glass doors, shown in slight motion blur.",
+      "caption": "Fallback from public docs: https://www.shopware.com/support",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopware.com/support",
+      "capturedAt": "2026-07-27T23:00:40.559Z",
+      "playbookStep": "web-fallback",
+      "width": 64,
+      "height": 64,
+      "phash": "1911f388c5616969",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-4.jpg",
+      "title": "Two colleagues working together at a computer, discussing something on the screen.",
+      "caption": "Fallback from public docs: https://www.shopware.com/support",
+      "kind": "docs",
+      "sourceUrl": "https://www.shopware.com/support",
+      "capturedAt": "2026-07-27T23:00:40.559Z",
+      "playbookStep": "web-fallback",
+      "width": 64,
+      "height": 64,
+      "phash": "d9597dedb69cfaf2",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-5.png",
+      "title": "Settings",
+      "caption": "Fallback from public docs: https://docs.shopware.com",
+      "kind": "technical",
+      "sourceUrl": "https://docs.shopware.com",
+      "capturedAt": "2026-07-27T23:00:40.559Z",
+      "playbookStep": "web-fallback",
+      "width": 40,
+      "height": 40,
+      "phash": "aaecb22aaaa2c8a2",
+      "unique": true
+    },
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.shopware.com",
+      "capturedAt": "2026-07-27T23:00:40.559Z",
+      "playbookStep": "web-fallback",
+      "width": 2400,
+      "height": 1260,
+      "phash": "60f0e0f8f8e0f0f0",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T23:00:54.642Z",
+    "screenshotCount": 6,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 6 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

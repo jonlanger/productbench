@@ -112,35 +112,86 @@ function tokenize(text: string): string[] {
     .filter((token) => token.length > 1 && !STOP_WORDS.has(token));
 }
 
+type ConceptEntry = {
+  key: string;
+  relatedTokens: string[];
+  relatedNormalized: string[];
+};
+
+const CONCEPT_ENTRIES: ConceptEntry[] = Object.entries(SEARCH_CONCEPTS).map(
+  ([key, related]) => ({
+    key,
+    relatedTokens: related.flatMap((value) => tokenize(value)),
+    relatedNormalized: related.map((value) => normalizeText(value)),
+  }),
+);
+
+const CONCEPT_BY_KEY = new Map(
+  CONCEPT_ENTRIES.map((entry) => [entry.key, entry]),
+);
+
+/** Reverse index: token → concept keys that mention it (built once). */
+const CONCEPT_BY_TOKEN = new Map<string, string[]>();
+for (const entry of CONCEPT_ENTRIES) {
+  const keysForToken = (token: string) => {
+    const existing = CONCEPT_BY_TOKEN.get(token);
+    if (existing) {
+      if (!existing.includes(entry.key)) existing.push(entry.key);
+    } else {
+      CONCEPT_BY_TOKEN.set(token, [entry.key]);
+    }
+  };
+  keysForToken(entry.key);
+  for (const token of entry.relatedTokens) keysForToken(token);
+}
+
 function expandQueryTerms(terms: string[]): string[] {
   const expanded = new Set(terms);
 
   for (const term of terms) {
-    const concept = SEARCH_CONCEPTS[term];
-    if (concept) {
-      for (const related of concept) {
-        for (const token of tokenize(related)) {
-          expanded.add(token);
+    const matchedKeys = new Set(CONCEPT_BY_TOKEN.get(term) ?? []);
+
+    // Prefix / substring matches for short research queries (e.g. "pay" → payments).
+    if (term.length >= 3) {
+      for (const entry of CONCEPT_ENTRIES) {
+        if (matchedKeys.has(entry.key)) continue;
+        if (
+          entry.key.startsWith(term) ||
+          entry.relatedTokens.some((token) => token.startsWith(term)) ||
+          entry.relatedNormalized.some((value) => value.includes(term))
+        ) {
+          matchedKeys.add(entry.key);
         }
       }
     }
 
-    for (const [key, related] of Object.entries(SEARCH_CONCEPTS)) {
-      const relatedTokens = related.flatMap((value) => tokenize(value));
-      if (
-        key === term ||
-        relatedTokens.includes(term) ||
-        related.some((value) => normalizeText(value).includes(term))
-      ) {
-        expanded.add(key);
-        for (const token of relatedTokens) {
-          expanded.add(token);
-        }
+    for (const key of matchedKeys) {
+      expanded.add(key);
+      const entry = CONCEPT_BY_KEY.get(key);
+      if (!entry) continue;
+      for (const token of entry.relatedTokens) {
+        expanded.add(token);
       }
     }
   }
 
   return [...expanded];
+}
+
+const EXPANSION_CACHE = new Map<string, string[]>();
+
+function expandQueryTermsCached(terms: string[]): string[] {
+  const cacheKey = terms.join("\0");
+  const cached = EXPANSION_CACHE.get(cacheKey);
+  if (cached) return cached;
+
+  const expanded = expandQueryTerms(terms);
+  EXPANSION_CACHE.set(cacheKey, expanded);
+  if (EXPANSION_CACHE.size > 64) {
+    const first = EXPANSION_CACHE.keys().next().value;
+    if (first !== undefined) EXPANSION_CACHE.delete(first);
+  }
+  return expanded;
 }
 
 function getProductFields(product: Product): WeightedField[] {
@@ -221,7 +272,7 @@ export function scoreProductSearch(product: Product, query: string): number {
   const queryTerms = tokenize(normalizedQuery);
   if (queryTerms.length === 0) return 0;
 
-  const expandedTerms = expandQueryTerms(queryTerms);
+  const expandedTerms = expandQueryTermsCached(queryTerms);
   const directTerms = new Set(queryTerms);
   const fields = getProductFields(product);
   const corpus = fields.map((field) => normalizeText(field.text)).join(" ");

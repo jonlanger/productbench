@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-07-26T23:47:43.940Z",
-  "screenshotCount": 24,
-  "pageCount": 16,
+  "capturedAt": "2026-07-27T22:03:30.019Z",
+  "screenshotCount": 27,
+  "pageCount": 7,
   "pages": [
     {
       "url": "https://www.epic.com/",
@@ -15,7 +15,6 @@
         "Three Health Systems Use AI Insights to Cut Chart Review Time and Cognitive Load",
         "Latest from",
         "Suzetrigine Prescribed Often for Chronic Pain, Despite Its Acute-Pain Label",
-        "GLP-1 Treatment Associated with a 39% Lower Risk of Repeat Substance Overdose",
         "Epic In the News",
         "MyChart Helps Health Systems Meet Access Needs for Disabled Patients",
         "Inside Day 5 of Quebec’s digital health record rollout at Jean-Talon Hospital"
@@ -55,13 +54,38 @@
     },
     {
       "url": "https://www.epic.com/epic/post/mychart-helps-health-systems-meet-access-needs-for-disabled-patients/",
-      "title": "Service unavailable",
+      "title": "MyChart Helps Health Systems Meet Access Needs for Disabled Patients | Epic",
       "headings": [
-        "The request is blocked."
+        "Ope!"
       ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
+      "navLabels": [
+        "Open main menu",
+        "Software",
+        "About Us",
+        "Newsroom",
+        "Visit EpicShare",
+        "Visit Epic Research",
+        "Visit Cosmos",
+        "Visit MyChart",
+        "Learn about the technologies available for integration with Epic",
+        "Visit UserWeb",
+        "Visit Showroom",
+        "Visit Epic.com",
+        "Our Story",
+        "Visiting",
+        "Epic Health System Community",
+        "Diversity, Equity & Inclusion",
+        "Sustainability",
+        "Contact Us"
+      ],
+      "ctas": [
+        "Visit Epic Research",
+        "Contact Us"
+      ],
+      "landmarks": [
+        "main",
+        "nav"
+      ]
     },
     {
       "url": "https://open.epic.com/",
@@ -72,7 +96,7 @@
         "8.91 billion",
         "660 billion",
         "284 billion",
-        "2,867",
+        "2,874",
         "Let's Get Started",
         "Step-by-Step Developer Guide",
         "Data Sharing Playbooks",
@@ -334,96 +358,6 @@
         "main",
         "footer"
       ]
-    },
-    {
-      "url": "https://www.epic.com/pricing",
-      "title": "Service unavailable",
-      "headings": [
-        "The request is blocked."
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.epic.com/product",
-      "title": "Service unavailable",
-      "headings": [
-        "The request is blocked."
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.epic.com/products",
-      "title": "Service unavailable",
-      "headings": [
-        "The request is blocked."
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.epic.com/features/",
-      "title": "Service unavailable",
-      "headings": [
-        "The request is blocked."
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.epic.com/platform",
-      "title": "Service unavailable",
-      "headings": [
-        "The request is blocked."
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.epic.com/solutions/",
-      "title": "Service unavailable",
-      "headings": [
-        "The request is blocked."
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.epic.com/customers",
-      "title": "Service unavailable",
-      "headings": [
-        "The request is blocked."
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.epic.com/docs/",
-      "title": "Service unavailable",
-      "headings": [
-        "The request is blocked."
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
-    },
-    {
-      "url": "https://www.epic.com/help",
-      "title": "Service unavailable",
-      "headings": [
-        "The request is blocked."
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": []
     }
   ],
   "navLabels": [
@@ -492,17 +426,16 @@
     "Three Health Systems Use AI Insights to Cut Chart Review Time and Cognitive Load",
     "Latest from",
     "Suzetrigine Prescribed Often for Chronic Pain, Despite Its Acute-Pain Label",
-    "GLP-1 Treatment Associated with a 39% Lower Risk of Repeat Substance Overdose",
     "Epic In the News",
     "MyChart Helps Health Systems Meet Access Needs for Disabled Patients",
     "Inside Day 5 of Quebec’s digital health record rollout at Jean-Talon Hospital",
-    "The request is blocked.",
+    "Ope!",
     "Epic's Home for Data Sharing and Developer Tools",
     "Data Sharing at Scale",
     "8.91 billion",
     "660 billion",
     "284 billion",
-    "2,867",
+    "2,874",
     "Let's Get Started",
     "Step-by-Step Developer Guide",
     "Data Sharing Playbooks",
@@ -514,7 +447,8 @@
     "CMS Interoperability and Prior Authorization Final Rule APIs",
     "Exchange of Radiotherapy Treatment Summaries (XRTS)",
     "Embedded Call Controls",
-    "New Playbooks"
+    "New Playbooks",
+    "Open @ Epic Recap"
   ],
   "techSignals": [
     "Next.js",
@@ -526,12 +460,12 @@
     "Share What You've Done, Learn What You Can Do",
     "Latest from",
     "Epic In the News",
-    "The request is blocked.",
+    "Ope!",
     "Data Sharing at Scale",
     "8.91 billion",
     "660 billion",
     "284 billion",
-    "2,867",
+    "2,874",
     "Let's Get Started",
     "Step-by-Step Developer Guide",
     "Data Sharing Playbooks",
@@ -542,9 +476,9 @@
     "Open@Epic Conference 2026",
     "Embedded Call Controls",
     "New Playbooks",
+    "Open @ Epic Recap",
     "Visit Epic Research",
-    "Contact Us",
-    "Learn more →"
+    "Contact Us"
   ],
   "patternCandidates": [
     "Search",
@@ -555,5 +489,5 @@
     "web",
     "api"
   ],
-  "summary": "Captured 24 screenshots across 16 public URLs. Nav signals: Open main menu, Software, About Us, Newsroom, Visit EpicShare, Visit Epic Research. Tech signals: Next.js, Webpack. UI patterns: Search, Tabs, Authentication."
+  "summary": "Captured 27 screenshots across 7 public URLs. Nav signals: Open main menu, Software, About Us, Newsroom, Visit EpicShare, Visit Epic Research. Tech signals: Next.js, Webpack. UI patterns: Search, Tabs, Authentication."
 }

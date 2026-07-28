@@ -1,0 +1,90 @@
+{
+  "slug": "sap-concur",
+  "capturedAt": "2026-07-27T23:26:02.568Z",
+  "shots": [
+    {
+      "file": "fallback-docs-1.jpg",
+      "title": "admin gear icon",
+      "caption": "Fallback from public docs: https://www.concur.com/support",
+      "kind": "docs",
+      "sourceUrl": "https://www.concur.com/support",
+      "capturedAt": "2026-07-27T23:25:23.639Z",
+      "playbookStep": "web-fallback",
+      "width": 900,
+      "height": 900,
+      "phash": "65598d9d37375769",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-2.jpg",
+      "title": "concur expense screenshot on iphone",
+      "caption": "Fallback from public docs: https://www.concur.com/features",
+      "kind": "supporting",
+      "sourceUrl": "https://www.concur.com/features",
+      "capturedAt": "2026-07-27T23:25:23.639Z",
+      "playbookStep": "web-fallback",
+      "width": 900,
+      "height": 514,
+      "phash": "9661696169697979",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-4.jpg",
+      "title": "Concur Blog - ",
+      "caption": "Fallback from public docs: https://www.concur.com/features",
+      "kind": "supporting",
+      "sourceUrl": "https://www.concur.com/features",
+      "capturedAt": "2026-07-27T23:25:23.639Z",
+      "playbookStep": "web-fallback",
+      "width": 900,
+      "height": 506,
+      "phash": "2121a11311e12323",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-5.jpg",
+      "title": "hierarchy icon",
+      "caption": "Fallback from public docs: https://www.concur.com/features",
+      "kind": "supporting",
+      "sourceUrl": "https://www.concur.com/features",
+      "capturedAt": "2026-07-27T23:25:23.639Z",
+      "playbookStep": "web-fallback",
+      "width": 900,
+      "height": 900,
+      "phash": "0c4d16962b2b5555",
+      "unique": true
+    },
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.concur.com",
+      "capturedAt": "2026-07-27T23:25:23.639Z",
+      "playbookStep": "web-fallback",
+      "width": 2400,
+      "height": 1260,
+      "phash": "8030c7809a964980",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T23:26:02.568Z",
+    "screenshotCount": 5,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 5 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

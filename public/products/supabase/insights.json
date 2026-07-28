@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-07-27T13:29:43.282Z",
-  "screenshotCount": 32,
-  "pageCount": 15,
+  "capturedAt": "2026-07-27T21:40:03.938Z",
+  "screenshotCount": 38,
+  "pageCount": 9,
   "pages": [
     {
       "url": "https://supabase.com/",
@@ -32,7 +32,7 @@
         "Pricing",
         "Docs",
         "Blog",
-        "107K",
+        "107.1K",
         "Sign in",
         "Start your project",
         "Open main menu",
@@ -79,200 +79,15 @@
       ]
     },
     {
-      "url": "https://supabase.com/docs/guides/getting-started/quickstarts/reactjs",
-      "title": "Use Supabase with React | Supabase Docs",
-      "description": "Learn how to create a Supabase project, add some sample data to your database, and query the data from a React app.",
-      "headings": [
-        "Use Supabase with React",
-        "1. Create a Supabase project#",
-        "2. Set up your database#",
-        "3. Create a React app#",
-        "4. Install Agent Skills (optional)#",
-        "5. Install the Supabase client library#",
-        "6. Declare Supabase environment variables#",
-        "Get API details#",
-        "7. Query data from the app#",
-        "8. Start the app#",
-        "Next steps#",
-        "Is this helpful?",
-        "AI Tools",
-        "On this page"
-      ],
-      "navLabels": [
-        "DOCS",
-        "Start",
-        "Products",
-        "Build",
-        "Manage",
-        "Reference",
-        "Resources",
-        "Search docs...⌘K",
-        "Sign up",
-        "Start with Supabase",
-        "Build with AI tools",
-        "API Keys",
-        "Local Development",
-        "Architecture",
-        "Migrating to new API keys",
-        "Next.js",
-        "React",
-        "Astro",
-        "Nuxt",
-        "Vue",
-        "Hono",
-        "Expo React Native",
-        "Flutter",
-        "iOS SwiftUI"
-      ],
-      "ctas": [
-        "Start",
-        "Search docs...⌘K",
-        "Sign up",
-        "Start with Supabase",
-        "TanStack Start",
-        "log in",
-        "1. Create a Supabase project",
-        "3. Create a React app",
-        "8. Start the app",
-        "Contact support"
-      ],
-      "landmarks": [
-        "nav:top bar",
-        "nav:Main",
-        "nav:main-nav-title",
-        "main",
-        "nav:breadcrumb",
-        "header",
-        "footer",
-        "contentinfo:footer"
-      ]
-    },
-    {
-      "url": "https://supabase.com/pricing",
-      "title": "Pricing & Fees | Supabase",
-      "description": "Explore Supabase fees and pricing information. Find our competitive pricing Plans, with no hidden pricing. We have a generous Free Plan for those getting started, and Pay As You Go for those scaling up.",
-      "headings": [
-        "Predictable pricing, designed to scale",
-        "Free",
-        "Pro",
-        "Team",
-        "Enterprise",
-        "How compute pricing works",
-        "1. Choose your plan",
-        "2. Configure compute for your projects",
-        "Scale compute up to 64 cores and 256 GB RAM",
-        "Advanced disk configurations",
-        "Fine-tune your project",
-        "Cost Control",
-        "Custom Domain",
-        "Point in Time Recovery",
-        "Frequently asked questions",
-        "Can I cap my usage so my bill doesn't run over?",
-        "I'm worried I could end up with a huge bill at the end of the month.",
-        "When will I be billed?"
-      ],
-      "navLabels": [
-        "Product",
-        "Developers",
-        "Solutions",
-        "Pricing",
-        "Docs",
-        "Blog",
-        "107K",
-        "Sign in",
-        "Start your project",
-        "Open main menu"
-      ],
-      "ctas": [
-        "Pricing",
-        "Sign in",
-        "Start your project",
-        "Start for Free",
-        "Get Started",
-        "See how pricing scales",
-        "Contact Us",
-        "Add Project",
-        "Learn about Compute add-ons",
-        "Compute Add-ons",
-        "Expand Pricing breakdown",
-        "Are you going to change your pricing in the future?",
-        "Request a demo",
-        "Subscribe",
-        "Startups"
-      ],
-      "landmarks": [
-        "nav",
-        "nav:Main",
-        "main",
-        "footer"
-      ]
-    },
-    {
-      "url": "https://supabase.com/product",
-      "title": "Supabase | The Postgres Development Platform.",
+      "url": "https://supabase.com/customers/mobbin",
+      "title": "Mobbin | Supabase Customer Stories",
       "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
       "headings": [
-        "404",
-        "Looking for something? 🔍"
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": [
-        "main",
-        "nav"
-      ]
-    },
-    {
-      "url": "https://supabase.com/products",
-      "title": "Supabase | The Postgres Development Platform.",
-      "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
-      "headings": [
-        "404",
-        "Looking for something? 🔍"
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": [
-        "main",
-        "nav"
-      ]
-    },
-    {
-      "url": "https://supabase.com/platform",
-      "title": "Supabase | The Postgres Development Platform.",
-      "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
-      "headings": [
-        "404",
-        "Looking for something? 🔍"
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": [
-        "main",
-        "nav"
-      ]
-    },
-    {
-      "url": "https://supabase.com/solutions",
-      "title": "Supabase | The Postgres Development Platform.",
-      "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
-      "headings": [
-        "404",
-        "Looking for something? 🔍"
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": [
-        "main",
-        "nav"
-      ]
-    },
-    {
-      "url": "https://supabase.com/customers",
-      "title": "Customer Stories | Supabase",
-      "description": "See how Supabase empowers companies of all sizes to accelerate their growth and streamline their work.",
-      "headings": [
-        "Customer stories",
+        "From Idea to 30,000 users in one Product Hunt launch#",
+        "Scaling issues put Mobbin growth at risk#",
+        "Migrating to Supabase#",
+        "Supabase saves Mobbin time and money#",
+        "Build in a weekend, scale to millions",
         "Footer"
       ],
       "navLabels": [
@@ -282,7 +97,7 @@
         "Pricing",
         "Docs",
         "Blog",
-        "107K",
+        "107.1K",
         "Sign in",
         "Start your project",
         "Open main menu"
@@ -291,26 +106,33 @@
         "Pricing",
         "Sign in",
         "Start your project",
-        "Reset filters",
-        "How Supabase helps power millions of apps on LovableLearn more",
-        "How delight.ai lets every team build production apps on SupabaseLearn more",
-        "Chatbase goes upmarket on SupabaseLearn more",
-        "Cofounder builds autonomous companies on SupabaseLearn more",
-        "Hyper builds AI marketing agents on SupabaseLearn more",
-        "Koodos scales its social discovery app Shelf on SupabaseLearn more",
-        "Rally builds a pan-European fleet payments platform on SupabaseLearn more",
-        "Udio hits the right notes with SupabaseLearn more",
-        "Euka used Supabase to unlock faster growthLearn more",
-        "Bree's Migration to Supabase from FaunaLearn more",
-        "Deriv's Journey with SupabaseLearn more",
-        "Resend's Journey with Supabase: Scaling Email Infrastructure with EaseLearn more",
-        "E2B: Accelerating AI-Driven Development with SupabaseLearn more"
+        "Contact sales",
+        "Sign up",
+        "Request a demo",
+        "Subscribe",
+        "Startups",
+        "Contact Us"
       ],
       "landmarks": [
         "nav",
         "nav:Main",
         "main",
         "footer"
+      ]
+    },
+    {
+      "url": "https://supabase.com/help",
+      "title": "Supabase | The Postgres Development Platform.",
+      "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+      "headings": [
+        "404",
+        "Looking for something? 🔍"
+      ],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": [
+        "main",
+        "nav"
       ]
     },
     {
@@ -356,18 +178,151 @@
       ]
     },
     {
-      "url": "https://supabase.com/help",
-      "title": "Supabase | The Postgres Development Platform.",
-      "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+      "url": "https://supabase.com/support",
+      "title": "Help & Support | Supabase",
+      "description": "Find help and support for Supabase. Our Support team provide answers on all types of issues, including account information, billing, and refunds.",
       "headings": [
-        "404",
-        "Looking for something? 🔍"
+        "Support",
+        "Community support",
+        "Issues",
+        "Feature requests",
+        "Can’t find what you’re looking for?",
+        "Footer"
       ],
-      "navLabels": [],
-      "ctas": [],
+      "navLabels": [
+        "Product",
+        "Developers",
+        "Solutions",
+        "Pricing",
+        "Docs",
+        "Blog",
+        "107.1K",
+        "Sign in",
+        "Start your project",
+        "Open main menu"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "Start your project",
+        "How do I restart my database?K",
+        "Join us on Discord",
+        "Contact enterprise sales",
+        "Subscribe",
+        "Startups",
+        "Contact Us"
+      ],
       "landmarks": [
+        "nav",
+        "nav:Main",
         "main",
-        "nav"
+        "footer"
+      ]
+    },
+    {
+      "url": "https://supabase.com/pricing",
+      "title": "Pricing & Fees | Supabase",
+      "description": "Explore Supabase fees and pricing information. Find our competitive pricing Plans, with no hidden pricing. We have a generous Free Plan for those getting started, and Pay As You Go for those scaling up.",
+      "headings": [
+        "Predictable pricing, designed to scale",
+        "Free",
+        "Pro",
+        "Team",
+        "Enterprise",
+        "How compute pricing works",
+        "1. Choose your plan",
+        "2. Configure compute for your projects",
+        "Scale compute up to 64 cores and 256 GB RAM",
+        "Advanced disk configurations",
+        "Fine-tune your project",
+        "Cost Control",
+        "Custom Domain",
+        "Point in Time Recovery",
+        "Frequently asked questions",
+        "Can I cap my usage so my bill doesn't run over?",
+        "I'm worried I could end up with a huge bill at the end of the month.",
+        "When will I be billed?"
+      ],
+      "navLabels": [
+        "Product",
+        "Developers",
+        "Solutions",
+        "Pricing",
+        "Docs",
+        "Blog",
+        "107.1K",
+        "Sign in",
+        "Start your project",
+        "Open main menu"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "Start your project",
+        "Start for Free",
+        "Get Started",
+        "See how pricing scales",
+        "Contact Us",
+        "Add Project",
+        "Learn about Compute add-ons",
+        "Compute Add-ons",
+        "Expand Pricing breakdown",
+        "Are you going to change your pricing in the future?",
+        "Request a demo",
+        "Subscribe",
+        "Startups"
+      ],
+      "landmarks": [
+        "nav",
+        "nav:Main",
+        "main",
+        "footer"
+      ]
+    },
+    {
+      "url": "https://supabase.com/customers",
+      "title": "Customer Stories | Supabase",
+      "description": "See how Supabase empowers companies of all sizes to accelerate their growth and streamline their work.",
+      "headings": [
+        "Customer stories",
+        "Footer"
+      ],
+      "navLabels": [
+        "Product",
+        "Developers",
+        "Solutions",
+        "Pricing",
+        "Docs",
+        "Blog",
+        "107.1K",
+        "Sign in",
+        "Start your project",
+        "Open main menu"
+      ],
+      "ctas": [
+        "Pricing",
+        "Sign in",
+        "Start your project",
+        "Reset filters",
+        "How Supabase helps power millions of apps on LovableLearn more",
+        "How delight.ai lets every team build production apps on SupabaseLearn more",
+        "Chatbase goes upmarket on SupabaseLearn more",
+        "Cofounder builds autonomous companies on SupabaseLearn more",
+        "Hyper builds AI marketing agents on SupabaseLearn more",
+        "Koodos scales its social discovery app Shelf on SupabaseLearn more",
+        "Rally builds a pan-European fleet payments platform on SupabaseLearn more",
+        "Udio hits the right notes with SupabaseLearn more",
+        "Euka used Supabase to unlock faster growthLearn more",
+        "Bree's Migration to Supabase from FaunaLearn more",
+        "Deriv's Journey with SupabaseLearn more",
+        "Resend's Journey with Supabase: Scaling Email Infrastructure with EaseLearn more",
+        "E2B: Accelerating AI-Driven Development with SupabaseLearn more"
+      ],
+      "landmarks": [
+        "nav",
+        "nav:Main",
+        "main",
+        "footer"
       ]
     },
     {
@@ -403,7 +358,7 @@
         "Pricing",
         "Docs",
         "Blog",
-        "107K",
+        "107.1K",
         "Sign in",
         "Start your project",
         "Open main menu"
@@ -429,51 +384,6 @@
         "main",
         "footer"
       ]
-    },
-    {
-      "url": "https://supabase.com/about",
-      "title": "Supabase | The Postgres Development Platform.",
-      "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
-      "headings": [
-        "404",
-        "Looking for something? 🔍"
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": [
-        "main",
-        "nav"
-      ]
-    },
-    {
-      "url": "https://supabase.com/login",
-      "title": "Supabase | The Postgres Development Platform.",
-      "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
-      "headings": [
-        "404",
-        "Looking for something? 🔍"
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": [
-        "main",
-        "nav"
-      ]
-    },
-    {
-      "url": "https://supabase.com/signin",
-      "title": "Supabase | The Postgres Development Platform.",
-      "description": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
-      "headings": [
-        "404",
-        "Looking for something? 🔍"
-      ],
-      "navLabels": [],
-      "ctas": [],
-      "landmarks": [
-        "main",
-        "nav"
-      ]
     }
   ],
   "navLabels": [
@@ -483,7 +393,7 @@
     "Pricing",
     "Docs",
     "Blog",
-    "107K",
+    "107.1K",
     "Sign in",
     "Start your project",
     "Open main menu",
@@ -496,17 +406,7 @@
     "Reference",
     "Resources",
     "Search docs...⌘K",
-    "Sign up",
-    "Start with Supabase",
-    "Build with AI tools",
-    "API Keys",
-    "Local Development",
-    "Architecture",
-    "Migrating to new API keys",
-    "Next.js",
-    "React",
-    "Astro",
-    "Nuxt"
+    "Sign up"
   ],
   "ctas": [
     "Pricing",
@@ -520,19 +420,19 @@
     "Continue with GitHub",
     "Continue with SSO",
     "Sign up",
+    "Contact sales",
     "Start",
     "Search docs...⌘K",
-    "Start with Supabase",
     "TanStack Start",
-    "log in",
-    "1. Create a Supabase project",
-    "3. Create a React app",
-    "8. Start the app",
+    "Explore more resources about /guides/resourcesExplore more resources",
+    "Platform guidesLearn more about the tools and services powering Supabase.",
+    "IntegrationsExplore a variety of integrations from Supabase partners.",
     "Contact support",
+    "How do I restart my database?K",
+    "Contact enterprise sales",
     "Start for Free",
     "Get Started",
-    "See how pricing scales",
-    "Add Project"
+    "See how pricing scales"
   ],
   "headings": [
     "Build in a weekendScale to millions",
@@ -553,18 +453,18 @@
     "Footer",
     "Welcome back",
     "Sign in to your account",
-    "1. Create a Supabase project#",
-    "2. Set up your database#",
-    "3. Create a React app#",
-    "4. Install Agent Skills (optional)#",
-    "5. Install the Supabase client library#",
-    "6. Declare Supabase environment variables#",
-    "Get API details#",
-    "7. Query data from the app#",
-    "8. Start the app#",
-    "Next steps#",
-    "Is this helpful?",
-    "AI Tools"
+    "From Idea to 30,000 users in one Product Hunt launch#",
+    "Scaling issues put Mobbin growth at risk#",
+    "Migrating to Supabase#",
+    "Supabase saves Mobbin time and money#",
+    "404",
+    "Looking for something? 🔍",
+    "Supabase Documentation",
+    "Connect a framework",
+    "Build your backend",
+    "Extend your database",
+    "Use a client library",
+    "Migrate to Supabase"
   ],
   "techSignals": [
     "React",
@@ -574,9 +474,6 @@
     "Stripe",
     "Cloudflare",
     "Vue",
-    "Angular",
-    "Svelte",
-    "Vite",
     "GraphQL"
   ],
   "featureCandidates": [
@@ -596,14 +493,14 @@
     "Footer",
     "Welcome back",
     "Sign in to your account",
-    "1. Create a Supabase project#",
-    "2. Set up your database#",
-    "3. Create a React app#",
-    "4. Install Agent Skills (optional)#",
-    "5. Install the Supabase client library#",
-    "6. Declare Supabase environment variables#",
-    "Get API details#",
-    "7. Query data from the app#"
+    "Scaling issues put Mobbin growth at risk#",
+    "Migrating to Supabase#",
+    "Supabase saves Mobbin time and money#",
+    "Looking for something? 🔍",
+    "Supabase Documentation",
+    "Connect a framework",
+    "Build your backend",
+    "Extend your database"
   ],
   "patternCandidates": [
     "Search",
@@ -611,9 +508,6 @@
     "Tabs",
     "Dashboard",
     "Authentication",
-    "Modal dialogs",
-    "Map view",
-    "Menus",
     "Card layout"
   ],
   "platformsDetected": [
@@ -624,5 +518,5 @@
     "android",
     "cli"
   ],
-  "summary": "Captured 32 screenshots across 15 public URLs. Nav signals: Product, Developers, Solutions, Pricing, Docs, Blog. Tech signals: React, Next.js, Webpack, Tailwind CSS, Stripe, Cloudflare. UI patterns: Search, Pricing display, Tabs, Dashboard, Authentication, Modal dialogs."
+  "summary": "Captured 38 screenshots across 9 public URLs. Nav signals: Product, Developers, Solutions, Pricing, Docs, Blog. Tech signals: React, Next.js, Webpack, Tailwind CSS, Stripe, Cloudflare. UI patterns: Search, Pricing display, Tabs, Dashboard, Authentication, Card layout."
 }

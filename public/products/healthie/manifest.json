@@ -1,0 +1,1271 @@
+{
+  "slug": "healthie",
+  "capturedAt": "2026-07-27T19:55:33.053Z",
+  "shots": [
+    {
+      "file": "homepage.jpg",
+      "title": "Home",
+      "caption": "Healthie public homepage (top of page)",
+      "kind": "homepage",
+      "sourceUrl": "https://www.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthie | HIPAA Compliant Electronic Health Record Software",
+      "width": 1440,
+      "height": 900,
+      "phash": "179392969692970f",
+      "unique": true
+    },
+    {
+      "file": "homepage-top.jpg",
+      "title": "Homepage depth (1)",
+      "caption": "Healthie homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthie | HIPAA Compliant Electronic Health Record Software",
+      "width": 1440,
+      "height": 900,
+      "phash": "ec6d8d8da99db6bc",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-2.jpg",
+      "title": "Homepage depth (2)",
+      "caption": "Healthie homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthie | HIPAA Compliant Electronic Health Record Software",
+      "width": 1440,
+      "height": 900,
+      "phash": "bcfe223a23232373",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-3.jpg",
+      "title": "Homepage depth (3)",
+      "caption": "Healthie homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthie | HIPAA Compliant Electronic Health Record Software",
+      "width": 1440,
+      "height": 900,
+      "phash": "297365255907070c",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Healthie homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthie | HIPAA Compliant Electronic Health Record Software",
+      "width": 1440,
+      "height": 900,
+      "phash": "0c0d494b4b699100",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Healthie homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthie | HIPAA Compliant Electronic Health Record Software",
+      "width": 1440,
+      "height": 900,
+      "phash": "c420617b0b0b1914",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Healthie homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthie | HIPAA Compliant Electronic Health Record Software",
+      "width": 1440,
+      "height": 900,
+      "phash": "ec30304885656d30",
+      "unique": true
+    },
+    {
+      "file": "homepage-mobile.jpg",
+      "title": "Homepage mobile",
+      "caption": "Healthie homepage at mobile viewport",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthie | HIPAA Compliant Electronic Health Record Software",
+      "width": 390,
+      "height": 844,
+      "phash": "304d4b5b36313173",
+      "unique": true
+    },
+    {
+      "file": "card-1.jpg",
+      "title": "UI cards (1)",
+      "caption": "Card / tile crops from Healthie",
+      "kind": "component",
+      "sourceUrl": "https://www.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2715,
+      "pageTitle": "Healthie | HIPAA Compliant Electronic Health Record Software",
+      "width": 416,
+      "height": 429,
+      "phash": "0000000000000000",
+      "unique": true
+    },
+    {
+      "file": "card-3.jpg",
+      "title": "UI cards (3)",
+      "caption": "Card / tile crops from Healthie",
+      "kind": "component",
+      "sourceUrl": "https://www.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2715,
+      "pageTitle": "Healthie | HIPAA Compliant Electronic Health Record Software",
+      "width": 416,
+      "height": 279,
+      "phash": "30319cd8cccc0c0c",
+      "unique": true
+    },
+    {
+      "file": "card-4.jpg",
+      "title": "UI cards (4)",
+      "caption": "Card / tile crops from Healthie",
+      "kind": "component",
+      "sourceUrl": "https://www.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2715,
+      "pageTitle": "Healthie | HIPAA Compliant Electronic Health Record Software",
+      "width": 416,
+      "height": 135,
+      "phash": "004d4d274f4d3070",
+      "unique": true
+    },
+    {
+      "file": "card-5.jpg",
+      "title": "UI cards (5)",
+      "caption": "Card / tile crops from Healthie",
+      "kind": "component",
+      "sourceUrl": "https://www.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2715,
+      "pageTitle": "Healthie | HIPAA Compliant Electronic Health Record Software",
+      "width": 416,
+      "height": 569,
+      "phash": "933378324f4f0000",
+      "unique": true
+    },
+    {
+      "file": "card-6.jpg",
+      "title": "UI cards (6)",
+      "caption": "Card / tile crops from Healthie",
+      "kind": "component",
+      "sourceUrl": "https://www.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2715,
+      "pageTitle": "Healthie | HIPAA Compliant Electronic Health Record Software",
+      "width": 416,
+      "height": 279,
+      "phash": "12d333325a733132",
+      "unique": true
+    },
+    {
+      "file": "sign-in.jpg",
+      "title": "Sign in",
+      "caption": "Sign in / log in UI on Healthie (pattern only — no credentials)",
+      "kind": "component",
+      "sourceUrl": "https://secure.gethealthie.com/account/login?target_url=%2F%3F_gl%3D1*hipy52*_gcl_au*MjAyNjY4NTA4OC4xNzg1MTgyMDM2Li0uLS4xNzg1MTgyMDM2LjI2Nzk1NTA3MC4xNzg1MTgyMDM2LjE3ODUxODIwNTM.*_ga*MTc3NzYzNzA0My4xNzg1MTgyMDM2*_ga_CFERZQC1SV*czE3ODUxODIwMzYkbzEkZzEkdDE3ODUxODIwNTMkajQzJGwwJGgw*_ga_WXHH375YP6*czE3ODUxODIwMzYkbzEkZzEkdDE3ODUxODIwNTMkajQzJGwwJGgw",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Account - Login | Healthie",
+      "width": 1440,
+      "height": 900,
+      "phash": "08304c280c0c300c",
+      "unique": true
+    },
+    {
+      "file": "nav-1.jpg",
+      "title": "In-product nav (1)",
+      "caption": "Same-origin product / pricing / docs links from Healthie",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/plus/blog",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Care Stack Blog | Healthcare Growth, Operations & Care Delivery Insights | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "9c41637373c3d004",
+      "unique": true
+    },
+    {
+      "file": "nav-2.jpg",
+      "title": "In-product nav (2)",
+      "caption": "Same-origin product / pricing / docs links from Healthie",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/plus/blog",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Care Stack Blog | Healthcare Growth, Operations & Care Delivery Insights | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "c40a9606002d6a34",
+      "unique": true
+    },
+    {
+      "file": "nav-3.jpg",
+      "title": "In-product nav (3)",
+      "caption": "Same-origin product / pricing / docs links from Healthie",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/plus/blog",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Care Stack Blog | Healthcare Growth, Operations & Care Delivery Insights | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "c40a064808250e54",
+      "unique": true
+    },
+    {
+      "file": "nav-4.jpg",
+      "title": "In-product nav (4)",
+      "caption": "Same-origin product / pricing / docs links from Healthie",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/plus/blog",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Care Stack Blog | Healthcare Growth, Operations & Care Delivery Insights | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "dce5656161e55a14",
+      "unique": true
+    },
+    {
+      "file": "nav-5.jpg",
+      "title": "In-product nav (5)",
+      "caption": "Same-origin product / pricing / docs links from Healthie",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/plus/blog",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Care Stack Blog | Healthcare Growth, Operations & Care Delivery Insights | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "8412585860000004",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from Healthie",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/plus/blog",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Care Stack Blog | Healthcare Growth, Operations & Care Delivery Insights | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "847a386c4e4a0f0d",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Healthie",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/plus/blog",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Care Stack Blog | Healthcare Growth, Operations & Care Delivery Insights | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "840a0602c06161c0",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from Healthie",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/plus/blog",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Care Stack Blog | Healthcare Growth, Operations & Care Delivery Insights | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "338e8e8c9838245b",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from Healthie",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/plus/blog",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "The Care Stack Blog | Healthcare Growth, Operations & Care Delivery Insights | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "23589c9e9a9836b6",
+      "unique": true
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "Dashboard (1)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "product",
+      "sourceUrl": "https://www.gethealthie.com/help",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Not Found",
+      "width": 1440,
+      "height": 900,
+      "phash": "000830084d4c3004",
+      "unique": true
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "Supporting surface 5 (1)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/plus/api-for-digital-health-startups",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Startup Clinic EHR & API Platform | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "2319d99998989847",
+      "unique": true
+    },
+    {
+      "file": "surface-5-band-2.jpg",
+      "title": "Supporting surface 5 (3)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/plus/api-for-digital-health-startups",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Startup Clinic EHR & API Platform | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "33c54d2cc2800803",
+      "unique": true
+    },
+    {
+      "file": "surface-5-band-3.jpg",
+      "title": "Supporting surface 5 (4)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/plus/api-for-digital-health-startups",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Startup Clinic EHR & API Platform | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "1348a8a420001013",
+      "unique": true
+    },
+    {
+      "file": "surface-5-band-4.jpg",
+      "title": "Supporting surface 5 (5)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/plus/api-for-digital-health-startups",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Startup Clinic EHR & API Platform | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "9b8d89898d610803",
+      "unique": true
+    },
+    {
+      "file": "surface-5-lower.jpg",
+      "title": "Supporting surface 5 (6)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/plus/api-for-digital-health-startups",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Startup Clinic EHR & API Platform | Healthie+",
+      "width": 1440,
+      "height": 900,
+      "phash": "d2d2c2e2197a7283",
+      "unique": true
+    },
+    {
+      "file": "surface-6.jpg",
+      "title": "Supporting surface 6 (1)",
+      "caption": "Healthie public surface · docs.gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Your EMR, Your Way - Powered by GraphQL | Healthie API Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "f00e1e0f48a59595",
+      "unique": true
+    },
+    {
+      "file": "surface-6-band-2.jpg",
+      "title": "Supporting surface 6 (3)",
+      "caption": "Healthie public surface · docs.gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Your EMR, Your Way - Powered by GraphQL | Healthie API Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "d595120165656363",
+      "unique": true
+    },
+    {
+      "file": "surface-6-band-3.jpg",
+      "title": "Supporting surface 6 (4)",
+      "caption": "Healthie public surface · docs.gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Your EMR, Your Way - Powered by GraphQL | Healthie API Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "636371446500d3d9",
+      "unique": true
+    },
+    {
+      "file": "surface-6-lower.jpg",
+      "title": "Supporting surface 6 (5)",
+      "caption": "Healthie public surface · docs.gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://docs.gethealthie.com/",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Your EMR, Your Way - Powered by GraphQL | Healthie API Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "f2db49c94d041919",
+      "unique": true
+    },
+    {
+      "file": "surface-9-band-2.jpg",
+      "title": "Supporting surface 9 (3)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/healthie-pricing",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthie Pricing: EHR Software Plans for All | Healthie",
+      "width": 1440,
+      "height": 900,
+      "phash": "c447554787954544",
+      "unique": true
+    },
+    {
+      "file": "surface-9-band-3.jpg",
+      "title": "Supporting surface 9 (4)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/healthie-pricing",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthie Pricing: EHR Software Plans for All | Healthie",
+      "width": 1440,
+      "height": 900,
+      "phash": "c4461c9c2622dffc",
+      "unique": true
+    },
+    {
+      "file": "surface-9-band-4.jpg",
+      "title": "Supporting surface 9 (5)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/healthie-pricing",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthie Pricing: EHR Software Plans for All | Healthie",
+      "width": 1440,
+      "height": 900,
+      "phash": "cc8f77676766b62c",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-2.jpg",
+      "title": "Supporting surface 14 (3)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/blog",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthcare Blogs & EHR Insights | Healthie+ Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "9c5bc7056d4b5b58",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-3.jpg",
+      "title": "Supporting surface 14 (4)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/blog",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthcare Blogs & EHR Insights | Healthie+ Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "cc5a4329697b4b58",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-4.jpg",
+      "title": "Supporting surface 14 (5)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/blog",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Healthcare Blogs & EHR Insights | Healthie+ Blog",
+      "width": 1440,
+      "height": 900,
+      "phash": "8c5bd26d4d454bc8",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-2.jpg",
+      "title": "Supporting surface 15 (3)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/about",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Healthie: Reshaping Healthcare Delivery | Healthie",
+      "width": 1440,
+      "height": 900,
+      "phash": "d1c90d8b0c41010c",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-3.jpg",
+      "title": "Supporting surface 15 (4)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/about",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Healthie: Reshaping Healthcare Delivery | Healthie",
+      "width": 1440,
+      "height": 900,
+      "phash": "150f492b01010004",
+      "unique": true
+    },
+    {
+      "file": "surface-15-band-4.jpg",
+      "title": "Supporting surface 15 (5)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/about",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Healthie: Reshaping Healthcare Delivery | Healthie",
+      "width": 1440,
+      "height": 900,
+      "phash": "8460357535352504",
+      "unique": true
+    },
+    {
+      "file": "surface-15-lower.jpg",
+      "title": "Supporting surface 15 (6)",
+      "caption": "Healthie public surface · gethealthie.com",
+      "kind": "docs",
+      "sourceUrl": "https://www.gethealthie.com/about",
+      "capturedAt": "2026-07-27T19:53:54.949Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Healthie: Reshaping Healthcare Delivery | Healthie",
+      "width": 1440,
+      "height": 900,
+      "phash": "5456666285656d34",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T19:55:33.053Z",
+    "screenshotCount": 43,
+    "pageCount": 9,
+    "pages": [
+      {
+        "url": "https://www.gethealthie.com/",
+        "title": "Healthie | HIPAA Compliant Electronic Health Record Software",
+        "description": "Streamline EHR management with Healthie's suite of tools. Experience advanced electronic health record services.",
+        "headings": [
+          "Practice management, reimagined.",
+          "Healthie is trusted by 35,000 providers & high-growth businesses",
+          "Every tool you need to grow your practice.",
+          "The best practice management platform for growing practices.",
+          "Join over 35,000 providers who love Healthie.",
+          "Our modular & flexible infrastructure makes scaling simple.",
+          "Healthie Resources",
+          "Launch, grow & scale your practice today.",
+          "Cookie Consent",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Get Started",
+          "See a Demo",
+          "Get a Demo"
+        ],
+        "ctas": [
+          "Digital Health StartupFlexible, open, and ready to grow with you.",
+          "Pricing",
+          "Sign In",
+          "Start for Free",
+          "Get Started",
+          "See a Demo",
+          "Get a Demo",
+          "Learn More",
+          "GuidesDownload ebooks, resources, templates, and more.Learn More",
+          "Start Free Trial",
+          "Contact Us",
+          "Startup Clinics",
+          "Getting Started",
+          "Demo",
+          "Join our Newsletter",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "banner",
+          "main",
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://secure.gethealthie.com/account/login?target_url=%2F%3F_gl%3D1*hipy52*_gcl_au*MjAyNjY4NTA4OC4xNzg1MTgyMDM2Li0uLS4xNzg1MTgyMDM2LjI2Nzk1NTA3MC4xNzg1MTgyMDM2LjE3ODUxODIwNTM.*_ga*MTc3NzYzNzA0My4xNzg1MTgyMDM2*_ga_CFERZQC1SV*czE3ODUxODIwMzYkbzEkZzEkdDE3ODUxODIwNTMkajQzJGwwJGgw*_ga_WXHH375YP6*czE3ODUxODIwMzYkbzEkZzEkdDE3ODUxODIwNTMkajQzJGwwJGgw",
+        "title": "Account - Login | Healthie",
+        "headings": [],
+        "navLabels": [],
+        "ctas": [
+          "Sign up now"
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://www.gethealthie.com/plus/blog",
+        "title": "The Care Stack Blog | Healthcare Growth, Operations & Care Delivery Insights | Healthie+",
+        "description": "Explore The Care Stack blog for insights on building and scaling modern healthcare businesses. Learn about care delivery infrastructure, operations, patient engagement, and growth strategies for wellness and clinical teams.",
+        "headings": [
+          "How winning health tech startups choose their EHR",
+          "Healthie Legends Hackathon",
+          "Medicare’s GLP-1 Bridge Demonstration: What it means for you",
+          "Q2 2026 Product Recap",
+          "From prompt to production: building intake forms with Healthie's Dev Assist",
+          "Build on Healthie Faster with AI Coding Agents and MCP",
+          "The ClinOps Playbook: How Healthie Helps You Run a Clinical Network at Scale",
+          "Q1 2026 Product Recap",
+          "CMS BALANCE Model",
+          "Dev Assist 2.0: Faster Schema Exploration, Lower Overhead",
+          "Healthie’s Provider Utilization Dashboard to Estimate Staffing Needs",
+          "Optimizing Your GUIDE Program in Healthie",
+          "Rural Health Transformation Program: A $50 billion rural healthcare overhaul",
+          "Scale your care delivery with Healthie+.",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Read More"
+        ],
+        "ctas": [
+          "Healthie for StartupsFlexible, open and ready to grow with you.",
+          "Sign In",
+          "Request Demo",
+          "Health TechMedicare’s GLP-1 Bridge Demonstration: What it means for you",
+          "Contact Us",
+          "Startup Clinics",
+          "Getting Started",
+          "Demo",
+          "Join our Newsletter",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "main",
+          "banner",
+          "header",
+          "navigation:List",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.gethealthie.com/help",
+        "title": "Not Found",
+        "headings": [
+          "Page Not Found",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Filter Icon"
+        ],
+        "landmarks": []
+      },
+      {
+        "url": "https://www.gethealthie.com/plus/api-for-digital-health-startups",
+        "title": "Startup Clinic EHR & API Platform | Healthie+",
+        "description": "Empower your startup clinic with Healthie+'s API-first EHR platform. Launch and scale faster with flexible, HIPAA-compliant telehealth, patient engagement, scheduling, and clinical workflows.",
+        "headings": [
+          "Start with speed, keep the flexibility.",
+          "Focus your development resources on what sets you apart.",
+          "Open & flexible infrastructure, ready to scale",
+          "Platform stability that healthcare needs.",
+          "Scale your care delivery with Healthie+.",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Request a Demo"
+        ],
+        "ctas": [
+          "Healthie for StartupsFlexible, open and ready to grow with you.",
+          "Sign In",
+          "Request Demo",
+          "Request a Demo",
+          "Learn More",
+          "Contact Us",
+          "Startup Clinics",
+          "Getting Started",
+          "Demo",
+          "Join our Newsletter",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "main",
+          "banner",
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://docs.gethealthie.com/",
+        "title": "Your EMR, Your Way - Powered by GraphQL | Healthie API Docs",
+        "description": "Build, scale, and embed modern healthcare experiences using Healthie’s flexible, API-first platform. Our API gives you full access to the same capabilities our internal teams use to power Healthie’s web and mobile applications.",
+        "headings": [
+          "Your EMR, Your Way",
+          "Extend Healthie. Embed anything."
+        ],
+        "navLabels": [
+          "Healthie API Docs",
+          "Search ⌘K",
+          "Cancel",
+          "Clear",
+          "GitHub"
+        ],
+        "ctas": [
+          "Search ⌘K",
+          "Get Started",
+          "Learn more",
+          "Quickstart Guide Spin up your first request, authenticate, and test queries.",
+          "Contact Sales"
+        ],
+        "landmarks": [
+          "header",
+          "search:Search this site",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.gethealthie.com/healthie-pricing",
+        "title": "Healthie Pricing: EHR Software Plans for All | Healthie",
+        "description": "Discover Healthie pricing for EHR software. Affordable plans for dietitians, nutritionists, and health coaches. Flexible, scalable, no hidden fees.",
+        "headings": [
+          "Trial our Plus plan for 14 days",
+          "Healthie is trusted by the leaders reshaping healthcare delivery",
+          "Digital health loves Healthie",
+          "Connect and streamline your practice with Healthie.",
+          "Healthcare providers choose Healthie",
+          "Launch, grow & scale your business today.",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Start Free Trial",
+          "See a Demo",
+          "View App Marketplace"
+        ],
+        "ctas": [
+          "Digital Health StartupFlexible, open, and ready to grow with you.",
+          "Pricing",
+          "Sign In",
+          "Start for Free",
+          "Start Free Trial",
+          "See a Demo",
+          "Contact Us",
+          "Startup Clinics",
+          "Getting Started",
+          "Demo",
+          "Join our Newsletter",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "banner",
+          "main",
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.gethealthie.com/blog",
+        "title": "Healthcare Blogs & EHR Insights | Healthie+ Blog",
+        "description": "Explore top healthcare marketing, business, and EHR blogs. Get expert insights and strategies for healthcare professionals with Healthie+.",
+        "headings": [
+          "5 steps to private practice maturity",
+          "Q2 2026 Recap: What's New for Your Practice",
+          "June 2026 Healthie Product Updates",
+          "Healthie Mobile: Mid-Year 2026 Recap",
+          "What Happens When Clinicians Stop Spending Their Evenings on Charts",
+          "May 2026 Healthie Product Updates",
+          "Product Spotlight: New Metrics Tab in Quick Profile",
+          "How should group practice owners pay themselves a salary?",
+          "Product Spotlight: Ambient Scribe — AI Documentation for Every Session",
+          "Launch, grow & scale your business today.",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Read More",
+          "All",
+          "Product Updates",
+          "Health Tech",
+          "Group Practice",
+          "Marketing",
+          "Billing",
+          "Business",
+          "49"
+        ],
+        "ctas": [
+          "Digital Health StartupFlexible, open, and ready to grow with you.",
+          "Pricing",
+          "Sign In",
+          "Start for Free",
+          "Start Free Trial"
+        ],
+        "landmarks": [
+          "main",
+          "banner",
+          "header",
+          "listbox:w-dropdown-toggle-0",
+          "navigation:List",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://www.gethealthie.com/about",
+        "title": "About Healthie: Reshaping Healthcare Delivery | Healthie",
+        "description": "Learn what Healthie is and how it's revolutionizing healthcare with a platform designed for the future of patient care and provider support.",
+        "headings": [
+          "Healthie is building the platform to shape how healthcare is delivered.",
+          "We stand for a better healthcare outside of the hospital.",
+          "We've been helping our customers deliver quality care since 2016.",
+          "Healthie is trusted by the leaders reshaping healthcare delivery",
+          "Healthie grows with you, no matter the size.",
+          "Launch, grow & scale your wellness business today.",
+          "Privacy Preference Center",
+          "Manage Consent Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [],
+        "ctas": [
+          "Digital Health StartupFlexible, open, and ready to grow with you.",
+          "Pricing",
+          "Sign In",
+          "Start for Free",
+          "Learn More",
+          "Try for Free",
+          "Schedule a Demo",
+          "Contact Us",
+          "Startup Clinics",
+          "Getting Started",
+          "Demo",
+          "Join our Newsletter",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "main",
+          "banner",
+          "header",
+          "footer"
+        ]
+      }
+    ],
+    "navLabels": [
+      "Get Started",
+      "See a Demo",
+      "Get a Demo",
+      "Read More",
+      "Request a Demo",
+      "Healthie API Docs",
+      "Search ⌘K",
+      "Cancel",
+      "Clear",
+      "GitHub",
+      "Start Free Trial",
+      "View App Marketplace",
+      "All",
+      "Product Updates",
+      "Health Tech",
+      "Group Practice",
+      "Marketing",
+      "Billing",
+      "Business",
+      "49"
+    ],
+    "ctas": [
+      "Digital Health StartupFlexible, open, and ready to grow with you.",
+      "Pricing",
+      "Sign In",
+      "Start for Free",
+      "Get Started",
+      "See a Demo",
+      "Get a Demo",
+      "Learn More",
+      "GuidesDownload ebooks, resources, templates, and more.Learn More",
+      "Start Free Trial",
+      "Contact Us",
+      "Startup Clinics",
+      "Getting Started",
+      "Demo",
+      "Join our Newsletter",
+      "Filter Icon",
+      "Sign up now",
+      "Healthie for StartupsFlexible, open and ready to grow with you.",
+      "Request Demo",
+      "Health TechMedicare’s GLP-1 Bridge Demonstration: What it means for you",
+      "Request a Demo",
+      "Search ⌘K",
+      "Quickstart Guide Spin up your first request, authenticate, and test queries.",
+      "Contact Sales"
+    ],
+    "headings": [
+      "Practice management, reimagined.",
+      "Healthie is trusted by 35,000 providers & high-growth businesses",
+      "Every tool you need to grow your practice.",
+      "The best practice management platform for growing practices.",
+      "Join over 35,000 providers who love Healthie.",
+      "Our modular & flexible infrastructure makes scaling simple.",
+      "Healthie Resources",
+      "Launch, grow & scale your practice today.",
+      "Cookie Consent",
+      "Privacy Preference Center",
+      "Manage Consent Preferences",
+      "Cookie List",
+      "How winning health tech startups choose their EHR",
+      "Healthie Legends Hackathon",
+      "Medicare’s GLP-1 Bridge Demonstration: What it means for you",
+      "Q2 2026 Product Recap",
+      "From prompt to production: building intake forms with Healthie's Dev Assist",
+      "Build on Healthie Faster with AI Coding Agents and MCP",
+      "The ClinOps Playbook: How Healthie Helps You Run a Clinical Network at Scale",
+      "Q1 2026 Product Recap",
+      "CMS BALANCE Model",
+      "Dev Assist 2.0: Faster Schema Exploration, Lower Overhead",
+      "Healthie’s Provider Utilization Dashboard to Estimate Staffing Needs",
+      "Optimizing Your GUIDE Program in Healthie",
+      "Rural Health Transformation Program: A $50 billion rural healthcare overhaul",
+      "Scale your care delivery with Healthie+.",
+      "Page Not Found",
+      "Start with speed, keep the flexibility.",
+      "Focus your development resources on what sets you apart.",
+      "Open & flexible infrastructure, ready to scale"
+    ],
+    "techSignals": [
+      "Google Tag Manager",
+      "Stripe",
+      "Next.js",
+      "GraphQL"
+    ],
+    "featureCandidates": [
+      "Practice management, reimagined.",
+      "Every tool you need to grow your practice.",
+      "Join over 35,000 providers who love Healthie.",
+      "Healthie Resources",
+      "Launch, grow & scale your practice today.",
+      "Cookie Consent",
+      "Privacy Preference Center",
+      "Manage Consent Preferences",
+      "Cookie List",
+      "Healthie Legends Hackathon",
+      "Q2 2026 Product Recap",
+      "Q1 2026 Product Recap",
+      "CMS BALANCE Model",
+      "Optimizing Your GUIDE Program in Healthie",
+      "Scale your care delivery with Healthie+.",
+      "Page Not Found",
+      "Start with speed, keep the flexibility.",
+      "Open & flexible infrastructure, ready to scale",
+      "Digital Health StartupFlexible, open, and ready to grow with you.",
+      "Pricing",
+      "Start for Free",
+      "Get Started",
+      "See a Demo",
+      "Get a Demo"
+    ],
+    "patternCandidates": [
+      "Filters",
+      "Pricing display",
+      "Map view",
+      "Tabs",
+      "Card layout",
+      "Dashboard",
+      "Authentication",
+      "Search",
+      "Calendar"
+    ],
+    "platformsDetected": [
+      "web",
+      "desktop",
+      "api",
+      "ios",
+      "android"
+    ],
+    "summary": "Captured 43 screenshots across 9 public URLs. Nav signals: Get Started, See a Demo, Get a Demo, Read More, Request a Demo, Healthie API Docs. Tech signals: Google Tag Manager, Stripe, Next.js, GraphQL. UI patterns: Filters, Pricing display, Map view, Tabs, Card layout, Dashboard."
+  }
+}

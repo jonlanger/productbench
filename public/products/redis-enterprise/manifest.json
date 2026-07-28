@@ -1,0 +1,77 @@
+{
+  "slug": "redis-enterprise",
+  "capturedAt": "2026-07-27T22:55:52.609Z",
+  "shots": [
+    {
+      "file": "fallback-docs-1.jpg",
+      "title": "Image",
+      "caption": "Fallback from public docs: https://redis.io/support",
+      "kind": "docs",
+      "sourceUrl": "https://redis.io/support",
+      "capturedAt": "2026-07-27T22:55:45.849Z",
+      "playbookStep": "web-fallback",
+      "width": 3840,
+      "height": 2160,
+      "phash": "7d7b73757551d95b",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-2.png",
+      "title": "Redis Iris",
+      "caption": "Fallback from public docs: https://redis.io/support",
+      "kind": "docs",
+      "sourceUrl": "https://redis.io/support",
+      "capturedAt": "2026-07-27T22:55:45.849Z",
+      "playbookStep": "web-fallback",
+      "width": 32,
+      "height": 32,
+      "phash": "d6aede534cc8ccb5",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-3.png",
+      "title": "Redis Iris",
+      "caption": "Fallback from public docs: https://redis.io/support",
+      "kind": "docs",
+      "sourceUrl": "https://redis.io/support",
+      "capturedAt": "2026-07-27T22:55:45.849Z",
+      "playbookStep": "web-fallback",
+      "width": 32,
+      "height": 32,
+      "phash": "8286021122438000",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-4.png",
+      "title": "Redis LangCache",
+      "caption": "Fallback from public docs: https://redis.io/support",
+      "kind": "docs",
+      "sourceUrl": "https://redis.io/support",
+      "capturedAt": "2026-07-27T22:55:45.849Z",
+      "playbookStep": "web-fallback",
+      "width": 32,
+      "height": 32,
+      "phash": "0e06a20084229028",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T22:55:52.609Z",
+    "screenshotCount": 4,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 4 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}

@@ -41,8 +41,8 @@ const REJECT_RE =
 
 const MIN_LIVE_SHOTS = 14;
 /** Soft gallery target — fallback tops up toward this when curated media exists */
-const GALLERY_TARGET = 28;
-const MAX_FALLBACK_SHOTS = 16;
+const GALLERY_TARGET = 32;
+const MAX_FALLBACK_SHOTS = 24;
 
 export function looksBlockedText(text: string) {
   return BLOCKED_RE.test(text);
@@ -54,7 +54,11 @@ function hasCuratedMedia(slug: string) {
   return Boolean(
     sources.youtube?.length ||
       sources.appStoreId ||
-      sources.appStoreIds?.length,
+      sources.appStoreIds?.length ||
+      sources.help?.length ||
+      sources.technical?.length ||
+      sources.supporting?.length ||
+      sources.releases?.length,
   );
 }
 

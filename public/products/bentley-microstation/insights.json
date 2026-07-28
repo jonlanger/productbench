@@ -1,0 +1,124 @@
+{
+  "capturedAt": "2026-07-27T22:56:56.268Z",
+  "screenshotCount": 6,
+  "pageCount": 2,
+  "pages": [
+    {
+      "url": "https://www.bentley.com/software/microstation/",
+      "title": "403 Forbidden",
+      "headings": [
+        "403 Forbidden"
+      ],
+      "navLabels": [],
+      "ctas": [],
+      "landmarks": []
+    },
+    {
+      "url": "https://docs.bentley.com/LiveContent/index.html",
+      "title": "Bentley Product Documentation",
+      "headings": [
+        "AI Transparency",
+        "Privacy Preference Center",
+        "Your Privacy",
+        "Strictly Necessary Cookies",
+        "Functional Cookies",
+        "Performance Cookies",
+        "Targeting Cookies",
+        "Cookie List"
+      ],
+      "navLabels": [
+        "User Support",
+        "Bentley Communities"
+      ],
+      "ctas": [
+        "/LiveContent/web/Quickstart_AutoPIPE_ko PDF-v1/ko/Quickstart_AutoPIPE_ko.pdf",
+        "/LiveContent/web/ProjectWise%20Explorer-v2026/Help/en/index.html",
+        "/LiveContent/ai/projectwise-ai-enhanced-search/v1.0/AITransparencyCard.html",
+        "/LiveContent/web/ProjectWise%20Explorer-v2026/ReadMe/en/index.html",
+        "/LiveContent/web/ProjectWise Explorer Help-v11/en/index.html",
+        "/LiveContent/web/ProjectWise Explorer Help-v13/en/index.html",
+        "/LiveContent/web/ProjectWise Explorer-v2024/Help/en/index.html",
+        "/LiveContent/web/ProjectWise%20Explorer-v2025/Help/en/index.html",
+        "/LiveContent/web/ProjectWise Explorer Help-v10/en/index.html",
+        "/LiveContent/web/ProjectWise Explorer Readme-v1/en/index.html",
+        "/LiveContent/web/ProjectWise%20Explorer-v2024/ReadMe/en/index.html",
+        "/LiveContent/web/ProjectWise%20Explorer-v2025/ReadMe/en/index.html"
+      ],
+      "landmarks": [
+        "header",
+        "nav",
+        "footer",
+        "dialog:Privacy Preference Center"
+      ]
+    }
+  ],
+  "navLabels": [
+    "User Support",
+    "Bentley Communities"
+  ],
+  "ctas": [
+    "/LiveContent/web/Quickstart_AutoPIPE_ko PDF-v1/ko/Quickstart_AutoPIPE_ko.pdf",
+    "/LiveContent/web/ProjectWise%20Explorer-v2026/Help/en/index.html",
+    "/LiveContent/ai/projectwise-ai-enhanced-search/v1.0/AITransparencyCard.html",
+    "/LiveContent/web/ProjectWise%20Explorer-v2026/ReadMe/en/index.html",
+    "/LiveContent/web/ProjectWise Explorer Help-v11/en/index.html",
+    "/LiveContent/web/ProjectWise Explorer Help-v13/en/index.html",
+    "/LiveContent/web/ProjectWise Explorer-v2024/Help/en/index.html",
+    "/LiveContent/web/ProjectWise%20Explorer-v2025/Help/en/index.html",
+    "/LiveContent/web/ProjectWise Explorer Help-v10/en/index.html",
+    "/LiveContent/web/ProjectWise Explorer Readme-v1/en/index.html",
+    "/LiveContent/web/ProjectWise%20Explorer-v2024/ReadMe/en/index.html",
+    "/LiveContent/web/ProjectWise%20Explorer-v2025/ReadMe/en/index.html"
+  ],
+  "headings": [
+    "403 Forbidden",
+    "AI Transparency",
+    "Privacy Preference Center",
+    "Your Privacy",
+    "Strictly Necessary Cookies",
+    "Functional Cookies",
+    "Performance Cookies",
+    "Targeting Cookies",
+    "Cookie List"
+  ],
+  "techSignals": [
+    "Google Tag Manager",
+    "Cloudflare"
+  ],
+  "featureCandidates": [
+    "403 Forbidden",
+    "AI Transparency",
+    "Privacy Preference Center",
+    "Your Privacy",
+    "Strictly Necessary Cookies",
+    "Functional Cookies",
+    "Performance Cookies",
+    "Targeting Cookies",
+    "Cookie List",
+    "/LiveContent/web/Quickstart_AutoPIPE_ko PDF-v1/ko/Quickstart_AutoPIPE_ko.pdf",
+    "/LiveContent/web/ProjectWise%20Explorer-v2026/Help/en/index.html",
+    "/LiveContent/ai/projectwise-ai-enhanced-search/v1.0/AITransparencyCard.html",
+    "/LiveContent/web/ProjectWise%20Explorer-v2026/ReadMe/en/index.html",
+    "/LiveContent/web/ProjectWise Explorer Help-v11/en/index.html",
+    "/LiveContent/web/ProjectWise Explorer Help-v13/en/index.html",
+    "/LiveContent/web/ProjectWise Explorer-v2024/Help/en/index.html",
+    "/LiveContent/web/ProjectWise%20Explorer-v2025/Help/en/index.html",
+    "/LiveContent/web/ProjectWise Explorer Help-v10/en/index.html",
+    "/LiveContent/web/ProjectWise Explorer Readme-v1/en/index.html",
+    "/LiveContent/web/ProjectWise%20Explorer-v2024/ReadMe/en/index.html",
+    "/LiveContent/web/ProjectWise%20Explorer-v2025/ReadMe/en/index.html"
+  ],
+  "patternCandidates": [
+    "Search",
+    "Filters",
+    "Map view",
+    "Tabs",
+    "Card layout",
+    "Checkout"
+  ],
+  "platformsDetected": [
+    "web",
+    "api"
+  ],
+  "summary": "Captured 6 screenshots across 2 public URLs. Nav signals: User Support, Bentley Communities. Tech signals: Google Tag Manager, Cloudflare. UI patterns: Search, Filters, Map view, Tabs, Card layout, Checkout."
+}

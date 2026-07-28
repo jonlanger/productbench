@@ -1,215 +1,614 @@
 {
   "slug": "trello",
-  "capturedAt": "2026-07-27T13:44:38.855Z",
+  "capturedAt": "2026-07-27T21:57:11.718Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home",
       "caption": "Trello public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://trello.com/"
+      "sourceUrl": "https://trello.com/",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Capture, organize, and tackle your to-dos from anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "5da6137375935161",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Trello homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://trello.com/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Trello homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://trello.com/"
+      "sourceUrl": "https://trello.com/",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Capture, organize, and tackle your to-dos from anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "556141386543494d",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Trello homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://trello.com/"
+      "sourceUrl": "https://trello.com/",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Capture, organize, and tackle your to-dos from anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "694f5353b071dcdc",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Trello homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://trello.com/",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Capture, organize, and tackle your to-dos from anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "dcdca8bcc4e0b223",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Trello homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://trello.com/",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Capture, organize, and tackle your to-dos from anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "e1a358795b4b6b4b",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Trello homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://trello.com/",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Capture, organize, and tackle your to-dos from anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "512f2986068e98a6",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Trello homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://trello.com/"
-    },
-    {
-      "file": "search-composer.jpg",
-      "title": "Search / composer",
-      "caption": "Focused search or primary input on Trello",
-      "kind": "component",
-      "sourceUrl": "https://trello.com/"
+      "sourceUrl": "https://trello.com/",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Capture, organize, and tackle your to-dos from anywhere",
+      "width": 390,
+      "height": 844,
+      "phash": "351f60070f690f8f",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on Trello (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://id.atlassian.com/login?application=trello--direct-signup&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback"
+      "sourceUrl": "https://id.atlassian.com/login?application=trello--direct-signup&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log in to continue - Log in with Atlassian account",
+      "width": 1440,
+      "height": 900,
+      "phash": "0000000000000000",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Trello",
       "kind": "product",
-      "sourceUrl": "https://trello.com/use-cases/resource-hub"
+      "sourceUrl": "https://trello.com/platforms",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Work From Any Device, In Any Browser, Anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d0c0b4b1303435b",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Trello",
       "kind": "product",
-      "sourceUrl": "https://trello.com/use-cases/resource-hub"
+      "sourceUrl": "https://trello.com/platforms",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Work From Any Device, In Any Browser, Anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "d43b606060606060",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Trello",
       "kind": "product",
-      "sourceUrl": "https://trello.com/use-cases/resource-hub"
+      "sourceUrl": "https://trello.com/platforms",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Work From Any Device, In Any Browser, Anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "5960696969696970",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from Trello",
       "kind": "product",
-      "sourceUrl": "https://trello.com/use-cases/resource-hub"
+      "sourceUrl": "https://trello.com/platforms",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Work From Any Device, In Any Browser, Anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "797071602b1b528e",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from Trello",
       "kind": "product",
-      "sourceUrl": "https://trello.com/use-cases/resource-hub"
+      "sourceUrl": "https://trello.com/platforms",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Work From Any Device, In Any Browser, Anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "59868e1e168e960e",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from Trello",
+      "kind": "product",
+      "sourceUrl": "https://trello.com/platforms",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Work From Any Device, In Any Browser, Anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "796b47664d4b4b0b",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Trello",
+      "kind": "product",
+      "sourceUrl": "https://trello.com/platforms",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Work From Any Device, In Any Browser, Anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "49048000004b4b4b",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from Trello",
+      "kind": "product",
+      "sourceUrl": "https://trello.com/platforms",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Work From Any Device, In Any Browser, Anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "598ecccc09dcd4d4",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from Trello",
+      "kind": "product",
+      "sourceUrl": "https://trello.com/platforms",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Work From Any Device, In Any Browser, Anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "593271170f44181e",
+      "unique": true
+    },
+    {
+      "file": "nav-10.jpg",
+      "title": "In-product nav (10)",
+      "caption": "Same-origin product / pricing / docs links from Trello",
+      "kind": "product",
+      "sourceUrl": "https://trello.com/platforms",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Work From Any Device, In Any Browser, Anywhere",
+      "width": 1440,
+      "height": 900,
+      "phash": "5d072b2b4b165555",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "Dashboard (1)",
-      "caption": "Trello public surface · trello.com",
+      "caption": "Trello public surface · support.atlassian.com",
       "kind": "product",
-      "sourceUrl": "https://trello.com/pricing"
+      "sourceUrl": "https://support.atlassian.com/trello/",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Trello support | Trello | Atlassian Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "86602727360f0c31",
+      "unique": true
     },
     {
-      "file": "surface-1-mid.jpg",
-      "title": "Dashboard (2)",
-      "caption": "Trello public surface · trello.com",
+      "file": "surface-1-lower.jpg",
+      "title": "Dashboard (3)",
+      "caption": "Trello public surface · support.atlassian.com",
       "kind": "product",
-      "sourceUrl": "https://trello.com/pricing"
+      "sourceUrl": "https://support.atlassian.com/trello/",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Trello support | Trello | Atlassian Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "68602736270c0845",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
-      "title": "Settings",
-      "caption": "Trello public surface · trello.com",
+      "title": "Settings (1)",
+      "caption": "Trello public surface · developer.atlassian.com",
       "kind": "product",
-      "sourceUrl": "https://trello.com/product"
+      "sourceUrl": "https://developer.atlassian.com/cloud/trello/",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Get Started Building on Trello",
+      "width": 1440,
+      "height": 900,
+      "phash": "314d4f4e4e4e4e4b",
+      "unique": true
     },
     {
-      "file": "surface-3.jpg",
-      "title": "Search",
-      "caption": "Trello public surface · trello.com",
-      "kind": "docs",
-      "sourceUrl": "https://trello.com/products"
+      "file": "surface-2-lower.jpg",
+      "title": "Settings (3)",
+      "caption": "Trello public surface · developer.atlassian.com",
+      "kind": "product",
+      "sourceUrl": "https://developer.atlassian.com/cloud/trello/",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Get Started Building on Trello",
+      "width": 1440,
+      "height": 900,
+      "phash": "794f4e4e4b424841",
+      "unique": true
     },
     {
-      "file": "surface-4.jpg",
-      "title": "Profile",
+      "file": "surface-3-band-2.jpg",
+      "title": "Search (3)",
       "caption": "Trello public surface · trello.com",
       "kind": "docs",
-      "sourceUrl": "https://trello.com/features"
+      "sourceUrl": "https://trello.com/pricing",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Which Trello Plan Is Best for You? Our Pricing Guide Can Help",
+      "width": 1440,
+      "height": 900,
+      "phash": "495b5773535e7307",
+      "unique": true
     },
     {
-      "file": "surface-5.jpg",
-      "title": "Supporting surface 5",
+      "file": "surface-3-band-3.jpg",
+      "title": "Search (4)",
       "caption": "Trello public surface · trello.com",
       "kind": "docs",
-      "sourceUrl": "https://trello.com/platform"
+      "sourceUrl": "https://trello.com/pricing",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Which Trello Plan Is Best for You? Our Pricing Guide Can Help",
+      "width": 1440,
+      "height": 900,
+      "phash": "79470c4341797971",
+      "unique": true
     },
     {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6",
+      "file": "surface-3-band-4.jpg",
+      "title": "Search (5)",
       "caption": "Trello public surface · trello.com",
       "kind": "docs",
-      "sourceUrl": "https://trello.com/solutions"
+      "sourceUrl": "https://trello.com/pricing",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Which Trello Plan Is Best for You? Our Pricing Guide Can Help",
+      "width": 1440,
+      "height": 900,
+      "phash": "5172797971716169",
+      "unique": true
     },
     {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
+      "file": "surface-3-lower.jpg",
+      "title": "Search (6)",
       "caption": "Trello public surface · trello.com",
       "kind": "docs",
-      "sourceUrl": "https://trello.com/customers"
+      "sourceUrl": "https://trello.com/pricing",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Which Trello Plan Is Best for You? Our Pricing Guide Can Help",
+      "width": 1440,
+      "height": 900,
+      "phash": "7d3cc14b2b6b98a6",
+      "unique": true
     },
     {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
+      "file": "surface-9-band-2.jpg",
+      "title": "Supporting surface 6 (3)",
       "caption": "Trello public surface · trello.com",
       "kind": "docs",
-      "sourceUrl": "https://trello.com/customers"
+      "sourceUrl": "https://trello.com/customers",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Trello Customer Case Studies: How Companies Use Trello",
+      "width": 1440,
+      "height": 900,
+      "phash": "d4d6ccd4d6ccd4d4",
+      "unique": true
     },
     {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8",
+      "file": "surface-9-band-3.jpg",
+      "title": "Supporting surface 6 (4)",
       "caption": "Trello public surface · trello.com",
       "kind": "docs",
-      "sourceUrl": "https://developer.atlassian.com/cloud/trello/?"
+      "sourceUrl": "https://trello.com/customers",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "surface-9",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Trello Customer Case Studies: How Companies Use Trello",
+      "width": 1440,
+      "height": 900,
+      "phash": "d4d6c4d4d48488a6",
+      "unique": true
     },
     {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9",
+      "file": "surface-13-band-3.jpg",
+      "title": "Supporting surface 13 (4)",
       "caption": "Trello public surface · trello.com",
       "kind": "docs",
-      "sourceUrl": "https://support.atlassian.com/trello/"
+      "sourceUrl": "https://trello.com/about",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us: Trello History, Logos & Customers",
+      "width": 1440,
+      "height": 900,
+      "phash": "1d9a65e4324c0e96",
+      "unique": true
     },
     {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10",
+      "file": "surface-13-lower.jpg",
+      "title": "Supporting surface 13 (6)",
       "caption": "Trello public surface · trello.com",
       "kind": "docs",
-      "sourceUrl": "https://trello.com/blog"
-    },
-    {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
-      "caption": "Trello public surface · trello.com",
-      "kind": "docs",
-      "sourceUrl": "https://trello.com/about"
-    },
-    {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
-      "caption": "Trello public surface · trello.com",
-      "kind": "docs",
-      "sourceUrl": "https://trello.com/about"
-    },
-    {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
-      "caption": "Trello public surface · trello.com",
-      "kind": "docs",
-      "sourceUrl": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D%26jiraInviteLink%3D"
-    },
-    {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13",
-      "caption": "Trello public surface · trello.com",
-      "kind": "docs",
-      "sourceUrl": "https://trello.com/signin"
+      "sourceUrl": "https://trello.com/about",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "surface-13",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About Us: Trello History, Logos & Customers",
+      "width": 1440,
+      "height": 900,
+      "phash": "4d0e0e4c968e88a6",
+      "unique": true
     },
     {
       "file": "surface-14.jpg",
-      "title": "Supporting surface 14",
+      "title": "Supporting surface 14 (1)",
       "caption": "Trello public surface · trello.com",
       "kind": "docs",
-      "sourceUrl": "https://trello.com/sign-in"
+      "sourceUrl": "https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D%26jiraInviteLink%3D",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log in to continue - Log in with Atlassian account",
+      "width": 1440,
+      "height": 900,
+      "phash": "08484d4c2bcccc69",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-1.png",
+      "title": "Docs UI 1",
+      "caption": "Fallback from public docs: https://support.atlassian.com/trello/",
+      "kind": "docs",
+      "sourceUrl": "https://support.atlassian.com/trello/",
+      "capturedAt": "2026-07-27T21:55:42.817Z",
+      "playbookStep": "web-fallback",
+      "width": 96,
+      "height": 96,
+      "phash": "7460646068686854",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T13:44:38.855Z",
-    "screenshotCount": 29,
-    "pageCount": 16,
+    "capturedAt": "2026-07-27T21:57:11.718Z",
+    "screenshotCount": 32,
+    "pageCount": 8,
     "pages": [
       {
         "url": "https://trello.com/",
@@ -292,9 +691,9 @@
         ]
       },
       {
-        "url": "https://trello.com/use-cases/resource-hub",
-        "title": "Create a Resource Hub Your Team Will Actually Use",
-        "description": "Trello makes it easy to manage and find relevant information. Save time and streamline teamwork with Trello as a resource hub for information management.",
+        "url": "https://trello.com/platforms",
+        "title": "Work From Any Device, In Any Browser, Anywhere",
+        "description": "With integrations for deskt†atop and mobile, and support for every major browser, Trello connects you seamlessly to your work, wherever work is.",
         "headings": [
           "Explore the features that help your team succeed",
           "Meet Trello",
@@ -303,17 +702,17 @@
           "Compare plans & pricing",
           "Learn & connect",
           "Helping teams work better, together",
-          "Keep information organized and accessible with Trello",
-          "Ditch outdated spreadsheets and folders for something better",
-          "Trello for knowledge and information management",
-          "Automate clean up",
-          "Spot things faster with visual cues",
-          "Switch it up as often you need",
-          "Trello works with the tools you love",
-          "Slack",
-          "Google Drive",
-          "Confluence",
-          "Jira"
+          "Trello works seamlessly wherever you are.",
+          "Web",
+          "Mobile",
+          "Desktop",
+          "Trello is supported in these modern browsers.",
+          "Chrome",
+          "Firefox",
+          "Edge",
+          "Safari",
+          "Manage Preferences",
+          "Cookie List"
         ],
         "navLabels": [
           "Features",
@@ -340,7 +739,7 @@
           "Pricing",
           "Log in",
           "View Trello pricing",
-          "Try it free",
+          "Download",
           "AppsDownload the Trello App for your Desktop or Mobile devices.",
           "Contact usNeed anything? Get in touch and we can help.",
           "Filter Icon"
@@ -349,6 +748,89 @@
           "header",
           "nav",
           "main",
+          "footer",
+          "dialog:Manage Preferences"
+        ]
+      },
+      {
+        "url": "https://support.atlassian.com/trello/",
+        "title": "Trello support | Trello | Atlassian Support",
+        "headings": [
+          "Trello support",
+          "Not finding the help you need?",
+          "Manage Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Skip to main content",
+          "Trello support",
+          "Documentation",
+          "Contact us",
+          "Sign in",
+          "Atlassian Support",
+          "Trello"
+        ],
+        "ctas": [
+          "Contact us",
+          "Sign in",
+          "Log in to contact support",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "navigation",
+          "header",
+          "main",
+          "nav:Breadcrumbs",
+          "footer",
+          "dialog:Manage Preferences"
+        ]
+      },
+      {
+        "url": "https://developer.atlassian.com/cloud/trello/",
+        "title": "Get Started Building on Trello",
+        "headings": [
+          "Trello",
+          "Get Started Building On Trello",
+          "Get Started In Five Minutes",
+          "Manage Preferences",
+          "Cookie List"
+        ],
+        "navLabels": [
+          "Guides",
+          "Reference",
+          "REST API",
+          "Power-Ups",
+          "FAQ",
+          "Changelog",
+          "Trello",
+          "Latest updates",
+          "Your First Power-Up",
+          "Building A Trello Power-Up: Part One",
+          "Building A Trello Power-Up: Part Two",
+          "Building A Trello Power-Up: Part Three",
+          "Managing Apps",
+          "Listings",
+          "Updates",
+          "Style Guide",
+          "Public Power-Up Guidelines",
+          "User Permissions In Power-Ups",
+          "Power-Up Button",
+          "Submit Your Power-Up",
+          "Power-Up Launch Playbook",
+          "Authentication",
+          "Security",
+          "Featured Power-Ups"
+        ],
+        "ctas": [
+          "Sign in",
+          "Power-Up Launch Playbook",
+          "Getting Started With Custom Fields",
+          "Getting Started With client.js",
+          "Get Started In Five Minutes",
+          "Filter Icon"
+        ],
+        "landmarks": [
+          "nav",
           "footer",
           "dialog:Manage Preferences"
         ]
@@ -424,136 +906,6 @@
         ]
       },
       {
-        "url": "https://trello.com/product",
-        "title": "Error | Trello",
-        "description": "Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.",
-        "headings": [
-          "Page not found."
-        ],
-        "navLabels": [
-          "Features",
-          "Solutions",
-          "Plans",
-          "Pricing",
-          "Resources",
-          "Log in",
-          "Get Trello for free",
-          "Back"
-        ],
-        "ctas": [
-          "Pricing",
-          "Log in"
-        ],
-        "landmarks": [
-          "header",
-          "dialog"
-        ]
-      },
-      {
-        "url": "https://trello.com/products",
-        "title": "Error | Trello",
-        "description": "Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.",
-        "headings": [
-          "Page not found."
-        ],
-        "navLabels": [
-          "Features",
-          "Solutions",
-          "Plans",
-          "Pricing",
-          "Resources",
-          "Log in",
-          "Get Trello for free",
-          "Back"
-        ],
-        "ctas": [
-          "Pricing",
-          "Log in"
-        ],
-        "landmarks": [
-          "header",
-          "dialog"
-        ]
-      },
-      {
-        "url": "https://trello.com/features",
-        "title": "Error | Trello",
-        "description": "Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.",
-        "headings": [
-          "Page not found."
-        ],
-        "navLabels": [
-          "Features",
-          "Solutions",
-          "Plans",
-          "Pricing",
-          "Resources",
-          "Log in",
-          "Get Trello for free",
-          "Back"
-        ],
-        "ctas": [
-          "Pricing",
-          "Log in"
-        ],
-        "landmarks": [
-          "header",
-          "dialog"
-        ]
-      },
-      {
-        "url": "https://trello.com/platform",
-        "title": "Error | Trello",
-        "description": "Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.",
-        "headings": [
-          "Page not found."
-        ],
-        "navLabels": [
-          "Features",
-          "Solutions",
-          "Plans",
-          "Pricing",
-          "Resources",
-          "Log in",
-          "Get Trello for free",
-          "Back"
-        ],
-        "ctas": [
-          "Pricing",
-          "Log in"
-        ],
-        "landmarks": [
-          "header",
-          "dialog"
-        ]
-      },
-      {
-        "url": "https://trello.com/solutions",
-        "title": "Error | Trello",
-        "description": "Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.",
-        "headings": [
-          "Page not found."
-        ],
-        "navLabels": [
-          "Features",
-          "Solutions",
-          "Plans",
-          "Pricing",
-          "Resources",
-          "Log in",
-          "Get Trello for free",
-          "Back"
-        ],
-        "ctas": [
-          "Pricing",
-          "Log in"
-        ],
-        "landmarks": [
-          "header",
-          "dialog"
-        ]
-      },
-      {
         "url": "https://trello.com/customers",
         "title": "Trello Customer Case Studies: How Companies Use Trello",
         "description": "Trello is used by thousands of businesses every day. See how some of the world's top companies use Trello to manage workflows, collaborate with teams and more.",
@@ -615,115 +967,6 @@
         ]
       },
       {
-        "url": "https://developer.atlassian.com/cloud/trello/?",
-        "title": "Get Started Building on Trello",
-        "headings": [
-          "Trello",
-          "Get Started Building On Trello",
-          "Get Started In Five Minutes",
-          "Manage Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Guides",
-          "Reference",
-          "REST API",
-          "Power-Ups",
-          "FAQ",
-          "Changelog",
-          "Trello",
-          "Latest updates",
-          "Your First Power-Up",
-          "Building A Trello Power-Up: Part One",
-          "Building A Trello Power-Up: Part Two",
-          "Building A Trello Power-Up: Part Three",
-          "Managing Apps",
-          "Listings",
-          "Updates",
-          "Style Guide",
-          "Public Power-Up Guidelines",
-          "User Permissions In Power-Ups",
-          "Power-Up Button",
-          "Submit Your Power-Up",
-          "Power-Up Launch Playbook",
-          "Authentication",
-          "Security",
-          "Featured Power-Ups"
-        ],
-        "ctas": [
-          "Sign in",
-          "Power-Up Launch Playbook",
-          "Getting Started With Custom Fields",
-          "Getting Started With client.js",
-          "Get Started In Five Minutes",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "nav",
-          "footer",
-          "dialog:Manage Preferences"
-        ]
-      },
-      {
-        "url": "https://support.atlassian.com/trello/",
-        "title": "Trello support | Trello | Atlassian Support",
-        "headings": [
-          "Trello support",
-          "Not finding the help you need?",
-          "Manage Preferences",
-          "Cookie List"
-        ],
-        "navLabels": [
-          "Skip to main content",
-          "Trello support",
-          "Documentation",
-          "Contact us",
-          "Sign in",
-          "Atlassian Support",
-          "Trello"
-        ],
-        "ctas": [
-          "Contact us",
-          "Sign in",
-          "Log in to contact support",
-          "Filter Icon"
-        ],
-        "landmarks": [
-          "navigation",
-          "header",
-          "main",
-          "nav:Breadcrumbs",
-          "footer",
-          "dialog:Manage Preferences"
-        ]
-      },
-      {
-        "url": "https://trello.com/blog",
-        "title": "Error | Trello",
-        "description": "Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.",
-        "headings": [
-          "Page not found."
-        ],
-        "navLabels": [
-          "Features",
-          "Solutions",
-          "Plans",
-          "Pricing",
-          "Resources",
-          "Log in",
-          "Get Trello for free",
-          "Back"
-        ],
-        "ctas": [
-          "Pricing",
-          "Log in"
-        ],
-        "landmarks": [
-          "header",
-          "dialog"
-        ]
-      },
-      {
         "url": "https://trello.com/about",
         "title": "About Us: Trello History, Logos & Customers",
         "description": "Trello is the easy, free, flexible, and visual way to manage your projects and organize anything, trusted by millions of people from all over the world.",
@@ -780,58 +1023,6 @@
           "footer",
           "dialog:Manage Preferences"
         ]
-      },
-      {
-        "url": "https://trello.com/signin",
-        "title": "Error | Trello",
-        "description": "Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.",
-        "headings": [
-          "Page not found."
-        ],
-        "navLabels": [
-          "Features",
-          "Solutions",
-          "Plans",
-          "Pricing",
-          "Resources",
-          "Log in",
-          "Get Trello for free",
-          "Back"
-        ],
-        "ctas": [
-          "Pricing",
-          "Log in"
-        ],
-        "landmarks": [
-          "header",
-          "dialog"
-        ]
-      },
-      {
-        "url": "https://trello.com/sign-in",
-        "title": "Error | Trello",
-        "description": "Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.",
-        "headings": [
-          "Page not found."
-        ],
-        "navLabels": [
-          "Features",
-          "Solutions",
-          "Plans",
-          "Pricing",
-          "Resources",
-          "Log in",
-          "Get Trello for free",
-          "Back"
-        ],
-        "ctas": [
-          "Pricing",
-          "Log in"
-        ],
-        "landmarks": [
-          "header",
-          "dialog"
-        ]
       }
     ],
     "navLabels": [
@@ -854,17 +1045,17 @@
       "View Trello pricing",
       "WebinarsEnjoy our free Trello webinars and become a productivity professional.",
       "Help resourcesNeed help? Articles and FAQs to get you unstuck.",
-      "Back",
+      "Skip to main content",
+      "Trello support",
+      "Documentation",
+      "Contact us",
+      "Sign in",
+      "Atlassian Support",
+      "Trello",
       "Guides",
       "Reference",
       "REST API",
-      "Power-Ups",
-      "FAQ",
-      "Changelog",
-      "Trello",
-      "Latest updates",
-      "Your First Power-Up",
-      "Building A Trello Power-Up: Part One"
+      "Power-Ups"
     ],
     "ctas": [
       "Pricing",
@@ -879,18 +1070,18 @@
       "Log in with email",
       "Can't log in?",
       "Create an account",
-      "Try it free",
+      "Download",
+      "Contact us",
+      "Sign in",
+      "Log in to contact support",
+      "Power-Up Launch Playbook",
+      "Getting Started With Custom Fields",
+      "Getting Started With client.js",
+      "Get Started In Five Minutes",
       "Get started",
       "Sign up now",
       "Learn more about Standard",
-      "Try for free",
-      "Learn more about Premium",
-      "Contact sales",
-      "Learn more about Enterprise",
-      "Start automating",
-      "Download mobile apps",
-      "Download desktop app",
-      "Try a template"
+      "Try for free"
     ],
     "headings": [
       "Explore the features that help your team succeed",
@@ -910,25 +1101,25 @@
       "81% of customers chose Trello for its ease of use.",
       "Get started with Trello today",
       "Log in to continue",
-      "Keep information organized and accessible with Trello",
-      "Ditch outdated spreadsheets and folders for something better",
-      "Trello for knowledge and information management",
-      "Automate clean up",
-      "Spot things faster with visual cues",
-      "Switch it up as often you need",
-      "Trello works with the tools you love",
-      "Slack",
-      "Google Drive",
-      "Confluence",
-      "Jira",
-      "Trello your way.",
-      "Free"
+      "Trello works seamlessly wherever you are.",
+      "Web",
+      "Mobile",
+      "Desktop",
+      "Trello is supported in these modern browsers.",
+      "Chrome",
+      "Firefox",
+      "Edge",
+      "Safari",
+      "Manage Preferences",
+      "Cookie List",
+      "Trello support",
+      "Not finding the help you need?"
     ],
     "techSignals": [
       "Google Tag Manager",
-      "GraphQL",
       "Sentry",
       "Cloudflare",
+      "GraphQL",
       "Next.js"
     ],
     "featureCandidates": [
@@ -945,17 +1136,17 @@
       "Card mirroring",
       "Get started with Trello today",
       "Log in to continue",
-      "Trello for knowledge and information management",
-      "Automate clean up",
-      "Spot things faster with visual cues",
-      "Switch it up as often you need",
-      "Trello works with the tools you love",
-      "Slack",
-      "Google Drive",
-      "Confluence",
-      "Jira",
-      "Trello your way.",
-      "Free"
+      "Trello works seamlessly wherever you are.",
+      "Mobile",
+      "Desktop",
+      "Trello is supported in these modern browsers.",
+      "Chrome",
+      "Firefox",
+      "Edge",
+      "Safari",
+      "Manage Preferences",
+      "Cookie List",
+      "Trello support"
     ],
     "patternCandidates": [
       "Pricing display",
@@ -965,7 +1156,6 @@
       "Calendar",
       "Authentication",
       "Search",
-      "Filters",
       "Map view",
       "Dashboard"
     ],
@@ -976,6 +1166,9 @@
       "ios",
       "android"
     ],
-    "summary": "Captured 29 screenshots across 16 public URLs. Nav signals: Features, Solutions, Plans, Pricing, Resources, Log in. Tech signals: Google Tag Manager, GraphQL, Sentry, Cloudflare, Next.js. UI patterns: Pricing display, Tabs, Card layout, Messaging, Calendar, Authentication."
+    "summary": "Captured 32 screenshots across 8 public URLs. Nav signals: Features, Solutions, Plans, Pricing, Resources, Log in. Tech signals: Google Tag Manager, Sentry, Cloudflare, GraphQL, Next.js. UI patterns: Pricing display, Tabs, Card layout, Messaging, Calendar, Authentication."
+  },
+  "fallback": {
+    "blockedNavigations": 0
   }
 }

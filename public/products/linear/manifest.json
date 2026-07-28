@@ -1,250 +1,1095 @@
 {
   "slug": "linear",
-  "capturedAt": "2026-07-26T22:26:46.249Z",
+  "capturedAt": "2026-07-27T22:21:08.386Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Inbox / Triage",
       "caption": "Linear public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://linear.app/"
+      "sourceUrl": "https://linear.app/",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Linear – The system for product development",
+      "width": 1440,
+      "height": 900,
+      "phash": "335ca3b24c800000",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Linear homepage scrolled sections",
-      "kind": "product",
-      "sourceUrl": "https://linear.app/"
-    },
-    {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Linear homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://linear.app/"
+      "sourceUrl": "https://linear.app/",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Linear – The system for product development",
+      "width": 1440,
+      "height": 900,
+      "phash": "1b4445454570b800",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Linear homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://linear.app/"
+      "sourceUrl": "https://linear.app/",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Linear – The system for product development",
+      "width": 1440,
+      "height": 900,
+      "phash": "3b8880900c909694",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Linear homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Linear – The system for product development",
+      "width": 1440,
+      "height": 900,
+      "phash": "3bc4b492639c88c9",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Linear homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Linear – The system for product development",
+      "width": 1440,
+      "height": 900,
+      "phash": "8b8884909080c040",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Linear homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Linear – The system for product development",
+      "width": 1440,
+      "height": 900,
+      "phash": "33b0050084a4e040",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Linear homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://linear.app/"
+      "sourceUrl": "https://linear.app/",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Linear – The system for product development",
+      "width": 390,
+      "height": 844,
+      "phash": "9ca380c080a0a000",
+      "unique": true
+    },
+    {
+      "file": "card-1.jpg",
+      "title": "UI cards (1)",
+      "caption": "Card / tile crops from Linear",
+      "kind": "component",
+      "sourceUrl": "https://linear.app/",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 8928,
+      "pageTitle": "Linear – The system for product development",
+      "width": 880,
+      "height": 481,
+      "phash": "4c5c5b284e094ef4",
+      "unique": true
+    },
+    {
+      "file": "card-2.jpg",
+      "title": "UI cards (2)",
+      "caption": "Card / tile crops from Linear",
+      "kind": "component",
+      "sourceUrl": "https://linear.app/",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "cards",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 8928,
+      "pageTitle": "Linear – The system for product development",
+      "width": 432,
+      "height": 481,
+      "phash": "362e2c9008c0345c",
+      "unique": true
     },
     {
       "file": "search-composer.jpg",
       "title": "Search / composer",
       "caption": "Focused search or primary input on Linear",
       "kind": "component",
-      "sourceUrl": "https://linear.app/"
+      "sourceUrl": "https://linear.app/",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "search-composer",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 4905,
+      "pageTitle": "Linear – The system for product development",
+      "width": 1440,
+      "height": 900,
+      "phash": "338888329a92929a",
+      "unique": true
     },
     {
       "file": "account-menu.jpg",
       "title": "Account / nav menu",
       "caption": "Expanded account or primary navigation menu on Linear",
       "kind": "component",
-      "sourceUrl": "https://linear.app/"
+      "sourceUrl": "https://linear.app/",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "account-menu",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 2784,
+      "pageTitle": "Linear – The system for product development",
+      "width": 1440,
+      "height": 900,
+      "phash": "0b98108888c83a10",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on Linear (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://linear.app/login"
+      "sourceUrl": "https://linear.app/login",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "0008084d4c0c0800",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Linear",
       "kind": "product",
-      "sourceUrl": "https://linear.app/changelog/2026-07-23-agent-assisted-editing"
+      "sourceUrl": "https://linear.app/customers/opendoor",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Opendoor is rebuilding its product culture with Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "3b8cb2b2b2219696",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Linear",
       "kind": "product",
-      "sourceUrl": "https://linear.app/changelog/2026-07-23-agent-assisted-editing"
+      "sourceUrl": "https://linear.app/customers/opendoor",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Opendoor is rebuilding its product culture with Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "3b20a152524a529a",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Linear",
       "kind": "product",
-      "sourceUrl": "https://linear.app/changelog/2026-07-23-agent-assisted-editing"
-    },
-    {
-      "file": "nav-4.jpg",
-      "title": "In-product nav (4)",
-      "caption": "Same-origin product / pricing / docs links from Linear",
-      "kind": "product",
-      "sourceUrl": "https://linear.app/changelog/2026-07-23-agent-assisted-editing"
+      "sourceUrl": "https://linear.app/customers/opendoor",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Opendoor is rebuilding its product culture with Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "4140506272444a72",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from Linear",
       "kind": "product",
-      "sourceUrl": "https://linear.app/changelog/2026-07-23-agent-assisted-editing"
+      "sourceUrl": "https://linear.app/customers/opendoor",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Opendoor is rebuilding its product culture with Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "1b68690e00406861",
+      "unique": true
+    },
+    {
+      "file": "nav-6.jpg",
+      "title": "In-product nav (6)",
+      "caption": "Same-origin product / pricing / docs links from Linear",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/customers/opendoor",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Opendoor is rebuilding its product culture with Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "3b64616969686168",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Linear",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/customers/opendoor",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Opendoor is rebuilding its product culture with Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "1b64651820086160",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from Linear",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/customers/opendoor",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Opendoor is rebuilding its product culture with Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "3b24206906400460",
+      "unique": true
+    },
+    {
+      "file": "nav-10.jpg",
+      "title": "In-product nav (10)",
+      "caption": "Same-origin product / pricing / docs links from Linear",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/customers/opendoor",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "How Opendoor is rebuilding its product culture with Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "1f61e0d4f4d4d4f0",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
-      "title": "My issues",
+      "title": "My issues (1)",
       "caption": "Linear public surface · linear.app",
       "kind": "product",
-      "sourceUrl": "https://linear.app/docs/default-issue-properties"
+      "sourceUrl": "https://linear.app/docs/default-issue-properties",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "",
+      "width": 1440,
+      "height": 900,
+      "phash": "0004185a18180400",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
       "title": "Project board (1)",
       "caption": "Linear public surface · linear.app",
       "kind": "product",
-      "sourceUrl": "https://linear.app/docs/creating-issues"
+      "sourceUrl": "https://linear.app/docs/creating-issues",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Create issues – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "4b46360e06484160",
+      "unique": true
     },
     {
-      "file": "surface-2-mid.jpg",
+      "file": "surface-2-top.jpg",
       "title": "Project board (2)",
       "caption": "Linear public surface · linear.app",
       "kind": "product",
-      "sourceUrl": "https://linear.app/docs/creating-issues"
+      "sourceUrl": "https://linear.app/docs/creating-issues",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Create issues – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "4b4662686a4a4160",
+      "unique": true
+    },
+    {
+      "file": "surface-2-band-4.jpg",
+      "title": "Project board (5)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "product",
+      "sourceUrl": "https://linear.app/docs/creating-issues",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Create issues – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "53624a6266626160",
+      "unique": true
     },
     {
       "file": "surface-3.jpg",
       "title": "Cycle view (1)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/docs/issue-templates"
+      "sourceUrl": "https://linear.app/docs/issue-templates",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Issue templates – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "474a160621002440",
+      "unique": true
     },
     {
-      "file": "surface-3-mid.jpg",
+      "file": "surface-3-top.jpg",
       "title": "Cycle view (2)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/docs/issue-templates"
+      "sourceUrl": "https://linear.app/docs/issue-templates",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Issue templates – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "4762784849496969",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-2.jpg",
+      "title": "Cycle view (3)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/issue-templates",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Issue templates – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "696862606d6d6060",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-3.jpg",
+      "title": "Cycle view (4)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/issue-templates",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Issue templates – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "4362426261614864",
+      "unique": true
+    },
+    {
+      "file": "surface-3-band-4.jpg",
+      "title": "Cycle view (5)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/issue-templates",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-3",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Issue templates – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "4f46727231606848",
+      "unique": true
     },
     {
       "file": "surface-4.jpg",
       "title": "Roadmap (1)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/docs/api-and-webhooks"
+      "sourceUrl": "https://linear.app/docs/api-and-webhooks",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "API and Webhooks – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "4762586060584040",
+      "unique": true
     },
     {
-      "file": "surface-4-mid.jpg",
-      "title": "Roadmap (2)",
+      "file": "surface-4-band-2.jpg",
+      "title": "Roadmap (3)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/docs/api-and-webhooks"
+      "sourceUrl": "https://linear.app/docs/api-and-webhooks",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "API and Webhooks – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "41624a6171406969",
+      "unique": true
+    },
+    {
+      "file": "surface-4-band-3.jpg",
+      "title": "Roadmap (4)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs/api-and-webhooks",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "API and Webhooks – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "4968607140606140",
+      "unique": true
     },
     {
       "file": "surface-5.jpg",
-      "title": "Settings",
+      "title": "Settings (1)",
       "caption": "Linear public surface · studio.apollographql.com",
       "kind": "docs",
-      "sourceUrl": "https://studio.apollographql.com/public/Linear-API/variant/current/home"
+      "sourceUrl": "https://studio.apollographql.com/public/Linear-API/variant/current/home",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-5",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Overview | Linear API@current | Studio",
+      "width": 1440,
+      "height": 900,
+      "phash": "b232733312624400",
+      "unique": true
     },
     {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6",
+      "file": "surface-6-lower.jpg",
+      "title": "Supporting surface 6 (3)",
       "caption": "Linear public surface · developers.linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/developers"
+      "sourceUrl": "https://linear.app/developers",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-6",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Linear Developers",
+      "width": 1440,
+      "height": 900,
+      "phash": "7248607040607464",
+      "unique": true
     },
     {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
-      "caption": "Linear public surface · linear.app",
-      "kind": "docs",
-      "sourceUrl": "https://linear.app/docs/security"
-    },
-    {
-      "file": "surface-7-mid.jpg",
+      "file": "surface-7-top.jpg",
       "title": "Supporting surface 7 (2)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/docs/security"
+      "sourceUrl": "https://linear.app/docs/security",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-7",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Security – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "4740696969694060",
+      "unique": true
     },
     {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8",
+      "file": "surface-10-band-3.jpg",
+      "title": "Supporting surface 10 (4)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/docs/permissions"
+      "sourceUrl": "https://linear.app/changelog",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Changelog – Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "2b60612048486469",
+      "unique": true
     },
     {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9",
+      "file": "surface-10-lower.jpg",
+      "title": "Supporting surface 10 (6)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/docs/imports"
+      "sourceUrl": "https://linear.app/changelog",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-10",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Changelog – Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "1bc0020084e4a042",
+      "unique": true
     },
     {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
+      "file": "surface-11-band-3.jpg",
+      "title": "Supporting surface 11 (4)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/changelog"
+      "sourceUrl": "https://linear.app/docs/releases",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Releases – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "4162624a62696948",
+      "unique": true
     },
     {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
+      "file": "surface-11-lower.jpg",
+      "title": "Supporting surface 11 (6)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/changelog"
+      "sourceUrl": "https://linear.app/docs/releases",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-11",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Releases – Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "696060626248484c",
+      "unique": true
     },
     {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
+      "file": "surface-12-band-2.jpg",
+      "title": "Supporting surface 12 (3)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/docs/releases"
+      "sourceUrl": "https://linear.app/pricing",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing – Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "1bda9a25b8903426",
+      "unique": true
     },
     {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
+      "file": "surface-12-band-3.jpg",
+      "title": "Supporting surface 12 (4)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/docs/releases"
+      "sourceUrl": "https://linear.app/pricing",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing – Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "3b34262200a02260",
+      "unique": true
     },
     {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12 (1)",
+      "file": "surface-12-band-4.jpg",
+      "title": "Supporting surface 12 (5)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/pricing"
+      "sourceUrl": "https://linear.app/pricing",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-12",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Pricing – Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "3f242a2e0e80642c",
+      "unique": true
     },
     {
-      "file": "surface-12-mid.jpg",
-      "title": "Supporting surface 12 (2)",
+      "file": "surface-15.jpg",
+      "title": "Supporting surface 15 (1)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/pricing"
+      "sourceUrl": "https://linear.app/features",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Features – Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "3b9871f061696084",
+      "unique": true
     },
     {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13",
+      "file": "surface-15-band-2.jpg",
+      "title": "Supporting surface 15 (3)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/product"
+      "sourceUrl": "https://linear.app/features",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Features – Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "33c4e0c0c0ccfcc8",
+      "unique": true
     },
     {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14",
+      "file": "surface-15-band-3.jpg",
+      "title": "Supporting surface 15 (4)",
       "caption": "Linear public surface · linear.app",
       "kind": "docs",
-      "sourceUrl": "https://linear.app/product"
+      "sourceUrl": "https://linear.app/features",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Features – Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "39d0c4ccc8c8c8c8",
+      "unique": true
+    },
+    {
+      "file": "surface-15-lower.jpg",
+      "title": "Supporting surface 15 (6)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/features",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-15",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Features – Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "1b08c6c628a4e040",
+      "unique": true
+    },
+    {
+      "file": "surface-18-band-2.jpg",
+      "title": "Supporting surface 18 (3)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/customers",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-18",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Linear Customers",
+      "width": 1440,
+      "height": 900,
+      "phash": "9696b621aaaa5590",
+      "unique": true
+    },
+    {
+      "file": "surface-18-band-3.jpg",
+      "title": "Supporting surface 18 (4)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/customers",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-18",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Linear Customers",
+      "width": 1440,
+      "height": 900,
+      "phash": "2b9090b0269696a4",
+      "unique": true
+    },
+    {
+      "file": "surface-18-band-4.jpg",
+      "title": "Supporting surface 18 (5)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/customers",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-18",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Linear Customers",
+      "width": 1440,
+      "height": 900,
+      "phash": "96962da090056d45",
+      "unique": true
+    },
+    {
+      "file": "surface-19-lower.jpg",
+      "title": "Supporting surface 19 (3)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/docs",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-19",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Linear Docs",
+      "width": 1440,
+      "height": 900,
+      "phash": "5342487252627256",
+      "unique": true
+    },
+    {
+      "file": "surface-21-band-2.jpg",
+      "title": "Supporting surface 21 (3)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/now",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-21",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Now – Updates from the Linear team",
+      "width": 1440,
+      "height": 900,
+      "phash": "3b9696b4b680959a",
+      "unique": true
+    },
+    {
+      "file": "surface-21-band-3.jpg",
+      "title": "Supporting surface 21 (4)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/now",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-21",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Now – Updates from the Linear team",
+      "width": 1440,
+      "height": 900,
+      "phash": "3b9aaa44899296a4",
+      "unique": true
+    },
+    {
+      "file": "surface-21-band-4.jpg",
+      "title": "Supporting surface 21 (5)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/now",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-21",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Now – Updates from the Linear team",
+      "width": 1440,
+      "height": 900,
+      "phash": "33b424b6b6b69401",
+      "unique": true
+    },
+    {
+      "file": "surface-22.jpg",
+      "title": "Supporting surface 22 (1)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/about",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-22",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About – Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "335ca2a1eeded8d4",
+      "unique": true
+    },
+    {
+      "file": "surface-22-band-2.jpg",
+      "title": "Supporting surface 22 (3)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/about",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-22",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About – Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "bad494aeba9e9898",
+      "unique": true
+    },
+    {
+      "file": "surface-22-band-3.jpg",
+      "title": "Supporting surface 22 (4)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/about",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-22",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About – Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "1b98385818419c98",
+      "unique": true
+    },
+    {
+      "file": "surface-22-band-4.jpg",
+      "title": "Supporting surface 22 (5)",
+      "caption": "Linear public surface · linear.app",
+      "kind": "docs",
+      "sourceUrl": "https://linear.app/about",
+      "capturedAt": "2026-07-27T22:18:57.928Z",
+      "playbookStep": "surface-22",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "About – Linear",
+      "width": 1440,
+      "height": 900,
+      "phash": "1b9819aaaaaa46aa",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-26T22:26:46.249Z",
-    "screenshotCount": 34,
-    "pageCount": 16,
+    "capturedAt": "2026-07-27T22:21:08.386Z",
+    "screenshotCount": 57,
+    "pageCount": 18,
     "pages": [
       {
         "url": "https://linear.app/",
@@ -329,12 +1174,17 @@
         "landmarks": []
       },
       {
-        "url": "https://linear.app/changelog/2026-07-23-agent-assisted-editing",
-        "title": "Text attribution and agent-assisted editing – Changelog",
-        "description": "Linear changelog - New updates and improvements to Linear.",
+        "url": "https://linear.app/customers/opendoor",
+        "title": "How Opendoor is rebuilding its product culture with Linear",
+        "description": "Kaz Nejatian, the new CEO of Opendoor, was in the middle of a very public turnaround. Investors were watching, and there was a long list of things to fix. And yet, one of his first moves was to change the project management software his team was using to build Opendoor’s product.",
         "headings": [
-          "Text attribution and agent-assisted editing",
-          "Refreshed issue sidebar⁠",
+          "How Opendoor is rebuilding its product culture with Linear",
+          "Lessons from Shopify⁠",
+          "Opendoor had Jira, but no one used it the same way⁠",
+          "A manifesto for building products⁠",
+          "Making work legible at Opendoor⁠",
+          "Tools shape how you work⁠",
+          "Opendoor chose to start fresh⁠",
           "Product",
           "Features",
           "Company",
@@ -352,7 +1202,9 @@
           "Docs",
           "Open app",
           "Log in",
-          "Sign up"
+          "Sign up",
+          "PreviousDandelion",
+          "NextPleo"
         ],
         "ctas": [
           "Pricing",
@@ -367,6 +1219,7 @@
           "header",
           "nav:Main",
           "main",
+          "nav",
           "footer"
         ]
       },
@@ -629,7 +1482,6 @@
           "Log in",
           "Explorer",
           "Run in Explorer",
-          "ProjectSearchResult",
           "Filter Icon"
         ],
         "landmarks": [
@@ -750,92 +1602,6 @@
           "header",
           "footer",
           "aside"
-        ]
-      },
-      {
-        "url": "https://linear.app/docs/permissions",
-        "title": "",
-        "headings": [
-          "Not found"
-        ],
-        "navLabels": [
-          "Docs",
-          "Sign up",
-          "Open app",
-          "Getting started",
-          "Account",
-          "AI",
-          "Your sidebar",
-          "Teams",
-          "Issues",
-          "Issue properties",
-          "Projects",
-          "Initiatives",
-          "Cycles",
-          "Views",
-          "Find and filter",
-          "Linear Asks",
-          "Integrations",
-          "Analytics",
-          "Administration",
-          "Developers",
-          "Learn",
-          "Contact support"
-        ],
-        "ctas": [
-          "Sign up",
-          "Getting started",
-          "Find and filter",
-          "Contact support"
-        ],
-        "landmarks": [
-          "main",
-          "nav",
-          "header",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://linear.app/docs/imports",
-        "title": "",
-        "headings": [
-          "Not found"
-        ],
-        "navLabels": [
-          "Docs",
-          "Sign up",
-          "Open app",
-          "Getting started",
-          "Account",
-          "AI",
-          "Your sidebar",
-          "Teams",
-          "Issues",
-          "Issue properties",
-          "Projects",
-          "Initiatives",
-          "Cycles",
-          "Views",
-          "Find and filter",
-          "Linear Asks",
-          "Integrations",
-          "Analytics",
-          "Administration",
-          "Developers",
-          "Learn",
-          "Contact support"
-        ],
-        "ctas": [
-          "Sign up",
-          "Getting started",
-          "Find and filter",
-          "Contact support"
-        ],
-        "landmarks": [
-          "main",
-          "nav",
-          "header",
-          "footer"
         ]
       },
       {
@@ -1004,21 +1770,262 @@
         ]
       },
       {
-        "url": "https://linear.app/product",
-        "title": "Linear",
+        "url": "https://linear.app/features",
+        "title": "Features – Linear",
+        "description": "Linear is the system for modern product development. Streamline work across the entire development cycle, from roadmap to release.",
         "headings": [
-          "Log in to Linear"
+          "Planning",
+          "Building",
+          "Artificial intelligence",
+          "Insights",
+          "Mobile",
+          "Customer Requests",
+          "Linear Asks",
+          "Security",
+          "Plan the present. Build the future.",
+          "Product",
+          "Features",
+          "Company",
+          "Resources",
+          "Connect",
+          "Legal"
         ],
-        "navLabels": [],
+        "navLabels": [
+          "Product",
+          "Resources",
+          "Customers",
+          "Pricing",
+          "Now",
+          "Contact",
+          "Docs",
+          "Open app",
+          "Log in",
+          "Sign up"
+        ],
         "ctas": [
-          "Continue with Google",
-          "Continue with email",
-          "Continue with SAML SSO",
-          "Log in with passkey",
+          "Pricing",
+          "Contact",
+          "Log in",
           "Sign up",
-          "learn more"
+          "Contact sales",
+          "Get started",
+          "Download",
+          "Startups",
+          "Contact us"
         ],
-        "landmarks": []
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://linear.app/customers",
+        "title": "Linear Customers",
+        "description": "Meet the startups and enterprises that choose Linear to build products better.",
+        "headings": [
+          "Customers",
+          "Built for the future. Available today.",
+          "Product",
+          "Features",
+          "Company",
+          "Resources",
+          "Connect",
+          "Legal"
+        ],
+        "navLabels": [
+          "Product",
+          "Resources",
+          "Customers",
+          "Pricing",
+          "Now",
+          "Contact",
+          "Docs",
+          "Open app",
+          "Log in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Log in",
+          "Sign up",
+          "Learn more →",
+          "Get started",
+          "Contact sales",
+          "Download",
+          "Startups",
+          "Contact us"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://linear.app/docs",
+        "title": "Linear Docs",
+        "description": "This guide is intended to give you an overview of Linear's features, discover their flexibility, and provide tips for how to use Linear to improve the speed, value, and joy of your work.",
+        "headings": [
+          "Linear Docs",
+          "Popular",
+          "Start Guide",
+          "Import Issues",
+          "Projects",
+          "GitHub Automations",
+          "Linear basics",
+          "Workflows",
+          "Select Issues",
+          "Issue Relations",
+          "Display Options",
+          "Triage",
+          "Parent and Sub-Issues",
+          "Notifications",
+          "Teams"
+        ],
+        "navLabels": [
+          "Docs",
+          "Sign up",
+          "Open app",
+          "Getting started",
+          "Account",
+          "AI",
+          "Your sidebar",
+          "Teams",
+          "Issues",
+          "Issue properties",
+          "Projects",
+          "Initiatives",
+          "Cycles",
+          "Views",
+          "Find and filter",
+          "Linear Asks",
+          "Integrations",
+          "Analytics",
+          "Administration",
+          "Developers",
+          "Learn",
+          "Contact support"
+        ],
+        "ctas": [
+          "Sign up",
+          "Getting started",
+          "Find and filter",
+          "Contact support",
+          "WorkflowsCreate new statuses and design custom issue workflows"
+        ],
+        "landmarks": [
+          "main",
+          "nav",
+          "header",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://linear.app/now",
+        "title": "Now – Updates from the Linear team",
+        "description": "Linear product updates, thoughts on crafting beautiful products, and reflections on building a startup.",
+        "headings": [
+          "Now",
+          "Introducing Loops",
+          "Boom Supersonic builds as fast as it flies",
+          "Teaching an agent to auto-fix bugs",
+          "Now Linear writes the code, too",
+          "Reviewing code in the agent era",
+          "Code review should be fast",
+          "Changelog",
+          "Code Intelligence for Linear Agent",
+          "Cars24’s push to being AI-native with Linear",
+          "How we hire at Linear",
+          "The coding agent behind 60% of Ramp’s merged PRs",
+          "Output isn’t design",
+          "How we use Linear Agent at Linear",
+          "Press",
+          "AI Agents and the Future of Software Teams with Linear + Sequoia Capital",
+          "How Karri Saarinen Redefined Product Design",
+          "How to Design for Human-agent Interaction",
+          "Post mortem on Linear security incident on March 24th, 2026"
+        ],
+        "navLabels": [
+          "Product",
+          "Resources",
+          "Customers",
+          "Pricing",
+          "Now",
+          "Contact",
+          "Docs",
+          "Open app",
+          "Log in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Log in",
+          "Sign up",
+          "Search…",
+          "Get started",
+          "Contact sales",
+          "Download",
+          "Startups",
+          "Contact us"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "main",
+          "footer"
+        ]
+      },
+      {
+        "url": "https://linear.app/about",
+        "title": "About – Linear",
+        "description": "We’re bringing magic back to software.",
+        "headings": [
+          "Building tools for the next era of product development",
+          "A new species of product tool",
+          "Meet the team behind Linear",
+          "Backed by the best",
+          "Built for the future. Available today.",
+          "Product",
+          "Features",
+          "Company",
+          "Resources",
+          "Connect",
+          "Legal"
+        ],
+        "navLabels": [
+          "Product",
+          "Resources",
+          "Customers",
+          "Pricing",
+          "Now",
+          "Contact",
+          "Docs",
+          "Open app",
+          "Log in",
+          "Sign up"
+        ],
+        "ctas": [
+          "Pricing",
+          "Contact",
+          "Log in",
+          "Sign up",
+          "Get started",
+          "Contact sales",
+          "Download",
+          "Startups",
+          "Contact us"
+        ],
+        "landmarks": [
+          "header",
+          "nav:Main",
+          "main",
+          "footer"
+        ]
       }
     ],
     "navLabels": [
@@ -1046,12 +2053,12 @@
       "Agent tasks",
       "UI Refresh",
       "Agents Insights",
+      "PreviousDandelion",
+      "NextPleo",
       "Getting started",
       "Account",
       "AI",
-      "Your sidebar",
-      "Teams",
-      "Issues"
+      "Your sidebar"
     ],
     "ctas": [
       "Pricing",
@@ -1095,8 +2102,13 @@
       "Connect",
       "Legal",
       "Log in to Linear",
-      "Text attribution and agent-assisted editing",
-      "Refreshed issue sidebar⁠",
+      "How Opendoor is rebuilding its product culture with Linear",
+      "Lessons from Shopify⁠",
+      "Opendoor had Jira, but no one used it the same way⁠",
+      "A manifesto for building products⁠",
+      "Making work legible at Opendoor⁠",
+      "Tools shape how you work⁠",
+      "Opendoor chose to start fresh⁠",
       "Not found",
       "Create issues",
       "Overview⁠",
@@ -1104,22 +2116,19 @@
       "Create an issue via email⁠",
       "Create recurring issues⁠",
       "Create a recurring issue⁠",
-      "Convert an existing issue into a recurring issue⁠",
-      "Create recurring issues in team settings⁠",
-      "Create recurring issues from templates⁠",
-      "Cadence of recurring issues⁠",
-      "Create a new issue URL⁠",
-      "Apply pre-set properties⁠"
+      "Convert an existing issue into a recurring issue⁠"
     ],
     "techSignals": [
       "React",
       "Next.js",
       "GraphQL",
+      "Shopify",
       "Intercom",
       "Zendesk",
       "Vite",
       "Segment",
-      "Google Tag Manager"
+      "Google Tag Manager",
+      "Stripe"
     ],
     "featureCandidates": [
       "Faster app launch",
@@ -1137,15 +2146,15 @@
       "Connect",
       "Legal",
       "Log in to Linear",
-      "Text attribution and agent-assisted editing",
-      "Refreshed issue sidebar⁠",
+      "Lessons from Shopify⁠",
+      "A manifesto for building products⁠",
+      "Making work legible at Opendoor⁠",
+      "Tools shape how you work⁠",
+      "Opendoor chose to start fresh⁠",
       "Not found",
       "Create issues",
       "Overview⁠",
-      "Create an issue⁠",
-      "Create an issue via email⁠",
-      "Create recurring issues⁠",
-      "Create a recurring issue⁠"
+      "Create an issue⁠"
     ],
     "patternCandidates": [
       "Search",
@@ -1157,7 +2166,8 @@
       "Messaging",
       "Authentication",
       "Filters",
-      "Modal dialogs"
+      "Modal dialogs",
+      "Checkout"
     ],
     "platformsDetected": [
       "web",
@@ -1167,6 +2177,6 @@
       "desktop",
       "android"
     ],
-    "summary": "Captured 34 screenshots across 16 public URLs. Nav signals: Product, Resources, Customers, Pricing, Now, Contact. Tech signals: React, Next.js, GraphQL, Intercom, Zendesk, Vite. UI patterns: Search, Pricing display, Map view, Tabs, Menus, Dashboard."
+    "summary": "Captured 57 screenshots across 18 public URLs. Nav signals: Product, Resources, Customers, Pricing, Now, Contact. Tech signals: React, Next.js, GraphQL, Shopify, Intercom, Zendesk. UI patterns: Search, Pricing display, Map view, Tabs, Menus, Dashboard."
   }
 }

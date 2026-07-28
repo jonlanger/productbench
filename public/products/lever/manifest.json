@@ -1,1104 +1,181 @@
 {
   "slug": "lever",
-  "capturedAt": "2026-07-27T13:57:33.253Z",
+  "capturedAt": "2026-07-27T23:04:00.615Z",
   "shots": [
     {
-      "file": "homepage.jpg",
-      "title": "Home",
-      "caption": "Lever public homepage (top of page)",
-      "kind": "homepage",
-      "sourceUrl": "https://www.lever.co/"
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://www.lever.co",
+      "capturedAt": "2026-07-27T23:03:55.491Z",
+      "playbookStep": "web-fallback",
+      "width": 1024,
+      "height": 1024,
+      "phash": "8282066969048280",
+      "unique": true
     },
     {
-      "file": "homepage-top.jpg",
-      "title": "Homepage depth (1)",
-      "caption": "Lever homepage scrolled sections",
+      "file": "fallback-appstore-1608199861-1.jpg",
+      "title": "LEVER - Running, Injury Rehab screenshot 1",
+      "caption": "Apple App Store public screenshot (id 1608199861)",
       "kind": "product",
-      "sourceUrl": "https://www.lever.co/"
+      "sourceUrl": "https://apps.apple.com/app/id1608199861",
+      "capturedAt": "2026-07-27T23:03:55.491Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "e848098d9c2d1ce6",
+      "unique": true
     },
     {
-      "file": "homepage-mid.jpg",
-      "title": "Homepage depth (2)",
-      "caption": "Lever homepage scrolled sections",
+      "file": "fallback-appstore-1608199861-2.jpg",
+      "title": "LEVER - Running, Injury Rehab screenshot 2",
+      "caption": "Apple App Store public screenshot (id 1608199861)",
       "kind": "product",
-      "sourceUrl": "https://www.lever.co/"
+      "sourceUrl": "https://apps.apple.com/app/id1608199861",
+      "capturedAt": "2026-07-27T23:03:55.491Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "a6eca2a296a2aaaa",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
-      "title": "Homepage depth (3)",
-      "caption": "Lever homepage scrolled sections",
+      "file": "fallback-appstore-1608199861-3.jpg",
+      "title": "LEVER - Running, Injury Rehab screenshot 3",
+      "caption": "Apple App Store public screenshot (id 1608199861)",
       "kind": "product",
-      "sourceUrl": "https://www.lever.co/"
+      "sourceUrl": "https://apps.apple.com/app/id1608199861",
+      "capturedAt": "2026-07-27T23:03:55.491Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "41e8b2a22ab286ba",
+      "unique": true
     },
     {
-      "file": "homepage-mobile.jpg",
-      "title": "Homepage mobile",
-      "caption": "Lever homepage at mobile viewport",
+      "file": "fallback-appstore-1608199861-5.jpg",
+      "title": "LEVER - Running, Injury Rehab screenshot 5",
+      "caption": "Apple App Store public screenshot (id 1608199861)",
       "kind": "product",
-      "sourceUrl": "https://www.lever.co/"
+      "sourceUrl": "https://apps.apple.com/app/id1608199861",
+      "capturedAt": "2026-07-27T23:03:55.491Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "69e896baa2babaa2",
+      "unique": true
     },
     {
-      "file": "sign-in.jpg",
-      "title": "Sign in",
-      "caption": "Sign in / log in UI on Lever (pattern only — no credentials)",
-      "kind": "component",
-      "sourceUrl": "https://www.lever.co/"
-    },
-    {
-      "file": "nav-3.jpg",
-      "title": "In-product nav (1)",
-      "caption": "Same-origin product / pricing / docs links from Lever",
+      "file": "fallback-appstore-1608199861-6.jpg",
+      "title": "LEVER - Running, Injury Rehab screenshot 6",
+      "caption": "Apple App Store public screenshot (id 1608199861)",
       "kind": "product",
-      "sourceUrl": "https://www.lever.co/blog/the-next-wave-of-ai-how-lever-and-linkedin-are-leading-the-way-with-connected-ai-capabilities"
+      "sourceUrl": "https://apps.apple.com/app/id1608199861",
+      "capturedAt": "2026-07-27T23:03:55.491Z",
+      "playbookStep": "web-fallback",
+      "width": 392,
+      "height": 696,
+      "phash": "82e0b62b2eaeb226",
+      "unique": true
     },
     {
-      "file": "nav-4.jpg",
-      "title": "In-product nav (2)",
-      "caption": "Same-origin product / pricing / docs links from Lever",
+      "file": "fallback-appstore-1608199861-7.jpg",
+      "title": "LEVER - Running, Injury Rehab screenshot 7",
+      "caption": "Apple App Store public screenshot (id 1608199861)",
       "kind": "product",
-      "sourceUrl": "https://www.lever.co/blog/the-next-wave-of-ai-how-lever-and-linkedin-are-leading-the-way-with-connected-ai-capabilities"
+      "sourceUrl": "https://apps.apple.com/app/id1608199861",
+      "capturedAt": "2026-07-27T23:03:55.491Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "c8290b8e8db98850",
+      "unique": true
     },
     {
-      "file": "nav-5.jpg",
-      "title": "In-product nav (3)",
-      "caption": "Same-origin product / pricing / docs links from Lever",
+      "file": "fallback-appstore-1608199861-8.jpg",
+      "title": "LEVER - Running, Injury Rehab screenshot 8",
+      "caption": "Apple App Store public screenshot (id 1608199861)",
       "kind": "product",
-      "sourceUrl": "https://www.lever.co/blog/the-next-wave-of-ai-how-lever-and-linkedin-are-leading-the-way-with-connected-ai-capabilities"
+      "sourceUrl": "https://apps.apple.com/app/id1608199861",
+      "capturedAt": "2026-07-27T23:03:55.491Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "0cb2b22bb6b2a6a2",
+      "unique": true
     },
     {
-      "file": "surface-2.jpg",
-      "title": "Settings (1)",
-      "caption": "Lever public surface · lever.co",
+      "file": "fallback-appstore-1608199861-9.jpg",
+      "title": "LEVER - Running, Injury Rehab screenshot 9",
+      "caption": "Apple App Store public screenshot (id 1608199861)",
       "kind": "product",
-      "sourceUrl": "https://www.lever.co/product"
+      "sourceUrl": "https://apps.apple.com/app/id1608199861",
+      "capturedAt": "2026-07-27T23:03:55.491Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "c4ccb2232b69b28e",
+      "unique": true
     },
     {
-      "file": "surface-2-mid.jpg",
-      "title": "Settings (2)",
-      "caption": "Lever public surface · lever.co",
+      "file": "fallback-appstore-1608199861-10.jpg",
+      "title": "LEVER - Running, Injury Rehab screenshot 10",
+      "caption": "Apple App Store public screenshot (id 1608199861)",
       "kind": "product",
-      "sourceUrl": "https://www.lever.co/product"
+      "sourceUrl": "https://apps.apple.com/app/id1608199861",
+      "capturedAt": "2026-07-27T23:03:55.491Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "30f0ba0baaba8e96",
+      "unique": true
     },
     {
-      "file": "surface-3.jpg",
-      "title": "Search (1)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/products"
+      "file": "fallback-appstore-1608199861-11.jpg",
+      "title": "LEVER - Running, Injury Rehab screenshot 11",
+      "caption": "Apple App Store public screenshot (id 1608199861)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1608199861",
+      "capturedAt": "2026-07-27T23:03:55.491Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "10f0b233baa6baba",
+      "unique": true
     },
     {
-      "file": "surface-3-mid.jpg",
-      "title": "Search (2)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/products"
-    },
-    {
-      "file": "surface-4.jpg",
-      "title": "Profile (1)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/talent-suite"
-    },
-    {
-      "file": "surface-4-mid.jpg",
-      "title": "Profile (2)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/talent-suite"
-    },
-    {
-      "file": "surface-5.jpg",
-      "title": "Supporting surface 5 (1)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/platform"
-    },
-    {
-      "file": "surface-5-mid.jpg",
-      "title": "Supporting surface 5 (2)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/platform"
-    },
-    {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6 (1)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/applicant-tracking-system"
-    },
-    {
-      "file": "surface-6-mid.jpg",
-      "title": "Supporting surface 6 (2)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/applicant-tracking-system"
-    },
-    {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7 (1)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/case-studies"
-    },
-    {
-      "file": "surface-7-mid.jpg",
-      "title": "Supporting surface 7 (2)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/case-studies"
-    },
-    {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8 (1)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/docs"
-    },
-    {
-      "file": "surface-8-mid.jpg",
-      "title": "Supporting surface 8 (2)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/docs"
-    },
-    {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9 (1)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/help"
-    },
-    {
-      "file": "surface-9-mid.jpg",
-      "title": "Supporting surface 9 (2)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/help"
-    },
-    {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10 (1)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/blog"
-    },
-    {
-      "file": "surface-10-mid.jpg",
-      "title": "Supporting surface 10 (2)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/blog"
-    },
-    {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11 (1)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.employinc.com/company/"
-    },
-    {
-      "file": "surface-11-mid.jpg",
-      "title": "Supporting surface 11 (2)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.employinc.com/company/"
-    },
-    {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12 (1)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/login"
-    },
-    {
-      "file": "surface-12-mid.jpg",
-      "title": "Supporting surface 12 (2)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/login"
-    },
-    {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13 (1)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/signin"
-    },
-    {
-      "file": "surface-13-mid.jpg",
-      "title": "Supporting surface 13 (2)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/signin"
-    },
-    {
-      "file": "surface-14.jpg",
-      "title": "Supporting surface 14 (1)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/sign-in"
-    },
-    {
-      "file": "surface-14-mid.jpg",
-      "title": "Supporting surface 14 (2)",
-      "caption": "Lever public surface · lever.co",
-      "kind": "docs",
-      "sourceUrl": "https://www.lever.co/sign-in"
+      "file": "fallback-appstore-1608199861-12.jpg",
+      "title": "LEVER - Running, Injury Rehab screenshot 12",
+      "caption": "Apple App Store public screenshot (id 1608199861)",
+      "kind": "product",
+      "sourceUrl": "https://apps.apple.com/app/id1608199861",
+      "capturedAt": "2026-07-27T23:03:55.491Z",
+      "playbookStep": "web-fallback",
+      "width": 576,
+      "height": 768,
+      "phash": "82e8ba2b3baebc32",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-27T13:57:33.253Z",
-    "screenshotCount": 35,
-    "pageCount": 15,
-    "pages": [
-      {
-        "url": "https://www.lever.co/",
-        "title": "Lever | Modern Recruiting Software & ATS",
-        "description": "Lever is modern recruiting software that combines ATS and CRM capabilities to help scaling teams nurture talent relationships and hire efficiently.",
-        "headings": [
-          "Hiring That Doesn't Hijack Your Week",
-          "An ATS That Works Overtime (So You Don't Have To)",
-          "Your Hiring Problems, Solved by Our Intelligent Solutions",
-          "Get Your Time Back",
-          "More Clarity, Less Guesswork",
-          "Catch Fraud Before It Costs You",
-          "Stay Ahead Without Burning Out",
-          "20+ Industries. Thousands of Customers. Powered by Collective Intelligence.",
-          "Trusted by the Best in the Biz",
-          "Powered by the Hiring Heroes Who Matter Most",
-          "Trending Reads of Winning Teams",
-          "The Great Pause, Trust, and Why Candidates Are Thinking Twice",
-          "Lever FAQs: Your Questions, Answered",
-          "Less Chaos. Better Decisions. Home for Dinner.",
-          "Products",
-          "Explore",
-          "Compare & Choose",
-          "Company",
-          "Support",
-          "Connect with Us"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Can I book a demo of Lever?",
-          "Get a Demo",
-          "Request a demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.lever.co/blog/the-next-wave-of-ai-how-lever-and-linkedin-are-leading-the-way-with-connected-ai-capabilities",
-        "title": "How Lever & LinkedIn Are Leading the Way with Trusted, Connected AI Capabilities | Lever",
-        "description": "Learn how LinkedIn RSC+ for Hiring Assistant within Lever helps organizations create a more connected, streamlined hiring process.  ",
-        "headings": [
-          "AI Promised to Make Hiring Easier. So Why Does Hiring Feel Harder?",
-          "Capabilities Make Tasks Faster. Connection Makes Hiring Better.",
-          "Sourcing in Minutes, Not Hours",
-          "Finding Real Fit Across Your Entire Pipeline",
-          "Connecting the Dots",
-          "Why AI-Powered Hiring Doesn’t Work Without Trust",
-          "Lever + LinkedIn = AI That Works for Recruiters",
-          "Table of Contents",
-          "Products",
-          "Explore",
-          "Compare & Choose",
-          "Company",
-          "Support",
-          "Connect with Us"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing",
-          "Home",
-          "Blog",
-          "AI & Technology",
-          "Talent Acquisition",
-          "Bri Fredriksen",
-          "AI Promised to Make Hiring Easier. So Why Does Hiring Feel Harder?",
-          "Capabilities Make Tasks Faster. Connection Makes Hiring Better.",
-          "Sourcing in Minutes, Not Hours",
-          "Finding Real Fit Across Your Entire Pipeline",
-          "Connecting the Dots",
-          "Why AI-Powered Hiring Doesn’t Work Without Trust",
-          "Lever + LinkedIn = AI That Works for Recruiters"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Request a demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "nav:Breadcrumb",
-          "aside",
-          "nav",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.lever.co/product",
-        "title": "Lever | AI-Powered Hiring Platform",
-        "description": "Lever is modern recruiting software that combines ATS and CRM capabilities to help scaling teams nurture talent relationships and hire efficiently.",
-        "headings": [
-          "44",
-          "We couldn’t locate that page.",
-          "Why Lever",
-          "Solutions",
-          "Pricing",
-          "Request a Demo",
-          "Products",
-          "Explore",
-          "Compare & Choose",
-          "Company",
-          "Support",
-          "Connect with Us"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Pricing→Tailored plans built around your hiring needs.",
-          "Request a Demo→See Lever in action with our team.",
-          "Request a demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.lever.co/products",
-        "title": "Lever | AI-Powered Hiring Platform",
-        "description": "Lever is modern recruiting software that combines ATS and CRM capabilities to help scaling teams nurture talent relationships and hire efficiently.",
-        "headings": [
-          "44",
-          "We couldn’t locate that page.",
-          "Why Lever",
-          "Solutions",
-          "Pricing",
-          "Request a Demo",
-          "Products",
-          "Explore",
-          "Compare & Choose",
-          "Company",
-          "Support",
-          "Connect with Us"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Pricing→Tailored plans built around your hiring needs.",
-          "Request a Demo→See Lever in action with our team.",
-          "Request a demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.lever.co/talent-suite",
-        "title": "Lever | AI-Powered Hiring Platform",
-        "description": "Lever is modern recruiting software that combines ATS and CRM capabilities to help scaling teams nurture talent relationships and hire efficiently.",
-        "headings": [
-          "44",
-          "We couldn’t locate that page.",
-          "Why Lever",
-          "Solutions",
-          "Pricing",
-          "Request a Demo",
-          "Products",
-          "Explore",
-          "Compare & Choose",
-          "Company",
-          "Support",
-          "Connect with Us"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Pricing→Tailored plans built around your hiring needs.",
-          "Request a Demo→See Lever in action with our team.",
-          "Request a demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.lever.co/platform",
-        "title": "Lever | AI-Powered Hiring Platform",
-        "description": "Lever is modern recruiting software that combines ATS and CRM capabilities to help scaling teams nurture talent relationships and hire efficiently.",
-        "headings": [
-          "44",
-          "We couldn’t locate that page.",
-          "Why Lever",
-          "Solutions",
-          "Pricing",
-          "Request a Demo",
-          "Products",
-          "Explore",
-          "Compare & Choose",
-          "Company",
-          "Support",
-          "Connect with Us"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Pricing→Tailored plans built around your hiring needs.",
-          "Request a Demo→See Lever in action with our team.",
-          "Request a demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.lever.co/applicant-tracking-system",
-        "title": "A Powerful Applicant Tracking System | LeverTRM | Lever",
-        "description": "Lever is an advanced applicant tracking system (ATS) that combines candidate management and analytic capabilities, so your TA team can take a proactive approach to workforce planning.",
-        "headings": [
-          "A Powerful ATSfor Hiring Top Talent",
-          "An ATS That Works Overtime (So You Don't Have To)",
-          "ATS Software with CRM Capabilities",
-          "AI That Clears the Way",
-          "Visualize Your Talent Team's Performance",
-          "Connect with Your TA and HR Tech Stack",
-          "How Our ATS Helps Real Companies",
-          "What Recruiters Say About Lever",
-          "Upgrade Your Hiring Stack with Lever",
-          "Trending Reads of Winning Teams",
-          "The Great Pause, Trust, and Why Candidates Are Thinking Twice",
-          "Products",
-          "Explore",
-          "Compare & Choose",
-          "Company",
-          "Support",
-          "Connect with Us"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing",
-          "Home"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Get a Demo",
-          "Request a demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "nav:Breadcrumb",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.lever.co/case-studies",
-        "title": "Hiring Case Studies | Lever",
-        "description": "See how companies use Lever to transform their talent acquisition. Real stories, real results.",
-        "headings": [
-          "Real results, proven impact",
-          "How Royal Ambulance Scaled Healthcare Hiring with Lever and UKG",
-          "How EnableComp Built a Scalable Recruiting Engine With Lever",
-          "How DREAM Charter Schools Build Authentic Teams",
-          "How LeverTRM Supported Rapid Growth at Celerion",
-          "Insomnia Cookies Speeds Up Hiring Process with LeverTRM for Enterprise",
-          "How Entrata Scales Globally with LeverTRM for Enterprise",
-          "How Mastery Charter Schools Reduced Time to Hire by 29% with LeverTRM",
-          "How LeverTRM Powers Global Growth for Mitek Systems",
-          "How LeverTRM for Enterprise Helps Hot Topic Reduce Candidate Drop-off by 300%",
-          "How LeverTRM for Enterprise Supports Numan Growth Journey",
-          "Coupa Automated 21 Workflows and Hired 500+ in Less Than 6 Months",
-          "How Kinsta Fast-Tracked Hiring with LeverTRM",
-          "Aircall Powers Hiring with LeverTRM for Enterprise",
-          "Autify Simplifies Hiring Process by Using LeverTRM",
-          "Samba TV Eliminates Hiring Bottlenecks with LeverTRM",
-          "Voro Uses LeverTRM to Speed Up Its Time to Hire",
-          "How BenchSci Boosts Efficiency and Collaboration with LeverTRM and Hibob",
-          "Lever Uses Own Talent Acquisition Suite to Drive Hiring",
-          "15Five Enables Fair Hiring Practices with 90% Interview Feedback Rate"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Request a Demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.lever.co/docs",
-        "title": "Lever | AI-Powered Hiring Platform",
-        "description": "Lever is modern recruiting software that combines ATS and CRM capabilities to help scaling teams nurture talent relationships and hire efficiently.",
-        "headings": [
-          "44",
-          "We couldn’t locate that page.",
-          "Why Lever",
-          "Solutions",
-          "Pricing",
-          "Request a Demo",
-          "Products",
-          "Explore",
-          "Compare & Choose",
-          "Company",
-          "Support",
-          "Connect with Us"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Pricing→Tailored plans built around your hiring needs.",
-          "Request a Demo→See Lever in action with our team.",
-          "Request a demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.lever.co/help",
-        "title": "Lever | AI-Powered Hiring Platform",
-        "description": "Lever is modern recruiting software that combines ATS and CRM capabilities to help scaling teams nurture talent relationships and hire efficiently.",
-        "headings": [
-          "44",
-          "We couldn’t locate that page.",
-          "Why Lever",
-          "Solutions",
-          "Pricing",
-          "Request a Demo",
-          "Products",
-          "Explore",
-          "Compare & Choose",
-          "Company",
-          "Support",
-          "Connect with Us"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Pricing→Tailored plans built around your hiring needs.",
-          "Request a Demo→See Lever in action with our team.",
-          "Request a demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.lever.co/blog",
-        "title": "Hiring Insights & Trends Blog | Lever",
-        "description": "Fresh ideas, proven strategies, and real-world advice for building better teams.",
-        "headings": [
-          "Hiring Insights & Trends—Straight from the Pros",
-          "The Great Pause, Trust, and Why Candidates Are Thinking Twice",
-          "What Everyone's Reading",
-          "Job Seeker Nation 2026: Why Hiring Has a Trust Problem",
-          "How TA Leaders Can Measure Recruiter Productivity",
-          "Find Your Next Great Read",
-          "The Growing Gap Between Candidate Experience and Candidate Perception",
-          "The 2026 Recruiter Pressure Index: A State-by-State Map of the Talent War",
-          "People Actually Recap: What We Learned from Episodes 4 and 5",
-          "From Credentials to Capability: Why Skills-Based Hiring Is Replacing Resumes",
-          "What the Rise in AI-Powered Candidate Fraud Really Means for TA Teams",
-          "CAB Conversations: What TA Pros Told Us (And What We’re Doing Next)",
-          "Products",
-          "Explore",
-          "Compare & Choose",
-          "Company"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing",
-          "Previous",
-          "35",
-          "Next"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Request a demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "nav:Blog pagination",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.employinc.com/company/",
-        "title": "Building the Future of Recruiting | Employ, Inc.",
-        "description": "Employ, Inc. powers JazzHR, Lever, and Jobvite—innovative recruiting platforms that help organizations hire smarter and faster.",
-        "headings": [
-          "Building the future of recruiting.",
-          "Award-Winning Recruiting Solutions",
-          "Intelligent Hiring.It’s in our DNA.",
-          "Serving businesses of all sizes, no matter what stage of growth they’re in.",
-          "Spotlight on Diversity, Equality, and Inclusion",
-          "Team members across Employ",
-          "Employ Executive Leadership Team",
-          "Jerry Jao",
-          "Amanda Berger",
-          "Dara Brenner",
-          "Stephanie Manzelli",
-          "Patrick (PJ) Jean",
-          "Matthew Piercy",
-          "Eric Waldinger",
-          "That’s because your hiring needs are the center of our recruiting solutions"
-        ],
-        "navLabels": [
-          "Sales: (888) 885.5299",
-          ".cls-1 { fill: #fff; }",
-          "Menu",
-          "Products",
-          "AI Companions",
-          "AI Interview Companion",
-          "AI Screening Companion",
-          "AI Sourcing Companion",
-          "ATS",
-          "JazzHR",
-          "Lever",
-          "Jobvite",
-          "See Product Guide",
-          "Partners",
-          "Resources",
-          "Learn",
-          "Blog",
-          "Compare ATS Platforms",
-          "AI Governance Whitepaper",
-          "2025 Recruiter Nation Report",
-          "Responsible AI",
-          "Innovation",
-          "Connect",
-          "Events"
-        ],
-        "ctas": [
-          "Contact Us",
-          "Join our team!",
-          "Request Demo",
-          "Explore",
-          "Request a demo"
-        ],
-        "landmarks": [
-          "dialog:Customise Consent Preferences",
-          "header",
-          "navigation",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.lever.co/login",
-        "title": "Lever | AI-Powered Hiring Platform",
-        "description": "Lever is modern recruiting software that combines ATS and CRM capabilities to help scaling teams nurture talent relationships and hire efficiently.",
-        "headings": [
-          "44",
-          "We couldn’t locate that page.",
-          "Why Lever",
-          "Solutions",
-          "Pricing",
-          "Request a Demo",
-          "Products",
-          "Explore",
-          "Compare & Choose",
-          "Company",
-          "Support",
-          "Connect with Us"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Pricing→Tailored plans built around your hiring needs.",
-          "Request a Demo→See Lever in action with our team.",
-          "Request a demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.lever.co/signin",
-        "title": "Lever | AI-Powered Hiring Platform",
-        "description": "Lever is modern recruiting software that combines ATS and CRM capabilities to help scaling teams nurture talent relationships and hire efficiently.",
-        "headings": [
-          "44",
-          "We couldn’t locate that page.",
-          "Why Lever",
-          "Solutions",
-          "Pricing",
-          "Request a Demo",
-          "Products",
-          "Explore",
-          "Compare & Choose",
-          "Company",
-          "Support",
-          "Connect with Us"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Pricing→Tailored plans built around your hiring needs.",
-          "Request a Demo→See Lever in action with our team.",
-          "Request a demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://www.lever.co/sign-in",
-        "title": "Lever | AI-Powered Hiring Platform",
-        "description": "Lever is modern recruiting software that combines ATS and CRM capabilities to help scaling teams nurture talent relationships and hire efficiently.",
-        "headings": [
-          "44",
-          "We couldn’t locate that page.",
-          "Why Lever",
-          "Solutions",
-          "Pricing",
-          "Request a Demo",
-          "Products",
-          "Explore",
-          "Compare & Choose",
-          "Company",
-          "Support",
-          "Connect with Us"
-        ],
-        "navLabels": [
-          "Sign In",
-          "Solutions",
-          "Compare",
-          "Resources",
-          "Company",
-          "Request Demo",
-          "Pricing"
-        ],
-        "ctas": [
-          "Sign In",
-          "Request Demo",
-          "Pricing",
-          "Pricing→Tailored plans built around your hiring needs.",
-          "Request a Demo→See Lever in action with our team.",
-          "Request a demo",
-          "Contact Us"
-        ],
-        "landmarks": [
-          "dialog:Privacy Preference Center",
-          "header",
-          "navigation:Main navigation",
-          "main",
-          "footer"
-        ]
-      }
-    ],
-    "navLabels": [
-      "Sign In",
-      "Solutions",
-      "Compare",
-      "Resources",
-      "Company",
-      "Request Demo",
-      "Pricing",
-      "Home",
-      "Blog",
-      "AI & Technology",
-      "Talent Acquisition",
-      "Bri Fredriksen",
-      "AI Promised to Make Hiring Easier. So Why Does Hiring Feel Harder?",
-      "Capabilities Make Tasks Faster. Connection Makes Hiring Better.",
-      "Sourcing in Minutes, Not Hours",
-      "Finding Real Fit Across Your Entire Pipeline",
-      "Connecting the Dots",
-      "Why AI-Powered Hiring Doesn’t Work Without Trust",
-      "Lever + LinkedIn = AI That Works for Recruiters",
-      "Previous",
-      "35",
-      "Next",
-      "Sales: (888) 885.5299",
-      ".cls-1 { fill: #fff; }",
-      "Menu",
-      "Products",
-      "AI Companions",
-      "AI Interview Companion",
-      "AI Screening Companion",
-      "AI Sourcing Companion"
-    ],
-    "ctas": [
-      "Sign In",
-      "Request Demo",
-      "Pricing",
-      "Can I book a demo of Lever?",
-      "Get a Demo",
-      "Request a demo",
-      "Contact Us",
-      "Pricing→Tailored plans built around your hiring needs.",
-      "Request a Demo→See Lever in action with our team.",
-      "Join our team!",
-      "Explore"
-    ],
-    "headings": [
-      "Hiring That Doesn't Hijack Your Week",
-      "An ATS That Works Overtime (So You Don't Have To)",
-      "Your Hiring Problems, Solved by Our Intelligent Solutions",
-      "Get Your Time Back",
-      "More Clarity, Less Guesswork",
-      "Catch Fraud Before It Costs You",
-      "Stay Ahead Without Burning Out",
-      "20+ Industries. Thousands of Customers. Powered by Collective Intelligence.",
-      "Trusted by the Best in the Biz",
-      "Powered by the Hiring Heroes Who Matter Most",
-      "Trending Reads of Winning Teams",
-      "The Great Pause, Trust, and Why Candidates Are Thinking Twice",
-      "Lever FAQs: Your Questions, Answered",
-      "Less Chaos. Better Decisions. Home for Dinner.",
-      "Products",
-      "Explore",
-      "Compare & Choose",
-      "Company",
-      "Support",
-      "Connect with Us",
-      "AI Promised to Make Hiring Easier. So Why Does Hiring Feel Harder?",
-      "Capabilities Make Tasks Faster. Connection Makes Hiring Better.",
-      "Sourcing in Minutes, Not Hours",
-      "Finding Real Fit Across Your Entire Pipeline",
-      "Connecting the Dots",
-      "Why AI-Powered Hiring Doesn’t Work Without Trust",
-      "Lever + LinkedIn = AI That Works for Recruiters",
-      "Table of Contents",
-      "44",
-      "We couldn’t locate that page."
-    ],
-    "techSignals": [
-      "Next.js",
-      "Webpack",
-      "Vite",
-      "Segment",
-      "Google Tag Manager"
-    ],
-    "featureCandidates": [
-      "Hiring That Doesn't Hijack Your Week",
-      "Get Your Time Back",
-      "More Clarity, Less Guesswork",
-      "Catch Fraud Before It Costs You",
-      "Stay Ahead Without Burning Out",
-      "Trusted by the Best in the Biz",
-      "Powered by the Hiring Heroes Who Matter Most",
-      "Trending Reads of Winning Teams",
-      "Lever FAQs: Your Questions, Answered",
-      "Less Chaos. Better Decisions. Home for Dinner.",
-      "Products",
-      "Explore",
-      "Compare & Choose",
-      "Company",
-      "Support",
-      "Connect with Us",
-      "Sourcing in Minutes, Not Hours",
-      "Finding Real Fit Across Your Entire Pipeline",
-      "Connecting the Dots",
-      "Lever + LinkedIn = AI That Works for Recruiters",
-      "Table of Contents",
-      "We couldn’t locate that page.",
-      "Request Demo",
-      "Pricing"
-    ],
-    "patternCandidates": [
-      "Search",
-      "Pricing display",
-      "Card layout",
-      "Messaging",
-      "Calendar",
-      "Authentication",
-      "Tabs",
-      "Dashboard",
-      "Filters",
-      "Map view"
-    ],
+    "capturedAt": "2026-07-27T23:04:00.615Z",
+    "screenshotCount": 12,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
     "platformsDetected": [
-      "web",
-      "api"
+      "web"
     ],
-    "summary": "Captured 35 screenshots across 15 public URLs. Nav signals: Sign In, Solutions, Compare, Resources, Company, Request Demo. Tech signals: Next.js, Webpack, Vite, Segment, Google Tag Manager. UI patterns: Search, Pricing display, Card layout, Messaging, Calendar, Authentication."
+    "summary": "Captured 12 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
   }
 }

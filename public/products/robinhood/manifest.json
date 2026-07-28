@@ -1,208 +1,614 @@
 {
   "slug": "robinhood",
-  "capturedAt": "2026-07-26T22:18:52.530Z",
+  "capturedAt": "2026-07-27T22:31:09.420Z",
   "shots": [
     {
       "file": "homepage.jpg",
       "title": "Home portfolio",
       "caption": "Robinhood public homepage (top of page)",
       "kind": "homepage",
-      "sourceUrl": "https://robinhood.com/us/en/"
+      "sourceUrl": "https://robinhood.com/us/en/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "homepage",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
+      "width": 1440,
+      "height": 900,
+      "phash": "1b707171d212382c",
+      "unique": true
     },
     {
       "file": "homepage-top.jpg",
       "title": "Homepage depth (1)",
       "caption": "Robinhood homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://robinhood.com/us/en/"
+      "sourceUrl": "https://robinhood.com/us/en/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
+      "width": 1440,
+      "height": 900,
+      "phash": "89f8f1b0b0b03a30",
+      "unique": true
     },
     {
-      "file": "homepage-mid.jpg",
+      "file": "homepage-band-2.jpg",
       "title": "Homepage depth (2)",
       "caption": "Robinhood homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://robinhood.com/us/en/"
+      "sourceUrl": "https://robinhood.com/us/en/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
+      "width": 1440,
+      "height": 900,
+      "phash": "2bf86a607030cccc",
+      "unique": true
     },
     {
-      "file": "homepage-lower.jpg",
+      "file": "homepage-band-3.jpg",
       "title": "Homepage depth (3)",
       "caption": "Robinhood homepage scrolled sections",
       "kind": "product",
-      "sourceUrl": "https://robinhood.com/us/en/"
+      "sourceUrl": "https://robinhood.com/us/en/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
+      "width": 1440,
+      "height": 900,
+      "phash": "4bcccc6a62c8ccec",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-4.jpg",
+      "title": "Homepage depth (4)",
+      "caption": "Robinhood homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://robinhood.com/us/en/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
+      "width": 1440,
+      "height": 900,
+      "phash": "ccec01b0c8587878",
+      "unique": true
+    },
+    {
+      "file": "homepage-band-5.jpg",
+      "title": "Homepage depth (5)",
+      "caption": "Robinhood homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://robinhood.com/us/en/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
+      "width": 1440,
+      "height": 900,
+      "phash": "797878fc1f362767",
+      "unique": true
+    },
+    {
+      "file": "homepage-lower.jpg",
+      "title": "Homepage depth (6)",
+      "caption": "Robinhood homepage scrolled sections",
+      "kind": "product",
+      "sourceUrl": "https://robinhood.com/us/en/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "homepage-scroll",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
+      "width": 1440,
+      "height": 900,
+      "phash": "036525a527ee1d13",
+      "unique": true
     },
     {
       "file": "homepage-mobile.jpg",
       "title": "Homepage mobile",
       "caption": "Robinhood homepage at mobile viewport",
       "kind": "product",
-      "sourceUrl": "https://robinhood.com/us/en/"
+      "sourceUrl": "https://robinhood.com/us/en/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "homepage-mobile",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
+      "width": 390,
+      "height": 844,
+      "phash": "8ce4cce478b80141",
+      "unique": true
     },
     {
       "file": "sign-in.jpg",
       "title": "Sign in",
       "caption": "Sign in / log in UI on Robinhood (pattern only — no credentials)",
       "kind": "component",
-      "sourceUrl": "https://robinhood.com/signup"
+      "sourceUrl": "https://robinhood.com/signup",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "sign-in",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "What’s your email address? | Robinhood",
+      "width": 1440,
+      "height": 900,
+      "phash": "0088881080809c9b",
+      "unique": true
     },
     {
       "file": "nav-1.jpg",
       "title": "In-product nav (1)",
       "caption": "Same-origin product / pricing / docs links from Robinhood",
       "kind": "product",
-      "sourceUrl": "https://robinhood.com/us/en/about/futures/"
+      "sourceUrl": "https://robinhood.com/login/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log In | Robinhood",
+      "width": 1440,
+      "height": 900,
+      "phash": "1368f9cc33b13e06",
+      "unique": true
     },
     {
       "file": "nav-2.jpg",
       "title": "In-product nav (2)",
       "caption": "Same-origin product / pricing / docs links from Robinhood",
       "kind": "product",
-      "sourceUrl": "https://robinhood.com/us/en/about/futures/"
+      "sourceUrl": "https://robinhood.com/login/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log In | Robinhood",
+      "width": 1440,
+      "height": 900,
+      "phash": "3b362f474f4f7367",
+      "unique": true
     },
     {
       "file": "nav-3.jpg",
       "title": "In-product nav (3)",
       "caption": "Same-origin product / pricing / docs links from Robinhood",
       "kind": "product",
-      "sourceUrl": "https://robinhood.com/us/en/about/futures/"
+      "sourceUrl": "https://robinhood.com/login/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log In | Robinhood",
+      "width": 1440,
+      "height": 900,
+      "phash": "0b06a68589292949",
+      "unique": true
     },
     {
       "file": "nav-4.jpg",
       "title": "In-product nav (4)",
       "caption": "Same-origin product / pricing / docs links from Robinhood",
       "kind": "product",
-      "sourceUrl": "https://robinhood.com/us/en/about/futures/"
+      "sourceUrl": "https://robinhood.com/login/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log In | Robinhood",
+      "width": 1440,
+      "height": 900,
+      "phash": "0b808c8c88a93631",
+      "unique": true
     },
     {
       "file": "nav-5.jpg",
       "title": "In-product nav (5)",
       "caption": "Same-origin product / pricing / docs links from Robinhood",
       "kind": "product",
-      "sourceUrl": "https://robinhood.com/us/en/about/futures/"
+      "sourceUrl": "https://robinhood.com/login/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log In | Robinhood",
+      "width": 1440,
+      "height": 900,
+      "phash": "1b64797070b4b6b0",
+      "unique": true
+    },
+    {
+      "file": "nav-7.jpg",
+      "title": "In-product nav (7)",
+      "caption": "Same-origin product / pricing / docs links from Robinhood",
+      "kind": "product",
+      "sourceUrl": "https://robinhood.com/login/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log In | Robinhood",
+      "width": 1440,
+      "height": 900,
+      "phash": "e416164064607070",
+      "unique": true
+    },
+    {
+      "file": "nav-8.jpg",
+      "title": "In-product nav (8)",
+      "caption": "Same-origin product / pricing / docs links from Robinhood",
+      "kind": "product",
+      "sourceUrl": "https://robinhood.com/login/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log In | Robinhood",
+      "width": 1440,
+      "height": 900,
+      "phash": "240368e000e01696",
+      "unique": true
+    },
+    {
+      "file": "nav-9.jpg",
+      "title": "In-product nav (9)",
+      "caption": "Same-origin product / pricing / docs links from Robinhood",
+      "kind": "product",
+      "sourceUrl": "https://robinhood.com/login/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "nav-links",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Log In | Robinhood",
+      "width": 1440,
+      "height": 900,
+      "phash": "80988299995988c0",
+      "unique": true
     },
     {
       "file": "surface-1.jpg",
       "title": "Asset detail (1)",
       "caption": "Robinhood public surface · robinhood.com",
       "kind": "product",
-      "sourceUrl": "https://robinhood.com/us/en/support/"
+      "sourceUrl": "https://robinhood.com/us/en/support/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "c6703c4a21005201",
+      "unique": true
     },
     {
-      "file": "surface-1-mid.jpg",
-      "title": "Asset detail (2)",
+      "file": "surface-1-band-2.jpg",
+      "title": "Asset detail (3)",
       "caption": "Robinhood public surface · robinhood.com",
       "kind": "product",
-      "sourceUrl": "https://robinhood.com/us/en/support/"
+      "sourceUrl": "https://robinhood.com/us/en/support/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "e651015252010052",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-3.jpg",
+      "title": "Asset detail (4)",
+      "caption": "Robinhood public surface · robinhood.com",
+      "kind": "product",
+      "sourceUrl": "https://robinhood.com/us/en/support/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "e6d2110152534952",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-4.jpg",
+      "title": "Asset detail (5)",
+      "caption": "Robinhood public surface · robinhood.com",
+      "kind": "product",
+      "sourceUrl": "https://robinhood.com/us/en/support/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "a600d20100521301",
+      "unique": true
+    },
+    {
+      "file": "surface-1-lower.jpg",
+      "title": "Asset detail (6)",
+      "caption": "Robinhood public surface · robinhood.com",
+      "kind": "product",
+      "sourceUrl": "https://robinhood.com/us/en/support/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-1",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "fa5a5a189811a0ec",
+      "unique": true
     },
     {
       "file": "surface-2.jpg",
       "title": "Order ticket (1)",
       "caption": "Robinhood public surface · robinhood.com",
       "kind": "product",
-      "sourceUrl": "https://robinhood.com/us/en/support/articles/"
+      "sourceUrl": "https://robinhood.com/us/en/support/articles/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "e40367634793992a",
+      "unique": true
     },
     {
-      "file": "surface-2-mid.jpg",
-      "title": "Order ticket (2)",
+      "file": "surface-2-band-2.jpg",
+      "title": "Order ticket (3)",
       "caption": "Robinhood public surface · robinhood.com",
       "kind": "product",
-      "sourceUrl": "https://robinhood.com/us/en/support/articles/"
+      "sourceUrl": "https://robinhood.com/us/en/support/articles/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "98bb6a3a9a5a5a58",
+      "unique": true
     },
     {
-      "file": "surface-3.jpg",
-      "title": "Watchlist",
-      "caption": "Robinhood public surface · cdn.robinhood.com",
-      "kind": "docs",
-      "sourceUrl": "https://cdn.robinhood.com/assets/robinhood/legal/"
+      "file": "surface-2-band-3.jpg",
+      "title": "Order ticket (4)",
+      "caption": "Robinhood public surface · robinhood.com",
+      "kind": "product",
+      "sourceUrl": "https://robinhood.com/us/en/support/articles/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-2",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood Support",
+      "width": 1440,
+      "height": 900,
+      "phash": "78585a585a1a1a5a",
+      "unique": true
     },
     {
       "file": "surface-4.jpg",
-      "title": "Account",
+      "title": "Account (1)",
       "caption": "Robinhood public surface · robinhood.com",
       "kind": "docs",
-      "sourceUrl": "https://robinhood.com/pricing"
+      "sourceUrl": "https://robinhood.com/pricing",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Page not found | Robinhood",
+      "width": 1440,
+      "height": 900,
+      "phash": "0267276700211010",
+      "unique": true
     },
     {
-      "file": "surface-5.jpg",
-      "title": "Discovery",
+      "file": "surface-4-lower.jpg",
+      "title": "Account (3)",
       "caption": "Robinhood public surface · robinhood.com",
       "kind": "docs",
-      "sourceUrl": "https://robinhood.com/product"
-    },
-    {
-      "file": "surface-6.jpg",
-      "title": "Supporting surface 6",
-      "caption": "Robinhood public surface · robinhood.com",
-      "kind": "docs",
-      "sourceUrl": "https://robinhood.com/products"
-    },
-    {
-      "file": "surface-7.jpg",
-      "title": "Supporting surface 7",
-      "caption": "Robinhood public surface · robinhood.com",
-      "kind": "docs",
-      "sourceUrl": "https://robinhood.com/features"
-    },
-    {
-      "file": "surface-8.jpg",
-      "title": "Supporting surface 8",
-      "caption": "Robinhood public surface · robinhood.com",
-      "kind": "docs",
-      "sourceUrl": "https://robinhood.com/platform"
-    },
-    {
-      "file": "surface-9.jpg",
-      "title": "Supporting surface 9",
-      "caption": "Robinhood public surface · robinhood.com",
-      "kind": "docs",
-      "sourceUrl": "https://robinhood.com/solutions"
-    },
-    {
-      "file": "surface-10.jpg",
-      "title": "Supporting surface 10",
-      "caption": "Robinhood public surface · robinhood.com",
-      "kind": "docs",
-      "sourceUrl": "https://robinhood.com/customers"
-    },
-    {
-      "file": "surface-11.jpg",
-      "title": "Supporting surface 11",
-      "caption": "Robinhood public surface · robinhood.com",
-      "kind": "docs",
-      "sourceUrl": "https://robinhood.com/docs"
-    },
-    {
-      "file": "surface-12.jpg",
-      "title": "Supporting surface 12",
-      "caption": "Robinhood public surface · robinhood.com",
-      "kind": "docs",
-      "sourceUrl": "https://robinhood.com/help"
-    },
-    {
-      "file": "surface-13.jpg",
-      "title": "Supporting surface 13",
-      "caption": "Robinhood public surface · robinhood.com",
-      "kind": "docs",
-      "sourceUrl": "https://robinhood.com/blog"
+      "sourceUrl": "https://robinhood.com/pricing",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-4",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Page not found | Robinhood",
+      "width": 1440,
+      "height": 900,
+      "phash": "6727670608301000",
+      "unique": true
     },
     {
       "file": "surface-14.jpg",
       "title": "Supporting surface 14 (1)",
       "caption": "Robinhood public surface · robinhood.com",
       "kind": "docs",
-      "sourceUrl": "https://robinhood.com/us/en/about/"
+      "sourceUrl": "https://robinhood.com/us/en/about/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
+      "width": 1440,
+      "height": 900,
+      "phash": "0b0081c0c0809000",
+      "unique": true
     },
     {
-      "file": "surface-14-mid.jpg",
-      "title": "Supporting surface 14 (2)",
+      "file": "surface-14-band-2.jpg",
+      "title": "Supporting surface 14 (3)",
       "caption": "Robinhood public surface · robinhood.com",
       "kind": "docs",
-      "sourceUrl": "https://robinhood.com/us/en/about/"
+      "sourceUrl": "https://robinhood.com/us/en/about/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
+      "width": 1440,
+      "height": 900,
+      "phash": "9b80010018181858",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-3.jpg",
+      "title": "Supporting surface 14 (4)",
+      "caption": "Robinhood public surface · robinhood.com",
+      "kind": "docs",
+      "sourceUrl": "https://robinhood.com/us/en/about/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
+      "width": 1440,
+      "height": 900,
+      "phash": "0d58190c18001818",
+      "unique": true
+    },
+    {
+      "file": "surface-14-band-4.jpg",
+      "title": "Supporting surface 14 (5)",
+      "caption": "Robinhood public surface · robinhood.com",
+      "kind": "docs",
+      "sourceUrl": "https://robinhood.com/us/en/about/",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "surface-14",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollY": 0,
+      "pageTitle": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
+      "width": 1440,
+      "height": 900,
+      "phash": "1b081918000880c0",
+      "unique": true
+    },
+    {
+      "file": "fallback-og-1.jpg",
+      "title": "Marketing preview",
+      "caption": "Open Graph image (fallback when live UI capture was thin)",
+      "kind": "marketing",
+      "sourceUrl": "https://robinhood.com",
+      "capturedAt": "2026-07-27T22:29:36.602Z",
+      "playbookStep": "web-fallback",
+      "width": 1200,
+      "height": 630,
+      "phash": "3126c24d6da52426",
+      "unique": true
     }
   ],
   "insights": {
-    "capturedAt": "2026-07-26T22:18:52.530Z",
-    "screenshotCount": 28,
-    "pageCount": 17,
+    "capturedAt": "2026-07-27T22:31:09.420Z",
+    "screenshotCount": 32,
+    "pageCount": 7,
     "pages": [
       {
         "url": "https://robinhood.com/us/en/",
@@ -251,7 +657,6 @@
         "ctas": [
           "Get started",
           "Learn more",
-          "Start investing",
           "Sign up to access Robinhood Learn",
           "Log in",
           "Sign up"
@@ -279,64 +684,25 @@
         ]
       },
       {
-        "url": "https://robinhood.com/us/en/about/futures/",
-        "title": "Robinhood | Futures",
-        "description": "Meet futures. Trade with leverage on the S&P 500, oil, Bitcoin, and more. Get some of the lowest commissions in the market, special tax treatment, no PDT rules, no time decay, and a nearly 24-hour trading window.\n",
-        "headings": [
-          "More insight. More speed. Smarter futures tools.",
-          "Trade the S&P 500, oil, Bitcoin, and more. No greeks. No time decay.",
-          "Enjoy lowcommissions",
-          "Gain access to special tax treatment",
-          "Trade nearly 24 hours a day",
-          "The fundamentals of ‎ ‎‎futures",
-          "The Robinhood difference",
-          "Choose your future",
-          "Futures are one tap away"
-        ],
-        "navLabels": [
-          ".cls-1fill:#FFF;stroke-width:0px;",
-          "What We Offer",
-          "Invest",
-          "IPO Access",
-          "Strategies",
-          "Retirement",
-          "Options",
-          "Futures",
-          "Trading",
-          "Custodial",
-          "Ventures",
-          "Social",
-          "Banking",
-          "Gold Card",
-          "Platinum Card",
-          "Concierge",
-          "Agentic",
-          "Agentic Trading",
-          "Agentic Credit Card",
-          "Crypto",
-          "Earn",
-          "Staking",
-          "Wallet",
-          "Chain"
-        ],
+        "url": "https://robinhood.com/login/",
+        "title": "Log In | Robinhood",
+        "headings": [],
+        "navLabels": [],
         "ctas": [
-          "Learn more",
-          "Get started",
-          "Log in",
-          "Sign up"
+          "Log In",
+          "Log in with passkeys",
+          "Create an account"
         ],
         "landmarks": [
-          "footer",
-          "navigation"
+          "header",
+          "footer"
         ]
       },
       {
         "url": "https://robinhood.com/us/en/support/",
         "title": "Robinhood Support",
         "description": "Robinhood Help Center | Get answers",
-        "headings": [
-          "Hello!How can we help?"
-        ],
+        "headings": [],
         "navLabels": [
           ".cls-1fill:#FFF;stroke-width:0px;",
           "What We Offer",
@@ -363,17 +729,7 @@
           "Wallet",
           "Chain"
         ],
-        "ctas": [
-          "What you need to get started",
-          "Sign in with a new device",
-          "What’s professional research from Morningstar?",
-          "Buying and selling crypto",
-          "Get started with Robinhood Legend",
-          "Get started",
-          "How to contact support",
-          "Log in",
-          "Sign up"
-        ],
+        "ctas": [],
         "landmarks": [
           "footer",
           "navigation"
@@ -424,114 +780,7 @@
         ]
       },
       {
-        "url": "https://cdn.robinhood.com/assets/robinhood/legal/",
-        "title": "",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": []
-      },
-      {
         "url": "https://robinhood.com/pricing",
-        "title": "Page not found | Robinhood",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://robinhood.com/product",
-        "title": "Page not found | Robinhood",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://robinhood.com/products",
-        "title": "Page not found | Robinhood",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://robinhood.com/features",
-        "title": "Page not found | Robinhood",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://robinhood.com/platform",
-        "title": "Page not found | Robinhood",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://robinhood.com/solutions",
-        "title": "Page not found | Robinhood",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://robinhood.com/customers",
-        "title": "Page not found | Robinhood",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://robinhood.com/docs",
-        "title": "Page not found | Robinhood",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://robinhood.com/help",
-        "title": "Page not found | Robinhood",
-        "headings": [],
-        "navLabels": [],
-        "ctas": [],
-        "landmarks": [
-          "main",
-          "footer"
-        ]
-      },
-      {
-        "url": "https://robinhood.com/blog",
         "title": "Page not found | Robinhood",
         "headings": [],
         "navLabels": [],
@@ -546,11 +795,8 @@
         "title": "Robinhood: 24/5 Commission-Free Stock Trading & Investing",
         "description": "Trade stocks on Robinhood with commission-free investing & advanced trading tools. Access fractional shares, real-time market data, and more. Terms and fees may apply.",
         "headings": [
-          "Trade All in One Place",
-          "Send your agent",
-          "to the market",
-          "Agentic Trading",
-          "Agentic Credit Card",
+          "May 19—June 8",
+          "Get a slice of $1,000,000",
           "Intuitive trading tools",
           "Build your strategy and track market trends, seamlessly",
           "Get started with Robinhood Crypto Trade crypto 24/7",
@@ -586,9 +832,8 @@
           "Chain"
         ],
         "ctas": [
-          "Get started",
           "Learn more",
-          "Start investing",
+          "Get started",
           "Sign up to access Robinhood Learn",
           "Log in",
           "Sign up"
@@ -628,18 +873,13 @@
     "ctas": [
       "Get started",
       "Learn more",
-      "Start investing",
       "Sign up to access Robinhood Learn",
       "Log in",
       "Sign up",
       "Log in to complete your application",
       "Continue",
-      "What you need to get started",
-      "Sign in with a new device",
-      "What’s professional research from Morningstar?",
-      "Buying and selling crypto",
-      "Get started with Robinhood Legend",
-      "How to contact support"
+      "Log in with passkeys",
+      "Create an account"
     ],
     "headings": [
       "Trade All in One Place",
@@ -655,18 +895,10 @@
       "Become a better investor on the go, right in the app",
       "Join a new generation of investors",
       "Create your login",
-      "More insight. More speed. Smarter futures tools.",
-      "Trade the S&P 500, oil, Bitcoin, and more. No greeks. No time decay.",
-      "Enjoy lowcommissions",
-      "Gain access to special tax treatment",
-      "Trade nearly 24 hours a day",
-      "The fundamentals of ‎ ‎‎futures",
-      "The Robinhood difference",
-      "Choose your future",
-      "Futures are one tap away",
-      "Hello!How can we help?",
       "404",
-      "Page not found"
+      "Page not found",
+      "May 19—June 8",
+      "Get a slice of $1,000,000"
     ],
     "techSignals": [
       "Next.js",
@@ -686,33 +918,26 @@
       "Robinhood Protection Guarantee",
       "Join a new generation of investors",
       "Create your login",
-      "Enjoy lowcommissions",
-      "Gain access to special tax treatment",
-      "Trade nearly 24 hours a day",
-      "The fundamentals of ‎ ‎‎futures",
-      "The Robinhood difference",
-      "Choose your future",
-      "Futures are one tap away",
-      "Hello!How can we help?",
       "Page not found",
+      "May 19—June 8",
+      "Get a slice of $1,000,000",
       "Get started",
       "Learn more",
-      "Start investing",
       "Continue",
-      "What you need to get started"
+      "Create an account"
     ],
     "patternCandidates": [
       "Tabs",
       "Card layout",
-      "Authentication",
-      "Pricing display",
-      "Search",
-      "Messaging"
+      "Authentication"
     ],
     "platformsDetected": [
       "web",
       "api"
     ],
-    "summary": "Captured 28 screenshots across 17 public URLs. Nav signals: .cls-1fill:#FFF;stroke-width:0px;, What We Offer, Invest, IPO Access, Strategies, Retirement. Tech signals: Next.js, Webpack, Google Tag Manager, Segment, Stripe. UI patterns: Tabs, Card layout, Authentication, Pricing display, Search, Messaging."
+    "summary": "Captured 32 screenshots across 7 public URLs. Nav signals: .cls-1fill:#FFF;stroke-width:0px;, What We Offer, Invest, IPO Access, Strategies, Retirement. Tech signals: Next.js, Webpack, Google Tag Manager, Segment, Stripe. UI patterns: Tabs, Card layout, Authentication."
+  },
+  "fallback": {
+    "blockedNavigations": 0
   }
 }

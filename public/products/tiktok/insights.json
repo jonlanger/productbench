@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-07-27T13:34:26.729Z",
-  "screenshotCount": 23,
-  "pageCount": 6,
+  "capturedAt": "2026-07-27T21:48:29.557Z",
+  "screenshotCount": 30,
+  "pageCount": 9,
   "pages": [
     {
       "url": "https://www.tiktok.com/",
@@ -54,6 +54,104 @@
       "landmarks": []
     },
     {
+      "url": "https://www.tiktok.com/support",
+      "title": "TikTok Support",
+      "headings": [],
+      "navLabels": [],
+      "ctas": [
+        "Log in"
+      ],
+      "landmarks": [
+        "main"
+      ]
+    },
+    {
+      "url": "https://developers.tiktok.com/doc/",
+      "title": "TikTok for Developers",
+      "description": "Build awesome experiences and powerful tools that inspire creativity and allow users to create, connect, and share with the world.",
+      "headings": [],
+      "navLabels": [
+        "Products",
+        "Docs",
+        "Support",
+        "Blog",
+        "Get started",
+        "Share Kit",
+        "Login Kit",
+        "Content Posting API",
+        "Research API",
+        "Display API",
+        "Embed Videos",
+        "Data Portability API",
+        "Green Screen Kit",
+        "Commercial Content API",
+        "TikTok Embeds",
+        "TikTok for Business",
+        "Advertise on TikTok",
+        "TikTok Creative Center",
+        "TikTok.com",
+        "About TikTok",
+        "Newsroom",
+        "Contact",
+        "Careers",
+        "ByteDance"
+      ],
+      "ctas": [
+        "Get started",
+        "Research API",
+        "Contact"
+      ],
+      "landmarks": [
+        "nav",
+        "main",
+        "footer",
+        "dialog:Chat support window",
+        "header"
+      ]
+    },
+    {
+      "url": "https://ads.tiktok.com/help/",
+      "title": "Business Help Center",
+      "headings": [
+        "How can we help you?",
+        "What's new",
+        "Upgraded Smart+ for SMBs: Automation on Your Terms",
+        "New to Smart+: Campaign Optimization for Paid and Organic Traffic",
+        "Reach high-intent players with TikTok Growth Max: Mini Games",
+        "Help Center Guide",
+        "Getting started",
+        "Ad creation",
+        "Ad formats",
+        "Ad objectives",
+        "Ad optimization",
+        "Measurement",
+        "Payment and billing",
+        "Policies and security",
+        "Sell on TikTok Shop",
+        "Advertise your TikTok Shop",
+        "Collaborate with creators",
+        "Creators",
+        "Creative Partners",
+        "Popular Articles"
+      ],
+      "navLabels": [
+        "Business Help Center",
+        "Home",
+        "What's new",
+        "Create an Ad"
+      ],
+      "ctas": [
+        "Create an Ad",
+        "Sign up",
+        "how to create a lead generation campaign with your own website",
+        "Industry Best Practices"
+      ],
+      "landmarks": [
+        "header",
+        "footer"
+      ]
+    },
+    {
       "url": "https://www.tiktok.com/404?fromUrl=/pricing",
       "title": "TikTok",
       "headings": [],
@@ -79,13 +177,13 @@
       "title": "About | TikTok",
       "description": "TikTok is the world's leading destination for short-form mobile videos. Our mission is to capture and present the world's creativity, knowledge, and moments that matter in everyday life. TikTok empowers everyone to be a creator directly from their smartphones, and is committed to building a community by encouraging users to share their passion and creative expression through their videos.",
       "headings": [
+        "Our mission is to inspire creativity and bring joy.",
         "For you, by you",
         "An experience tailored to what you love.",
         "Endless Discovery",
         "Find trends, talents, and topics that inspire you.",
         "Community-Driven",
         "Creativity, collaboration, and connection.",
-        "TikTok opens up a world of opportunities.",
         "#BookTok",
         "#LearnOnTikTok",
         "#GamingOnTikTok",
@@ -146,37 +244,51 @@
     }
   ],
   "navLabels": [
-    "About",
+    "Products",
+    "Docs",
+    "Support",
+    "Blog",
+    "Get started",
+    "Share Kit",
+    "Login Kit",
+    "Content Posting API",
+    "Research API",
+    "Display API",
+    "Embed Videos",
+    "Data Portability API",
+    "Green Screen Kit",
+    "Commercial Content API",
+    "TikTok Embeds",
+    "TikTok for Business",
+    "Advertise on TikTok",
+    "TikTok Creative Center",
+    "TikTok.com",
+    "About TikTok",
     "Newsroom",
-    "Careers",
     "Contact",
-    "Watch TikTok",
-    "English (US)",
-    "Store",
+    "Careers",
     "ByteDance",
-    "TikTok For Good",
-    "TikTok For Developers",
-    "Effect House",
-    "Advertise",
-    "Browse",
-    "Embed",
-    "Rewards",
-    "Scaled LIVE Rewards",
-    "Help Center",
-    "Safety Center",
-    "Privacy Center",
-    "Creator Academy",
-    "Community Guidelines"
+    "Business Help Center",
+    "Home",
+    "What's new",
+    "Create an Ad",
+    "About",
+    "Watch TikTok"
   ],
   "ctas": [
     "Log in",
     "Search",
     "Explore",
     "cassiesbooktok",
+    "Get started",
+    "Research API",
     "Contact",
+    "Create an Ad",
+    "Sign up",
+    "how to create a lead generation campaign with your own website",
+    "Industry Best Practices",
     "Create real change",
-    "Join the academy",
-    "Sign up"
+    "Join the academy"
   ],
   "headings": [
     "For You",
@@ -188,26 +300,31 @@
     "Company",
     "Program",
     "Terms & Policies",
-    "For you, by you",
-    "An experience tailored to what you love.",
-    "Endless Discovery",
-    "Find trends, talents, and topics that inspire you.",
-    "Community-Driven",
-    "Creativity, collaboration, and connection.",
-    "TikTok opens up a world of opportunities.",
-    "#BookTok",
-    "#LearnOnTikTok",
-    "#GamingOnTikTok",
-    "#FoodTok",
-    "#SportsOnTikTok",
-    "TikTok for Good",
-    "TikTok Creator Academy",
-    "Newsroom",
-    "Discover your next chapter with us",
-    "Log in to TikTok"
+    "How can we help you?",
+    "What's new",
+    "Upgraded Smart+ for SMBs: Automation on Your Terms",
+    "New to Smart+: Campaign Optimization for Paid and Organic Traffic",
+    "Reach high-intent players with TikTok Growth Max: Mini Games",
+    "Help Center Guide",
+    "Getting started",
+    "Ad creation",
+    "Ad formats",
+    "Ad objectives",
+    "Ad optimization",
+    "Measurement",
+    "Payment and billing",
+    "Policies and security",
+    "Sell on TikTok Shop",
+    "Advertise your TikTok Shop",
+    "Collaborate with creators",
+    "Creators",
+    "Creative Partners",
+    "Popular Articles",
+    "Our mission is to inspire creativity and bring joy."
   ],
   "techSignals": [
     "React",
+    "Datadog",
     "Next.js"
   ],
   "featureCandidates": [
@@ -220,27 +337,28 @@
     "Company",
     "Program",
     "Terms & Policies",
-    "For you, by you",
-    "An experience tailored to what you love.",
-    "Endless Discovery",
-    "Community-Driven",
-    "Creativity, collaboration, and connection.",
-    "TikTok opens up a world of opportunities.",
-    "#BookTok",
-    "#LearnOnTikTok",
-    "#GamingOnTikTok",
-    "#FoodTok",
-    "#SportsOnTikTok",
-    "TikTok for Good",
-    "TikTok Creator Academy",
-    "Newsroom",
-    "Discover your next chapter with us"
+    "How can we help you?",
+    "What's new",
+    "Help Center Guide",
+    "Getting started",
+    "Ad creation",
+    "Ad formats",
+    "Ad objectives",
+    "Ad optimization",
+    "Measurement",
+    "Payment and billing",
+    "Policies and security",
+    "Sell on TikTok Shop",
+    "Advertise your TikTok Shop",
+    "Collaborate with creators",
+    "Creators"
   ],
   "patternCandidates": [
     "Search",
     "Authentication",
+    "Tabs",
     "Modal dialogs",
-    "Tabs"
+    "Map view"
   ],
   "platformsDetected": [
     "web",
@@ -248,5 +366,5 @@
     "api",
     "ios"
   ],
-  "summary": "Captured 23 screenshots across 6 public URLs. Nav signals: About, Newsroom, Careers, Contact, Watch TikTok, English (US). Tech signals: React, Next.js. UI patterns: Search, Authentication, Modal dialogs, Tabs."
+  "summary": "Captured 30 screenshots across 9 public URLs. Nav signals: Products, Docs, Support, Blog, Get started, Share Kit. Tech signals: React, Datadog, Next.js. UI patterns: Search, Authentication, Tabs, Modal dialogs, Map view."
 }

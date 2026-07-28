@@ -1,0 +1,77 @@
+{
+  "slug": "microsoft-dynamics",
+  "capturedAt": "2026-07-27T22:53:30.608Z",
+  "shots": [
+    {
+      "file": "fallback-docs-1.jpg",
+      "title": "Sales deal dashboard with insights",
+      "caption": "Fallback from public docs: https://dynamics.microsoft.com/help",
+      "kind": "docs",
+      "sourceUrl": "https://dynamics.microsoft.com/help",
+      "capturedAt": "2026-07-27T22:53:24.284Z",
+      "playbookStep": "web-fallback",
+      "width": 1920,
+      "height": 1080,
+      "phash": "1f3f1f1f1f1e1793",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-2.jpg",
+      "title": "Interface showing a workspace dashboard with activity feed, recommendations panel, and ins",
+      "caption": "Fallback from public docs: https://dynamics.microsoft.com/help",
+      "kind": "docs",
+      "sourceUrl": "https://dynamics.microsoft.com/help",
+      "capturedAt": "2026-07-27T22:53:24.284Z",
+      "playbookStep": "web-fallback",
+      "width": 1999,
+      "height": 1124,
+      "phash": "2a89bc9cbd99bca6",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-3.jpg",
+      "title": "Microsoft Dynamics 365 interface screens displayed together with application dashboard vie",
+      "caption": "Fallback from public docs: https://dynamics.microsoft.com/help",
+      "kind": "docs",
+      "sourceUrl": "https://dynamics.microsoft.com/help",
+      "capturedAt": "2026-07-27T22:53:24.284Z",
+      "playbookStep": "web-fallback",
+      "width": 1920,
+      "height": 1080,
+      "phash": "e3871eeac6c6d1f9",
+      "unique": true
+    },
+    {
+      "file": "fallback-docs-4.jpg",
+      "title": " Inventory visibility dashboard showing a line chart, status indicators, and option to vie",
+      "caption": "Fallback from public docs: https://dynamics.microsoft.com/help",
+      "kind": "docs",
+      "sourceUrl": "https://dynamics.microsoft.com/help",
+      "capturedAt": "2026-07-27T22:53:24.284Z",
+      "playbookStep": "web-fallback",
+      "width": 1057,
+      "height": 595,
+      "phash": "0008686000140400",
+      "unique": true
+    }
+  ],
+  "insights": {
+    "capturedAt": "2026-07-27T22:53:30.608Z",
+    "screenshotCount": 4,
+    "pageCount": 0,
+    "pages": [],
+    "navLabels": [],
+    "ctas": [],
+    "headings": [],
+    "techSignals": [],
+    "featureCandidates": [],
+    "patternCandidates": [],
+    "platformsDetected": [
+      "web"
+    ],
+    "summary": "Captured 4 screenshots across 0 public URLs."
+  },
+  "fallback": {
+    "blockedNavigations": 0
+  }
+}
