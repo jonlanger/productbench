@@ -105,11 +105,61 @@
       "height": 696,
       "phash": "79c4d4d4dcdcd8dc",
       "unique": true
+    },
+    {
+      "file": "fallback-appstore-864076487-11.jpg",
+      "title": "fallback appstore 864076487 11",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "marketing",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:02:24.167Z",
+      "playbookStep": "web-fallback",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-864076487-7.jpg",
+      "title": "fallback appstore 864076487 7",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "marketing",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:02:24.167Z",
+      "playbookStep": "web-fallback",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-864076487-8.jpg",
+      "title": "fallback appstore 864076487 8",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "marketing",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:02:24.167Z",
+      "playbookStep": "web-fallback",
+      "unique": true
+    },
+    {
+      "file": "surface-3-lower.jpg",
+      "title": "surface 3 lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:02:24.167Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "surface 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:02:24.167Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T23:02:24.167Z",
-    "screenshotCount": 8,
+    "screenshotCount": 13,
     "pageCount": 0,
     "pages": [],
     "navLabels": [],
@@ -123,7 +173,5 @@
     ],
     "summary": "Captured 8 screenshots across 0 public URLs."
   },
-  "fallback": {
-    "blockedNavigations": 0
-  }
+  "repairedAt": "2026-07-28T00:58:54.348Z"
 }

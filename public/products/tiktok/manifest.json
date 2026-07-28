@@ -511,11 +511,21 @@
       "height": 768,
       "phash": "04960b030b0f250f",
       "unique": true
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "surface 11 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T21:48:29.557Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T21:48:29.557Z",
-    "screenshotCount": 30,
+    "screenshotCount": 31,
     "pageCount": 9,
     "pages": [
       {
@@ -883,7 +893,5 @@
     ],
     "summary": "Captured 30 screenshots across 9 public URLs. Nav signals: Products, Docs, Support, Blog, Get started, Share Kit. Tech signals: React, Datadog, Next.js. UI patterns: Search, Authentication, Tabs, Modal dialogs, Map view."
   },
-  "fallback": {
-    "blockedNavigations": 0
-  }
+  "repairedAt": "2026-07-28T00:58:54.382Z"
 }

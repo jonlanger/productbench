@@ -1,10 +1,71 @@
 {
   "slug": "netsuite",
   "capturedAt": "2026-07-27T22:53:10.729Z",
-  "shots": [],
+  "shots": [
+    {
+      "file": "surface-1-band-2.jpg",
+      "title": "surface 1 band 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:53:10.729Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-3.jpg",
+      "title": "surface 1 band 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:53:10.729Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-1-band-4.jpg",
+      "title": "surface 1 band 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:53:10.729Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "surface 1",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:53:10.729Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3-lower.jpg",
+      "title": "surface 3 lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:53:10.729Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "surface 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:53:10.729Z",
+      "playbookStep": "recovered",
+      "unique": true
+    }
+  ],
   "insights": {
     "capturedAt": "2026-07-27T22:53:10.729Z",
-    "screenshotCount": 0,
+    "screenshotCount": 6,
     "pageCount": 0,
     "pages": [],
     "navLabels": [],
@@ -17,5 +78,6 @@
       "web"
     ],
     "summary": "Captured 0 screenshots across 0 public URLs."
-  }
+  },
+  "repairedAt": "2026-07-28T00:58:54.333Z"
 }

@@ -79,11 +79,61 @@
       "height": 696,
       "phash": "0d49690d8d606900",
       "unique": true
+    },
+    {
+      "file": "fallback-appstore-1536420899-1.jpg",
+      "title": "fallback appstore 1536420899 1",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "marketing",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:07:05.501Z",
+      "playbookStep": "web-fallback",
+      "unique": true
+    },
+    {
+      "file": "fallback-appstore-1536420899-2.jpg",
+      "title": "fallback appstore 1536420899 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "marketing",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:07:05.501Z",
+      "playbookStep": "web-fallback",
+      "unique": true
+    },
+    {
+      "file": "surface-1-lower.jpg",
+      "title": "surface 1 lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:07:05.501Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-1.jpg",
+      "title": "surface 1",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:07:05.501Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3.jpg",
+      "title": "surface 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:07:05.501Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T23:07:05.501Z",
-    "screenshotCount": 6,
+    "screenshotCount": 11,
     "pageCount": 0,
     "pages": [],
     "navLabels": [],
@@ -97,7 +147,5 @@
     ],
     "summary": "Captured 6 screenshots across 0 public URLs."
   },
-  "fallback": {
-    "blockedNavigations": 0
-  }
+  "repairedAt": "2026-07-28T00:58:54.253Z"
 }

@@ -14,11 +14,311 @@
       "height": 600,
       "phash": "f06173717133191a",
       "unique": true
+    },
+    {
+      "file": "card-1.jpg",
+      "title": "card 1",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "card-2.jpg",
+      "title": "card 2",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "card-3.jpg",
+      "title": "card 3",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "card-4.jpg",
+      "title": "card 4",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "card-5.jpg",
+      "title": "card 5",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "experiences-lower.jpg",
+      "title": "experiences lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "experiences-mid.jpg",
+      "title": "experiences mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "experiences-top.jpg",
+      "title": "experiences top",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "experiences.jpg",
+      "title": "experiences",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "filters.jpg",
+      "title": "filters",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "help-lower.jpg",
+      "title": "help lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "help-mid.jpg",
+      "title": "help mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "help-top.jpg",
+      "title": "help top",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "home-lower.jpg",
+      "title": "home lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "home-mid.jpg",
+      "title": "home mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "home-mobile.jpg",
+      "title": "home mobile",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "home-search.jpg",
+      "title": "home search",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "home-top.jpg",
+      "title": "home top",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "host-landing.jpg",
+      "title": "host landing",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "host-lower.jpg",
+      "title": "host lower",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "host-mid.jpg",
+      "title": "host mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "host-top.jpg",
+      "title": "host top",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "listing-card.jpg",
+      "title": "listing card",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "listing-detail.jpg",
+      "title": "listing detail",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "listing-top.jpg",
+      "title": "listing top",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "profile-menu.jpg",
+      "title": "profile menu",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "search-composer.jpg",
+      "title": "search composer",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "search-results-mid.jpg",
+      "title": "search results mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "search-results.jpg",
+      "title": "search results",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "sign-in-modal.jpg",
+      "title": "sign in modal",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T23:01:35.787Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T23:01:35.787Z",
-    "screenshotCount": 1,
+    "screenshotCount": 31,
     "pageCount": 0,
     "pages": [],
     "navLabels": [],
@@ -32,7 +332,5 @@
     ],
     "summary": "Captured 1 screenshots across 0 public URLs."
   },
-  "fallback": {
-    "blockedNavigations": 0
-  }
+  "repairedAt": "2026-07-28T00:58:54.249Z"
 }

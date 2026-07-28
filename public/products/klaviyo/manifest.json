@@ -1084,11 +1084,121 @@
       "height": 900,
       "phash": "d95c733377777990",
       "unique": true
+    },
+    {
+      "file": "homepage-mid.jpg",
+      "title": "homepage mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:01:47.011Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-1-mid.jpg",
+      "title": "surface 1 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:01:47.011Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-10-mid.jpg",
+      "title": "surface 10 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:01:47.011Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-11-mid.jpg",
+      "title": "surface 11 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:01:47.011Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-2-mid.jpg",
+      "title": "surface 2 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:01:47.011Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-3-mid.jpg",
+      "title": "surface 3 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:01:47.011Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-4-mid.jpg",
+      "title": "surface 4 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:01:47.011Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-5-mid.jpg",
+      "title": "surface 5 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:01:47.011Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-5.jpg",
+      "title": "surface 5",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:01:47.011Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-6-mid.jpg",
+      "title": "surface 6 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:01:47.011Z",
+      "playbookStep": "recovered",
+      "unique": true
+    },
+    {
+      "file": "surface-7-mid.jpg",
+      "title": "surface 7 mid",
+      "caption": "Recovered from on-disk capture assets",
+      "kind": "product",
+      "sourceUrl": "",
+      "capturedAt": "2026-07-27T22:01:47.011Z",
+      "playbookStep": "recovered",
+      "unique": true
     }
   ],
   "insights": {
     "capturedAt": "2026-07-27T22:01:47.011Z",
-    "screenshotCount": 57,
+    "screenshotCount": 68,
     "pageCount": 13,
     "pages": [
       {
@@ -1993,5 +2103,6 @@
       "ios"
     ],
     "summary": "Captured 57 screenshots across 13 public URLs. Nav signals: Skip to main content, Klaviyo AI (K:AI), Klaviyo Marketing, Klaviyo Service, Klaviyo Analytics, Klaviyo Data Platform. Tech signals: Next.js, Google Tag Manager, Cloudflare, Shopify, Stripe, React. UI patterns: Pricing display, Tabs, Calendar, Authentication, Map view, Carousels."
-  }
+  },
+  "repairedAt": "2026-07-28T00:58:54.319Z"
 }
