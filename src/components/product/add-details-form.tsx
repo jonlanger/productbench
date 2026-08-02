@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useState, type FormEvent } from "react";
+import { upload } from "@vercel/blob/client";
 import {
   ImagePlus,
   LoaderCircle,
@@ -22,12 +23,13 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
-import { SUBMISSIONS_BUCKET } from "@/data/submission-constants";
 import type { ScreenshotSubmissionItem } from "@/db/schema";
 import {
-  createClient,
-  hasSupabasePublicConfig,
-} from "@/lib/supabase/client";
+  BLOB_ACCESS,
+  blobMediaUrl,
+  submissionBlobPathname,
+} from "@/lib/blob";
+import { hasSupabasePublicConfig } from "@/lib/supabase/client";
 
 const ACCEPT = "image/jpeg,image/png,image/webp,image/gif";
 const MAX_BYTES = 8 * 1024 * 1024;
@@ -81,7 +83,7 @@ export function AddDetailsForm({
   if (!hasSupabasePublicConfig()) {
     return (
       <p className="rounded-2xl border border-border/80 bg-muted/30 px-6 py-8 text-sm text-muted-foreground">
-        Uploads require Supabase configuration.
+        Uploads require signing in (Supabase Auth).
       </p>
     );
   }
@@ -112,7 +114,6 @@ export function AddDetailsForm({
     setMessage(null);
 
     try {
-      const supabase = createClient();
       const ext =
         file.name.split(".").pop()?.toLowerCase().replace(/[^a-z0-9]/g, "") ||
         "jpg";
@@ -121,30 +122,19 @@ export function AddDetailsForm({
           ? "jpg"
           : ext
         : "jpg";
-      const path = `${userId}/${productSlug}/${crypto.randomUUID()}.${safeExt}`;
+      const path = submissionBlobPathname(
+        userId,
+        productSlug,
+        `${crypto.randomUUID()}.${safeExt}`,
+      );
 
-      const { error } = await supabase.storage
-        .from(SUBMISSIONS_BUCKET)
-        .upload(path, file, {
-          upsert: false,
-          cacheControl: "3600",
-          contentType: file.type,
-        });
+      await upload(path, file, {
+        access: BLOB_ACCESS,
+        handleUploadUrl: "/api/blob/upload",
+        contentType: file.type,
+      });
 
-      if (error) {
-        setMessage(error.message);
-        updateShot(key, {
-          previewUrl: null,
-          uploading: false,
-          storagePath: null,
-          publicUrl: null,
-        });
-        return;
-      }
-
-      const {
-        data: { publicUrl },
-      } = supabase.storage.from(SUBMISSIONS_BUCKET).getPublicUrl(path);
+      const publicUrl = blobMediaUrl(path);
 
       setShots((prev) =>
         prev.map((shot) => {

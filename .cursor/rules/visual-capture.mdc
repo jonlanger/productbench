@@ -7,7 +7,7 @@ alwaysApply: true
 
 When the user asks to capture screenshots, UI details, product visuals, enrich product data from the live site, or fill gallery content:
 
-1. **Prefer the Playwright capture agent** — it now auto-falls back when live capture is thin or bot-blocked: curated docs/help images → OG/meta → thum.io → Wayback → YouTube frame stills → App Store. Standalone `db:collect-screenshots` / `db:enrich-screenshots` remain available for marketing-only runs.
+1. **Prefer the Playwright capture agent** — it now auto-falls back when live capture is thin or bot-blocked: **design systems / Storybooks** → curated docs/help images → OG/meta → thum.io → **App Store** (reserved slots when `appStoreId` is curated) → Wayback → YouTube frame stills. Before the playbook, it also runs a **broader web UI search** (design-system component crawl, Brave/Bing, YouTube demos, seed-page link expansion) so gated products like Salesforce still get SLDS / Trailhead / feature surfaces. Standalone `db:collect-screenshots` / `db:enrich-screenshots` remain available for marketing-only runs.
 
 2. **Commands** (repo root):
    - One product: `npm run capture:ui -- --slug=<slug>`
@@ -20,26 +20,27 @@ When the user asks to capture screenshots, UI details, product visuals, enrich p
    - Or re-run: `npm run validate:ui -- --slug=<slug>`
    - Report per-layer counts (surface / component / state / structure / source), thin flags, placeholder labels, and near-duplicates to the user
    - Do **not** declare the run “done” solely because Playwright exited 0 — a FAIL coverage score means the gallery still needs a deeper playbook, curated `visual-sources`, or a re-capture
-   - Artifacts: Postgres + Storage (remote); or `public/products/[slug]/` with `--local`
+   - Artifacts: Postgres + Vercel Blob (remote); or `public/products/[slug]/` with `--local`
 
 4. **What capture writes**
-   - **Default (remote):** when Storage upload is configured, capture uses a temp workspace, uploads binaries to Storage bucket `product-screenshots`, syncs metadata to Postgres, and **does not** write under `public/products/`
+   - **Default (remote):** when `BLOB_READ_WRITE_TOKEN` is set, capture uses a temp workspace, uploads binaries to **Vercel Blob (private)** under `products/[slug]/`, syncs metadata to Postgres (`screenshots[].src` → `/api/blob/...`), and **does not** write under `public/products/`
    - **`--local`:** persist screenshots + manifest/insights/coverage under `public/products/[slug]/` (debug / offline)
-   - `--skip-storage` forces local persistence even when Storage is configured
+   - `--skip-storage` forces local persistence even when Blob is configured
    - Structured insights → `products.capture_insights` (+ local `insights.json` in `--local` mode)
+   - **Per-element JSON** on locator clips → `products.screenshots[].element` (DOM/ARIA, computed styles, CSS vars, text/labels, layout, interaction). Local mode also writes `{shot}.element.json` sidecars
    - Soft-merge into curated fields: `metrics.screenCount` / `pageCount`, `ux.patterns`, `ux.keyScreens`, `features`, `platforms`, `techStack` (append-only, does not wipe seed copy)
    - Coverage → printed after each run; `coverage.json` only in `--local` mode
    - Backfill legacy local trees with `npm run storage:sync-screenshots`
 
 5. **Capture quality defaults** (generic playbook):
    - `deviceScaleFactor: 3` + PNG + `scale: "device"` for sharp UI/text
-   - Prefer **viewport + scroll bands** over `fullPage` on long pages; element **clips** for nav/header/footer/modals/cards
+   - Prefer **viewport + scroll bands** over `fullPage` on long pages; element **clips** for nav/header/footer/modals/cards (with structured ElementCapture)
    - Waiting: `domcontentloaded` → `networkidle` → cookie/modal dismiss → ready selector → short settle
    - Multi-viewport in one run: desktop (1440), tablet (768), mobile (390)
-   - Navigation: click-through sequences, scroll-and-capture bands, hover/focus menus, conditional cookie-banner dismiss
+   - Navigation: click-through sequences, scroll-and-capture bands, hover/focus menus, interactive default/hover/active states, conditional cookie-banner dismiss
 
 6. **Goal is volume + detail**: full surfaces, scroll bands, mobile viewport, cards, menus, modals, composers, docs/help URLs — as many public shots as practical. Thin = fewer than **20 unique** screenshots (distinct layouts/states/frames — not near-duplicate crops).
 
-7. **Custom playbooks**: for complex products, extend `scripts/capture-product-ui.ts` (Airbnb is the template). Curate alternate hosts / YouTube demos in `src/data/visual-sources.ts`. Manual browser MCP is fine for exploration; Playwright is the durable path. Coverage validation is the durable check that playbooks meet the taxonomy — not a chat-only reminder.
+7. **Custom playbooks**: for complex products, extend `scripts/capture-product-ui.ts` (Airbnb is the template). Curate alternate hosts / YouTube demos / **design-system URLs** in `src/data/visual-sources.ts` (`designSystem` field). Capture also discovers known systems from `product.ux.designSystem` and probes `/design`, Storybook hosts, and public DS docs when the marketing homepage is bot-blocked. Manual browser MCP is fine for exploration; Playwright is the durable path. Coverage validation is the durable check that playbooks meet the taxonomy — not a chat-only reminder.
 
 8. **Public Process page** (`/process`) stays high-level — do not put npm/Playwright internals on that page. Operator details live in README and this rule.

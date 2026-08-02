@@ -1,37 +1,25 @@
-import { readFileSync } from "node:fs";
-import { resolve } from "node:path";
+/**
+ * One-time guidance for creating a private Vercel Blob store.
+ *
+ *   npm run storage:setup-screenshots
+ */
 
-import { config } from "dotenv";
-import postgres from "postgres";
-
-config({ path: ".env.local" });
-config();
-
-async function main() {
-  const url = process.env.DATABASE_URL;
-  if (!url) {
-    throw new Error("DATABASE_URL is not set.");
-  }
-
-  const sqlPath = resolve(
-    process.cwd(),
-    "scripts/sql/setup-product-screenshots-storage.sql",
-  );
-  const statement = readFileSync(sqlPath, "utf8");
-
-  const client = postgres(url, { prepare: false, max: 1, ssl: "require" });
-  try {
-    await client.unsafe(statement);
-    console.log("Product screenshots storage bucket and public-read policy are ready.");
-    console.log(
-      "Uploads require SUPABASE_SERVICE_ROLE_KEY (scripts sync / capture:ui).",
-    );
-  } finally {
-    await client.end();
-  }
-}
-
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+console.log(
+  [
+    "Product screenshots, avatars, and submissions use Vercel Blob (private).",
+    "",
+    "1. Create a private store (CLI ≥ 50.20.0):",
+    "   vercel blob create-store productbench --access private",
+    "",
+    "2. Or in the Vercel dashboard: Storage → Create → Blob → Private",
+    "",
+    "3. Pull env vars into .env.local:",
+    "   vercel env pull .env.local",
+    "",
+    "   Ensure BLOB_READ_WRITE_TOKEN is set.",
+    "",
+    "4. Sync local captures:",
+    "   npm run storage:sync-screenshots -- --slug=<product>",
+    "   npm run storage:sync-screenshots -- --all",
+  ].join("\n"),
+);

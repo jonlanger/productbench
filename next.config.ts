@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
   },
   images: {
     remotePatterns: [
-      // Catalog shots after Storage sync + submission/avatar public URLs
+      // Legacy Supabase Storage URLs that may still exist in DB rows
       ...(supabaseHostname
         ? [
             {
@@ -30,6 +30,17 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "*.supabase.co",
         pathname: "/storage/v1/object/public/**",
+      },
+      // Private Vercel Blob URLs (prefer /api/blob proxy; allow direct if stored)
+      {
+        protocol: "https",
+        hostname: "*.private.blob.vercel-storage.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "*.public.blob.vercel-storage.com",
+        pathname: "/**",
       },
     ],
   },

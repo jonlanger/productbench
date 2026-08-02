@@ -1,6 +1,6 @@
 /**
- * Upload local public/products/[slug] images → Supabase Storage and
- * rewrite products.screenshots[].src to public Storage URLs.
+ * Upload local public/products/[slug] images → Vercel Blob (private) and
+ * rewrite products.screenshots[].src to app proxy URLs (/api/blob/...).
  */
 
 import { existsSync, readdirSync, readFileSync } from "fs";
@@ -12,31 +12,17 @@ import postgres from "postgres";
 import type { ProductScreenshot } from "../../src/data/types";
 import { products as productsTable } from "../../src/db/schema";
 import {
-  PRODUCT_SCREENSHOTS_BUCKET,
+  contentTypeForFileName,
+  hasBlobConfig,
+  productScreenshotBlobUrl,
+} from "../../src/lib/blob";
+import {
   productScreenshotObjectPath,
-  productScreenshotPublicUrl,
   screenshotFileName,
 } from "../../src/lib/product-screenshots";
-import { hasStorageUploadConfig } from "./supabase-admin";
 import { uploadStorageObject } from "./storage-upload";
 
 const IMAGE_RE = /\.(png|jpe?g|webp|gif)$/i;
-
-function contentTypeFor(fileName: string) {
-  const ext = fileName.split(".").pop()?.toLowerCase();
-  switch (ext) {
-    case "png":
-      return "image/png";
-    case "webp":
-      return "image/webp";
-    case "gif":
-      return "image/gif";
-    case "jpg":
-    case "jpeg":
-    default:
-      return "image/jpeg";
-  }
-}
 
 export type SyncStorageResult = {
   slug: string;
@@ -50,18 +36,16 @@ export async function syncProductScreenshotsToStorage(
   slug: string,
   options: { skipDb?: boolean; dir?: string } = {},
 ): Promise<SyncStorageResult> {
-  if (!hasStorageUploadConfig()) {
+  if (!hasBlobConfig()) {
     return {
       slug,
       uploaded: 0,
       skipped: true,
-      reason:
-        "NEXT_PUBLIC_SUPABASE_URL / Supabase API key not set — skipping Storage upload",
+      reason: "BLOB_READ_WRITE_TOKEN not set — skipping Blob upload",
       rewritten: 0,
     };
   }
 
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
   const dir =
     options.dir ?? join(process.cwd(), "public/products", slug);
   if (!existsSync(dir)) {
@@ -90,7 +74,7 @@ export async function syncProductScreenshotsToStorage(
   for (const file of files) {
     const objectPath = productScreenshotObjectPath(slug, file);
     const body = readFileSync(join(dir, file));
-    await uploadStorageObject(objectPath, body, contentTypeFor(file));
+    await uploadStorageObject(objectPath, body, contentTypeForFileName(file));
     uploaded += 1;
   }
 
@@ -125,10 +109,7 @@ export async function syncProductScreenshotsToStorage(
     const prior = (rows[0]?.screenshots as ProductScreenshot[] | null) ?? [];
     const byFile = new Map<string, string>();
     for (const file of files) {
-      byFile.set(
-        file,
-        productScreenshotPublicUrl(supabaseUrl, slug, file),
-      );
+      byFile.set(file, productScreenshotBlobUrl(slug, file));
     }
 
     const priorByFile = new Map<string, ProductScreenshot>();

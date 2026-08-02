@@ -1,34 +1,14 @@
-import { readFileSync } from "node:fs";
-import { resolve } from "node:path";
+/**
+ * Avatars are stored in Vercel Blob (private) under avatars/{userId}/.
+ * See: npm run storage:setup-screenshots
+ */
 
-import { config } from "dotenv";
-import postgres from "postgres";
-
-config({ path: ".env.local" });
-config();
-
-async function main() {
-  const url = process.env.DATABASE_URL;
-  if (!url) {
-    throw new Error("DATABASE_URL is not set.");
-  }
-
-  const sqlPath = resolve(
-    process.cwd(),
-    "scripts/sql/setup-avatars-storage.sql",
-  );
-  const statement = readFileSync(sqlPath, "utf8");
-
-  const client = postgres(url, { prepare: false, max: 1 });
-  try {
-    await client.unsafe(statement);
-    console.log("Avatars storage bucket and policies are ready.");
-  } finally {
-    await client.end();
-  }
-}
-
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+console.log(
+  [
+    "Profile photos use Vercel Blob (private), not Supabase Storage.",
+    "",
+    "Ensure BLOB_READ_WRITE_TOKEN is set (vercel env pull .env.local).",
+    "Uploads go through /api/blob/upload → path avatars/{userId}/avatar.{ext}",
+    "Reads are proxied at /api/blob/avatars/...",
+  ].join("\n"),
+);

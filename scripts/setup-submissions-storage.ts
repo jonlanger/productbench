@@ -1,34 +1,14 @@
-import { readFileSync } from "node:fs";
-import { resolve } from "node:path";
+/**
+ * Screenshot submissions use Vercel Blob (private) under submissions/{userId}/.
+ * See: npm run storage:setup-screenshots
+ */
 
-import { config } from "dotenv";
-import postgres from "postgres";
-
-config({ path: ".env.local" });
-config();
-
-async function main() {
-  const url = process.env.DATABASE_URL;
-  if (!url) {
-    throw new Error("DATABASE_URL is not set.");
-  }
-
-  const sqlPath = resolve(
-    process.cwd(),
-    "scripts/sql/setup-submissions-storage.sql",
-  );
-  const statement = readFileSync(sqlPath, "utf8");
-
-  const client = postgres(url, { prepare: false, max: 1 });
-  try {
-    await client.unsafe(statement);
-    console.log("Submissions storage bucket and policies are ready.");
-  } finally {
-    await client.end();
-  }
-}
-
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+console.log(
+  [
+    "User screenshot submissions use Vercel Blob (private), not Supabase Storage.",
+    "",
+    "Ensure BLOB_READ_WRITE_TOKEN is set (vercel env pull .env.local).",
+    "Uploads go through /api/blob/upload → path submissions/{userId}/{slug}/...",
+    "Reads are proxied at /api/blob/submissions/... (owner or admin).",
+  ].join("\n"),
+);

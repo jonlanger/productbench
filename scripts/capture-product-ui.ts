@@ -1246,13 +1246,7 @@ function validateAndWriteCoverage(
 
 function screenshotSrc(slug: string, file: string, remote: boolean): string {
   if (remote) {
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-    if (!supabaseUrl) {
-      throw new Error(
-        "NEXT_PUBLIC_SUPABASE_URL required for remote capture",
-      );
-    }
-    return productScreenshotPublicUrl(supabaseUrl, slug, file);
+    return productScreenshotPublicUrl(slug, file);
   }
   return localProductScreenshotSrc(slug, file);
 }
@@ -1668,7 +1662,7 @@ async function captureProduct(
   if (remote) {
     if (!hasStorageUploadConfig()) {
       throw new Error(
-        "Remote capture requires SUPABASE_SERVICE_ROLE_KEY and NEXT_PUBLIC_SUPABASE_URL (or pass --local)",
+        "Remote capture requires BLOB_READ_WRITE_TOKEN (or pass --local)",
       );
     }
 
@@ -1677,10 +1671,10 @@ async function captureProduct(
       skipDb: true,
     });
     if (storage.skipped) {
-      throw new Error(`Storage upload failed: ${storage.reason ?? "unknown"}`);
+      throw new Error(`Blob upload failed: ${storage.reason ?? "unknown"}`);
     }
     console.log(
-      `  storage: uploaded ${storage.uploaded} → ${PRODUCT_SCREENSHOTS_BUCKET}/${product.slug}/`,
+      `  blob: uploaded ${storage.uploaded} → ${PRODUCT_SCREENSHOTS_BUCKET}/${product.slug}/`,
     );
 
     await syncDb(product, mergedShots, mergedInsights, true);
@@ -1694,19 +1688,19 @@ async function captureProduct(
           dir,
         });
         if (storage.skipped) {
-          console.log(`  storage: skipped (${storage.reason})`);
+          console.log(`  blob: skipped (${storage.reason})`);
         } else {
           console.log(
-            `  storage: uploaded ${storage.uploaded} → ${PRODUCT_SCREENSHOTS_BUCKET}/${product.slug}/ · rewrote ${storage.rewritten} DB src(s)`,
+            `  blob: uploaded ${storage.uploaded} → ${PRODUCT_SCREENSHOTS_BUCKET}/${product.slug}/ · rewrote ${storage.rewritten} DB src(s)`,
           );
         }
       } catch (error) {
         const message = error instanceof Error ? error.message : String(error);
-        console.log(`  storage: failed (${message.slice(0, 120)})`);
+        console.log(`  blob: failed (${message.slice(0, 120)})`);
       }
     } else if (!argFlag("skip-storage")) {
       console.log(
-        "  storage: skipped (set SUPABASE_SERVICE_ROLE_KEY to upload after capture)",
+        "  blob: skipped (set BLOB_READ_WRITE_TOKEN to upload after capture)",
       );
     }
   }
@@ -1769,7 +1763,7 @@ async function main() {
   const remote = useRemoteCapture();
   if (remote) {
     console.log(
-      "Remote capture: screenshots → Supabase Storage + Postgres (no public/products/ writes)",
+      "Remote capture: screenshots → Vercel Blob (private) + Postgres (no public/products/ writes)",
     );
   }
 
