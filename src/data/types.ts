@@ -58,6 +58,95 @@ export type ProductScreenshotKind =
   | "technical"
   | "supporting";
 
+/** Atomic-design level inferred from tag/role/nesting depth. */
+export type AtomicDesignLevel =
+  | "atom"
+  | "molecule"
+  | "organism"
+  | "template"
+  | "page";
+
+export type ElementInteractionState =
+  | "default"
+  | "hover"
+  | "active"
+  | "disabled"
+  | "focused";
+
+/** Per-element structured capture keyed to a screenshot (locator clips). */
+export type ElementCapture = {
+  capturedAt: string;
+  /** Taxonomy layer this element primarily documents */
+  taxonomyLayer?:
+    | "surface"
+    | "component"
+    | "state"
+    | "structure"
+    | "source";
+  /** Interaction state at capture time (default / hover / …) */
+  interactionState?: ElementInteractionState;
+  dom: {
+    tagName: string;
+    role: string | null;
+    /** Semantic HTML / ARIA hint: button, nav, dialog, etc. */
+    semanticHint: string | null;
+    nestingDepth: number;
+    atomicLevel: AtomicDesignLevel;
+    accessibleName?: string | null;
+    id?: string | null;
+    classList?: string[];
+    attributes?: Record<string, string>;
+  };
+  styles: {
+    color?: string;
+    backgroundColor?: string;
+    fontFamily?: string;
+    fontSize?: string;
+    fontWeight?: string;
+    lineHeight?: string;
+    letterSpacing?: string;
+    textAlign?: string;
+    margin?: string;
+    padding?: string;
+    borderRadius?: string;
+    boxShadow?: string;
+    border?: string;
+    borderColor?: string;
+    display?: string;
+    gap?: string;
+    opacity?: string;
+  };
+  /** CSS custom properties resolved on the element + :root (design tokens). */
+  cssVariables: Record<string, string>;
+  text: {
+    visibleText?: string;
+    placeholder?: string | null;
+    ariaLabel?: string | null;
+    nearbyLabels?: string[];
+    linkHref?: string | null;
+  };
+  layout: {
+    boundingBox: { x: number; y: number; width: number; height: number };
+    display?: string;
+    position?: string;
+    flexOrGrid?: "flex" | "inline-flex" | "grid" | "inline-grid" | "none";
+    parentDisplay?: string | null;
+    breakpoint?: "mobile" | "tablet" | "desktop";
+    viewport?: { width: number; height: number };
+  };
+  interaction: {
+    /** Inferred / declared listeners: click, change, hover, focus, … */
+    events: string[];
+    disabled?: boolean;
+    focused?: boolean;
+    expanded?: boolean | null;
+    pressed?: boolean | null;
+    checked?: boolean | null;
+    /** Related state-variant screenshot filenames from the same playbook step */
+    stateShots?: Partial<Record<ElementInteractionState, string>>;
+  };
+};
+
 export type ProductScreenshot = {
   title: string;
   src: string;
@@ -74,6 +163,11 @@ export type ProductScreenshot = {
   phash?: string;
   playbookStep?: string;
   unique?: boolean;
+  /**
+   * Structured DOM / styles / tokens / layout for locator-clipped shots.
+   * Absent on full-page viewport captures and downloaded fallback images.
+   */
+  element?: ElementCapture;
 };
 
 /** Structured observations gathered by the Playwright capture agent */

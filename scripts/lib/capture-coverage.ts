@@ -24,8 +24,9 @@ import { hammingDistance } from "./image-dedupe";
 export const THIN_UNIQUE_TOTAL = 20;
 
 /**
- * Per-layer unique minimums. Structure can be satisfied by insights landmarks;
- * source is optional (only required when open-source signals exist).
+ * Per-layer unique minimums. Structure can be satisfied by insights landmarks
+ * or per-element ElementCapture JSON on locator clips; source is optional
+ * (only required when open-source signals exist).
  */
 export const LAYER_MIN_UNIQUE: Record<CaptureLayer, number> = {
   surface: 8,
@@ -50,6 +51,8 @@ export type ManifestShot = {
   unique?: boolean;
   width?: number;
   height?: number;
+  /** Present when locator clip also extracted DOM/styles/tokens */
+  element?: ProductScreenshot["element"];
 };
 
 export type CoverageIssue = {
@@ -172,12 +175,26 @@ export function assignLayer(shot: ManifestShot): CaptureLayer {
     .join(" · ")
     .toLowerCase();
 
-  // Source first — rare and explicit
+  // Explicit component crops win over design-system "source" bucketing —
+  // otherwise every SLDS/Polaris shot lands in Source and Components stays thin.
   if (
-    /\b(github|gitlab|storybook|open[\s-]?source|design[\s-]?token|source\s+code)\b/.test(
+    shot.kind === "component" ||
+    /-comp-\d+/i.test(shot.file ?? "") ||
+    /^card[-_]?\d+/i.test(shot.file ?? "")
+  ) {
+    return "component";
+  }
+
+  // Source — design systems, Storybook, open-source repos
+  if (
+    /\b(github|gitlab|storybook|open[\s-]?source|design[\s-]?token|design[\s-]?system|source\s+code|polaris|primer|geist|slds|spectrum|carbon|odyssey|fiori|fluent|pajamas)\b/.test(
       text,
     ) ||
-    /github\.com|storybook/.test(shot.sourceUrl ?? "")
+    /github\.com|storybook|lightningdesignsystem|polaris\.shopify|primer\.style|carbondesignsystem|atlassian\.design|paste\.twilio|odyssey\.okta|sapui5|geist\//.test(
+      shot.sourceUrl ?? "",
+    ) ||
+    /^ds-\d+/.test(shot.playbookStep ?? "") ||
+    /^ds-\d+/.test(shot.file ?? "")
   ) {
     return "source";
   }
@@ -204,13 +221,11 @@ export function assignLayer(shot: ManifestShot): CaptureLayer {
     return "state";
   }
 
-  // Component — crops, dialogs, menus, forms
+  // Component — dialogs, menus, forms (title/caption signals when kind unset)
   if (
-    shot.kind === "component" ||
     /\b(card|modal|dialog|sheet|menu|composer|picker|form|filter|dropdown|palette)\b/.test(
       text,
-    ) ||
-    /^card[-_]?\d+/i.test(shot.file ?? "")
+    )
   ) {
     return "component";
   }
@@ -408,12 +423,13 @@ export function validateCaptureData(
     byLayer.get(assignLayer(shot))!.push(shot);
   }
 
-  // Structure can also be satisfied by insights landmarks
+  // Structure can also be satisfied by insights landmarks or per-element JSON
   const landmarkEvidence =
     insights?.pages?.some((p) => (p.landmarks?.length ?? 0) > 0) ?? false;
+  const elementEvidence = shots.some((s) => Boolean(s.element));
   const sourceExpected = Boolean(
     insights?.techSignals?.some((t) =>
-      /open[\s-]?source|github|storybook/i.test(t),
+      /open[\s-]?source|github|storybook|design[\s-]?system/i.test(t),
     ) ||
       shots.some((s) => assignLayer(s) === "source"),
   );
@@ -432,6 +448,11 @@ export function validateCaptureData(
 
     if (layer === "structure" && landmarkEvidence) {
       evidence.push("insights landmarks");
+      uniqueCount = Math.max(uniqueCount, 1);
+    }
+    if (layer === "structure" && elementEvidence) {
+      const n = shots.filter((s) => s.element).length;
+      evidence.push(`${n} element capture(s)`);
       uniqueCount = Math.max(uniqueCount, 1);
     }
 
