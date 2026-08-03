@@ -17,6 +17,7 @@
     "db:collect-screenshots": "tsx scripts/collect-screenshots.ts",
     "db:enrich-screenshots": "tsx scripts/enrich-screenshots.ts",
     "capture:ui": "tsx scripts/capture-product-ui.ts",
+    "capture:batches": "bash scripts/capture-batches.sh",
     "capture:install": "playwright install chromium",
     "validate:ui": "tsx scripts/validate-capture.ts",
     "storage:setup-screenshots": "tsx scripts/setup-product-screenshots-storage.ts",

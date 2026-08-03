@@ -87,6 +87,8 @@ export function contentTypeForFileName(fileName: string): string {
       return "image/webp";
     case "gif":
       return "image/gif";
+    case "json":
+      return "application/json";
     case "jpg":
     case "jpeg":
     default:

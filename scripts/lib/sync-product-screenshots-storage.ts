@@ -23,6 +23,7 @@ import {
 import { uploadStorageObject } from "./storage-upload";
 
 const IMAGE_RE = /\.(png|jpe?g|webp|gif)$/i;
+const UPLOAD_RE = /\.(png|jpe?g|webp|gif|json)$/i;
 
 export type SyncStorageResult = {
   slug: string;
@@ -58,8 +59,9 @@ export async function syncProductScreenshotsToStorage(
     };
   }
 
-  const files = readdirSync(dir).filter((f) => IMAGE_RE.test(f));
-  if (files.length === 0) {
+  const files = readdirSync(dir).filter((f) => UPLOAD_RE.test(f));
+  const images = files.filter((f) => IMAGE_RE.test(f));
+  if (images.length === 0) {
     return {
       slug,
       uploaded: 0,
@@ -108,7 +110,7 @@ export async function syncProductScreenshotsToStorage(
 
     const prior = (rows[0]?.screenshots as ProductScreenshot[] | null) ?? [];
     const byFile = new Map<string, string>();
-    for (const file of files) {
+    for (const file of images) {
       byFile.set(file, productScreenshotBlobUrl(slug, file));
     }
 
@@ -121,7 +123,7 @@ export async function syncProductScreenshotsToStorage(
     const rewrittenShots: ProductScreenshot[] = [];
     let rewritten = 0;
 
-    for (const file of files) {
+    for (const file of images) {
       const nextSrc = byFile.get(file)!;
       const existing = priorByFile.get(file);
       if (existing) {
@@ -153,7 +155,16 @@ export async function syncProductScreenshotsToStorage(
       .where(eq(productsTable.slug, slug));
 
     return { slug, uploaded, skipped: false, rewritten };
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    return {
+      slug,
+      uploaded,
+      skipped: false,
+      reason: `DB rewrite skipped (${message.slice(0, 100)})`,
+      rewritten: 0,
+    };
   } finally {
-    await client.end();
+    await client.end({ timeout: 1 }).catch(() => undefined);
   }
 }

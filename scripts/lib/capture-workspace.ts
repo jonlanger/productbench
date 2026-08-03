@@ -5,12 +5,14 @@
 import { existsSync, mkdirSync, rmSync } from "fs";
 import { tmpdir } from "os";
 import { join } from "path";
+import { list } from "@vercel/blob";
 import { eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 
 import type { ProductCaptureInsights, ProductScreenshot } from "../../src/data/types";
 import { products as productsTable } from "../../src/db/schema";
+import { hasBlobConfig } from "../../src/lib/blob";
 import { screenshotFileName } from "../../src/lib/product-screenshots";
 import { hasStorageUploadConfig } from "./supabase-admin";
 
@@ -111,8 +113,10 @@ export async function loadPriorCaptureFromDb(slug: string): Promise<{
       .filter((s): s is CaptureShotRecord => s != null);
 
     return { shots, insights: row.captureInsights ?? null };
+  } catch {
+    return { shots: [], insights: null };
   } finally {
-    await client.end();
+    await client.end({ timeout: 1 }).catch(() => undefined);
   }
 }
 
@@ -139,7 +143,46 @@ export async function loadCapturedSlugsFromDb(): Promise<Set<string>> {
         })
         .map((row) => row.slug),
     );
+  } catch {
+    return new Set();
   } finally {
-    await client.end();
+    await client.end({ timeout: 1 }).catch(() => undefined);
   }
+}
+
+/** Slugs that already have objects under products/[slug]/ in private Vercel Blob. */
+export async function loadCapturedSlugsFromBlob(): Promise<Set<string>> {
+  if (!hasBlobConfig()) return new Set();
+
+  const slugs = new Set<string>();
+  let cursor: string | undefined;
+
+  do {
+    const page = await list({
+      prefix: "products/",
+      cursor,
+      limit: 1000,
+    });
+    for (const blob of page.blobs) {
+      const parts = blob.pathname.replace(/^\/+/, "").split("/");
+      if (parts[0] === "products" && parts[1]) slugs.add(parts[1]!);
+    }
+    cursor = page.hasMore ? page.cursor : undefined;
+  } while (cursor);
+
+  return slugs;
+}
+
+/** Prefer Vercel Blob inventory; Postgres is optional metadata only. */
+export async function loadCapturedSlugs(): Promise<Set<string>> {
+  if (hasBlobConfig()) {
+    const fromBlob = await loadCapturedSlugsFromBlob();
+    if (fromBlob.size > 0) return fromBlob;
+  }
+
+  if (process.env.DATABASE_URL) {
+    return loadCapturedSlugsFromDb();
+  }
+
+  return new Set();
 }
