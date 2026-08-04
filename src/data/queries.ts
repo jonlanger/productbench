@@ -7,6 +7,7 @@ import { getDb, hasDatabaseUrl } from "@/db";
 import { products as productsTable, type ProductRow } from "@/db/schema";
 import { getViewer } from "@/lib/auth";
 import { stripProductForCatalog } from "@/lib/catalog-product";
+import { hydrateProductScreenshots } from "@/lib/hydrate-screenshots";
 
 function isPublicProduct(product: Pick<Product, "isPublic">): boolean {
   return product.isPublic !== false;
@@ -95,25 +96,30 @@ export const getVisibleProducts = cache(async (): Promise<Product[]> => {
 
 export const getProductBySlug = cache(
   async (slug: string): Promise<Product | undefined> => {
+    let product: Product | undefined;
+
     if (!hasDatabaseUrl()) {
-      return seedAsProducts().find((product) => product.slug === slug);
+      product = seedAsProducts().find((entry) => entry.slug === slug);
+    } else {
+      try {
+        const [row] = await getDb()
+          .select()
+          .from(productsTable)
+          .where(eq(productsTable.slug, slug))
+          .limit(1);
+
+        product = row ? rowToProduct(row) : undefined;
+      } catch (error) {
+        console.error(
+          `[getProductBySlug] database query failed for "${slug}"; falling back to seed.`,
+          error,
+        );
+        product = seedAsProducts().find((entry) => entry.slug === slug);
+      }
     }
 
-    try {
-      const [row] = await getDb()
-        .select()
-        .from(productsTable)
-        .where(eq(productsTable.slug, slug))
-        .limit(1);
-
-      return row ? rowToProduct(row) : undefined;
-    } catch (error) {
-      console.error(
-        `[getProductBySlug] database query failed for "${slug}"; falling back to seed.`,
-        error,
-      );
-      return seedAsProducts().find((product) => product.slug === slug);
-    }
+    if (!product) return undefined;
+    return hydrateProductScreenshots(product);
   },
 );
 
