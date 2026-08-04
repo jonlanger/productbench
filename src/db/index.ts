@@ -14,7 +14,8 @@ function createDb() {
   const client = postgres(url, {
     prepare: false,
     max: 10,
-    // Supabase (and most hosted Postgres) require TLS
+    connect_timeout: 5,
+    // Hosted Postgres (Neon, Supabase, etc.) generally requires TLS
     ssl: "require",
   });
 

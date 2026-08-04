@@ -17,11 +17,10 @@ function getSupabaseEnv() {
 }
 
 export function hasSupabasePublicConfig() {
-  return Boolean(
-    process.env.NEXT_PUBLIC_SUPABASE_URL &&
-      (process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ||
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY),
-  );
+  // Auth disabled: Supabase project host does not resolve (ENOTFOUND). Keeping
+  // this true with dead env vars made middleware/layout hang until 504.
+  // Re-enable only after migrating Auth off Supabase (or restoring a live project).
+  return false;
 }
 
 export async function createClient() {
