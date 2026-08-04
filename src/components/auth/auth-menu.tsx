@@ -9,6 +9,7 @@ import {
   AvatarImage,
 } from "@/components/ui/avatar";
 import { getUserInitials } from "@/lib/avatar";
+import { isAuthEnabled } from "@/lib/supabase/client";
 import { cn } from "@/lib/utils";
 
 type AuthMenuProps = {
@@ -25,6 +26,8 @@ export function AuthMenu({
   className,
 }: AuthMenuProps) {
   if (!email) {
+    if (!isAuthEnabled()) return null;
+
     return (
       <Link
         href="/sign-in"

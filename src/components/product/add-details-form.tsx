@@ -83,7 +83,7 @@ export function AddDetailsForm({
   if (!hasSupabasePublicConfig()) {
     return (
       <p className="rounded-2xl border border-border/80 bg-muted/30 px-6 py-8 text-sm text-muted-foreground">
-        Uploads require signing in (Supabase Auth).
+        Uploads are unavailable while account auth is disabled.
       </p>
     );
   }

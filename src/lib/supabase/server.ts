@@ -16,11 +16,18 @@ function getSupabaseEnv() {
   return { url, key };
 }
 
-export function hasSupabasePublicConfig() {
-  // Auth disabled: Supabase project host does not resolve (ENOTFOUND). Keeping
-  // this true with dead env vars made middleware/layout hang until 504.
-  // Re-enable only after migrating Auth off Supabase (or restoring a live project).
+/**
+ * Account sign-in is intentionally off. The previous Supabase Auth host no
+ * longer resolves; calling it from middleware/layout hung until 504.
+ * Wire a new provider here before returning true.
+ */
+export function isAuthEnabled() {
   return false;
+}
+
+/** @deprecated Prefer `isAuthEnabled`. Always false while Auth stays disabled. */
+export function hasSupabasePublicConfig() {
+  return isAuthEnabled();
 }
 
 export async function createClient() {

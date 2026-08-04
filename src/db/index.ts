@@ -7,7 +7,7 @@ function createDb() {
   const url = process.env.DATABASE_URL;
   if (!url) {
     throw new Error(
-      "DATABASE_URL is not set. Add your Supabase Postgres connection string to .env.local.",
+      "DATABASE_URL is not set. Add your Postgres connection string to .env.local.",
     );
   }
 
@@ -29,7 +29,7 @@ const globalForDb = globalThis as unknown as {
 export function getDb() {
   if (!process.env.DATABASE_URL) {
     throw new Error(
-      "DATABASE_URL is not set. Add your Supabase Postgres connection string to .env.local.",
+      "DATABASE_URL is not set. Add your Postgres connection string to .env.local.",
     );
   }
 

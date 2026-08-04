@@ -47,7 +47,7 @@ export function AvatarUploader({
   if (!hasSupabasePublicConfig()) {
     return (
       <p className="text-sm text-muted-foreground">
-        Avatar upload requires Supabase Auth configuration.
+        Avatar upload is unavailable while account auth is disabled.
       </p>
     );
   }

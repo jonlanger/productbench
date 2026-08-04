@@ -4,6 +4,7 @@ import { getVisibleProductBySlug } from "@/data/queries";
 import type { ProductScreenshotKind } from "@/data/types";
 import { getViewer } from "@/lib/auth";
 import { GUEST_PREVIEW_COUNT } from "@/lib/gallery";
+import { isAuthEnabled } from "@/lib/supabase/server";
 
 const DEFAULT_LIMIT = 20;
 const MAX_LIMIT = 60;
@@ -39,7 +40,10 @@ export async function GET(request: Request, context: RouteContext) {
       ? all.filter((shot) => kinds.includes(shot.kind ?? "marketing"))
       : all;
 
-  const visible = user ? filtered : filtered.slice(0, GUEST_PREVIEW_COUNT);
+  const unlockGallery = Boolean(user) || !isAuthEnabled();
+  const visible = unlockGallery
+    ? filtered
+    : filtered.slice(0, GUEST_PREVIEW_COUNT);
   const items = visible.slice(offset, offset + limit);
   const nextOffset = offset + items.length;
 
@@ -50,6 +54,6 @@ export async function GET(request: Request, context: RouteContext) {
     limit,
     hasMore: nextOffset < visible.length,
     nextOffset,
-    gated: !user && filtered.length > GUEST_PREVIEW_COUNT,
+    gated: !unlockGallery && filtered.length > GUEST_PREVIEW_COUNT,
   });
 }

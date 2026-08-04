@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { getPendingSubmissions } from "@/data/submissions";
 import { getViewer } from "@/lib/auth";
+import { isAuthEnabled } from "@/lib/supabase/server";
 
 export const metadata: Metadata = {
   title: "Review submissions",
@@ -14,6 +15,10 @@ export const metadata: Metadata = {
 };
 
 export default async function AdminSubmissionsPage() {
+  if (!isAuthEnabled()) {
+    redirect("/");
+  }
+
   const { user, isAdmin } = await getViewer();
   if (!user) {
     redirect("/sign-in?next=/admin/submissions");

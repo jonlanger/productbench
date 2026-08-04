@@ -12,6 +12,7 @@ import { getCatalogStats } from "@/data/queries";
 import { countSubmissionsByStatus } from "@/data/submissions";
 import { getUserAvatarUrl } from "@/lib/avatar";
 import { getViewer } from "@/lib/auth";
+import { isAuthEnabled } from "@/lib/supabase/server";
 
 export const metadata: Metadata = {
   title: "Account",
@@ -19,6 +20,10 @@ export const metadata: Metadata = {
 };
 
 export default async function AccountPage() {
+  if (!isAuthEnabled()) {
+    redirect("/");
+  }
+
   const { user, isAdmin, isMemberPreview } = await getViewer();
   if (!user) {
     redirect("/sign-in?next=/account");

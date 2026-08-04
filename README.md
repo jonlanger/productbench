@@ -5,8 +5,10 @@ Research catalog of enterprise, consumer, and industrial software — UX pattern
 ## Stack
 
 - Next.js (App Router)
-- Supabase Postgres (via Drizzle ORM) + Supabase Auth
+- Postgres (via Drizzle ORM) — any host (Neon, Supabase, etc.)
 - Vercel Blob (private) for product screenshots, avatars, and submissions (local `public/products` is the capture workspace)
+
+Account auth is currently **disabled** in code (`isAuthEnabled()`). The catalog is browsable without signing in. Do not expect `/sign-in` to work until a new auth provider is wired up.
 
 Without `DATABASE_URL`, the app falls back to the TypeScript seed catalog in `src/data/`.
 
@@ -18,13 +20,12 @@ Without `DATABASE_URL`, the app falls back to the TypeScript seed catalog in `sr
 npm install
 ```
 
-### 2. Create a Supabase project
+### 2. Postgres (optional)
 
-1. Open [Supabase](https://supabase.com/dashboard) and create (or select) a project.
-2. Go to **Project Settings → Database** and copy the **connection string**.
-   - App runtime: use the **Transaction pooler** URI (port `6543`).
+1. Provision a Postgres database (Neon, Supabase, Railway, etc.).
+2. Copy the connection string.
+   - App runtime: prefer a **pooled** URI when available (e.g. port `6543` on Supabase).
    - Schema push: if `db:push` fails on the pooler, temporarily use the **direct** URI (port `5432`).
-3. Go to **Project Settings → API** and copy the **Project URL** and **anon public** key.
 
 ### 3. Environment variables
 
@@ -36,17 +37,15 @@ Fill in:
 
 ```env
 DATABASE_URL=postgresql://...
-NEXT_PUBLIC_SUPABASE_URL=https://[PROJECT-REF].supabase.co
-NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your-publishable-key
 BLOB_READ_WRITE_TOKEN=vercel_blob_rw_...
 ADMIN_EMAILS=you@example.com
 ```
 
-`ADMIN_EMAILS` is a comma-separated allowlist. Those accounts see the full catalog (including products with `is_public = false`). Guests and non-admin accounts only see the public set (the current ~50 products).
+`ADMIN_EMAILS` is reserved for when auth is re-enabled (comma-separated allowlist for the full catalog, including `is_public = false`). With auth off, guests see the public set only.
 
 `BLOB_READ_WRITE_TOKEN` comes from a **private** Vercel Blob store (capture uploads + avatar/submission client uploads). Never expose it as `NEXT_PUBLIC_*`.
 
-Enable **Email** auth in the Supabase dashboard (**Authentication → Providers**). Add your site URL and `/auth/callback` under **Authentication → URL Configuration**.
+Optional legacy Supabase Auth keys (`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`) are unused while `isAuthEnabled()` returns false.
 
 ### 4. Blob store + schema
 
@@ -61,6 +60,7 @@ npm run storage:setup-screenshots   # prints Blob setup reminders
 ```
 
 Avatars (`/account`) and screenshot submissions (`/admin/submissions`) use the same private Blob store, served through `/api/blob/...`.
+
 ### 5. Run the app
 
 ```bash

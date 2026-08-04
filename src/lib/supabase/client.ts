@@ -20,7 +20,12 @@ export function createClient() {
   return createBrowserClient(url, key);
 }
 
-export function hasSupabasePublicConfig() {
-  // Auth disabled — see server `hasSupabasePublicConfig` (dead Supabase host).
+/** Account sign-in is intentionally off (no auth provider configured). */
+export function isAuthEnabled() {
   return false;
+}
+
+/** @deprecated Prefer `isAuthEnabled`. Always false while Auth stays disabled. */
+export function hasSupabasePublicConfig() {
+  return isAuthEnabled();
 }
