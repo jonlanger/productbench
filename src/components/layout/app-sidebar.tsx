@@ -30,6 +30,7 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar";
 import { getUserInitials } from "@/lib/avatar";
+import { isAuthEnabled } from "@/lib/supabase/client";
 
 const NAV_ITEMS: Array<{
   href: string;
@@ -117,26 +118,8 @@ export function AppSidebar({ email, avatarUrl, isAdmin }: AppSidebarProps) {
 
       <SidebarFooter>
         <SidebarMenu>
-          <SidebarMenuItem>
-            {!email ? (
-              <SidebarMenuButton
-                size="lg"
-                render={<Link href="/sign-in" />}
-                tooltip="Sign in"
-              >
-                <Avatar className="size-8 rounded-lg after:rounded-lg">
-                  <AvatarFallback className="rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
-                    <LogIn className="size-4" aria-hidden />
-                  </AvatarFallback>
-                </Avatar>
-                <div className="grid flex-1 text-left text-sm leading-tight">
-                  <span className="truncate font-medium">Sign in</span>
-                  <span className="truncate text-xs text-sidebar-foreground/70">
-                    Or create an account
-                  </span>
-                </div>
-              </SidebarMenuButton>
-            ) : (
+          {email ? (
+            <SidebarMenuItem>
               <SidebarMenuButton
                 size="lg"
                 render={<Link href="/account" />}
@@ -157,8 +140,28 @@ export function AppSidebar({ email, avatarUrl, isAdmin }: AppSidebarProps) {
                   </span>
                 </div>
               </SidebarMenuButton>
-            )}
-          </SidebarMenuItem>
+            </SidebarMenuItem>
+          ) : isAuthEnabled() ? (
+            <SidebarMenuItem>
+              <SidebarMenuButton
+                size="lg"
+                render={<Link href="/sign-in" />}
+                tooltip="Sign in"
+              >
+                <Avatar className="size-8 rounded-lg after:rounded-lg">
+                  <AvatarFallback className="rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
+                    <LogIn className="size-4" aria-hidden />
+                  </AvatarFallback>
+                </Avatar>
+                <div className="grid flex-1 text-left text-sm leading-tight">
+                  <span className="truncate font-medium">Sign in</span>
+                  <span className="truncate text-xs text-sidebar-foreground/70">
+                    Or create an account
+                  </span>
+                </div>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+          ) : null}
         </SidebarMenu>
       </SidebarFooter>
 

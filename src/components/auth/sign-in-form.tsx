@@ -8,10 +8,7 @@ import { LoaderCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import {
-  createClient,
-  hasSupabasePublicConfig,
-} from "@/lib/supabase/client";
+import { createClient, isAuthEnabled } from "@/lib/supabase/client";
 
 type Mode = "sign-in" | "sign-up";
 
@@ -33,15 +30,11 @@ export function SignInForm() {
   );
   const [pending, setPending] = useState(false);
 
-  if (!hasSupabasePublicConfig()) {
+  if (!isAuthEnabled()) {
     return (
       <div className="rounded-2xl border border-border/80 bg-muted/30 px-6 py-8 text-sm text-muted-foreground">
-        Supabase auth is not configured. Add{" "}
-        <code className="text-foreground">NEXT_PUBLIC_SUPABASE_URL</code> and{" "}
-        <code className="text-foreground">
-          NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
-        </code>{" "}
-        to <code className="text-foreground">.env.local</code>.
+        Sign-in is currently unavailable. Account auth is not enabled for this
+        deployment.
       </div>
     );
   }

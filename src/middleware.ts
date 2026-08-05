@@ -1,9 +1,15 @@
-import { type NextRequest } from "next/server";
+import { type NextRequest, NextResponse } from "next/server";
 
-import { updateSession } from "@/lib/supabase/middleware";
-
-export async function middleware(request: NextRequest) {
-  return updateSession(request);
+/**
+ * Pass-through only. Do not call Supabase Auth here — the project host no longer
+ * resolves, and `auth.getUser()` hangs Edge Middleware until
+ * MIDDLEWARE_INVOCATION_TIMEOUT (504).
+ *
+ * Session checks stay in `getViewer()` / route handlers. Reintroduce a refresh
+ * step only after Auth is on a reachable provider (e.g. Clerk).
+ */
+export function middleware(request: NextRequest) {
+  return NextResponse.next({ request });
 }
 
 export const config = {

@@ -16,12 +16,18 @@ function getSupabaseEnv() {
   return { url, key };
 }
 
+/**
+ * Account sign-in is intentionally off. The previous Supabase Auth host no
+ * longer resolves; calling it from middleware/layout hung until 504.
+ * Wire a new provider here before returning true.
+ */
+export function isAuthEnabled() {
+  return false;
+}
+
+/** @deprecated Prefer `isAuthEnabled`. Always false while Auth stays disabled. */
 export function hasSupabasePublicConfig() {
-  return Boolean(
-    process.env.NEXT_PUBLIC_SUPABASE_URL &&
-      (process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ||
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY),
-  );
+  return isAuthEnabled();
 }
 
 export async function createClient() {

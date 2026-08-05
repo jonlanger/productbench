@@ -2,12 +2,13 @@
  * Web fallbacks when Playwright live capture is thin or bot-blocked.
  *
  * Primary chain:
- *   1. Curated docs/help/technical pages (PRODUCT_VISUAL_SOURCES) → download UI images
- *   2. Open Graph / Twitter meta images from homepage
- *   3. thum.io live snapshot of homepage
- *   4. Wayback Machine archived page images / snapshot
- *   5. YouTube thumbnails + auto frame stills (0–3.jpg)
- *   6. Apple App Store public screenshots (when appStoreId is curated)
+ *   1. Design-system / Storybook / component docs (curated + discovered)
+ *   2. Curated docs/help/technical pages (PRODUCT_VISUAL_SOURCES) → download UI images
+ *   3. Open Graph / Twitter meta images from homepage
+ *   4. thum.io live snapshot of homepage
+ *   5. Apple App Store public screenshots (when appStoreId is curated; reserved slots)
+ *   6. Wayback Machine archived page images / snapshot
+ *   7. YouTube thumbnails + auto frame stills (0–3.jpg)
  */
 
 import { createWriteStream, mkdirSync } from "fs";
@@ -21,6 +22,11 @@ import {
   PRODUCT_VISUAL_SOURCES,
   type VisualSourceGroup,
 } from "../../src/data/visual-sources";
+import {
+  discoverDesignSystemSources,
+  resolveDesignSystemCandidates,
+  type DesignSystemCandidate,
+} from "./design-system-sources";
 
 export type FallbackShot = {
   file: string;
@@ -34,7 +40,7 @@ const BLOCKED_RE =
   /just a moment|attention required|checking your browser|verify you are (?:a )?human|access denied|cf-browser-verification|challenge-platform|enable javascript and cookies|bot detection|pardon our interruption|are you a robot|captcha|ddos-guard|please wait while we (?:verify|check)|unusual traffic|request unsuccessful/i;
 
 const UI_HINT_RE =
-  /screenshot|screen[-_]?shot|product[-_]?ui|dashboard|interface|canvas|editor|workspace|board|kanban|timeline|inbox|composer|modal|dialog|settings|admin|console|workflow|pipeline|\/docs\/.*\.(png|jpe?g|webp)|webassets\.linear\.app|cdn\.sanity\.io|files\.readme\.io|ctfassets\.net|mintcdn\.com/i;
+  /screenshot|screen[-_]?shot|product[-_]?ui|dashboard|interface|canvas|editor|workspace|board|kanban|timeline|inbox|composer|modal|dialog|settings|admin|console|workflow|pipeline|component|token|typography|color|palette|icon|button|form|card|\/docs\/.*\.(png|jpe?g|webp)|webassets\.linear\.app|cdn\.sanity\.io|files\.readme\.io|ctfassets\.net|mintcdn\.com|storybook|design[-_]?system/i;
 
 const REJECT_RE =
   /logo|wordmark|favicon|sprite|emoji|avatar|\/icons?\/|badge|spinner|loader|placeholder|1x1|pixel|tracking|spacer|og[-_]?image|opengraph|twitter[-_]?card|social[-_]?share|apple[-_]?touch/i;
@@ -50,7 +56,14 @@ export function looksBlockedText(text: string) {
 
 function hasCuratedMedia(slug: string) {
   const sources = PRODUCT_VISUAL_SOURCES[slug];
-  if (!sources) return false;
+  const hasRegistryDs = resolveDesignSystemCandidates({
+    slug,
+    website: sources?.homepage ?? "https://example.com",
+    sources,
+  }).some((c) => c.via === "registry" || c.via === "curated");
+
+  if (!sources) return hasRegistryDs;
+
   return Boolean(
     sources.youtube?.length ||
       sources.appStoreId ||
@@ -58,7 +71,9 @@ function hasCuratedMedia(slug: string) {
       sources.help?.length ||
       sources.technical?.length ||
       sources.supporting?.length ||
-      sources.releases?.length,
+      sources.releases?.length ||
+      sources.designSystem?.length ||
+      hasRegistryDs,
   );
 }
 
@@ -266,10 +281,136 @@ function sourceKind(
   sources: VisualSourceGroup | undefined,
   docUrl: string,
 ): ProductScreenshotKind {
+  if (sources?.designSystem?.includes(docUrl)) return "component";
   if (sources?.technical?.includes(docUrl)) return "technical";
   if (sources?.supporting?.includes(docUrl)) return "supporting";
   if (sources?.releases?.includes(docUrl)) return "docs";
   return "docs";
+}
+
+async function collectFromDesignSystems(
+  options: {
+    slug: string;
+    website: string;
+    designSystemLabel?: string;
+    sources?: VisualSourceGroup;
+  },
+  dir: string,
+  budget: number,
+): Promise<FallbackShot[]> {
+  if (budget <= 0) return [];
+
+  let candidates: DesignSystemCandidate[] = [];
+  try {
+    candidates = await discoverDesignSystemSources({
+      ...options,
+      limit: 8,
+    });
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.warn(`    design-system discovery miss: ${message.slice(0, 80)}`);
+    candidates = resolveDesignSystemCandidates(options).filter(
+      (c) => c.via === "curated" || c.via === "registry",
+    );
+  }
+
+  if (!candidates.length) return [];
+
+  const shots: FallbackShot[] = [];
+  let index = 0;
+
+  for (const candidate of candidates) {
+    if (shots.length >= budget) break;
+    try {
+      const html = await fetchHtml(candidate.url);
+      // Design-system pages: accept lower UI-hint threshold — component galleries
+      // often use generic img alts but still show real UI.
+      const candidatesImgs = extractDocImages(html, candidate.url);
+      const relaxed = candidatesImgs.length
+        ? candidatesImgs
+        : extractDocImagesRelaxed(html, candidate.url);
+      let addedFromPage = 0;
+      for (const img of relaxed.slice(0, 5)) {
+        if (shots.length >= budget) break;
+        index += 1;
+        const file = await downloadToJpeg(
+          img.src,
+          dir,
+          `fallback-ds-${index}`,
+        );
+        if (!file) continue;
+        shots.push({
+          file,
+          title: (img.alt || `${candidate.label} ${index}`).slice(0, 90),
+          caption: `Design system fallback (${candidate.via}): ${candidate.url}`,
+          kind: "component",
+          sourceUrl: candidate.url,
+        });
+        addedFromPage += 1;
+      }
+
+      // No downloadable images on this page — snapshot the live DS surface
+      if (addedFromPage === 0 && shots.length < budget) {
+        const snapshot = `https://image.thum.io/get/width/1400/noanimate/${encodeURIComponent(candidate.url)}`;
+        index += 1;
+        const file = await downloadToJpeg(
+          snapshot,
+          dir,
+          `fallback-ds-thum-${index}`,
+        );
+        if (file) {
+          shots.push({
+            file,
+            title: candidate.label,
+            caption: `Design system page snapshot (${candidate.via}): ${candidate.url}`,
+            kind: "component",
+            sourceUrl: candidate.url,
+          });
+        }
+      }
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      console.warn(
+        `    design-system miss ${candidate.url}: ${message.slice(0, 80)}`,
+      );
+    }
+  }
+
+  return shots;
+}
+
+/** Looser image extraction for design-system / Storybook pages. */
+function extractDocImagesRelaxed(html: string, pageUrl: string) {
+  const found: Array<{ src: string; alt: string; score: number }> = [];
+  const seen = new Set<string>();
+
+  for (const match of html.matchAll(/<img\b[^>]*>/gi)) {
+    const tag = match[0];
+    const srcMatch =
+      tag.match(/(?:src|data-src|data-lazy-src)=["']([^"']+)["']/i) ??
+      tag.match(/srcset=["']([^"'\s]+)/i);
+    if (!srcMatch) continue;
+    const src = absolutize(pageUrl, srcMatch[1]);
+    if (!src || seen.has(src)) continue;
+    if (!/^https?:\/\//i.test(src)) continue;
+    const alt = tag.match(/alt=["']([^"']*)["']/i)?.[1] ?? "";
+    const hay = `${src} ${alt}`.toLowerCase();
+    if (REJECT_RE.test(hay)) continue;
+    // Skip tiny tracking pixels by URL pattern only; size unknown here
+    if (/1x1|pixel|spacer|blank\.(gif|png)/i.test(hay)) continue;
+
+    let score = 2;
+    if (/\.(png|jpe?g|webp|svg)(\?|$)/i.test(src)) score += 1;
+    if (/component|button|modal|form|icon|illustration|example|preview/i.test(hay))
+      score += 4;
+    if (score < 3) continue;
+
+    seen.add(src);
+    found.push({ src, alt, score });
+    if (found.length >= 12) break;
+  }
+
+  return found.sort((a, b) => b.score - a.score);
 }
 
 async function collectFromVisualSources(
@@ -521,7 +662,39 @@ function appStoreIdsFor(sources: VisualSourceGroup | undefined): string[] {
   return [...new Set(ids)];
 }
 
-/** Public App Store screenshots via iTunes Lookup API. */
+/**
+ * When iTunes Lookup returns empty screenshotUrls (common for some apps),
+ * scrape unique full-size mzstatic screenshot URLs from the public App Store page.
+ */
+async function scrapeAppStoreScreenshotUrls(
+  appStoreId: string,
+): Promise<string[]> {
+  const pageUrl = `https://apps.apple.com/us/app/id${appStoreId}`;
+  try {
+    const response = await fetch(pageUrl, {
+      headers: {
+        "user-agent":
+          "ProductBenchResearchBot/0.4 (+local research; appstore-page)",
+        accept: "text/html",
+      },
+    });
+    if (!response.ok) return [];
+    const html = await response.text();
+    const found = new Set<string>();
+    // PurpleSource…/N.jpg/WxH… — keep the /N.jpg/ stem, request a large JPEG.
+    const re =
+      /https:\/\/is\d+-ssl\.mzstatic\.com\/image\/thumb\/PurpleSource[^"'\\\s]+?\/\d+\.jpg\//g;
+    let match: RegExpExecArray | null;
+    while ((match = re.exec(html)) !== null) {
+      found.add(`${match[0]}1200x0w.jpg`);
+    }
+    return [...found];
+  } catch {
+    return [];
+  }
+}
+
+/** Public App Store screenshots via iTunes Lookup API (+ HTML scrape fallback). */
 async function collectFromAppStore(
   sources: VisualSourceGroup | undefined,
   dir: string,
@@ -554,12 +727,21 @@ async function collectFromAppStore(
         }>;
       };
       const app = data.results?.[0];
-      if (!app) continue;
+      const trackName = app?.trackName ?? "App";
 
-      const urls = [
-        ...(app.screenshotUrls ?? []),
-        ...(app.ipadScreenshotUrls ?? []),
+      let urls = [
+        ...(app?.screenshotUrls ?? []),
+        ...(app?.ipadScreenshotUrls ?? []),
       ];
+      if (!urls.length) {
+        urls = await scrapeAppStoreScreenshotUrls(appStoreId);
+        if (urls.length) {
+          console.log(
+            `    app store ${appStoreId}: scraped ${urls.length} from product page (lookup empty)`,
+          );
+        }
+      }
+      if (!urls.length) continue;
 
       for (const src of urls) {
         if (shots.length >= budget) break;
@@ -572,7 +754,7 @@ async function collectFromAppStore(
         if (!file) continue;
         shots.push({
           file,
-          title: `${app.trackName ?? "App"} screenshot ${index}`,
+          title: `${trackName} screenshot ${index}`,
           caption: `Apple App Store public screenshot (id ${appStoreId})`,
           kind: "product",
           sourceUrl: `https://apps.apple.com/app/id${appStoreId}`,
@@ -595,8 +777,9 @@ export async function runWebFallback(options: {
   website: string;
   dir: string;
   existingCount: number;
+  designSystemLabel?: string;
 }): Promise<FallbackShot[]> {
-  const { slug, website, dir, existingCount } = options;
+  const { slug, website, dir, existingCount, designSystemLabel } = options;
   // Prefer topping up toward GALLERY_TARGET; when already past it still pull
   // curated App Store / YouTube / docs images (budget = MAX_FALLBACK_SHOTS).
   const towardTarget = Math.max(0, GALLERY_TARGET - existingCount);
@@ -612,7 +795,16 @@ export async function runWebFallback(options: {
 
   const remaining = () => budget - collected.length;
 
-  console.log(`  fallback → docs/help images (budget ${budget})…`);
+  console.log(`  fallback → design-system / Storybook (budget ${budget})…`);
+  const ds = await collectFromDesignSystems(
+    { slug, website, designSystemLabel, sources },
+    dir,
+    remaining(),
+  );
+  collected.push(...ds);
+  console.log(`    +${ds.length} from design systems`);
+
+  console.log(`  fallback → docs/help images…`);
   const docs = await collectFromVisualSources(slug, dir, remaining());
   collected.push(...docs);
   console.log(`    +${docs.length} from curated visual sources`);
@@ -622,6 +814,28 @@ export async function runWebFallback(options: {
     const meta = await collectFromMetaAndThum(homepageUrl, dir, remaining());
     collected.push(...meta);
     console.log(`    +${meta.length} from OG/thum`);
+  }
+
+  // App Store before Wayback/YouTube — first-party product UI beats archive/frames.
+  // Carve up to 12 slots if docs/OG already filled the budget.
+  if (appStoreIdsFor(sources).length > 0) {
+    if (remaining() === 0 && collected.length >= 12) {
+      const keep = Math.max(0, budget - 12);
+      console.log(
+        `  fallback → reserving App Store slots (trim ${collected.length - keep} earlier fallbacks)`,
+      );
+      collected.splice(keep);
+    }
+    if (remaining() > 0) {
+      console.log(`  fallback → App Store screenshots…`);
+      const store = await collectFromAppStore(
+        sources,
+        dir,
+        Math.min(12, remaining()),
+      );
+      collected.push(...store);
+      console.log(`    +${store.length} from App Store`);
+    }
   }
 
   if (remaining() > 0) {
@@ -636,13 +850,6 @@ export async function runWebFallback(options: {
     const yt = await collectFromYoutube(sources, dir, remaining());
     collected.push(...yt);
     console.log(`    +${yt.length} from YouTube`);
-  }
-
-  if (remaining() > 0 && appStoreIdsFor(sources).length > 0) {
-    console.log(`  fallback → App Store screenshots…`);
-    const store = await collectFromAppStore(sources, dir, remaining());
-    collected.push(...store);
-    console.log(`    +${store.length} from App Store`);
   }
 
   return collected;

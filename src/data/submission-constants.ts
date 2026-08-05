@@ -1,2 +1,2 @@
-/** Client-safe constants for screenshot submissions (no DB imports). */
+/** Client-safe path prefix for screenshot submissions in Vercel Blob. */
 export const SUBMISSIONS_BUCKET = "submissions";

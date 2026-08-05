@@ -126,8 +126,9 @@ export const CAPTURE_TARGETS: CaptureTarget[] = [
       "Heading outline",
       "Dialog focus traps",
       "Named interactive controls",
+      "Per-element JSON (tag, ARIA, computed styles, CSS vars)",
     ],
-    how: "Inspect via browser DevTools / CDP / Playwright accessibility tree — not private source.",
+    how: "Locator clips extract structured ElementCapture JSON (DOM semantics, getComputedStyle tokens, layout, text, interaction). Page insights still record landmarks.",
   },
   {
     id: "open-source",
@@ -141,6 +142,19 @@ export const CAPTURE_TARGETS: CaptureTarget[] = [
       "Storybook stories",
     ],
     how: "Only for products with public repos or Storybooks — never reverse-engineer private apps beyond public UI.",
+  },
+  {
+    id: "design-system",
+    layer: "source",
+    title: "Design system & component docs",
+    why: "When marketing homepages block bots, public design systems still expose the product’s UI language — components, tokens, patterns, and density.",
+    examples: [
+      "Polaris / SLDS / Geist / Primer docs",
+      "Storybook galleries",
+      "Brand / foundations pages",
+      "Open-source DS GitHub READMEs",
+    ],
+    how: "Prefer curated visual-sources.designSystem URLs; otherwise resolve from product.ux.designSystem, probe /design paths, and fall back to known public DS sites.",
   },
 ];
 
@@ -159,7 +173,7 @@ export const CAPTURE_LIMITS = [
   },
   {
     title: "Prefer real UI over OG cards",
-    body: "Open Graph / social previews are fallbacks. Live viewport and component crops are the goal.",
+    body: "Open Graph / social previews are fallbacks. Live viewport, design-system docs, and component crops are the goal when marketing sites are bot-blocked.",
   },
 ] as const;
 

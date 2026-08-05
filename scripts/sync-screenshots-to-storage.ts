@@ -1,7 +1,6 @@
 /**
- * Upload local capture images to Supabase Storage and rewrite DB src URLs.
+ * Upload local capture images to Vercel Blob (private) and rewrite DB src URLs.
  *
- *   npm run storage:setup-screenshots
  *   npm run storage:sync-screenshots -- --slug=notion
  *   npm run storage:sync-screenshots -- --all [--limit=N]
  */
@@ -52,17 +51,15 @@ async function main() {
         "  npm run storage:sync-screenshots -- --slug=<product>",
         "  npm run storage:sync-screenshots -- --all [--limit=N] [--offset=N]",
         "",
-        "Requires NEXT_PUBLIC_SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY.",
-        "Create the bucket first: npm run storage:setup-screenshots",
+        "Requires BLOB_READ_WRITE_TOKEN.",
+        "Create a private Blob store: vercel blob create-store productbench --access private",
       ].join("\n"),
     );
     process.exit(1);
   }
 
   if (!hasStorageUploadConfig()) {
-    console.error(
-      "Missing NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY.",
-    );
+    console.error("Missing BLOB_READ_WRITE_TOKEN.");
     process.exit(1);
   }
 
@@ -76,7 +73,7 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`Syncing ${slugs.length} product(s) → Storage…`);
+  console.log(`Syncing ${slugs.length} product(s) → Vercel Blob…`);
   let uploaded = 0;
   let rewritten = 0;
   let failed = 0;

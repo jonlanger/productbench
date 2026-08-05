@@ -3,7 +3,7 @@ import type { User } from "@supabase/supabase-js";
 import { unstable_rethrow } from "next/navigation";
 
 import { isMemberPreviewActive } from "@/lib/member-preview";
-import { createClient, hasSupabasePublicConfig } from "@/lib/supabase/server";
+import { createClient, isAuthEnabled } from "@/lib/supabase/server";
 
 export type Viewer = {
   user: User | null;
@@ -31,7 +31,7 @@ export function isAdminEmail(email: string | null | undefined): boolean {
 }
 
 export const getViewer = cache(async (): Promise<Viewer> => {
-  if (!hasSupabasePublicConfig()) {
+  if (!isAuthEnabled()) {
     return { user: null, isAdmin: false, isMemberPreview: false, actsAsAdmin: false };
   }
 

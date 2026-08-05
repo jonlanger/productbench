@@ -7,14 +7,15 @@ function createDb() {
   const url = process.env.DATABASE_URL;
   if (!url) {
     throw new Error(
-      "DATABASE_URL is not set. Add your Supabase Postgres connection string to .env.local.",
+      "DATABASE_URL is not set. Add your Postgres connection string to .env.local.",
     );
   }
 
   const client = postgres(url, {
     prepare: false,
     max: 10,
-    // Supabase (and most hosted Postgres) require TLS
+    connect_timeout: 5,
+    // Hosted Postgres (Neon, Supabase, etc.) generally requires TLS
     ssl: "require",
   });
 
@@ -28,7 +29,7 @@ const globalForDb = globalThis as unknown as {
 export function getDb() {
   if (!process.env.DATABASE_URL) {
     throw new Error(
-      "DATABASE_URL is not set. Add your Supabase Postgres connection string to .env.local.",
+      "DATABASE_URL is not set. Add your Postgres connection string to .env.local.",
     );
   }
 

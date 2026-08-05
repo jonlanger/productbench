@@ -20,10 +20,12 @@ export function createClient() {
   return createBrowserClient(url, key);
 }
 
+/** Account sign-in is intentionally off (no auth provider configured). */
+export function isAuthEnabled() {
+  return false;
+}
+
+/** @deprecated Prefer `isAuthEnabled`. Always false while Auth stays disabled. */
 export function hasSupabasePublicConfig() {
-  return Boolean(
-    process.env.NEXT_PUBLIC_SUPABASE_URL &&
-      (process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ||
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY),
-  );
+  return isAuthEnabled();
 }

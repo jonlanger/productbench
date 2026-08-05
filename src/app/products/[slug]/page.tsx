@@ -5,6 +5,7 @@ import { ProductDetails } from "@/components/product/product-details";
 import { getVisibleProductBySlug } from "@/data/queries";
 import { getViewer } from "@/lib/auth";
 import { GUEST_PREVIEW_COUNT } from "@/lib/gallery";
+import { isAuthEnabled } from "@/lib/supabase/server";
 
 type ProductPageProps = {
   params: Promise<{ slug: string }>;
@@ -32,10 +33,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
   if (!product) notFound();
 
   const signedIn = Boolean(user);
+  const unlockGallery = signedIn || !isAuthEnabled();
   const allShots = product.screenshots ?? [];
   const screenshotTotal = allShots.length;
   const productForView =
-    signedIn || screenshotTotal <= GUEST_PREVIEW_COUNT
+    unlockGallery || screenshotTotal <= GUEST_PREVIEW_COUNT
       ? product
       : {
           ...product,
@@ -45,7 +47,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
   return (
     <ProductDetails
       product={productForView}
-      signedIn={signedIn}
+      signedIn={unlockGallery}
       screenshotTotal={screenshotTotal}
     />
   );

@@ -14,6 +14,12 @@ export type VisualSourceGroup = {
   /** Changelogs / release notes (often rich UI captures) */
   releases?: string[];
   /**
+   * Public design-system / Storybook / component-docs sites.
+   * Prefer these when the marketing homepage is bot-blocked — they are often
+   * open-source or lightly gated and rich in UI patterns, tokens, and components.
+   */
+  designSystem?: string[];
+  /**
    * Official / first-party product demo videos on YouTube.
    * Fallback pulls maxres thumbnails plus auto-generated frame stills (0–3.jpg).
    */
@@ -179,6 +185,12 @@ const CURATED_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
       "https://vercel.com/docs/projects/environment-variables",
       "https://vercel.com/docs/security",
     ],
+    designSystem: [
+      "https://vercel.com/geist/introduction",
+      "https://vercel.com/geist/button",
+      "https://vercel.com/geist/colors",
+      "https://vercel.com/geist/typography",
+    ],
     releases: ["https://vercel.com/changelog"],
   },
   github: {
@@ -199,6 +211,12 @@ const CURATED_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
       "https://docs.github.com/en/enterprise-cloud@latest/admin",
       "https://docs.github.com/en/code-security",
     ],
+    designSystem: [
+      "https://primer.style",
+      "https://primer.style/product",
+      "https://primer.style/components",
+      "https://github.com/primer/design",
+    ],
     releases: ["https://github.blog/changelog/"],
   },
   gitlab: {
@@ -216,6 +234,10 @@ const CURATED_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
       "https://docs.gitlab.com/ee/administration/",
       "https://docs.gitlab.com/ee/security/",
       "https://docs.gitlab.com/ee/user/group/",
+    ],
+    designSystem: [
+      "https://design.gitlab.com",
+      "https://design.gitlab.com/product-foundations/design-tokens",
     ],
     releases: ["https://about.gitlab.com/releases/categories/releases/"],
   },
@@ -265,6 +287,11 @@ const CURATED_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
       "https://support.atlassian.com/jira-cloud-administration/",
       "https://support.atlassian.com/jira-software-cloud/docs/manage-project-permissions/",
     ],
+    designSystem: [
+      "https://atlassian.design",
+      "https://atlassian.design/components",
+      "https://atlassian.design/foundations",
+    ],
     releases: ["https://confluence.atlassian.com/jirasoftwarecloud/jira-software-cloud-release-notes-927229978.html"],
   },
   confluence: {
@@ -279,6 +306,10 @@ const CURATED_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
     supporting: [
       "https://support.atlassian.com/confluence-cloud/docs/manage-space-permissions/",
       "https://support.atlassian.com/confluence-cloud/docs/set-up-confluence-cloud/",
+    ],
+    designSystem: [
+      "https://atlassian.design",
+      "https://atlassian.design/components",
     ],
   },
   airtable: {
@@ -395,25 +426,60 @@ const CURATED_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
       "https://help.shopify.com/en/manual/checkout-settings",
       "https://shopify.dev/docs/apps/launch/billing",
     ],
+    designSystem: [
+      "https://polaris.shopify.com",
+      "https://shopify.dev/docs/api/polaris",
+      "https://github.com/Shopify/polaris",
+    ],
   },
   salesforce: {
     homepage: "https://www.salesforce.com",
     help: [
-      "https://help.salesforce.com/s/articleView?id=sf.basics_welcome.htm",
+      // Trailhead is public + image-rich; prefer over help.salesforce.com (often access-denied)
+      "https://trailhead.salesforce.com/",
+      "https://trailhead.salesforce.com/content/learn/modules/lightning-experience-for-salesforce-classic-users/get-your-bearings",
       "https://trailhead.salesforce.com/content/learn/modules/lex_migration_introduction",
+      "https://trailhead.salesforce.com/content/learn/modules/lightning-design-system-basics",
+      "https://trailhead.salesforce.com/content/learn/trails/get-started-with-slds-2",
+      "https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-developers/explore-salesforce-lightning-design-system-2",
     ],
     technical: [
-      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/",
       "https://developer.salesforce.com/docs/platform/lwc/guide",
-      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/",
+      "https://github.com/salesforce-ux/design-system",
     ],
     supporting: [
-      "https://help.salesforce.com/s/articleView?id=sf.admin_setup.htm",
-      "https://help.salesforce.com/s/articleView?id=sf.security_overview.htm",
-      "https://help.salesforce.com/s/articleView?id=sf.users_profiles.htm",
+      "https://www.salesforce.com/crm/",
+      "https://www.salesforce.com/sales/",
+      "https://www.salesforce.com/service/",
+      "https://www.salesforce.com/marketing/",
+      "https://www.salesforce.com/commerce/",
+      "https://www.salesforce.com/agentforce/",
+      "https://www.salesforce.com/platform/",
+      "https://www.salesforce.com/products/demos/",
+      "https://www.salesforce.com/data/",
     ],
-    youtube: ["https://www.youtube.com/watch?v=tCIiWdnH738"],
+    designSystem: [
+      "https://www.lightningdesignsystem.com/2e1ef8501",
+      "https://www.lightningdesignsystem.com/2e1ef8501/p/755aff-components",
+      "https://www.lightningdesignsystem.com/2e1ef8501/p/7733f8-button",
+      "https://www.lightningdesignsystem.com/2e1ef8501/p/86f13a-data-table",
+      "https://www.lightningdesignsystem.com/2e1ef8501/p/01c12a-modals",
+      "https://www.lightningdesignsystem.com/2e1ef8501/p/33cd77-cards",
+      "https://www.lightningdesignsystem.com/2e1ef8501/p/1152cf-tabs",
+      "https://www.lightningdesignsystem.com/2e1ef8501/p/47ae1f-navigation",
+      "https://www.lightningdesignsystem.com/2e1ef8501/p/31c42a-combobox",
+      "https://github.com/salesforce-ux/design-system",
+    ],
+    youtube: [
+      "https://www.youtube.com/watch?v=tCIiWdnH738",
+      "https://www.youtube.com/watch?v=s_sHeac3gfo",
+      "https://www.youtube.com/watch?v=sj1wOnelTNk",
+      "https://www.youtube.com/watch?v=ntZbRd-DPII",
+    ],
     appStoreId: "404249815",
+    notes:
+      "Org UI is login-walled; prefer SLDS 2, Trailhead LEX modules, public product/demo pages, and YouTube demos over help.salesforce.com.",
   },
   okta: {
     homepage: "https://www.okta.com",
@@ -426,6 +492,10 @@ const CURATED_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
     supporting: [
       "https://help.okta.com/en-us/content/topics/security/security_overview.htm",
       "https://help.okta.com/en-us/content/topics/users-groups-profiles/usgp-index.htm",
+    ],
+    designSystem: [
+      "https://odyssey.okta.design",
+      "https://github.com/okta/odyssey",
     ],
   },
   zoom: {
@@ -672,6 +742,11 @@ const CURATED_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
       "https://help.sap.com/docs/SAP_FIORI",
       "https://learning.sap.com/",
     ],
+    designSystem: [
+      "https://experience.sap.com/fiori-design/",
+      "https://sapui5.hana.ondemand.com/",
+      "https://www.sap.com/design-system",
+    ],
     youtube: ["https://www.youtube.com/watch?v=U92jH395wnQ"],
   },
   "palantir-foundry": {
@@ -685,6 +760,28 @@ const CURATED_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
       "https://www.palantir.com/docs/foundry/security/",
       "https://www.palantir.com/docs/foundry/administration/",
     ],
+  },
+  acorns: {
+    homepage: "https://www.acorns.com",
+    help: [
+      "https://support.acorns.com/hc/en-us",
+      "https://support.acorns.com/hc/en-us/articles/How-do-I-set-up-Round-Ups",
+      "https://www.acorns.com/learn/acorns/what-is-acorns/",
+      "https://www.acorns.com/learn/acorns/how-does-acorns-work/",
+    ],
+    supporting: [
+      "https://www.acorns.com/round-ups/",
+      "https://www.acorns.com/later/",
+      "https://www.acorns.com/early/",
+      "https://www.acorns.com/earn/",
+      "https://www.acorns.com/banking/",
+      "https://www.acorns.com/invest/",
+      "https://www.acorns.com/pricing/",
+      "https://www.acorns.com/learn/",
+    ],
+    appStoreId: "883324671",
+    notes:
+      "Mobile-first fintech; marketing pages + App Store screenshots are the richest public UI. Logged-in app.acorns.com is gated.",
   },
   robinhood: {
     homepage: "https://robinhood.com",
@@ -769,6 +866,7 @@ export const PRODUCT_VISUAL_SOURCES: Record<string, VisualSourceGroup> = {
 
 export function flattenVisualSources(group: VisualSourceGroup): string[] {
   return [
+    ...(group.designSystem ?? []),
     ...(group.help ?? []),
     ...(group.technical ?? []),
     ...(group.supporting ?? []),

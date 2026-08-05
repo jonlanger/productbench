@@ -8,6 +8,7 @@ import { Separator } from "@/components/ui/separator";
 import { getVisibleProductBySlug } from "@/data/queries";
 import { getViewer } from "@/lib/auth";
 import { hasDatabaseUrl } from "@/db";
+import { isAuthEnabled } from "@/lib/supabase/server";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -31,6 +32,10 @@ export default async function AddDetailsPage({ params }: PageProps) {
   const product = await getVisibleProductBySlug(slug);
   if (!product) {
     redirect("/catalog");
+  }
+
+  if (!isAuthEnabled()) {
+    redirect(`/products/${slug}`);
   }
 
   const { user } = await getViewer();

@@ -3,11 +3,13 @@
  *
  * Captures:
  * - Screenshots (surfaces + components)
+ * - Per-element structured JSON on locator clips (DOM, ARIA, computed styles,
+ *   CSS variables, text/labels, layout, interaction states)
  * - Structured page insights (nav, CTAs, headings, tech/pattern signals)
  * - Soft-merges insights into product fields (metrics, patterns, features, platforms, tech)
  *
  * When live capture is thin or bot-blocked, runs web fallback:
- *   docs/help → OG/meta → thum.io → Wayback → YouTube frames → App Store
+ *   design systems → docs/help → OG/meta → thum.io → Wayback → YouTube frames → App Store
  *
  * Usage:
  *   npm run capture:ui -- --slug=notion
@@ -28,6 +30,7 @@ import { chromium, type Locator, type Page } from "playwright";
 import { products as seedProducts } from "../src/data/products";
 import type {
   CapturePageInsight,
+  ElementCapture,
   Platform,
   ProductMetrics,
   ProductScreenshot,
@@ -45,6 +48,17 @@ import {
   runWebFallback,
 } from "./lib/capture-fallback";
 import {
+  discoverDesignSystemSources,
+  resolveDesignSystemCandidates,
+  type DesignSystemCandidate,
+} from "./lib/design-system-sources";
+import {
+  captureableWebUiCandidates,
+  discoverWebUiExamples,
+  youtubeUrlsFromCandidates,
+  type WebUiCandidate,
+} from "./lib/web-ui-search";
+import {
   formatCoverageReport,
   validateCaptureData,
   validateProductCapture,
@@ -54,7 +68,7 @@ import {
   captureWorkspaceDir,
   cleanupCaptureDir,
   ensureCaptureDir,
-  loadCapturedSlugsFromDb,
+  loadCapturedSlugs,
   loadPriorCaptureFromDb,
   productHasLocalCapture,
   useRemoteCapture,
@@ -66,13 +80,16 @@ import {
   captureChromeClips,
   captureClickSequence,
   captureHoverStates,
+  captureInteractiveStates,
   captureScrollBands,
   captureViewportVariants,
   clickFirst,
   gotoReady as gotoReadyBase,
+  normalizeCaptureResults,
   saveLocatorScreenshot,
   saveScreenshot,
   setViewport,
+  type CaptureFileResult,
 } from "./lib/capture-playbook-helpers";
 import {
   aggregateInsights,
@@ -109,6 +126,8 @@ type CaptureShot = {
   height?: number;
   phash?: string;
   unique: boolean;
+  /** Structured DOM / styles / tokens for locator-clipped shots */
+  element?: ElementCapture;
 };
 
 type ShotSpec = {
@@ -117,7 +136,12 @@ type ShotSpec = {
   caption: string;
   kind: ProductScreenshotKind;
   /** Return one file, many files, or null if nothing useful was captured */
-  run: (page: Page, dir: string) => Promise<string | string[] | null>;
+  run: (
+    page: Page,
+    dir: string,
+  ) => Promise<
+    string | string[] | CaptureFileResult | CaptureFileResult[] | null
+  >;
 };
 
 type ProductTarget = {
@@ -193,6 +217,10 @@ const COMMON_PATHS = [
   "/customers",
   "/docs",
   "/help",
+  "/design",
+  "/design-system",
+  "/brand",
+  "/components",
   "/blog",
   "/about",
   "/login",
@@ -219,7 +247,7 @@ function hostLabel(url: string) {
 async function captureCardCrops(page: Page, dir: string, max = 8) {
   const cards = page.locator(CARD_SELECTOR);
   const count = Math.min(await cards.count(), max * 3);
-  const files: Array<{ file: string; index: number }> = [];
+  const files: CaptureFileResult[] = [];
   const seen = new Set<string>();
 
   for (let i = 0; i < count && files.length < max; i++) {
@@ -231,8 +259,9 @@ async function captureCardCrops(page: Page, dir: string, max = 8) {
     const key = `${Math.round(box.width)}x${Math.round(box.height)}@${Math.round(box.x)}`;
     if (seen.has(key)) continue;
     seen.add(key);
-    const file = await saveLocatorJpeg(card, join(dir, `card-${files.length + 1}`));
-    files.push({ file, index: files.length + 1 });
+    files.push(
+      await saveLocatorJpeg(card, join(dir, `card-${files.length + 1}`)),
+    );
   }
   return files;
 }
@@ -245,7 +274,7 @@ async function collectSameOriginLinks(page: Page, origin: string, limit = 6) {
   );
 
   const interesting =
-    /pricing|product|feature|platform|solution|customer|docs|help|guide|login|signin|sign-in|demo|tour|blog|about|changelog|template|gallery|explore|resource/i;
+    /pricing|product|feature|platform|solution|customer|docs|help|guide|login|signin|sign-in|demo|tour|blog|about|changelog|template|gallery|explore|resource|design|component|storybook|brand|token|pattern/i;
 
   const out: string[] = [];
   const seen = new Set<string>();
@@ -272,20 +301,80 @@ function guessCommonUrls(website: string) {
   return COMMON_PATHS.map((path) => `${origin}${path}`);
 }
 
-function buildGenericPlaybook(product: ProductTarget): ShotSpec[] {
+function buildDesignSystemShots(
+  product: ProductTarget,
+  candidates: DesignSystemCandidate[],
+): ShotSpec[] {
+  const shots: ShotSpec[] = [];
+  for (const [index, candidate] of candidates.slice(0, 6).entries()) {
+    const prefix = `ds-${index + 1}`;
+    shots.push({
+      id: prefix,
+      title: candidate.label,
+      caption: `${product.name} design system · ${candidate.label} (${candidate.via}) · ${hostLabel(candidate.url)}`,
+      kind: "component",
+      run: async (page, dir) => {
+        try {
+          await setViewport(page, "desktop");
+          await gotoReady(page, candidate.url);
+        } catch {
+          return null;
+        }
+        const top = await saveJpeg(page, join(dir, prefix));
+        const bands = await captureScrollBands(page, dir, prefix, 5);
+        // Component-ish crops unique to this DS URL (avoid colliding with homepage card-*)
+        const files: CaptureFileResult[] = [
+          top,
+          ...bands.filter((b) => b.file !== top.file),
+        ];
+        const cards = page.locator(
+          'article, [class*="Card" i], [class*="component" i], section',
+        );
+        const count = Math.min(await cards.count().catch(() => 0), 12);
+        for (let i = 0; i < count && files.length < 10; i++) {
+          const card = cards.nth(i);
+          if (!(await card.isVisible().catch(() => false))) continue;
+          const box = await card.boundingBox();
+          if (!box || box.width < 160 || box.height < 120 || box.width > 900) continue;
+          try {
+            files.push(
+              await saveLocatorJpeg(card, join(dir, `${prefix}-comp-${i + 1}`)),
+            );
+          } catch {
+            /* skip */
+          }
+        }
+        return files;
+      },
+    });
+  }
+  return shots;
+}
+
+function buildGenericPlaybook(
+  product: ProductTarget,
+  designSystems: DesignSystemCandidate[] = [],
+): ShotSpec[] {
   const sources = PRODUCT_VISUAL_SOURCES[product.slug];
   const homepageUrl = sources?.homepage ?? product.website;
+  const dsUrls = new Set(designSystems.map((c) => c.url));
   const documented = sources
-    ? flattenVisualSources(sources).filter((url) => url !== homepageUrl)
+    ? flattenVisualSources(sources).filter(
+        (url) => url !== homepageUrl && !dsUrls.has(url),
+      )
     : [];
-  // Prefer documented sources, then common path guesses — deeper crawl for 100+ unique shots
+  // Prefer design systems + documented sources, then common path guesses
   const MAX_SURFACE_URLS = 22;
   const secondary = [
     ...documented,
-    ...guessCommonUrls(homepageUrl).filter((url) => !documented.includes(url)),
+    ...guessCommonUrls(homepageUrl).filter(
+      (url) => !documented.includes(url) && !dsUrls.has(url),
+    ),
   ].slice(0, MAX_SURFACE_URLS);
 
+  // Design-system playbook steps run first so bot-blocked homepages still yield UX/UI
   const shots: ShotSpec[] = [
+    ...buildDesignSystemShots(product, designSystems),
     {
       id: "homepage",
       title: product.keyScreens[0] ?? "Homepage",
@@ -338,7 +427,7 @@ function buildGenericPlaybook(product: ProductTarget): ShotSpec[] {
       run: async (page, dir) => {
         await gotoReady(page, homepageUrl);
         const crops = await captureCardCrops(page, dir, 6);
-        return crops.length ? crops.map((c) => c.file) : null;
+        return crops.length ? crops : null;
       },
     },
     {
@@ -350,6 +439,18 @@ function buildGenericPlaybook(product: ProductTarget): ShotSpec[] {
         await setViewport(page, "desktop");
         await gotoReady(page, homepageUrl);
         const files = await captureHoverStates(page, dir, 4);
+        return files.length ? files : null;
+      },
+    },
+    {
+      id: "interactive-states",
+      title: "Interactive control states",
+      caption: `Default / hover / active control states on ${product.name}`,
+      kind: "component",
+      run: async (page, dir) => {
+        await setViewport(page, "desktop");
+        await gotoReady(page, homepageUrl);
+        const files = await captureInteractiveStates(page, dir, 3);
         return files.length ? files : null;
       },
     },
@@ -466,7 +567,7 @@ function buildGenericPlaybook(product: ProductTarget): ShotSpec[] {
           return null;
         }
         const links = await collectSameOriginLinks(page, origin, 12);
-        const files: string[] = [];
+        const files: CaptureFileResult[] = [];
         for (const [index, url] of links.entries()) {
           try {
             await gotoReady(page, url);
@@ -501,7 +602,7 @@ function buildGenericPlaybook(product: ProductTarget): ShotSpec[] {
           `surface-${index + 1}`,
           5,
         );
-        return [top, ...bands.filter((file) => file !== top)];
+        return [top, ...bands.filter((b) => b.file !== top.file)];
       },
     });
   }
@@ -522,7 +623,7 @@ function surfaceBands(
     }
     const top = await saveJpeg(page, join(dir, prefix));
     const deeper = await captureScrollBands(page, dir, prefix, bands);
-    return [top, ...deeper.filter((file) => file !== top)];
+    return [top, ...deeper.filter((b) => b.file !== top.file)];
   };
 }
 
@@ -956,7 +1057,7 @@ function buildOnePasswordPlaybook(): ShotSpec[] {
       run: async (page, dir) => {
         await gotoReady(page, "https://1password.com/");
         const crops = await captureCardCrops(page, dir, 6);
-        return crops.length ? crops.map((c) => c.file) : null;
+        return crops.length ? crops : null;
       },
     },
   ];
@@ -1008,7 +1109,7 @@ function buildAirbnbPlaybook(): ShotSpec[] {
       run: async (page, dir) => {
         await gotoReady(page, "https://www.airbnb.com/");
         const crops = await captureCardCrops(page, dir, 5);
-        return crops.length ? crops.map((c) => c.file) : null;
+        return crops.length ? crops : null;
       },
     },
     {
@@ -1062,8 +1163,8 @@ function buildAirbnbPlaybook(): ShotSpec[] {
         const top = await saveJpeg(page, join(dir, "search-results"));
         await page.evaluate(() => window.scrollBy(0, 700));
         await page.waitForTimeout(500);
-        await saveJpeg(page, join(dir, "search-results-mid"));
-        return [top, "search-results-mid.jpg"];
+        const mid = await saveJpeg(page, join(dir, "search-results-mid"));
+        return [top, mid];
       },
     },
     {
@@ -1147,14 +1248,258 @@ function buildAirbnbPlaybook(): ShotSpec[] {
   ];
 }
 
+/**
+ * Salesforce playbook — org UI is login-walled / access-denied prone.
+ * Prefer SLDS 2 component docs, Trailhead LEX modules, and public product/demo pages.
+ */
+function buildSalesforcePlaybook(): ShotSpec[] {
+  const sldsRoot = "https://www.lightningdesignsystem.com/2e1ef8501";
+  const sldsComponents = `${sldsRoot}/p/755aff-components`;
+
+  return [
+    {
+      id: "homepage",
+      title: "Homepage / CRM landing",
+      caption: "Salesforce CRM marketing homepage (public)",
+      kind: "homepage",
+      run: surfaceBands("https://www.salesforce.com/crm/", "homepage", 5),
+    },
+    {
+      id: "demos",
+      title: "Product demos hub",
+      caption: "Public Salesforce demos gallery — Sales, Service, Agentforce",
+      kind: "product",
+      run: surfaceBands(
+        "https://www.salesforce.com/products/demos/",
+        "demos",
+        6,
+      ),
+    },
+    {
+      id: "sales-cloud",
+      title: "Sales Cloud capabilities",
+      caption: "Sales product marketing — pipeline / Lightning Experience story",
+      kind: "product",
+      run: surfaceBands("https://www.salesforce.com/sales/", "sales", 5),
+    },
+    {
+      id: "service-cloud",
+      title: "Service Cloud capabilities",
+      caption: "Service product marketing — case / Omni-Channel UI story",
+      kind: "product",
+      run: surfaceBands("https://www.salesforce.com/service/", "service", 5),
+    },
+    {
+      id: "agentforce",
+      title: "Agentforce platform",
+      caption: "Agentforce AI agent platform marketing surface",
+      kind: "product",
+      run: surfaceBands("https://www.salesforce.com/agentforce/", "agentforce", 5),
+    },
+    {
+      id: "platform",
+      title: "Platform capabilities",
+      caption: "Headless 360 / Salesforce Platform capabilities",
+      kind: "product",
+      run: surfaceBands("https://www.salesforce.com/platform/", "platform", 4),
+    },
+    {
+      id: "slds-home",
+      title: "Lightning Design System 2",
+      caption: "SLDS 2 styleguide home — foundations and navigation",
+      kind: "component",
+      run: surfaceBands(sldsRoot, "slds-home", 5),
+    },
+    {
+      id: "slds-components",
+      title: "SLDS component library",
+      caption: "SLDS 2 components overview — blueprints catalog",
+      kind: "component",
+      run: surfaceBands(sldsComponents, "slds-components", 6),
+    },
+    {
+      id: "slds-data-table",
+      title: "SLDS Data Table",
+      caption: "Data Table blueprint — list-view / record grid pattern",
+      kind: "component",
+      run: surfaceBands(
+        `${sldsRoot}/p/86f13a-data-table`,
+        "slds-data-table",
+        4,
+      ),
+    },
+    {
+      id: "slds-modals",
+      title: "SLDS Modals",
+      caption: "Modal dialog blueprint — confirmation / form overlays",
+      kind: "component",
+      run: surfaceBands(`${sldsRoot}/p/01c12a-modals`, "slds-modals", 3),
+    },
+    {
+      id: "slds-cards",
+      title: "SLDS Cards",
+      caption: "Card blueprint — record / dashboard tile pattern",
+      kind: "component",
+      run: surfaceBands(`${sldsRoot}/p/33cd77-cards`, "slds-cards", 3),
+    },
+    {
+      id: "slds-tabs",
+      title: "SLDS Tabs",
+      caption: "Tabs blueprint — record page / workspace navigation",
+      kind: "component",
+      run: surfaceBands(`${sldsRoot}/p/1152cf-tabs`, "slds-tabs", 3),
+    },
+    {
+      id: "slds-nav",
+      title: "SLDS Navigation",
+      caption: "Navigation blueprint — app / object nav patterns",
+      kind: "component",
+      run: surfaceBands(`${sldsRoot}/p/47ae1f-navigation`, "slds-nav", 3),
+    },
+    {
+      id: "slds-combobox",
+      title: "SLDS Combobox / search",
+      caption: "Combobox blueprint — global search / picklist pattern",
+      kind: "component",
+      run: surfaceBands(`${sldsRoot}/p/31c42a-combobox`, "slds-combobox", 3),
+    },
+    {
+      id: "slds-buttons",
+      title: "SLDS Buttons",
+      caption: "Button / button-group blueprints — action affordances",
+      kind: "component",
+      run: surfaceBands(`${sldsRoot}/p/7733f8-button`, "slds-buttons", 3),
+    },
+    {
+      id: "trailhead-lex",
+      title: "Lightning Experience orientation",
+      caption:
+        "Trailhead LEX orientation — header, app launcher, global search annotated UI",
+      kind: "docs",
+      run: surfaceBands(
+        "https://trailhead.salesforce.com/content/learn/modules/lightning-experience-for-salesforce-classic-users/get-your-bearings",
+        "trailhead-lex",
+        6,
+      ),
+    },
+    {
+      id: "trailhead-slds",
+      title: "SLDS Trailhead basics",
+      caption: "Trailhead Lightning Design System basics module",
+      kind: "docs",
+      run: surfaceBands(
+        "https://trailhead.salesforce.com/content/learn/modules/lightning-design-system-basics",
+        "trailhead-slds",
+        4,
+      ),
+    },
+    {
+      id: "trailhead-slds2",
+      title: "SLDS 2 for developers",
+      caption: "Trailhead SLDS 2 module — Cosmos theme and base components",
+      kind: "docs",
+      run: surfaceBands(
+        "https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-developers/explore-salesforce-lightning-design-system-2",
+        "trailhead-slds2",
+        4,
+      ),
+    },
+    {
+      id: "github-slds",
+      title: "SLDS open-source repo",
+      caption: "salesforce-ux/design-system GitHub — tokens and blueprints source",
+      kind: "technical",
+      run: surfaceBands(
+        "https://github.com/salesforce-ux/design-system",
+        "github-slds",
+        3,
+      ),
+    },
+    {
+      id: "viewports",
+      title: "Responsive CRM marketing",
+      caption: "CRM landing across desktop / tablet / mobile viewports",
+      kind: "product",
+      run: async (page, dir) => {
+        try {
+          await gotoReady(page, "https://www.salesforce.com/crm/");
+        } catch {
+          return null;
+        }
+        return captureViewportVariants(
+          page,
+          dir,
+          "https://www.salesforce.com/crm/",
+          gotoReady,
+        );
+      },
+    },
+  ];
+}
+
 const SPECIFIC_PLAYBOOKS: Record<string, () => ShotSpec[]> = {
   "1password": buildOnePasswordPlaybook,
   airbnb: buildAirbnbPlaybook,
+  salesforce: buildSalesforcePlaybook,
 };
 
-function playbookFor(product: ProductTarget): ShotSpec[] {
+function buildWebUiDiscoveryShots(
+  product: ProductTarget,
+  candidates: WebUiCandidate[],
+): ShotSpec[] {
+  const captureable = captureableWebUiCandidates(candidates).slice(0, 14);
+  const shots: ShotSpec[] = [];
+
+  for (const [index, candidate] of captureable.entries()) {
+    const prefix = `web-${index + 1}`;
+    shots.push({
+      id: prefix,
+      title: candidate.label.slice(0, 80) || `Web UI ${index + 1}`,
+      caption: `${product.name} web-discovered UI (${candidate.via} · ${candidate.kind}) · ${hostLabel(candidate.url)}`,
+      kind:
+        candidate.kind === "component"
+          ? "component"
+          : candidate.kind === "docs"
+            ? "docs"
+            : candidate.kind === "marketing"
+              ? "marketing"
+              : "product",
+      run: async (page, dir) => {
+        try {
+          await setViewport(page, "desktop");
+          await gotoReady(page, candidate.url);
+        } catch {
+          return null;
+        }
+        const top = await saveJpeg(page, join(dir, prefix));
+        const bands = await captureScrollBands(page, dir, prefix, 4);
+        return [top, ...bands.filter((b) => b.file !== top.file)];
+      },
+    });
+  }
+
+  return shots;
+}
+
+function playbookFor(
+  product: ProductTarget,
+  designSystems: DesignSystemCandidate[] = [],
+  webUi: WebUiCandidate[] = [],
+): ShotSpec[] {
   const specific = SPECIFIC_PLAYBOOKS[product.slug];
-  return specific ? specific() : buildGenericPlaybook(product);
+  const discovered = buildWebUiDiscoveryShots(product, webUi);
+  if (specific) {
+    // Specific playbooks still get design-system + discovered surfaces prepended
+    return [
+      ...buildDesignSystemShots(product, designSystems),
+      ...discovered,
+      ...specific(),
+    ];
+  }
+  return [
+    ...buildGenericPlaybook(product, designSystems),
+    ...discovered,
+  ];
 }
 
 async function loadTargets(slugFilter?: string): Promise<ProductTarget[]> {
@@ -1162,33 +1507,44 @@ async function loadTargets(slugFilter?: string): Promise<ProductTarget[]> {
   if (url) {
     const client = postgres(url, { prepare: false, max: 1, ssl: "require" });
     const db = drizzle(client);
-    const rows = await db
-      .select({
-        slug: productsTable.slug,
-        name: productsTable.name,
-        website: productsTable.website,
-        platforms: productsTable.platforms,
-        techStack: productsTable.techStack,
-        features: productsTable.features,
-        ux: productsTable.ux,
-        metrics: productsTable.metrics,
-      })
-      .from(productsTable);
-    await client.end();
+    try {
+      const rows = await db
+        .select({
+          slug: productsTable.slug,
+          name: productsTable.name,
+          website: productsTable.website,
+          platforms: productsTable.platforms,
+          techStack: productsTable.techStack,
+          features: productsTable.features,
+          ux: productsTable.ux,
+          metrics: productsTable.metrics,
+        })
+        .from(productsTable);
+      await client.end({ timeout: 1 }).catch(() => undefined);
 
-    return rows
-      .filter((row) => (slugFilter ? row.slug === slugFilter : true))
-      .map((row) => ({
-        slug: row.slug,
-        name: row.name,
-        website: row.website,
-        keyScreens: row.ux?.keyScreens ?? [],
-        platforms: row.platforms ?? [],
-        techStack: row.techStack ?? [],
-        features: row.features ?? [],
-        ux: row.ux,
-        metrics: row.metrics,
-      }));
+      if (rows.length > 0) {
+        return rows
+          .filter((row) => (slugFilter ? row.slug === slugFilter : true))
+          .map((row) => ({
+            slug: row.slug,
+            name: row.name,
+            website: row.website,
+            keyScreens: row.ux?.keyScreens ?? [],
+            platforms: row.platforms ?? [],
+            techStack: row.techStack ?? [],
+            features: row.features ?? [],
+            ux: row.ux,
+            metrics: row.metrics,
+          }));
+      }
+      console.log("  catalog: Postgres empty — using seed products");
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      console.log(
+        `  catalog: Postgres unavailable (${message.slice(0, 100)}) — using seed products`,
+      );
+      await client.end({ timeout: 1 }).catch(() => undefined);
+    }
   }
 
   return seedProducts
@@ -1246,13 +1602,7 @@ function validateAndWriteCoverage(
 
 function screenshotSrc(slug: string, file: string, remote: boolean): string {
   if (remote) {
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-    if (!supabaseUrl) {
-      throw new Error(
-        "NEXT_PUBLIC_SUPABASE_URL required for remote capture",
-      );
-    }
-    return productScreenshotPublicUrl(supabaseUrl, slug, file);
+    return productScreenshotPublicUrl(slug, file);
   }
   return localProductScreenshotSrc(slug, file);
 }
@@ -1284,6 +1634,7 @@ async function syncDb(
     phash: shot.phash,
     playbookStep: shot.playbookStep,
     unique: shot.unique,
+    element: shot.element,
   }));
 
   const platforms = mergeUnique(
@@ -1319,50 +1670,58 @@ async function syncDb(
   const client = postgres(url, { prepare: false, max: 1, ssl: "require" });
   const db = drizzle(client);
 
-  // Soft-merge screenshots so a thin re-capture doesn't wipe prior assets
-  const existing = await db
-    .select({ screenshots: productsTable.screenshots })
-    .from(productsTable)
-    .where(eq(productsTable.slug, product.slug));
-  const prior = (existing[0]?.screenshots as ProductScreenshot[] | null) ?? [];
-  const byFile = new Map<string, ProductScreenshot>();
-  for (const shot of prior) {
-    const file = screenshotFileName(shot.src);
-    if (file) byFile.set(file, shot);
-  }
-  for (const shot of screenshots) {
-    const file = screenshotFileName(shot.src);
-    if (file) byFile.set(file, shot);
-  }
-  const mergedScreenshots = [...byFile.values()];
+  try {
+    // Soft-merge screenshots so a thin re-capture doesn't wipe prior assets
+    const existing = await db
+      .select({ screenshots: productsTable.screenshots })
+      .from(productsTable)
+      .where(eq(productsTable.slug, product.slug));
+    const prior = (existing[0]?.screenshots as ProductScreenshot[] | null) ?? [];
+    const byFile = new Map<string, ProductScreenshot>();
+    for (const shot of prior) {
+      const file = screenshotFileName(shot.src);
+      if (file) byFile.set(file, shot);
+    }
+    for (const shot of screenshots) {
+      const file = screenshotFileName(shot.src);
+      if (file) byFile.set(file, shot);
+    }
+    const mergedScreenshots = [...byFile.values()];
 
-  const metrics: ProductMetrics = {
-    ...product.metrics,
-    screenCount: Math.max(
-      product.metrics.screenCount,
-      mergedScreenshots.length,
-    ),
-    pageCount: Math.max(product.metrics.pageCount, insights.pageCount),
-    featureCount: Math.max(product.metrics.featureCount, features.length),
-  };
+    const metrics: ProductMetrics = {
+      ...product.metrics,
+      screenCount: Math.max(
+        product.metrics.screenCount,
+        mergedScreenshots.length,
+      ),
+      pageCount: Math.max(product.metrics.pageCount, insights.pageCount),
+      featureCount: Math.max(product.metrics.featureCount, features.length),
+    };
 
-  await db
-    .update(productsTable)
-    .set({
-      screenshots: mergedScreenshots,
-      captureInsights: insights,
-      platforms,
-      techStack,
-      features,
-      ux,
-      metrics,
-      updatedAt: new Date(),
-    })
-    .where(eq(productsTable.slug, product.slug));
-  await client.end();
-  console.log(
-    `  synced ${mergedScreenshots.length} shots + insights → DB (features +${features.length - product.features.length}, patterns +${patterns.length - product.ux.patterns.length}; kept ${prior.length} prior)`,
-  );
+    await db
+      .update(productsTable)
+      .set({
+        screenshots: mergedScreenshots,
+        captureInsights: insights,
+        platforms,
+        techStack,
+        features,
+        ux,
+        metrics,
+        updatedAt: new Date(),
+      })
+      .where(eq(productsTable.slug, product.slug));
+    console.log(
+      `  synced ${mergedScreenshots.length} shots + insights → DB (features +${features.length - product.features.length}, patterns +${patterns.length - product.ux.patterns.length}; kept ${prior.length} prior)`,
+    );
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.log(
+      `  db: skipped (${message.slice(0, 120)}) — binaries already in Vercel Blob`,
+    );
+  } finally {
+    await client.end({ timeout: 1 }).catch(() => undefined);
+  }
 }
 
 async function notePage(
@@ -1405,7 +1764,86 @@ async function captureProduct(
     console.log(`  workspace: temp (remote → ${PRODUCT_SCREENSHOTS_BUCKET})`);
   }
 
-  const shots = playbookFor(product);
+  const sources = PRODUCT_VISUAL_SOURCES[product.slug];
+  let designSystems: DesignSystemCandidate[] = [];
+  try {
+    designSystems = await discoverDesignSystemSources({
+      slug: product.slug,
+      website: product.website,
+      designSystemLabel: product.ux?.designSystem,
+      sources,
+      limit: 6,
+    });
+  } catch {
+    designSystems = resolveDesignSystemCandidates({
+      slug: product.slug,
+      website: product.website,
+      designSystemLabel: product.ux?.designSystem,
+      sources,
+    }).filter((c) => c.via === "curated" || c.via === "registry");
+  }
+
+  if (designSystems.length) {
+    console.log(
+      `  design systems: ${designSystems
+        .map((c) => `${c.label} (${c.via})`)
+        .join(", ")}`,
+    );
+  }
+
+  // Broader Playwright web search — SLDS crawl, Brave/Bing, YouTube, seed expand.
+  // Especially important when help/org UIs return access-denied.
+  let webUi: WebUiCandidate[] = [];
+  const dsRoots = [
+    ...designSystems.map((c) => c.url),
+    ...(sources?.designSystem ?? []),
+  ].filter((url, i, arr) => arr.indexOf(url) === i);
+  const seedUrls = [
+    sources?.homepage,
+    ...(sources?.supporting ?? []).slice(0, 3),
+    ...(sources?.help ?? []).slice(0, 2),
+  ].filter(Boolean) as string[];
+
+  const shouldBroadSearch =
+    product.slug === "salesforce" ||
+    Boolean(product.ux?.designSystem) ||
+    dsRoots.length > 0;
+
+  if (shouldBroadSearch) {
+    process.stdout.write(`  web UI search… `);
+    try {
+      webUi = await discoverWebUiExamples(page, {
+        productName: product.name,
+        slug: product.slug,
+        designSystemLabel: product.ux?.designSystem,
+        designSystemRoots: dsRoots.slice(0, 3),
+        seedUrls,
+        limit: product.slug === "salesforce" ? 28 : 16,
+      });
+      const byVia = webUi.reduce<Record<string, number>>((acc, c) => {
+        acc[c.via] = (acc[c.via] ?? 0) + 1;
+        return acc;
+      }, {});
+      console.log(
+        `${webUi.length} candidates (${Object.entries(byVia)
+          .map(([k, v]) => `${k}:${v}`)
+          .join(", ")})`,
+      );
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      console.log(`miss (${message.slice(0, 80)})`);
+    }
+  }
+
+  // Merge discovered YouTube demos into curated sources for the fallback chain
+  const discoveredYt = youtubeUrlsFromCandidates(webUi);
+  if (discoveredYt.length && sources) {
+    const existing = new Set(sources.youtube ?? []);
+    for (const url of discoveredYt) existing.add(url);
+    sources.youtube = [...existing];
+  }
+
+  const shots = playbookFor(product, designSystems, webUi);
   const mode = SPECIFIC_PLAYBOOKS[product.slug] ? "specific" : "generic";
   console.log(`\n${product.slug} (${mode}, ${shots.length} steps)`);
 
@@ -1428,12 +1866,8 @@ async function captureProduct(
     process.stdout.write(`  ${shot.id}… `);
     try {
       const result = await shot.run(page, dir);
-      const files = Array.isArray(result)
-        ? result
-        : result
-          ? [result]
-          : [];
-      if (files.length === 0) {
+      const results = normalizeCaptureResults(result);
+      if (results.length === 0) {
         console.log("skipped");
         continue;
       }
@@ -1446,15 +1880,15 @@ async function captureProduct(
       const pageTitle = await page.title().catch(() => "");
       const sourceUrl = page.url();
 
-      for (const [index, file] of files.entries()) {
-        const fullPath = join(dir, file);
+      for (const [index, item] of results.entries()) {
+        const fullPath = join(dir, item.file);
         const hash = await dedupe.register(fullPath);
         if (!hash.unique) continue;
 
         captured.push({
-          file,
+          file: item.file,
           title:
-            files.length > 1 ? `${shot.title} (${index + 1})` : shot.title,
+            results.length > 1 ? `${shot.title} (${index + 1})` : shot.title,
           caption: shot.caption,
           kind: shot.kind,
           sourceUrl,
@@ -1469,8 +1903,9 @@ async function captureProduct(
           height: hash.height,
           phash: hash.phash,
           unique: true,
+          element: item.element,
         });
-        saved.push(file);
+        saved.push(item.file);
       }
 
       if (saved.length === 0) {
@@ -1478,8 +1913,13 @@ async function captureProduct(
         continue;
       }
 
+      const withElement = results.filter((r) => r.element).length;
       await notePage(page, bag);
-      console.log(saved.join(", "));
+      console.log(
+        withElement
+          ? `${saved.join(", ")} (+${withElement} element JSON)`
+          : saved.join(", "),
+      );
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
       if (message.startsWith("blocked:")) blockedNavigations += 1;
@@ -1501,6 +1941,7 @@ async function captureProduct(
         website: product.website,
         dir,
         existingCount: captured.length,
+        designSystemLabel: product.ux?.designSystem,
       });
       for (const shot of fallback) {
         const fullPath = join(dir, shot.file);
@@ -1639,36 +2080,36 @@ async function captureProduct(
     }
   }
 
-  if (!remote) {
-    const manifestPath = join(dir, "manifest.json");
-    writeFileSync(
-      manifestPath,
-      JSON.stringify(
-        {
-          slug: product.slug,
-          capturedAt: mergedInsights.capturedAt,
-          shots: mergedShots,
-          insights: mergedInsights,
-          fallback:
-            blockedNavigations > 0 ||
-            mergedShots.some((s) => s.file.startsWith("fallback-"))
-              ? { blockedNavigations }
-              : undefined,
-        },
-        null,
-        2,
-      ),
-    );
-    writeFileSync(
-      join(dir, "insights.json"),
-      JSON.stringify(mergedInsights, null, 2),
-    );
-  }
+  // Always write manifest/insights into the capture dir so remote Blob uploads
+  // include structured metadata (Postgres is optional).
+  const manifestPath = join(dir, "manifest.json");
+  writeFileSync(
+    manifestPath,
+    JSON.stringify(
+      {
+        slug: product.slug,
+        capturedAt: mergedInsights.capturedAt,
+        shots: mergedShots,
+        insights: mergedInsights,
+        fallback:
+          blockedNavigations > 0 ||
+          mergedShots.some((s) => s.file.startsWith("fallback-"))
+            ? { blockedNavigations }
+            : undefined,
+      },
+      null,
+      2,
+    ),
+  );
+  writeFileSync(
+    join(dir, "insights.json"),
+    JSON.stringify(mergedInsights, null, 2),
+  );
 
   if (remote) {
     if (!hasStorageUploadConfig()) {
       throw new Error(
-        "Remote capture requires SUPABASE_SERVICE_ROLE_KEY and NEXT_PUBLIC_SUPABASE_URL (or pass --local)",
+        "Remote capture requires BLOB_READ_WRITE_TOKEN (or pass --local)",
       );
     }
 
@@ -1677,10 +2118,10 @@ async function captureProduct(
       skipDb: true,
     });
     if (storage.skipped) {
-      throw new Error(`Storage upload failed: ${storage.reason ?? "unknown"}`);
+      throw new Error(`Blob upload failed: ${storage.reason ?? "unknown"}`);
     }
     console.log(
-      `  storage: uploaded ${storage.uploaded} → ${PRODUCT_SCREENSHOTS_BUCKET}/${product.slug}/`,
+      `  blob: uploaded ${storage.uploaded} → ${PRODUCT_SCREENSHOTS_BUCKET}/${product.slug}/`,
     );
 
     await syncDb(product, mergedShots, mergedInsights, true);
@@ -1694,19 +2135,19 @@ async function captureProduct(
           dir,
         });
         if (storage.skipped) {
-          console.log(`  storage: skipped (${storage.reason})`);
+          console.log(`  blob: skipped (${storage.reason})`);
         } else {
           console.log(
-            `  storage: uploaded ${storage.uploaded} → ${PRODUCT_SCREENSHOTS_BUCKET}/${product.slug}/ · rewrote ${storage.rewritten} DB src(s)`,
+            `  blob: uploaded ${storage.uploaded} → ${PRODUCT_SCREENSHOTS_BUCKET}/${product.slug}/ · rewrote ${storage.rewritten} DB src(s)`,
           );
         }
       } catch (error) {
         const message = error instanceof Error ? error.message : String(error);
-        console.log(`  storage: failed (${message.slice(0, 120)})`);
+        console.log(`  blob: failed (${message.slice(0, 120)})`);
       }
     } else if (!argFlag("skip-storage")) {
       console.log(
-        "  storage: skipped (set SUPABASE_SERVICE_ROLE_KEY to upload after capture)",
+        "  blob: skipped (set BLOB_READ_WRITE_TOKEN to upload after capture)",
       );
     }
   }
@@ -1720,13 +2161,19 @@ async function main() {
   const limit = Number(argValue("limit") ?? "0");
   const offset = Number(argValue("offset") ?? "0");
   const skipCaptured = argFlag("skip-captured");
+  const exclude = new Set(
+    (argValue("exclude") ?? "")
+      .split(",")
+      .map((s) => s.trim().toLowerCase())
+      .filter(Boolean),
+  );
 
   if (!slug && !runAll) {
     console.error(
       [
         "Usage:",
         "  npm run capture:ui -- --slug=<product>",
-        "  npm run capture:ui -- --all [--limit=N] [--offset=N] [--skip-captured]",
+        "  npm run capture:ui -- --all [--limit=N] [--offset=N] [--skip-captured] [--exclude=a,b]",
         "  npm run capture:ui -- --slug=notion --headed",
         "  npm run capture:ui -- --slug=notion --local",
       ].join("\n"),
@@ -1740,12 +2187,23 @@ async function main() {
     process.exit(1);
   }
 
+  if (exclude.size > 0) {
+    const before = targets.length;
+    targets = targets.filter((product) => !exclude.has(product.slug));
+    console.log(
+      `Excluding ${before - targets.length} product(s): ${[...exclude].join(", ")}`,
+    );
+  }
+
   if (skipCaptured) {
     const before = targets.length;
     const remoteSkip = useRemoteCapture();
     if (remoteSkip) {
-      const captured = await loadCapturedSlugsFromDb();
+      const captured = await loadCapturedSlugs();
       targets = targets.filter((product) => !captured.has(product.slug));
+      console.log(
+        `  skip-captured: ${captured.size} already in Blob/DB inventory`,
+      );
     } else {
       targets = targets.filter(
         (product) => !productHasLocalCapture(product.slug),
@@ -1769,7 +2227,7 @@ async function main() {
   const remote = useRemoteCapture();
   if (remote) {
     console.log(
-      "Remote capture: screenshots → Supabase Storage + Postgres (no public/products/ writes)",
+      "Remote capture: screenshots → Vercel Blob (private); Postgres sync optional",
     );
   }
 

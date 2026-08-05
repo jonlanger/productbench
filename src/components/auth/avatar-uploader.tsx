@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import { upload } from "@vercel/blob/client";
 import { Camera, LoaderCircle, Trash2 } from "lucide-react";
 
 import {
@@ -11,10 +12,11 @@ import {
 } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import {
-  AVATARS_BUCKET,
+  avatarMediaUrl,
   avatarObjectPath,
   getUserInitials,
 } from "@/lib/avatar";
+import { BLOB_ACCESS } from "@/lib/blob";
 import {
   createClient,
   hasSupabasePublicConfig,
@@ -45,7 +47,7 @@ export function AvatarUploader({
   if (!hasSupabasePublicConfig()) {
     return (
       <p className="text-sm text-muted-foreground">
-        Avatar upload requires Supabase configuration.
+        Avatar upload is unavailable while account auth is disabled.
       </p>
     );
   }
@@ -67,39 +69,28 @@ export function AvatarUploader({
     setPreviewUrl(localPreview);
 
     try {
+      const pathname = avatarObjectPath(userId, file.name);
+
+      await upload(pathname, file, {
+        access: BLOB_ACCESS,
+        handleUploadUrl: "/api/blob/upload",
+        contentType: file.type,
+      });
+
+      const mediaUrl = `${avatarMediaUrl(userId, file.name)}?v=${Date.now()}`;
+
       const supabase = createClient();
-      const path = avatarObjectPath(userId, file.name);
-
-      const { error: uploadError } = await supabase.storage
-        .from(AVATARS_BUCKET)
-        .upload(path, file, {
-          upsert: true,
-          cacheControl: "3600",
-          contentType: file.type,
-        });
-
-      if (uploadError) {
-        setMessage(uploadError.message);
-        setPreviewUrl(initialUrl);
-        return;
-      }
-
-      const {
-        data: { publicUrl },
-      } = supabase.storage.from(AVATARS_BUCKET).getPublicUrl(path);
-
-      const bustedUrl = `${publicUrl}?v=${Date.now()}`;
-
       const { error: updateError } = await supabase.auth.updateUser({
-        data: { avatar_url: bustedUrl },
+        data: { avatar_url: mediaUrl },
       });
 
       if (updateError) {
         setMessage(updateError.message);
+        setPreviewUrl(initialUrl);
         return;
       }
 
-      setPreviewUrl(bustedUrl);
+      setPreviewUrl(mediaUrl);
       setMessage("Profile photo updated.");
       router.refresh();
     } catch (error) {
@@ -120,12 +111,16 @@ export function AvatarUploader({
     setMessage(null);
 
     try {
-      const supabase = createClient();
-      const extensions = ["jpg", "png", "webp", "gif"];
-      await supabase.storage
-        .from(AVATARS_BUCKET)
-        .remove(extensions.map((ext) => `${userId}/avatar.${ext}`));
+      const extensions = ["jpg", "png", "webp", "gif"] as const;
+      await Promise.allSettled(
+        extensions.map((ext) =>
+          fetch(`/api/blob/avatars/${userId}/avatar.${ext}`, {
+            method: "DELETE",
+          }),
+        ),
+      );
 
+      const supabase = createClient();
       const { error } = await supabase.auth.updateUser({
         data: { avatar_url: null },
       });
@@ -203,10 +198,7 @@ export function AvatarUploader({
       />
 
       {message ? (
-        <p
-          className="text-sm text-muted-foreground"
-          role="status"
-        >
+        <p className="text-sm text-muted-foreground" role="status">
           {message}
         </p>
       ) : null}
