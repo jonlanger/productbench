@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Syne } from "next/font/google";
+import { ClerkProvider } from "@clerk/nextjs";
 
 import { AppShell } from "@/components/layout/app-shell";
 import { CatalogProvider } from "@/components/catalog/catalog-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { getVisibleCatalogProducts } from "@/data/queries";
 import { getViewer } from "@/lib/auth";
+import { isAuthEnabled } from "@/lib/auth-config";
 import { getUserAvatarUrl } from "@/lib/avatar";
 
 import "./globals.css";
@@ -46,24 +48,28 @@ export default async function RootLayout({
   const [{ user, actsAsAdmin, isMemberPreview }, products] =
     await Promise.all([getViewer(), getVisibleCatalogProducts()]);
 
+  const body = (
+    <TooltipProvider>
+      <CatalogProvider products={products}>
+        <AppShell
+          email={user?.email ?? null}
+          avatarUrl={getUserAvatarUrl(user)}
+          isAdmin={actsAsAdmin}
+          isMemberPreview={isMemberPreview}
+        >
+          {children}
+        </AppShell>
+      </CatalogProvider>
+    </TooltipProvider>
+  );
+
   return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${syne.variable} h-full antialiased`}
     >
       <body className="flex min-h-full min-w-0 flex-col overflow-x-hidden bg-[radial-gradient(ellipse_at_top,_oklch(0.97_0.01_240),_transparent_55%),linear-gradient(to_bottom,_var(--background),_oklch(0.985_0.005_240))]">
-        <TooltipProvider>
-          <CatalogProvider products={products}>
-            <AppShell
-              email={user?.email ?? null}
-              avatarUrl={getUserAvatarUrl(user)}
-              isAdmin={actsAsAdmin}
-              isMemberPreview={isMemberPreview}
-            >
-              {children}
-            </AppShell>
-          </CatalogProvider>
-        </TooltipProvider>
+        {isAuthEnabled() ? <ClerkProvider>{body}</ClerkProvider> : body}
       </body>
     </html>
   );

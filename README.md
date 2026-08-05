@@ -5,10 +5,9 @@ Research catalog of enterprise, consumer, and industrial software — UX pattern
 ## Stack
 
 - Next.js (App Router)
-- Postgres (via Drizzle ORM) — any host (Neon, Supabase, etc.)
+- Postgres (via Drizzle ORM) — any host (Neon, Railway, etc.)
+- Clerk (Vercel Marketplace) for account auth
 - Vercel Blob (private) for product screenshots, avatars, and submissions (local `public/products` is the capture workspace)
-
-Account auth is currently **disabled** in code (`isAuthEnabled()`). The catalog is browsable without signing in. Do not expect `/sign-in` to work until a new auth provider is wired up.
 
 Without `DATABASE_URL`, the app falls back to the TypeScript seed catalog in `src/data/`.
 
@@ -22,12 +21,32 @@ npm install
 
 ### 2. Postgres (optional)
 
-1. Provision a Postgres database (Neon, Supabase, Railway, etc.).
+1. Provision a Postgres database (Neon, Railway, etc.).
 2. Copy the connection string.
-   - App runtime: prefer a **pooled** URI when available (e.g. port `6543` on Supabase).
+   - App runtime: prefer a **pooled** URI when available.
    - Schema push: if `db:push` fails on the pooler, temporarily use the **direct** URI (port `5432`).
 
-### 3. Environment variables
+### 3. Clerk Auth (Vercel Marketplace)
+
+1. Install **Clerk** on the Vercel project (Hobby tier is fine): [Marketplace → Clerk](https://vercel.com/marketplace/clerk).
+2. Pull env into local:
+
+```bash
+vercel env pull .env.local
+```
+
+Required keys:
+
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_...
+CLERK_SECRET_KEY=sk_...
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+```
+
+In the Clerk dashboard, add your local and production URLs under allowed origins / redirect URLs (`http://localhost:3000`, your Vercel domain).
+
+### 4. Environment variables
 
 ```bash
 cp .env.example .env.local
@@ -37,17 +56,19 @@ Fill in:
 
 ```env
 DATABASE_URL=postgresql://...
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_...
+CLERK_SECRET_KEY=sk_...
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 BLOB_READ_WRITE_TOKEN=vercel_blob_rw_...
 ADMIN_EMAILS=you@example.com
 ```
 
-`ADMIN_EMAILS` is reserved for when auth is re-enabled (comma-separated allowlist for the full catalog, including `is_public = false`). With auth off, guests see the public set only.
+`ADMIN_EMAILS` is a comma-separated allowlist. Those accounts see the full catalog (including products with `is_public = false`). Guests and non-admin accounts only see the public set.
 
 `BLOB_READ_WRITE_TOKEN` comes from a **private** Vercel Blob store (capture uploads + avatar/submission client uploads). Never expose it as `NEXT_PUBLIC_*`.
 
-Optional legacy Supabase Auth keys (`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`) are unused while `isAuthEnabled()` returns false.
-
-### 4. Blob store + schema
+### 5. Blob store + schema
 
 ```bash
 # Private Blob store (CLI ≥ 50.20.0), then pull env:
@@ -61,7 +82,7 @@ npm run storage:setup-screenshots   # prints Blob setup reminders
 
 Avatars (`/account`) and screenshot submissions (`/admin/submissions`) use the same private Blob store, served through `/api/blob/...`.
 
-### 5. Run the app
+### 6. Run the app
 
 ```bash
 npm run dev

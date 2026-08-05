@@ -29,7 +29,7 @@ import {
   blobMediaUrl,
   submissionBlobPathname,
 } from "@/lib/blob";
-import { hasSupabasePublicConfig } from "@/lib/supabase/client";
+import { isAuthEnabled } from "@/lib/auth-config";
 
 const ACCEPT = "image/jpeg,image/png,image/webp,image/gif";
 const MAX_BYTES = 8 * 1024 * 1024;
@@ -80,7 +80,7 @@ export function AddDetailsForm({
   const [message, setMessage] = useState<string | null>(null);
   const [submitted, setSubmitted] = useState(false);
 
-  if (!hasSupabasePublicConfig()) {
+  if (!isAuthEnabled()) {
     return (
       <p className="rounded-2xl border border-border/80 bg-muted/30 px-6 py-8 text-sm text-muted-foreground">
         Uploads are unavailable while account auth is disabled.

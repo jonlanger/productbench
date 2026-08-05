@@ -1,12 +1,18 @@
 import { cache } from "react";
-import type { User } from "@supabase/supabase-js";
+import { currentUser } from "@clerk/nextjs/server";
 import { unstable_rethrow } from "next/navigation";
 
+import { isAuthEnabled } from "@/lib/auth-config";
 import { isMemberPreviewActive } from "@/lib/member-preview";
-import { createClient, isAuthEnabled } from "@/lib/supabase/server";
+
+export type AuthUser = {
+  id: string;
+  email: string | null;
+  imageUrl: string | null;
+};
 
 export type Viewer = {
-  user: User | null;
+  user: AuthUser | null;
   /** Signed-in email is on ADMIN_EMAILS */
   isAdmin: boolean;
   /** Admin is previewing the member experience */
@@ -30,18 +36,47 @@ export function isAdminEmail(email: string | null | undefined): boolean {
   return parseAdminEmails().has(email.trim().toLowerCase());
 }
 
+function primaryEmail(
+  clerkUser: NonNullable<Awaited<ReturnType<typeof currentUser>>>,
+): string | null {
+  const primary = clerkUser.emailAddresses.find(
+    (entry) => entry.id === clerkUser.primaryEmailAddressId,
+  );
+  return (
+    primary?.emailAddress ??
+    clerkUser.emailAddresses[0]?.emailAddress ??
+    null
+  );
+}
+
 export const getViewer = cache(async (): Promise<Viewer> => {
   if (!isAuthEnabled()) {
-    return { user: null, isAdmin: false, isMemberPreview: false, actsAsAdmin: false };
+    return {
+      user: null,
+      isAdmin: false,
+      isMemberPreview: false,
+      actsAsAdmin: false,
+    };
   }
 
   try {
-    const supabase = await createClient();
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
+    const clerkUser = await currentUser();
+    if (!clerkUser) {
+      return {
+        user: null,
+        isAdmin: false,
+        isMemberPreview: false,
+        actsAsAdmin: false,
+      };
+    }
 
-    const isAdmin = isAdminEmail(user?.email);
+    const email = primaryEmail(clerkUser);
+    const user: AuthUser = {
+      id: clerkUser.id,
+      email,
+      imageUrl: clerkUser.imageUrl || null,
+    };
+    const isAdmin = isAdminEmail(email);
     const isMemberPreview = isAdmin ? await isMemberPreviewActive() : false;
 
     return {
@@ -55,6 +90,11 @@ export const getViewer = cache(async (): Promise<Viewer> => {
     // so the route opts into dynamic rendering instead of baking a guest page.
     unstable_rethrow(error);
     console.error("[getViewer] failed to resolve auth session.", error);
-    return { user: null, isAdmin: false, isMemberPreview: false, actsAsAdmin: false };
+    return {
+      user: null,
+      isAdmin: false,
+      isMemberPreview: false,
+      actsAsAdmin: false,
+    };
   }
 });

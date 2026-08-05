@@ -1,28 +1,25 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { useClerk } from "@clerk/nextjs";
 import { useState } from "react";
 import { LoaderCircle } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import {
-  createClient,
-  hasSupabasePublicConfig,
-} from "@/lib/supabase/client";
+import { isAuthEnabled } from "@/lib/auth-config";
 
 export function SignOutButton() {
-  const router = useRouter();
-  const [pending, setPending] = useState(false);
+  if (!isAuthEnabled()) return null;
+  return <ClerkSignOutButton />;
+}
 
-  if (!hasSupabasePublicConfig()) return null;
+function ClerkSignOutButton() {
+  const { signOut } = useClerk();
+  const [pending, setPending] = useState(false);
 
   async function handleSignOut() {
     setPending(true);
     try {
-      const supabase = createClient();
-      await supabase.auth.signOut();
-      router.refresh();
-      router.push("/");
+      await signOut({ redirectUrl: "/" });
     } finally {
       setPending(false);
     }

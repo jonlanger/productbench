@@ -8,8 +8,8 @@ import {
   AvatarFallback,
   AvatarImage,
 } from "@/components/ui/avatar";
+import { isAuthEnabled } from "@/lib/auth-config";
 import { getUserInitials } from "@/lib/avatar";
-import { isAuthEnabled } from "@/lib/supabase/client";
 import { cn } from "@/lib/utils";
 
 type AuthMenuProps = {

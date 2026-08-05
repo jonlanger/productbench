@@ -8,7 +8,7 @@ import { Separator } from "@/components/ui/separator";
 import { getVisibleProductBySlug } from "@/data/queries";
 import { getViewer } from "@/lib/auth";
 import { hasDatabaseUrl } from "@/db";
-import { isAuthEnabled } from "@/lib/supabase/server";
+import { isAuthEnabled } from "@/lib/auth-config";
 
 type PageProps = {
   params: Promise<{ slug: string }>;

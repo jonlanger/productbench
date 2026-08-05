@@ -1,22 +1,40 @@
-import { type NextRequest, NextResponse } from "next/server";
+import {
+  clerkMiddleware,
+  createRouteMatcher,
+} from "@clerk/nextjs/server";
+import {
+  type NextFetchEvent,
+  type NextRequest,
+  NextResponse,
+} from "next/server";
 
-/**
- * Pass-through only. Do not call Supabase Auth here — the project host no longer
- * resolves, and `auth.getUser()` hangs Edge Middleware until
- * MIDDLEWARE_INVOCATION_TIMEOUT (504).
- *
- * Session checks stay in `getViewer()` / route handlers. Reintroduce a refresh
- * step only after Auth is on a reachable provider (e.g. Clerk).
- */
-export function middleware(request: NextRequest) {
-  return NextResponse.next({ request });
+const isProtectedRoute = createRouteMatcher([
+  "/account(.*)",
+  "/admin(.*)",
+  "/products/(.*)/add-details(.*)",
+]);
+
+const clerkHandler = clerkMiddleware(async (auth, request) => {
+  if (isProtectedRoute(request)) {
+    await auth.protect();
+  }
+});
+
+export default function middleware(
+  request: NextRequest,
+  event: NextFetchEvent,
+) {
+  if (!process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY) {
+    return NextResponse.next({ request });
+  }
+  return clerkHandler(request, event);
 }
 
 export const config = {
   matcher: [
-    /*
-     * Match all request paths except static assets and images.
-     */
-    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
+    // Skip Next.js internals and static files
+    "/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)",
+    // Always run for API routes
+    "/(api|trpc)(.*)",
   ],
 };

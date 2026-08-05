@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { getPendingSubmissions } from "@/data/submissions";
 import { getViewer } from "@/lib/auth";
-import { isAuthEnabled } from "@/lib/supabase/server";
+import { isAuthEnabled } from "@/lib/auth-config";
 
 export const metadata: Metadata = {
   title: "Review submissions",

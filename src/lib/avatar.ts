@@ -1,14 +1,14 @@
-import type { User } from "@supabase/supabase-js";
-
 import { avatarBlobPathname, blobMediaUrl } from "./blob";
+import type { AuthUser } from "./auth";
 
 /** @deprecated Prefer avatarBlobPathname — storage is Vercel Blob. */
 export const AVATARS_BUCKET = "avatars";
 
-export function getUserAvatarUrl(user: User | null | undefined): string | null {
-  if (!user) return null;
-  const url = user.user_metadata?.avatar_url;
-  return typeof url === "string" && url.length > 0 ? url : null;
+export function getUserAvatarUrl(
+  user: AuthUser | null | undefined,
+): string | null {
+  if (!user?.imageUrl) return null;
+  return user.imageUrl;
 }
 
 export function getUserInitials(email: string | null | undefined): string {

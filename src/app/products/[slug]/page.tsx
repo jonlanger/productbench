@@ -4,8 +4,8 @@ import { notFound } from "next/navigation";
 import { ProductDetails } from "@/components/product/product-details";
 import { getVisibleProductBySlug } from "@/data/queries";
 import { getViewer } from "@/lib/auth";
+import { isAuthEnabled } from "@/lib/auth-config";
 import { GUEST_PREVIEW_COUNT } from "@/lib/gallery";
-import { isAuthEnabled } from "@/lib/supabase/server";
 
 type ProductPageProps = {
   params: Promise<{ slug: string }>;

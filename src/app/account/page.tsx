@@ -12,7 +12,7 @@ import { getCatalogStats } from "@/data/queries";
 import { countSubmissionsByStatus } from "@/data/submissions";
 import { getUserAvatarUrl } from "@/lib/avatar";
 import { getViewer } from "@/lib/auth";
-import { isAuthEnabled } from "@/lib/supabase/server";
+import { isAuthEnabled } from "@/lib/auth-config";
 
 export const metadata: Metadata = {
   title: "Account",

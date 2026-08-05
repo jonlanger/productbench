@@ -1,5 +1,7 @@
 import { createBrowserClient } from "@supabase/ssr";
 
+import { isAuthEnabled as clerkAuthEnabled } from "@/lib/auth-config";
+
 function getSupabaseEnv() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key =
@@ -15,17 +17,18 @@ function getSupabaseEnv() {
   return { url, key };
 }
 
+/** @deprecated Supabase Auth is unused — product auth is Clerk. */
 export function createClient() {
   const { url, key } = getSupabaseEnv();
   return createBrowserClient(url, key);
 }
 
-/** Account sign-in is intentionally off (no auth provider configured). */
+/** @deprecated Prefer `@/lib/auth-config`. */
 export function isAuthEnabled() {
-  return false;
+  return clerkAuthEnabled();
 }
 
-/** @deprecated Prefer `isAuthEnabled`. Always false while Auth stays disabled. */
+/** @deprecated Prefer `isAuthEnabled`. */
 export function hasSupabasePublicConfig() {
-  return isAuthEnabled();
+  return clerkAuthEnabled();
 }

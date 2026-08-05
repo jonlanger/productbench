@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { upload } from "@vercel/blob/client";
+import { useUser } from "@clerk/nextjs";
 import { Camera, LoaderCircle, Trash2 } from "lucide-react";
 
 import {
@@ -11,16 +11,8 @@ import {
   AvatarImage,
 } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
-import {
-  avatarMediaUrl,
-  avatarObjectPath,
-  getUserInitials,
-} from "@/lib/avatar";
-import { BLOB_ACCESS } from "@/lib/blob";
-import {
-  createClient,
-  hasSupabasePublicConfig,
-} from "@/lib/supabase/client";
+import { getUserInitials } from "@/lib/avatar";
+import { isAuthEnabled } from "@/lib/auth-config";
 
 const MAX_BYTES = 2 * 1024 * 1024;
 const ACCEPT = "image/jpeg,image/png,image/webp,image/gif";
@@ -32,11 +24,11 @@ type AvatarUploaderProps = {
 };
 
 export function AvatarUploader({
-  userId,
   email,
   avatarUrl: initialUrl,
 }: AvatarUploaderProps) {
   const router = useRouter();
+  const { user, isLoaded } = useUser();
   const inputRef = useRef<HTMLInputElement>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(initialUrl);
   const [pending, setPending] = useState(false);
@@ -44,7 +36,7 @@ export function AvatarUploader({
 
   const initials = getUserInitials(email);
 
-  if (!hasSupabasePublicConfig()) {
+  if (!isAuthEnabled()) {
     return (
       <p className="text-sm text-muted-foreground">
         Avatar upload is unavailable while account auth is disabled.
@@ -53,6 +45,10 @@ export function AvatarUploader({
   }
 
   async function uploadFile(file: File) {
+    if (!user) {
+      setMessage("Sign in again to update your photo.");
+      return;
+    }
     if (!ACCEPT.split(",").includes(file.type)) {
       setMessage("Use a JPG, PNG, WebP, or GIF image.");
       return;
@@ -69,28 +65,8 @@ export function AvatarUploader({
     setPreviewUrl(localPreview);
 
     try {
-      const pathname = avatarObjectPath(userId, file.name);
-
-      await upload(pathname, file, {
-        access: BLOB_ACCESS,
-        handleUploadUrl: "/api/blob/upload",
-        contentType: file.type,
-      });
-
-      const mediaUrl = `${avatarMediaUrl(userId, file.name)}?v=${Date.now()}`;
-
-      const supabase = createClient();
-      const { error: updateError } = await supabase.auth.updateUser({
-        data: { avatar_url: mediaUrl },
-      });
-
-      if (updateError) {
-        setMessage(updateError.message);
-        setPreviewUrl(initialUrl);
-        return;
-      }
-
-      setPreviewUrl(mediaUrl);
+      await user.setProfileImage({ file });
+      setPreviewUrl(user.imageUrl);
       setMessage("Profile photo updated.");
       router.refresh();
     } catch (error) {
@@ -105,31 +81,13 @@ export function AvatarUploader({
   }
 
   async function removeAvatar() {
-    if (!previewUrl && !initialUrl) return;
+    if (!user || (!previewUrl && !initialUrl)) return;
 
     setPending(true);
     setMessage(null);
 
     try {
-      const extensions = ["jpg", "png", "webp", "gif"] as const;
-      await Promise.allSettled(
-        extensions.map((ext) =>
-          fetch(`/api/blob/avatars/${userId}/avatar.${ext}`, {
-            method: "DELETE",
-          }),
-        ),
-      );
-
-      const supabase = createClient();
-      const { error } = await supabase.auth.updateUser({
-        data: { avatar_url: null },
-      });
-
-      if (error) {
-        setMessage(error.message);
-        return;
-      }
-
+      await user.setProfileImage({ file: null });
       setPreviewUrl(null);
       setMessage("Profile photo removed.");
       router.refresh();
@@ -157,7 +115,7 @@ export function AvatarUploader({
             <Button
               type="button"
               variant="outline"
-              disabled={pending}
+              disabled={pending || !isLoaded}
               onClick={() => inputRef.current?.click()}
             >
               {pending ? (
@@ -171,7 +129,7 @@ export function AvatarUploader({
               <Button
                 type="button"
                 variant="ghost"
-                disabled={pending}
+                disabled={pending || !isLoaded}
                 onClick={removeAvatar}
               >
                 <Trash2 className="size-4" />

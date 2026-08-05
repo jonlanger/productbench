@@ -3,8 +3,8 @@ import { NextResponse } from "next/server";
 import { getVisibleProductBySlug } from "@/data/queries";
 import type { ProductScreenshotKind } from "@/data/types";
 import { getViewer } from "@/lib/auth";
+import { isAuthEnabled } from "@/lib/auth-config";
 import { GUEST_PREVIEW_COUNT } from "@/lib/gallery";
-import { isAuthEnabled } from "@/lib/supabase/server";
 
 const DEFAULT_LIMIT = 20;
 const MAX_LIMIT = 60;

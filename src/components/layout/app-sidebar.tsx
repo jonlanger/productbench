@@ -29,8 +29,8 @@ import {
   SidebarMenuItem,
   SidebarRail,
 } from "@/components/ui/sidebar";
+import { isAuthEnabled } from "@/lib/auth-config";
 import { getUserInitials } from "@/lib/avatar";
-import { isAuthEnabled } from "@/lib/supabase/client";
 
 const NAV_ITEMS: Array<{
   href: string;
